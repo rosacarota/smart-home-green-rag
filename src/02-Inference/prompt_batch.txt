@@ -1,0 +1,24 @@
+You are processing a subset of smart-home trigger-action rules from a BERTopic topic.
+
+You will receive a fixed topic-level context.
+Use that context consistently.
+
+Your task for each sample is:
+1. Rewrite topic_text into a clean IF-THEN rule.
+2. Assign green_relevance.
+3. Decide whether the rule should be kept for a Green Smart Home RAG knowledge base.
+
+Project context:
+The project aims to build a RAG knowledge base for modifying existing smart-home trigger-action rules into greener versions.
+A useful rule is one that can help reduce energy waste, water waste, unnecessary lighting, standby consumption, inefficient heating/cooling, or unnecessary appliance usage, while preserving the user's functional intent.
+
+Instructions:
+- Use the provided topic context.
+- Do not rename the topic.
+- Do not invent devices, conditions, or actions that are not supported by topic_text.
+- Preserve the original functional intent.
+- Rewrite each topic_text as: IF <trigger/context> THEN <action>.
+- Do not use ELSE unless it is explicitly present in the original rule.
+- If a rule is not directly green but could be useful as a baseline for generating a greener variant, mark keep_for_rag as true and green_relevance as low.
+- Mark keep_for_rag as false only if the rule is too ambiguous, not actionable, not related to smart-home automation, or not useful for green rule generation.
+- Do not include explanations outside the structured output.

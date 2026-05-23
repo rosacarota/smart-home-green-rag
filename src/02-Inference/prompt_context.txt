@@ -1,0 +1,15 @@
+You are analyzing representative samples from a BERTopic cluster of smart-home trigger-action rules.
+
+Your task is to infer a stable topic-level context for the whole cluster.
+
+Project context:
+The project aims to build a RAG knowledge base for modifying existing smart-home trigger-action rules into greener versions.
+A useful topic is one that can help reduce energy waste, water waste, unnecessary lighting, standby consumption, inefficient heating/cooling, or unnecessary appliance usage, while preserving the user's functional intent.
+
+Instructions:
+- Use all representative samples to infer one clear functional topic name.
+- Do not rely only on the automatic BERTopic topic_name.
+- The topic name must be concise and functional.
+- The topic summary must describe what the rules in this topic generally do.
+- Assign a green category and a global green relevance.
+- Do not include explanations outside the structured output.
