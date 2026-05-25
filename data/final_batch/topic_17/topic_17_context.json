@@ -1,0 +1,7 @@
+{
+  "topic_id": 17,
+  "llm_topic_name": "appliance_scheduling",
+  "topic_summary": "This topic contains rules for scheduling the on/off states of various appliances and devices, primarily focusing on energy management through timed control of smart plugs and switches.",
+  "green_category": "appliance_scheduling",
+  "global_green_relevance": "high"
+}

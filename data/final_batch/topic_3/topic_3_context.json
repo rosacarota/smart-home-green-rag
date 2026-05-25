@@ -1,0 +1,7 @@
+{
+  "topic_id": 3,
+  "llm_topic_name": "environmental_alert_lighting",
+  "topic_summary": "This topic contains rules that trigger lighting changes based on environmental conditions such as carbon dioxide levels, pollution, and weather changes. The rules aim to alert users to environmental issues through visual signals from smart lights.",
+  "green_category": "environmental_alerts",
+  "global_green_relevance": "medium"
+}

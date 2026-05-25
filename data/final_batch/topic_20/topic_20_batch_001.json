@@ -1,0 +1,407 @@
+{
+  "topic_context": {
+    "topic_id": 20,
+    "llm_topic_name": "location_based_device_control",
+    "topic_summary": "This topic contains rules that automate the control of smart devices based on the user's location, primarily focusing on turning devices on or off when entering or leaving specific areas.",
+    "green_category": "energy_automation",
+    "global_green_relevance": "high"
+  },
+  "rows": [
+    {
+      "sample_id": "T020_S0001",
+      "if_then_rule": "IF You exit an area from Location THEN Turn off using WeMo Smart Plug.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T020_S0002",
+      "if_then_rule": "IF You exit an area from Location THEN Turn off using WeMo Smart Plug.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T020_S0003",
+      "if_then_rule": "IF You exit an area from Location THEN Turn off using WeMo Smart Plug.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T020_S0004",
+      "if_then_rule": "IF You exit an area from Location THEN Turn off using WeMo Smart Plug.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T020_S0005",
+      "if_then_rule": "IF You exit an area from Location THEN Turn off using WeMo Smart Plug.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T020_S0006",
+      "if_then_rule": "IF You exit an area from Location THEN Turn on using WeMo Smart Plug.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T020_S0007",
+      "if_then_rule": "IF Somebody leaves home from Sen.se Mother THEN Turn off using WeMo Insight Switch.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T020_S0008",
+      "if_then_rule": "IF Enter a SIGNUL beacon zone from SIGNUL Beacon THEN Switch on using SmartThings.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T020_S0009",
+      "if_then_rule": "IF You exit an area from Location THEN Press MicroBot using MicroBot Push for Prota.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T020_S0010",
+      "if_then_rule": "IF You exit an area from Location THEN Power off device using Energenie Mi|Home.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T020_S0011",
+      "if_then_rule": "IF You exit an area from Location THEN Turn off using WeMo Insight Switch.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T020_S0012",
+      "if_then_rule": "IF You exit an area from Location THEN Turn off using WeMo Insight Switch.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T020_S0013",
+      "if_then_rule": "IF You enter an area from Location THEN Turn on using WeMo Insight Switch.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T020_S0014",
+      "if_then_rule": "IF You enter an area from Location THEN Turn on using WeMo Smart Plug.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T020_S0015",
+      "if_then_rule": "IF You exit an area from Location THEN Turn on using WeMo Insight Switch.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T020_S0016",
+      "if_then_rule": "IF You enter an area from Location THEN Turn on using WeMo Smart Plug.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T020_S0017",
+      "if_then_rule": "IF You exit an area from Location THEN Turn off using WeMo Insight Switch.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T020_S0018",
+      "if_then_rule": "IF You exit an area from Location THEN Turn off using WeMo Insight Switch.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T020_S0019",
+      "if_then_rule": "IF You enter an area from Location THEN Turn on using WeMo Insight Switch.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T020_S0020",
+      "if_then_rule": "IF You enter an area from Location THEN Turn on using WeMo Insight Switch.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T020_S0021",
+      "if_then_rule": "IF You enter an area from Location THEN Turn on using WeMo Insight Switch.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T020_S0022",
+      "if_then_rule": "IF You enter an area from Location THEN Turn on using WeMo Insight Switch.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T020_S0023",
+      "if_then_rule": "IF You enter an area from Location THEN Turn on using WeMo Light Switch.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T020_S0024",
+      "if_then_rule": "IF You exit an area from Location THEN Turn on using WeMo Smart Plug.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T020_S0025",
+      "if_then_rule": "IF You exit an area from Location THEN Turn on using WeMo Smart Plug.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T020_S0026",
+      "if_then_rule": "IF You enter an area from Location THEN Turn on using WeMo Smart Plug.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T020_S0027",
+      "if_then_rule": "IF Exit a SIGNUL beacon zone from SIGNUL Beacon THEN Turn off using WeMo Light Switch.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T020_S0028",
+      "if_then_rule": "IF You exit an area from Location THEN Turn off using WeMo Smart Plug.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T020_S0029",
+      "if_then_rule": "IF You enter an area from Location THEN Turn on using WeMo Light Switch.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T020_S0030",
+      "if_then_rule": "IF You enter an area from Location THEN Turn on using WeMo Light Switch.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T020_S0031",
+      "if_then_rule": "IF You enter an area from Location THEN Turn on using WeMo Light Switch.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T020_S0032",
+      "if_then_rule": "IF You exit an area from Location THEN Turn off using WeMo Smart Plug.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T020_S0033",
+      "if_then_rule": "IF You enter an area from Location THEN Turn on using WeMo Light Switch.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T020_S0034",
+      "if_then_rule": "IF You enter an area from Location THEN Turn on using WeMo Light Switch.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T020_S0035",
+      "if_then_rule": "IF You enter an area from Location THEN Turn on using WeMo Light Switch.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T020_S0036",
+      "if_then_rule": "IF You exit an area from Location THEN Turn off using WeMo Light Switch.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T020_S0037",
+      "if_then_rule": "IF The security panel has been disarmed from HomeControl Flex THEN Turn on using WeMo Smart Plug.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T020_S0038",
+      "if_then_rule": "IF You exit an area from Location THEN Turn off using WeMo Insight Switch.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T020_S0039",
+      "if_then_rule": "IF You exit an area from Location THEN Turn off using WeMo Smart Plug.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T020_S0040",
+      "if_then_rule": "IF You exit an area from Location THEN Turn off using WeMo Smart Plug.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T020_S0041",
+      "if_then_rule": "IF You exit an area from Location THEN Turn off using WeMo Smart Plug.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T020_S0042",
+      "if_then_rule": "IF You exit an area from Location THEN Turn off using WeMo Smart Plug.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T020_S0043",
+      "if_then_rule": "IF You exit an area from Location THEN Turn off using WeMo Insight Switch.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T020_S0044",
+      "if_then_rule": "IF You exit an area from Location THEN Turn off using WeMo Smart Plug.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T020_S0045",
+      "if_then_rule": "IF Tag is moved from Wireless Tag THEN Toggle on/off using WeMo Smart Plug.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T020_S0046",
+      "if_then_rule": "IF You exit an area from Location THEN Turn off using WeMo Lighting.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T020_S0047",
+      "if_then_rule": "IF You exit an area from Location THEN Turn off using WeMo Light Switch.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T020_S0048",
+      "if_then_rule": "IF New trip completed from Automatic Classic THEN Turn on then off using WeMo Light Switch.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T020_S0049",
+      "if_then_rule": "IF You exit an area from Location THEN Turn off using WeMo Light Switch.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T020_S0050",
+      "if_then_rule": "IF You exit an area from Location THEN Turn off using WeMo Light Switch.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T020_S0051",
+      "if_then_rule": "IF Exit a SIGNUL beacon zone from SIGNUL Beacon THEN Turn off using WeMo Light Switch.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T020_S0052",
+      "if_then_rule": "IF You exit an area from Location THEN Turn off using WeMo Insight Switch.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T020_S0053",
+      "if_then_rule": "IF You exit an area from Location THEN Turn off using WeMo Insight Switch.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T020_S0054",
+      "if_then_rule": "IF You enter an area from Location THEN Turn on using WeMo Insight Switch.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T020_S0055",
+      "if_then_rule": "IF You exit an area from Location THEN Press MicroBot using MicroBot Push for Prota.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T020_S0056",
+      "if_then_rule": "IF Tag is moved from Wireless Tag THEN Toggle on/off using WeMo Smart Plug.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T020_S0057",
+      "if_then_rule": "IF You exit an area from Location THEN Turn off using WeMo Insight Switch.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T020_S0058",
+      "if_then_rule": "IF You exit an area from Location THEN Turn off using WeMo Light Switch.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T020_S0059",
+      "if_then_rule": "IF Door or window is opened from Wireless Tag THEN Turn on then off using WeMo Light Switch.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T020_S0060",
+      "if_then_rule": "IF You exit an area from Location THEN Turn off using WeMo Smart Plug.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T020_S0061",
+      "if_then_rule": "IF You exit an area from Location THEN Turn off using WeMo Smart Plug.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T020_S0062",
+      "if_then_rule": "IF You enter an area from Location THEN Turn on using WeMo Smart Plug.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T020_S0063",
+      "if_then_rule": "IF You enter an area from Location THEN Turn on using WeMo Smart Plug.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T020_S0064",
+      "if_then_rule": "IF You enter or exit an area from Location THEN Toggle on/off using WeMo Smart Plug.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T020_S0065",
+      "if_then_rule": "IF You exit an area from Location THEN Turn off using WeMo Light Switch.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T020_S0066",
+      "if_then_rule": "IF Door panel opened from Scout Alarm THEN Turn on light or switch using Wireless Tag.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    }
+  ]
+}

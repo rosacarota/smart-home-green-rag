@@ -1,0 +1,7 @@
+{
+  "topic_id": 2,
+  "llm_topic_name": "sunrise_sunset_light_control",
+  "topic_summary": "This topic contains rules that automate the control of lights based on sunrise and sunset times, ensuring lights are turned on or off at appropriate times to enhance energy efficiency and convenience.",
+  "green_category": "lighting_control",
+  "global_green_relevance": "high"
+}

@@ -1,0 +1,7 @@
+{
+  "topic_id": 37,
+  "llm_topic_name": "smart_light_control",
+  "topic_summary": "This topic contains rules for controlling smart lighting systems, primarily using Flic buttons to toggle, preheat, or set moods with various smart lights like Philips Hue and LIFX.",
+  "green_category": "lighting_control",
+  "global_green_relevance": "medium"
+}

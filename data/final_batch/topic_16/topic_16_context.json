@@ -1,0 +1,7 @@
+{
+  "topic_id": 16,
+  "llm_topic_name": "occupancy_based_control",
+  "topic_summary": "This topic contains rules that automate smart-home devices based on the occupancy status detected by the Nest Thermostat, optimizing energy use by turning lights on or off and adjusting other devices accordingly.",
+  "green_category": "occupancy_based_control",
+  "global_green_relevance": "high"
+}

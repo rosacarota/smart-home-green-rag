@@ -1,0 +1,7 @@
+{
+  "topic_id": 33,
+  "llm_topic_name": "weather_based_thermostat_control",
+  "topic_summary": "This topic contains rules that utilize weather data to adjust thermostat settings and display temperature information on smart devices, aiming to optimize heating and cooling based on current and forecasted conditions.",
+  "green_category": "hvac_optimization",
+  "global_green_relevance": "high"
+}

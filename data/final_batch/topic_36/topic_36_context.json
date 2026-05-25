@@ -1,0 +1,7 @@
+{
+  "topic_id": 36,
+  "llm_topic_name": "motion_based_lighting_control",
+  "topic_summary": "This topic contains rules that automate lighting based on motion detection, primarily using Philips Hue and other smart lighting systems to enhance security and convenience at entry points.",
+  "green_category": "occupancy_based_control",
+  "global_green_relevance": "medium"
+}

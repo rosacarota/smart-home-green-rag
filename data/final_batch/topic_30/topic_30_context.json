@@ -1,0 +1,7 @@
+{
+  "topic_id": 30,
+  "llm_topic_name": "automated_lighting_control",
+  "topic_summary": "This topic contains rules for automatically turning off or on Philips Hue lights based on specific times, events, or conditions, promoting energy efficiency by ensuring lights are not left on unnecessarily.",
+  "green_category": "lighting_efficiency",
+  "global_green_relevance": "high"
+}

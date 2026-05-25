@@ -1,0 +1,7 @@
+{
+  "topic_id": 23,
+  "llm_topic_name": "alexa_light_control",
+  "topic_summary": "This topic contains rules that utilize Amazon Alexa to control lighting and other devices, primarily focusing on turning lights on or off through voice commands.",
+  "green_category": "lighting_control",
+  "global_green_relevance": "medium"
+}

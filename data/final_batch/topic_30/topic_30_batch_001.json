@@ -1,0 +1,275 @@
+{
+  "topic_context": {
+    "topic_id": 30,
+    "llm_topic_name": "automated_lighting_control",
+    "topic_summary": "This topic contains rules for automatically turning off or on Philips Hue lights based on specific times, events, or conditions, promoting energy efficiency by ensuring lights are not left on unnecessarily.",
+    "green_category": "lighting_efficiency",
+    "global_green_relevance": "high"
+  },
+  "rows": [
+    {
+      "sample_id": "T030_S0001",
+      "if_then_rule": "IF every day of the week at a configured threshold THEN turn off light using LightwaveRF Lighting.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T030_S0002",
+      "if_then_rule": "IF every day at a configured threshold THEN turn off all Hue lights using Philips Hue.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T030_S0003",
+      "if_then_rule": "IF the last member of the family leaves the house THEN turn off the lights using Philips Hue.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T030_S0004",
+      "if_then_rule": "IF a shortcut is run from Futurehome THEN turn off your Hue lights using Philips Hue.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T030_S0005",
+      "if_then_rule": "IF every year on a configured threshold THEN turn on lights using Philips Hue.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T030_S0006",
+      "if_then_rule": "IF every day at a configured threshold THEN turn off all lights using Philips Hue.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T030_S0007",
+      "if_then_rule": "IF every day at a configured threshold THEN turn off all Hue lights using Philips Hue.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T030_S0008",
+      "if_then_rule": "IF every morning after I leave for work THEN turn off Hue lights using Philips Hue.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T030_S0009",
+      "if_then_rule": "IF I leave for work THEN turn off lights using Philips Hue.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T030_S0010",
+      "if_then_rule": "IF I have left for work on Mon-Fri THEN turn off my lights using Philips Hue.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T030_S0011",
+      "if_then_rule": "IF every morning after I leave for work THEN turn off Hue lights using Philips Hue.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T030_S0012",
+      "if_then_rule": "IF I have left for work on Mon-Fri THEN turn off my lights using Philips Hue.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T030_S0013",
+      "if_then_rule": "IF every hour at a configured threshold THEN turn off lights using Philips Hue.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T030_S0014",
+      "if_then_rule": "IF every hour at a configured threshold THEN turn off lights using Philips Hue.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T030_S0015",
+      "if_then_rule": "IF every year on a configured threshold THEN turn off lights using Philips Hue.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T030_S0016",
+      "if_then_rule": "IF every year on a configured threshold THEN turn off the lights for Earth Hour using Philips Hue.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T030_S0017",
+      "if_then_rule": "IF every year on a configured threshold THEN turn off all your Hue Lights at 8:30pm for Earth Hour.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T030_S0018",
+      "if_then_rule": "IF every day at midnight THEN turn off all Hue connected lights using Philips Hue.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T030_S0019",
+      "if_then_rule": "IF every day at a configured threshold THEN turn off all Hue lights using Philips Hue.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T030_S0020",
+      "if_then_rule": "IF every day at 10pm THEN turn off lights using Philips Hue.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T030_S0021",
+      "if_then_rule": "IF every day at midnight THEN turn off the front door light using Philips Hue.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T030_S0022",
+      "if_then_rule": "IF every day at a configured threshold THEN turn off your Hue lights using Philips Hue.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T030_S0023",
+      "if_then_rule": "IF every day at 11pm THEN turn off all lights using Philips Hue.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T030_S0024",
+      "if_then_rule": "IF every day at a configured threshold THEN turn off lights using Philips Hue.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T030_S0025",
+      "if_then_rule": "IF every day at 11:15 THEN turn off lights using Philips Hue.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T030_S0026",
+      "if_then_rule": "IF every day at 9:00 AM THEN turn off all lights using Philips Hue.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T030_S0027",
+      "if_then_rule": "IF it's time to shut your eyes THEN shut off Hue lights using Philips Hue.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T030_S0028",
+      "if_then_rule": "IF every day at midnight THEN turn off all lights using Philips Hue.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T030_S0029",
+      "if_then_rule": "IF a configured threshold THEN turn off lights using Philips Hue.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T030_S0030",
+      "if_then_rule": "IF it's time to get your day rolling THEN turn off lights using Philips Hue.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T030_S0031",
+      "if_then_rule": "IF every day of the week at a configured threshold THEN turn off lights using Philips Hue.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T030_S0032",
+      "if_then_rule": "IF I leave for work on every day of the week THEN turn off lights using Philips Hue.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T030_S0033",
+      "if_then_rule": "IF every day at a configured threshold THEN turn off lights using Philips Hue.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T030_S0034",
+      "if_then_rule": "IF every day at a configured threshold THEN turn off downstairs light using Philips Hue.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T030_S0035",
+      "if_then_rule": "IF hugOne detects all family members are asleep THEN turn off your Hue lights using Philips Hue.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T030_S0036",
+      "if_then_rule": "IF every day at 9:00 AM THEN turn off lights using Philips Hue.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T030_S0037",
+      "if_then_rule": "IF every day at 10:15pm THEN turn off all lights using Philips Hue.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T030_S0038",
+      "if_then_rule": "IF I forget THEN turn off all lights using Philips Hue.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T030_S0039",
+      "if_then_rule": "IF every day at 9:00 AM THEN turn off all lights using Philips Hue.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T030_S0040",
+      "if_then_rule": "IF every day at a configured threshold THEN turn off lights using Philips Hue.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T030_S0041",
+      "if_then_rule": "IF every day at a configured threshold THEN turn off all lights to get some deep sleep using Philips Hue.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T030_S0042",
+      "if_then_rule": "IF every day at a configured threshold THEN turn off lights using Philips Hue.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T030_S0043",
+      "if_then_rule": "IF every day at 11:45 PM THEN turn off all lights using Philips Hue.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T030_S0044",
+      "if_then_rule": "IF every day at a configured threshold THEN turn off Christmas lights using Wink: Pivot Power Genius.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    }
+  ]
+}

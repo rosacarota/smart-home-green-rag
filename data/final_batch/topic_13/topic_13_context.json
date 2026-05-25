@@ -1,0 +1,7 @@
+{
+  "topic_id": 13,
+  "llm_topic_name": "temperature_control",
+  "topic_summary": "This topic contains rules that automate temperature adjustments based on current weather conditions, optimizing heating and cooling to enhance energy efficiency and comfort in the home.",
+  "green_category": "hvac_optimization",
+  "global_green_relevance": "high"
+}

@@ -1,0 +1,911 @@
+{
+  "topic_context": {
+    "topic_id": 2,
+    "llm_topic_name": "sunrise_sunset_light_control",
+    "topic_summary": "This topic contains rules that automate the control of lights based on sunrise and sunset times, ensuring lights are turned on or off at appropriate times to enhance energy efficiency and convenience.",
+    "green_category": "lighting_control",
+    "global_green_relevance": "high"
+  },
+  "rows": [
+    {
+      "sample_id": "T002_S0001",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunset from Weather Underground THEN turn off the pool filter-chlorinator using WeMo Smart Plug.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T002_S0002",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunrise from Weather Underground THEN turn off WeMo Switch.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T002_S0003",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunrise from Weather Underground THEN turn off light using WeMo Smart Plug.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T002_S0004",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunset from Weather Underground THEN turn on lights using WIFIPLUG.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T002_S0005",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunrise from Weather Underground THEN turn off lights using WIFIPLUG.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T002_S0006",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunset from Weather Underground THEN turn on porch light using WeMo Lighting.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T002_S0007",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunset from Weather Underground THEN turn on specific WeMo light.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T002_S0008",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunrise from Weather Underground THEN turn off WeMo lighting group.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T002_S0009",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF every day at a configured threshold THEN turn off Energenie device.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T002_S0010",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF wind speed rises above a configured threshold from Netatmo Weather Station THEN close a relay using LightwaveRF Power.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T002_S0011",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunset from Weather Underground THEN close a LightwaveRF Relay.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T002_S0012",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunset from Weather Underground THEN dim lights using Philips Hue.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T002_S0013",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunset from Weather Underground THEN change all Philips Hue lights to red.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T002_S0014",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunset from Weather Underground THEN change light color to orange.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T002_S0015",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunset from Weather Underground THEN switch on Front Porch using SmartThings.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T002_S0016",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunset from Weather Underground THEN turn on lights using Philips Hue 30 minutes before sunset.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T002_S0017",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunset from Weather Underground THEN turn on lights.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T002_S0018",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunset from Weather Underground THEN turn on lights.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T002_S0019",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunset from Weather Underground THEN turn on hue lights.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T002_S0020",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunset from Weather Underground THEN turn on lights.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T002_S0021",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunset from Weather Underground THEN turn on lights.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T002_S0022",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunset from Weather Underground THEN start color loop using Philips Hue.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T002_S0023",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunset from Weather Underground THEN turn on Christmas Tree Color Loop.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T002_S0024",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Event from MESH app received THEN turn on lights using WeMo Smart Plug.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T002_S0025",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunrise from Weather Underground THEN turn off porch lights using Philips Hue.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T002_S0026",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunrise from Weather Underground THEN turn off lights using Philips Hue.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T002_S0027",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunrise from Weather Underground THEN turn off lights using LIFX.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T002_S0028",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunrise from Weather Underground THEN turn off lights using LIFX.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T002_S0029",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunset from Weather Underground THEN change color of lights using LIFX.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T002_S0030",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunrise from Weather Underground THEN change color of lights using LIFX.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T002_S0031",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunset from Weather Underground THEN turn on lights.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T002_S0032",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunset from Weather Underground THEN activate my scene using LIFX.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T002_S0033",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunset from Weather Underground THEN activate LIFX Scene.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T002_S0034",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunrise from Weather Underground THEN activate LIFX scene.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T002_S0035",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunrise from Weather Underground THEN activate LIFX Scene.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T002_S0036",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunset from Weather Underground THEN turn on a LightwaveRF Dimmer.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T002_S0037",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunset from Weather Underground THEN turn on any LightwaveRF light.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T002_S0038",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunrise from Weather Underground THEN turn off lights using LightwaveRF Lighting.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T002_S0039",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunset from Weather Underground THEN switch porch light ON.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T002_S0040",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunset from Weather Underground THEN bring lights up to 40%.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T002_S0041",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF 1 hour before sunset in London THEN turn on all lights.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T002_S0042",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunset from Weather Underground THEN turn on Hue Lamp.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T002_S0043",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunset from Weather Underground THEN turn on lights.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T002_S0044",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunset from Weather Underground THEN turn on lights at sunrise.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T002_S0045",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunset from Weather Underground THEN turn on Front Porch using WeMo Light Switch.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T002_S0046",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunrise from Weather Underground THEN turn off WeMo Switch.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T002_S0047",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunset from Weather Underground THEN turn on Group Lighting.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T002_S0048",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunset from Weather Underground THEN turn on Hall Cube Lamp using WeMo Smart Plug.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T002_S0049",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunrise from Weather Underground THEN switch on Lights using WeMo Smart Plug.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T002_S0050",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunset from Weather Underground THEN turn lights on.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T002_S0051",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunset from Weather Underground THEN turn lights on within 15 minutes of sunset.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T002_S0052",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunset from Weather Underground THEN turn on lights.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T002_S0053",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunset from Weather Underground THEN close Rollershutters.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T002_S0054",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunrise from Weather Underground THEN change the light to sunrise.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T002_S0055",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunrise from Weather Underground THEN set MrCoffee to brew.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T002_S0056",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunset from Weather Underground THEN turn on roof lights.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T002_S0057",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunrise from Weather Underground THEN change Light Color.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T002_S0058",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Current condition changes to clear from Weather Underground THEN close all shades.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T002_S0059",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Current UV index rises above a configured threshold from Weather Underground THEN switch your AC to powermode.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T002_S0060",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunrise from Weather Underground THEN turn lights off using LIFX.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T002_S0061",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunset from Weather Underground THEN turn lights on using LIFX.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T002_S0062",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunset from Weather Underground THEN turn lights on using LIFX.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T002_S0063",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunset from Weather Underground THEN dim your lights to a golden glow.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T002_S0064",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunset from Weather Underground THEN switch light on to a random color.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T002_S0065",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunset from Weather Underground THEN fade on the lights.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T002_S0066",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Current condition changes to from Weather Underground THEN activate scene.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T002_S0067",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunset from Weather Underground THEN turn on lights.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T002_S0068",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunset from Weather Underground THEN turn on hue lights.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T002_S0069",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunset from Weather Underground THEN turn on outside lights.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T002_S0070",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunset from Weather Underground THEN turn on a Hue light.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T002_S0071",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunset from Weather Underground THEN turn Bar Light On.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T002_S0072",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunset from Weather Underground THEN automatically turn on your lights.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T002_S0073",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunset from Weather Underground THEN turn on HUE lamps.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T002_S0074",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunset from Weather Underground THEN turn on lights before sunset.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T002_S0075",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunset from Weather Underground THEN turn on the lights if it's almost sunset.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T002_S0076",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunset from Weather Underground THEN ignition light.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T002_S0077",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunset from Weather Underground THEN turn on lights based on sunset time.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T002_S0078",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunset from Weather Underground THEN manage lights during sunrise.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T002_S0079",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunset from Weather Underground THEN control lights with notification of weather changes.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T002_S0080",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunset from Weather Underground THEN turn Hue lights on.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T002_S0081",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunset from Weather Underground THEN automatically turn on your Hue lights just before sunset.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T002_S0082",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunset from Weather Underground THEN turn on a device using HomeSeer.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T002_S0083",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunrise from Weather Underground THEN turn off my exterior Emberlight.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T002_S0084",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunset from Weather Underground THEN turn on MiHome plug at Sunset.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T002_S0085",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunset from Weather Underground THEN switch your Mi|Home adapter ON at sunset.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T002_S0086",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunset from Weather Underground THEN switch your Mi|Home adapter OFF at sunset.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T002_S0087",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunrise from Weather Underground THEN switch your Mi|Home adapter OFF at sunrise.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T002_S0088",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Current condition changes to clear from Weather Underground THEN close all shades.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T002_S0089",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunset from Weather Underground THEN turn outside lights on.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T002_S0090",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunrise from Weather Underground THEN turn on the lights.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T002_S0091",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunset from Weather Underground THEN start recording with Arlo.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T002_S0092",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunrise from Weather Underground THEN turn off lights using Philips Hue.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T002_S0093",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunrise from Weather Underground THEN turn off the light.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T002_S0094",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunrise from Weather Underground THEN turn off hue at sunrise.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T002_S0095",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunrise from Weather Underground THEN turn off front porch light.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T002_S0096",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunrise from Weather Underground THEN turn hue Porch on at sunset.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T002_S0097",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunrise from Weather Underground THEN keep your HUE lights OFF.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T002_S0098",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunrise from Weather Underground THEN turn off hue lights at sunrise.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T002_S0099",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunrise from Weather Underground THEN turn off lights at sunrise.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T002_S0100",
+      "llm_topic_name": "sunrise_sunset_light_control",
+      "green_category": "lighting_control",
+      "global_green_relevance": "high",
+      "if_then_rule": "IF Sunrise from Weather Underground THEN turn off lights.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    }
+  ]
+}

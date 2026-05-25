@@ -1,0 +1,263 @@
+{
+  "topic_context": {
+    "topic_id": 34,
+    "llm_topic_name": "automated_lighting_control",
+    "topic_summary": "This topic contains rules for automating the control of lights based on specific times or events, focusing on turning lights on or off and adjusting their colors to enhance comfort and reduce energy waste.",
+    "green_category": "lighting_efficiency",
+    "global_green_relevance": "high"
+  },
+  "rows": [
+    {
+      "sample_id": "T034_S0001",
+      "if_then_rule": "IF every day of the week at a configured threshold THEN turn lights on using LIFX for Weekday Wake Up Lights.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T034_S0002",
+      "if_then_rule": "IF every day of the week at a configured threshold THEN change color of lights using LIFX for LIFX Chill-Out Time.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T034_S0003",
+      "if_then_rule": "IF every day at a configured threshold THEN call a function using Particle to schedule Game Frame brightness.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T034_S0004",
+      "if_then_rule": "IF every day at a configured threshold THEN set the brightness using simplehuman for Wake up to a bright sensor mirror.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T034_S0005",
+      "if_then_rule": "IF device is plugged in from Android Battery THEN turn lights off using LIFX when going to bed.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T034_S0006",
+      "if_then_rule": "IF every day of the week at a configured threshold THEN turn lights on using LIFX.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T034_S0007",
+      "if_then_rule": "IF every year on a configured threshold THEN change color of lights using LIFX for State of Origin 2016 - Game 3- NSW Blues.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T034_S0008",
+      "if_then_rule": "IF every day at a configured threshold THEN change color of lights using LIFX for LIFX Terrarium Lights - Daytime.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T034_S0009",
+      "if_then_rule": "IF every day at a configured threshold THEN turn lights off using LIFX at 2:00 AM.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T034_S0010",
+      "if_then_rule": "IF every day of the week at a configured threshold THEN turn LIFX lights on.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T034_S0011",
+      "if_then_rule": "IF every day of the week at a configured threshold THEN turn lights off using LIFX at 11:15 PM.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T034_S0012",
+      "if_then_rule": "IF every day of the week at a configured threshold THEN turn lights off using LIFX at 10:00 PM with fade off.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T034_S0013",
+      "if_then_rule": "IF every day at a configured threshold THEN turn LIFX bulb(s) on.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T034_S0014",
+      "if_then_rule": "IF every day at a configured threshold THEN simulate sunset by fading lights to red at 8:30 PM.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T034_S0015",
+      "if_then_rule": "IF every day at a configured threshold THEN activate a scene using Almond for bedtime schedule.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T034_S0016",
+      "if_then_rule": "IF every day of the week at a configured threshold THEN turn lights on using LIFX with warm white light fading on over 30 minutes.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T034_S0017",
+      "if_then_rule": "IF every day at a configured threshold THEN call a function using Particle for Timer lockdown.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T034_S0018",
+      "if_then_rule": "IF every day at a configured threshold THEN call a function using Particle to feed cats at 10 AM.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T034_S0019",
+      "if_then_rule": "IF every day at a configured threshold THEN call Particle Function at a set time.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T034_S0020",
+      "if_then_rule": "IF every day at a configured threshold THEN turn lights on using LIFX at a specific time.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T034_S0021",
+      "if_then_rule": "IF every day at a configured threshold THEN turn LIFX lights off at 11:00 PM.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T034_S0022",
+      "if_then_rule": "IF every day at a configured threshold THEN turn lights off at 11 PM.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T034_S0023",
+      "if_then_rule": "IF every day at a configured threshold THEN turn LIFX bulbs on every morning.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T034_S0024",
+      "if_then_rule": "IF every day at a configured threshold THEN turn lights on as an alarm, gently getting brighter.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T034_S0025",
+      "if_then_rule": "IF every day of the week at a configured threshold THEN turn lights on using LIFX for Morning Wakeup.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T034_S0026",
+      "if_then_rule": "IF every day of the week at a configured threshold THEN fade on lights at 7:00 AM.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T034_S0027",
+      "if_then_rule": "IF every day at a configured threshold THEN change color of lights using LIFX to a cool temperature in the morning.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T034_S0028",
+      "if_then_rule": "IF every day at a configured threshold THEN turn on all lights to 30% yellow at 1 AM.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T034_S0029",
+      "if_then_rule": "IF every hour at a configured threshold THEN blink lights using LIFX yellow.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T034_S0030",
+      "if_then_rule": "IF every day at a configured threshold THEN turn off lights at 2 AM to avoid wasting electricity.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T034_S0031",
+      "if_then_rule": "IF every day at a configured threshold THEN turn off lights automatically.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T034_S0032",
+      "if_then_rule": "IF every day at a configured threshold THEN turn on the light every morning at 7 AM using openHAB.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T034_S0033",
+      "if_then_rule": "IF every day of the week at a configured threshold THEN blink LIFX lights to wake up.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T034_S0034",
+      "if_then_rule": "IF every day of the week at a configured threshold THEN blink LIFX lights at a specific time.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T034_S0035",
+      "if_then_rule": "IF every day at a configured threshold THEN turn LIFX into a nightlight or low visible light.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T034_S0036",
+      "if_then_rule": "IF every day at a configured threshold THEN fade all lights out at 11 PM.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T034_S0037",
+      "if_then_rule": "IF every day at a configured threshold THEN turn off LIFX nightlight or low visible light at 6 AM.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T034_S0038",
+      "if_then_rule": "IF every day at a configured threshold THEN turn off Christmas tree at 2:00 AM using a Particle Internet Button.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T034_S0039",
+      "if_then_rule": "IF every day at a configured threshold THEN toggle lights on/off using LIFX at 40% brightness with alarm.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T034_S0040",
+      "if_then_rule": "IF every day at a configured threshold THEN turn lights on using LIFX as an alarm, gently getting brighter.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T034_S0041",
+      "if_then_rule": "IF every year on a configured threshold THEN change color of lights using LIFX for State of Origin Game 2 - NSW Blues.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T034_S0042",
+      "if_then_rule": "IF every day at a configured threshold THEN turn off LIFX lights at a chosen time every day.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    }
+  ]
+}

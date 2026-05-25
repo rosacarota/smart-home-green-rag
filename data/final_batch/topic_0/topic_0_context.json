@@ -1,0 +1,7 @@
+{
+  "topic_id": 0,
+  "llm_topic_name": "presence_based_security_control",
+  "topic_summary": "This topic contains rules that automate security and camera functions based on the detection of presence or absence in a specified area, enhancing home security and privacy management.",
+  "green_category": "security_automation",
+  "global_green_relevance": "medium"
+}

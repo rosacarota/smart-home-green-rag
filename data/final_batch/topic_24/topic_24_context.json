@@ -1,0 +1,7 @@
+{
+  "topic_id": 24,
+  "llm_topic_name": "irrigation_control",
+  "topic_summary": "This topic contains rules that manage irrigation systems based on environmental conditions, user commands, and scheduling, aiming to optimize water usage and prevent waste.",
+  "green_category": "irrigation_saving",
+  "global_green_relevance": "high"
+}

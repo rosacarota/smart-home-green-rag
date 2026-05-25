@@ -1,0 +1,7 @@
+{
+  "topic_id": 4,
+  "llm_topic_name": "temperature_based_device_control",
+  "topic_summary": "This topic contains rules that control smart plugs and devices based on temperature and weather conditions, optimizing energy use by turning devices on or off in response to environmental changes.",
+  "green_category": "temperature_control",
+  "global_green_relevance": "high"
+}

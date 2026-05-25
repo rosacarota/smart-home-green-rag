@@ -1,0 +1,7 @@
+{
+  "topic_id": 18,
+  "llm_topic_name": "scheduled_lighting_control",
+  "topic_summary": "This topic contains rules for scheduling and controlling Philips Hue lights based on time, including turning on, dimming, and changing colors for specific occasions or times of day.",
+  "green_category": "lighting_efficiency",
+  "global_green_relevance": "medium"
+}
