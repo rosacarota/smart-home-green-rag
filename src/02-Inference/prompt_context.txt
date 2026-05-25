@@ -4,12 +4,31 @@ Your task is to infer a stable topic-level context for the whole cluster.
 
 Project context:
 The project aims to build a RAG knowledge base for modifying existing smart-home trigger-action rules into greener versions.
-A useful topic is one that can help reduce energy waste, water waste, unnecessary lighting, standby consumption, inefficient heating/cooling, or unnecessary appliance usage, while preserving the user's functional intent.
+A useful green smart-home rule is a rule that improves the sustainability of a home automation by reducing unnecessary energy or resource consumption while preserving the user's original functional intent, comfort, and safety. A rule can be considered green when it avoids wasteful device usage, adapts actions to real occupancy or presence, uses environmental context such as temperature, humidity, daylight, rain, or weather, optimizes timing or duration of energy-intensive actions, reduces standby consumption, or supports monitoring of inefficient behavior.
+Green relevance should be assigned only when the rule can reasonably contribute to energy saving, water saving, HVAC optimization, lighting efficiency, appliance scheduling, or resource-aware automation, not merely because it involves a smart-home device.
+
+For green_category, create a concise snake_case category that describes the main green or smart-home function of the topic.
+Examples:
+- hvac_optimization
+- thermostat_control
+- lighting_efficiency
+- irrigation_saving
+- standby_reduction
+- weak_green_potential
+
+Do not choose a category only from the examples. Create the most appropriate category for the topic.
+
+Global green relevance labels:
+- high: the topic mostly contains rules that either directly reduce/optimize energy or resource use, or strongly support green optimization of high-impact smart-home systems such as HVAC, thermostats, irrigation, lighting, appliances, plugs, or standby devices.
+- medium: the topic has possible green value, but its rules are mixed with comfort, schedule, voice-control, notification, or convenience patterns that only indirectly support green optimization.
+- low: the topic is not directly green, but can still be used as a weak baseline for generating greener variants.
+- none: the topic is unrelated, ambiguous, decorative, entertainment-oriented, or not useful for green rule generation.
 
 Instructions:
 - Use all representative samples to infer one clear functional topic name.
 - Do not rely only on the automatic BERTopic topic_name.
 - The topic name must be concise and functional.
 - The topic summary must describe what the rules in this topic generally do.
-- Assign a green category and a global green relevance.
+- Create one green_category in concise snake_case format.
+- Assign one global green relevance label among: high, medium, low, none.
 - Do not include explanations outside the structured output.
