@@ -1,0 +1,611 @@
+{
+  "topic_context": {
+    "topic_id": -1,
+    "llm_topic_name": "presence_based_automation",
+    "topic_summary": "This topic contains rules that automate smart-home devices based on presence detection or specific events, such as turning lights on or off when someone is detected or when a user leaves a designated area.",
+    "green_category": "occupancy_based_control",
+    "global_green_relevance": "medium"
+  },
+  "rows": [
+    {
+      "sample_id": "T_OUTLIER_S0201",
+      "if_then_rule": "IF You exit an area from Location THEN end Harmony activity.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0202",
+      "if_then_rule": "IF End of cycle from GE Appliances Dishwasher THEN Blink lights using Philips Hue.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0203",
+      "if_then_rule": "IF Cooking timer done from GE Appliances Cooking THEN Blink lights using Philips Hue.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0204",
+      "if_then_rule": "IF New check-in at category from Foursquare THEN Log a meal using UP by Jawbone.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0205",
+      "if_then_rule": "IF New check-in at category from Foursquare THEN Log a meal using UP by Jawbone.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0206",
+      "if_then_rule": "IF New check-in at category from Foursquare THEN Log a meal using UP by Jawbone.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0207",
+      "if_then_rule": "IF New check-in at category from Foursquare THEN Log a meal using UP by Jawbone.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0208",
+      "if_then_rule": "IF New check-in at category from Foursquare THEN Log a meal using UP by Jawbone.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0209",
+      "if_then_rule": "IF Motion has been detected from Withings Home THEN Blink lights using Philips Hue.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0210",
+      "if_then_rule": "IF Temperature drops below from Wink: Spotter THEN Set temperature using Nest Thermostat.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0211",
+      "if_then_rule": "IF Someone known has been seen from Netatmo Security THEN Turn on lights using Philips Hue.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0212",
+      "if_then_rule": "IF Motion has been detected from Netatmo Security THEN myStrom device on.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0213",
+      "if_then_rule": "IF Someone known arrives home from Netatmo Security THEN Turn off using D-Link Smart Plug.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0214",
+      "if_then_rule": "IF Motion has been detected from Netatmo Security THEN Turn on using D-Link Smart Plug.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0215",
+      "if_then_rule": "IF Someone known arrives home from Netatmo Security THEN Turn on using D-Link Smart Plug.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0216",
+      "if_then_rule": "IF Someone unknown has been seen from Netatmo Security THEN Turn on using D-Link Smart Plug.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0217",
+      "if_then_rule": "IF Someone known has been seen from Netatmo Security THEN Lock door using Danalock.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0218",
+      "if_then_rule": "IF Temperature rises above from Nest Thermostat THEN Activate shortcut using Wink: Shortcuts.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0219",
+      "if_then_rule": "IF Every day at from Date & Time THEN Lock device using LightwaveRF Power.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0220",
+      "if_then_rule": "IF Carbon dioxide rises above from Netatmo Weather Station THEN Turn on fan for 15 minutes using Nest Thermostat.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0221",
+      "if_then_rule": "IF Every day at from Date & Time THEN Close door using Gogogate.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0222",
+      "if_then_rule": "IF Every day at from Date & Time THEN Close garage door using Garageio.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0223",
+      "if_then_rule": "IF Every day at from Date & Time THEN Close garage door using Garageio.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0224",
+      "if_then_rule": "IF Every day at from Date & Time THEN Close Garage Door using Garageio.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0225",
+      "if_then_rule": "IF Button press from Button widget THEN Pause using ThermoSmart.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0226",
+      "if_then_rule": "IF Button press from Button widget THEN Set temperature using ThermoSmart.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0227",
+      "if_then_rule": "IF Button press from Button widget THEN Unpause using ThermoSmart.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0228",
+      "if_then_rule": "IF Button press from Button widget THEN Unpause using ThermoSmart.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0229",
+      "if_then_rule": "IF Button press from Button widget THEN Start Auto Mode using tado Air Conditioning.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0230",
+      "if_then_rule": "IF New check-in at category from Foursquare THEN Log an event using UP by Jawbone.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0231",
+      "if_then_rule": "IF New check-in tagged from Foursquare THEN Log an event using UP by Jawbone.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0232",
+      "if_then_rule": "IF New check-in tagged from Foursquare THEN Log your weight using UP by Jawbone.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0233",
+      "if_then_rule": "IF You exit an area from Location THEN End activity using Harmony.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0234",
+      "if_then_rule": "IF You exit an area from Location THEN Turn off oven using GE Appliances Cooking.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0235",
+      "if_then_rule": "IF Family is waking up from hugOne THEN Brew coffee using WeMo Coffeemaker.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0236",
+      "if_then_rule": "IF Vehicle leaves a place from Zubie THEN Switch off using SmartThings.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0237",
+      "if_then_rule": "IF Vehicle leaves a place from Zubie THEN Switch off using SmartThings.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0238",
+      "if_then_rule": "IF Low battery condition for any vehicle from Zubie THEN Change color using Philips Hue.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0239",
+      "if_then_rule": "IF Vehicle leaves a place from Zubie THEN Close garage door using Garageio.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0240",
+      "if_then_rule": "IF Vehicle arrives at a place from Zubie THEN Open garage door using Garageio.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0241",
+      "if_then_rule": "IF First family member arrives at a specific place from Life360 THEN Turn lights on using LIFX.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0242",
+      "if_then_rule": "IF Temperature rises above from hugOne THEN Turn on fan for 15 minutes using Nest Thermostat.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0243",
+      "if_then_rule": "IF New check-in by friend in area from Foursquare THEN Voice announcement using Ubi.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0244",
+      "if_then_rule": "IF End of cycle from GE Appliances Dryer THEN Blink lights using Philips Hue.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0245",
+      "if_then_rule": "IF New event from a rule from Sighthound Video THEN Publish an event using Particle.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0246",
+      "if_then_rule": "IF New event from a rule from Sighthound Video THEN Set temperature using Nest Thermostat.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0247",
+      "if_then_rule": "IF Presence detected from SmartThings THEN Disarm the security panel using HomeControl Flex.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0248",
+      "if_then_rule": "IF Presence no longer detected from SmartThings THEN Toggle alarm notification using EZVIZ.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0249",
+      "if_then_rule": "IF tado switches to Away Mode from tado Heating THEN Turn AC off using tado Air Conditioning.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0250",
+      "if_then_rule": "IF tado switches to Home Mode from tado Heating THEN Turn on plug using Smappee.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0251",
+      "if_then_rule": "IF tado switches to Home Mode from tado Heating THEN Turn on lights using Philips Hue.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0252",
+      "if_then_rule": "IF tado switches to Away Mode from tado Air Conditioning THEN Switch off using SmartThings.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0253",
+      "if_then_rule": "IF tado switches to Away Mode from tado Air Conditioning THEN Toggle lights on/off using Philips Hue.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0254",
+      "if_then_rule": "IF You exit an area from Location THEN Enable a quick action using Honeywell evohome.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0255",
+      "if_then_rule": "IF Button press from Button widget THEN Post a photo using Whistle.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0256",
+      "if_then_rule": "IF Button press from Button widget THEN Pause using ThermoSmart.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0257",
+      "if_then_rule": "IF You exit an area from Location THEN Resume programmed schedule using Honeywell Total Connect Comfort.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0258",
+      "if_then_rule": "IF You exit an area from Location THEN Enable a quick action using Honeywell evohome.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0259",
+      "if_then_rule": "IF Preheat temperature reached from Home Connect Oven THEN Toggle on/off using WeMo Light Switch.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0260",
+      "if_then_rule": "IF You exit an area from Location THEN Set mode using Wattio THERMIC.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0261",
+      "if_then_rule": "IF You exit an area from Location THEN Set mode using Wattio THERMIC.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0262",
+      "if_then_rule": "IF Every hour at from Date & Time THEN Send blink event using blink(1).",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0263",
+      "if_then_rule": "IF Every hour at from Date & Time THEN Send blink event using blink(1).",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0264",
+      "if_then_rule": "IF Every hour at from Date & Time THEN Send blink event using blink(1).",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0265",
+      "if_then_rule": "IF Every hour at from Date & Time THEN Send blink event using blink(1).",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0266",
+      "if_then_rule": "IF Tomorrow's low drops below from Weather Underground THEN Vibrate using PAVLOK.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0267",
+      "if_then_rule": "IF You exit an area from Location THEN Start activity using Harmony.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0268",
+      "if_then_rule": "IF You exit an area from Location THEN Close door using Gogogate.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0269",
+      "if_then_rule": "IF You exit an area from Location THEN Close door using Gogogate.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0270",
+      "if_then_rule": "IF You exit an area from Location THEN Close garage door using Garageio.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0271",
+      "if_then_rule": "IF You arrive at a specific place from Life360 THEN Blink lights using LIFX.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0272",
+      "if_then_rule": "IF You exit an area from Location THEN Turn A/C off using Sensibo.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0273",
+      "if_then_rule": "IF tado switches to Away Mode from tado Heating THEN Return to tado automatic control using tado Heating.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0274",
+      "if_then_rule": "IF tado switches to Home Mode from tado Heating THEN Return to tado automatic control using tado Air Conditioning.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0275",
+      "if_then_rule": "IF Event starting soon from Office 365 Calendar THEN Set room temperature using Nefit Easy.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0276",
+      "if_then_rule": "IF Smoke alarm from RemoteLync THEN Turn on fan for 15 minutes using Nest Thermostat.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0277",
+      "if_then_rule": "IF Temperature rises above from Nest Thermostat THEN Turn on fan for 15 minutes using Nest Thermostat.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0278",
+      "if_then_rule": "IF Every day at from Date & Time THEN Blink lights using Philips Hue.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0279",
+      "if_then_rule": "IF Every day at from Date & Time THEN Blink lights using Philips Hue.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0280",
+      "if_then_rule": "IF Every day at from Date & Time THEN Blink lights using Philips Hue.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0281",
+      "if_then_rule": "IF Every day at from Date & Time THEN Blink lights using Philips Hue.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0282",
+      "if_then_rule": "IF Every day of the week at from Date & Time THEN Blink lights using Philips Hue.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0283",
+      "if_then_rule": "IF Every day of the week at from Date & Time THEN Blink lights using Philips Hue.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0284",
+      "if_then_rule": "IF Every year on from Date & Time THEN Blink lights using Philips Hue.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0285",
+      "if_then_rule": "IF The security panel has been armed from HomeControl Flex THEN Turn lights off using LIFX.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0286",
+      "if_then_rule": "IF The security panel has been armed from HomeControl Flex THEN End activity using Harmony.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0287",
+      "if_then_rule": "IF You exit an area from Location THEN Lock Lockitron using Lockitron.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0288",
+      "if_then_rule": "IF You exit an area from Location THEN Resume programmed schedule using Honeywell Total Connect Comfort.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0289",
+      "if_then_rule": "IF Say a specific phrase from Amazon Alexa THEN Activate shortcut using Wink: Shortcuts.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0290",
+      "if_then_rule": "IF Your Timer goes off from Amazon Alexa THEN Activate shortcut using Wink: Shortcuts.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0291",
+      "if_then_rule": "IF Ask what's on your Shopping List from Amazon Alexa THEN Dim a group of lights using WeMo Lighting.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0292",
+      "if_then_rule": "IF Say a specific phrase from Amazon Alexa THEN Dim a group of lights using WeMo Lighting.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0293",
+      "if_then_rule": "IF Say a specific phrase from Amazon Alexa THEN Dim a group of lights using WeMo Lighting.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0294",
+      "if_then_rule": "IF Say a specific phrase from Amazon Alexa THEN Dim a group of lights using WeMo Lighting.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0295",
+      "if_then_rule": "IF Say a specific phrase from Amazon Alexa THEN Dim the Light using WeMo Lighting.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0296",
+      "if_then_rule": "IF Every hour at from Date & Time THEN Send blink event using blink(1).",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0297",
+      "if_then_rule": "IF Current temperature rises above from Weather Underground THEN Pause using ThermoSmart.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0298",
+      "if_then_rule": "IF Current pollen count rises above from Weather Underground THEN Switch on using SmartThings.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0299",
+      "if_then_rule": "IF Say a specific phrase from Amazon Alexa THEN Dim the Light using WeMo Lighting.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0300",
+      "if_then_rule": "IF Say a specific phrase from Amazon Alexa THEN Dim the Light using WeMo Lighting.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    }
+  ]
+}

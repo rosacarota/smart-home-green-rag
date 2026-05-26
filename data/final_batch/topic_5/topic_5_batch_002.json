@@ -1,0 +1,233 @@
+{
+  "topic_context": {
+    "topic_id": 5,
+    "llm_topic_name": "calendar_event_automation",
+    "topic_summary": "This topic contains rules that automate smart-home actions based on events scheduled in Google Calendar, such as adjusting thermostat settings, turning lights off, or arming security devices when meetings or events start.",
+    "green_category": "event_based_control",
+    "global_green_relevance": "medium"
+  },
+  "rows": [
+    {
+      "sample_id": "T005_S0101",
+      "if_then_rule": "IF Event from search starts from Google Calendar THEN Turn A/C on using Sensibo.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T005_S0102",
+      "if_then_rule": "IF Event from search starts from Google Calendar THEN Switch on using SmartThings.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T005_S0103",
+      "if_then_rule": "IF Event from search starts from Google Calendar THEN Security mode using Somfy Protect.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0104",
+      "if_then_rule": "IF Event from search starts from Google Calendar THEN Control camera shutter using Somfy Protect.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0105",
+      "if_then_rule": "IF Any event starts from Google Calendar THEN Send a notification to my Recon device using Recon.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0106",
+      "if_then_rule": "IF Event from search starts from Google Calendar THEN Start a zone using Rachio.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0107",
+      "if_then_rule": "IF Washing completed from LG Washer THEN Quick add event using Google Calendar.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0108",
+      "if_then_rule": "IF Drying completed from LG Dryer THEN Quick add event using Google Calendar.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0109",
+      "if_then_rule": "IF Event from search starts from Google Calendar THEN Change scenario status using microBees.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0110",
+      "if_then_rule": "IF Pollution is high from Foobot THEN Quick add event using Google Calendar.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T005_S0111",
+      "if_then_rule": "IF Event from search starts from Google Calendar THEN Activate shortcut using Wink: Shortcuts.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0112",
+      "if_then_rule": "IF Battery level below threshold from Greenwave Systems THEN Quick add event using Google Calendar.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0113",
+      "if_then_rule": "IF Any event starts from Google Calendar THEN Set temperature using ThermoSmart.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T005_S0114",
+      "if_then_rule": "IF Event from search starts from Google Calendar THEN Set temperature using ThermoSmart.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T005_S0115",
+      "if_then_rule": "IF Button press from Button widget THEN Add an event to your calendar using Kyber calendars, todos & reminders.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0116",
+      "if_then_rule": "IF Event from search starts from Google Calendar THEN Set cook timer and mode using WeMo Slow Cooker.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T005_S0117",
+      "if_then_rule": "IF Any event starts from Google Calendar THEN Set Output Level using littleBits.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0118",
+      "if_then_rule": "IF Laundry cycle is finished from Samsung Washer THEN Quick add event using Google Calendar.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0119",
+      "if_then_rule": "IF Press button from Qblinks Qmote THEN Quick add event using Google Calendar.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0120",
+      "if_then_rule": "IF Event starting soon from Office 365 Calendar THEN Update Indicator using LaMetric Time.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0121",
+      "if_then_rule": "IF Event starting soon from Office 365 Calendar THEN Update Indicator using LaMetric Time.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0122",
+      "if_then_rule": "IF Every day at from Date & Time THEN Start vacuum cleaning using Samsung Robot Vacuum.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T005_S0123",
+      "if_then_rule": "IF Any event starts from Google Calendar THEN Turn on using WeMo Light Switch.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T005_S0124",
+      "if_then_rule": "IF Event from search starts from Google Calendar THEN Turn off using WeMo Light Switch.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T005_S0125",
+      "if_then_rule": "IF Event from search starts from Google Calendar THEN Turn off using WeMo Smart Plug.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T005_S0126",
+      "if_then_rule": "IF Event from search starts from Google Calendar THEN Turn off using WeMo Smart Plug.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T005_S0127",
+      "if_then_rule": "IF Event from search starts from Google Calendar THEN Turn off using WeMo Smart Plug.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T005_S0128",
+      "if_then_rule": "IF Event from search starts from Google Calendar THEN Activate shortcut using Wink: Shortcuts.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T005_S0129",
+      "if_then_rule": "IF Event from search starts from Google Calendar THEN Arm the security panel using HomeControl Flex.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0130",
+      "if_then_rule": "IF Washing cycle is over from Whirlpool Washer THEN Boost your hot water using Hive Active Heating.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T005_S0131",
+      "if_then_rule": "IF Event from search starts from Google Calendar THEN Disarm the security panel using HomeControl Flex.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0132",
+      "if_then_rule": "IF Event from search starts from Google Calendar THEN Disarm the security panel using HomeControl Flex.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0133",
+      "if_then_rule": "IF Event from search starts from Google Calendar THEN Arm location using Homeboy.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0134",
+      "if_then_rule": "IF Event from search starts from Google Calendar THEN Disarm camera using Homeboy.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0135",
+      "if_then_rule": "IF Any event starts from Google Calendar THEN Change color of lights using LIFX.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0136",
+      "if_then_rule": "IF Item state changes from openHAB THEN Quick add event using Google Calendar.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0137",
+      "if_then_rule": "IF Event from search starts from Google Calendar THEN Set to vacation mode using NIBE Uplink.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    }
+  ]
+}

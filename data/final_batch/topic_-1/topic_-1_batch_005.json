@@ -1,0 +1,461 @@
+{
+  "topic_context": {
+    "topic_id": -1,
+    "llm_topic_name": "presence_based_automation",
+    "topic_summary": "This topic contains rules that automate smart-home devices based on presence detection or specific events, such as turning lights on or off when someone is detected or when a user leaves a designated area.",
+    "green_category": "occupancy_based_control",
+    "global_green_relevance": "medium"
+  },
+  "rows": [
+    {
+      "sample_id": "T_OUTLIER_S0401",
+      "if_then_rule": "IF Current condition changes to rain THEN Close garage door using Garageio.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0402",
+      "if_then_rule": "IF Temperature rises above a configured threshold THEN Switch on fan using SmartThings before the A/C.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0403",
+      "if_then_rule": "IF Oven turned on THEN Blink lights using Philips Hue.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0404",
+      "if_then_rule": "IF Oven turned on THEN Turn on fan for 15 minutes using Nest Thermostat.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0405",
+      "if_then_rule": "IF Mode switched to Away mode THEN End activity using Harmony.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0406",
+      "if_then_rule": "IF New check-in tagged with #home THEN Turn on using WeMo Smart Plug.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0407",
+      "if_then_rule": "IF New check-in tagged with #home THEN Turn on the lights using WeMo Smart Plug.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0408",
+      "if_then_rule": "IF New check-in at airport category THEN Turn on then off using WeMo Light Switch.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0409",
+      "if_then_rule": "IF New check-in tagged from Foursquare THEN Voice announcement using Ubi.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0410",
+      "if_then_rule": "IF New check-in at home category THEN Turn on lights using Philips Hue.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0411",
+      "if_then_rule": "IF Someone unknown has been seen THEN Change color using Philips Hue.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0412",
+      "if_then_rule": "IF Someone unknown has been seen THEN myStrom device on.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0413",
+      "if_then_rule": "IF Someone known has been seen THEN Display Notification using LaMetric Time.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0414",
+      "if_then_rule": "IF Temperature rises above a configured threshold THEN Turn A/C on using Wink: Aros.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0415",
+      "if_then_rule": "IF Button press THEN Activate overwork timer using Nefit Easy.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0416",
+      "if_then_rule": "IF Button press THEN Set room temperature using Nefit Easy.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0417",
+      "if_then_rule": "IF Flash button double pressed THEN Switch on using SmartThings.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0418",
+      "if_then_rule": "IF Flash button double pressed THEN Toggle lights on/off using Philips Hue.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0419",
+      "if_then_rule": "IF Flash button double pressed THEN Toggle light on/off using Emberlight.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0420",
+      "if_then_rule": "IF Short Press THEN Set mood using Stack Lighting (Staging).",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0421",
+      "if_then_rule": "IF Every day at a configured time THEN Set cook timer and mode using WeMo Slow Cooker.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0422",
+      "if_then_rule": "IF You exit an area THEN Turn off using WeMo Lighting.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0423",
+      "if_then_rule": "IF Every hour at a configured time THEN Return to tado automatic control using tado Heating.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0424",
+      "if_then_rule": "IF Smart Home/Away from ecobee THEN Turn on using WeMo Smart Plug.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0425",
+      "if_then_rule": "IF tado switches to Away Mode THEN Turn off using WeMo Smart Plug.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0426",
+      "if_then_rule": "IF tado switches to Away Mode THEN Switch off a socket using LightwaveRF Power.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0427",
+      "if_then_rule": "IF tado switches to Away Mode THEN Turn off light using LightwaveRF Lighting.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0428",
+      "if_then_rule": "IF Button press THEN Turn heating off using tado Heating.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0429",
+      "if_then_rule": "IF Button press THEN Start Cool Mode using tado Air Conditioning.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0430",
+      "if_then_rule": "IF Button press THEN Start Heat Mode using tado Air Conditioning.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0431",
+      "if_then_rule": "IF Tomorrow's high rises above a configured threshold THEN Turn off your thermostat using Hive Active Heating.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0432",
+      "if_then_rule": "IF Current condition changes THEN Start activity using Harmony.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0433",
+      "if_then_rule": "IF New motion event THEN Turn light on using Emberlight.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0434",
+      "if_then_rule": "IF Flash button double pressed THEN Toggle on/off using WeMo Smart Plug.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0435",
+      "if_then_rule": "IF Stone press THEN Toggle lights on/off using LIFX.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0436",
+      "if_then_rule": "IF Any incoming call THEN Turn on then off using WeMo Smart Plug.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0437",
+      "if_then_rule": "IF Incoming call from known number THEN Turn on then off using WeMo Smart Plug.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0438",
+      "if_then_rule": "IF Incoming call from unknown number THEN Turn on then off using WeMo Smart Plug.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0439",
+      "if_then_rule": "IF Incoming call from known number THEN Turn on then off using WeMo Insight Switch.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0440",
+      "if_then_rule": "IF Incoming call from unknown number THEN Turn on then off using WeMo Insight Switch.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0441",
+      "if_then_rule": "IF Incoming call from unknown number THEN Change color using LIFX.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0442",
+      "if_then_rule": "IF Event starting soon THEN Blink lights using Philips Hue.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0443",
+      "if_then_rule": "IF Every year on a configured date THEN Change color of lights using LIFX.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0444",
+      "if_then_rule": "IF Every year on a configured date THEN Change color of lights using LIFX.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0445",
+      "if_then_rule": "IF tado switches to Away Mode THEN Turn lights off using LIFX.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0446",
+      "if_then_rule": "IF tado switches to Away Mode THEN Turn lights off using LIFX.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0447",
+      "if_then_rule": "IF tado switches to Home Mode THEN Turn lights on using LIFX.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0448",
+      "if_then_rule": "IF Flash button double pressed THEN Turn on using WeMo Lighting.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0449",
+      "if_then_rule": "IF You exit an area THEN Turn light off using Hive Active Light.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0450",
+      "if_then_rule": "IF Switched off THEN Deactivate siren/strobe using SmartThings.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0451",
+      "if_then_rule": "IF Cook timer finished THEN Adjust cooking mode using WeMo Slow Cooker.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0452",
+      "if_then_rule": "IF Button press THEN Start activity using Harmony.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0453",
+      "if_then_rule": "IF Drying cycle is over THEN Blink lights using Philips Hue.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0454",
+      "if_then_rule": "IF A device is turned off THEN Turn off using WeMo Smart Plug.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0455",
+      "if_then_rule": "IF Any door open THEN Turn on lights using Philips Hue.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0456",
+      "if_then_rule": "IF Current condition changes THEN Breathe lights using LIFX.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0457",
+      "if_then_rule": "IF Low battery condition for any vehicle THEN Change color using Philips Hue.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0458",
+      "if_then_rule": "IF You exit an area THEN Set temperature using Wattio THERMIC.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0459",
+      "if_then_rule": "IF Vehicle leaves a place THEN Switch off using SmartThings.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0460",
+      "if_then_rule": "IF Vehicle leaves a place THEN Switch off using SmartThings.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0461",
+      "if_then_rule": "IF Say a specific phrase THEN Power on device using Energenie Mi|Home.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0462",
+      "if_then_rule": "IF Monitor a sensor value THEN Drive any Grove using Seeed.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0463",
+      "if_then_rule": "IF Monitor a sensor value THEN Drive any Grove using Seeed.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0464",
+      "if_then_rule": "IF Every day of the week at a configured time THEN Send a command using openHAB.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0465",
+      "if_then_rule": "IF Action Button Pressed THEN End activity using Harmony.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0466",
+      "if_then_rule": "IF Action Button Pressed THEN Toggle lights on/off using LIFX.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0467",
+      "if_then_rule": "IF Every day at a configured time THEN Return to tado automatic control using tado Heating.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0468",
+      "if_then_rule": "IF Button press THEN Set the temperature to a configured value using Hive Active Heating.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0469",
+      "if_then_rule": "IF You exit an area THEN Turn AC unit off using Daikin Online Controller.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0470",
+      "if_then_rule": "IF You exit an area THEN Turn AC unit off using Daikin Online Controller.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0471",
+      "if_then_rule": "IF You exit an area THEN Switch off a socket using LightwaveRF Power.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0472",
+      "if_then_rule": "IF New check-in at restaurant category THEN Log a meal using UP by Jawbone.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0473",
+      "if_then_rule": "IF Leak detected THEN Change color using Philips Hue.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0474",
+      "if_then_rule": "IF Someone known arrives home THEN Turn on lights using Philips Hue.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0475",
+      "if_then_rule": "IF Smart Home/Away from ecobee THEN Quick add event using Google Calendar.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    }
+  ]
+}

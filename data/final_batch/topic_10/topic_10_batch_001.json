@@ -1,0 +1,527 @@
+{
+  "topic_context": {
+    "topic_id": 10,
+    "llm_topic_name": "smart_switch_control",
+    "topic_summary": "This topic contains rules that utilize smart switches to control lighting and appliances based on user interactions, such as long presses or scheduled times, primarily focusing on toggling or turning devices on and off.",
+    "green_category": "appliance_scheduling",
+    "global_green_relevance": "medium"
+  },
+  "rows": [
+    {
+      "sample_id": "T010_S0001",
+      "if_then_rule": "IF Every day at from Date & Time THEN Turn off using WeMo Insight Switch.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T010_S0002",
+      "if_then_rule": "IF Every day of the week at from Date & Time THEN Turn off using WeMo Insight Switch.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T010_S0003",
+      "if_then_rule": "IF Every day of the week at from Date & Time THEN Turn off using WeMo Insight Switch.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T010_S0004",
+      "if_then_rule": "IF Action Button Pressed from LaMetric Time THEN Toggle on/off using WeMo Smart Plug.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T010_S0005",
+      "if_then_rule": "IF Long press from WeMo Light Switch THEN Toggle lights on/off using Philips Hue.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T010_S0006",
+      "if_then_rule": "IF Switched off from WeMo Smart Plug THEN Turn on then off using WeMo Smart Plug.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T010_S0007",
+      "if_then_rule": "IF Press bttn from Bttn THEN Turn off using WeMo Smart Plug.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T010_S0008",
+      "if_then_rule": "IF Switched off from WeMo Smart Plug THEN Turn on using WeMo Smart Plug.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T010_S0009",
+      "if_then_rule": "IF Button press from Wink Relay THEN Turn on using WeMo Smart Plug.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T010_S0010",
+      "if_then_rule": "IF Switched on from WeMo Smart Plug THEN Turn off using WeMo Smart Plug.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T010_S0011",
+      "if_then_rule": "IF Switched on from WeMo Smart Plug THEN Turn on lights using Philips Hue.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T010_S0012",
+      "if_then_rule": "IF Button press from Wink Relay THEN Toggle on/off using WeMo Smart Plug.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T010_S0013",
+      "if_then_rule": "IF Switched off from WeMo Smart Plug THEN Turn on using WeMo Smart Plug.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T010_S0014",
+      "if_then_rule": "IF Long press from WeMo Light Switch THEN Toggle on/off using WeMo Light Switch.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T010_S0015",
+      "if_then_rule": "IF Long press from WeMo Light Switch THEN Turn off using WeMo Smart Plug.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T010_S0016",
+      "if_then_rule": "IF Long press from WeMo Light Switch THEN Turn on using WeMo Light Switch.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T010_S0017",
+      "if_then_rule": "IF Long press from WeMo Light Switch THEN Turn on using WeMo Light Switch.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T010_S0018",
+      "if_then_rule": "IF Long press from WeMo Light Switch THEN Turn on using WeMo Light Switch.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T010_S0019",
+      "if_then_rule": "IF Long press from WeMo Light Switch THEN Turn on using WeMo Light Switch.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T010_S0020",
+      "if_then_rule": "IF Switched off from WeMo Light Switch THEN Turn off using WeMo Light Switch.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T010_S0021",
+      "if_then_rule": "IF Long press from WeMo Light Switch THEN Turn off using WeMo Light Switch.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T010_S0022",
+      "if_then_rule": "IF Water leak detected from Home8 THEN Turn off using WeMo Insight Switch.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T010_S0023",
+      "if_then_rule": "IF Long press from WeMo Light Switch THEN Toggle lights on/off using Philips Hue.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T010_S0024",
+      "if_then_rule": "IF Long press from WeMo Light Switch THEN Turn off using WeMo Smart Plug.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T010_S0025",
+      "if_then_rule": "IF Button press from Wink Relay THEN Toggle on/off using WeMo Smart Plug.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T010_S0026",
+      "if_then_rule": "IF Switched on from WeMo Smart Plug THEN Toggle on/off using WeMo Smart Plug.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T010_S0027",
+      "if_then_rule": "IF Switched on from WeMo Light Switch THEN Turn on lights using Philips Hue.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T010_S0028",
+      "if_then_rule": "IF Long press from WeMo Light Switch THEN Toggle on/off using WeMo Smart Plug.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T010_S0029",
+      "if_then_rule": "IF Say a simple phrase from Google Assistant THEN Turn off using WeMo Insight Switch.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T010_S0030",
+      "if_then_rule": "IF Long press from WeMo Light Switch THEN Open garage door using Garageio.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T010_S0031",
+      "if_then_rule": "IF Switched on from WeMo Insight Switch THEN Toggle on/off using WeMo Smart Plug.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T010_S0032",
+      "if_then_rule": "IF Switched off from WeMo Light Switch THEN Turn light off using Komfy Switch with Camera Dev.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T010_S0033",
+      "if_then_rule": "IF Switched off from WeMo Insight Switch THEN Turn off using LIFX.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T010_S0034",
+      "if_then_rule": "IF Switched off from WeMo Insight Switch THEN Turn on using WeMo Insight Switch.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T010_S0035",
+      "if_then_rule": "IF Daily minutes on is longer than from WeMo Insight Switch THEN Turn off using WeMo Insight Switch.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T010_S0036",
+      "if_then_rule": "IF Switched on from WeMo Light Switch THEN Turn on using Komfy Outlet.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T010_S0037",
+      "if_then_rule": "IF Switched on from WeMo Light Switch THEN Turn on lights using Philips Hue.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T010_S0038",
+      "if_then_rule": "IF Long press from WeMo Light Switch THEN Turn on lights using Philips Hue.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T010_S0039",
+      "if_then_rule": "IF Switched off from WeMo Light Switch THEN Turn off lights using Philips Hue.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T010_S0040",
+      "if_then_rule": "IF Long press from WeMo Light Switch THEN Toggle on/off using WeMo Smart Plug.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T010_S0041",
+      "if_then_rule": "IF Switched off from WeMo Light Switch THEN Turn off lights using Philips Hue.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T010_S0042",
+      "if_then_rule": "IF Long press from WeMo Light Switch THEN Turn off lights using Philips Hue.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T010_S0043",
+      "if_then_rule": "IF Switched off from WeMo Light Switch THEN Turn on using WeMo Light Switch.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T010_S0044",
+      "if_then_rule": "IF Switched on from WeMo Light Switch THEN Turn on using WeMo Light Switch.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T010_S0045",
+      "if_then_rule": "IF Switched on from WeMo Light Switch THEN Turn on using WeMo Insight Switch.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T010_S0046",
+      "if_then_rule": "IF Switched on from WeMo Light Switch THEN Turn on using WeMo Insight Switch.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T010_S0047",
+      "if_then_rule": "IF Long press from WeMo Light Switch THEN Toggle on/off using WeMo Insight Switch.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T010_S0048",
+      "if_then_rule": "IF Long press from WeMo Light Switch THEN Turn off using WeMo Insight Switch.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T010_S0049",
+      "if_then_rule": "IF Say a simple phrase from Google Assistant THEN Toggle on/off using WeMo Smart Plug.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T010_S0050",
+      "if_then_rule": "IF Button press from Button widget THEN Turn on using WeMo Insight Switch.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T010_S0051",
+      "if_then_rule": "IF Button press from Button widget THEN Toggle on/off using WeMo Insight Switch.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T010_S0052",
+      "if_then_rule": "IF Button press from Button widget THEN Toggle on/off using WeMo Light Switch.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T010_S0053",
+      "if_then_rule": "IF Switched off from WeMo Light Switch THEN Turn off lights using Philips Hue.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T010_S0054",
+      "if_then_rule": "IF Switched off from WeMo Light Switch THEN Turn off lights using Philips Hue.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T010_S0055",
+      "if_then_rule": "IF Long press from WeMo Light Switch THEN Turn off lights using Philips Hue.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T010_S0056",
+      "if_then_rule": "IF Body Scale - New measurement from Withings THEN Turn on using WeMo Insight Switch.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T010_S0057",
+      "if_then_rule": "IF Long press from WeMo Light Switch THEN Toggle on/off using WeMo Light Switch.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T010_S0058",
+      "if_then_rule": "IF Long press from WeMo Light Switch THEN Toggle on/off using WeMo Insight Switch.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T010_S0059",
+      "if_then_rule": "IF Switched on from WeMo Smart Plug THEN Turn off then on using WeMo Smart Plug.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T010_S0060",
+      "if_then_rule": "IF Relay on from WeMo Maker THEN Turn relay off using WeMo Maker.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T010_S0061",
+      "if_then_rule": "IF Long press from WeMo Light Switch THEN Switch on using SmartThings.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T010_S0062",
+      "if_then_rule": "IF Switched on from WeMo Light Switch THEN Change color using Philips Hue.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T010_S0063",
+      "if_then_rule": "IF New event published from Particle THEN Toggle on/off using WeMo Smart Plug.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T010_S0064",
+      "if_then_rule": "IF Press button from Qblinks Qmote THEN Turn on using WeMo Insight Switch.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T010_S0065",
+      "if_then_rule": "IF Daily minutes on is longer than from WeMo Insight Switch THEN Turn off using WeMo Insight Switch.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T010_S0066",
+      "if_then_rule": "IF Daily minutes on is longer than from WeMo Insight Switch THEN Toggle on/off using WeMo Insight Switch.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T010_S0067",
+      "if_then_rule": "IF Standby mode entered from WeMo Insight Switch THEN Start sleep fader using WeMo Lighting.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T010_S0068",
+      "if_then_rule": "IF Every day of the week at from Date & Time THEN Turn on using WeMo Insight Switch.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T010_S0069",
+      "if_then_rule": "IF Arriving home from EVE For Tesla THEN Turn on using WeMo Smart Plug.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T010_S0070",
+      "if_then_rule": "IF Daily minutes on is longer than from WeMo Insight Switch THEN Turn off using WeMo Insight Switch.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T010_S0071",
+      "if_then_rule": "IF Switched off from WeMo Insight Switch THEN Turn off then on using WeMo Insight Switch.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T010_S0072",
+      "if_then_rule": "IF Switched off from WeMo Insight Switch THEN Turn off then on using WeMo Insight Switch.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T010_S0073",
+      "if_then_rule": "IF Every day of the week at from Date & Time THEN Turn on using WeMo Insight Switch.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T010_S0074",
+      "if_then_rule": "IF Every day of the week at from Date & Time THEN Turn off then on using WeMo Insight Switch.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T010_S0075",
+      "if_then_rule": "IF Long press from WeMo Light Switch THEN Set new mode using Caleo (Staging).",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T010_S0076",
+      "if_then_rule": "IF Long press from WeMo Light Switch THEN Turn lights off using LIFX.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T010_S0077",
+      "if_then_rule": "IF New event published from Particle THEN Toggle on/off using WeMo Light Switch.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T010_S0078",
+      "if_then_rule": "IF TiBe clicked from Ticatag THEN Turn on using WeMo Smart Plug.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T010_S0079",
+      "if_then_rule": "IF New event published from Particle THEN Toggle on/off using WeMo Smart Plug.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T010_S0080",
+      "if_then_rule": "IF Mode change detected from Caleo (Staging) THEN Turn on then off using WeMo Light Switch.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T010_S0081",
+      "if_then_rule": "IF Standby mode entered from WeMo Insight Switch THEN Turn lights off using LIFX.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T010_S0082",
+      "if_then_rule": "IF Standby mode entered from WeMo Insight Switch THEN Change color of lights using LIFX.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T010_S0083",
+      "if_then_rule": "IF Switched on from WeMo Insight Switch THEN Turn on using WeMo Insight Switch.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T010_S0084",
+      "if_then_rule": "IF Switched off from WeMo Insight Switch THEN Turn on using WeMo Insight Switch.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T010_S0085",
+      "if_then_rule": "IF Switched off from WeMo Insight Switch THEN Turn on using WeMo Insight Switch.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T010_S0086",
+      "if_then_rule": "IF New event published from Particle THEN Toggle on/off using WeMo Light Switch.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    }
+  ]
+}
