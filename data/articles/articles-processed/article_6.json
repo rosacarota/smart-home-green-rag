@@ -1,0 +1,836 @@
+{
+  "article_id": "ARTICLE_006",
+  "source_title": "The role of environmental awareness, renewable energy, and green innovation in shaping climate change perceptions",
+  "source_type": "paper",
+  "source_url": "https://doi.org/10.1038/s41598-025-24815-w",
+  "year": "2025",
+  "article_summary": "The article studies how environmental awareness, renewable energy adoption, and green innovation adoption shape sustainability behavior and climate-change perceptions in Chinese SMEs. Although it is not about smart homes directly, it provides useful transferable principles for green smart-home rule generation: environmental awareness can motivate pro-environmental action, renewable energy adoption can reduce emissions and operating costs, green innovation can convert awareness into practical sustainable behavior, energy audits and SMART environmental metrics can support monitoring and accountability, and green actions must be paired with continued risk awareness to avoid complacency.",
+  "main_normalized_green_categories": [
+    "environmental_awareness",
+    "appliance_energy_management",
+    "energy_monitoring",
+    "water_saving",
+    "weak_green_potential"
+  ],
+  "main_device_categories": [
+    "generic_smart_home",
+    "solar_panel",
+    "appliance"
+  ],
+  "main_green_dimensions": [
+    "environmental_awareness",
+    "energy_saving",
+    "water_saving",
+    "consumption_monitoring",
+    "user_feedback",
+    "automation_efficiency",
+    "intent_preservation"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "ARTICLE_006_CHUNK_001",
+      "doc_type": "article_chunk",
+      "chunk_title": "Pollution and energy-intensive practices drive climate change",
+      "text": "The article frames climate change as a consequence of pollution, unsustainable resource consumption, and energy-intensive practices. It links greenhouse gas emissions to global warming, extreme weather, agricultural disruption, food-quality deterioration, and health risks. For green smart-home rule generation, this supports treating energy-intensive automated actions as candidates for optimization when the original comfort or safety intent can still be preserved.",
+      "normalized_green_categories": [
+        "environmental_awareness",
+        "appliance_energy_management",
+        "weak_green_potential"
+      ],
+      "device_categories": [
+        "generic_smart_home",
+        "appliance"
+      ],
+      "green_dimensions": [
+        "environmental_awareness",
+        "energy_saving",
+        "intent_preservation"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "Use as general justification for revising energy-intensive IF-THEN rules so that they consume less energy without changing the user's intended service."
+    },
+    {
+      "chunk_id": "ARTICLE_006_CHUNK_002",
+      "doc_type": "article_chunk",
+      "chunk_title": "Shared responsibility for sustainability",
+      "text": "The article argues that governments alone have limited resources to mitigate climate impacts and that responsibility must be shared across businesses and individuals. In a smart-home context, this supports rules that help households participate in sustainability through automated energy saving, renewable energy use, and resource-conscious behavior.",
+      "normalized_green_categories": [
+        "environmental_awareness",
+        "weak_green_potential"
+      ],
+      "device_categories": [
+        "generic_smart_home"
+      ],
+      "green_dimensions": [
+        "environmental_awareness",
+        "user_feedback",
+        "automation_efficiency"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "Use to justify adding user-facing green feedback or gentle sustainability-oriented conditions to household automation rules."
+    },
+    {
+      "chunk_id": "ARTICLE_006_CHUNK_003",
+      "doc_type": "article_chunk",
+      "chunk_title": "Limited awareness and resource constraints hinder green behavior",
+      "text": "The article notes that SMEs may rely on conventional, resource-intensive practices because of limited environmental awareness, scarce resources, and pressure to prioritize profitability. For smart homes, the transferable principle is that green automation should not assume users already understand energy impacts or can tolerate costly changes; greener rules should be low-friction, understandable, and compatible with the user's original purpose.",
+      "normalized_green_categories": [
+        "environmental_awareness",
+        "weak_green_potential"
+      ],
+      "device_categories": [
+        "generic_smart_home"
+      ],
+      "green_dimensions": [
+        "environmental_awareness",
+        "user_feedback",
+        "intent_preservation"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "Prefer simple, transparent green transformations that preserve comfort and avoid imposing complex or expensive behavior changes."
+    },
+    {
+      "chunk_id": "ARTICLE_006_CHUNK_004",
+      "doc_type": "article_chunk",
+      "chunk_title": "Value-Belief-Norm theory links awareness to action",
+      "text": "The article uses Value-Belief-Norm theory, where values shape beliefs, beliefs activate personal norms, and norms motivate pro-environmental behavior. It gives examples such as recycling and energy conservation. For smart-home rule generation, environmental values and awareness can be operationalized as rule conditions, feedback, or defaults that encourage energy-saving behavior.",
+      "normalized_green_categories": [
+        "environmental_awareness",
+        "energy_monitoring",
+        "weak_green_potential"
+      ],
+      "device_categories": [
+        "generic_smart_home"
+      ],
+      "green_dimensions": [
+        "environmental_awareness",
+        "user_feedback",
+        "energy_saving"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "Use awareness-based feedback and defaults to help convert user values into greener automated actions."
+    },
+    {
+      "chunk_id": "ARTICLE_006_CHUNK_005",
+      "doc_type": "article_chunk",
+      "chunk_title": "Environmental awareness helps users understand impacts",
+      "text": "Environmental awareness is described as helping individuals and managers understand the impact of products and processes and adopt pro-environmental behaviors. In smart homes, a rule can be made greener by making the energy or resource impact of an automated action visible to the user, especially for repeated or high-consumption behaviors.",
+      "normalized_green_categories": [
+        "environmental_awareness",
+        "energy_monitoring"
+      ],
+      "device_categories": [
+        "generic_smart_home",
+        "appliance"
+      ],
+      "green_dimensions": [
+        "environmental_awareness",
+        "consumption_monitoring",
+        "user_feedback"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "Add notifications, dashboard updates, or feedback actions that explain energy or resource implications of automation."
+    },
+    {
+      "chunk_id": "ARTICLE_006_CHUNK_006",
+      "doc_type": "article_chunk",
+      "chunk_title": "Awareness can translate into green innovation and sustainable practices",
+      "text": "The article states that cultivating environmental awareness among decision-makers can translate values and beliefs into concrete green innovation and sustainable practices. In rule generation, awareness should not remain informational only; it should be tied to a concrete greener action such as lowering energy use, choosing an efficient mode, or monitoring consumption.",
+      "normalized_green_categories": [
+        "environmental_awareness",
+        "appliance_energy_management",
+        "energy_monitoring"
+      ],
+      "device_categories": [
+        "generic_smart_home",
+        "appliance"
+      ],
+      "green_dimensions": [
+        "environmental_awareness",
+        "automation_efficiency",
+        "energy_saving",
+        "consumption_monitoring"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "When adding green feedback, also add an actionable energy-saving or monitoring behavior where compatible with the original rule."
+    },
+    {
+      "chunk_id": "ARTICLE_006_CHUNK_007",
+      "doc_type": "article_chunk",
+      "chunk_title": "Renewable energy sources reduce emissions and ecological damage",
+      "text": "The article identifies renewable energy sources such as solar, biomass, hydropower, wind, and geothermal as sustainable alternatives that reduce emissions and ecological damage compared with fossil fuel-based energy. For smart homes, this supports preferring renewable-powered operation where solar or other renewable supply information is available.",
+      "normalized_green_categories": [
+        "appliance_energy_management",
+        "environmental_awareness"
+      ],
+      "device_categories": [
+        "solar_panel",
+        "appliance",
+        "generic_smart_home"
+      ],
+      "green_dimensions": [
+        "energy_saving",
+        "environmental_awareness",
+        "automation_efficiency"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "Use renewable availability as a green condition for non-urgent appliance or energy-consuming actions."
+    },
+    {
+      "chunk_id": "ARTICLE_006_CHUNK_008",
+      "doc_type": "article_chunk",
+      "chunk_title": "Renewable energy can be a strategic investment with cost savings",
+      "text": "The article explains that environmental awareness helps managers recognize renewable energy as a viable alternative to traditional energy sources and as a strategic investment for long-term sustainability and cost savings. In smart homes, rules can prioritize actions that make better use of renewable supply or reduce reliance on high-carbon energy, while still preserving the user's desired outcome.",
+      "normalized_green_categories": [
+        "appliance_energy_management",
+        "environmental_awareness"
+      ],
+      "device_categories": [
+        "solar_panel",
+        "appliance",
+        "generic_smart_home"
+      ],
+      "green_dimensions": [
+        "energy_saving",
+        "environmental_awareness",
+        "intent_preservation"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "Prefer green transformations that reduce energy cost or carbon impact without suppressing the functional action requested by the user."
+    },
+    {
+      "chunk_id": "ARTICLE_006_CHUNK_009",
+      "doc_type": "article_chunk",
+      "chunk_title": "High environmental awareness supports renewable integration",
+      "text": "The article reports that organizations with high environmental awareness are more proactive in integrating renewable energy solutions into their operations, improving environmental performance, reducing operational costs, and contributing to sustainable development. For rule generation, this supports creating automation that uses renewable energy state, energy availability, or sustainability preference as part of the decision logic.",
+      "normalized_green_categories": [
+        "appliance_energy_management",
+        "environmental_awareness",
+        "energy_monitoring"
+      ],
+      "device_categories": [
+        "solar_panel",
+        "generic_smart_home",
+        "appliance"
+      ],
+      "green_dimensions": [
+        "energy_saving",
+        "environmental_awareness",
+        "consumption_monitoring",
+        "automation_efficiency"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "Add conditions such as renewable generation available, stored solar energy available, or low-impact energy mode available when these signals exist."
+    },
+    {
+      "chunk_id": "ARTICLE_006_CHUNK_010",
+      "doc_type": "article_chunk",
+      "chunk_title": "Green innovation means eco-friendly products and processes",
+      "text": "Green innovation adoption is described as eco-friendly products and processes that reduce pollution, conserve resources, and connect environmental compliance with economic growth. It includes process, system, and managerial innovations that enhance sustainability. For smart homes, this supports preferring efficient device modes, smarter control processes, and system-level automation improvements over simple always-on behavior.",
+      "normalized_green_categories": [
+        "appliance_energy_management",
+        "environmental_awareness",
+        "weak_green_potential"
+      ],
+      "device_categories": [
+        "generic_smart_home",
+        "appliance"
+      ],
+      "green_dimensions": [
+        "energy_saving",
+        "automation_efficiency",
+        "environmental_awareness"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "When a device supports a more efficient mode or smarter control strategy, use that instead of a blunt high-consumption action."
+    },
+    {
+      "chunk_id": "ARTICLE_006_CHUNK_011",
+      "doc_type": "article_chunk",
+      "chunk_title": "Green innovation can overcome sustainability barriers",
+      "text": "The article identifies costs, limited expertise, and resistance to change as barriers to green innovation, while government incentives, partnerships, and leadership commitment can help overcome them. In smart-home automation, green transformations should be practical, understandable, and sensitive to user constraints rather than assuming unlimited willingness to change.",
+      "normalized_green_categories": [
+        "environmental_awareness",
+        "weak_green_potential"
+      ],
+      "device_categories": [
+        "generic_smart_home"
+      ],
+      "green_dimensions": [
+        "intent_preservation",
+        "user_feedback",
+        "automation_efficiency"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "Prefer incremental green rule changes that do not reduce usability, comfort, or safety."
+    },
+    {
+      "chunk_id": "ARTICLE_006_CHUNK_012",
+      "doc_type": "article_chunk",
+      "chunk_title": "Environmental awareness must avoid complacency",
+      "text": "The article warns that higher environmental awareness may paradoxically reduce perceived climate-change severity because actors feel more capable of addressing the problem. This efficacy-complacency effect means that awareness should be coupled with a realistic appraisal of continuing climate risks. In smart-home rules, green feedback should not imply that one efficient action is sufficient; it should support continuous improvement.",
+      "normalized_green_categories": [
+        "environmental_awareness",
+        "energy_monitoring"
+      ],
+      "device_categories": [
+        "generic_smart_home"
+      ],
+      "green_dimensions": [
+        "environmental_awareness",
+        "user_feedback",
+        "consumption_monitoring"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "Avoid feedback that overstates the benefit of a single green action; use ongoing monitoring or periodic reminders where appropriate."
+    },
+    {
+      "chunk_id": "ARTICLE_006_CHUNK_013",
+      "doc_type": "article_chunk",
+      "chunk_title": "Renewable adoption can also create complacency",
+      "text": "The article states that renewable energy adoption reduces emissions but may lead firms to perceive climate change as less urgent, potentially reducing motivation for broader environmental initiatives. In smart homes, using solar or renewable energy should not justify unnecessary consumption; rules should still avoid waste even when renewable energy is available.",
+      "normalized_green_categories": [
+        "appliance_energy_management",
+        "environmental_awareness",
+        "energy_monitoring"
+      ],
+      "device_categories": [
+        "solar_panel",
+        "appliance",
+        "generic_smart_home"
+      ],
+      "green_dimensions": [
+        "energy_saving",
+        "environmental_awareness",
+        "consumption_monitoring"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "Even when renewable energy is available, keep efficiency constraints such as avoiding unnecessary runtime or repeated wasteful activation."
+    },
+    {
+      "chunk_id": "ARTICLE_006_CHUNK_014",
+      "doc_type": "article_chunk",
+      "chunk_title": "Renewable adoption mediates awareness into measurable action",
+      "text": "The article presents renewable energy adoption as a mediator between environmental awareness and climate-change perception. Awareness becomes more useful when it is translated into concrete action, such as adopting renewable technologies that produce measurable environmental performance improvements. For smart homes, awareness-oriented rules should be connected to measurable device behavior or energy outcomes.",
+      "normalized_green_categories": [
+        "environmental_awareness",
+        "appliance_energy_management",
+        "energy_monitoring"
+      ],
+      "device_categories": [
+        "solar_panel",
+        "appliance",
+        "generic_smart_home"
+      ],
+      "green_dimensions": [
+        "environmental_awareness",
+        "energy_saving",
+        "consumption_monitoring",
+        "automation_efficiency"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "Transform awareness into concrete IF-THEN changes such as using an efficient mode, monitoring consumption, or selecting renewable-powered operation."
+    },
+    {
+      "chunk_id": "ARTICLE_006_CHUNK_015",
+      "doc_type": "article_chunk",
+      "chunk_title": "Green innovation strengthens the effect of awareness",
+      "text": "The article finds that green innovation adoption strengthens the relationship between environmental awareness and renewable energy adoption. Awareness produces stronger sustainability outcomes when paired with innovative technologies, processes, and organizational capabilities. For smart-home rules, a green transformation is more effective when it uses available smart capabilities rather than simply asking the user to behave differently.",
+      "normalized_green_categories": [
+        "environmental_awareness",
+        "appliance_energy_management",
+        "energy_monitoring"
+      ],
+      "device_categories": [
+        "generic_smart_home",
+        "appliance",
+        "solar_panel"
+      ],
+      "green_dimensions": [
+        "automation_efficiency",
+        "energy_saving",
+        "environmental_awareness"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "Use available automation features, sensors, device modes, or monitoring functions to make green behavior automatic and reliable."
+    },
+    {
+      "chunk_id": "ARTICLE_006_CHUNK_016",
+      "doc_type": "article_chunk",
+      "chunk_title": "Green innovations can reduce emissions and conserve resources",
+      "text": "The article gives examples of green innovations such as advanced waste management systems, energy-efficient production technologies, and sustainable supply chain practices. It states that these innovations help convert environmental awareness into concrete actions that reduce emissions or conserve resources. In a smart-home context, this supports choosing resource-efficient device actions and avoiding unnecessary use.",
+      "normalized_green_categories": [
+        "appliance_energy_management",
+        "environmental_awareness",
+        "weak_green_potential"
+      ],
+      "device_categories": [
+        "appliance",
+        "generic_smart_home"
+      ],
+      "green_dimensions": [
+        "energy_saving",
+        "automation_efficiency",
+        "environmental_awareness"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "Replace high-consumption default actions with more resource-efficient device modes when supported."
+    },
+    {
+      "chunk_id": "ARTICLE_006_CHUNK_017",
+      "doc_type": "article_chunk",
+      "chunk_title": "Renewables can address energy shortages and reduce energy cost",
+      "text": "The article notes that renewable energy sources such as biomass, geothermal, and hydropower can address energy shortages and provide cheaper energy, including in developing economies. For smart homes, this supports using local renewable supply as an input to energy-consuming automation when available, while still avoiding unnecessary consumption.",
+      "normalized_green_categories": [
+        "appliance_energy_management",
+        "environmental_awareness"
+      ],
+      "device_categories": [
+        "solar_panel",
+        "appliance",
+        "generic_smart_home"
+      ],
+      "green_dimensions": [
+        "energy_saving",
+        "automation_efficiency",
+        "environmental_awareness"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "Use renewable supply signals to decide when to run flexible loads, but retain efficiency safeguards."
+    },
+    {
+      "chunk_id": "ARTICLE_006_CHUNK_018",
+      "doc_type": "article_chunk",
+      "chunk_title": "Empirical support for awareness, renewable adoption, and green innovation",
+      "text": "The article's structural model reports that environmental awareness positively predicts renewable energy adoption, renewable energy adoption negatively predicts perceived climate-change severity, green innovation adoption predicts renewable energy adoption, and green innovation strengthens the environmental-awareness-to-renewable-adoption path. These results support a rule-generation heuristic: awareness alone is weaker than awareness combined with concrete green actions and technical capability.",
+      "normalized_green_categories": [
+        "environmental_awareness",
+        "appliance_energy_management",
+        "energy_monitoring"
+      ],
+      "device_categories": [
+        "generic_smart_home",
+        "solar_panel",
+        "appliance"
+      ],
+      "green_dimensions": [
+        "environmental_awareness",
+        "energy_saving",
+        "automation_efficiency",
+        "consumption_monitoring"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "Rank transformations higher when they combine user awareness, concrete device action, and measurable energy impact."
+    },
+    {
+      "chunk_id": "ARTICLE_006_CHUNK_019",
+      "doc_type": "article_chunk",
+      "chunk_title": "Education and training foster a sustainable culture",
+      "text": "The article recommends environmental education and training through workshops, seminars, and partnerships to foster a sustainable culture. For smart-home automation, this supports explanatory feedback or educational notifications that help users understand why a green rule modification was applied.",
+      "normalized_green_categories": [
+        "environmental_awareness",
+        "weak_green_potential"
+      ],
+      "device_categories": [
+        "generic_smart_home"
+      ],
+      "green_dimensions": [
+        "environmental_awareness",
+        "user_feedback",
+        "intent_preservation"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "When changing a rule to be greener, include optional user-facing explanations that clarify the sustainability rationale."
+    },
+    {
+      "chunk_id": "ARTICLE_006_CHUNK_020",
+      "doc_type": "article_chunk",
+      "chunk_title": "Energy audits support renewable energy outcomes",
+      "text": "The article identifies energy audits and government support as important for achieving desired renewable energy outcomes. In smart homes, the analogous concept is to monitor or audit energy consumption before or after automation changes so the system can identify wasteful rules and verify improvements.",
+      "normalized_green_categories": [
+        "energy_monitoring",
+        "appliance_energy_management",
+        "environmental_awareness"
+      ],
+      "device_categories": [
+        "generic_smart_home",
+        "appliance"
+      ],
+      "green_dimensions": [
+        "consumption_monitoring",
+        "energy_saving",
+        "user_feedback",
+        "automation_efficiency"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "Add monitoring actions or evaluation conditions to high-energy rules so the system can detect excessive consumption."
+    },
+    {
+      "chunk_id": "ARTICLE_006_CHUNK_021",
+      "doc_type": "article_chunk",
+      "chunk_title": "Research and development improve renewable energy efficiency",
+      "text": "The article states that investing in research and development, often in collaboration with research institutions, improves the efficiency of renewable energy use, maximizes adoption while reducing costs, and creates new green markets. In smart-home rule generation, this supports choosing technically efficient solutions and adapting rules as better device capabilities become available.",
+      "normalized_green_categories": [
+        "appliance_energy_management",
+        "weak_green_potential"
+      ],
+      "device_categories": [
+        "solar_panel",
+        "generic_smart_home",
+        "appliance"
+      ],
+      "green_dimensions": [
+        "automation_efficiency",
+        "energy_saving",
+        "intent_preservation"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "Prefer efficient technical capabilities already available in the home rather than relying only on manual behavior change."
+    },
+    {
+      "chunk_id": "ARTICLE_006_CHUNK_022",
+      "doc_type": "article_chunk",
+      "chunk_title": "SMART environmental performance metrics support accountability",
+      "text": "The article recommends SMART environmental performance metrics as tools for tracking progress, transparency, and accountability. For smart-home automation, measurable indicators such as energy consumed, runtime, or renewable-energy share can be used to assess whether a transformed rule is actually greener.",
+      "normalized_green_categories": [
+        "energy_monitoring",
+        "environmental_awareness",
+        "appliance_energy_management"
+      ],
+      "device_categories": [
+        "generic_smart_home",
+        "appliance",
+        "solar_panel"
+      ],
+      "green_dimensions": [
+        "consumption_monitoring",
+        "user_feedback",
+        "energy_saving",
+        "automation_efficiency"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "Evaluate generated rules using measurable environmental indicators rather than assuming that a rule is green."
+    },
+    {
+      "chunk_id": "ARTICLE_006_CHUNK_023",
+      "doc_type": "article_chunk",
+      "chunk_title": "Water wastage is part of environmental degradation",
+      "text": "The article lists water wastage among environmental problems, alongside biodiversity threats, hazardous waste mismanagement, greenhouse gas emissions, population growth, and resource exploitation. Although the article does not provide smart-home water-control details, it supports treating water-consuming automations as candidates for waste reduction.",
+      "normalized_green_categories": [
+        "water_saving",
+        "environmental_awareness",
+        "weak_green_potential"
+      ],
+      "device_categories": [
+        "generic_smart_home"
+      ],
+      "green_dimensions": [
+        "water_saving",
+        "environmental_awareness",
+        "user_feedback"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "Flag water-consuming rules for possible constraints, monitoring, or user feedback when the original intent can still be preserved."
+    },
+    {
+      "chunk_id": "ARTICLE_006_CHUNK_024",
+      "doc_type": "article_chunk",
+      "chunk_title": "Climate risk assessment should remain part of planning",
+      "text": "The article recommends integrating climate risk assessments into strategic planning and using training to prevent complacency in pro-environmental behavior. For smart homes, green rule transformations should preserve awareness of ongoing risks and should not remove comfort, safety, or resilience considerations while optimizing energy or water use.",
+      "normalized_green_categories": [
+        "environmental_awareness",
+        "comfort_security",
+        "weak_green_potential"
+      ],
+      "device_categories": [
+        "generic_smart_home"
+      ],
+      "green_dimensions": [
+        "environmental_awareness",
+        "intent_preservation",
+        "user_feedback"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "When optimizing a rule, preserve the original safety or comfort purpose and avoid implying that a single green action eliminates broader risk."
+    }
+  ],
+  "patterns": [
+    {
+      "pattern_id": "ARTICLE_006_PATTERN_001",
+      "doc_type": "green_pattern",
+      "pattern_name": "add_environmental_awareness_feedback",
+      "pattern_description": "Add a user-facing feedback action that explains the environmental or energy impact of an automation, especially for repeated or high-consumption actions. The article supports this through its emphasis on environmental awareness as a driver of pro-environmental behavior.",
+      "normalized_green_categories": [
+        "environmental_awareness",
+        "energy_monitoring"
+      ],
+      "applies_to_device_categories": [
+        "generic_smart_home",
+        "appliance"
+      ],
+      "green_dimensions": [
+        "environmental_awareness",
+        "user_feedback",
+        "consumption_monitoring"
+      ],
+      "when_to_apply": "Apply when a rule triggers an energy- or resource-consuming action and the user could benefit from understanding its sustainability impact.",
+      "when_not_to_apply": "Do not apply when feedback would be intrusive, safety-critical actions require immediate execution, or the rule has no meaningful environmental impact."
+    },
+    {
+      "pattern_id": "ARTICLE_006_PATTERN_002",
+      "doc_type": "green_pattern",
+      "pattern_name": "translate_awareness_into_concrete_action",
+      "pattern_description": "Do not stop at awareness-only messaging; pair green feedback with a concrete lower-impact action such as efficient operation, reduced unnecessary activation, renewable-powered operation, or monitoring. The article emphasizes that environmental awareness becomes valuable when translated into renewable energy adoption and green practices.",
+      "normalized_green_categories": [
+        "environmental_awareness",
+        "appliance_energy_management",
+        "energy_monitoring"
+      ],
+      "applies_to_device_categories": [
+        "generic_smart_home",
+        "appliance",
+        "solar_panel"
+      ],
+      "green_dimensions": [
+        "environmental_awareness",
+        "energy_saving",
+        "automation_efficiency",
+        "consumption_monitoring"
+      ],
+      "when_to_apply": "Apply when the original rule can be made greener by adding an actionable device behavior or monitoring step while preserving the original intent.",
+      "when_not_to_apply": "Do not apply when no reliable action or measurement is available, or when the modification would prevent the user from receiving the intended comfort or safety outcome."
+    },
+    {
+      "pattern_id": "ARTICLE_006_PATTERN_003",
+      "doc_type": "green_pattern",
+      "pattern_name": "prefer_renewable_energy_when_available",
+      "pattern_description": "When a home has renewable energy information available, prefer running flexible energy-consuming actions when renewable supply is available or when the action can be served by renewable energy. The article supports renewable energy adoption as a way to reduce emissions, ecological damage, and operating costs.",
+      "normalized_green_categories": [
+        "appliance_energy_management",
+        "environmental_awareness"
+      ],
+      "applies_to_device_categories": [
+        "solar_panel",
+        "appliance",
+        "generic_smart_home"
+      ],
+      "green_dimensions": [
+        "energy_saving",
+        "automation_efficiency",
+        "environmental_awareness",
+        "intent_preservation"
+      ],
+      "when_to_apply": "Apply to non-urgent or flexible appliance actions where renewable generation or renewable energy availability is known.",
+      "when_not_to_apply": "Do not delay or alter actions that are urgent, safety-related, required for comfort, or not actually connected to available renewable energy information."
+    },
+    {
+      "pattern_id": "ARTICLE_006_PATTERN_004",
+      "doc_type": "green_pattern",
+      "pattern_name": "keep_efficiency_constraints_even_with_renewables",
+      "pattern_description": "Do not treat renewable energy availability as permission for wasteful consumption. The article warns that renewable energy adoption can create a sense of accomplishment or complacency that lowers perceived urgency for broader environmental action.",
+      "normalized_green_categories": [
+        "appliance_energy_management",
+        "environmental_awareness",
+        "energy_monitoring"
+      ],
+      "applies_to_device_categories": [
+        "solar_panel",
+        "appliance",
+        "generic_smart_home"
+      ],
+      "green_dimensions": [
+        "energy_saving",
+        "environmental_awareness",
+        "consumption_monitoring",
+        "automation_efficiency"
+      ],
+      "when_to_apply": "Apply when a rule uses renewable energy availability as a condition but could still waste energy through unnecessary runtime or repeated activation.",
+      "when_not_to_apply": "Do not apply if limiting the action would undermine a critical comfort, health, or safety purpose."
+    },
+    {
+      "pattern_id": "ARTICLE_006_PATTERN_005",
+      "doc_type": "green_pattern",
+      "pattern_name": "use_green_innovation_or_efficient_mode",
+      "pattern_description": "Replace blunt high-consumption actions with more efficient device modes, smarter control logic, or other available green capabilities. The article defines green innovation as eco-friendly products, processes, and systems that reduce pollution and conserve resources.",
+      "normalized_green_categories": [
+        "appliance_energy_management",
+        "environmental_awareness"
+      ],
+      "applies_to_device_categories": [
+        "appliance",
+        "generic_smart_home"
+      ],
+      "green_dimensions": [
+        "energy_saving",
+        "automation_efficiency",
+        "intent_preservation"
+      ],
+      "when_to_apply": "Apply when the device or smart-home platform supports a lower-impact mode that still satisfies the user's intended outcome.",
+      "when_not_to_apply": "Do not apply when the efficient mode is unavailable, unreliable, or fails to meet the user's original functional requirement."
+    },
+    {
+      "pattern_id": "ARTICLE_006_PATTERN_006",
+      "doc_type": "green_pattern",
+      "pattern_name": "add_consumption_monitoring_or_audit",
+      "pattern_description": "Add a monitoring or audit step for energy-intensive rules so the system can track consumption and verify whether the greener rule actually improves performance. The article recommends energy audits and SMART environmental performance metrics for progress, transparency, and accountability.",
+      "normalized_green_categories": [
+        "energy_monitoring",
+        "appliance_energy_management",
+        "environmental_awareness"
+      ],
+      "applies_to_device_categories": [
+        "generic_smart_home",
+        "appliance",
+        "solar_panel"
+      ],
+      "green_dimensions": [
+        "consumption_monitoring",
+        "user_feedback",
+        "energy_saving",
+        "automation_efficiency"
+      ],
+      "when_to_apply": "Apply when a rule controls devices with measurable energy use, runtime, or renewable-energy share.",
+      "when_not_to_apply": "Do not apply when monitoring data is unavailable, unreliable, or would add complexity without improving decision quality."
+    },
+    {
+      "pattern_id": "ARTICLE_006_PATTERN_007",
+      "doc_type": "green_pattern",
+      "pattern_name": "avoid_green_complacency",
+      "pattern_description": "Pair green actions with continued awareness or periodic review so users do not assume that one sustainable action eliminates the need for broader efficiency. The article identifies efficacy complacency and environmental fatigue as risks when awareness or renewable adoption reduces perceived climate severity.",
+      "normalized_green_categories": [
+        "environmental_awareness",
+        "energy_monitoring"
+      ],
+      "applies_to_device_categories": [
+        "generic_smart_home",
+        "appliance",
+        "solar_panel"
+      ],
+      "green_dimensions": [
+        "environmental_awareness",
+        "user_feedback",
+        "consumption_monitoring"
+      ],
+      "when_to_apply": "Apply when a rule adds a green feature such as renewable use or efficiency feedback and the system can periodically evaluate or remind the user about ongoing improvement.",
+      "when_not_to_apply": "Do not apply when reminders would become excessive, annoying, or unrelated to actual consumption behavior."
+    },
+    {
+      "pattern_id": "ARTICLE_006_PATTERN_008",
+      "doc_type": "green_pattern",
+      "pattern_name": "preserve_intent_while_reducing_impact",
+      "pattern_description": "Modify rules in ways that reduce energy or resource impact while preserving the user's original functional intent. The article stresses that sustainability strategies must be practical and that green adoption is affected by costs, expertise, and resistance to change.",
+      "normalized_green_categories": [
+        "environmental_awareness",
+        "appliance_energy_management",
+        "comfort_security",
+        "weak_green_potential"
+      ],
+      "applies_to_device_categories": [
+        "generic_smart_home",
+        "appliance"
+      ],
+      "green_dimensions": [
+        "intent_preservation",
+        "energy_saving",
+        "automation_efficiency",
+        "user_feedback"
+      ],
+      "when_to_apply": "Apply to any rule where a lower-impact alternative can deliver the same user-facing purpose.",
+      "when_not_to_apply": "Do not apply when the green modification would reduce safety, security, health, accessibility, or essential comfort."
+    },
+    {
+      "pattern_id": "ARTICLE_006_PATTERN_009",
+      "doc_type": "green_pattern",
+      "pattern_name": "flag_water_waste_for_review",
+      "pattern_description": "Treat water-consuming automation as a candidate for monitoring, feedback, or waste reduction. The article lists water wastage as one of the environmental problems contributing to degradation, although it does not provide detailed smart-home irrigation strategies.",
+      "normalized_green_categories": [
+        "water_saving",
+        "environmental_awareness",
+        "weak_green_potential"
+      ],
+      "applies_to_device_categories": [
+        "generic_smart_home"
+      ],
+      "green_dimensions": [
+        "water_saving",
+        "environmental_awareness",
+        "user_feedback",
+        "intent_preservation"
+      ],
+      "when_to_apply": "Apply when a rule clearly controls or implies water use and there is an opportunity to reduce unnecessary consumption.",
+      "when_not_to_apply": "Do not apply when water use is not part of the automation or when reducing it would undermine hygiene, safety, plant survival, or another required function."
+    },
+    {
+      "pattern_id": "ARTICLE_006_PATTERN_010",
+      "doc_type": "green_pattern",
+      "pattern_name": "use_measurable_green_success_criteria",
+      "pattern_description": "Evaluate greener rule variants with measurable criteria such as energy use, runtime, resource use, or renewable-energy contribution. The article recommends SMART environmental performance metrics to track progress and provide accountability.",
+      "normalized_green_categories": [
+        "energy_monitoring",
+        "environmental_awareness",
+        "appliance_energy_management"
+      ],
+      "applies_to_device_categories": [
+        "generic_smart_home",
+        "appliance",
+        "solar_panel"
+      ],
+      "green_dimensions": [
+        "consumption_monitoring",
+        "energy_saving",
+        "automation_efficiency",
+        "user_feedback"
+      ],
+      "when_to_apply": "Apply when comparing an original rule with a greener transformed rule and relevant measurements are available.",
+      "when_not_to_apply": "Do not apply when no trustworthy measurement is available or when the evaluation metric would ignore the user's comfort or safety intent."
+    },
+    {
+      "pattern_id": "ARTICLE_006_PATTERN_011",
+      "doc_type": "green_pattern",
+      "pattern_name": "adapt_green_rules_to_available_capability",
+      "pattern_description": "Use the green capabilities that are actually available in the home, such as renewable-energy information, efficient device modes, or monitoring. The article shows that green innovation and technical capacity strengthen the relationship between awareness and renewable energy adoption.",
+      "normalized_green_categories": [
+        "appliance_energy_management",
+        "energy_monitoring",
+        "environmental_awareness"
+      ],
+      "applies_to_device_categories": [
+        "generic_smart_home",
+        "appliance",
+        "solar_panel"
+      ],
+      "green_dimensions": [
+        "automation_efficiency",
+        "energy_saving",
+        "consumption_monitoring",
+        "intent_preservation"
+      ],
+      "when_to_apply": "Apply when a rule can be improved by using an existing smart capability rather than adding a generic green recommendation.",
+      "when_not_to_apply": "Do not apply when the required device capability, data source, or automation feature is absent."
+    },
+    {
+      "pattern_id": "ARTICLE_006_PATTERN_012",
+      "doc_type": "green_pattern",
+      "pattern_name": "support_continuous_green_improvement",
+      "pattern_description": "Design green transformations as part of an ongoing improvement process rather than a one-time fix. The article recommends continuous improvement, climate risk assessment, and training to prevent complacency in pro-environmental behavior.",
+      "normalized_green_categories": [
+        "environmental_awareness",
+        "energy_monitoring",
+        "weak_green_potential"
+      ],
+      "applies_to_device_categories": [
+        "generic_smart_home",
+        "appliance",
+        "solar_panel"
+      ],
+      "green_dimensions": [
+        "environmental_awareness",
+        "consumption_monitoring",
+        "user_feedback",
+        "automation_efficiency"
+      ],
+      "when_to_apply": "Apply when smart-home rules are part of a larger automation set that can be reviewed or optimized over time.",
+      "when_not_to_apply": "Do not apply when the rule is a one-time safety or emergency action where review loops would not be meaningful."
+    }
+  ]
+}

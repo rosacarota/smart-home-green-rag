@@ -1,0 +1,894 @@
+{
+  "article_id": "ARTICLE_008",
+  "source_title": "Energy and GHG saving potentials of sufficiency measures - a synthesis for Germany",
+  "source_type": "paper",
+  "source_url": "",
+  "year": "",
+  "article_summary": "The article synthesizes quantified energy and greenhouse-gas saving potentials of sufficiency measures in Germany. Although it is not specifically about smart homes, it contains several concepts useful for green smart-home rule generation: demand avoidance, reduced heating demand, lower room temperatures, efficient ventilation, appliance electricity reduction, living-space and space-use optimization, product lifetime extension, and the need to preserve well-being while reducing energy demand. The building sector is the most relevant part for smart-home automation, especially heating behavior and appliance electricity consumption. The article also emphasizes that green rule evaluation should consider baseline assumptions, time horizon, calculation method, type of potential, and whether savings are theoretical, expected, or realized.",
+  "main_normalized_green_categories": [
+    "hvac_optimization",
+    "appliance_energy_management",
+    "energy_monitoring",
+    "occupancy_based_control",
+    "environmental_awareness",
+    "comfort_security",
+    "weak_green_potential"
+  ],
+  "main_device_categories": [
+    "thermostat",
+    "hvac",
+    "heater",
+    "air_conditioner",
+    "appliance",
+    "smart_plug",
+    "sensor",
+    "window",
+    "generic_smart_home"
+  ],
+  "main_green_dimensions": [
+    "energy_saving",
+    "temperature_awareness",
+    "duration_limit",
+    "consumption_monitoring",
+    "automation_efficiency",
+    "intent_preservation",
+    "occupancy_awareness",
+    "environmental_awareness",
+    "user_feedback"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "ARTICLE_008_CHUNK_001",
+      "doc_type": "article_chunk",
+      "chunk_title": "Sufficiency as demand avoidance while preserving well-being",
+      "text": "The article adopts the IPCC framing of sufficiency as measures and daily practices that avoid demand for energy, materials, land, and water while delivering human well-being within planetary boundaries. For green smart-home rule generation, this means that rules should not only improve device efficiency but should reduce unnecessary demand while preserving the user's functional intent, comfort, and safety.",
+      "normalized_green_categories": [
+        "environmental_awareness",
+        "comfort_security",
+        "weak_green_potential"
+      ],
+      "device_categories": [
+        "generic_smart_home"
+      ],
+      "green_dimensions": [
+        "energy_saving",
+        "environmental_awareness",
+        "intent_preservation",
+        "automation_efficiency"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "Use sufficiency as a high-level transformation principle: modify IF-THEN rules to avoid unnecessary energy use, but do not remove the core service the user wanted."
+    },
+    {
+      "chunk_id": "ARTICLE_008_CHUNK_002",
+      "doc_type": "article_chunk",
+      "chunk_title": "Demand-side measures can reduce emissions while maintaining well-being",
+      "text": "The article emphasizes that demand-side options can be consistent with high levels of well-being. This is important for green smart-home automation because energy-saving transformations should avoid a simplistic 'turn everything off' strategy and instead preserve comfort, safety, and service quality.",
+      "normalized_green_categories": [
+        "comfort_security",
+        "environmental_awareness"
+      ],
+      "device_categories": [
+        "generic_smart_home",
+        "thermostat",
+        "hvac",
+        "appliance",
+        "light"
+      ],
+      "green_dimensions": [
+        "intent_preservation",
+        "energy_saving",
+        "automation_efficiency"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "When greening a rule, keep the original functional intent and introduce constraints such as lower intensity, shorter duration, or conditional activation rather than deleting the automation."
+    },
+    {
+      "chunk_id": "ARTICLE_008_CHUNK_003",
+      "doc_type": "article_chunk",
+      "chunk_title": "Sufficiency includes absolute reduction, product longevity, sharing, and modal shifts",
+      "text": "The article cites sufficiency literature that distinguishes several types of consumption changes: absolute reduction, modal shift, product longevity, and sharing practices. For smart homes, absolute reduction and product longevity are most directly relevant: automate devices only when needed, reduce operating time or intensity, and avoid premature replacement of functional appliances.",
+      "normalized_green_categories": [
+        "appliance_energy_management",
+        "standby_reduction",
+        "weak_green_potential"
+      ],
+      "device_categories": [
+        "appliance",
+        "smart_plug",
+        "generic_smart_home"
+      ],
+      "green_dimensions": [
+        "energy_saving",
+        "duration_limit",
+        "standby_reduction",
+        "automation_efficiency"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "Prefer transformations that reduce unnecessary runtime, reduce service intensity, avoid standby waste, or support longer device use before replacement."
+    },
+    {
+      "chunk_id": "ARTICLE_008_CHUNK_004",
+      "doc_type": "article_chunk",
+      "chunk_title": "Building sector is highly relevant for sufficiency savings",
+      "text": "The article reports that the building sector accounts for the largest share of entries in the sufficiency-potential database, with many entries concerning appliances, living space, and heating behavior. This makes building-related automation, especially HVAC and appliance rules, a strong target for green smart-home transformation.",
+      "normalized_green_categories": [
+        "hvac_optimization",
+        "appliance_energy_management",
+        "energy_monitoring"
+      ],
+      "device_categories": [
+        "thermostat",
+        "hvac",
+        "heater",
+        "air_conditioner",
+        "appliance",
+        "smart_plug",
+        "generic_smart_home"
+      ],
+      "green_dimensions": [
+        "energy_saving",
+        "consumption_monitoring",
+        "automation_efficiency"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "Prioritize greening rules that control heating, cooling, and appliances because these domains are strongly represented in quantified building-sector sufficiency potentials."
+    },
+    {
+      "chunk_id": "ARTICLE_008_CHUNK_005",
+      "doc_type": "article_chunk",
+      "chunk_title": "Heating behavior is a major building-sector sufficiency lever",
+      "text": "The article identifies heating behavior as a building-sector cluster with quantified energy and GHG saving potentials. Many measures focus on reducing room temperatures by 1-2°C across varying shares of buildings in Germany.",
+      "normalized_green_categories": [
+        "hvac_optimization",
+        "comfort_security"
+      ],
+      "device_categories": [
+        "thermostat",
+        "hvac",
+        "heater",
+        "sensor"
+      ],
+      "green_dimensions": [
+        "energy_saving",
+        "temperature_awareness",
+        "intent_preservation"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "Transform heating rules by slightly lowering target temperatures where comfort and safety allow, rather than fully disabling heating."
+    },
+    {
+      "chunk_id": "ARTICLE_008_CHUNK_006",
+      "doc_type": "article_chunk",
+      "chunk_title": "Efficient ventilation can support lower heating temperatures",
+      "text": "The article reports a high GHG saving potential for ambitious heating behavior changes, including maintaining an 18°C room temperature with efficient ventilation. For rule generation, this supports coordination between heating rules and ventilation or window-related conditions.",
+      "normalized_green_categories": [
+        "hvac_optimization",
+        "comfort_security",
+        "environmental_awareness"
+      ],
+      "device_categories": [
+        "thermostat",
+        "hvac",
+        "heater",
+        "window",
+        "sensor"
+      ],
+      "green_dimensions": [
+        "energy_saving",
+        "temperature_awareness",
+        "automation_efficiency",
+        "intent_preservation"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "Avoid heating waste during ventilation; add window or ventilation conditions to HVAC rules while preserving acceptable indoor conditions."
+    },
+    {
+      "chunk_id": "ARTICLE_008_CHUNK_007",
+      "doc_type": "article_chunk",
+      "chunk_title": "Reducing room temperature and optimizing space use can strongly reduce GHG emissions",
+      "text": "The article reports that the highest GHG saving potential in the reviewed literature is a combination of reducing room temperature and optimizing space use, with savings up to 118 Mt CO2-eq./a. This suggests that smart-home HVAC automation can be greener when it avoids conditioning unnecessary spaces and applies lower setpoints where appropriate.",
+      "normalized_green_categories": [
+        "hvac_optimization",
+        "occupancy_based_control",
+        "comfort_security"
+      ],
+      "device_categories": [
+        "thermostat",
+        "hvac",
+        "heater",
+        "air_conditioner",
+        "sensor",
+        "motion_sensor"
+      ],
+      "green_dimensions": [
+        "energy_saving",
+        "temperature_awareness",
+        "occupancy_awareness",
+        "intent_preservation"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "For room-level HVAC rules, condition only spaces that are needed or likely to be used, while maintaining safe and comfortable temperatures."
+    },
+    {
+      "chunk_id": "ARTICLE_008_CHUNK_008",
+      "doc_type": "article_chunk",
+      "chunk_title": "Living-space reduction indicates value of limiting conditioned area",
+      "text": "The article identifies reducing per-capita living space as the highest total energy-saving measure in the database, with a potential of 150 TWh/a when average living space is reduced to 30 m2/person. Although this is not itself a smart-home rule, it supports the principle of reducing conditioned space or avoiding HVAC service in unused zones.",
+      "normalized_green_categories": [
+        "hvac_optimization",
+        "occupancy_based_control",
+        "weak_green_potential"
+      ],
+      "device_categories": [
+        "thermostat",
+        "hvac",
+        "heater",
+        "air_conditioner",
+        "sensor",
+        "generic_smart_home"
+      ],
+      "green_dimensions": [
+        "energy_saving",
+        "occupancy_awareness",
+        "temperature_awareness",
+        "automation_efficiency"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "Use zoning, room-use conditions, or occupancy assumptions to avoid heating or cooling rooms that do not need active conditioning."
+    },
+    {
+      "chunk_id": "ARTICLE_008_CHUNK_009",
+      "doc_type": "article_chunk",
+      "chunk_title": "Appliance electricity reduction is a quantified building-sector opportunity",
+      "text": "The article reports many building-sector appliance measures, ranging from small measures such as optimizing ventilators and TVs to more impactful measures involving dryers, refrigerators, or multiple appliances. Appliance-related savings can reach up to 19.8 TWh/a in the reviewed database.",
+      "normalized_green_categories": [
+        "appliance_energy_management",
+        "standby_reduction",
+        "energy_monitoring"
+      ],
+      "device_categories": [
+        "appliance",
+        "smart_plug",
+        "sensor",
+        "generic_smart_home"
+      ],
+      "green_dimensions": [
+        "energy_saving",
+        "standby_reduction",
+        "duration_limit",
+        "consumption_monitoring",
+        "automation_efficiency"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "For appliance rules, reduce unnecessary runtime, avoid idle operation, and prioritize high-consumption appliances when applying greener transformations."
+    },
+    {
+      "chunk_id": "ARTICLE_008_CHUNK_010",
+      "doc_type": "article_chunk",
+      "chunk_title": "Halving electricity demand is treated as a high-potential building sufficiency measure",
+      "text": "The article cites a building-sector GHG reduction potential of 32.3 Mt CO2-eq./a for halving electricity demand. For smart-home automation, this supports rules that reduce discretionary electricity use through conditional activation, automatic shutoff, or reduced runtime.",
+      "normalized_green_categories": [
+        "appliance_energy_management",
+        "standby_reduction",
+        "energy_monitoring"
+      ],
+      "device_categories": [
+        "appliance",
+        "smart_plug",
+        "light",
+        "generic_smart_home"
+      ],
+      "green_dimensions": [
+        "energy_saving",
+        "duration_limit",
+        "standby_reduction",
+        "consumption_monitoring",
+        "automation_efficiency"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "When a rule turns on or keeps on an electrical device, add constraints that reduce runtime or prevent operation when the service is not needed."
+    },
+    {
+      "chunk_id": "ARTICLE_008_CHUNK_011",
+      "doc_type": "article_chunk",
+      "chunk_title": "Small appliance optimizations still matter but may have lower individual potential",
+      "text": "The article notes that some appliance measures, such as optimizing ventilators and TVs, have relatively small energy-saving potentials below 1 TWh/a. This implies that small smart-home optimizations can be useful, but their impact may be limited unless applied broadly or combined with other measures.",
+      "normalized_green_categories": [
+        "appliance_energy_management",
+        "weak_green_potential"
+      ],
+      "device_categories": [
+        "appliance",
+        "smart_plug",
+        "generic_smart_home"
+      ],
+      "green_dimensions": [
+        "energy_saving",
+        "automation_efficiency",
+        "duration_limit"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "Apply small appliance optimizations as low-risk improvements, but prioritize larger appliances or combined rule changes for stronger energy impact."
+    },
+    {
+      "chunk_id": "ARTICLE_008_CHUNK_012",
+      "doc_type": "article_chunk",
+      "chunk_title": "Larger appliances can offer more impactful savings",
+      "text": "The article distinguishes small appliance measures from more impactful measures targeting larger appliances such as dryers and refrigerators or multiple appliances across buildings. This supports priority-based rule generation: optimize devices with higher consumption first.",
+      "normalized_green_categories": [
+        "appliance_energy_management",
+        "energy_monitoring"
+      ],
+      "device_categories": [
+        "appliance",
+        "smart_plug",
+        "sensor"
+      ],
+      "green_dimensions": [
+        "energy_saving",
+        "consumption_monitoring",
+        "automation_efficiency"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "When multiple devices could be optimized, target high-consumption appliances before low-consumption ones."
+    },
+    {
+      "chunk_id": "ARTICLE_008_CHUNK_013",
+      "doc_type": "article_chunk",
+      "chunk_title": "Product lifetime extension reduces emissions from products and appliances",
+      "text": "The article reports GHG saving potentials for product lifetime extension, including specific product groups such as lamps, furniture, and household appliances, and broader lifetime-extension measures across all products. This is relevant to smart-home systems that generate maintenance, replacement, or upgrade recommendations.",
+      "normalized_green_categories": [
+        "appliance_energy_management",
+        "lighting_efficiency",
+        "weak_green_potential"
+      ],
+      "device_categories": [
+        "appliance",
+        "light",
+        "generic_smart_home"
+      ],
+      "green_dimensions": [
+        "energy_saving",
+        "environmental_awareness",
+        "user_feedback"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "Avoid automations or recommendations that encourage premature replacement of functional devices unless replacement is clearly justified by safety, failure, or substantial efficiency gains."
+    },
+    {
+      "chunk_id": "ARTICLE_008_CHUNK_014",
+      "doc_type": "article_chunk",
+      "chunk_title": "Circular economy and sharing economy reduce production-related demand",
+      "text": "The article identifies circular economy, sharing economy, reuse, and product lifetime measures as sources of energy or GHG savings in the industry and production sector. For smart-home rule generation, this is indirectly useful for device lifecycle awareness: greener behavior includes using existing devices longer and reducing unnecessary new device demand.",
+      "normalized_green_categories": [
+        "appliance_energy_management",
+        "environmental_awareness",
+        "weak_green_potential"
+      ],
+      "device_categories": [
+        "appliance",
+        "generic_smart_home"
+      ],
+      "green_dimensions": [
+        "energy_saving",
+        "environmental_awareness",
+        "user_feedback"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "When a rule or recommendation involves device replacement, include lifecycle-aware reasoning rather than assuming new devices are always greener."
+    },
+    {
+      "chunk_id": "ARTICLE_008_CHUNK_015",
+      "doc_type": "article_chunk",
+      "chunk_title": "Theoretical potentials are usually higher than realized potentials",
+      "text": "The article finds that theoretical saving potentials are higher than realized or expected potentials within a cluster. For green rule generation and evaluation, this means that estimated savings from idealized smart-home automations should be treated cautiously and adjusted using observed user behavior where possible.",
+      "normalized_green_categories": [
+        "energy_monitoring",
+        "comfort_security",
+        "weak_green_potential"
+      ],
+      "device_categories": [
+        "sensor",
+        "generic_smart_home"
+      ],
+      "green_dimensions": [
+        "consumption_monitoring",
+        "user_feedback",
+        "automation_efficiency",
+        "intent_preservation"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "Prefer adaptive rules that learn from actual use or include feedback loops, rather than relying only on theoretical maximum savings."
+    },
+    {
+      "chunk_id": "ARTICLE_008_CHUNK_016",
+      "doc_type": "article_chunk",
+      "chunk_title": "Metadata is essential for comparing saving potentials",
+      "text": "The article stresses that saving potentials are hard to compare without metadata such as unit, year, measure description, sector, type of potential, calculation method, baseline, and whether the calculation is territorial or consumption-based. For smart-home RAG, each green rule transformation should record assumptions and context to support transparent evaluation.",
+      "normalized_green_categories": [
+        "energy_monitoring",
+        "weak_green_potential"
+      ],
+      "device_categories": [
+        "generic_smart_home",
+        "sensor"
+      ],
+      "green_dimensions": [
+        "consumption_monitoring",
+        "user_feedback",
+        "automation_efficiency"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "Attach evaluation metadata to generated rules, including what energy use is being reduced, what baseline is assumed, and whether savings are estimated or measured."
+    },
+    {
+      "chunk_id": "ARTICLE_008_CHUNK_017",
+      "doc_type": "article_chunk",
+      "chunk_title": "Consumption-based accounting can reveal broader impacts",
+      "text": "The article notes that consumption-based or lifecycle approaches can produce different, often higher, saving estimates than territorial approaches because they include upstream and downstream impacts. For smart-home automation, this supports considering device manufacturing and replacement impacts, not only operational electricity.",
+      "normalized_green_categories": [
+        "environmental_awareness",
+        "appliance_energy_management",
+        "energy_monitoring"
+      ],
+      "device_categories": [
+        "appliance",
+        "light",
+        "generic_smart_home"
+      ],
+      "green_dimensions": [
+        "environmental_awareness",
+        "consumption_monitoring",
+        "energy_saving"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "When recommending device changes, distinguish operational energy savings from lifecycle impacts and avoid unjustified replacement."
+    },
+    {
+      "chunk_id": "ARTICLE_008_CHUNK_018",
+      "doc_type": "article_chunk",
+      "chunk_title": "Additional metrics beyond energy can matter",
+      "text": "The article reports that some studies include additional metrics such as material savings, land use, costs, air quality, noise reduction, road accidents, toxicity, and acidification. Although many are outside smart-home automation, this supports multi-criteria evaluation of green rules rather than judging only direct energy savings.",
+      "normalized_green_categories": [
+        "environmental_awareness",
+        "comfort_security",
+        "weak_green_potential"
+      ],
+      "device_categories": [
+        "generic_smart_home",
+        "sensor"
+      ],
+      "green_dimensions": [
+        "environmental_awareness",
+        "user_feedback",
+        "intent_preservation"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "Evaluate green smart-home rules with secondary impacts in mind, especially comfort, safety, indoor environmental quality, and user acceptance."
+    },
+    {
+      "chunk_id": "ARTICLE_008_CHUNK_019",
+      "doc_type": "article_chunk",
+      "chunk_title": "Sufficiency measures often need policy or implementation mechanisms",
+      "text": "The article finds that many decarbonization or sufficiency measures are proposed without clarifying how they can be realized. For smart-home automation, the equivalent issue is that a green intent should be translated into concrete implementable IF-THEN conditions and actions.",
+      "normalized_green_categories": [
+        "weak_green_potential",
+        "energy_monitoring"
+      ],
+      "device_categories": [
+        "generic_smart_home"
+      ],
+      "green_dimensions": [
+        "automation_efficiency",
+        "intent_preservation",
+        "user_feedback"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "Convert broad green goals into concrete trigger-action modifications, such as thresholds, runtime limits, occupancy checks, or feedback prompts."
+    },
+    {
+      "chunk_id": "ARTICLE_008_CHUNK_020",
+      "doc_type": "article_chunk",
+      "chunk_title": "Sufficiency interventions may be small individually but scalable in combination",
+      "text": "The article notes that many sufficiency interventions occur at small scales and may have low individual potentials, but they can be scaled up by combining them with other sufficiency, efficiency, or consistency measures. This is useful for smart-home rules because small changes across many automations can accumulate.",
+      "normalized_green_categories": [
+        "appliance_energy_management",
+        "hvac_optimization",
+        "weak_green_potential"
+      ],
+      "device_categories": [
+        "thermostat",
+        "hvac",
+        "appliance",
+        "smart_plug",
+        "generic_smart_home"
+      ],
+      "green_dimensions": [
+        "energy_saving",
+        "automation_efficiency",
+        "duration_limit"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "Combine multiple low-disruption rule changes, such as lower HVAC setpoints and appliance runtime limits, rather than relying on a single extreme intervention."
+    },
+    {
+      "chunk_id": "ARTICLE_008_CHUNK_021",
+      "doc_type": "article_chunk",
+      "chunk_title": "More evidence from ex-post evaluations is needed",
+      "text": "The article states that realized potentials based on ex-post evaluations are more robust, but only a small share of the database contains this type of evidence. In smart-home systems, measured post-deployment consumption data can improve confidence that a rule is actually greener.",
+      "normalized_green_categories": [
+        "energy_monitoring"
+      ],
+      "device_categories": [
+        "sensor",
+        "smart_plug",
+        "generic_smart_home"
+      ],
+      "green_dimensions": [
+        "consumption_monitoring",
+        "user_feedback",
+        "automation_efficiency"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "Prefer rules that can be monitored after deployment and adjusted using actual consumption or runtime data."
+    },
+    {
+      "chunk_id": "ARTICLE_008_CHUNK_022",
+      "doc_type": "article_chunk",
+      "chunk_title": "Sufficiency can complement efficiency and renewable energy",
+      "text": "The article argues that reducing energy demand through sufficiency reduces pressure on renewable energy expansion and other mitigation options. For smart homes, this means that rules should first avoid unnecessary demand, then use efficient operation, rather than assuming green supply alone solves consumption.",
+      "normalized_green_categories": [
+        "environmental_awareness",
+        "appliance_energy_management",
+        "hvac_optimization"
+      ],
+      "device_categories": [
+        "generic_smart_home",
+        "solar_panel",
+        "battery",
+        "appliance",
+        "hvac"
+      ],
+      "green_dimensions": [
+        "energy_saving",
+        "environmental_awareness",
+        "automation_efficiency"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "When modifying a rule, prioritize demand reduction before relying on supply-side actions such as renewable availability."
+    },
+    {
+      "chunk_id": "ARTICLE_008_CHUNK_023",
+      "doc_type": "article_chunk",
+      "chunk_title": "Behavioral changes are central to building-sector sufficiency",
+      "text": "The article notes that many building-sector potentials are behavioral changes, such as reducing heating or changing appliance use. Smart-home automation can support these behavioral changes by making energy-saving behavior automatic, easier, or visible to users.",
+      "normalized_green_categories": [
+        "hvac_optimization",
+        "appliance_energy_management",
+        "energy_monitoring"
+      ],
+      "device_categories": [
+        "thermostat",
+        "hvac",
+        "heater",
+        "appliance",
+        "smart_plug",
+        "sensor"
+      ],
+      "green_dimensions": [
+        "energy_saving",
+        "user_feedback",
+        "automation_efficiency",
+        "consumption_monitoring"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "Use automation to support lower-energy habits, such as reduced heating intensity, shorter device runtimes, and feedback on consumption."
+    }
+  ],
+  "patterns": [
+    {
+      "pattern_id": "ARTICLE_008_PATTERN_001",
+      "doc_type": "green_pattern",
+      "pattern_name": "lower_hvac_setpoint_with_comfort_guard",
+      "pattern_description": "Modify heating rules by reducing the target room temperature modestly, reflecting the article's finding that many heating-behavior measures reduce room temperatures by 1-2°C. Preserve comfort and safety by applying the reduction only when acceptable for the user and context.",
+      "normalized_green_categories": [
+        "hvac_optimization",
+        "comfort_security"
+      ],
+      "applies_to_device_categories": [
+        "thermostat",
+        "hvac",
+        "heater"
+      ],
+      "green_dimensions": [
+        "energy_saving",
+        "temperature_awareness",
+        "intent_preservation"
+      ],
+      "when_to_apply": "Apply when an existing rule heats a room to a comfort setpoint and a slightly lower setpoint would still preserve the user's intended comfort or safety.",
+      "when_not_to_apply": "Do not apply when the rule protects health, prevents freezing, serves vulnerable occupants, or when the user explicitly requires the original temperature."
+    },
+    {
+      "pattern_id": "ARTICLE_008_PATTERN_002",
+      "doc_type": "green_pattern",
+      "pattern_name": "coordinate_heating_with_ventilation",
+      "pattern_description": "Add a condition that prevents unnecessary heating during ventilation or window-opening periods. The article links ambitious heating behavior savings with efficient ventilation, supporting coordinated HVAC and ventilation behavior.",
+      "normalized_green_categories": [
+        "hvac_optimization",
+        "environmental_awareness",
+        "comfort_security"
+      ],
+      "applies_to_device_categories": [
+        "thermostat",
+        "hvac",
+        "heater",
+        "window",
+        "sensor"
+      ],
+      "green_dimensions": [
+        "energy_saving",
+        "temperature_awareness",
+        "automation_efficiency",
+        "intent_preservation"
+      ],
+      "when_to_apply": "Apply when a heating rule may run while windows are open, while ventilation is active, or while a room is being aired.",
+      "when_not_to_apply": "Do not apply when ventilation is required for safety or indoor air quality and heating must remain active to maintain minimum safe temperature."
+    },
+    {
+      "pattern_id": "ARTICLE_008_PATTERN_003",
+      "doc_type": "green_pattern",
+      "pattern_name": "condition_hvac_by_room_use_or_zone_need",
+      "pattern_description": "Modify HVAC rules so that heating or cooling is focused on spaces that need conditioning. The article's findings on reduced living space and optimized space use support reducing the area that requires active heating or cooling.",
+      "normalized_green_categories": [
+        "hvac_optimization",
+        "occupancy_based_control",
+        "comfort_security"
+      ],
+      "applies_to_device_categories": [
+        "thermostat",
+        "hvac",
+        "heater",
+        "air_conditioner",
+        "sensor",
+        "motion_sensor"
+      ],
+      "green_dimensions": [
+        "energy_saving",
+        "occupancy_awareness",
+        "temperature_awareness",
+        "intent_preservation"
+      ],
+      "when_to_apply": "Apply when an automation conditions multiple rooms or zones even though only some are expected to be used.",
+      "when_not_to_apply": "Do not apply when whole-home conditioning is needed for safety, humidity control, building protection, pets, or explicit user comfort."
+    },
+    {
+      "pattern_id": "ARTICLE_008_PATTERN_004",
+      "doc_type": "green_pattern",
+      "pattern_name": "reduce_unnecessary_appliance_runtime",
+      "pattern_description": "Add runtime limits, inactivity shutoff, or need-based conditions to appliance rules. The article identifies appliance electricity reduction as a major building-sector sufficiency area and reports meaningful savings from appliance-related measures.",
+      "normalized_green_categories": [
+        "appliance_energy_management",
+        "standby_reduction"
+      ],
+      "applies_to_device_categories": [
+        "appliance",
+        "smart_plug",
+        "sensor"
+      ],
+      "green_dimensions": [
+        "energy_saving",
+        "duration_limit",
+        "standby_reduction",
+        "automation_efficiency"
+      ],
+      "when_to_apply": "Apply when an appliance is turned on automatically, left on after use, or controlled without a condition limiting duration or need.",
+      "when_not_to_apply": "Do not apply when the appliance must remain on for safety, food preservation, medical use, security, or a user-specified continuous function."
+    },
+    {
+      "pattern_id": "ARTICLE_008_PATTERN_005",
+      "doc_type": "green_pattern",
+      "pattern_name": "prioritize_high_consumption_appliances",
+      "pattern_description": "When multiple appliance rules can be greened, prioritize larger or more energy-relevant appliances. The article distinguishes low-potential measures such as TVs and ventilators from more impactful appliance measures involving dryers, refrigerators, or multiple appliances.",
+      "normalized_green_categories": [
+        "appliance_energy_management",
+        "energy_monitoring"
+      ],
+      "applies_to_device_categories": [
+        "appliance",
+        "smart_plug",
+        "sensor"
+      ],
+      "green_dimensions": [
+        "energy_saving",
+        "consumption_monitoring",
+        "automation_efficiency"
+      ],
+      "when_to_apply": "Apply when choosing which automations to optimize first or when ranking possible green rule transformations.",
+      "when_not_to_apply": "Do not apply if a lower-consumption device is safety-critical or if the high-consumption appliance cannot be safely interrupted."
+    },
+    {
+      "pattern_id": "ARTICLE_008_PATTERN_006",
+      "doc_type": "green_pattern",
+      "pattern_name": "add_consumption_feedback_to_green_rules",
+      "pattern_description": "Add monitoring or feedback when possible so the smart-home system can distinguish theoretical savings from realized savings. The article emphasizes that ex-post evidence is more robust and that theoretical potentials are often higher than realized ones.",
+      "normalized_green_categories": [
+        "energy_monitoring",
+        "appliance_energy_management",
+        "hvac_optimization"
+      ],
+      "applies_to_device_categories": [
+        "smart_plug",
+        "sensor",
+        "thermostat",
+        "hvac",
+        "appliance",
+        "generic_smart_home"
+      ],
+      "green_dimensions": [
+        "consumption_monitoring",
+        "user_feedback",
+        "automation_efficiency"
+      ],
+      "when_to_apply": "Apply when a rule can be paired with energy, runtime, temperature, or device-state monitoring.",
+      "when_not_to_apply": "Do not apply when monitoring would violate user privacy, add disproportionate complexity, or require unavailable sensors."
+    },
+    {
+      "pattern_id": "ARTICLE_008_PATTERN_007",
+      "doc_type": "green_pattern",
+      "pattern_name": "preserve_service_with_lower_intensity",
+      "pattern_description": "Instead of removing an automation, reduce the intensity of the service while preserving intent. This follows the article's sufficiency framing: avoid excess demand while delivering well-being.",
+      "normalized_green_categories": [
+        "comfort_security",
+        "hvac_optimization",
+        "appliance_energy_management"
+      ],
+      "applies_to_device_categories": [
+        "thermostat",
+        "hvac",
+        "heater",
+        "air_conditioner",
+        "appliance",
+        "light",
+        "generic_smart_home"
+      ],
+      "green_dimensions": [
+        "energy_saving",
+        "intent_preservation",
+        "automation_efficiency"
+      ],
+      "when_to_apply": "Apply when the original rule provides a useful service but does so at a higher intensity, longer duration, or broader scope than needed.",
+      "when_not_to_apply": "Do not apply when reducing intensity would defeat the user's core purpose, create discomfort, or compromise safety or security."
+    },
+    {
+      "pattern_id": "ARTICLE_008_PATTERN_008",
+      "doc_type": "green_pattern",
+      "pattern_name": "combine_small_sufficiency_changes",
+      "pattern_description": "Combine multiple low-disruption changes, such as modest HVAC setpoint reductions and appliance runtime limits. The article notes that small sufficiency measures may have low individual potentials but can become more relevant when scaled or combined.",
+      "normalized_green_categories": [
+        "hvac_optimization",
+        "appliance_energy_management",
+        "weak_green_potential"
+      ],
+      "applies_to_device_categories": [
+        "thermostat",
+        "hvac",
+        "heater",
+        "air_conditioner",
+        "appliance",
+        "smart_plug",
+        "generic_smart_home"
+      ],
+      "green_dimensions": [
+        "energy_saving",
+        "duration_limit",
+        "automation_efficiency",
+        "intent_preservation"
+      ],
+      "when_to_apply": "Apply when one aggressive change would harm comfort but several modest changes can reduce demand while preserving intent.",
+      "when_not_to_apply": "Do not apply if the combined effect makes the automation too restrictive, confusing, or unreliable for the user."
+    },
+    {
+      "pattern_id": "ARTICLE_008_PATTERN_009",
+      "doc_type": "green_pattern",
+      "pattern_name": "avoid_premature_device_replacement",
+      "pattern_description": "For automations or recommendations involving devices, avoid assuming replacement is always greener. The article identifies product lifetime extension and circular economy measures as sources of GHG and energy savings.",
+      "normalized_green_categories": [
+        "appliance_energy_management",
+        "lighting_efficiency",
+        "environmental_awareness"
+      ],
+      "applies_to_device_categories": [
+        "appliance",
+        "light",
+        "generic_smart_home"
+      ],
+      "green_dimensions": [
+        "environmental_awareness",
+        "energy_saving",
+        "user_feedback"
+      ],
+      "when_to_apply": "Apply when a rule, recommendation, or automation workflow suggests replacing a functioning appliance or light.",
+      "when_not_to_apply": "Do not apply when the device is unsafe, broken, inefficient to an extreme degree, or when replacement is explicitly required by the user."
+    },
+    {
+      "pattern_id": "ARTICLE_008_PATTERN_010",
+      "doc_type": "green_pattern",
+      "pattern_name": "record_rule_saving_assumptions",
+      "pattern_description": "Attach metadata to green rule transformations, such as baseline, affected device, time horizon, expected type of saving, and whether the estimate is theoretical or measured. The article shows that saving potentials are difficult to compare without detailed metadata.",
+      "normalized_green_categories": [
+        "energy_monitoring",
+        "weak_green_potential"
+      ],
+      "applies_to_device_categories": [
+        "generic_smart_home",
+        "sensor",
+        "smart_plug"
+      ],
+      "green_dimensions": [
+        "consumption_monitoring",
+        "user_feedback",
+        "automation_efficiency"
+      ],
+      "when_to_apply": "Apply whenever a generated rule claims or estimates energy or GHG savings.",
+      "when_not_to_apply": "Do not apply when no saving claim is being made or when the transformation is purely descriptive."
+    },
+    {
+      "pattern_id": "ARTICLE_008_PATTERN_011",
+      "doc_type": "green_pattern",
+      "pattern_name": "prefer_measured_adjustment_over_static_assumptions",
+      "pattern_description": "Use observed runtime, consumption, temperature, or user feedback to adjust green rules. The article finds that theoretical potentials are often higher than realized potentials and calls for more ex-post evaluation.",
+      "normalized_green_categories": [
+        "energy_monitoring",
+        "comfort_security"
+      ],
+      "applies_to_device_categories": [
+        "sensor",
+        "smart_plug",
+        "thermostat",
+        "hvac",
+        "appliance",
+        "generic_smart_home"
+      ],
+      "green_dimensions": [
+        "consumption_monitoring",
+        "user_feedback",
+        "automation_efficiency",
+        "intent_preservation"
+      ],
+      "when_to_apply": "Apply when sensor data, energy data, or user acceptance feedback is available after rule deployment.",
+      "when_not_to_apply": "Do not apply when measurements are unavailable, unreliable, or too privacy-invasive."
+    },
+    {
+      "pattern_id": "ARTICLE_008_PATTERN_012",
+      "doc_type": "green_pattern",
+      "pattern_name": "translate_broad_sufficiency_goal_into_concrete_conditions",
+      "pattern_description": "Convert abstract energy sufficiency into implementable IF-THEN modifications such as lower setpoints, shorter runtime, reduced conditioned area, or appliance shutoff. The article notes that many measures lack clear implementation instruments, which smart-home rule generation must provide.",
+      "normalized_green_categories": [
+        "hvac_optimization",
+        "appliance_energy_management",
+        "energy_monitoring",
+        "weak_green_potential"
+      ],
+      "applies_to_device_categories": [
+        "thermostat",
+        "hvac",
+        "heater",
+        "air_conditioner",
+        "appliance",
+        "smart_plug",
+        "sensor",
+        "generic_smart_home"
+      ],
+      "green_dimensions": [
+        "energy_saving",
+        "duration_limit",
+        "temperature_awareness",
+        "automation_efficiency",
+        "intent_preservation"
+      ],
+      "when_to_apply": "Apply when the source rule has a green goal but lacks concrete operational constraints.",
+      "when_not_to_apply": "Do not apply when the added condition would be unsupported by available devices, sensors, or user preferences."
+    }
+  ]
+}

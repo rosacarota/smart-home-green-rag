@@ -1,0 +1,110 @@
+{
+  "article_id": "ARTICLE_001",
+  "source_title": "Editorial Board and Contents",
+  "source_type": "paper",
+  "source_url": "",
+  "year": "2017",
+  "article_summary": "The provided PDF is not the full article text. It is the editorial board and table of contents for Trends in Ecology & Evolution, Volume 32, Number 12, December 2017. The only green-relevant content is a table-of-contents entry for the review \"How Green is 'Green' Energy?\" and a cover note stating that hydropower and other renewable energy sources can help meet growing global energy demand and mitigate climate change, while warning that the biodiversity impacts of these green energy technologies are often overlooked.",
+  "main_normalized_green_categories": [
+    "environmental_awareness",
+    "weak_green_potential"
+  ],
+  "main_device_categories": [],
+  "main_green_dimensions": [
+    "environmental_awareness",
+    "energy_saving",
+    "intent_preservation"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "ARTICLE_001_CHUNK_001",
+      "doc_type": "article_chunk",
+      "chunk_title": "Renewable energy can support climate mitigation",
+      "text": "The cover note states that the rapid growth of hydropower and other renewable energy sources could help meet rapidly expanding global energy demands while mitigating climate change. This supports the general principle that energy-related automation can be considered greener when it reduces reliance on carbon-intensive energy sources or lowers overall energy demand.",
+      "normalized_green_categories": [
+        "environmental_awareness",
+        "weak_green_potential"
+      ],
+      "device_categories": [],
+      "green_dimensions": [
+        "energy_saving",
+        "environmental_awareness"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "Use as weak background justification for preferring smart-home rules that reduce energy demand, avoid unnecessary energy use, or align automation with cleaner energy objectives, while recognizing that the article does not discuss smart homes directly."
+    },
+    {
+      "chunk_id": "ARTICLE_001_CHUNK_002",
+      "doc_type": "article_chunk",
+      "chunk_title": "Green technologies can have overlooked environmental impacts",
+      "text": "The cover note warns that the biodiversity impacts of 'green' energy technologies have often been overlooked. This provides a cautionary principle: a rule or technology should not be treated as automatically sustainable only because it is labeled green; broader environmental side effects should be considered where relevant.",
+      "normalized_green_categories": [
+        "environmental_awareness",
+        "weak_green_potential"
+      ],
+      "device_categories": [],
+      "green_dimensions": [
+        "environmental_awareness",
+        "intent_preservation"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "Use as a weak evaluation heuristic for generated rules: greener automation should consider environmental consequences beyond immediate energy reduction, and should avoid simplistic assumptions that any 'green' action is automatically beneficial."
+    },
+    {
+      "chunk_id": "ARTICLE_001_CHUNK_003",
+      "doc_type": "article_chunk",
+      "chunk_title": "Environmental benefit should be assessed critically",
+      "text": "The table of contents lists the review \"How Green is 'Green' Energy?\", and the cover note says the article asks how green green energy really is. This supports a critical assessment approach: sustainability claims should be evaluated rather than accepted at face value.",
+      "normalized_green_categories": [
+        "environmental_awareness",
+        "weak_green_potential"
+      ],
+      "device_categories": [],
+      "green_dimensions": [
+        "environmental_awareness",
+        "automation_efficiency",
+        "intent_preservation"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "Use to justify adding an environmental-awareness check during rule evaluation: a transformed smart-home rule should be assessed for whether it meaningfully reduces waste or environmental burden rather than merely appearing green."
+    }
+  ],
+  "patterns": [
+    {
+      "pattern_id": "ARTICLE_001_PATTERN_001",
+      "doc_type": "green_pattern",
+      "pattern_name": "critically_evaluate_green_claim",
+      "pattern_description": "When transforming a rule into a greener version, do not assume that an action is sustainable solely because it uses or refers to a green technology. Evaluate whether the rule actually reduces unnecessary energy demand or environmental burden.",
+      "normalized_green_categories": [
+        "environmental_awareness",
+        "weak_green_potential"
+      ],
+      "applies_to_device_categories": [],
+      "green_dimensions": [
+        "environmental_awareness",
+        "automation_efficiency",
+        "intent_preservation"
+      ],
+      "when_to_apply": "Apply when a proposed rule transformation claims to be green mainly because it uses renewable energy, eco terminology, or a nominally sustainable device or mode.",
+      "when_not_to_apply": "Do not apply as a concrete device-control rule by itself, because the provided PDF does not contain smart-home-specific automation strategies, device behavior, thresholds, schedules, or sensor logic."
+    },
+    {
+      "pattern_id": "ARTICLE_001_PATTERN_002",
+      "doc_type": "green_pattern",
+      "pattern_name": "prefer_real_energy_demand_reduction",
+      "pattern_description": "Favor transformations that reduce unnecessary energy demand, because the source connects green energy growth with meeting global energy demand and climate-change mitigation.",
+      "normalized_green_categories": [
+        "environmental_awareness",
+        "weak_green_potential"
+      ],
+      "applies_to_device_categories": [],
+      "green_dimensions": [
+        "energy_saving",
+        "environmental_awareness",
+        "intent_preservation"
+      ],
+      "when_to_apply": "Apply as a broad preference when choosing between otherwise functionally equivalent smart-home rule transformations, such as a version that avoids unnecessary activation versus one that keeps energy use unchanged.",
+      "when_not_to_apply": "Do not use this pattern to infer specific tactics such as occupancy sensing, HVAC setpoints, daylight control, standby reduction, off-peak scheduling, or water-saving logic, because those details are not present in the provided PDF."
+    }
+  ]
+}

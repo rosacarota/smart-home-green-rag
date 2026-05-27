@@ -1,0 +1,49 @@
+{
+  "input_file": "green_rules_final_dataset.json",
+  "output_file": "green_rules_final_dataset_normalized.json",
+  "total_rows": 925,
+  "n_original_categories": 13,
+  "n_normalized_categories": 9,
+  "category_mapping": {
+    "occupancy_based_control": "occupancy_based_control",
+    "lighting_control": "lighting_efficiency",
+    "lighting_efficiency": "lighting_efficiency",
+    "voice_control_lighting": "lighting_efficiency",
+    "hvac_optimization": "hvac_optimization",
+    "thermostat_control": "hvac_optimization",
+    "temperature_control": "environmental_awareness",
+    "irrigation_saving": "water_saving",
+    "appliance_scheduling": "appliance_energy_management",
+    "energy_automation": "standby_reduction",
+    "event_based_control": "scheduling_optimization",
+    "scene_activation": "comfort_security",
+    "device_prioritization": "comfort_security"
+  },
+  "original_category_counts": {
+    "occupancy_based_control": 205,
+    "lighting_control": 131,
+    "lighting_efficiency": 125,
+    "hvac_optimization": 108,
+    "appliance_scheduling": 87,
+    "temperature_control": 70,
+    "device_prioritization": 44,
+    "thermostat_control": 42,
+    "irrigation_saving": 39,
+    "event_based_control": 36,
+    "voice_control_lighting": 18,
+    "scene_activation": 11,
+    "energy_automation": 9
+  },
+  "normalized_category_counts": {
+    "lighting_efficiency": 274,
+    "occupancy_based_control": 205,
+    "hvac_optimization": 150,
+    "appliance_energy_management": 87,
+    "environmental_awareness": 70,
+    "comfort_security": 55,
+    "water_saving": 39,
+    "scheduling_optimization": 36,
+    "standby_reduction": 9
+  },
+  "unknown_categories": []
+}

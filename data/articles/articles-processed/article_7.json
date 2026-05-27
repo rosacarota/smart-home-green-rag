@@ -1,0 +1,1009 @@
+{
+  "article_id": "ARTICLE_007",
+  "source_title": "Using consumer behavior data to reduce energy consumption in smart homes: Applying machine learning to save energy without lowering comfort of inhabitants",
+  "source_type": "paper",
+  "source_url": "",
+  "year": "2015",
+  "article_summary": "The paper presents a smart-home recommender system that mines frequent and periodic behavior patterns from real smart-home event streams to suggest energy-saving actions without reducing inhabitant comfort. It uses historical and real-time events from connected devices such as lights, switches, plugged devices, shades, audio devices, and sensors. The core idea is to transform learned behavior patterns into association-rule-like recommendations: when a sequence of normal events occurs, the system recommends a single energy-lowering action if that action has not yet occurred. The evaluation in real households shows that user comfort feedback, rule confidence, rule length, contextual clarity, and reduction of recommendation noise are important for producing useful green automation suggestions.",
+  "main_normalized_green_categories": [
+    "appliance_energy_management",
+    "lighting_efficiency",
+    "energy_monitoring",
+    "scheduling_optimization",
+    "comfort_security",
+    "hvac_optimization"
+  ],
+  "main_device_categories": [
+    "generic_smart_home",
+    "appliance",
+    "light",
+    "smart_plug",
+    "sensor",
+    "hvac",
+    "air_conditioner",
+    "heater"
+  ],
+  "main_green_dimensions": [
+    "energy_saving",
+    "consumption_monitoring",
+    "user_feedback",
+    "automation_efficiency",
+    "intent_preservation",
+    "off_peak_usage",
+    "duration_limit",
+    "occupancy_awareness",
+    "temperature_awareness"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "ARTICLE_007_CHUNK_001",
+      "doc_type": "article_chunk",
+      "chunk_title": "Smart homes enable remote control, monitoring, and energy management",
+      "text": "The article defines smart homes as dwellings with a communication network connecting key electrical appliances and services so they can be remotely controlled, monitored, or accessed. This infrastructure enables energy-management strategies such as scheduling appliances when energy is cheapest and controlling heating or air conditioning more efficiently depending on whether the house is busy or empty.",
+      "normalized_green_categories": [
+        "appliance_energy_management",
+        "energy_monitoring",
+        "scheduling_optimization",
+        "hvac_optimization"
+      ],
+      "device_categories": [
+        "generic_smart_home",
+        "appliance",
+        "hvac",
+        "air_conditioner",
+        "heater"
+      ],
+      "green_dimensions": [
+        "energy_saving",
+        "consumption_monitoring",
+        "off_peak_usage",
+        "occupancy_awareness",
+        "automation_efficiency"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "Supports greener IF-THEN rules that add appliance scheduling, energy monitoring, or occupancy-aware HVAC constraints when those constraints preserve the original user intent."
+    },
+    {
+      "chunk_id": "ARTICLE_007_CHUNK_002",
+      "doc_type": "article_chunk",
+      "chunk_title": "Energy savings must account for inhabitant comfort",
+      "text": "The article states that energy savings in smart homes can only be achieved if inhabitant comfort is taken into consideration. Green actions should therefore reduce energy use without decreasing comfort.",
+      "normalized_green_categories": [
+        "comfort_security"
+      ],
+      "device_categories": [
+        "generic_smart_home"
+      ],
+      "green_dimensions": [
+        "intent_preservation",
+        "user_feedback",
+        "energy_saving"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "Use comfort preservation as a constraint when rewriting automation rules; avoid greener modifications that would make the home less usable or uncomfortable."
+    },
+    {
+      "chunk_id": "ARTICLE_007_CHUNK_003",
+      "doc_type": "article_chunk",
+      "chunk_title": "Predict future needs before reducing energy consumption",
+      "text": "The paper argues that a smart home should predict the future needs of its inhabitants before initiating actions that reduce energy consumption. The goal is to save energy while avoiding actions that conflict with expected user behavior.",
+      "normalized_green_categories": [
+        "comfort_security",
+        "appliance_energy_management",
+        "scheduling_optimization"
+      ],
+      "device_categories": [
+        "generic_smart_home",
+        "appliance"
+      ],
+      "green_dimensions": [
+        "intent_preservation",
+        "automation_efficiency",
+        "energy_saving"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "Before adding an energy-saving action, add conditions that reflect likely user need, learned routine, or recent behavior so the rule does not act too aggressively."
+    },
+    {
+      "chunk_id": "ARTICLE_007_CHUNK_004",
+      "doc_type": "article_chunk",
+      "chunk_title": "Autonomous learning reduces the burden of manually specified rules",
+      "text": "The article contrasts manually specified preferences with autonomously learned frequent and periodic behavior patterns. Manual specification is considered undesirable because it requires high user interaction and involvement.",
+      "normalized_green_categories": [
+        "comfort_security",
+        "scheduling_optimization",
+        "weak_green_potential"
+      ],
+      "device_categories": [
+        "generic_smart_home"
+      ],
+      "green_dimensions": [
+        "automation_efficiency",
+        "user_feedback",
+        "intent_preservation"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "Prefer rule transformations that can be inferred from behavior patterns or user feedback rather than requiring users to manually define many detailed green rules."
+    },
+    {
+      "chunk_id": "ARTICLE_007_CHUNK_005",
+      "doc_type": "article_chunk",
+      "chunk_title": "Frequent and periodic patterns represent user behavior",
+      "text": "The article defines frequent patterns as patterns that occur more often than others and periodic patterns as patterns that occur at a constant interval. These patterns can represent inhabitant preferences and routines in smart-home event data.",
+      "normalized_green_categories": [
+        "scheduling_optimization",
+        "comfort_security"
+      ],
+      "device_categories": [
+        "generic_smart_home",
+        "appliance",
+        "light"
+      ],
+      "green_dimensions": [
+        "automation_efficiency",
+        "intent_preservation",
+        "energy_saving"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "Use repeated or periodic event sequences as evidence for adding schedule-aware or routine-aware conditions to greener IF-THEN rules."
+    },
+    {
+      "chunk_id": "ARTICLE_007_CHUNK_006",
+      "doc_type": "article_chunk",
+      "chunk_title": "The recommender uses event streams and mined behavior patterns",
+      "text": "The proposed recommender system is fed with the smart-home event stream and previously mined patterns reflecting inhabitant behavior. It uses these patterns to provide energy-saving recommendations to inhabitants.",
+      "normalized_green_categories": [
+        "appliance_energy_management",
+        "lighting_efficiency",
+        "scheduling_optimization",
+        "comfort_security"
+      ],
+      "device_categories": [
+        "generic_smart_home",
+        "appliance",
+        "light"
+      ],
+      "green_dimensions": [
+        "energy_saving",
+        "automation_efficiency",
+        "intent_preservation"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "Represent a greener rule as behavior-conditioned: IF recent event sequence matches a learned routine AND the energy-saving action is appropriate THEN recommend or perform that action."
+    },
+    {
+      "chunk_id": "ARTICLE_007_CHUNK_007",
+      "doc_type": "article_chunk",
+      "chunk_title": "Event order matters for smart-home behavior mining",
+      "text": "The article emphasizes that the sequence of events is crucial in smart-home data analysis. Whether appliance A is turned on before or after appliance B matters for understanding inhabitant habits.",
+      "normalized_green_categories": [
+        "appliance_energy_management",
+        "scheduling_optimization",
+        "comfort_security"
+      ],
+      "device_categories": [
+        "appliance",
+        "generic_smart_home"
+      ],
+      "green_dimensions": [
+        "automation_efficiency",
+        "intent_preservation"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "When rewriting rules, preserve temporal ordering between user actions; do not treat unordered device states as equivalent to learned behavior sequences."
+    },
+    {
+      "chunk_id": "ARTICLE_007_CHUNK_008",
+      "doc_type": "article_chunk",
+      "chunk_title": "Connected devices can switch, dim, measure electricity, and report status",
+      "text": "The digitalSTROM system connects lamps, light switches, blinds, and plugged-in devices through existing power cables. Each module can switch, dim, measure electricity, and communicate its status.",
+      "normalized_green_categories": [
+        "lighting_efficiency",
+        "appliance_energy_management",
+        "energy_monitoring"
+      ],
+      "device_categories": [
+        "light",
+        "smart_plug",
+        "appliance",
+        "generic_smart_home"
+      ],
+      "green_dimensions": [
+        "energy_saving",
+        "consumption_monitoring",
+        "automation_efficiency"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "Generate green actions such as turn off, dim, or monitor consumption when a device supports switching, dimming, and electricity measurement."
+    },
+    {
+      "chunk_id": "ARTICLE_007_CHUNK_009",
+      "doc_type": "article_chunk",
+      "chunk_title": "Power meters and real-time logs support energy-aware automation",
+      "text": "The system uses concentrators in the electrical distribution panel that act as power meters for individual distribution circuits. Real-time data from test homes is collected, parsed, stored, and made available for processing.",
+      "normalized_green_categories": [
+        "energy_monitoring",
+        "appliance_energy_management"
+      ],
+      "device_categories": [
+        "generic_smart_home",
+        "appliance",
+        "smart_plug"
+      ],
+      "green_dimensions": [
+        "consumption_monitoring",
+        "automation_efficiency",
+        "energy_saving"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "Use metered consumption and real-time event data to validate whether a proposed rule actually reduces energy use."
+    },
+    {
+      "chunk_id": "ARTICLE_007_CHUNK_010",
+      "doc_type": "article_chunk",
+      "chunk_title": "Scene IDs and source IDs describe actions and triggers",
+      "text": "Events include a scene ID and a source ID. The scene ID defines the executed action, such as turning a kitchen light off. The source ID can indicate whether the event was generated by a user, a script such as a timer, or a sensor such as a motion detector or temperature sensor.",
+      "normalized_green_categories": [
+        "lighting_efficiency",
+        "appliance_energy_management",
+        "scheduling_optimization"
+      ],
+      "device_categories": [
+        "light",
+        "sensor",
+        "motion_sensor",
+        "generic_smart_home"
+      ],
+      "green_dimensions": [
+        "automation_efficiency",
+        "energy_saving",
+        "temperature_awareness",
+        "occupancy_awareness"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "Use event metadata to distinguish user intent, timer automation, and sensor-triggered behavior before modifying a rule."
+    },
+    {
+      "chunk_id": "ARTICLE_007_CHUNK_011",
+      "doc_type": "article_chunk",
+      "chunk_title": "Lighting scenes can reveal energy-saving opportunities",
+      "text": "The training data includes sequences such as turning on a living-room light to an evening scene, changing it to a reading scene, and later turning the light off. Such sequences show how lighting behavior can be represented as ordered smart-home events.",
+      "normalized_green_categories": [
+        "lighting_efficiency",
+        "scheduling_optimization",
+        "comfort_security"
+      ],
+      "device_categories": [
+        "light"
+      ],
+      "green_dimensions": [
+        "energy_saving",
+        "automation_efficiency",
+        "intent_preservation"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "Use learned lighting sequences to recommend dimming or turning lights off at the right moment while preserving the lighting scene intended by the user."
+    },
+    {
+      "chunk_id": "ARTICLE_007_CHUNK_012",
+      "doc_type": "article_chunk",
+      "chunk_title": "Large historical datasets can support behavior-based rule generation",
+      "text": "The historical dataset contained 33 homes, 3521 devices, over 4.3 million events, and 6829 unique scenes. This demonstrates that smart-home energy recommendations can be derived from large-scale historical behavior data.",
+      "normalized_green_categories": [
+        "weak_green_potential",
+        "appliance_energy_management",
+        "lighting_efficiency"
+      ],
+      "device_categories": [
+        "generic_smart_home",
+        "appliance",
+        "light"
+      ],
+      "green_dimensions": [
+        "automation_efficiency",
+        "energy_saving"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "Use historical device-event logs as evidence for generating or prioritizing green rule transformations."
+    },
+    {
+      "chunk_id": "ARTICLE_007_CHUNK_013",
+      "doc_type": "article_chunk",
+      "chunk_title": "Very infrequent patterns should not be treated as normal behavior",
+      "text": "The WSDD algorithm uses a minimum support parameter because very infrequent patterns are not interesting for behavior modeling. Patterns that occur only once should not be considered normal behavior of smart-home inhabitants.",
+      "normalized_green_categories": [
+        "comfort_security",
+        "weak_green_potential"
+      ],
+      "device_categories": [
+        "generic_smart_home"
+      ],
+      "green_dimensions": [
+        "automation_efficiency",
+        "intent_preservation"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "Avoid generating green automation changes from rare one-off events because they may not reflect user intent or stable routines."
+    },
+    {
+      "chunk_id": "ARTICLE_007_CHUNK_014",
+      "doc_type": "article_chunk",
+      "chunk_title": "Relevant patterns must include an energy-lowering action",
+      "text": "The recommender does not treat all frequent or periodic patterns as useful for energy saving. A relevant pattern must contain at least one action that lowers energy usage.",
+      "normalized_green_categories": [
+        "appliance_energy_management",
+        "lighting_efficiency"
+      ],
+      "device_categories": [
+        "generic_smart_home",
+        "appliance",
+        "light"
+      ],
+      "green_dimensions": [
+        "energy_saving",
+        "automation_efficiency"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "Only generate a green rule when the THEN action has a plausible energy-reducing effect, such as turning off, dimming, or otherwise lowering device consumption."
+    },
+    {
+      "chunk_id": "ARTICLE_007_CHUNK_015",
+      "doc_type": "article_chunk",
+      "chunk_title": "Normal events serve as conditions for recommending an action",
+      "text": "A relevant pattern must consist of normal events that serve as the condition for suggesting an energy-saving action at the right time.",
+      "normalized_green_categories": [
+        "scheduling_optimization",
+        "appliance_energy_management",
+        "comfort_security"
+      ],
+      "device_categories": [
+        "generic_smart_home",
+        "appliance",
+        "light"
+      ],
+      "green_dimensions": [
+        "automation_efficiency",
+        "intent_preservation",
+        "energy_saving"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "Use normal user behavior as the IF condition and the energy-lowering action as the THEN action."
+    },
+    {
+      "chunk_id": "ARTICLE_007_CHUNK_016",
+      "doc_type": "article_chunk",
+      "chunk_title": "Behavior patterns can be interpreted as association rules",
+      "text": "The article represents a relevant behavior pattern as an association rule of the form X -> Y, where X is a sequence of normal events and Y is a single action. When X occurs, Y occurs with a certain probability.",
+      "normalized_green_categories": [
+        "scheduling_optimization",
+        "appliance_energy_management",
+        "lighting_efficiency"
+      ],
+      "device_categories": [
+        "generic_smart_home",
+        "appliance",
+        "light"
+      ],
+      "green_dimensions": [
+        "automation_efficiency",
+        "energy_saving"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "Model greener automation as IF a learned sequence X occurs THEN perform or recommend energy-saving action Y, with confidence used to judge reliability."
+    },
+    {
+      "chunk_id": "ARTICLE_007_CHUNK_017",
+      "doc_type": "article_chunk",
+      "chunk_title": "Activity events can be used even without location sensors",
+      "text": "For the application described in the paper, no motion detectors or other location sensors were used. Only activities such as turning lights or a TV on or off were considered.",
+      "normalized_green_categories": [
+        "appliance_energy_management",
+        "lighting_efficiency",
+        "comfort_security"
+      ],
+      "device_categories": [
+        "light",
+        "appliance",
+        "sensor",
+        "generic_smart_home"
+      ],
+      "green_dimensions": [
+        "automation_efficiency",
+        "intent_preservation",
+        "energy_saving"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "Do not require occupancy sensors for every green rule; device activity sequences can also provide evidence about likely user intent."
+    },
+    {
+      "chunk_id": "ARTICLE_007_CHUNK_018",
+      "doc_type": "article_chunk",
+      "chunk_title": "Real-time event matching triggers recommendations when the expected action is missing",
+      "text": "The matching algorithm compares stored rules with the current event stream. If the condition matches and the next event is not the expected energy-saving action, the system sends a recommendation.",
+      "normalized_green_categories": [
+        "appliance_energy_management",
+        "lighting_efficiency",
+        "scheduling_optimization"
+      ],
+      "device_categories": [
+        "generic_smart_home",
+        "appliance",
+        "light"
+      ],
+      "green_dimensions": [
+        "automation_efficiency",
+        "energy_saving",
+        "intent_preservation"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "Generate rules that intervene only when the usual energy-saving action has not happened after its learned precondition sequence."
+    },
+    {
+      "chunk_id": "ARTICLE_007_CHUNK_019",
+      "doc_type": "article_chunk",
+      "chunk_title": "Multiple matching rules require prioritization",
+      "text": "The recommender design allows more than one rule to match at the same time. To avoid multiple conflicting recommendations, the authors propose weighting rules and using those weights as a prioritization criterion.",
+      "normalized_green_categories": [
+        "comfort_security",
+        "appliance_energy_management",
+        "scheduling_optimization"
+      ],
+      "device_categories": [
+        "generic_smart_home",
+        "appliance"
+      ],
+      "green_dimensions": [
+        "automation_efficiency",
+        "intent_preservation",
+        "energy_saving"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "When multiple greener actions are possible, select the highest-priority non-conflicting action rather than triggering several actions at once."
+    },
+    {
+      "chunk_id": "ARTICLE_007_CHUNK_020",
+      "doc_type": "article_chunk",
+      "chunk_title": "User feedback is used to evaluate comfort impact",
+      "text": "The test participants rated whether recommendations were useful and whether they affected comfort. This feedback was used to adjust system parameters and improve recommendations during a second test phase.",
+      "normalized_green_categories": [
+        "comfort_security",
+        "appliance_energy_management",
+        "lighting_efficiency"
+      ],
+      "device_categories": [
+        "generic_smart_home",
+        "appliance",
+        "light"
+      ],
+      "green_dimensions": [
+        "user_feedback",
+        "intent_preservation",
+        "energy_saving",
+        "automation_efficiency"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "Attach feedback collection to green rule deployment and use negative feedback to avoid rules that harm comfort or intent."
+    },
+    {
+      "chunk_id": "ARTICLE_007_CHUNK_021",
+      "doc_type": "article_chunk",
+      "chunk_title": "Confidence and pattern length predicted recommendation usefulness better than support",
+      "text": "Regression analysis found that patterns with high confidence and high pattern length tended to receive better feedback. Support and the position of the action did not significantly explain rule feedback.",
+      "normalized_green_categories": [
+        "comfort_security",
+        "scheduling_optimization",
+        "weak_green_potential"
+      ],
+      "device_categories": [
+        "generic_smart_home"
+      ],
+      "green_dimensions": [
+        "automation_efficiency",
+        "user_feedback",
+        "intent_preservation"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "Prioritize candidate green rule transformations by confidence and behavior-sequence length, not only by how frequently the sequence occurs."
+    },
+    {
+      "chunk_id": "ARTICLE_007_CHUNK_022",
+      "doc_type": "article_chunk",
+      "chunk_title": "Reducing recommendation noise can improve comfort",
+      "text": "In the second evaluation phase, the ratio of useful recommendations remained similar, but recommendations per day per home dropped from 1.43 to 0.44. The paper interprets fewer recommendations at the same usefulness ratio as less user noise and a better comfort level.",
+      "normalized_green_categories": [
+        "comfort_security"
+      ],
+      "device_categories": [
+        "generic_smart_home"
+      ],
+      "green_dimensions": [
+        "user_feedback",
+        "intent_preservation",
+        "automation_efficiency"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "Prefer fewer, higher-confidence green interventions over frequent low-confidence reminders that may annoy users."
+    },
+    {
+      "chunk_id": "ARTICLE_007_CHUNK_023",
+      "doc_type": "article_chunk",
+      "chunk_title": "Ambiguous recommendations reduce response quality",
+      "text": "The second evaluation phase improved recommendation text by adding the room name where the device was located, addressing low response rates caused by ambiguous recommendations.",
+      "normalized_green_categories": [
+        "comfort_security",
+        "lighting_efficiency",
+        "appliance_energy_management"
+      ],
+      "device_categories": [
+        "generic_smart_home",
+        "appliance",
+        "light"
+      ],
+      "green_dimensions": [
+        "user_feedback",
+        "intent_preservation",
+        "automation_efficiency"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "When a rule recommends an energy-saving action, include device and room context so the user can understand and judge the action."
+    },
+    {
+      "chunk_id": "ARTICLE_007_CHUNK_024",
+      "doc_type": "article_chunk",
+      "chunk_title": "Rules with repeated negative feedback were removed",
+      "text": "For the second evaluation phase, all rules that had received 10 negative feedbacks in a row during the first phase were removed.",
+      "normalized_green_categories": [
+        "comfort_security"
+      ],
+      "device_categories": [
+        "generic_smart_home"
+      ],
+      "green_dimensions": [
+        "user_feedback",
+        "intent_preservation",
+        "automation_efficiency"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "Suppress or revise green rules that repeatedly receive negative feedback because they likely conflict with user comfort or intent."
+    },
+    {
+      "chunk_id": "ARTICLE_007_CHUNK_025",
+      "doc_type": "article_chunk",
+      "chunk_title": "Time between events could improve rule accuracy",
+      "text": "The authors identify the time between two events or between the condition and the action as a missing attribute in the current algorithm and recommender. They suggest that using this information would improve recommendation accuracy.",
+      "normalized_green_categories": [
+        "scheduling_optimization",
+        "appliance_energy_management",
+        "lighting_efficiency"
+      ],
+      "device_categories": [
+        "generic_smart_home",
+        "appliance",
+        "light"
+      ],
+      "green_dimensions": [
+        "duration_limit",
+        "automation_efficiency",
+        "intent_preservation",
+        "energy_saving"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "Add timing constraints such as wait duration, action delay, or timeout so green actions happen at the expected point in the user routine."
+    },
+    {
+      "chunk_id": "ARTICLE_007_CHUNK_026",
+      "doc_type": "article_chunk",
+      "chunk_title": "Time of day, weekday, and season may improve rule relevance",
+      "text": "The paper suggests adding attributes such as the time of day when the pattern occurs most, the weekday when the pattern occurs most, and the season when the pattern occurs most to decide whether a rule is relevant.",
+      "normalized_green_categories": [
+        "scheduling_optimization",
+        "appliance_energy_management",
+        "lighting_efficiency",
+        "hvac_optimization"
+      ],
+      "device_categories": [
+        "generic_smart_home",
+        "appliance",
+        "light",
+        "hvac",
+        "air_conditioner",
+        "heater"
+      ],
+      "green_dimensions": [
+        "automation_efficiency",
+        "intent_preservation",
+        "energy_saving",
+        "temperature_awareness"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "Add temporal context to green IF conditions, such as only applying a rule during the usual time window, weekday, or season."
+    },
+    {
+      "chunk_id": "ARTICLE_007_CHUNK_027",
+      "doc_type": "article_chunk",
+      "chunk_title": "Feedback should be used for prioritization, not only exclusion",
+      "text": "As future work, the authors recommend that the recommender should learn from inhabitant feedback to prioritize rules instead of only excluding a rule after repeated negative feedback.",
+      "normalized_green_categories": [
+        "comfort_security",
+        "weak_green_potential"
+      ],
+      "device_categories": [
+        "generic_smart_home"
+      ],
+      "green_dimensions": [
+        "user_feedback",
+        "automation_efficiency",
+        "intent_preservation"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "Use feedback scores to rank and adapt green rule candidates over time."
+    },
+    {
+      "chunk_id": "ARTICLE_007_CHUNK_028",
+      "doc_type": "article_chunk",
+      "chunk_title": "Estimating saved energy is an important future evaluation criterion",
+      "text": "The authors identify estimating the amount of energy saved by recommendations as an important direction for further work.",
+      "normalized_green_categories": [
+        "energy_monitoring",
+        "appliance_energy_management",
+        "lighting_efficiency"
+      ],
+      "device_categories": [
+        "generic_smart_home",
+        "appliance",
+        "light",
+        "smart_plug"
+      ],
+      "green_dimensions": [
+        "consumption_monitoring",
+        "energy_saving",
+        "automation_efficiency"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "Score or validate rule transformations using estimated energy savings, especially when device metering is available."
+    },
+    {
+      "chunk_id": "ARTICLE_007_CHUNK_029",
+      "doc_type": "article_chunk",
+      "chunk_title": "Wildcarded patterns were not worth the added computational cost",
+      "text": "The comparison between wildcarded and non-wildcarded patterns showed no significant improvement from wildcarding for smart-home event data. The increase in runtime and memory consumption did not yield significantly better results, so the authors proceeded with non-wildcarded patterns.",
+      "normalized_green_categories": [
+        "weak_green_potential",
+        "comfort_security"
+      ],
+      "device_categories": [
+        "generic_smart_home"
+      ],
+      "green_dimensions": [
+        "automation_efficiency",
+        "intent_preservation"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "Avoid overgeneralizing learned behavior conditions with wildcards unless there is clear evidence that the generalized rule remains accurate and useful."
+    },
+    {
+      "chunk_id": "ARTICLE_007_CHUNK_030",
+      "doc_type": "article_chunk",
+      "chunk_title": "The recommender achieved real-life deployment with limited useful recommendation ratio",
+      "text": "The system was deployed in real households and produced 160 recommendations in the first phase and 120 in the second phase, with a useful recommendation ratio close to 10 percent. The authors consider this a promising start for a first version of the system.",
+      "normalized_green_categories": [
+        "comfort_security",
+        "appliance_energy_management",
+        "lighting_efficiency"
+      ],
+      "device_categories": [
+        "generic_smart_home",
+        "appliance",
+        "light"
+      ],
+      "green_dimensions": [
+        "user_feedback",
+        "automation_efficiency",
+        "energy_saving",
+        "intent_preservation"
+      ],
+      "useful_for_rule_generation": true,
+      "rule_generation_use": "Treat generated green rules as candidates that require validation; even behavior-mined recommendations may have low usefulness without refinement."
+    }
+  ],
+  "patterns": [
+    {
+      "pattern_id": "ARTICLE_007_PATTERN_001",
+      "doc_type": "green_pattern",
+      "pattern_name": "learn_behavior_before_saving_energy",
+      "pattern_description": "Before adding an energy-saving action, condition it on learned inhabitant behavior so that the automation preserves comfort and expected routines.",
+      "normalized_green_categories": [
+        "comfort_security",
+        "appliance_energy_management",
+        "lighting_efficiency",
+        "scheduling_optimization"
+      ],
+      "applies_to_device_categories": [
+        "generic_smart_home",
+        "appliance",
+        "light"
+      ],
+      "green_dimensions": [
+        "intent_preservation",
+        "automation_efficiency",
+        "energy_saving"
+      ],
+      "when_to_apply": "Apply when historical or real-time event sequences reveal a repeated user routine that can safely precede an energy-saving action.",
+      "when_not_to_apply": "Do not apply when the behavior pattern is rare, ambiguous, or likely to conflict with comfort."
+    },
+    {
+      "pattern_id": "ARTICLE_007_PATTERN_002",
+      "doc_type": "green_pattern",
+      "pattern_name": "convert_behavior_sequence_to_energy_saving_rule",
+      "pattern_description": "Represent a learned pattern as IF sequence X of normal events occurs THEN recommend or perform single energy-lowering action Y.",
+      "normalized_green_categories": [
+        "appliance_energy_management",
+        "lighting_efficiency",
+        "scheduling_optimization"
+      ],
+      "applies_to_device_categories": [
+        "generic_smart_home",
+        "appliance",
+        "light"
+      ],
+      "green_dimensions": [
+        "automation_efficiency",
+        "energy_saving",
+        "intent_preservation"
+      ],
+      "when_to_apply": "Apply when a frequent or periodic sequence reliably precedes an action that lowers energy use, such as turning off or dimming a device.",
+      "when_not_to_apply": "Do not apply if the THEN action is not clearly energy-lowering or if the sequence does not reliably indicate the action."
+    },
+    {
+      "pattern_id": "ARTICLE_007_PATTERN_003",
+      "doc_type": "green_pattern",
+      "pattern_name": "recommend_missing_energy_saving_action",
+      "pattern_description": "Trigger a recommendation only when the learned condition sequence occurs and the expected energy-saving action has not occurred next.",
+      "normalized_green_categories": [
+        "appliance_energy_management",
+        "lighting_efficiency",
+        "scheduling_optimization"
+      ],
+      "applies_to_device_categories": [
+        "generic_smart_home",
+        "appliance",
+        "light"
+      ],
+      "green_dimensions": [
+        "energy_saving",
+        "automation_efficiency",
+        "intent_preservation"
+      ],
+      "when_to_apply": "Apply when the smart home detects that the user appears to be following a known routine but has not yet completed the usual energy-saving action.",
+      "when_not_to_apply": "Do not apply if the expected action already happened or if a different current context suggests the user intentionally deviated from the routine."
+    },
+    {
+      "pattern_id": "ARTICLE_007_PATTERN_004",
+      "doc_type": "green_pattern",
+      "pattern_name": "schedule_appliance_for_cheaper_energy",
+      "pattern_description": "Modify appliance rules so that flexible appliance operation is scheduled when energy is cheapest, when this does not violate the intended function.",
+      "normalized_green_categories": [
+        "appliance_energy_management",
+        "scheduling_optimization"
+      ],
+      "applies_to_device_categories": [
+        "appliance",
+        "smart_plug",
+        "generic_smart_home"
+      ],
+      "green_dimensions": [
+        "off_peak_usage",
+        "energy_saving",
+        "intent_preservation",
+        "automation_efficiency"
+      ],
+      "when_to_apply": "Apply to appliance actions that can be delayed or shifted without disrupting user comfort or safety.",
+      "when_not_to_apply": "Do not apply to urgent, safety-related, comfort-critical, or user-immediate actions."
+    },
+    {
+      "pattern_id": "ARTICLE_007_PATTERN_005",
+      "doc_type": "green_pattern",
+      "pattern_name": "adjust_hvac_for_busy_or_empty_home",
+      "pattern_description": "Use whether the home is busy or empty as a condition for more efficient heating or air-conditioning control.",
+      "normalized_green_categories": [
+        "hvac_optimization",
+        "comfort_security"
+      ],
+      "applies_to_device_categories": [
+        "hvac",
+        "air_conditioner",
+        "heater",
+        "generic_smart_home"
+      ],
+      "green_dimensions": [
+        "occupancy_awareness",
+        "temperature_awareness",
+        "energy_saving",
+        "intent_preservation"
+      ],
+      "when_to_apply": "Apply when the system has reliable evidence that the house is occupied, busy, or empty, and the HVAC change preserves comfort.",
+      "when_not_to_apply": "Do not apply when occupancy is unknown, when comfort would be reduced, or when heating or cooling is needed for safety."
+    },
+    {
+      "pattern_id": "ARTICLE_007_PATTERN_006",
+      "doc_type": "green_pattern",
+      "pattern_name": "prioritize_rules_by_confidence_and_pattern_length",
+      "pattern_description": "Rank green rule candidates using confidence and behavior-pattern length, because these were associated with better user feedback than support alone.",
+      "normalized_green_categories": [
+        "comfort_security",
+        "scheduling_optimization",
+        "weak_green_potential"
+      ],
+      "applies_to_device_categories": [
+        "generic_smart_home",
+        "appliance",
+        "light"
+      ],
+      "green_dimensions": [
+        "automation_efficiency",
+        "user_feedback",
+        "intent_preservation"
+      ],
+      "when_to_apply": "Apply when multiple candidate green rules are available and the system needs to choose which ones to recommend or activate.",
+      "when_not_to_apply": "Do not rely only on support count when user feedback, confidence, or context suggests the rule may be poor."
+    },
+    {
+      "pattern_id": "ARTICLE_007_PATTERN_007",
+      "doc_type": "green_pattern",
+      "pattern_name": "suppress_rules_with_repeated_negative_feedback",
+      "pattern_description": "Remove, demote, or revise green rules that repeatedly receive negative feedback from inhabitants.",
+      "normalized_green_categories": [
+        "comfort_security"
+      ],
+      "applies_to_device_categories": [
+        "generic_smart_home",
+        "appliance",
+        "light"
+      ],
+      "green_dimensions": [
+        "user_feedback",
+        "intent_preservation",
+        "automation_efficiency"
+      ],
+      "when_to_apply": "Apply when users repeatedly reject a recommendation or rate it as not useful.",
+      "when_not_to_apply": "Do not permanently remove a rule without considering whether the rule could be improved through better timing, context, or explanation."
+    },
+    {
+      "pattern_id": "ARTICLE_007_PATTERN_008",
+      "doc_type": "green_pattern",
+      "pattern_name": "reduce_recommendation_noise",
+      "pattern_description": "Prefer fewer, better-targeted energy-saving recommendations over frequent low-confidence prompts, because lower recommendation frequency can improve comfort when usefulness is maintained.",
+      "normalized_green_categories": [
+        "comfort_security"
+      ],
+      "applies_to_device_categories": [
+        "generic_smart_home"
+      ],
+      "green_dimensions": [
+        "user_feedback",
+        "intent_preservation",
+        "automation_efficiency"
+      ],
+      "when_to_apply": "Apply when many candidate recommendations could be sent but only some are likely to be useful.",
+      "when_not_to_apply": "Do not reduce recommendations so far that important high-confidence energy-saving opportunities are missed."
+    },
+    {
+      "pattern_id": "ARTICLE_007_PATTERN_009",
+      "doc_type": "green_pattern",
+      "pattern_name": "add_device_and_room_context_to_recommendation",
+      "pattern_description": "Include the device and room context when recommending an energy-saving action so the user understands what the rule affects.",
+      "normalized_green_categories": [
+        "comfort_security",
+        "appliance_energy_management",
+        "lighting_efficiency"
+      ],
+      "applies_to_device_categories": [
+        "generic_smart_home",
+        "appliance",
+        "light"
+      ],
+      "green_dimensions": [
+        "user_feedback",
+        "intent_preservation",
+        "automation_efficiency"
+      ],
+      "when_to_apply": "Apply when a recommendation could be ambiguous, especially in homes with many devices or rooms.",
+      "when_not_to_apply": "Do not omit context when the user needs to distinguish between similar devices."
+    },
+    {
+      "pattern_id": "ARTICLE_007_PATTERN_010",
+      "doc_type": "green_pattern",
+      "pattern_name": "add_temporal_context_to_rule_conditions",
+      "pattern_description": "Add timing features such as delay between events, time of day, weekday, or season to make green rules more accurate and context-sensitive.",
+      "normalized_green_categories": [
+        "scheduling_optimization",
+        "appliance_energy_management",
+        "lighting_efficiency",
+        "hvac_optimization"
+      ],
+      "applies_to_device_categories": [
+        "generic_smart_home",
+        "appliance",
+        "light",
+        "hvac",
+        "air_conditioner",
+        "heater"
+      ],
+      "green_dimensions": [
+        "duration_limit",
+        "automation_efficiency",
+        "intent_preservation",
+        "energy_saving",
+        "temperature_awareness"
+      ],
+      "when_to_apply": "Apply when an energy-saving action is only appropriate after a certain delay, during a usual time window, on certain weekdays, or in certain seasons.",
+      "when_not_to_apply": "Do not add temporal restrictions when they would prevent a necessary or immediate energy-saving action."
+    },
+    {
+      "pattern_id": "ARTICLE_007_PATTERN_011",
+      "doc_type": "green_pattern",
+      "pattern_name": "prioritize_non_conflicting_rule",
+      "pattern_description": "When several rules match at once, use rule weights to select the most appropriate recommendation and avoid conflicting green actions.",
+      "normalized_green_categories": [
+        "comfort_security",
+        "appliance_energy_management",
+        "scheduling_optimization"
+      ],
+      "applies_to_device_categories": [
+        "generic_smart_home",
+        "appliance",
+        "light"
+      ],
+      "green_dimensions": [
+        "automation_efficiency",
+        "intent_preservation",
+        "energy_saving"
+      ],
+      "when_to_apply": "Apply when multiple green rules could trigger from the same event stream.",
+      "when_not_to_apply": "Do not fire multiple recommendations if they may conflict, confuse the user, or reduce comfort."
+    },
+    {
+      "pattern_id": "ARTICLE_007_PATTERN_012",
+      "doc_type": "green_pattern",
+      "pattern_name": "use_consumption_monitoring_to_validate_savings",
+      "pattern_description": "Use device or circuit-level electricity measurement to estimate or validate the amount of energy saved by a recommendation.",
+      "normalized_green_categories": [
+        "energy_monitoring",
+        "appliance_energy_management",
+        "lighting_efficiency"
+      ],
+      "applies_to_device_categories": [
+        "generic_smart_home",
+        "appliance",
+        "smart_plug",
+        "light"
+      ],
+      "green_dimensions": [
+        "consumption_monitoring",
+        "energy_saving",
+        "automation_efficiency"
+      ],
+      "when_to_apply": "Apply when smart-home devices or circuits can measure electricity consumption.",
+      "when_not_to_apply": "Do not claim energy savings for a generated rule if consumption data or a reliable estimate is unavailable."
+    },
+    {
+      "pattern_id": "ARTICLE_007_PATTERN_013",
+      "doc_type": "green_pattern",
+      "pattern_name": "avoid_rare_or_overgeneralized_behavior_patterns",
+      "pattern_description": "Avoid creating green rules from rare one-off behavior or from wildcard-generalized patterns that do not significantly improve accuracy.",
+      "normalized_green_categories": [
+        "comfort_security",
+        "weak_green_potential"
+      ],
+      "applies_to_device_categories": [
+        "generic_smart_home"
+      ],
+      "green_dimensions": [
+        "automation_efficiency",
+        "intent_preservation"
+      ],
+      "when_to_apply": "Apply when filtering candidate rules mined from event logs.",
+      "when_not_to_apply": "Do not generalize a rule with wildcards or low support if it increases ambiguity, computation, or risk of incorrect recommendations."
+    }
+  ]
+}
