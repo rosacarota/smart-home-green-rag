@@ -1,0 +1,7 @@
+{
+  "topic_id": 27,
+  "llm_topic_name": "emergency_alert_lighting",
+  "topic_summary": "This topic contains rules that trigger lighting changes or notifications in response to smoke or carbon monoxide alarms from Nest Protect, enhancing safety through visual alerts and automated responses.",
+  "green_category": "emergency_alerts",
+  "global_green_relevance": "medium"
+}

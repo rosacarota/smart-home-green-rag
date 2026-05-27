@@ -1,7 +1,0 @@
-{
-  "topic_id": 5,
-  "llm_topic_name": "calendar_event_automation",
-  "topic_summary": "This topic contains rules that automate smart-home actions based on events scheduled in Google Calendar, such as adjusting thermostat settings, turning lights off, or arming security devices when meetings or events start.",
-  "green_category": "event_based_control",
-  "global_green_relevance": "medium"
-}

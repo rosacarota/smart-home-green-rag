@@ -1,0 +1,611 @@
+{
+  "topic_context": {
+    "topic_id": 5,
+    "llm_topic_name": "calendar_event_automation",
+    "topic_summary": "This topic contains rules that automate smart-home actions based on events scheduled in Google Calendar, such as adjusting thermostat settings, turning lights off, or arming security devices when meetings or events start.",
+    "green_category": "event_based_control",
+    "global_green_relevance": "medium"
+  },
+  "rows": [
+    {
+      "sample_id": "T005_S0001",
+      "if_then_rule": "IF Any event starts from Google Calendar THEN Send blink event using blink(1).",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0002",
+      "if_then_rule": "IF Event from search starts from Google Calendar THEN Activate a scene using Almond.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0003",
+      "if_then_rule": "IF Say a phrase with both a number and a text ingredient from Google Assistant THEN Quick add event using Google Calendar.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0004",
+      "if_then_rule": "IF Event from search starts from Google Calendar THEN Start activity using Harmony.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0005",
+      "if_then_rule": "IF Event from search starts from Google Calendar THEN Prioritize Device using Google Wifi.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T005_S0006",
+      "if_then_rule": "IF Event from search starts from Google Calendar THEN Set refrigerator to sabbath mode using GE Appliances Refrigerator.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0007",
+      "if_then_rule": "IF Any event starts from Google Calendar THEN Blink lights using Philips Hue.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0008",
+      "if_then_rule": "IF Event from search starts from Google Calendar THEN Blink lights using Philips Hue.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0009",
+      "if_then_rule": "IF Check engine light turned on from Automatic Pro THEN Quick add event using Google Calendar.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0010",
+      "if_then_rule": "IF Check engine light turned on from Automatic Classic THEN Quick add event using Google Calendar.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0011",
+      "if_then_rule": "IF Any event starts from Google Calendar THEN Start an event using LightwaveRF Events.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0012",
+      "if_then_rule": "IF Event from search starts from Google Calendar THEN Start an event using LightwaveRF Events.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0013",
+      "if_then_rule": "IF Any event starts from Google Calendar THEN Update Indicator using LaMetric Time.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0014",
+      "if_then_rule": "IF Event from search starts from Google Calendar THEN Blink lights using LIFX.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0015",
+      "if_then_rule": "IF Any event starts from Google Calendar THEN Set a zone temperature using Honeywell evohome.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T005_S0016",
+      "if_then_rule": "IF Event from search starts from Google Calendar THEN Arm the security panel using HomeControl Flex.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0017",
+      "if_then_rule": "IF Washing cycle is over from Whirlpool Washer THEN Quick add event using Google Calendar.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0018",
+      "if_then_rule": "IF Event from search starts from Google Calendar THEN Toggle Sleep mode using EZVIZ.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0019",
+      "if_then_rule": "IF Event from search starts from Google Calendar THEN Create vacation using ecobee.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T005_S0020",
+      "if_then_rule": "IF Event from search starts from Google Calendar THEN Create vacation using ecobee.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T005_S0021",
+      "if_then_rule": "IF Any event starts from Google Calendar THEN Send blink event using blink(1).",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0022",
+      "if_then_rule": "IF Drying cycle is over from Whirlpool Dryer THEN Quick add event using Google Calendar.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0023",
+      "if_then_rule": "IF Every day at from Date & Time THEN End vacuum cleaning using Samsung Robot Vacuum.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0024",
+      "if_then_rule": "IF Every day of the week at from Date & Time THEN Set vacation mode using GE Appliances GeoSpring.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T005_S0025",
+      "if_then_rule": "IF Every day of the week at from Date & Time THEN Set operating mode using GE Appliances GeoSpring.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T005_S0026",
+      "if_then_rule": "IF Every day of the week at from Date & Time THEN Set operating mode using GE Appliances GeoSpring.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T005_S0027",
+      "if_then_rule": "IF Every day of the week at from Date & Time THEN Set temperature using GE Appliances GeoSpring.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T005_S0028",
+      "if_then_rule": "IF Every day of the week at from Date & Time THEN Set temperature using GE Appliances GeoSpring.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T005_S0029",
+      "if_then_rule": "IF Every day of the week at from Date & Time THEN Set temperature using GE Appliances GeoSpring.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T005_S0030",
+      "if_then_rule": "IF Every day of the week at from Date & Time THEN Set temperature using GE Appliances GeoSpring.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T005_S0031",
+      "if_then_rule": "IF Every day of the week at from Date & Time THEN Set operating mode using GE Appliances GeoSpring.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T005_S0032",
+      "if_then_rule": "IF Every day of the week at from Date & Time THEN Set operating mode using GE Appliances GeoSpring.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T005_S0033",
+      "if_then_rule": "IF Every day of the week at from Date & Time THEN Start wash cycle using Samsung Washer.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0034",
+      "if_then_rule": "IF Vacation mode selected from GE Appliances GeoSpring THEN Turn off lights using Philips Hue.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T005_S0035",
+      "if_then_rule": "IF Event from search starts from Google Calendar THEN Turn on using WeMo Light Switch.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0036",
+      "if_then_rule": "IF Event from search starts from Google Calendar THEN Set temperature using Nest Thermostat.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T005_S0037",
+      "if_then_rule": "IF Event from search starts from Google Calendar THEN Set to frost-guard mode using Netatmo Thermostat.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T005_S0038",
+      "if_then_rule": "IF Event from search starts from Google Calendar THEN Set to away mode with a time limit using Netatmo Thermostat.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T005_S0039",
+      "if_then_rule": "IF Event from search starts from Google Calendar THEN Set to away mode using Netatmo Thermostat.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T005_S0040",
+      "if_then_rule": "IF Any event starts from Google Calendar THEN Change color using Philips Hue.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0041",
+      "if_then_rule": "IF You exit an area from Location THEN Start vacuum cleaning using Samsung Robot Vacuum.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0042",
+      "if_then_rule": "IF Event from search starts from Google Calendar THEN Switch schedule using Netatmo Thermostat.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T005_S0043",
+      "if_then_rule": "IF Event from search starts from Google Calendar THEN Set temperature using Nest Thermostat.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T005_S0044",
+      "if_then_rule": "IF Event from search starts from Google Calendar THEN Breathe lights using LIFX.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0045",
+      "if_then_rule": "IF Flash button triple pressed from Misfit THEN Quick add event using Google Calendar.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0046",
+      "if_then_rule": "IF Flash button double pressed from Misfit THEN Quick add event using Google Calendar.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0047",
+      "if_then_rule": "IF Any event starts from Google Calendar THEN Power on device using Energenie Mi|Home.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0048",
+      "if_then_rule": "IF Event from search starts from Google Calendar THEN Turn off oven using GE Appliances Cooking.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T005_S0049",
+      "if_then_rule": "IF Button press from Button widget THEN Set refrigerator to sabbath mode using GE Appliances Refrigerator.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0050",
+      "if_then_rule": "IF Every day at from Date & Time THEN Set temperature using GE Appliances GeoSpring.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T005_S0051",
+      "if_then_rule": "IF Every hour at from Date & Time THEN Turn on AC using GE Appliances Window AC.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0052",
+      "if_then_rule": "IF Button press from Button widget THEN Set oven to sabbath mode using GE Appliances Cooking.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0053",
+      "if_then_rule": "IF Event from search starts from Google Calendar THEN Turn off your thermostat using Hive Active Heating.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T005_S0054",
+      "if_then_rule": "IF Any event starts from Google Calendar THEN Turn lights off using LIFX.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T005_S0055",
+      "if_then_rule": "IF Every day of the week at from Date & Time THEN Set temperature using GE Appliances GeoSpring.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T005_S0056",
+      "if_then_rule": "IF Every day of the week at from Date & Time THEN Set operating mode using GE Appliances GeoSpring.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T005_S0057",
+      "if_then_rule": "IF Every day of the week at from Date & Time THEN Set refrigerator to sabbath mode using GE Appliances Refrigerator.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0058",
+      "if_then_rule": "IF Every day of the week at from Date & Time THEN Set operating mode using GE Appliances GeoSpring.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T005_S0059",
+      "if_then_rule": "IF Every day of the week at from Date & Time THEN Change temperature setpoints using GE Appliances Refrigerator.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0060",
+      "if_then_rule": "IF Every day of the week at from Date & Time THEN Set refrigerator to sabbath mode using GE Appliances Refrigerator.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0061",
+      "if_then_rule": "IF Every day of the week at from Date & Time THEN Set oven to sabbath mode using GE Appliances Cooking.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0062",
+      "if_then_rule": "IF Every day of the week at from Date & Time THEN Set temperature using GE Appliances GeoSpring.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T005_S0063",
+      "if_then_rule": "IF Every day of the week at from Date & Time THEN Set temperature using GE Appliances GeoSpring.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T005_S0064",
+      "if_then_rule": "IF Every day of the week at from Date & Time THEN Set temperature using GE Appliances GeoSpring.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T005_S0065",
+      "if_then_rule": "IF Power drops below from Smappee THEN Quick add event using Google Calendar.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0066",
+      "if_then_rule": "IF Any new event added from Google Calendar THEN Call a function using Particle.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0067",
+      "if_then_rule": "IF Any event starts from Google Calendar THEN Call a function using Particle.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0068",
+      "if_then_rule": "IF Any event starts from Google Calendar THEN Zap using PAVLOK.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0069",
+      "if_then_rule": "IF Any event starts from Google Calendar THEN Turn on color loop using Philips Hue.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0070",
+      "if_then_rule": "IF Event from search starts from Google Calendar THEN Dim lights using Philips Hue.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0071",
+      "if_then_rule": "IF Button press from Button widget THEN Quick add event using Google Calendar.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0072",
+      "if_then_rule": "IF Button press from Button widget THEN Quick add event using Google Calendar.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0073",
+      "if_then_rule": "IF Event from search starts from Google Calendar THEN Set oven to sabbath mode using GE Appliances Cooking.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0074",
+      "if_then_rule": "IF Event from search starts from Google Calendar THEN Set vacation mode using GE Appliances GeoSpring.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T005_S0075",
+      "if_then_rule": "IF Event from search starts from Google Calendar THEN Set temperature to a permanent hold using Honeywell Total Connect Comfort.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T005_S0076",
+      "if_then_rule": "IF Event from search starts from Google Calendar THEN Disable timer using IntesisHome.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0077",
+      "if_then_rule": "IF Any event starts from Google Calendar THEN Send a message to every Triby IO using invoxia Triby IO.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0078",
+      "if_then_rule": "IF Event from search starts from Google Calendar THEN Set temperature using Nest Thermostat.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T005_S0079",
+      "if_then_rule": "IF Event from search starts from Google Calendar THEN Set temperature using Nest Thermostat.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T005_S0080",
+      "if_then_rule": "IF Event from search starts from Google Calendar THEN Switch schedule using Netatmo Thermostat.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T005_S0081",
+      "if_then_rule": "IF Press bttn from Bttn THEN Quick add event using Google Calendar.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0082",
+      "if_then_rule": "IF Event from search starts from Google Calendar THEN Change color using Philips Hue.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0083",
+      "if_then_rule": "IF Event from search starts from Google Calendar THEN End activity using Harmony.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0084",
+      "if_then_rule": "IF Event from search starts from Google Calendar THEN Blink my blink(1)! using blink1new.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0085",
+      "if_then_rule": "IF Event from search starts from Google Calendar THEN Set comfort profile until next transition using ecobee.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T005_S0086",
+      "if_then_rule": "IF Event from search starts from Google Calendar THEN Set comfort profile until next transition using ecobee.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T005_S0087",
+      "if_then_rule": "IF Event from search starts from Google Calendar THEN Enable a quick action using Honeywell evohome.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T005_S0088",
+      "if_then_rule": "IF Event from search starts from Google Calendar THEN Enable/Disable Holiday mode using Daikin Online Controller.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T005_S0089",
+      "if_then_rule": "IF Event from search starts from Google Calendar THEN Set comfort profile until next transition using ecobee.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T005_S0090",
+      "if_then_rule": "IF Event from search starts from Google Calendar THEN Set comfort profile until next transition using ecobee.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T005_S0091",
+      "if_then_rule": "IF Event from search starts from Google Calendar THEN Set comfort profile for X hours using ecobee.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T005_S0092",
+      "if_then_rule": "IF Event from search starts from Google Calendar THEN Set comfort profile until next transition using ecobee.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T005_S0093",
+      "if_then_rule": "IF Action Button Pressed from LaMetric Time THEN Quick add event using Google Calendar.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0094",
+      "if_then_rule": "IF Event from search starts from Google Calendar THEN Create vacation using ecobee.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T005_S0095",
+      "if_then_rule": "IF Any event starts from Google Calendar THEN Open a relay using LightwaveRF Power.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0096",
+      "if_then_rule": "IF You enter an area from Location THEN Set operating mode using GE Appliances GeoSpring.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T005_S0097",
+      "if_then_rule": "IF Pollution is high from Foobot THEN Quick add event using Google Calendar.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0098",
+      "if_then_rule": "IF You exit an area from Location THEN Start wash cycle using Samsung Washer.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T005_S0099",
+      "if_then_rule": "IF Event from search starts from Google Calendar THEN Set temperature using ThermoSmart.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T005_S0100",
+      "if_then_rule": "IF Any event starts from Google Calendar THEN Unpause using ThermoSmart.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    }
+  ]
+}

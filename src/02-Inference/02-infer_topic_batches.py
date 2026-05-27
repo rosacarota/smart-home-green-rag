@@ -15,8 +15,8 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 
 BATCH_PROMPT_PATH = SCRIPT_DIR / "prompt_batch.txt"
 
-INPUT_BATCH_DIR = Path("data/batch")
-OUTPUT_BATCH_DIR = Path("data/final_batch")
+INPUT_BATCH_DIR = Path("data/dataset-rules/batch")
+OUTPUT_BATCH_DIR = Path("data/dataset-rules/final_batch")
 
 FULL_DATASET_WITH_IDS_PATH = INPUT_BATCH_DIR / (
     "dataset_candidates_rag_bertopic_clusters_no_smart_home_related_with_ids.csv"
@@ -55,8 +55,8 @@ BATCH_ROW_COLUMNS = [
 ]
 
 # Columns used for cumulative outputs:
-# - data/final_batch/llm_labeled_rules.json
-# - data/final_batch/dataset_candidates_rag_bertopic_clusters_no_smart_home_related_llm_labeled.csv
+# - data/dataset-rules/final_batch/llm_labeled_rules.json
+# - data/dataset-rules/final_batch/dataset_candidates_rag_bertopic_clusters_no_smart_home_related_llm_labeled.csv
 #
 # These keep the topic context expanded into each row for easier merging/filtering.
 FINAL_OUTPUT_COLUMNS = [

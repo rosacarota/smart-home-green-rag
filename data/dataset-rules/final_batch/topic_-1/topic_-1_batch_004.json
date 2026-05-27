@@ -1,0 +1,611 @@
+{
+  "topic_context": {
+    "topic_id": -1,
+    "llm_topic_name": "presence_based_automation",
+    "topic_summary": "This topic contains rules that automate smart-home devices based on presence detection or specific events, such as turning lights on or off when someone is detected or when a user leaves a designated area.",
+    "green_category": "occupancy_based_control",
+    "global_green_relevance": "medium"
+  },
+  "rows": [
+    {
+      "sample_id": "T_OUTLIER_S0301",
+      "if_then_rule": "IF the security panel has been armed from HomeControl Flex THEN turn off lights using Philips Hue.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0302",
+      "if_then_rule": "IF tado switches to Away Mode from tado Air Conditioning THEN turn off lights using Philips Hue.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0303",
+      "if_then_rule": "IF occupancy detected from Stack Lighting THEN turn on lights using LIFX.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0304",
+      "if_then_rule": "IF tado switches to Home Mode from tado Heating THEN turn on using WeMo Smart Plug.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0305",
+      "if_then_rule": "IF sunrise from Weather Underground THEN turn on fan for 15 minutes using Nest Thermostat.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0306",
+      "if_then_rule": "IF you exit an area from Location THEN set mode using Wattio THERMIC.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0307",
+      "if_then_rule": "IF you exit an area from Location THEN set mode using Wattio THERMIC.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0308",
+      "if_then_rule": "IF you exit an area from Location THEN set mode using Wattio THERMIC.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0309",
+      "if_then_rule": "IF you exit an area from Location THEN set mode using Wattio THERMIC.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0310",
+      "if_then_rule": "IF you exit an area from Location THEN set temperature using Wattio THERMIC.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0311",
+      "if_then_rule": "IF you exit an area from Location THEN lock using SmartThings.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0312",
+      "if_then_rule": "IF current temperature drops below from Weather Underground THEN turn on fan for 15 minutes using Nest Thermostat.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0313",
+      "if_then_rule": "IF say a specific phrase from Amazon Alexa THEN activate shortcut using Wink: Shortcuts.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0314",
+      "if_then_rule": "IF say a specific phrase from Amazon Alexa THEN activate shortcut using Wink: Shortcuts.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0315",
+      "if_then_rule": "IF say a specific phrase from Amazon Alexa THEN activate shortcut using Wink: Shortcuts.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0316",
+      "if_then_rule": "IF say a specific phrase from Amazon Alexa THEN activate shortcut using Wink: Shortcuts.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0317",
+      "if_then_rule": "IF say a specific phrase from Amazon Alexa THEN activate shortcut using Wink: Shortcuts.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0318",
+      "if_then_rule": "IF say a specific phrase from Amazon Alexa THEN activate shortcut using Wink: Shortcuts.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0319",
+      "if_then_rule": "IF say a specific phrase from Amazon Alexa THEN activate shortcut using Wink: Shortcuts.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0320",
+      "if_then_rule": "IF say a specific phrase from Amazon Alexa THEN activate shortcut using Wink: Shortcuts.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0321",
+      "if_then_rule": "IF stone press from Pebblebee THEN toggle lights on/off using LIFX.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0322",
+      "if_then_rule": "IF you exit an area from Location THEN switch off using Wattio POD.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0323",
+      "if_then_rule": "IF you exit an area from Location THEN switch on using Wattio POD.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0324",
+      "if_then_rule": "IF event from MESH app received from MESH THEN blink lights using LIFX.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0325",
+      "if_then_rule": "IF every day at from Date & Time THEN lock door using Danalock.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0326",
+      "if_then_rule": "IF every hour at from Date & Time THEN send blink event using blink(1).",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0327",
+      "if_then_rule": "IF every hour at from Date & Time THEN send blink event using blink(1).",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0328",
+      "if_then_rule": "IF you exit an area from Location THEN lock using SmartThings.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0329",
+      "if_then_rule": "IF you exit an area from Location THEN lock using SmartThings.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0330",
+      "if_then_rule": "IF you enter an area from Location THEN unlock using SmartThings.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0331",
+      "if_then_rule": "IF event from search starts from Google Calendar THEN turn heating on using tado Heating.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0332",
+      "if_then_rule": "IF say a phrase with a number from Google Assistant THEN dim lights using Philips Hue.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0333",
+      "if_then_rule": "IF lock unlocked by specific person from August THEN turn lights on using LIFX.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0334",
+      "if_then_rule": "IF device is plugged in from Android Battery THEN fully lock a device using LightwaveRF Power.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0335",
+      "if_then_rule": "IF current condition changes to from Weather Underground THEN breathe lights using LIFX.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0336",
+      "if_then_rule": "IF current condition changes to from Weather Underground THEN breathe lights using LIFX.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0337",
+      "if_then_rule": "IF lock locked by specific person from August THEN turn off lights using Philips Hue.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0338",
+      "if_then_rule": "IF lock unlocked by specific person from August THEN turn on lights using Philips Hue.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0339",
+      "if_then_rule": "IF you enter an area from Location THEN turn on using WeMo Insight Switch.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0340",
+      "if_then_rule": "IF you enter an area from Location THEN set mode using Wattio THERMIC.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0341",
+      "if_then_rule": "IF every year on from Date & Time THEN blink lights using Philips Hue.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0342",
+      "if_then_rule": "IF new motion event from Nest Cam THEN turn on using WeMo Smart Plug.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0343",
+      "if_then_rule": "IF new motion event from Nest Cam THEN turn device ON using SkylinkNet.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0344",
+      "if_then_rule": "IF stone press from Pebblebee THEN dim lights using Philips Hue.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0345",
+      "if_then_rule": "IF stone press from Pebblebee THEN toggle lights on/off using Philips Hue.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0346",
+      "if_then_rule": "IF every year on from Date & Time THEN turn heating on using tado Heating.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0347",
+      "if_then_rule": "IF every day at from Date & Time THEN turn on fan for 15 minutes using Nest Thermostat.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0348",
+      "if_then_rule": "IF every day at from Date & Time THEN turn on fan for 15 minutes using Nest Thermostat.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0349",
+      "if_then_rule": "IF long press from Logitech POP THEN blink lights using Philips Hue.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0350",
+      "if_then_rule": "IF short press from Logitech POP THEN turn on color loop using Philips Hue.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0351",
+      "if_then_rule": "IF rain detected from Netatmo Weather Station THEN snooze using RainMachine.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0352",
+      "if_then_rule": "IF stone press from Pebblebee THEN activate scene using LIFX.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0353",
+      "if_then_rule": "IF you exit an area from Location THEN set cook timer and mode using WeMo Slow Cooker.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0354",
+      "if_then_rule": "IF you exit an area from Location THEN set mode using Wattio THERMIC.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0355",
+      "if_then_rule": "IF say a simple phrase from Google Assistant THEN turn on fan for 15 minutes using Nest Thermostat.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0356",
+      "if_then_rule": "IF end of cycle alarm from GE Appliances Washer THEN change color using Philips Hue.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0357",
+      "if_then_rule": "IF new sound or motion event from Nest Cam THEN turn on using WeMo Smart Plug.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0358",
+      "if_then_rule": "IF new motion event from Nest Cam THEN lock using SmartThings.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0359",
+      "if_then_rule": "IF new sound or motion event from Nest Cam THEN send my car a notification using BMW Labs.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0360",
+      "if_then_rule": "IF new motion event from Nest Cam THEN send blink event using blink(1).",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0361",
+      "if_then_rule": "IF daily goal achieved from Misfit THEN breathe lights using LIFX.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0362",
+      "if_then_rule": "IF temperature rises above from Nest Thermostat THEN turn on fan for 15 minutes using Nest Thermostat.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0363",
+      "if_then_rule": "IF current condition changes to from Weather Underground THEN breathe lights using LIFX.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0364",
+      "if_then_rule": "IF current condition changes to from Weather Underground THEN breathe lights using LIFX.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0365",
+      "if_then_rule": "IF current condition changes to from Weather Underground THEN breathe lights using LIFX.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0366",
+      "if_then_rule": "IF current temperature drops below from Weather Underground THEN breathe lights using LIFX.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0367",
+      "if_then_rule": "IF sunset from Weather Underground THEN breathe lights using LIFX.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0368",
+      "if_then_rule": "IF wind speed rises above from Weather Underground THEN breathe lights using LIFX.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0369",
+      "if_then_rule": "IF button press from Button widget THEN boost your heating using Hive Active Heating.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0370",
+      "if_then_rule": "IF button press from Button widget THEN set temperature hold using Heatmiser.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0371",
+      "if_then_rule": "IF button press from Button widget THEN override temperature schedule using Greenwave Systems.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0372",
+      "if_then_rule": "IF button press from Button widget THEN turn AC unit off using Daikin Online Controller.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0373",
+      "if_then_rule": "IF press bttn from Bttn THEN start cool mode using tado Air Conditioning.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0374",
+      "if_then_rule": "IF press bttn from Bttn THEN blink lights using Philips Hue.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0375",
+      "if_then_rule": "IF exit an area from BMW Labs THEN turn off lights using Philips Hue.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0376",
+      "if_then_rule": "IF exit an area from BMW Labs THEN turn off lights using Philips Hue.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0377",
+      "if_then_rule": "IF enter an area from BMW Labs THEN turn on lights using Philips Hue.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0378",
+      "if_then_rule": "IF exit an area from BMW Labs THEN turn off lights using LIFX.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0379",
+      "if_then_rule": "IF exit an area from BMW Labs THEN turn light off using Hive Active Light.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0380",
+      "if_then_rule": "IF exit an area from BMW Labs THEN close garage door using Garageio.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0381",
+      "if_then_rule": "IF current humidity level rises above from Weather Underground THEN turn on fan for 15 minutes using Nest Thermostat.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0382",
+      "if_then_rule": "IF current temperature drops below from Weather Underground THEN turn on fan for 15 minutes using Nest Thermostat.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0383",
+      "if_then_rule": "IF sunrise from Weather Underground THEN turn on fan for 15 minutes using Nest Thermostat.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0384",
+      "if_then_rule": "IF high VOCs alert from Awair THEN turn on fan for 15 minutes using Nest Thermostat.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0385",
+      "if_then_rule": "IF current humidity level rises above from Weather Underground THEN set a zone temperature using Honeywell evohome.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0386",
+      "if_then_rule": "IF wind speed rises above from Weather Underground THEN run a HomeSeer system event using HomeSeer.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0387",
+      "if_then_rule": "IF wind speed rises above from Weather Underground THEN run a HomeSeer system event using HomeSeer.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0388",
+      "if_then_rule": "IF sunrise from Weather Underground THEN turn light off using Hive Active Light.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0389",
+      "if_then_rule": "IF current temperature drops below from Weather Underground THEN set the temperature to __ °C using Hive Active Heating.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0390",
+      "if_then_rule": "IF current temperature drops below from Weather Underground THEN boost your heating using Hive Active Heating.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0391",
+      "if_then_rule": "IF current temperature drops below from Weather Underground THEN boost your heating using Hive Active Heating.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0392",
+      "if_then_rule": "IF current temperature drops below from Weather Underground THEN set the temperature to __ °C using Hive Active Heating.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0393",
+      "if_then_rule": "IF current temperature rises above from Weather Underground THEN set the temperature to __ °C using Hive Active Heating.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0394",
+      "if_then_rule": "IF tomorrow's low drops below from Weather Underground THEN set the thermostat to schedule using Hive Active Heating.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0395",
+      "if_then_rule": "IF tomorrow's low drops below from Weather Underground THEN set the thermostat to schedule using Hive Active Heating.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0396",
+      "if_then_rule": "IF current temperature rises above from Weather Underground THEN turn off your thermostat using Hive Active Heating.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T_OUTLIER_S0397",
+      "if_then_rule": "IF button press from Button widget THEN change a thermostat's heat set-point using HomeSeer.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0398",
+      "if_then_rule": "IF button press from Button widget THEN change a thermostat's operating mode to auto using HomeSeer.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0399",
+      "if_then_rule": "IF button press from Button widget THEN change a thermostat's operating mode to heat using HomeSeer.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T_OUTLIER_S0400",
+      "if_then_rule": "IF button press from Button widget THEN turn light off using Hive Active Light.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    }
+  ]
+}

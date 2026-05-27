@@ -1,7 +1,0 @@
-{
-  "topic_id": 11,
-  "llm_topic_name": "voice_thermostat_control",
-  "topic_summary": "This topic contains rules that utilize voice commands through Amazon Alexa to control and adjust the settings of various smart thermostats, primarily focusing on temperature management based on user phrases or to-do list items.",
-  "green_category": "thermostat_control",
-  "global_green_relevance": "medium"
-}

@@ -1,7 +1,0 @@
-{
-  "topic_id": 10,
-  "llm_topic_name": "smart_switch_control",
-  "topic_summary": "This topic contains rules that utilize smart switches to control lighting and appliances based on user interactions, such as long presses or scheduled times, primarily focusing on toggling or turning devices on and off.",
-  "green_category": "appliance_scheduling",
-  "global_green_relevance": "medium"
-}

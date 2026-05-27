@@ -1,7 +1,0 @@
-{
-  "topic_id": 32,
-  "llm_topic_name": "weather_notifications",
-  "topic_summary": "This topic contains rules that provide voice announcements related to weather conditions, temperature changes, and schedule updates, primarily using the Ubi device to keep users informed about their environment and home automation status.",
-  "green_category": "occupancy_based_control",
-  "global_green_relevance": "medium"
-}

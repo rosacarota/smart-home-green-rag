@@ -1,0 +1,7 @@
+{
+  "topic_id": 31,
+  "llm_topic_name": "weather_notification_system",
+  "topic_summary": "This topic contains rules that trigger notifications and log events based on weather updates, including temperature, conditions, and forecasts, often integrating with smart devices like cars and health trackers.",
+  "green_category": "weather_based_notifications",
+  "global_green_relevance": "low"
+}

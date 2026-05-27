@@ -1,0 +1,7 @@
+{
+  "topic_id": 19,
+  "llm_topic_name": "voice_control_lighting",
+  "topic_summary": "This topic contains rules that utilize voice commands through Amazon Alexa to control lighting systems, primarily focusing on turning lights on or off based on specific phrases or alarms.",
+  "green_category": "voice_control_lighting",
+  "global_green_relevance": "medium"
+}

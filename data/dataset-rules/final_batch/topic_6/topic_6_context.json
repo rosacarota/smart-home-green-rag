@@ -1,0 +1,7 @@
+{
+  "topic_id": 6,
+  "llm_topic_name": "motion_based_automation",
+  "topic_summary": "This topic contains rules that automate actions based on motion detection, such as turning on lights, sending notifications, or controlling devices when motion is sensed.",
+  "green_category": "occupancy_based_control",
+  "global_green_relevance": "medium"
+}

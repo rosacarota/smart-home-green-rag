@@ -1,0 +1,7 @@
+{
+  "topic_id": 28,
+  "llm_topic_name": "time_based_light_control",
+  "topic_summary": "This topic contains rules that control lighting based on time, weather conditions, and specific events, utilizing littleBits technology to automate light activation and output levels.",
+  "green_category": "lighting_control",
+  "global_green_relevance": "medium"
+}

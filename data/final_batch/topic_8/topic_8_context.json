@@ -1,7 +1,0 @@
-{
-  "topic_id": 8,
-  "llm_topic_name": "voice_control_automation",
-  "topic_summary": "This topic contains rules that utilize Amazon Alexa voice commands to control various smart home devices and activities, such as starting or stopping activities, unlocking doors, and managing device priorities.",
-  "green_category": "voice_control_automation",
-  "global_green_relevance": "medium"
-}

@@ -1,0 +1,7 @@
+{
+  "topic_id": 26,
+  "llm_topic_name": "occupancy_based_lighting_control",
+  "topic_summary": "This topic contains rules that automate lighting based on the occupancy of family members, using geolocation to turn lights on or off when the last person leaves or the first person arrives home.",
+  "green_category": "occupancy_based_control",
+  "global_green_relevance": "high"
+}

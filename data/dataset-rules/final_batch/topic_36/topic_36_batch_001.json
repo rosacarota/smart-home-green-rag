@@ -1,0 +1,233 @@
+{
+  "topic_context": {
+    "topic_id": 36,
+    "llm_topic_name": "motion_based_lighting_control",
+    "topic_summary": "This topic contains rules that automate lighting based on motion detection, primarily using Philips Hue and other smart lighting systems to enhance security and convenience at entry points.",
+    "green_category": "occupancy_based_control",
+    "global_green_relevance": "medium"
+  },
+  "rows": [
+    {
+      "sample_id": "T036_S0001",
+      "if_then_rule": "IF New Motion Detected from Ring THEN Toggle on/off using WeMo Light Switch.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T036_S0002",
+      "if_then_rule": "IF New Ring Detected from Ring THEN Start recording using Arlo for 30 seconds.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T036_S0003",
+      "if_then_rule": "IF New Motion Detected from Ring THEN Turn on lights using Philips Hue.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T036_S0004",
+      "if_then_rule": "IF New Motion Detected from Ring THEN Turn on using WIFIPLUG.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T036_S0005",
+      "if_then_rule": "IF New Motion Detected at Front Door THEN Start recording using Arlo.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T036_S0006",
+      "if_then_rule": "IF New Ring Detected from Ring THEN Send message to a circle using Life360.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T036_S0007",
+      "if_then_rule": "IF New Motion Detected from Ring THEN Turn lights on using LIFX.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T036_S0008",
+      "if_then_rule": "IF New Ring Detected from Ring THEN Change color using Philips Hue.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T036_S0009",
+      "if_then_rule": "IF Ring Pro detects motion at front door THEN turn on HUE porch light.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T036_S0010",
+      "if_then_rule": "IF New Ring Detected from Ring THEN Send a command using openHAB.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T036_S0011",
+      "if_then_rule": "IF New Motion Detected from Ring THEN Blink lights using Philips Hue.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T036_S0012",
+      "if_then_rule": "IF New Ring Detected from Ring THEN End activity using Harmony.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T036_S0013",
+      "if_then_rule": "IF New Ring Detected from Ring THEN Play sound using D-Link Siren.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T036_S0014",
+      "if_then_rule": "IF New Motion Detected from Ring THEN Toggle on/off using WIFIPLUG.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T036_S0015",
+      "if_then_rule": "IF New Motion Detected by Ring THEN Turn on lights.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T036_S0016",
+      "if_then_rule": "IF New Ring Detected from Ring THEN Display Notification using LaMetric Time.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T036_S0017",
+      "if_then_rule": "IF New Ring Detected from Ring THEN Blink lights using LIFX.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T036_S0018",
+      "if_then_rule": "IF New Ring Detected from Ring THEN Play sound using D-Link Siren.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T036_S0019",
+      "if_then_rule": "IF New Ring Detected from Ring THEN Quick add event using Google Calendar.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T036_S0020",
+      "if_then_rule": "IF New Motion Detected from Ring THEN Run a HomeSeer system event using HomeSeer.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T036_S0021",
+      "if_then_rule": "IF Someone Rings Doorbell THEN Change Hue Lights to Ring Blue.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T036_S0022",
+      "if_then_rule": "IF Ring doorbell detects motion THEN Switch ON entrance lights using SmartThings.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T036_S0023",
+      "if_then_rule": "IF presence is detected THEN turn on switch using SmartThings.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T036_S0024",
+      "if_then_rule": "IF New Motion Detected from Ring THEN Blink lights using Philips Hue.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T036_S0025",
+      "if_then_rule": "IF New Motion Detected from Ring THEN Turn on lights using Philips Hue.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T036_S0026",
+      "if_then_rule": "IF New Motion Detected by Ring THEN Turn on lights.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T036_S0027",
+      "if_then_rule": "IF Someone Rings Doorbell THEN Change Hue Lights to Ring Blue.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T036_S0028",
+      "if_then_rule": "IF Ring Motion detected THEN Switch on using SmartThings.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T036_S0029",
+      "if_then_rule": "IF Ring Motion detected THEN Switch on using SmartThings.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T036_S0030",
+      "if_then_rule": "IF Ding detected THEN Toggle WIFIPLUG.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T036_S0031",
+      "if_then_rule": "IF New Ring Detected from Ring THEN Play the text to speech using Oticon.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T036_S0032",
+      "if_then_rule": "IF New Motion Detected from Ring THEN Send a command using openHAB.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T036_S0033",
+      "if_then_rule": "IF New Motion Detected from Ring THEN Blink lights using LIFX.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T036_S0034",
+      "if_then_rule": "IF New Ring Detected from Ring THEN Blink lights using Philips Hue.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T036_S0035",
+      "if_then_rule": "IF doorbell pressed THEN Switch on using SmartThings.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T036_S0036",
+      "if_then_rule": "IF New Motion Detected from Ring THEN Turn on lights using Philips Hue.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T036_S0037",
+      "if_then_rule": "IF New Ring Detected from Ring THEN Blink lights using LIFX.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    }
+  ]
+}

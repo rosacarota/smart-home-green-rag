@@ -1,7 +1,0 @@
-{
-  "topic_id": 14,
-  "llm_topic_name": "weight_logging_automation",
-  "topic_summary": "This topic contains rules that automate the logging of weight and health measurements from various smart devices to health tracking applications, facilitating seamless data synchronization for users.",
-  "green_category": "health_data_management",
-  "global_green_relevance": "low"
-}

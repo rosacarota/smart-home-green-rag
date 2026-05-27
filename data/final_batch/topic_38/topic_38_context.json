@@ -1,7 +1,0 @@
-{
-  "topic_id": 38,
-  "llm_topic_name": "ecobee_automation",
-  "topic_summary": "This topic contains rules for automating the Ecobee thermostat based on presence detection, location changes, and specific triggers from SmartThings, optimizing heating and cooling settings to enhance energy efficiency.",
-  "green_category": "hvac_optimization",
-  "global_green_relevance": "high"
-}

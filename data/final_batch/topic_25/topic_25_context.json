@@ -1,7 +1,0 @@
-{
-  "topic_id": 25,
-  "llm_topic_name": "location_based_thermostat_control",
-  "topic_summary": "This topic contains rules that adjust thermostat settings based on the user's location, optimizing heating and cooling when the user is away or approaching home to enhance energy efficiency.",
-  "green_category": "thermostat_control",
-  "global_green_relevance": "high"
-}

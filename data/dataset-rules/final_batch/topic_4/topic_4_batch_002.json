@@ -1,0 +1,299 @@
+{
+  "topic_context": {
+    "topic_id": 4,
+    "llm_topic_name": "temperature_based_device_control",
+    "topic_summary": "This topic contains rules that control smart plugs and devices based on temperature and weather conditions, optimizing energy use by turning devices on or off in response to environmental changes.",
+    "green_category": "temperature_control",
+    "global_green_relevance": "high"
+  },
+  "rows": [
+    {
+      "sample_id": "T004_S0101",
+      "if_then_rule": "IF Temperature drops below from SmartThings THEN Set temperature using Nest Thermostat based on sensor temp.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T004_S0102",
+      "if_then_rule": "IF Temperature drops below 19C from Netatmo Weather Station THEN increase Netatmo thermostat to 20C for 2 hours.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T004_S0103",
+      "if_then_rule": "IF Current temperature drops below from Weather Underground THEN turn on using WeMo Insight Switch.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T004_S0104",
+      "if_then_rule": "IF Current humidity level rises above 80% from Weather Underground THEN turn on dehumidifier using WeMo Insight Switch.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T004_S0105",
+      "if_then_rule": "IF Current condition changes to rain from Weather Underground THEN turn on using WeMo Insight Switch.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T004_S0106",
+      "if_then_rule": "IF Current condition changes to rainy from Weather Underground THEN turn on using WeMo Insight Switch.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T004_S0107",
+      "if_then_rule": "IF Current temperature drops below from Weather Underground THEN turn on bedroom heater using WeMo Smart Plug.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T004_S0108",
+      "if_then_rule": "IF Current temperature drops below 15deg from Weather Underground THEN turn on Wemo Heater using WeMo Smart Plug.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T004_S0109",
+      "if_then_rule": "IF Current temperature drops below 32 degrees from Weather Underground THEN turn on heater using WeMo Smart Plug.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T004_S0110",
+      "if_then_rule": "IF Current temperature drops below from Weather Underground THEN turn on heater using WeMo Smart Plug.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T004_S0111",
+      "if_then_rule": "IF Current condition changes to snow from Weather Underground THEN turn on outdoor Xmas lights using WeMo Smart Plug.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T004_S0112",
+      "if_then_rule": "IF Current condition changes to raining from Weather Underground THEN turn on light using WeMo Smart Plug.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T004_S0113",
+      "if_then_rule": "IF Indoor temperature less than from ecobee THEN turn off ceiling fan using WeMo Light Switch.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T004_S0114",
+      "if_then_rule": "IF Indoor temperature greater than from ecobee THEN turn on using WeMo Smart Plug.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T004_S0115",
+      "if_then_rule": "IF Temperature drops below from ThermoSmart THEN turn off lights using WeMo Smart Plug.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T004_S0116",
+      "if_then_rule": "IF Current temperature rises above from Weather Underground THEN turn AC unit on using Daikin Online Controller.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T004_S0117",
+      "if_then_rule": "IF Current temperature drops below from Weather Underground THEN turn on D-Link Smart Plug.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T004_S0118",
+      "if_then_rule": "IF Current condition changes to from Weather Underground THEN turn on D-Link Smart Plug.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T004_S0119",
+      "if_then_rule": "IF Current temperature drops below 10°C from Weather Underground THEN power off device using Energenie Mi|Home.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T004_S0120",
+      "if_then_rule": "IF Current condition changes to snow from Weather Underground THEN turn on roof heater using WeMo Insight Switch.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T004_S0121",
+      "if_then_rule": "IF Current humidity level rises above 65% from Weather Underground THEN toggle switch in Telldus Live!",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T004_S0122",
+      "if_then_rule": "IF Current pollen count rises above 10 from Weather Underground THEN set operation mode to High using Samsung Air Purifier.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T004_S0123",
+      "if_then_rule": "IF Current humidity level rises above a configured threshold from Weather Underground THEN set operation mode to Dry using Samsung Floor Air Conditioner.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T004_S0124",
+      "if_then_rule": "IF Current humidity level rises above a configured threshold from Weather Underground THEN set operation mode to Dry using Samsung Room Air Conditioner.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T004_S0125",
+      "if_then_rule": "IF Current temperature rises above from Weather Underground THEN turn A/C on using Sensibo.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T004_S0126",
+      "if_then_rule": "IF Current temperature drops below 45 from Weather Underground THEN turn A/C on using Sensibo.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T004_S0127",
+      "if_then_rule": "IF Current temperature drops below a configured threshold from Weather Underground THEN switch on using SmartThings.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T004_S0128",
+      "if_then_rule": "IF Temperature rises above 75 degrees from SmartThings THEN turn A/C off using Sensibo.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T004_S0129",
+      "if_then_rule": "IF Temperature drops below a configured threshold from SmartThings THEN turn A/C off using Sensibo.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T004_S0130",
+      "if_then_rule": "IF Temperature rises above a configured threshold from ThermoSmart THEN turn on using WeMo Smart Plug.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T004_S0131",
+      "if_then_rule": "IF Temperature rises above a configured threshold from ThermoSmart THEN turn on using WeMo Smart Plug.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T004_S0132",
+      "if_then_rule": "IF Temperature rises above a configured threshold from SmartThings THEN turn on using WeMo Smart Plug.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T004_S0133",
+      "if_then_rule": "IF Current temperature rises above 69 from Weather Underground THEN turn on using WeMo Smart Plug.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T004_S0134",
+      "if_then_rule": "IF Current temperature rises above 70°F from Weather Underground THEN turn on using WeMo Smart Plug.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T004_S0135",
+      "if_then_rule": "IF Current temperature drops below freezing from Weather Underground THEN turn on using WeMo Smart Plug.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T004_S0136",
+      "if_then_rule": "IF Current temperature drops below from Weather Underground THEN turn on calefaction using WeMo Smart Plug.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T004_S0137",
+      "if_then_rule": "IF Current temperature rises above from Weather Underground THEN turn on using WeMo Insight Switch.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T004_S0138",
+      "if_then_rule": "IF Current temperature drops below a configured threshold from Weather Underground THEN turn on heater using WeMo Insight Switch.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T004_S0139",
+      "if_then_rule": "IF moisture detected from SmartThings THEN switch on sump pump using SmartThings.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T004_S0140",
+      "if_then_rule": "IF Temperature drops below 47 degrees from SmartThings THEN switch off using SmartThings.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T004_S0141",
+      "if_then_rule": "IF Humidity rises above a configured threshold from SmartThings THEN turn on using WeMo Smart Plug.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T004_S0142",
+      "if_then_rule": "IF Temperature rises above a configured threshold from Wink: Spotter THEN turn A/C on using Sensibo.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T004_S0143",
+      "if_then_rule": "IF Temperature rises above a configured threshold from Wink: Spotter THEN turn on using WeMo Smart Plug.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T004_S0144",
+      "if_then_rule": "IF Temperature rises above a configured threshold from Wink: Spotter THEN turn on using WeMo Smart Plug.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T004_S0145",
+      "if_then_rule": "IF Temperature is too high from Wireless Tag THEN turn A/C on using Sensibo.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T004_S0146",
+      "if_then_rule": "IF Temperature is too low from Wireless Tag THEN turn A/C off using Sensibo.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T004_S0147",
+      "if_then_rule": "IF Switched on from WeMo Smart Plug THEN set temperature using ThermoSmart.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T004_S0148",
+      "if_then_rule": "IF Temperature drops from Netatmo Weather Station THEN turn on using WeMo Insight Switch.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    }
+  ]
+}

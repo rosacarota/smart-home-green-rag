@@ -1,7 +1,0 @@
-{
-  "topic_id": 22,
-  "llm_topic_name": "scene_activation_control",
-  "topic_summary": "This topic contains rules that activate various smart-home scenes or functions through button presses, primarily focusing on security and lighting control.",
-  "green_category": "scene_activation",
-  "global_green_relevance": "medium"
-}

@@ -1,0 +1,317 @@
+{
+  "topic_context": {
+    "topic_id": 26,
+    "llm_topic_name": "occupancy_based_lighting_control",
+    "topic_summary": "This topic contains rules that automate lighting based on the occupancy of family members, using geolocation to turn lights on or off when the last person leaves or the first person arrives home.",
+    "green_category": "occupancy_based_control",
+    "global_green_relevance": "high"
+  },
+  "rows": [
+    {
+      "sample_id": "T026_S0001",
+      "if_then_rule": "IF Every day at from Date & Time THEN Resume program using ecobee.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T026_S0002",
+      "if_then_rule": "IF Every year on from Date & Time THEN Create vacation using ecobee.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T026_S0003",
+      "if_then_rule": "IF Last family member leaves a specific place from Life360 THEN Turn off lights using Philips Hue.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T026_S0004",
+      "if_then_rule": "IF Last family member leaves a specific place from Life360 THEN Turn lights off using LIFX.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T026_S0005",
+      "if_then_rule": "IF You leave a specific place from Life360 THEN Turn off A/C using IntesisHome.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T026_S0006",
+      "if_then_rule": "IF Last family member leaves a specific place from Life360 THEN Turn light off using Hive Active Light.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T026_S0007",
+      "if_then_rule": "IF First family member arrives at a specific place from Life360 THEN Go back to schedule using Netatmo Thermostat.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T026_S0008",
+      "if_then_rule": "IF Last family member leaves a specific place from Life360 THEN Set to away mode using Netatmo Thermostat.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T026_S0009",
+      "if_then_rule": "IF Last family member leaves a specific place from Life360 THEN Set to away mode using Netatmo Thermostat.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T026_S0010",
+      "if_then_rule": "IF Last family member leaves a specific place from Life360 THEN Turn light off using Emberlight.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T026_S0011",
+      "if_then_rule": "IF Every day at from Date & Time THEN Resume program using ecobee.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T026_S0012",
+      "if_then_rule": "IF Every day at from Date & Time THEN Resume program using ecobee.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T026_S0013",
+      "if_then_rule": "IF First family member arrives at a specific place from Life360 THEN Resume program using ecobee.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T026_S0014",
+      "if_then_rule": "IF Last family member leaves a specific place from Life360 THEN Turn light off using Emberlight.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T026_S0015",
+      "if_then_rule": "IF Last family member leaves a specific place from Life360 THEN Turn off your thermostat using Hive Active Heating.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T026_S0016",
+      "if_then_rule": "IF First family member arrives at a specific place from Life360 THEN Set the thermostat to schedule using Hive Active Heating.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T026_S0017",
+      "if_then_rule": "IF Last family member leaves a specific place from Life360 THEN Set comfort profile for X hours using ecobee.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T026_S0018",
+      "if_then_rule": "IF Every day at from Date & Time THEN Resume program using ecobee.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T026_S0019",
+      "if_then_rule": "IF Every day at from Date & Time THEN Resume program using ecobee.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T026_S0020",
+      "if_then_rule": "IF You enter an area from Location THEN Resume program using ecobee.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T026_S0021",
+      "if_then_rule": "IF First family member arrives at a specific place from Life360 THEN Resume program using ecobee.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T026_S0022",
+      "if_then_rule": "IF First family member arrives at a specific place from Life360 THEN Run a HomeSeer system event using HomeSeer.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T026_S0023",
+      "if_then_rule": "IF First family member arrives at a specific place from Life360 THEN Resume program using ecobee.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T026_S0024",
+      "if_then_rule": "IF Last family member leaves a specific place from Life360 THEN Change mode using abode.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T026_S0025",
+      "if_then_rule": "IF Last family member leaves a specific place from Life360 THEN Change mode using abode.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T026_S0026",
+      "if_then_rule": "IF Last family member leaves a specific place from Life360 THEN Activate Scene using Hunter Douglas PowerView.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T026_S0027",
+      "if_then_rule": "IF Last family member leaves a specific place from Life360 THEN Turn off using Hive Active Light.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T026_S0028",
+      "if_then_rule": "IF First family member arrives at a specific place from Life360 THEN Boost your heating using Hive Active Heating.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T026_S0029",
+      "if_then_rule": "IF Last family member leaves a specific place from Life360 THEN Turn off using WeMo Smart Plug.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T026_S0030",
+      "if_then_rule": "IF Last family member leaves a specific place from Life360 THEN Activate shortcut using Wink: Shortcuts.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T026_S0031",
+      "if_then_rule": "IF Last family member leaves a specific place from Life360 THEN Activate shortcut using Wink: Shortcuts.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T026_S0032",
+      "if_then_rule": "IF Last family member leaves a specific place from Life360 THEN Activate shortcut using Wink: Shortcuts.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T026_S0033",
+      "if_then_rule": "IF Last family member leaves a specific place from Life360 THEN Turn off lights using Philips Hue.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T026_S0034",
+      "if_then_rule": "IF First family member arrives at a specific place from Life360 THEN Unpause using ThermoSmart.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T026_S0035",
+      "if_then_rule": "IF Last family member leaves a specific place from Life360 THEN Pause using ThermoSmart.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T026_S0036",
+      "if_then_rule": "IF You leave a specific place from Life360 THEN Turn off A/C using IntesisHome.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T026_S0037",
+      "if_then_rule": "IF Last family member leaves a specific place from Life360 THEN Execute scene using IntesisHome.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T026_S0038",
+      "if_then_rule": "IF Last family member leaves a specific place from Life360 THEN Turn lights off using LIFX.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T026_S0039",
+      "if_then_rule": "IF Last family member leaves a specific place from Life360 THEN Turn off using WeMo Light Switch.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T026_S0040",
+      "if_then_rule": "IF First family member arrives at a specific place from Life360 THEN Turn on using WeMo Light Switch.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T026_S0041",
+      "if_then_rule": "IF First family member arrives at a specific place from Life360 THEN Activate shortcut using Wink: Shortcuts.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T026_S0042",
+      "if_then_rule": "IF Last family member leaves a specific place from Life360 THEN Turn off a group of lights using WeMo Lighting.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T026_S0043",
+      "if_then_rule": "IF Last family member leaves a specific place from Life360 THEN Start an event using LightwaveRF Events.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T026_S0044",
+      "if_then_rule": "IF First family member arrives at a specific place from Life360 THEN Unpause using ThermoSmart.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T026_S0045",
+      "if_then_rule": "IF First family member arrives at a specific place from Life360 THEN Activate shortcut using Wink: Shortcuts.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T026_S0046",
+      "if_then_rule": "IF Last family member leaves a specific place from Life360 THEN Activate shortcut using Wink: Shortcuts.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T026_S0047",
+      "if_then_rule": "IF Last family member leaves a specific place from Life360 THEN Activate shortcut using Wink: Shortcuts.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T026_S0048",
+      "if_then_rule": "IF Last family member leaves a specific place from Life360 THEN Turn off using WeMo Light Switch.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T026_S0049",
+      "if_then_rule": "IF Last family member leaves a specific place from Life360 THEN Turn off using WeMo Smart Plug.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T026_S0050",
+      "if_then_rule": "IF Last family member leaves a specific place from Life360 THEN Enable a quick action using Honeywell evohome.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T026_S0051",
+      "if_then_rule": "IF Every day of the week at from Date & Time THEN Resume program using ecobee.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    }
+  ]
+}

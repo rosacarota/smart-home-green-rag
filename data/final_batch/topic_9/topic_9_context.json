@@ -1,7 +1,0 @@
-{
-  "topic_id": 9,
-  "llm_topic_name": "automated_light_control",
-  "topic_summary": "This topic contains rules that automate the control of lighting and scenes based on the user's location, primarily turning off lights when leaving home or adjusting settings upon arrival.",
-  "green_category": "lighting_efficiency",
-  "global_green_relevance": "high"
-}

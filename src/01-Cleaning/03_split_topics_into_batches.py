@@ -7,7 +7,7 @@ INPUT_PATH = Path(
     "data/processed/dataset_candidates_rag_bertopic_clusters_no_smart_home_related.csv"
 )
 
-OUTPUT_DIR = Path("data/batch")
+OUTPUT_DIR = Path("data/dataset-rules/batch")
 
 FULL_OUTPUT_PATH = OUTPUT_DIR / "dataset_candidates_rag_bertopic_clusters_no_smart_home_related_with_ids.csv"
 

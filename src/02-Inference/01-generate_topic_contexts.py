@@ -19,8 +19,8 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 
 CONTEXT_PROMPT_PATH = SCRIPT_DIR / "prompt_context.txt"
 
-INPUT_BATCH_DIR = Path("data/batch")
-OUTPUT_BATCH_DIR = Path("data/final_batch")
+INPUT_BATCH_DIR = Path("data/dataset-rules/batch")
+OUTPUT_BATCH_DIR = Path("data/dataset-rules/final_batch")
 
 
 # =========================
@@ -234,8 +234,8 @@ def parse_topic_selection_from_cli() -> set[int] | None:
 def extract_topic_id_from_path(batch_path: Path) -> int:
     """
     Extract topic_id from paths like:
-      data/batch/topic_2/topic_2_batch_001.csv
-      data/batch/topic_-1/topic_-1_batch_001.csv
+      data/dataset-rules/batch/topic_2/topic_2_batch_001.csv
+      data/dataset-rules/batch/topic_-1/topic_-1_batch_001.csv
     """
     match = re.search(r"topic_(-?\d+)", batch_path.parent.name)
 
@@ -251,7 +251,7 @@ def get_all_batch_files() -> list[Path]:
     if not batch_files:
         raise FileNotFoundError(
             f"No topic batch files found in {INPUT_BATCH_DIR}. "
-            "Expected files like data/batch/topic_0/topic_0_batch_001.csv"
+            "Expected files like data/dataset-rules/batch/topic_0/topic_0_batch_001.csv"
         )
 
     return batch_files

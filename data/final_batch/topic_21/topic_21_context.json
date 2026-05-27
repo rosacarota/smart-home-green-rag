@@ -1,7 +1,0 @@
-{
-  "topic_id": 21,
-  "llm_topic_name": "arrival_lighting_control",
-  "topic_summary": "This topic contains rules that automate lighting changes based on the user's arrival at home, using location-based triggers to turn on or change the color of Philips Hue lights and other smart lighting systems.",
-  "green_category": "lighting_efficiency",
-  "global_green_relevance": "medium"
-}

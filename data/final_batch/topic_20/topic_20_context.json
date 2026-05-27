@@ -1,7 +1,0 @@
-{
-  "topic_id": 20,
-  "llm_topic_name": "location_based_device_control",
-  "topic_summary": "This topic contains rules that automate the control of smart devices based on the user's location, primarily focusing on turning devices on or off when entering or leaving specific areas.",
-  "green_category": "energy_automation",
-  "global_green_relevance": "high"
-}

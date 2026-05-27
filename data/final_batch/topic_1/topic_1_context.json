@@ -1,7 +1,0 @@
-{
-  "topic_id": 1,
-  "llm_topic_name": "fitness_activity_monitoring",
-  "topic_summary": "This topic contains rules that monitor fitness activities and health metrics, triggering actions based on daily goals and sleep patterns, often integrating with smart devices and calendars for reminders and logging.",
-  "green_category": "activity_logging",
-  "global_green_relevance": "medium"
-}

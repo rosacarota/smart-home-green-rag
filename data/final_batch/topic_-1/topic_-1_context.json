@@ -1,7 +1,0 @@
-{
-  "topic_id": -1,
-  "llm_topic_name": "presence_based_automation",
-  "topic_summary": "This topic contains rules that automate smart-home devices based on presence detection or specific events, such as turning lights on or off when someone is detected or when a user leaves a designated area.",
-  "green_category": "occupancy_based_control",
-  "global_green_relevance": "medium"
-}

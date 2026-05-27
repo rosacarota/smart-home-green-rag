@@ -1,0 +1,527 @@
+{
+  "topic_context": {
+    "topic_id": 9,
+    "llm_topic_name": "automated_light_control",
+    "topic_summary": "This topic contains rules that automate the control of lighting and scenes based on the user's location, primarily turning off lights when leaving home or adjusting settings upon arrival.",
+    "green_category": "lighting_efficiency",
+    "global_green_relevance": "high"
+  },
+  "rows": [
+    {
+      "sample_id": "T009_S0001",
+      "if_then_rule": "IF You exit an area from Location THEN Turn off lights using Philips Hue.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T009_S0002",
+      "if_then_rule": "IF You exit an area from Location THEN Turn Hue lights off.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T009_S0003",
+      "if_then_rule": "IF You enter an area from Location THEN Turn light on using Emberlight.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T009_S0004",
+      "if_then_rule": "IF You exit an area from Location THEN Turn off lights using Philips Hue.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T009_S0005",
+      "if_then_rule": "IF You exit an area from Location THEN Set Almond mode using Almond.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T009_S0006",
+      "if_then_rule": "IF Every day at from Date & Time THEN Turn on light using LightwaveRF Lighting.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T009_S0007",
+      "if_then_rule": "IF You exit an area from Location THEN Turn off lights using Philips Hue.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T009_S0008",
+      "if_then_rule": "IF Ambient light level changes from Stack Lighting THEN Set shade position using Lutron Caseta Wireless.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T009_S0009",
+      "if_then_rule": "IF You exit an area from Location THEN Turn off lights using Philips Hue.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T009_S0010",
+      "if_then_rule": "IF You exit an area from Location THEN Turn off lights using Philips Hue.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T009_S0011",
+      "if_then_rule": "IF You exit an area from Location THEN Turn off your Hue lights.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T009_S0012",
+      "if_then_rule": "IF You exit an area from Location THEN Turn off lights using Philips Hue.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T009_S0013",
+      "if_then_rule": "IF You exit an area from Location THEN lights off.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T009_S0014",
+      "if_then_rule": "IF You exit an area from Location THEN Turn light off using Emberlight.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T009_S0015",
+      "if_then_rule": "IF You enter an area from Location THEN Turn light on using Emberlight.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T009_S0016",
+      "if_then_rule": "IF You exit an area from Location THEN Turn off using D-Link Smart Plug.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T009_S0017",
+      "if_then_rule": "IF You exit an area from Location THEN turn off hue lamps.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T009_S0018",
+      "if_then_rule": "IF You enter an area from Location THEN Turn on plug using Smappee.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T009_S0019",
+      "if_then_rule": "IF You exit an area from Location THEN Turn off lights using Philips Hue.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T009_S0020",
+      "if_then_rule": "IF You exit an area from Location THEN Turn off your lights using Philips Hue.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T009_S0021",
+      "if_then_rule": "IF You exit an area from Location THEN Activate scene using Lutron Caseta Wireless.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T009_S0022",
+      "if_then_rule": "IF You exit an area from Location THEN Activate scene using Lutron Caseta Wireless.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T009_S0023",
+      "if_then_rule": "IF You exit an area from Location THEN Activate scene using Lutron Caseta Wireless.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T009_S0024",
+      "if_then_rule": "IF You enter an area from Location THEN Turn on light using LightwaveRF Lighting.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T009_S0025",
+      "if_then_rule": "IF You exit an area from Location THEN Start an event using LightwaveRF Events.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T009_S0026",
+      "if_then_rule": "IF You enter an area from Location THEN Switch on using SmartThings.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T009_S0027",
+      "if_then_rule": "IF You enter an area from Location THEN Lights On.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T009_S0028",
+      "if_then_rule": "IF You enter an area from Location THEN Turn on plug using Smappee.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T009_S0029",
+      "if_then_rule": "IF You enter an area from Location THEN Drive any Grove using Seeed.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T009_S0030",
+      "if_then_rule": "IF You exit an area from Location THEN Turn off lights using Philips Hue.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T009_S0031",
+      "if_then_rule": "IF A/C turned off from IntesisHome THEN Turn off lights using Philips Hue.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T009_S0032",
+      "if_then_rule": "IF You exit an area from Location THEN Turn off using WIFIPLUG.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T009_S0033",
+      "if_then_rule": "IF You enter an area from Location THEN Publish an event using Particle.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T009_S0034",
+      "if_then_rule": "IF You exit an area from Location THEN Turn light off using Emberlight.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T009_S0035",
+      "if_then_rule": "IF You exit an area from Location THEN Turn off lights using Philips Hue.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T009_S0036",
+      "if_then_rule": "IF You exit an area from Location THEN turn off lights.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T009_S0037",
+      "if_then_rule": "IF You exit an area from Location THEN turn off the lights.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T009_S0038",
+      "if_then_rule": "IF You exit an area from Location THEN Turn off lights using Philips Hue.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T009_S0039",
+      "if_then_rule": "IF You exit an area from Location THEN Turn off lights.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T009_S0040",
+      "if_then_rule": "IF You exit an area from Location THEN Turn off lights using Philips Hue.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T009_S0041",
+      "if_then_rule": "IF You exit an area from Location THEN Turn off using WIFIPLUG.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T009_S0042",
+      "if_then_rule": "IF You exit an area from Location THEN Turn off lights using Philips Hue.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T009_S0043",
+      "if_then_rule": "IF You enter an area from Location THEN Turn on using WIFIPLUG.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T009_S0044",
+      "if_then_rule": "IF You exit an area from Location THEN Turn off using WIFIPLUG.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T009_S0045",
+      "if_then_rule": "IF You exit an area from Location THEN Auto off.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T009_S0046",
+      "if_then_rule": "IF Switched on from WIFIPLUG THEN Toggle on / off using WIFIPLUG.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T009_S0047",
+      "if_then_rule": "IF You exit an area from Location THEN turn off hue lamps.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T009_S0048",
+      "if_then_rule": "IF You exit an area from Location THEN Turn off lights using Philips Hue.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T009_S0049",
+      "if_then_rule": "IF You exit an area from Location THEN Call a function using Particle.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T009_S0050",
+      "if_then_rule": "IF You exit an area from Location THEN Call a function using Particle.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T009_S0051",
+      "if_then_rule": "IF You enter an area from Location THEN Turn off using D-Link Smart Plug.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T009_S0052",
+      "if_then_rule": "IF You exit an area from Location THEN Switch off a socket using LightwaveRF Power.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T009_S0053",
+      "if_then_rule": "IF You enter an area from Location THEN Switch on a socket using LightwaveRF Power.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T009_S0054",
+      "if_then_rule": "IF You enter an area from Location THEN Start an event using LightwaveRF Events.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T009_S0055",
+      "if_then_rule": "IF You enter an area from Location THEN Turn on light using LightwaveRF Lighting.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T009_S0056",
+      "if_then_rule": "IF You exit an area from Location THEN Turn off using D-Link Smart Plug.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T009_S0057",
+      "if_then_rule": "IF You enter an area from Location THEN Set Almond mode using Almond.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T009_S0058",
+      "if_then_rule": "IF You enter an area from Location THEN Turn on group of lights using Emberlight.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T009_S0059",
+      "if_then_rule": "IF You exit an area from Location THEN Turn a LightwaveRF Electric Switch off.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T009_S0060",
+      "if_then_rule": "IF You exit an area from Location THEN Turn off lights using Philips Hue.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T009_S0061",
+      "if_then_rule": "IF You exit an area from Location THEN Turn off lights using Philips Hue.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T009_S0062",
+      "if_then_rule": "IF You exit an area from Location THEN Turn off lights using Philips Hue.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T009_S0063",
+      "if_then_rule": "IF You exit an area from Location THEN Turn off lights using Philips Hue.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T009_S0064",
+      "if_then_rule": "IF You exit an area from Location THEN turn off hue lamps.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T009_S0065",
+      "if_then_rule": "IF You enter an area from Location THEN Power on device using Energenie Mi|Home.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T009_S0066",
+      "if_then_rule": "IF You enter an area from Location THEN Power on device using Energenie Mi|Home.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T009_S0067",
+      "if_then_rule": "IF You enter an area from Location THEN Power on device using Energenie Mi|Home.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T009_S0068",
+      "if_then_rule": "IF You exit an area from Location THEN Activate smart control using Greenwave Systems.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T009_S0069",
+      "if_then_rule": "IF You enter an area from Location THEN Start activity using Harmony.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T009_S0070",
+      "if_then_rule": "IF You enter an area from Location THEN Turn on switch using Home8.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T009_S0071",
+      "if_then_rule": "IF You enter an area from Location THEN Activate Scene using Hunter Douglas PowerView.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T009_S0072",
+      "if_then_rule": "IF You exit an area from Location THEN Start an event using LightwaveRF Events.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T009_S0073",
+      "if_then_rule": "IF You enter an area from Location THEN Start an event using LightwaveRF Events.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T009_S0074",
+      "if_then_rule": "IF You exit an area from Location THEN Turn off lights using Philips Hue.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T009_S0075",
+      "if_then_rule": "IF You exit an area from Location THEN Turn off Hue lights.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T009_S0076",
+      "if_then_rule": "IF You exit an area from Location THEN Turn off light using LightwaveRF Lighting.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T009_S0077",
+      "if_then_rule": "IF You exit an area from Location THEN Turn on lights using Philips Hue.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T009_S0078",
+      "if_then_rule": "IF You exit an area from Location THEN Turn off lights using Philips Hue.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T009_S0079",
+      "if_then_rule": "IF You exit an area from Location THEN Turn off Hue lights.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T009_S0080",
+      "if_then_rule": "IF You exit an area from Location THEN Turn off Hue lights.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T009_S0081",
+      "if_then_rule": "IF You exit an area from Location THEN turn off hue lamps.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T009_S0082",
+      "if_then_rule": "IF You exit an area from Location THEN turn off hue lamps.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T009_S0083",
+      "if_then_rule": "IF You exit an area from Location THEN Turn off lights using Philips Hue.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T009_S0084",
+      "if_then_rule": "IF You exit an area from Location THEN Turn off hue lights.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T009_S0085",
+      "if_then_rule": "IF You exit an area from Location THEN Turn off lights using Philips Hue.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T009_S0086",
+      "if_then_rule": "IF You exit an area from Location THEN Turn off lights using Philips Hue.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    }
+  ]
+}

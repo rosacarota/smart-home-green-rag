@@ -1,0 +1,365 @@
+{
+  "topic_context": {
+    "topic_id": 22,
+    "llm_topic_name": "scene_activation_control",
+    "topic_summary": "This topic contains rules that activate various smart-home scenes or functions through button presses, primarily focusing on security and lighting control.",
+    "green_category": "scene_activation",
+    "global_green_relevance": "medium"
+  },
+  "rows": [
+    {
+      "sample_id": "T022_S0001",
+      "if_then_rule": "IF Press button from Qblinks Qmote THEN Call a function using Particle.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T022_S0002",
+      "if_then_rule": "IF Press button from Qblinks Qmote THEN Send blink event using blink(1).",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T022_S0003",
+      "if_then_rule": "IF Almond Click is pressed once from Almond THEN Activate a scene using Almond.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T022_S0004",
+      "if_then_rule": "IF Button press from Button widget THEN Turn off using WIFIPLUG.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T022_S0005",
+      "if_then_rule": "IF Button press from Button widget THEN Turn off then on using WeMo Light Switch.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T022_S0006",
+      "if_then_rule": "IF Button press from Button widget THEN Arm the security panel using HomeControl Flex.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T022_S0007",
+      "if_then_rule": "IF Button press from Button widget THEN Turn on using WeMo Light Switch.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T022_S0008",
+      "if_then_rule": "IF Button press from Button widget THEN Turn on lights using Stack Lighting.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T022_S0009",
+      "if_then_rule": "IF Button press from Button widget THEN Turn off lights using Stack Lighting.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T022_S0010",
+      "if_then_rule": "IF Button press from Button widget THEN Turn on then off using WeMo Light Switch.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T022_S0011",
+      "if_then_rule": "IF Button press from Button widget THEN Update Indicator using LaMetric Time.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T022_S0012",
+      "if_then_rule": "IF Button press from Button widget THEN Change to random color using Philips Hue.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T022_S0013",
+      "if_then_rule": "IF Button press from Button widget THEN Turn off lights using Philips Hue.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T022_S0014",
+      "if_then_rule": "IF Button press from Button widget THEN Change color from image using Philips Hue.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T022_S0015",
+      "if_then_rule": "IF Button press from Button widget THEN Change color from image using Philips Hue.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T022_S0016",
+      "if_then_rule": "IF Button press from Button widget THEN Deactivate siren/strobe using SmartThings.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T022_S0017",
+      "if_then_rule": "IF Button press from Button widget THEN Turn A/C on using Sensibo.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T022_S0018",
+      "if_then_rule": "IF Button press from Button widget THEN Activate siren/strobe using SmartThings.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T022_S0019",
+      "if_then_rule": "IF Button press from Button widget THEN Change security mode using Bhome.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T022_S0020",
+      "if_then_rule": "IF Button press from Button widget THEN Turn off lights using Philips Hue.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T022_S0021",
+      "if_then_rule": "IF Button press from Button widget THEN Turn off a wireless accessory using Bhome.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T022_S0022",
+      "if_then_rule": "IF Button press from Button widget THEN Change color of lights using LIFX.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T022_S0023",
+      "if_then_rule": "IF Button press from Button widget THEN Turn on a device using HomeSeer.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T022_S0024",
+      "if_then_rule": "IF Button press from Button widget THEN Disarm location using Homeboy.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T022_S0025",
+      "if_then_rule": "IF Button press from Button widget THEN Power on device using Energenie Mi|Home.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T022_S0026",
+      "if_then_rule": "IF Button press from Button widget THEN Turn on switch using Home8.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T022_S0027",
+      "if_then_rule": "IF Button press from Button widget THEN Disarm location using Homeboy.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T022_S0028",
+      "if_then_rule": "IF Button press from Button widget THEN Disarm location using Homeboy.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T022_S0029",
+      "if_then_rule": "IF Press button from Qblinks Qmote THEN Arm location using Homeboy.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T022_S0030",
+      "if_then_rule": "IF Button press from Button widget THEN Flash lights using Stack Lighting.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T022_S0031",
+      "if_then_rule": "IF Button press from Button widget THEN Security mode using Somfy Protect.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T022_S0032",
+      "if_then_rule": "IF Button press from Button widget THEN Tag Trip using Zubie (Staging).",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T022_S0033",
+      "if_then_rule": "IF Button press from Button widget THEN Tag Trip using Zubie (Staging).",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T022_S0034",
+      "if_then_rule": "IF Button press from Button widget THEN Mute using Musaic.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T022_S0035",
+      "if_then_rule": "IF Button press from Button widget THEN Post a note using Whistle.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T022_S0036",
+      "if_then_rule": "IF Button press from Button widget THEN Arm system using Home8.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T022_S0037",
+      "if_then_rule": "IF Button press from Button widget THEN Arm system using Home8.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T022_S0038",
+      "if_then_rule": "IF Button press from Button widget THEN End activity using Harmony.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T022_S0039",
+      "if_then_rule": "IF Button press from Button widget THEN Start activity using Harmony.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T022_S0040",
+      "if_then_rule": "IF Button press from Button widget THEN Create calendar item using Office 365 Calendar.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T022_S0041",
+      "if_then_rule": "IF Button press from Button widget THEN Toggle myStrom device using myStrom.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T022_S0042",
+      "if_then_rule": "IF Button press from Button widget THEN Arm your system using Myfox HomeControl.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T022_S0043",
+      "if_then_rule": "IF Button press from Button widget THEN Disable your system using Myfox HomeControl.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T022_S0044",
+      "if_then_rule": "IF Button press from Wink Relay THEN Turn A/C on using Sensibo.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T022_S0045",
+      "if_then_rule": "IF Button press from Button widget THEN Partially arm your system using Myfox HomeControl.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T022_S0046",
+      "if_then_rule": "IF Button press from Button widget THEN Play a scenario using Myfox HomeControl.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T022_S0047",
+      "if_then_rule": "IF Button press from Button widget THEN Activate a scene using Almond.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T022_S0048",
+      "if_then_rule": "IF Button press from Button widget THEN Set Almond mode using Almond.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T022_S0049",
+      "if_then_rule": "IF Button press from Button widget THEN Set Almond mode using Almond.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T022_S0050",
+      "if_then_rule": "IF Button press from Button widget THEN Dim a device using HomeSeer.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T022_S0051",
+      "if_then_rule": "IF Button press from Button widget THEN Disable timer using IntesisHome.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T022_S0052",
+      "if_then_rule": "IF Button press from Button widget THEN Security mode using Somfy Protect.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T022_S0053",
+      "if_then_rule": "IF Button press from Button widget THEN Sound the siren using Somfy Protect.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T022_S0054",
+      "if_then_rule": "IF Button press from Button widget THEN Disarm the security panel using HomeControl Flex.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T022_S0055",
+      "if_then_rule": "IF Button press from Button widget THEN Publish an event using Particle.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T022_S0056",
+      "if_then_rule": "IF Button press from Button widget THEN Chirp using Scout Alarm.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T022_S0057",
+      "if_then_rule": "IF Button press from Button widget THEN Mother plays a sound using Sen.se Mother.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T022_S0058",
+      "if_then_rule": "IF Button press from Button widget THEN Arm system using Home8.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    },
+    {
+      "sample_id": "T022_S0059",
+      "if_then_rule": "IF Button press from Button widget THEN Arm system using Home8.",
+      "green_relevance": "none",
+      "keep_for_rag": false
+    }
+  ]
+}

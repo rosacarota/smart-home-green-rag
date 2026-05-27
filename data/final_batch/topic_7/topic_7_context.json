@@ -1,7 +1,0 @@
-{
-  "topic_id": 7,
-  "llm_topic_name": "security_automation",
-  "topic_summary": "This topic contains rules that automate security functions in smart homes, such as arming and disarming alarms based on location, scheduling, and activity detection, while integrating with lighting systems for enhanced safety.",
-  "green_category": "security_automation",
-  "global_green_relevance": "medium"
-}

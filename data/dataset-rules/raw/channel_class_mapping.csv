@@ -1,0 +1,434 @@
+channel_name;class
+500px;general_digital
+ARTIK Cloud;unknown
+AT&T M2X;smart_home
+Adafruit;smart_home
+Airtable;general_digital
+Almond;smart_home
+Amazon Alexa;smart_home
+Amazon Alexa (US only);smart_home
+Amazon Cloud Drive;general_digital
+Ambi Climate;smart_home
+Android Battery;context
+Android Device;general_digital
+Android Location;context
+Android Phone Call;general_digital
+Android Photos;general_digital
+Android SMS;general_digital
+Android Wear;general_digital
+AppZapp;general_digital
+Arlo;smart_home
+Arlo QA (Staging);unknown
+Asana;general_digital
+August;smart_home
+Automatic Classic;smart_home
+Automatic Pro;smart_home
+Awair;smart_home
+BMW Labs;smart_home
+Bang & Olufsen's BeoLink Gateway;smart_home
+Beeminder;general_digital
+Beseye;smart_home
+Beseye_dev;unknown
+Best Buy;general_digital
+Bhome;smart_home
+Blogger;general_digital
+BloomSky Weather;context
+Box;general_digital
+Boxcar 2;general_digital
+Boxoh Package Tracking;general_digital
+Bttn;smart_home
+Buffer;general_digital
+Button widget;smart_home
+CONNECTED WATCH;unknown
+Caleo;smart_home
+Caleo (Staging);smart_home
+Camera widget;smart_home
+Camio;smart_home
+Chain;general_digital
+Cisco Spark;general_digital
+Classifieds;general_digital
+Code School;general_digital
+Cogitai;unknown
+Comcast Labs;unknown
+Concur;general_digital
+Concur Labs;general_digital
+Convo;general_digital
+Craigslist;general_digital
+Cronologics;unknown
+D-Link Connected Home Camera;smart_home
+D-Link Motion Sensor;smart_home
+D-Link Siren;smart_home
+D-Link Smart Plug;smart_home
+D-Link Smart Sound Detector;smart_home
+D-Link Water Sensor;smart_home
+DO Camera;smart_home
+Daikin Online Controller;smart_home
+Dailymotion;general_digital
+Danalock;smart_home
+Danfoss ECL;smart_home
+Dash;general_digital
+Date & Time;context
+Day One;general_digital
+Deezer;general_digital
+Delicious;general_digital
+Digg;general_digital
+Diigo;general_digital
+DocSend;general_digital
+Donation Manager RedCloudÃÂÃÂ¢ÃÂÃÂÃÂÃÂ¢;general_digital
+Dropbox;general_digital
+ESPN;general_digital
+EVE For Tesla;context
+EZVIZ;smart_home
+Electric Objects;general_digital
+Ello;general_digital
+Email;general_digital
+Email Digest;general_digital
+Emberlight;smart_home
+Energenie Mi|Home;smart_home
+Envoy;smart_home
+Essence Alpha (Staging);unknown
+Essence Integration (Staging);unknown
+Evernote;general_digital
+Facebook;general_digital
+Facebook Pages;general_digital
+Feed;general_digital
+Feedly;general_digital
+Firebase;unknown
+Fitbit;smart_home
+Fiverr;general_digital
+Fleep;general_digital
+Flic;smart_home
+Flickr;general_digital
+Flock;general_digital
+FollowUp.cc;general_digital
+Foobot;smart_home
+Forever Skipped;unknown
+Foursquare;context
+Futurehome;smart_home
+GE Appliances Cooking;smart_home
+GE Appliances Dishwasher;smart_home
+GE Appliances Dryer;smart_home
+GE Appliances GeoSpringÃÂÃÂ¢ÃÂÃÂÃÂÃÂ¢;smart_home
+GE Appliances GeoSpringâ¢;smart_home
+GE Appliances Refrigerator;smart_home
+GE Appliances Washer;smart_home
+GE Appliances Window AC;smart_home
+Garageio;smart_home
+Genius;general_digital
+Genius Hub;smart_home
+Giphy;general_digital
+GitHub;general_digital
+Gmail;general_digital
+Gogogate;smart_home
+Google Assistant;smart_home
+Google Calendar;context
+Google Contacts;general_digital
+Google Drive;general_digital
+Google Glass;unknown
+Google Wifi;smart_home
+GreenIQ;smart_home
+Greenwave Systems;smart_home
+GroupMe;general_digital
+Gumroad;general_digital
+HD PowerView QA (Staging);smart_home
+HP Print;general_digital
+Harmony;smart_home
+Harvest;general_digital
+Heatmiser;smart_home
+Hektor;unknown
+HipChat;general_digital
+Hive Active Heating [beta];smart_home
+Hive Active HeatingÃÂÃÂ¢ÃÂÃÂÃÂÃÂ¢;smart_home
+Hive Active HeatingÃÂÃÂ¢ÃÂÃÂÃÂÃÂ¢ [beta];smart_home
+Hive Active Heatingâ¢;smart_home
+Hive Active LightÃÂÃÂ¢ÃÂÃÂÃÂÃÂ¢;smart_home
+Hive Active Lightâ¢;smart_home
+Home Connect Oven;smart_home
+Home Connect Washer;smart_home
+Home Depot;general_digital
+Home8;smart_home
+HomeControl Flex;smart_home
+HomeSeer;smart_home
+Homeboy;smart_home
+Homeboy (Staging);smart_home
+Honeywell Lyric;smart_home
+Honeywell Single-zone Thermostat;smart_home
+Honeywell Total Connect Comfort;smart_home
+Honeywell evohome;smart_home
+House of Representatives;general_digital
+Hunter Douglas PowerView;smart_home
+IBM Watson Workspace;general_digital
+IFTTT;unknown
+IFTTT Developers;unknown
+IMPLAY;unknown
+IMPLAY^2;unknown
+Independence Day;unknown
+Inoreader;general_digital
+Instagram;general_digital
+Instapaper;general_digital
+Instapush;general_digital
+Instawell;general_digital
+Intel Wearable (Staging);unknown
+IntesisHome;smart_home
+Is It Christmas?;unknown
+Ivideon;smart_home
+John Deere;unknown
+Keenai;general_digital
+Kevo;smart_home
+Komfy Outlet;smart_home
+Komfy Switch with Camera Dev;smart_home
+Kyber calendars, todos & reminders;context
+LG Dryer;smart_home
+LG Smartphone;general_digital
+LG Washer;smart_home
+LIFX;smart_home
+LINE;general_digital
+LaMetric Time;smart_home
+Leeo;smart_home
+Life360;context
+Lifelog;context
+LightwaveRF Events;smart_home
+LightwaveRF Heating;smart_home
+LightwaveRF Lighting;smart_home
+LightwaveRF Power;smart_home
+LinkedIn;general_digital
+Location;context
+Lockitron;smart_home
+Logitech POP;smart_home
+Lutron CasÃÂÃÂÃÂÃÂ©ta Wireless;smart_home
+Lutron Caséta Wireless;smart_home
+Lynx Technology;unknown
+MESH;smart_home
+MagicPairs;unknown
+MailChimp;general_digital
+Maker;smart_home
+Maker Webhooks;unknown
+Manything;smart_home
+Medium;general_digital
+MeisterTask;general_digital
+Melissa;general_digital
+Messsageboard;unknown
+MicroBot Push for Prota;smart_home
+Misfit;smart_home
+Mojio;context
+Moni.ai;general_digital
+Musaic;smart_home
+Musixmatch;general_digital
+Muzik;general_digital
+Myfox HomeControl;smart_home
+NIBE Uplink;smart_home
+NPR;general_digital
+Narrative;general_digital
+Narro;general_digital
+Nefit Easy;smart_home
+Nest Cam;smart_home
+Nest Protect;smart_home
+Nest Thermostat;smart_home
+Netatmo Security;smart_home
+Netatmo Thermostat;smart_home
+Netatmo Weather Station;context
+Neurio;smart_home
+NewsBlur;general_digital
+Nike+;general_digital
+Nimbus Note;general_digital
+Note widget;general_digital
+Notifications;general_digital
+Numerous (Staging);general_digital
+ORBneXt;smart_home
+Oco Camera;smart_home
+Office 365 Calendar;context
+Office 365 Contacts;general_digital
+Office 365 Mail;general_digital
+OneDrive;general_digital
+OneDrive for Business;general_digital
+OneNote;general_digital
+Ooma;smart_home
+Oticon;smart_home
+PAVLOK;smart_home
+PAVLOK - Staging;smart_home
+Particle;smart_home
+Pebblebee;context
+Philips Hue;smart_home
+Phone Call;general_digital
+Phone Call (US only);general_digital
+Photttoboard;general_digital
+Pinboard;general_digital
+Pinterest;general_digital
+Piper;smart_home
+Pocket;general_digital
+Printhug;general_digital
+ProPublica;general_digital
+Product Hunt;general_digital
+Pruvan;general_digital
+Pryv;context
+Pushalot;general_digital
+Pushbullet;general_digital
+Pushover;general_digital
+Qapital;general_digital
+Qapital (Staging);general_digital
+Qblinks Qmote;smart_home
+QualityTime;general_digital
+Quip;general_digital
+RSS Feed;general_digital
+Rachio;smart_home
+RainMachine;smart_home
+Recon;smart_home
+Refinery29 (Staging);general_digital
+RemoteLync;smart_home
+RescueTime;general_digital
+Ring;smart_home
+Roger;smart_home
+Roost Smart Battery;smart_home
+Ruler of the Realm;unknown
+SIGNUL Beacon;smart_home
+SMS;general_digital
+Salesforce;general_digital
+Samsung Air Purifier;smart_home
+Samsung Floor Air Conditioner;smart_home
+Samsung Refrigerator;smart_home
+Samsung Robot Vacuum;smart_home
+Samsung Room Air Conditioner;smart_home
+Samsung Washer;smart_home
+Scout Alarm;smart_home
+Seagate Personal Cloud;general_digital
+Seeed;smart_home
+Semantics3;unknown
+Sen.se Mother;smart_home
+Senate;general_digital
+Sensibo;smart_home
+Sharpr;unknown
+ShopYourWay;general_digital
+Sighthound Video;smart_home
+Sina Weibo;general_digital
+SkyBell HD;smart_home
+Skydrop;smart_home
+Skydrop (Staging);smart_home
+Skylark;unknown
+SkylinkNet;smart_home
+Skype;general_digital
+Skype (old);general_digital
+Slack;general_digital
+Slice;general_digital
+Smappee;smart_home
+SmartThings;smart_home
+Somfy Protect;smart_home
+Sorenson;unknown
+SoundCloud;general_digital
+Space;unknown
+SpotCam;smart_home
+SpotCam HD;smart_home
+Spotify;general_digital
+Square;general_digital
+Stack;general_digital
+Stack Lighting;smart_home
+Stack Lighting (Staging);smart_home
+Star Wars Force Band by Sphero;smart_home
+Stockimo;general_digital
+Stocks;general_digital
+Strava;general_digital
+Stripe;general_digital
+Surfline;context
+SurveyMonkey;general_digital
+TU Go;general_digital
+TeamSnap;general_digital
+TeamSnap (Staging);general_digital
+Telegram;general_digital
+Telldus Live!;smart_home
+Tesco;general_digital
+The New York Times;general_digital
+The Washington Post (Staging);general_digital
+ThermoPeanut;smart_home
+ThermoSmart;smart_home
+TiVo;general_digital
+Ticatag;context
+Todoist;general_digital
+Toodledo;general_digital
+Trello;general_digital
+Tumblr;general_digital
+Twitter;general_digital
+U.S;general_digital
+UP by Jawbone;smart_home
+Uber Old;general_digital
+Ubi;smart_home
+Verizon Cloud;general_digital
+Vimeo;general_digital
+Vinli;context
+Voyages-sncf;general_digital
+Voyages-sncf (Staging);general_digital
+WIFIPLUG;smart_home
+WallyHome;smart_home
+Wattio GATE;smart_home
+Wattio POD;smart_home
+Wattio THERMIC;smart_home
+WeMo Air Purifier;smart_home
+WeMo Coffeemaker;smart_home
+WeMo Heater;smart_home
+WeMo Humidifier;smart_home
+WeMo Insight Switch;smart_home
+WeMo Light Switch;smart_home
+WeMo Lighting;smart_home
+WeMo Maker;smart_home
+WeMo Motion;smart_home
+WeMo Slow Cooker;smart_home
+WeMo Smart Plug;smart_home
+WeMo Switch;smart_home
+Weather;context
+Weather Underground;context
+Weebly;general_digital
+Whaller;general_digital
+Whirlpool Dryer;smart_home
+Whirlpool Refrigerator;smart_home
+Whirlpool Washer;smart_home
+Whistle;smart_home
+Wikipedia;general_digital
+Wink Relay;smart_home
+Wink: Aros;smart_home
+Wink: Egg Minder;smart_home
+Wink: Nimbus;smart_home
+Wink: Pivot Power Genius;smart_home
+Wink: Porkfolio;smart_home
+Wink: Shortcuts;smart_home
+Wink: Spotter;smart_home
+Wireless Tag;smart_home
+Wiser Smart;smart_home
+Withings;smart_home
+Withings Home;smart_home
+Wolfram Data Drop;general_digital
+WordPress;general_digital
+Workflow;general_digital
+Worldwide Interactive Alarm;smart_home
+XY Findables;context
+Yo;general_digital
+YouTube;general_digital
+Zubie;context
+Zubie (Staging);context
+abode;smart_home
+bitly;general_digital
+blink(1);smart_home
+blink1new;smart_home
+dondeEsta Family;context
+eBay;general_digital
+ecobee;smart_home
+hugOne;smart_home
+iOS Contacts;general_digital
+iOS Location;context
+iOS Photos;general_digital
+iOS Reading List;general_digital
+iOS Reminders;general_digital
+iSecurity+;smart_home
+iSmartAlarm;smart_home
+incubatorLabs;unknown
+indoona;general_digital
+invoxia Triby IO;smart_home
+littleBits;smart_home
+microBees;smart_home
+myStrom;smart_home
+openHAB;smart_home
+popSLATE;general_digital
+reddit;general_digital
+simplehuman;smart_home
+tadoº Air Conditioning;smart_home
+tadoº Heating;smart_home
+tttv;smart_home
+wonderworkshop_development (Staging);general_digital
+woopla;general_digital

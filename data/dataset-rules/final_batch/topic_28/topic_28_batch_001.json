@@ -1,0 +1,293 @@
+{
+  "topic_context": {
+    "topic_id": 28,
+    "llm_topic_name": "time_based_light_control",
+    "topic_summary": "This topic contains rules that control lighting based on time, weather conditions, and specific events, utilizing littleBits technology to automate light activation and output levels.",
+    "green_category": "lighting_control",
+    "global_green_relevance": "medium"
+  },
+  "rows": [
+    {
+      "sample_id": "T028_S0001",
+      "if_then_rule": "IF you enter or exit an area from Location THEN activate output using littleBits.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T028_S0002",
+      "if_then_rule": "IF you exit an area from Location THEN activate output using littleBits.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T028_S0003",
+      "if_then_rule": "IF you enter an area from Location THEN set output level using littleBits.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T028_S0004",
+      "if_then_rule": "IF you exit an area from Location THEN set output level using littleBits.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T028_S0005",
+      "if_then_rule": "IF you exit an area from Location THEN set output level using littleBits.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T028_S0006",
+      "if_then_rule": "IF you exit an area from Location THEN set output level using littleBits.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T028_S0007",
+      "if_then_rule": "IF every day of the week at from Date & Time THEN activate output using littleBits.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T028_S0008",
+      "if_then_rule": "IF every day of the week at from Date & Time THEN activate output using littleBits.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T028_S0009",
+      "if_then_rule": "IF every day of the week at from Date & Time THEN activate output using littleBits.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T028_S0010",
+      "if_then_rule": "IF every day at from Date & Time THEN set output level using littleBits.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T028_S0011",
+      "if_then_rule": "IF every day at from Date & Time THEN set output level using littleBits.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T028_S0012",
+      "if_then_rule": "IF every day at from Date & Time THEN set output level using littleBits.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T028_S0013",
+      "if_then_rule": "IF every day at from Date & Time THEN set output level using littleBits.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T028_S0014",
+      "if_then_rule": "IF every day of the week at from Date & Time THEN set output level using littleBits.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T028_S0015",
+      "if_then_rule": "IF every hour at from Date & Time THEN set output level using littleBits.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T028_S0016",
+      "if_then_rule": "IF turned on from littleBits THEN activate output using littleBits.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T028_S0017",
+      "if_then_rule": "IF turned on from littleBits THEN activate output using littleBits.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T028_S0018",
+      "if_then_rule": "IF turned on from littleBits THEN deactivate output using littleBits.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T028_S0019",
+      "if_then_rule": "IF turned on from littleBits THEN set output level using littleBits.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T028_S0020",
+      "if_then_rule": "IF turned on from littleBits THEN set output level using littleBits.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T028_S0021",
+      "if_then_rule": "IF turned on from littleBits THEN set output level using littleBits.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T028_S0022",
+      "if_then_rule": "IF turned on from littleBits THEN set output level using littleBits.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T028_S0023",
+      "if_then_rule": "IF turned on from littleBits THEN set output level using littleBits.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T028_S0024",
+      "if_then_rule": "IF turned on from littleBits THEN toggle on/off using WeMo Smart Plug.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T028_S0025",
+      "if_then_rule": "IF sunset from Weather Underground THEN set output level using littleBits.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T028_S0026",
+      "if_then_rule": "IF sunset from Weather Underground THEN set output level using littleBits.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T028_S0027",
+      "if_then_rule": "IF current temperature rises above from Weather Underground THEN set output level using littleBits.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T028_S0028",
+      "if_then_rule": "IF current temperature drops below from Weather Underground THEN set output level using littleBits.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T028_S0029",
+      "if_then_rule": "IF current condition changes to from Weather Underground THEN set output level using littleBits.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T028_S0030",
+      "if_then_rule": "IF tomorrow's forecast calls for from Weather Underground THEN activate output using littleBits.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T028_S0031",
+      "if_then_rule": "IF tomorrow's forecast calls for from Weather Underground THEN activate output using littleBits.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T028_S0032",
+      "if_then_rule": "IF current temperature rises above from Weather Underground THEN activate output using littleBits.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T028_S0033",
+      "if_then_rule": "IF every day of the week at from Date & Time THEN activate output using littleBits.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T028_S0034",
+      "if_then_rule": "IF every day of the week at from Date & Time THEN activate output using littleBits.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T028_S0035",
+      "if_then_rule": "IF every day of the week at from Date & Time THEN activate output using littleBits.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T028_S0036",
+      "if_then_rule": "IF every day of the week at from Date & Time THEN activate output using littleBits.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T028_S0037",
+      "if_then_rule": "IF every day of the week at from Date & Time THEN activate output using littleBits.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T028_S0038",
+      "if_then_rule": "IF every day at from Date & Time THEN activate output using littleBits.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T028_S0039",
+      "if_then_rule": "IF tomorrow's forecast calls for from Weather Underground THEN set output level using littleBits.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T028_S0040",
+      "if_then_rule": "IF tomorrow's forecast calls for from Weather Underground THEN set output level using littleBits.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T028_S0041",
+      "if_then_rule": "IF every day at from Date & Time THEN activate output using littleBits.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T028_S0042",
+      "if_then_rule": "IF sunrise from Weather Underground THEN set output level using littleBits.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T028_S0043",
+      "if_then_rule": "IF surf height is at least from Surfline THEN set output level using littleBits.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T028_S0044",
+      "if_then_rule": "IF every hour at from Date & Time THEN set output level using littleBits.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T028_S0045",
+      "if_then_rule": "IF sunrise from Weather Underground THEN activate output using littleBits.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T028_S0046",
+      "if_then_rule": "IF sunrise from Weather Underground THEN activate output using littleBits.",
+      "green_relevance": "high",
+      "keep_for_rag": true
+    },
+    {
+      "sample_id": "T028_S0047",
+      "if_then_rule": "IF tomorrow's forecast calls for from Weather Underground THEN set output level using littleBits.",
+      "green_relevance": "medium",
+      "keep_for_rag": true
+    }
+  ]
+}

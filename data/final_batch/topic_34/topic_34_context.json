@@ -1,7 +1,0 @@
-{
-  "topic_id": 34,
-  "llm_topic_name": "automated_lighting_control",
-  "topic_summary": "This topic contains rules for automating the control of lights based on specific times or events, focusing on turning lights on or off and adjusting their colors to enhance comfort and reduce energy waste.",
-  "green_category": "lighting_efficiency",
-  "global_green_relevance": "high"
-}

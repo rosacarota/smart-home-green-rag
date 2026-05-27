@@ -1,0 +1,7 @@
+{
+  "topic_id": 35,
+  "llm_topic_name": "smart_notification_lighting",
+  "topic_summary": "This topic contains rules that utilize smart lighting systems to provide notifications and reminders based on various triggers, such as weather conditions, location changes, and device statuses.",
+  "green_category": "smart_notification_lighting",
+  "global_green_relevance": "medium"
+}
