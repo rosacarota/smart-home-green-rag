@@ -1,0 +1,401 @@
+--- PAGE 1 ---
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+What People Think About Green Smart Homes 
+Barbara Rita Barricelli1, Daniela Fogli,1,* Simone Gallo2, Davide Guizzardi1, Sara 
+Maenza2, Andrea Mattioli2, Fabio Paternò2 
+1 University of Brescia, Brescia, Italy 
+2 CNR - ISTI, Pisa, Italy 
+Abstract 
+Current technological trends have enabled several smart spaces in our daily environments. A 
+typical example is the home, which is becoming more and more populated by connected objects 
+and sensors. In this way, even people who are not professional software developers can create 
+automations that compose the dynamic behaviours of such connected objects. In this paper, we 
+report and discuss two online surveys targeting two different groups of users: one consists of a 
+general population of end users with different degrees of experience in smart home use and 
+personalization, and the other composed of people who have already some experiences in 
+directly creating automations and managing smart environments. Overall, such studies provide 
+useful information for better understanding the requirements that end-user development 
+approaches should address to be successful in order to be actually adopted in such contexts. 
+Keywords 
+Smart homes, End-User Development, Internet of Things 1 
+1. Introduction 
+Current technological trends indicate an exponential growth in the number of connected 
+objects and sensors [9], which populate more and more people’s daily environments. This 
+opens up new possibilities where even non-professional software developers can define 
+and control automations in such environments, such as the home. However, previous 
+surveys [3] report that often people had difficulty avoiding false alarms, communicating 
+complex schedules, and resolving conflicting preferences. In general, more research is 
+needed to understand what people think about smart home, whether and how they use 
+automations in their spaces, and what are their needs in these environments [8]. Previous 
+studies have investigated people's relationship with smart homes under several 
+perspectives. For example, Ur and colleagues [10] explored the expectations of possible 
+ 
+Proceedings of the 8th International Workshop on Cultures of Participation in the Digital Age (CoPDA 2024): 
+Differentiating and Deepening the Concept of "End User" in the Digital Age, June 2024, Arenzano, Italy 
+* Corresponding author. 
+ barbara.barricelli@unibs.it (B. R. Barricelli); daniela.fogli@unibs.it (D. Fogli); simone.gallo@isti.cnr.it (S. 
+Gallo); davide.guizzardi@unibs.it (D. Guizzardi); sara.maenza@isti.cnr.it (S. Maenza); 
+andrea.mattioli@isti.cnr.it (A. Mattioli); fabio.paterno@isti.cnr.it (F. Paternò) 
+ 0000-0001-9575-5542 (B. R. Barricelli); 0000-0003-1479-2240 (D. Fogli); 0000-0002-5162-0475 (S. 
+Gallo); 0009-0000-7761-7103 (D. Guizzardi); 0009-0000-2205-6599 (S. Maenza); 0000-0001-6766-7916 (A. 
+Mattioli); 0000-0001-8355-6909 (F. Paternò) 
+ © 2024 Copyright for this paper by its authors. Use permitted under Creative Commons License Attribution 4.0 International (CC BY 4.0). 
+ 
+CEUR
+Workshop
+Proceedings
+ceur-ws.org
+ISSN 1613-0073
+
+--- PAGE 2 ---
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+users regarding the functionality of a smart home, and then analysed what functionality had 
+been expressed "in the wild" by scraping IFTTT rules. Corno and colleagues [2] conducted 
+a one-week diary study where participants were required to write down automations that 
+emerged during their daily activities. The purpose of the study was to investigate whether 
+other abstractions to describe automations (besides the vendor-centric one) are possible. 
+Mattioli and Paternò [6] put out a study where they analysed what functionality users 
+expect from a smart home, but also how they would define it, in terms of what operators 
+and constructs they would need to implement the automated behaviours they desire. A 
+topic that has been gaining increasing interest in recent years is how smart homes can help 
+environmental sustainability [4]. Indeed, the ability to effectively manage energy resources 
+is an important factor in the development of smart homes [1], and several studies have 
+analysed how to optimize power consumption and generation at the grid level (for instance, 
+[7]). In this paper, it is examined how different types of users relate to smart homes, with a 
+focus on environmental sustainability from a broad perspective. Two questionnaires, one 
+for the general population with varying degrees of experience with home automation and 
+one for enthusiast adopters of these systems, were disseminated on online communities. 
+The remainder of this paper analyses the responses to these questionnaires and draws 
+conclusions about the current state of smart home management systems, the perception 
+different user groups have of them, and the future challenges and opportunities regarding 
+home automation and sustainability. 
+2. End-User Questionnaire 
+A first questionnaire was submitted to a general population of potential end users of a 
+green smart home to investigate their attitudes towards current technologies for home 
+automation and their potential to enhance energy consumption. The questionnaire included 
+4 sections. All respondents were presented with questions in Section 1, to provide general 
+and demographic data, and in Section 4, to provide opinions about environment 
+sustainability and green smart homes; Section 2 was reserved only for participants who 
+declared to possess at least one smart device, to investigate how they manage these smart 
+devices, their knowledge of automations, and their interest in a centralized system to 
+control a smart home; Section 3 was then only filled by participants who declared to create 
+automations for their smart home, to investigate which kind of tools they use, and whether 
+any issues occur in using such tools, also related to possible emerging conflicts between 
+automations. 
+General data. 111 participants in total filled in the online survey. 93% of them are based 
+in Italy, while the remaining come from Hungary, The Netherlands, The United States, 
+Thailand, and Germany. The age distribution of individuals exhibits significant variability, 
+spanning from 17 years old to 70 years old (M=38.8, SD=12.27). Among the users, 58.6% 
+identified as male, 40.5% as female, and 0.9% preferred not to answer the question. The 
+survey data indicates a significant bias towards higher education levels, with 73% of 
+participants holding a degree or a PhD. Conversely, only a minority possesses a high school 
+diploma (26%), and one respondent is currently in high school. To the question about users’ 
+experience with programming, rated on a scale with five levels, 51% reported having no 
+
+--- PAGE 3 ---
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+experience, while the rest are divided among having Very Good Experience (21%), Good 
+Experience (13%), Average Experience (8%), and Low Experience (7%). 
+Use of smart devices. Out of the 111 users who responded to the survey, 63 owned at 
+least 1 smart device. Specifically, 49 possessed up to 3 devices, 10 up to 10, and 4 more than 
+10 appliances. For those who answered positively about having smart devices, the survey 
+reserved a set of questions to dive deeper into the subject. To manage their smart devices, 
+the respondents show a strong inclination towards smartphone usage (87%) and smart 
+speakers (48%). These results are justified by the fact that almost all the manufacturers of 
+smart devices provide a smartphone application and/or integrate them with virtual 
+assistants, usually accessed via smart speakers. Such findings underline the importance of 
+having tools for managing smart devices that prioritize seamless integration with 
+household appliances. Further proof of such an idea comes from the following question of 
+the survey. In fact, when asked to express interest in a unique system supporting the 
+management of all their smart devices, only 27% of the users declared to be neutral or not 
+interested in the topic. The last question of this section wanted to investigate the 
+participants’ awareness of tools for the creation of smart home automations: 9% of the 63 
+participants declared no knowledge of such tools, 50% were aware of automations but did 
+not use them, while the remaining 41% (26 out of 63) knew automation creation tools and 
+have used them in the past. 
+Use of automations. The questionnaire presented a set of follow-up questions to the 26 
+participants who used smart home automations in the past. The first question aimed to 
+know which tools were used for the creation of automations. Virtual assistants are the 
+predominant choice for this task, in fact, 96% of the respondents employed one or more of 
+them. More in detail, 52% used Amazon Alexa exclusively, 13% Google Home, 4% Apple Siri, 
+and the remaining (26%) a combination of two or more. Only one user did not use any 
+virtual assistant and relied on Home Assistant instead. When asked how often users 
+encountered issues with their tool for automation creation, only 20% reported no problems 
+during the process. Unsupported devices, unavailable actions, and conditions that did not 
+align with desired scenarios are the main obstacles that participants faced during the 
+creation process. Another challenge encountered by users is the difficulty in understanding 
+how to interact with such tools, indicating that their user interfaces may lack intuitiveness 
+or suffer from discoverability issues. The major concern when dealing with automations is 
+the arising of conflicts in smart home environments where multiple inhabitants live. Ten 
+out of 26 respondents declared not to be the sole automation creator in the house. 90% of 
+these 10 users came across scenarios in which their automation conflicted with other 
+inhabitants’ automations leading to unexpected outcomes. In general, all the users who use 
+automations seem to give importance to conflicts. When asked to express their interest in a 
+system that could notify if their automation will lead to conflicts, 9 said to be very interested, 
+10 were somewhat interested, and the remaining 7 manifested neutral interest. 
+Environmental aspects. Questions included in the fourth section of the questionnaire 
+were answered by all 111 participants. The primary objective of the first question was to 
+get a general idea of the population’s level of concern about the environment and its 
+sustainability. The findings revealed a nearly unanimous sentiment of concern: 37.8% of 
+respondents expressed being very concerned, 53.2% indicated concern, while the 
+
+--- PAGE 4 ---
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+remaining 9% were divided between being neutral (7%) and being unconcerned (2%). A 
+similar trend emerged when participants were asked to express their level of interest in a 
+system that could provide daily consumption data: 43.2% of the participants manifested a 
+high level of interest, 41.4% a medium level of interest, 10.8% were neutral and the 
+remainder expressed no interest. This initial analysis reveals a population characterized by 
+a strong commitment to environmental causes and a desire to take direct action to reduce 
+their ecological footprint and daily consumption. Further proof comes from the answers to 
+the next questions of the section. To the question “Does your electricity contract provide 
+time slots with different energy costs?” 22% of respondents declared they do not know the 
+existence of peak and off-peak hours. Within the remaining sample, 44% said to exploit 
+them, while 25% expressed a desire to have them. Additionally, 16% possessed a contract 
+with peak and off-peak hours but exhibited no interest in exploiting the advantages of offpeak periods, and 15% neither had slots with different costs nor wanted them. As a followup question, participants were prompted to indicate their level of interest in a system that 
+could recommend optimal activation times for their smart appliances, to reduce energy 
+cost. A high percentage of participants (80%) manifested some level of interest in the idea. 
+Specifically, 34% said to be very interested in the system, while 46% reported to be 
+somewhat interested. The remainder is divided into having neutral interest (11%), not 
+being very interested (7%), and expressing no interest whatsoever (2%). The last questions 
+of the section delved into the participant's experience with issues associated with excessive 
+energy consumption, such as instances of circuit breaker tripping. 49% of the users never 
+faced problems due to excessive house consumption, while 51% reported having to deal 
+with electricity interruptions. Specifically, 45% said to encounter interruptions sometimes, 
+whereas 6% experience them with a higher frequency. Despite having a relevant portion of 
+participants who never faced difficulties related to overconsumption of electricity, the 
+population manifested a general concern toward the issue. In fact, when asked to state their 
+interest in a system designed to identify if an appliance activation leads to excessive energy 
+consumption, 79% of the respondents demonstrated a moderate to high level of interest. 
+The survey concluded with an open-ended question, allowing participants to freely 
+express their desired features for a green smart home. Some of the suggested features are 
+already implemented in current applications for smart device control and automation 
+creation (e.g., remote control of appliances, advanced temperature control), even though 
+the participants were now aware of that. The respondents manifested a keen interest in 
+sustainability and cost-saving measures, asking for a system that lets them choose the 
+energy source of the house according to their needs. Moreover, they would like to receive 
+suggestions for saving money and minimizing energy consumption. A significant portion of 
+users expressed the desire for detailed insights into their daily consumption patterns and 
+tools to analyse each appliance to identify what are the most demanding devices. 
+ 
+3. Amateurs Questionnaire 
+For the second questionnaire, we explored green smart homes by asking the opinion of 
+technical users with amateur experience [5] in managing smart environments and creating 
+automations. In this questionnaire, we investigated the main aspects of the automations 
+
+--- PAGE 5 ---
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+created by the users (e.g., number of automations, smart objects involved), with a particular 
+focus on those devices and automations designed to reduce environmental impact and 
+manage energy consumption; finally, participants also shared their opinions and ideas 
+about the evolving world of smart spaces and associated technologies. Participants were 
+recruited through Home Assistant social media (Home Assistant official Facebook group, 
+Home Assistant Italia) and similar communities (for instance, Smart Home Italia). Some 
+experience with smart environments and automation systems was required to participate. 
+General data. The online survey recruited 36 participants, spanning ages from 32 to 70 
+years, with a mean age of 47 years (SD=8.86). In terms of programming experience, 
+participants have different levels of expertise. Specifically, 7 respondents had no 
+programming experience, while 11 had a basic understanding of markup languages (e.g. 
+HTML), and, in some cases, familiarity with a programming language such as JavaScript or 
+Python. 9 participants described having moderate experience, characterized by proficient 
+knowledge of one programming language and basic in another (e.g., PHP, Python, Java). 2 
+individuals reported a good comprehension of various programming languages they 
+employ, whereas 7 participants declared having advanced or professional mastery of their 
+respective languages. Regarding the experience with smart home systems, overall emerges 
+a significant number of users with considerable experience. 3 respondents reported about 
+6 months of experience, while another 3 about a year, 1 had 1 to 3 years, and 20 had more 
+than 3 years. The survey result reported various participants' experiences with home 
+automation systems, with Home Assistant receiving the most mentions at 35 (33.33%), 
+following Alexa and Google Home, both with 21 mentions (20%); IFTTT was mentioned 10 
+times (9.52%), while NodeRED had 8 mentions (7.62%). OpenHab received 4 mentions 
+(3.81%), Apple HomeKit 3 mentions (2.86%), and other platforms such as Smart Life Tuya, 
+Carel, and Samsung SmartThings each received 1 mention (0.95%). Participants declared 
+their methods of interacting with their smart home devices (multiple selections was 
+possible), with the majority opting for direct/instant commands (26 occurrences, 39.39%). 
+Closely follows automations usage (24 occurrences, 36.36%), but users also reported using 
+proprietary devices apps (e.g., Shelly app) with 14 occurrences (21.21%). The analysis 
+reveals that participants engage in automation for a range of purposes. Among these, the 
+pursuit of comfort emerges as a primary goal, with activities such as controlling 
+lights/devices and managing temperature (36 occurrences, 28.57%), while energy saving 
+(monitoring consumption, preventing waste, managing device power) constitutes another 
+significant objective (32 occurrences, 25.40%). Also, environmental and network security 
+aspects are considered (27 occurrences 21.43%), with participants citing alarm systems, 
+video monitoring, intrusion detection, and network traffic monitoring. Organization-related 
+tasks, such as calendar notifications, shopping lists, weather updates, and general 
+reminders, were mentioned 17 times (13.49%), while health-related goals, including air 
+quality monitoring and medication reminders, were cited 11 times (8.73%). Participants 
+also expressed an interest in wellbeing (3 occurrences, 2.38%) through monitoring physical 
+activity and/or sleep quality. 
+Energy saving automations. The feedback concerning energy saving automations 
+reveals the following key themes. 
+
+--- PAGE 6 ---
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Heating and cooling efficiency: many users leverage automations to fine-tune their 
+heating and cooling systems, with a focus on minimizing energy consumption by adjusting 
+settings based on factors like occupancy, routine, and external influences such as solar 
+energy production or ambient temperatures (e.g., "my heating schedule adapts to presence 
+and routines, to minimize energy usage"). Additionally, practices such as deactivating 
+climate control when windows are open (e.g., “switching off the climate on opening 
+windows for prolonged periods”) and synchronizing energy usage with renewable energy 
+generation are being adopted. 
+Smart lighting and appliance management: automation is employed to control lighting 
+and appliances, ensuring they are turned off when not needed based on occupancy, time of 
+day, or specific triggers to avoid unnecessary electricity usage (e.g., "I'm using room 
+presence sensor and home presence sensors to turn off and on lights and TVs"; "lights and 
+computer monitors turn off a few seconds after no pressure is detected on office chair 
+seat"). 
+Optimization of load and consumption: several comments underscore the strategic 
+deployment of automations to synchronize energy consumption with periods of high solar 
+production or lower electricity rates, aiming to utilise energy when it is most cost-effective 
+(e.g., “switching on loads, such as car and washing machine, according to photovoltaic 
+production"). Moreover, users have implemented advanced load management systems to 
+prevent overloading (e.g., “[...] I have installed a system for disconnecting loads if the electric 
+meter's kW is exceeded [...]”; “load management when I had limited power on the meter 
+with disconnection of non-priority loads [...]”). 
+Smart homes and automation systems. Concerning the feedback about the domestic 
+spaces landscape, we identified the following recurrent themes. 
+Usability and user experience: the received comments emphasize the importance of 
+matching the expressive power of these systems with user-friendly interfaces, the easy 
+setup and management of smart devices (e.g., “[Home Assistant is an] extremely powerful 
+system but user experience still to be improved for the creation and management of 
+automations"). There is a desire for systems accessible to both experienced and 
+inexperienced users, underscoring the need for improved user experience (UX) design (e.g., 
+"I think home assistant needs more effort and time to be configured, while Alexa and Google 
+Home are simpler but do simpler things", "still very little user friendly, if it were more stable 
+and close to inexperienced users it would be very useful for many"). 
+Integration and compatibility: a significant concern is the integration of diverse devices 
+within the smart home ecosystem. Users express their urge for standardization and a 
+universal language for device communication to facilitate cohesive and efficient 
+configuration and maintainability (e.g., “standardization of protocols is essential to 
+integrate all devices, e.g. Matter”). From a reliability perspective, users highlight that smart 
+home systems should function seamlessly even in the absence of internet connectivity (e.g., 
+“this could be a life changer, but this must be done wisely. If your server is down, you must 
+still be able to switch a light without it”). 
+Evolution and future outlook: finally, responses convey optimism about the future of 
+smart homes and automation technologies, citing the rapid development of the Internet of 
+Things (IoT) (e.g., “20 years ago [...] IoT was a very vague concept and not easy to 
+
+--- PAGE 7 ---
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+understand. Today, the smart home is a reality, and it is spectacular to see all that can be 
+achieved.”) and anticipating further advancements that will revolutionize life and home 
+management (e.g., “with new technological developments on the horizon, our lives will 
+change”). 
+4. Conclusions and Future Work 
+From the first survey it emerged that end users’ knowledge and skills are not yet aligned 
+with those requested by current solutions for smart homes. Most users are not even aware 
+of the possibilities provided by current technologies, especially for what concerns 
+behaviour personalization enabled by automations. On the other hand, those users who 
+create automations encounter difficulties due to poor user interfaces and the limited control 
+on smart home behaviour, such as the management of conflicts. Thus, AI techniques could 
+be useful to support users with tailored suggestions, while end-user development 
+techniques embedded in user interfaces should make end user activities easier and 
+engaging. These features should also consider the interest in sustainability and energy 
+consumption reduction by households, providing them with adequate monitoring and 
+recommendation tools. 
+The second questionnaire underscores the attention experienced users dedicate to 
+energy production and consumption monitoring automations. However, it also highlights 
+an understanding that optimal outcomes necessitate user effort, expertise, and engagement. 
+Despite possessing advanced knowledge, respondents express concern over the lack of 
+intuitive interfaces (e.g., for composing automations) and recognize the challenges 
+inexperienced users might face in adopting such technologies. From a technical perspective, 
+users underline the need for protocol standardization to facilitate the development of more 
+easily configurable and maintainable systems. In future work, we will use the feedback 
+obtained from the questionnaires to design and implement a system that enables the 
+sustainable management of a smart home. 
+Acknowledgements 
+This work has been supported by the Italian MUR PRIN 2022 PNRR Project P2022YR9B7, 
+End-User Development of Automations for Explainable Green Smart Homes, funded by 
+European Union - Next Generation EU. 
+References 
+[1] A. Q. H. Badar, A. Anvari-Moghaddam. Smart home energy management system – a 
+review, Advances in Building Energy Research 16(1) (2022) 118-143. 
+[2] F. Corno, L. De Russis, A, Monge Roffarello. How do end-users program the Internet of 
+Things?, Behaviour & Information Technology 41(9) (2022) 1865-1887. 
+[3] H. Weijia, J. Martinez, R. Padhi, L. Zhang, B. Ur. When smart devices are stupid: negative 
+experiences using home smart devices. In 2019 IEEE Security and Privacy Workshops 
+(SPW), IEEE, 2019, pp. 150-155. 
+
+--- PAGE 8 ---
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+[4] K. Hakpyeong, H. Choi, H. Kang, J. An, S. Yeom, T. Hong. A systematic review of the smart 
+energy conservation system: From smart homes to sustainable smart cities, Renewable 
+and sustainable energy reviews 140 (2021) 110755. 
+[5] C. Leadbeater, P. Miller. The pro-am revolution: How enthusiasts are changing our 
+society and economy. London: Demos, 2004. 
+[6] A. Mattioli, F. Paternò. Understanding User Needs in Smart Homes and How to Fulfil 
+Them, in: International Symposium on End User Development, Springer Nature 
+Switzerland, 2023, pp. 125-142 
+[7] G. Panagiotidou, E. Costanza, K. Potapov, S. Nkatha, M. J. Fell, F. Samanani, H. Knox. 
+SolarClub: Supporting Renewable Energy Communities through an Interactive 
+Coordination System, in: Proceedings of the CHI Conference on Human Factors in 
+Computing Systems, CHI’24, Association for Computing Machinery, New York, NY, USA, 
+2024. 
+[8] A. Salovaara, A. Bellucci, A. Vianello, G. Jacucci. Programmable smart home toolkits 
+should better address households’ social needs, in: Proceedings of the 2021 CHI 
+Conference on Human Factors in Computing Systems, CHI’21, Association for 
+Computing Machinery, New York, NY, USA, 2021, pp. 1-14. 
+[9] Statista, Number of IoT connected devices worldwide 2019-2021 with forecasts to 
+2030, 
+https://www.statista.com/statistics/1183457/iot-connected-devicesworldwide/, last accessed 2023/04/12. 
+[10] B. Ur, E. McManus, M. P. Y. Ho, M. L. Littman. Practical trigger-action programming in 
+the smart home." in: Proceedings of the 2014 CHI Conference on Human Factors in 
+Computing Systems, CHI’14, Association for Computing Machinery, New York, NY, USA, 
+2014, pp. 803-812.

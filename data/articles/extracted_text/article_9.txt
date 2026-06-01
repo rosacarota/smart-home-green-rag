@@ -1,0 +1,557 @@
+--- PAGE 1 ---
+
+Estimating electricity saving-potential in small oﬃces using
+adaptive thermal comfort
+Yujiao Chena, Rongxin Yinb,∗
+aSidewalk Labs, New York, NY, USA
+bLawrence Berkeley National Laboratory, Berkeley, CA, USA
+Abstract
+Small oﬃce buildings below 10,000 square feet account for approximately 75% of the total
+number of oﬃce buildings in the United States. Unlike large oﬃce buildings, small oﬃce buildings usually use packaged HVAC systems for environmental control and are not equipped with
+building management systems. The lack of smart control in small oﬃce buildings leaves lowhanging fruit unpicked in terms of energy eﬃciency. The commonly seen missed opportunities
+include the ﬁxed cooling setpoint schedule that ignores people’s comfort needs and actual occupancy patterns, and the wasted energy from equipment and appliances while not being used by
+occupants.
+The smart control informed by IoT sensors and enabled by remotely controlled devices can
+optimize the building operation to minimize unnecessary energy consumption and improve indoor thermal comfort. This paper quantiﬁes the potential for electricity savings in small oﬃce
+buildings from smart thermostat control and occupancy-informed smart plug control. This is
+done by simulating the eﬀect of adaptive setpoint temperature, occupancy-based HVAC control, and night-purge free cooling on small oﬃce buildings across all major climate zones in the
+United States. Adopting these smart control measures can achieve 8.9% to 20.4% of savings
+in total electricity consumption of small oﬃce buildings, or equivalent to annual reductions between 12.2 kWh/m2 and 30.4 kWh/m2 in electricity usage intensity. Among all climate zones,
+the hot and dry climates beneﬁt the most from proposed smart controls and achieve the highest
+percentages of electricity savings.
+Keywords: energy eﬃciency, adaptive thermal comfort, IoT sensing and control,
+occupancy-based HVAC and plug load control, smart thermostat control
+∗Corresponding author: Rongxin Yin
+Email address: ryin@lbl.gov (Rongxin Yin)
+Preprint submitted to ASHRAE Journal
+May 23, 2022
+arXiv:2205.10324v1 [eess.SP] 12 May 2022
+
+--- PAGE 2 ---
+
+1. Introduction
+In the United States, more than 73% of electricity is consumed by buildings [1]. Electricity
+used for space cooling in buildings reached 392 billion kWh in 2020, which accounted for approximately 10% of overall electricity consumption [2]. Among all building types, electricity
+used for space cooling in commercial buildings accounted for 4% of overall electricity consumption in the U.S. Small oﬃce buildings, with a ﬂoor area of less than 10,000 square feet, account
+for approximately 75% of the total number of oﬃce buildings [2]. Reducing the energy required
+for space cooling not only makes a great impact on total energy consumption but also significantly alleviates the stress on electricity generation and the power grid, which consequently
+leads to more economical operation and lower carbon intensity.
+For small oﬃce buildings, the most widely used space cooling system is packaged airconditioning equipment, which serves more than half of the total square footage of commercial
+buildings in the United States [3]. Packaged air-conditioning equipment usually has discrete onoﬀcontrol for single-stage or two-stage cooling, operating on a ﬁxed schedule of desired indoor
+air temperature (setpoints) by day and time. A more sophisticated approach to control, using
+commercial oﬀ-the-shelf devices and cloud-based optimization techniques can substantially improve energy eﬃciency and occupant satisfaction.
+This paper focuses on three opportunities for improving energy use in small oﬃce buildings:
+1.1. Overcooling in oﬃce buildings
+It is not uncommon for people in the United States to experience excessively cooled oﬃce
+buildings on a hot summer day. Often, people need to put on an additional layer of clothes if
+sitting at their desk for extended periods. This is especially common for women, as described in
+[4] and [5]. These studies ﬁnd that females prefer higher room temperatures than males, based
+on large scale ﬁeld surveys and actual metabolic rate through biophysical analysis. The empirical
+rules to set cooling temperature follow a model developed in the 1960s that derived from male
+test subjects only [6], which causes the intrinsic mismatch in providing comfort to all occupants.
+In addition to discomfort, according to [7], the overcooling in the United States resulted in an
+annual energy waste of 103,929 GWh, a carbon footprint of 57,125 kt CO2e, and a ﬁnancial loss
+of 10 billion dollars.
+The technical barrier to the ﬂexible cooling setpoint that reﬂects the true occupants’ preference
+usually lays on the lack of feedback channel and access to the setpoint control. Namely, occupants don’t have a convenient way to eﬀectively express their thermal feedback, and there is no
+mechanism to collect occupants’ feedback and take appropriate actions to address it. This issue
+has started to improve with the implementation of consumer-grade IoT sensors and integrated
+smart control. Some smart building solutions, such as Mesa [8], provide comfort buttons and a
+user app in their oﬀering that allows each occupant’s thermal preference to be heard by the smart
+control engine, and subsequently adjusts the setpoint to improve overall occupants’ satisfaction
+towards their thermal environment.
+1.2. Occupancy-decoupled operation
+Programmable thermostats are the most prevailing devices to control HVAC operation in small
+and medium-sized oﬃces. Those devices adjust the temperature according to a series of settings
+to be triggered by the time of the day and day of the week. For example, the thermostat can
+be programmed to set the temperature at 22°C during business hours and switch to a setback
+of 28°C at night and on weekends. However, the programmable thermostat itself does not save
+2
+
+--- PAGE 3 ---
+
+energy; its energy-eﬃciency performance can only be as good as how users operate it. Issues
+come up in practice as the previous survey results revealed that 40% of users do not operate their
+programmable thermostats as expected by the manufacturers [9]. Assumptions about business
+hours may fail to reﬂect the true occupancy - for example, the AC turns oﬀat 6 pm sharp while
+people are still working in the oﬃce, or the AC operates on Saturday when the oﬃce is unoccupied. Whoever sets the programs of thermostat in small and medium-sized oﬃce also needs
+a better solution - more than often, it is either the case that the thermostat is physically locked
+into a plastic box to prevent unauthorized interference, or multiple people interacting with the
+thermostat and their conﬂicts inadvertently cause the increase of energy use [10].
+The motion-sensor embedded or coupled thermostat, on the other hand, captures the true occupancy patterns instead of solely relying on user settings. This mechanism allows temperature
+control to be more accurate and dynamic, thus improving the energy eﬃciency of HVAC operations.
+The occupancy-centric operation also saves energy on plug loads and lighting. It has been
+supported by multiple studies that plug loads account for about 30% of electricity consumption
+in U.S. commercial buildings [11, 12, 13]. Unlike lighting that has widely adopted occupancy
+sensors for automatic control, equipment and appliances in general solely rely on manual control
+and consume energy even when not being used. This standby power consumption is called
+phantom load or vampire load. The smart plugs and power strips that allow remote control
+consequently save a substantial amount of energy when coupled with occupancy signals.
+1.3. Unused free cooling resources
+Most climate zones in the United States oﬀer the opportunity to utilize natural ventilation as
+free cooling for various lengths of time [14]. The fresh outdoor air at the pleasant temperature
+and humidity level not only improves indoor air quality by ﬂushing out the pollutant in the stale
+air, but also saves signiﬁcant amounts of cooling and fan energy [15]. The most convenient
+implementation of natural ventilation is the night purge, which is to leave the windows and
+louvers open during the night if the weather is suitable. This passive ventilation is most eﬀective
+in the climate with substantial diurnal temperature swings and in buildings with a signiﬁcant
+amount of thermal mass (e.g. concrete, brick, phase-change material) [16].
+With the increasing adoption of window actuators, IoT sensors, and integrated intelligent control, more natural ventilation opportunities can be unlocked to reduce the load and carbon footprint of building operations.
+To address these missed opportunities and harvest the low-hanging fruit, this paper is intended
+to quantify the cooling energy savings potential in small and medium-sized oﬃce buildings
+across all major climate zones in the United States. By adopting adaptive cooling setpoints,
+occupant-centric thermostat control, and night purge as free cooling, the total cooling energy
+savings in kilowatt-hours are estimated for typical small and medium-sized oﬃce buildings.
+3
+
+--- PAGE 4 ---
+
+2. Methodology
+2.1. Overall Framework
+For each prototype building model at each climate, we will evaluate the energy-saving potentials with individual or combined measures. As illustrated in Figure 1, we use the DOE prototype
+small oﬃce model as the baseline and create the proposed model with individual and combined
+energy eﬃciency measures in EnergyPlus [17]. It is worth noting that the energy eﬃciency
+measures proposed in this study can be deployed through a set of ”plug and play” IoT sensing
+and control technologies. Therefore, we need to keep the same HVAC system design capacity
+between the baseline and proposed models.
+Figure 1: Proposed Modeling Framework
+2.2. Prototype Building Model
+The models of small oﬃce buildings to quantify cooling energy savings are based on the
+U.S. Department of Energy commercial benchmark models developed by DOE national labs
+[18]. These benchmark models serve as a consistent baseline to compare the eﬃciency and
+eﬀectiveness of diﬀerent improvements on building systems and operations. Table 1 presents the
+general model input for a small oﬃce that complies with ASHRAE 90.1-2004 and 62.1-1999
+standards.
+2.3. Climate zone
+The climate zone designation is based on the climate zone map used by the International
+Energy Conservation Code (IECC) and the American Society of Heating, Refrigerating and AirConditioning Engineers (ASHRAE). This climate zone map was developed by Paciﬁc Northwest
+National Laboratory, dividing the United States into eight main climate zones based on the temperature, using cooling degree days and heating degree days. Ordered by descending average
+temperature, these zones are Zone 1 (Very Hot), Zone 2 (Hot), Zone 3 (Warm), Zone 4 (Mixed),
+Zone 5 (Cool), Zone 6 (Cold), and Zone 7 (Very Cold), and Zone 8 (subarctic). Each zone is
+further divided into three subcategories by moisture regimes, as A (Humid), B (Dry), and C
+(Marine) [19].
+4
+
+--- PAGE 5 ---
+
+Table 1: Small Oﬃce Prototype Model Summary
+Building Type
+Small Oﬃce
+Compliance
+ASHRAE Standards 90.1-2004 and
+62.1-1999
+Description
+Single-story ﬁve-zone oﬃce building
+Total Floor Area
+511 m2 (5,500 ft2)
+HVAC - Cooling
+Packaged Single Zone Air Conditioner
+(PSZ-AC)
+Economizer
+No
+Internal Gains - Lighting
+1 W/ft2
+Internal Gains - Plug Loads
+1 W/ft2
+Internal Gains - People
+5 W/ 1,000 ft2
+Envelope
+Envelope thermal properties vary with
+climate according to ASHRAE Standard
+90.1-2004.
+The land and population under each climate zone vary dramatically in the United States. For
+example, Zone 8 Subarctic climate is only found in Alaska. The number of small and mediumsized oﬃce buildings under each climate zone, summarized by researchers at Paciﬁc Northwest
+National Laboratory and National Renewable Energy Laboratory [19] is listed in Table 2.
+2.4. Adaptive Thermal Comfort Model
+The adaptive thermal comfort model was developed through a data-driven approach from the
+ASHRAE Global Thermal Comfort Database [20]. The adaptive comfort model relates the zone
+operative temperature setpoint to the recent history of outdoor air temperatures. The adaptive
+comfort models only apply to cooling mode and generate a single setpoint value for each day.
+During summertime in hot climates, the zone thermostat setting can be higher than the traditional
+thermostat setting based on the adaptive thermal comfort model, which results in energy savings
+of HVAC systems.
+For the adaptive comfort model selected in this paper, the thermostat setpoint temperature
+schedule for space cooling will be overwritten with the calculated operative temperature based
+on the selected acceptability limits of the comfort model deﬁned in ASHRAE 55-2020 [6], as
+shown in Figure 2 . The adaptive comfort model takes into account the variation of comfort
+preference along with the seasonality and has a wider comfort range. The ASHRAE adaptive
+comfort model is only applicable when the running average outdoor air temperature for the past
+30 days is between 10.0 and 33.5°C.
+5
+
+--- PAGE 6 ---
+
+Table 2: Number of Buildings by Type and Climate Zone in the United States
+Climate Zone
+Represent City
+# Small Oﬃce
+1A (Hot-Humid)
+Miami, Florida
+28,000
+2A (Hot-Humid)
+Houston, Texas
+354,930
+2B (Hot-Dry)
+Phoenix, Arizona
+96,470
+3A (Hot-Humid and
+Mixed-Humid)
+Atlanta, Georgia
+321,170
+3B (Hot-Dry)
+Las Vegas, Nevada
+158,390
+3C (Marine)
+San Francisco, California
+25,930
+4A (Mixed-Humid)
+New York, New York
+312,150
+4B (Mixed-Dry)
+Albuquerque, New Mexico
+15,790
+4C (Marine)
+Seattle, Washington
+40,880
+5A (Cold)
+Chicago, Illinois
+306,880
+5B (Cold)
+Boulder, Colorado
+107,340
+6A (Cold)
+Minneapolis, Minnesota
+80,460
+6B (Cold)
+Helena, Montana
+10,080
+7 (Very Cold)
+Duluth, Minnesota
+10,790
+Figure 2: ASHRAE 55 Adaptive Comfort Model
+6
+
+--- PAGE 7 ---
+
+3. Results
+3.1. Adaptive Thermal Comfort Model
+In this study, we ﬁrst compare the temperature range between the ASHRAE 55 standard and
+adaptive comfort model as follows.
+1. ”Adaptive-ASH55-Central” (Adaptive-55) is the central line of the acceptability limits of
+the ASHRAE Standard 55-2020 adaptive comfort model that will be used to generate the
+zone operative temperature setpoint. It is derived from the prevailing mean outdoor temperature and is calculated as shown below Central line = 0.31 prevailing mean outdoor
+temperature + 17.8°C The Adaptive-55 is strictly bounded between 20.9°C and 28.2°C.
+2. ”Adaptive-ASH55-90percent-Upper” (Adaptive-90) is the upper line of the 90% acceptability limits of the ASHRAE Standard 55-2020 adaptive comfort model. It is calculated
+as the equation shown below 90% upper line = 0.31 prevailing mean outdoor temperature
++ 20.3°C The Adaptive-90 is strictly bounded between 23.4°C and 30.6°C. This upper line
+is only used in this section to demonstrate additional cooling energy savings compared to
+the Adaptive-55. In all other sections, only the Adaptive-55 is used to quantify the energy
+savings.
+3. The adaptive comfort models only apply to cooling mode and generate a single setpoint
+value for each day. During summertime in hot climates, the zone thermostat setting can be
+higher than the traditional thermostat setting based on the adaptive thermal comfort model,
+which results in energy savings of HVAC systems.
+The cooling setpoints in climate zone 4A, based on both Adaptive-55 and Adaptive-90, are
+shown in Figure 3. The X-axis is the maximum daily outdoor air temperature, and the Y-axis is
+the mean cooling setpoint temperature. The baseline static cooling setpoint at 22.2°C is plotted
+as a dashed line. In climate 4A, the adaptive cooling setpoint based on Adaptive-55 is never
+above 25.8°C and the adaptive cooling setpoint based on Adaptive-90 is never above 28.3°C.
+The daily cooling setpoints in climate zone 4A based on Adaptive-55 are shown in Figure
+4. The cooling setpoint changes in the same direction of prevailing outdoor temperature, which
+starts to rise from late May, peaks in August, and falls back to the baseline setback temperature
+in November. On weekends and holidays, the system cooling setpoint is the same as the setback
+temperature at 29°C.
+Raising cooling setpoints by a mere few degrees from the baseline leads to signiﬁcant energy
+savings. As shown in Figure 5, the cooling setpoints based on Adaptive-55, ranging from 22.2°C
+to 25.8°C, achieve approximately 20% of total cooling energy savings; the cooling setpoints
+based on Adaptive-90, ranging from 22.2°C to 28.3°C, achieve an even higher 38% of total
+cooling energy savings. This cooling energy savings include both compressor energy savings
+and fan energy savings.
+3.2. Occupancy-based HVAC and Plug Load Control
+The occupancy input is based on the realistic schedule for oﬃce space developed at Lawrence
+Berkeley National Laboratory (LBNL) by incorporating real data collection and stochastic modeling methods [21]. It is also the result of the International Energy Agency Energy in Buildings
+and Communities Programme (IEA-EBC) Annex 66 - Deﬁnition and Simulation of Occupant
+Behavior in Buildings [22]. The realistic occupancy level at 10-minute intervals is generated
+by LBNL’s occupant behavior web application [23] considering the diversity and stochastics of
+7
+
+--- PAGE 8 ---
+
+Figure 3: Comparison of Thermostat Cooling Setpoints between the Static and Adaptive Comfort Models
+Figure 4: Annual Cooling Setpoints
+8
+
+--- PAGE 9 ---
+
+Figure 5: Comparison of HVAC Savings (%) between ASHRAE55-CentralLine and 90PercentUpperLine under diﬀerent
+daily weather conditions (left) and total savings in climate 4A (right)
+occupant activities. The occupancy level is shown in Figure 6. Unlike the traditional assumption
+of static occupancy e.g. 8 am - 5 pm, the stochastic occupancy takes into account the variations
+in real oﬃces setting, providing a high-resolution occupancy level at sub-hourly intervals. As
+shown in Figure 6, the occupancy level in the early morning, around noon, and in the evening
+has larger variations due to day-to-day and person-to-person diﬀerences.
+Figure 6: Dynamic Occupant Behaviours (e.g., Open Oﬃce) and Plug Load on Weekdays
+The accurate occupancy sensing enabled by IoT sensors not only saves HVAC system energy
+consumption but also helps to save electricity on lighting and plug load. The smart plug control automatically turns oﬀnon-critical equipment and appliances (such as monitors, televisions,
+coﬀee makers, water heaters, etc.) if occupancy is not detected for an extended period. The
+occupancy-centric control alone achieves 7.7% of total electricity consumption savings in small
+9
+
+--- PAGE 10 ---
+
+oﬃces located in Climate 4A, by reducing 6.7% HVAC consumption and 28.2% plug loads. The
+electricity intensity is thus reduced from 132.4 kWh/m2 to 122.2 kWh/m2, achieving substantial
+savings of 10.2 kWh/m2.
+Figure 7: Comparison of Electricity Consumption Intensity between Static and Dynamic Occupancy-based Control for
+Small Oﬃces in Climate 4A
+3.3. Passive Cooling Strategies (Night Purge)
+We implement a strategy for precooling a building at night using outdoor air. This strategy can
+consist of running the system fans with the outdoor air dampers open when outdoor conditions
+are favorable for a precooling strategy. The zone terminal unit air dampers may also be held at
+their fully open position to minimize fan energy consumption while precooling.
+Figure 8 shows the daily energy saving from the HVAC by diﬀerent daily mean OAT ranges
+for a small oﬃce building in the climate zone 4A. It can be seen that the night purge strategy
+has played a role in reducing HVAC energy consumption when the climate is suitable. When the
+daily mean OAT exceeds about 25 ºC, night ventilation may not be able to eﬀectively reduce the
+HVAC operating time during the day, thus wasting the energy of the fan at night.
+During the cooling season, the night purge alone saves 3.0% of HVAC energy consumption
+in small oﬃces located in Climate 4A, as shown in Figure 8. The energy intensity is reduced
+by approximately 0.7 kWh/m2, which includes 0.7 kWh/m2 of cooling energy savings and 0.05
+kWh/m2 of fan energy increase.
+Night purge is most eﬀective in the buildings with high thermal mass and climates that diurnal temperature swing is signiﬁcant or summer is mild [24]. In the cases when buildings have
+exposed concrete slabs, the night purge will cool down the slab temperature, which will help
+reduce the daytime HVAC energy consumption thanks to lowered radiant temperature and operative temperature. When night purge is applied along with phase changing material and adaptive
+thermal comfort setpoint, it will create a synergistic eﬀect and unlock more energy savings [16].
+10
+
+--- PAGE 11 ---
+
+Figure 8: Daily Energy Saving from HVAC by Diﬀerent Daily Mean OAT Ranges (left) and Cooling Electricity Consumption intensity in Cooling Season (right)
+The cooling demand on the HVAC system is greatly reduced as the phase-changing material
+that is cooled by the cool night air, slowly absorbs heat throughout the day and keeps indoor air
+temperature close to the adaptive thermal comfort temperature.
+3.4. Combined Measures
+Combining the three optimization strategies above, buildings can achieve the highest energy
+savings. As shown in Figure 9, the standard small oﬃce in climate zone 4A reduces annual
+electricity consumption by 12.4%, implementing adaptive setpoint, occupancy-centric control,
+and night purge natural ventilation. Among these individual measures, occupancy-centric control
+is the most eﬀective strategy and leads to a 7.7% reduction in total electricity consumption, as
+the savings come from the HVAC system, plug load, and lighting. The adaptive setpoint achieves
+a 4.6% reduction in annual electricity savings, all of which stems from reduced cooling energy
+of the HVAC system. The night purge ventilation is the least eﬀective measure and saves 0.4%
+of total electricity consumption, which is also solely from reduced cooling energy consumption.
+The interactive eﬀect of these three measures is insigniﬁcant as the sum of individual savings
+(12.7%) is very close to the combined savings (12.4%).
+3.5. Comparison between Diﬀerent Climates
+Figure 10 shows the annual electricity savings comparison of EE measures between diﬀerent
+climates. It can be clearly seen that the eﬀect of the dynamic occupancy behavior model is
+consistent in all climate conditions, saving about 7.4-9.5% per year. In contrast, the adaptive
+comfort model is primarily inﬂuenced by the climate, as shown in Figure 10 (a). In terms of
+reducing cooling power consumption, the eﬀect of the adaptive comfort model decreases from
+12% to 1.5% as the climate changes from hot to cold. On the other hand, the humidity also has
+a large impact on the eﬀect of the adaptive comfort model. Under the same climatic conditions,
+a drier climate can achieve much higher savings compared to a humid climate.
+Among the three measures, the eﬀect of the ”night purge” strategy is fairly limited, saving
+only about 0.1% to 1% per year. As shown in Figure 10 (c), the most eﬀective climate zone
+11
+
+--- PAGE 12 ---
+
+Figure 9: Potential Annual Electricity Savings for Individual and Combined Measures in Small Oﬃce
+for night purge is 3C (ocean), which is warm during the day and cool at night. Previous studies
+have shown that in dry climates with warm days and cool nights, this measure is usually worth
+considering.
+From hot to cold climates, the annual electricity savings percentage by adopting adaptive
+thermal comfort decreases as the cooling energy is responsible for smaller proportions of total
+electricity consumption in cooler climates. Climates that belong to diﬀerent humidity subcategories also show diﬀerent levels of cooling energy savings. As shown in Figure 11, dry climate,
+or subcategory B, beneﬁts most from the adaptive cooling setpoints. Humid climate, or subcategory A, sees a lower saving percentage as the HVAC system consumes energy to meet the latent
+cooling load for moisture removal. Marine climate, or subcategory C, shows the least saving
+percentage because of its mild summer that results in a smaller percentage of cooling energy of
+the total electricity consumption.
+Figure 12 presents the annual electricity savings achieved by combining three EE measures
+across all climate zones in the United States. In the hot and dry climate zone ”2B”, the highest
+saving is about 20%. In contrast, the lowest saving observed in the cold climate zone “6A” is
+only 8.9%, and most of the electricity savings come from smart plug load control.
+Table 3 summarizes the annual electricity savings at the entire building level and HVAC enduse level in diﬀerent climate regions in the United States. The deployment of combined energy
+eﬃciency measures can save 12.2 kWh/m2 to 30.4 kWh/m2 per year. Most of the savings come
+from HVAC end-use, which is about 6.5 kWh/m2 to 22.6 kWh/m2. Compared to the baseline,
+combined energy eﬃciency measures can achieve electricity savings of 9% to 20% for the entire
+building, and 23% to 39% for HVAC end-use.
+12
+
+--- PAGE 13 ---
+
+Figure 10: Comparison of Energy Eﬃciency Measures between Diﬀerent Climates
+Figure 11: Cooling Energy Savings by Climates
+13
+
+--- PAGE 14 ---
+
+Figure 12: Potential Annual Electricity Savings for Combined Measures in Small Oﬃce among Diﬀerence Climates
+Table 3: Annual Electricity Saving of Combined Energy Eﬃciency Measures for Small Oﬃces in Diﬀerent Climates
+Climate Zone
+Annual Savings (kWh/m2)
+Annual Savings (%)
+Total Electricity
+HVAC
+Total Electricity
+HVAC
+1A
+29.5
+21.4
+19%
+33%
+2A
+26.6
+18.6
+18%
+32%
+2B
+30.4
+22.6
+20%
+39%
+3A
+22.3
+15.0
+16%
+36%
+3B
+25.1
+17.6
+18%
+37%
+3C
+18.3
+10.5
+15%
+30%
+4A
+16.4
+10.0
+12%
+30%
+4B
+21.1
+13.9
+16%
+35%
+4C
+12.4
+6.6
+10%
+25%
+5A
+14.3
+7.7
+11%
+29%
+5B
+16.9
+10.2
+13%
+30%
+6A
+12.2
+6.5
+9%
+23%
+6B
+13.4
+7.2
+10%
+26%
+14
+
+--- PAGE 15 ---
+
+4. Conclusion
+The U.S. commercial buildings have substantial energy-saving potential if the building control could address varying occupancy, occupant’s thermal preference, and utilizing free cooling.
+This study quantiﬁes the energy savings in small oﬃce buildings across all major U.S. climate
+zones, based on the commercial prototype building models developed by the U.S. Department of
+energy. The energy-saving eﬀectiveness of each individual measure and all measures combined
+are presented.
+The adaptive cooling setpoints are applied to avoid over-cooling in commercial buildings,
+taking into consideration people’s adaptive behavior and clothing adjustment against general
+weather conditions. This measure is extremely eﬀective in reducing cooling energy consumption,
+especially in climate 2B, in which the adaptive cooling setpoint alone saves 12% electricity
+consumption of the small oﬃce building, compared to the baseline static cooling setpoint at
+22.2°C.
+The occupancy-centric control, enabled by IoT sensors that detect occupancy and motion, is
+applied to both the HVAC system and smart plugs control. The corresponding savings of the
+HVAC system energy consumption is around 6.7% and savings of plug load is about 28.2%.
+This measure alone saves approximately 7.7% of total electricity consumption across all climate
+zones.
+The night purge ventilation utilizes free cooling and improves indoor air quality. This measure alone reduces up to 3.0% of the cooling energy consumption of the HVAC system for small
+oﬃces in climate 4A. Speciﬁcally, it is most eﬀective in marine climates such as 3C (San Francisco) and 4C (Seattle), and can achieve approximately 5.6% of cooling electricity consumption.
+It is equivalent to about 0.9% of the total electricity consumption of the building.
+Signiﬁcant total electricity savings ranging from 8.9% to 20.4% can be achieved by combining
+all three measures, which are equivalent to 12.2 kWh/m2 to 30.4 kWh/m2 annual reductions in
+electricity usage intensity. The electricity-saving percentages show a decreasing trend from hot
+to cold climate. For climate zones with similar numbers of cooling degree days and heating
+degree days, the dry subzones achieve the highest energy savings.
+Enabled by building IoT sensors, smart hardware, and automated building subsystems, more
+energy-saving opportunities can be unlocked by smart control to improve the energy eﬃciency
+of commercial buildings. This study quantiﬁes the electricity savings from adaptive setpoint,
+occupant-centric control, and night purge ventilation in small oﬃce buildings across all U.S.
+climate zones. The next step is to carry out experiments of such ”plug and play” IoT sensing and
+control devices (for example, smart thermostats with occupancy sensors, smart plugs, window
+actuators) in small oﬃces and quantify the energy-saving and demand reduction potential.
+15
+
+--- PAGE 16 ---
+
+References
+[1] U. Energy Information Administration, Electric Power Annual 2019, Tech. rep. (2021).
+URL www.eia.gov
+[2] Annual Energy Outlook 2021, URL https://www.eia.gov/outlooks/aeo/.
+[3] Energy Information Administration (EIA)- Commercial Buildings Energy Consumption Survey (CBECS) Data.
+URL https://www.eia.gov/consumption/commercial/data/2012/
+[4] S. Karjalainen, Gender diﬀerences in thermal comfort and use of thermostats in everyday thermal environments,
+Building and Environment 42 (4) (2007) 1594–1603. doi:10.1016/j.buildenv.2006.01.009.
+[5] B. Kingma, W. Van Marken Lichtenbelt, Energy consumption in buildings and female thermal demand, Nature
+Climate Change 5 (12) (2015) 1054–1056. doi:10.1038/nclimate2741.
+URL https://www.nature.com/articles/nclimate2741
+[6] ASHRAE Standard 55 - Thermal Environmental Conditions for Human Occupancy, Tech. rep., American Society
+of Heating, Refrigerating and Air-Conditioning Engineers, Inc, Atlanta, GA (2010).
+URL www.ashrae.org
+[7] S. Derrible, M. Reeder, The cost of over-cooling commercial buildings in the United States, Energy and Buildings
+108 (2015) 304–306. doi:10.1016/j.enbuild.2015.09.022.
+[8] Mesa — Sidewalk Labs.
+URL https://www.sidewalklabs.com/products/mesa
+[9] M. Pritoni, A. K. Meier, C. Aragon, D. Perry, T. Peﬀer, Energy eﬃciency and the misuse of programmable thermostats: The eﬀectiveness of crowdsourcing for understanding household behavior, Energy Research and Social
+Science 8 (2015) 190–197. doi:10.1016/j.erss.2015.06.002.
+[10] N. D. Sintov, L. V. White, H. Walpole, Thermostat wars? The roles of gender and thermal comfort negotiations in
+household energy use behavior, PLoS ONE 14 (11) (2019) e0224198. doi:10.1371/journal.pone.0224198.
+URL https://doi.org/10.1371/journal.pone.0224198
+[11] M. Sheppy, C. Lobato, S. Pless, L. G. Polese, P. Torcellini, Oﬃce Buildings: Assessing and Reducing Plug and
+Process Loads in Oﬃce Buildings (Fact Sheet), Tech. rep., National Renewable Energy Laboratory.
+[12] S. Huang, Y. Ye, D. Wu, W. Zuo, An assessment of power ﬂexibility from commercial building cooling systems in
+the United States, Energy 221 (2021) 119571. doi:10.1016/j.energy.2020.119571.
+[13] M. Hafer, Inventorying Plug Load Equipment and Assessing Plug Load Reduction Solutions on a University Campus (2015).
+[14] Y. Chen, Z. Tong, A. Malkawi, Investigating natural ventilation potentials across the globe: Regional and climatic
+variations, Building and Environment 122 (2017) 386–396. doi:10.1016/j.buildenv.2017.06.026.
+[15] Y. Chen, L. K. Norford, H. W. Samuelson, A. Malkawi, Optimal control of HVAC and window systems for natural ventilation through reinforcement learning, Energy and Buildings 169 (2018) 195–205. doi:10.1016/j.
+enbuild.2018.03.051.
+[16] E. Solgi, R. Fayaz, B. M. Kari, Cooling load reduction in oﬃce buildings of hot-arid climate, combining phase
+change materials and night purge ventilation, Renewable Energy 85 (2016) 725–731. doi:10.1016/j.renene.
+2015.07.028.
+[17] EnergyPlus — EnergyPlus.
+URL https://energyplus.net/
+[18] Commercial Prototype Building Models.
+URL https://www.energycodes.gov/development/commercial/prototype_models
+[19] M. C. Baechler, T. L. Gilbride, P. C. Cole, M. G. Hefty, K. Ruiz, Guide to Determining Climate Regions by County,
+Tech. rep., Paciﬁc Northwest National Laboratory (2015).
+URL www.buildingamerica.gov
+[20] ASHRAE Global Thermal Comfort Database II.
+URL http://www.comfortdatabase.com/
+[21] Y. Chen, T. Hong, X. Luo, An agent-based stochastic Occupancy Simulator, Building Simulation 11 (1) (2018)
+37–49. doi:10.1007/s12273-017-0379-7.
+URL https://link.springer.com/article/10.1007/s12273-017-0379-7
+[22] IEA-EBC Annex 66: Deﬁnition and Simulation of Occupant Behavior in Buildings.
+URL http://www.annex66.org/
+[23] Occupancy Simulator - Lawrence Berkeley National Laboratory.
+URL http://occupancysimulator.lbl.gov/
+[24] N. Fernandez, Y. Xie, S. Katipamula, M. Zhao, W. Wang, C. Corbin, Impacts of Commercial Building Controls on
+Energy Savings and Peak Load Reduction, Tech. rep., Paciﬁc Northwest National Laboratory, Richland, Washington (2017).
+16

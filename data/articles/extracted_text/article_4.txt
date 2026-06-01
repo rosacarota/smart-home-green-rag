@@ -1,0 +1,2716 @@
+--- PAGE 1 ---
+
+Environmental Technology & Innovation 22 (2021) 101443
+Contents lists available at ScienceDirect
+Environmental Technology & Innovation
+journal homepage: www.elsevier.com/locate/eti
+Smart Home Energy Management Systems in Internet of
+Things networks for green cities demands and services
+Muhammad Saidu Aliero a, Kashif Naseer Qureshi b, Muhammad Fermi Pasha a,
+Gwanggil Jeon c,∗
+a School of Information Technology, Monash University, Subang Jaya, 47500, Malaysia
+b Department of Computer Science, Bahria University Islamabad, Pakistan
+c Department of Embedded Systems Engineering, Incheon National University, Republic of Korea
+a r t i c l e
+i n f o
+Article history:
+Received 24 July 2020
+Received in revised form 21 October 2020
+Accepted 15 February 2021
+Available online 20 February 2021
+Keywords:
+Smart home energy management
+Smart thermostat
+Smart home
+Thermal comfort control
+Smart energy control
+Smart home energy management system
+opportunity
+a b s t r a c t
+Today, 44% of global energy has been derived from fossil fuel, which currently poses
+a threat to inhabitants and well-being of the environment. In a recent investigation of
+the global demand for energy consumption across various energy consumption sectors,
+the building sector has been shown to be one of the primary energy consumers, with
+a high percentage of energy consumption deemed as unnecessary. This as a result of
+poor management practice and implementation of strategies to avoid excess energy consumption. Over the years, researchers in both academia and industries have focused on
+various techniques to deal with unnecessary energy consumption and ensuring a healthy
+living environment for green smart cities. Among these techniques is Smart Home
+Energy Management Systems (SHEMs), which transform electric home appliances, sensor
+nodes, into autonomous devices in order to manage energy consumption effectively. This
+study presents an analysis of smart home energy management system with the goal to
+identify current trends and challenges for future improvement. The result reveals lack
+of quality attributes such as security, privacy, scalability, interoperability, and difficulty
+in managing and adapt to the thermal comfort satisfaction of residents, exposing
+them to health risks. Lastly, the study described opportunities for future research that
+ensure energy-efficient smart homes free of unnecessary energy consumption, health
+challenges, and cyber security attacks.
+© 2021 Elsevier B.V. All rights reserved.
+Contents
+1.
+Introduction...............................................................................................................................................................................................
+2
+2.
+Energy generation and smart grid .........................................................................................................................................................
+3
+2.1.
+Energy generation technology....................................................................................................................................................
+5
+2.1.1.
+Fossil fuel ......................................................................................................................................................................
+5
+2.1.2.
+Nuclear energy .............................................................................................................................................................
+6
+2.1.3.
+Renewable energy ........................................................................................................................................................
+6
+2.1.4.
+Wind ..............................................................................................................................................................................
+6
+2.1.5.
+Solar ...............................................................................................................................................................................
+6
+2.2.
+SHEMS review analysis ...............................................................................................................................................................
+6
+3.
+SHEMS literature quality assessment.....................................................................................................................................................
+9
+∗Corresponding author.
+E-mail address:
+gjeon@inu.ac.kr (G. Jeon).
+https://doi.org/10.1016/j.eti.2021.101443
+2352-1864/© 2021 Elsevier B.V. All rights reserved.
+
+--- PAGE 2 ---
+
+M.S. Aliero, K.N. Qureshi, M.F. Pasha et al.
+Environmental Technology & Innovation 22 (2021) 101443
+4.
+Overview of smart home energy management market.......................................................................................................................
+9
+4.1.
+SHEMS products........................................................................................................................................................................... 15
+5.
+Research opportunity............................................................................................................................................................................... 16
+6.
+Conclusion ................................................................................................................................................................................................. 17
+Declaration of competing interest.......................................................................................................................................................... 18
+Acknowledgments .................................................................................................................................................................................... 18
+References ................................................................................................................................................................................................. 18
+1. Introduction
+The global energy crisis has for decades been one of the significant challenges that pose a threat to the global economy
+and a healthy living environment. A recent report published in 2020 by Energy Outlook (Outlook, 2019) shows the increase
+of 2.9% global energy consumption in 2018, which is considered as the fastest increased rates for decades compared to its
+usual primary yearly average increase of 1.5% (see Fig. 1) and forecasted to increase rapidly in upcoming years. The same
+report shows the United States of America was the world’s largest energy consumer until 2002, when it was overtaken
+by the Asian region.
+The trend shows significant turning point closely related to the ongoing increase in population, and number of
+industries and infrastructures in the Asian region. Another report also shows government efforts to improve the wellbeing
+and lifestyle of their citizens partly offset by the substantial gain in energy intensity, which leads to higher energy
+consumption in the Asian region. A recent report (C., 2018) praised China’s effort to manage the supply of energy demand
+to over 1.3 billion people and thousands of industries. Recently, there has been an unusual increase in ongoing deployment
+of air condition and heating systems, microwave ovens, televisions, hairdryers, and other home appliances.
+Currently the industrial sector is the primary consumer of global energy consumption with increased from 40%–90%,
+buildings (43%–56%), transport (18%–46%) and the non-combusted accounting for the remainder as shown in Fig. 1. Over
+the years, researchers have used historical energy consumption to boost the gain in energy efficiency through various
+technologies. Emerging Smart Grid technologies provide greater save energy, seeking out the lowest energy consumption
+rates, facilitate and contribute to balance energy generation, supply and consumption across all sectors which marked
+slowing the energy demand increase in the building and transport sectors to less than half the rate of the previous
+20 years. Similarly, the increase of energy demand within industry also lost momentum. Despite the current technological
+advancement, the non-combusted energy demand particularly in the industry as a feedstock in petrochemicals has not
+decline.
+The global energy peak consumption analysis from global historical energy consumption data pulled from outlook (Outlook, 2019) dated from 1990 to 2020 in Fig. 2 indicates Asian region-building energy consumption demand rose by 95%
+by 2019, consuming a total of 2.26 billion tonnes, overtaking the US with total consumption equivalent 2.17bn tonnes.
+Similarly, analysis shows 60% increase in the industrial sector from 1990 to 2019.
+Over the years, evidence has shown global warming (Outlook, 2019; Part, 2016; Serra et al., 2014) to be a driving factor
+that has contributed to a sudden increase in global energy demand, particularly in Canada, China, the US, and Russia in
+efforts to both cool down and warm extreme cold residential environment that has been experienced since the 1950s.
+To curtail the current associated energy and environmental impact, building sector requires a sustainable energy
+solution in the form of renewable energy sources and energy efficiency technologies. Renewable energy sources provide
+new occupants with opportunities to generate their own form of electricity. This implies that a standard design for
+smart home requires that renewable energy sources be taken into consideration. A Smart grid research emerged with
+new techniques and opportunities to manage energy sources (including generation, storage and supply) and utilization
+(demand and usage) particularly in building sector as a new frontier for the futuristic smart homes. Today there is increase
+in adaptation of this trend in practice and research perspective to provide a healthier, more convenient living environment
+than ever before.
+Building sectors are constantly seeking and relaying for new recommendation from researchers in both academic and
+industry to improve the current building architecture design and SHEMs technologies to attain occupants thermal comfort
+satisfactory level with higher energy saving potential (Ullah et al., 2020a; Haseeb et al., 2020). While a large number of
+review studies have been published on SHEM, only a few discussed extensively on issues and challenges faced in current
+literature, with little emphasis on scope of the literature research limitation. This study, however, takes a step further
+providing an in-depth critical review analysis aimed to provide the reader with an understanding of research strategies,
+techniques, constraints used in current SHEMS and various factors which affect its overall functionality and operation.
+The result of this analysis can be used to improve the current SHEMS state of the art.
+This paper is organized as follows: Section 2 provides an overview into Energy Generation and SHEMS, Section 3
+SHEMS research quality assessment, Section 4 insight on SHEM’s market and product 5 discusses future research and
+opportunities, Section 6 presents study conclusion.
+2
+
+--- PAGE 3 ---
+
+M.S. Aliero, K.N. Qureshi, M.F. Pasha et al.
+Environmental Technology & Innovation 22 (2021) 101443
+Fig. 1. Expected percentage of global demand for energy consumption in various sectors.
+Fig. 2. Global energy peak analysis from 1990–2020.
+2. Energy generation and smart grid
+Modern technological advancement has positively impacted our lifestyle and, at the same time, led to the progress of
+environmental concern that poses a threat to the inhabitants. Over the decades, the increase in environmental degradation
+has become a reality driven by many factors (Haseeb et al., 2020; Chandrasekhar et al., 2020). Increase in world population
+and industrial activities have led to increase the percentage of unhealthy particles in the outdoor air creating an unhealthy
+living environment. Electricity is a form of clean energy and safe when it is utilized. However, the transition and generation
+of electricity has great environmental and health consequences. The generation of electricity from all sources of primary
+energy has effects on the environment to some extent. Over the decades (Atzeni et al., 2012; Qureshi et al., 2020a,c), fossil
+fuel (coal, crude oil, and natural gas) contribute 80% of electricity to consumers globally as shown in Fig. 3.
+Today the USA, Europe, and Asian countries and other parts of the world use other sources of electricity generation,
+which include natural gas, coal, and nuclear in the high proportion, which reduces the burning of fossil fuel as shown
+in Fig. 3. Energy generation is the primary source of greenhouse gas emission GHG. The increasing concentration level
+of GHG in the atmosphere has led to more energy radiation from the sun resulting in the trend of global warming.
+3
+
+--- PAGE 4 ---
+
+M.S. Aliero, K.N. Qureshi, M.F. Pasha et al.
+Environmental Technology & Innovation 22 (2021) 101443
+Fig. 3. Fossil Fuel Energy Generation (coal, crude oil, and natural gas).
+Study (Hosking et al., 2018; Hussain et al., 2020) shows global fossil fuel energy consumption of coal, crude oil and natural
+gas have increased coal recently by 28%, 27%, and 38%, respectively in Fig. 3. Burning of fossil poses a greater threat to
+the atmosphere making earth hotter place. Recent investigations have shown the period 1917–2017 has witnessed a rise
+in average temperature, wildfire migration shifting of habitat, and draining of sea level, which is linked with increased
+GHG emission level into the atmosphere.
+A key factor that brought all of the emerging Smart Grid technologies to operate together is the synergy between
+the grid operators, consumer, and utilities (Rathore et al., 2016; Paul and Jeyaraj, 2019). Implementation of automated
+controls in home and appliances can provide an interface to interact with energy provider to limit energy usage on certain
+appliance when grid is under stress from peak energy demand, or reschedule demand to use energy when the energy unit
+at a lower price. Today, smart grid is becoming more attractive building occupants due to its interactive capacity.
+Recent research shows (Aswani et al., 2012; Azuatalam et al., 2020) Smart grid provides new opportunity and potential
+for occupants to optimize energy generation, storage, and consumption in a convenient and automated approach with
+higher efficiency as shown in Fig. 4. Innovative fit also offers a complete transparent energy budget, avoiding energy
+purchase at high rates through energy demand scheduling and price forecast. Current trends show global adaptation of
+renewable energy sources with high decline on fossil fuels generation.
+The current adaptation and growth (Manic et al., 2016) of smart grid have subjected building sectors into continuously
+seeking and demanding for new emerging algorithms and technologies to facilitate and ensure smooth transition of
+shifting home appliances from traditional utility grids to renewable energy sources to curb the current energy crisis
+and global warming. In this context, the ideology behind the Smart grid lies upon local generation of energy and with
+Smart Home. Fig. 4 demonstrates Smart grid synergies harnessing technologies with greater energy supply reliability and
+sustainability to occupants in comparison to traditional grid utility.
+Recent research provides solutions to achieve greater energy saving potential by increasing hosting energy demand
+for renewable energy to reduce demand for traditional electricity from smart home appliances (see Fig. 4). For example,
+energy demand on HVAC equipment in the evening when the residents arrive at home can be scheduled to start earlier
+on the rooftop solar panel to cool down the room before occupants arrive at home.
+The architecture displays mutual communication among data distribution centres, smart metres, SHEMS, and home
+appliances. This communication is essential for SHEMS to analyse, forecast, and predict the cheapest energy source option,
+time to shift the energy demand on renewable energy of home appliances to reduce the energy costs on traditional
+electricity, utilize data exchange to decide energy demand priority when the energy demand or cost is at peak and ensure
+no unnecessary energy consumption. For example, smart metres can assist occupants to cut energy consumption costs
+by providing useful information such as how much electricity is being used, unit price forecast future price cost.
+4
+
+--- PAGE 5 ---
+
+M.S. Aliero, K.N. Qureshi, M.F. Pasha et al.
+Environmental Technology & Innovation 22 (2021) 101443
+Fig. 4. Typical Architecture of Energy Generation and Smart Grid Ecosystem.
+2.1. Energy generation technology
+Demand for energy generation sources and technology has increased significantly over the years throughout the
+world to satisfy consumer energy demand. Energy generation sources and technology have changed over time, and some
+are often used more than others (Omer, 2009). However, today there are three primary sources of energy generation,
+which include fossil fuel, renewable and nuclear energy. Studies show fossil fuel energy generation has a great effect
+on Inhabitant and environmental well-being. Inside data shows international energy regulation sectors have strived to
+reduce the impact energy generation to the environment through the implementation of specific strategies and policies
+to protect the environment against harm from energy generation (Omer, 2009; Qureshi et al., 2020d).
+Acts such as the Nuclear Safety Authority Strategic Plan and the Waste Act, Nuclear Security, and Transparency Act are
+some of the policies in place concerning energy generation to environmental hazards which have received broad argument
+in various dimensions. The majority of the participants agreed that the Acts have played a role in ecological condition
+stability with the help of a renewable energy approach. As reported in Hosking et al. (2018), Omer (2009) and Qureshi
+et al. (2020b), the affirmative compliance among various countries has led to a gradual shift to renewable energy sources
+to reduce the carbon emission to the atmosphere.
+2.1.1. Fossil fuel
+Fossil fuel (coal crude oil and natural gas), accounted for an estimated 44% of global energy source utilization as shown
+in Fig. 5. Coal and natural gas account for 28% and 27% of global fossil-fuel utilization, respectively, as reported in Omer
+(2009). The resulting chemical compound released from the burning of fossil fuel affects environmental health and quality
+of life. These compounds include methane (CH4), CO2, sulphur dioxide (SO2), and nitrogen oxide (NOx), which are the
+primary cause of environmental pollution. Mercury (Hg) is another chemical compound released into the environment
+when fossil fuels and coal are burned, causing trans-boundary pollution. Hg concentration in the air affects water quality.
+Wildlife exposure to Methyl mercury (CH3Hg) led to a low fertility rate, mortality, congenital disability, an increase
+of disability, and abnormal development. In many cases, the combination of SO2 and NOx with air vapour led to the
+production of acid rain from the burning of coal which affects crops and forests, and has led to respiratory challenges
+among wildlife populations and other severe sicknesses that might lead to mortality in humans. Data in Hosking et al.
+(2018) and Omer (2009) reveals the emission levels of burning fossil fuel consisting of CO2, water vapour, and CH4 in
+comparison with the product of oil and coal. The data reveal oil and coal have higher concentration levels of SO2, NOx,
+and CO2, which lead to environmental pollution.
+5
+
+--- PAGE 6 ---
+
+M.S. Aliero, K.N. Qureshi, M.F. Pasha et al.
+Environmental Technology & Innovation 22 (2021) 101443
+2.1.2. Nuclear energy
+Nuclear energy originated primarily from the use of Uranium through the fission generation process that forms heat
+in a nuclear energy station. This enables reactor to heat up the water around the fuel rods, which will then have built
+into stream spins the turbine and allow the generator to generate electricity. Thermal radiation and radioactive particles
+released from nuclear energy have an impact on environmental survival, reproduction, and growth. The nuclear energy
+generation combustion products are contained as wastes, and this waste poses a risk and threat to the environment
+as recently occurred in Japan’s Fukushima. The tailing dams are in reach with uranium and cause acid bleaching on
+the surface, soil, and groundwater when flooded into the ponds. Despite current regulation in place by World Nuclear
+Association, it was reported that more than 500 commercial nuclear reactors are in operation in 31 countries as a source
+of energy providing an estimated capacity of 13.5% of global energy production (Sims et al., 2003a). Similarly, nuclear
+energy plant construction demands an increasing number of roads, traffic flow, the cutting of trees, excavation, which
+have a significant impact on ecology.
+2.1.3. Renewable energy
+Renewable energy sources, RES, is the natural process of generating energy restored by means of the earth. This includes
+energy generated from solar, biomass, and wind, hydroelectric and geothermal. However, the most popular sources of
+renewable are solar and wind energy.
+2.1.4. Wind
+Wind energy generation has a long history, apparently originated from Chinese for agricultural irrigation four decades
+ago. Warm air is the major driving factor to spin large propeller of the turbine, which drive the generator to generate
+energy. The idle locations for wind energy plants are where speed is about 25 km/h, steady, and reliable, preferably at
+the top of shaped hills, coastal areas, and open plains (Joos and Staffell, 2018). Wind energy is a form of clean energy
+that poses no threat or toxicity to human life. However, the biggest challenge faced is community acceptance as it affects
+reception signals for television and radio. Aluminium and steel consumed by wind energy plant processing emit CO2
+during manufacturing, while turbines’ concrete foundation range from 15 to 37 tonnes per GWh of energy generated. The
+percentage of wind energy generation rose from 17% to 29% from the since 2010 (Sims et al., 2003b).
+2.1.5. Solar
+Sun is another source from which to tap energy using solar cells approach, which transforms light directly into energy.
+During 1974 energy crisis, the sun was used to heat water panels and solar furnace to tap sun energy into mirrors to
+generate high temperatures. The solar energy generation was estimated to reach global demand of 9.2% by 2040 (Sims
+et al., 2003b). Solar cells disposal and radiation emitted by other equipment in transforming solar energy to electricity
+are the major threats to the environment. The major environmental issues with this fuel cycle are the manufacture and
+disposal of solar cells and other equipment required to capture the radiation before it is transformed into electricity.
+Photovoltaic cells are essential for the panel to function, and the manufacturing process required the involvement
+of hazardous substances such as cadmium and arsenic. Leftover silicon tetrachloride must be disposed of appropriately
+and might cause severe environmental pollution due to mismanagement or inappropriate implementation of disposal
+measures. Solar energy is becoming more popular as it poses less threat to inhabitants in comparison with fossil fuel and
+nuclear sources of energy. In fact, since the incident in Fukushima Japan, countries such as the UK, France and Germany
+have stepped forward to minimize the extension of their nuclear energy plant and emphasis renewable energy sources
+such as solar and wind energy plants as alternatives to meet their energy demand.
+For decades, fossil fuel has remained a primary source of energy generation, but with growing concern on the increase
+of GHG emission and its possible impact on global warming, many countries have to pay attention to tap energy from
+nature in the form of renewable sources to harness energy to meet the demand for energy consumption. Today countries
+are focusing on both safeties of the environment and long term adequacy of the energy supply. Information in Fig. 4
+shows the increase of momentum in renewable energy supply in recent decades, with high efficiency and potential in the
+market and without compromising the safety of the environment. Unlike fossil fuel or renewable, the supply of nuclear
+energy is steady, despite a low amount of carbon emission, and this is mainly due to a lack of nuclear reactor, as they are
+costly to construct.
+2.2. SHEMS review analysis
+SHEMS provide advanced IoT technological framework with the potential to transform a traditional home into a
+smart energy-aware environment to manage the energy resources and demand to reduce excess energy consumption and
+bills without compromising occupants’ comfort and satisfaction. The framework was designed with central intelligence
+to automate, facilitate and coordinate decision making in the smart home products ecosystem without reliance or
+participation of the occupants so as to ensure a comfortable and convenient living environment and improve the lifestyle
+of occupants. So far, the trend (SAULLES, 2017) has shown 15%–23% annual energy bill savings in comparison to traditional
+home (Grid, 2016). Table 1 presents the summary review analysis on recent literature of SHEMS.
+6
+
+--- PAGE 7 ---
+
+M.S. Aliero, K.N. Qureshi, M.F. Pasha et al.
+Environmental Technology & Innovation 22 (2021) 101443
+Fig. 5. Analysis of energy generation sources from 1990 to 2020.
+Current SHEMS implement different type of intelligent controller that requires external feedback input values such as
+cost, thermal demand, or PV generation to make appropriate suggestions in response to energy for a customer to choose
+or perform decisions autonomously. SMHEMS can be classified into two main categories (non-predictive and predictive
+SHEMS approach) based on the level of the intelligence provided to automate energy demand and control utilization tasks
+(see Table 1). These controllers are classified into two main categories (predictive and non-predictive controller) based
+on their maturity level of intelligent provided to the system.
+Non-predictive controllers provide SHEMS with the capability to manage home appliance remotely using a mobile
+application or web service. This is essential when occupants want to use the equipment ahead of time with higher energy
+saving potential. For example, turning ON HVAC equipment at a low ventilation rate prior to using the space for a specified
+period, which consumes less energy compared to operating HVAC equipment in a high ventilation rate when the demand
+arises.
+Predictive controllers are designed to automate switching ON/OFF of home appliance without occupants’ intervention.
+Majority of these controllers are trained with machine learning algorithms (see Table 1) to learn the occupant’s behaviour
+towards energy demand and utilization, and are able to perform a precise prediction to respond to occupant’s demand
+without unnecessary energy consumption.
+However, majority of SHEMS literature presented in Table 1 greatly rely on occupants fixed schedule activities to derive
+learning model on occupants’ behaviour towards energy demand and utilization. Studies in Qurat ul et al. (2018), Asif et al.
+(2018), Meana-Llorián et al. (2017b), Javaid et al. (2018) and Yoo et al. (2020) proposed occupants learning behaviour to
+minimize excess energy consumption by HVAC equipment. The proposed algorithms uses occupants fixed schedule time to
+be in the building and time to leave the building, occupants energy pattern behaviour, seat point temperature that favour
+the comfort of the occupants based on the season of the year. The derived model was simulated in EnergyPlus software in
+comparison with a traditional thermostat, which shows high accuracy in predicting occupants in a space which, in turn,
+cuts excess energy consumed by HVAC equipment significantly. Energy saving through occupant’s schedule activities are
+essentially practical in commercial buildings such as labs, offices, and business environment where occupants activities
+are being governed by certain policies.
+These proposals are being challenged with flexibility to adjust temperature seat points based on indoor meteorological
+conditions and the ability to adapt to occupant’s behaviour change, which affects the reliability of the occupant’s
+estimation model, especially when occupants decided to go against following the designed fixed schedule.
+Dynamic predictive control, on the other hand, does not strictly rely on the occupants fixed schedule to manage home
+appliance. However, to improve the reliability of SHEMS in some cases, occupants schedule activities are considered in
+formulating learning model for occupants’ behaviours towards energy demand and usage.
+Dynamic predictive control implements sensors as source of generating occupants’ data for real time processing.
+Acoustic real-time processing in Huang et al. (2015) and Huang (2018) uses sound frequency received by sensors to
+control HVAC energy consumption. Camera-based real time image processing in Jung and Jazizadeh (2019) and Cao et al.
+(2018) proposed a similar approach using the Naive Bayesian algorithm that allows image pixels to be trained based on
+the desirable threshold predicted number of occupants in the space in order to control HVAC ventilation proportional to
+number of occupants in a space. Passive infrared using sensor fusion techniques were proposed in Roselyn et al. (2019)
+and Fayed et al. (2019) to keep track of occupants movement in the space to control occupants demand on HVAC and
+lighting to avoid excess energy consumption. Carbon Dioxide CO2 Sensors were used with K-Nearest Neighbour (O’Neill
+7
+
+--- PAGE 8 ---
+
+M.S. Aliero, K.N. Qureshi, M.F. Pasha et al.
+Environmental Technology & Innovation 22 (2021) 101443
+Table 1
+SHEMS literature review analysis.
+Reference
+Algorithm
+Intelligent
+level
+Data set
+Validation
+tool
+Appliance
+Controller
+Observation
+Gao et al.
+(2020)
+deep neural
+network
+Predictive
+control
+SGSingaporeAirp-486980
+TRNSYS
+Shiftable
+appliance
+Deep learning
+controller
+-Occupants detection ignored
+-Thermal comfort satisfaction
+ignored
+-scheduling control only feasible
+where demand for energy is
+shiftable
+Lissa et al.
+(2020)
+Markov game
+Predictive
+control
+Sensors data
+Prototype
+Shiftable
+appliance
+deep reinforcement
+learning controller
+-Occupants detection ignored
+-Thermal comfort satisfaction
+ignored
+Ding et al.
+(2019)
+Neural Network
+Predictive
+control
+Energy data
+from
+ThingSpeak
+EnergyPlus
+Shiftable and
+non shiftable
+appliance
+Reinforcement
+Learning controller
+-Occupants detection ignored
+-Thermal comfort satisfaction
+ignored
+Azuatalam
+et al. (2020)
+deep
+reinforcement
+learning
+Predictive
+control
+EnergyPlus
+Shiftable
+appliance
+Markov Decision
+controller
+-Occupants detection ignored
+-Thermal comfort satisfaction
+ignored
+-scheduling policy is required
+Zhang et al.
+(2019)
+reinforcement
+learning
+Predictive
+control
+EnergyPlus
+Shiftable
+appliance
+-Occupants detection ignored
+-Thermal comfort satisfaction
+ignored
+AlFaris et al.
+(2017)
+Hidden Markov
+Predictive
+control
+Questionnaire
+eQuest
+software
+Non-Shiftable
+appliance
+Vector support
+machine
+The solution requires extension
+to consider non-shiftable
+appliances like HVAC equipment
+Qurat ul
+et al. (2018)
+Fuzzy logic
+Predictive
+control
+Energy data
+Data from
+ThingSpeak
+Prototype
+development
+Shiftable
+appliance
+Fuzzy logic
+controller
+Occupants detection and
+machine learning controller
+should be considered to improve
+demand and utilization of energy
+control and management
+Khan et al.
+(2016)
+Binary control
+Predictive
+control
+Sensors
+Prototype
+development
+Shiftable
+appliance
+Binary/traditional
+controller
+Machine learning controller is
+required to maintain the life
+span of home appliance
+Personalize and collective
+thermal comfort ignored
+Ejaz et al.
+(2017)
+heuristic
+algorithm
+Predictive
+control
+Sensors data
+N/A
+Shiftable
+appliance
+Hidden Markov
+controller
+Improve the controller
+intelligence to featured
+non-shiftable appliances like
+HVAC.
+Arya et al.
+(2019)
+Fuzzy logic
+Predictive
+control
+ThingSpeak
+and Matlab
+data set
+Prototype
+development
+Shiftable
+appliance
+Binary/traditional
+controller
+To maintain life span of
+appliance binary control should
+replace. Occupants detection and
+thermal user comfort should also
+consider. It is important to
+control to keep record of data to
+public to access
+Asif et al.
+(2018)
+Strawberry
+algorithm
+Predictive
+control
+Market
+Clearing
+Price data
+set
+Matlab
+Shiftable
+appliance
+Binary/traditional
+controller
+-Occupants detection ignored
+-Thermal comfort satisfaction
+ignored
+-scheduling control only feasible
+where demand for energy is
+shiftable
+Filho et al.
+(2019)
+Binary
+Predictive
+control
+Data from
+Thinksspeak’’
+Prototype
+development
+Shiftable
+appliance
+Binary/traditional
+controller
+-Occupants detection ignored
+-Thermal comfort satisfaction
+ignored
+Becker et al.
+(2018)
+Hidden Markov
+Model
+Predictive
+control
+CER data set
+(Irish
+company)
+Simulation
+(eQuest
+software)
+Shiftable
+appliance
+Hidden Markov
+controller
+-Difficult to detect occupant in
+dark
+-Thermal comfort satisfaction
+ignored
+-Simulations are limited to only
+one type of HVAC
+Moreno et al.
+(2014c)
+Binary
+Predictive
+control
+Sensors data
+Prototype
+development
+Shiftable and
+non shiftable
+appliance
+Binary/traditional
+controller
+-Occupants detection ignored
+-Thermal comfort satisfaction
+ignored
+(continued on next page)
+et al., 2019; Wang et al., 2017; Zuraimi et al., 2017), deep reinforcement learning and Support Vector Machine (SVM) in
+Rathore et al. (2018), Yazici et al. (2018), Brundu et al. (2017), Oliveira et al. (2017), Meana-Llorián et al. (2017b) and
+8
+
+--- PAGE 9 ---
+
+M.S. Aliero, K.N. Qureshi, M.F. Pasha et al.
+Environmental Technology & Innovation 22 (2021) 101443
+Table 1 (continued).
+Reference
+Algorithm
+Intelligent
+level
+Data set
+Validation
+tool
+Appliance
+Controller
+Observation
+Al-Ali et al.
+(2017)
+Binary
+Predictive
+control
+Sensors data
+Prototype
+development
+Shiftable
+appliance
+Binary/traditional
+controller
+-Occupants detection ignored
+-Thermal comfort satisfaction
+ignored
+Liu et al.
+(2019)
+deep
+reinforcement
+learning
+Predictive
+control
+Sensors data
+N/A
+Shiftable
+appliance
+deep reinforcement
+learning controller
+-Occupants detection ignored
+-Thermal comfort satisfaction
+ignored
+Rathore
+et al. (2018)
+hyperellipsoidal
+model based
+algorithm
+Predictive
+control
+Sensors
+Prototype
+Shiftable
+appliance
+A Bayesian
+maximum entropy
+based controller
+-Occupants detection ignored
+-Thermal comfort satisfaction
+ignored
+Qurat ul
+et al. (2018)
+Genetic
+Algorithm
+Predictive
+control
+Sensors
+Matlab
+Shiftable
+appliance
+Fuzzy logic
+controller
+-Occupants detection ignored
+-Thermal comfort satisfaction
+ignored
+Yazici et al.
+(2018)
+Support Vector
+Machine
+Predictive
+control
+Sensors
+Matlab
+Shiftable
+appliance
+Random Forests
+-Occupants detection ignored
+-Thermal comfort satisfaction
+ignored
+Brundu et al.
+(2017)
+Fuzzy logic
+Predictive
+control
+Sensors
+Matlab
+Shiftable
+appliance
+Binary/traditional
+controller
+-Occupants detection ignored
+-Thermal comfort satisfaction
+ignored
+Oliveira et al.
+(2017)
+Fuzzy logic
+Predictive
+control
+Questionnaire an
+sensors
+Prototype
+development
+Low
+Binary/traditional
+controller
+- Occupants detection ignored
+-Thermal comfort satisfaction
+ignored
+Javaid et al. (2018) to predict the occupants number based on pollutants level in the room to control HVAC equipment to
+ensure the thermal comfort of occupants were not compromised.
+3. SHEMS literature quality assessment
+Current literature in the smart home energy management system uses different technique to handle lighting, HVAC,
+entertainment, kitchen, and other electric home appliance. These techniques are presented in Table 3. To evaluate the
+level of authors’ engagement with audience in order to assess the maturity of the existing proposals, quality evaluation
+criteria for presented in Table 2 were used for scoring the literature.
+The objective of quality assessment analysis is to identify the level of research engagement on the proposed primary
+objective to the research community. DARE scale presented in Table 2 was used in the assessment and scoring process,
+and the result of the assessment is summarized in Table 3.
+After assessing studies based on quality assessment criteria, it was shown that fifty (50) studies scored 4/4 rating,
+twenty-three (23) studies score 3.5 out of 4. Likewise, ten (10) score 3 out of 4, and ten (10) studies out of ninety-four
+(94) score value 2. One study is not relevant, scoring 0 out of 4.
+Studies that scored 4 are studies related to both the Internet of Things and energy saving in smart home and building
+that proposed novel solution together with experimental analysis and evaluation with particular metric or critically and
+analytically presented a compressive review of the proposed solution. Those that scored 3.5 lack intensive experimental
+analysis or proper method of evaluation. The majority of studies with 4 and 3.5 score fall within journal articles. Likewise,
+those with two (2) score presented only proof of concept without any further experimental analysis that does not fully
+employ the Internet of Things or energy-saving on smart home and building. The majority of these studies are conferences.
+In summary, the information in Table 3 reveals that the maximum number of related studies considered have satisfied
+quality assessment questions.
+4. Overview of smart home energy management market
+Today the world is in the era of information technology; transforming traditional homes into Smart homes filled with
+advanced smart networked-based electronic appliances (see Fig. 6). This innovation allows the resident to control several
+electrical appliances remotely in achieving a convenient living environment (Darianian and Michael, 2008).
+Current trends (Markets and Markets, 2020) show the smart home market rapidly gaining momentum with increased
+shipments of intelligent home electric appliances globally as a result of its affordability and security. With the current
+energy crisis and an increasing population, smart home has potential to assure quiet, clean, and comfortable environment
+with available energy supply. Studies show the adaptation of smart homes allows residents to purchase energy at a
+low price and to utilize it efficiently, thereby supporting its expansion to the global market. The global market reached
+$76.6 billion in 2018, and the growth is expected to increase by 28% in 2015. This rapid growth is influenced by crucial
+factors that include accessibility internet, widespread awareness of the benefit of smart home in ensuring a healthy and
+comfortable lifestyle environment, improved fitness, simplicity in remote home monitoring and energy efficiency offered.
+9
+
+--- PAGE 10 ---
+
+M.S. Aliero, K.N. Qureshi, M.F. Pasha et al.
+Environmental Technology & Innovation 22 (2021) 101443
+Table 2
+Quality assessment procedure.
+QA
+QA question
+Motivation
+Evaluation process using DARE
+Evolution assessment
+using DARE
+QA1
+Are the criteria for
+inclusion and
+exclusion well
+described and
+appropriately in
+review?
+The aim is to determine
+whether the inclusion criteria
+considered are
+clearly defined and discussed
+in the study, or partially
+implicit, or not defined and
+cannot be readily inferred.
+Y (yes) indicates inclusion criteria are
+clearly defined.
+P (partly) indicates partially defined.
+N (no) indicates not defined, and
+cannot be readily inferred.
+The following rating
+factor are assigned when
+answering QA1 question
+Y = 1
+P = 0.5
+N = 0
+QA2
+Does the domain
+search possibly
+cover all related
+work as a
+literature search
+carried out?
+Aim to determine
+whether four (4) or more
+digital libraries have
+been searched and
+some search strategy are
+added or all journals
+addressing the area
+considered are identified and
+referenced by authors
+Y(yes) indicates either four (4) or
+more digital libraries have been
+searched, and some search strategy
+are added or all journals addressing
+the area considered are identified
+and referenced by authors
+P (partially) indicate only three (3) or
+four (4) digital libraries have been
+searched with no addition of any
+search strategies or defined search
+used with restriction of set of
+journals and conference proceedings
+N (no) indicates the authors have
+searched up to 2 digital libraries or
+an extremely restricted set of
+journals.
+The following rating
+factor are assigned when
+answering QA2
+Y = 1
+P = 0.5
+N = 0
+QA3
+Has the quality
+and validity of
+included studies
+been assessed
+by the reviewers?
+The aim is to determine
+whether quality criteria
+considered are clearly defined
+and separated from the result.
+Y (yes)indicates Quality criteria
+considered are clearly defined and
+separated
+P (partially) indicates that the
+research question involves quality
+issues that are addressed by the
+study;
+N (no) indicates that quality
+assessment of first result was not
+clearly attempted.
+The following rating
+factor is assigned when
+answering QA3
+Y = 1
+P = 0.5
+N = 0
+QA4
+Does the information/studies of
+concern were
+described
+adequately?
+The aim is to determine the
+detail information presented in
+study
+Y (yes) indicates detailed Information
+about study is presented;
+P (partially) indicates summary
+information about first studies is
+presented;
+N (no) indicates no results of
+individual primary studies are
+specified
+The following rating
+factor are assigned when
+answering QA4
+Y = 1,
+P = 0.5
+N = 0
+A SHEMS can be divided into independent segments (see Fig. 6) serving its purpose (Markets and Markets, 2020) as
+described below:
+Smart life entertaining appliances: (Markets and Markets, 2020) the key-driven factors that boost the capacity of
+the smart home market include smart life entertainment appliances. The convenient sound and visual effect, as well as
+a remote controlling option offered by these appliances contribute to an increasing number of sales from $170 million
+to $ $225 billion and is expected to increase by 6.3% from 2019 to 2040. The report shows a larger rise in the share
+market for the home theatre control system in 2018 than ever before. The companies with the global market share in
+smart entertainment include LG Electronics Inc., Panasonic Corporation, Samsung Electronics Co. Ltd., Sony Corporation,
+and Mitsubishi Electric Corporation. These major market players adopt acquisition strategies that include partnership
+collaborations to maintain their position in the global market, and product launches to build trust and gain a worldwide
+reputation. In 2019, Samsung Electronics revealed that all 2018 and 2019 Samsung Smart TV models would enjoy features
+offered by Apple TV app launched in 2019 in more than 100 countries. With this, Samsung was able to build strong
+collaboration between Samsung and international investors.
+Challenge: The current smart entertainment appliances are not featured to perform proactive, intelligent communication towards the customers. Customers are restricted from getting basic knowledge of both real-time and historical energy
+data consumptions. Integrating proactive features in the upcoming appliances would attract both international and local
+investors, which help to boost the market share of the smart home in the global market.
+Smart lighting system (Markets and Markets, 2020): lighting accounts for large residential energy consumption;
+however, the current provision of energy-efficient connected lighting controls available in the market reveals the increase
+in demand for smart lighting system especially for upcoming smart city projects in developing economies. The current
+10
+
+--- PAGE 11 ---
+
+M.S. Aliero, K.N. Qureshi, M.F. Pasha et al.
+Environmental Technology & Innovation 22 (2021) 101443
+Table 3
+Quality evaluation using DARE scale.
+Author/year
+ID
+Type
+QA1
+QA2
+QA3
+QA4
+S-CATEGORY
+TOTAL
+Kitchenham et al. (2009)
+S1
+Journal
+0
+0
+0
+0
+Policy
+0
+Revel et al. (2015)
+S2
+Journal
+Y
+Y
+Y
+Y
+Algorithm
+4
+Shah and Mishra (2016)
+S3
+Conference
+Y
+Y
+P
+P
+Platform
+3
+Guo et al. (2016)
+S5
+Journal
+Y
+Y
+Y
+Y
+Architecture
+3.5
+Curi et al. (2017)
+S6
+Journal
+Y
+Y
+Y
+Y
+Algorithm
+4
+Hafeez et al. (2017)
+S7
+Journal
+Y
+Y
+Y
+Y
+Algorithm
+4
+Risteska Stojkoska et al. (2017)
+S8
+Journal
+Y
+Y
+Y
+Y
+Algorithm
+4
+Kontes et al. (2017)
+S9
+Journal
+Y
+Y
+Y
+P
+Review
+3.5
+Tsui and Chan (2012)
+S10
+Journal
+Y
+Y
+Y
+Y
+Model
+4S
+Pan et al. (2015)
+S11
+Journal
+Y
+Y
+Y
+P
+Model
+3.5
+Brundu et al. (2017)
+S12
+Journal
+Y
+Y
+Y
+P
+Framework
+3.5
+Feldmeier and Paradiso (2010)
+S13
+Journal
+Y
+Y
+Y
+P
+Algorithm
+3.5
+Tsai et al. (2016)
+S14
+Journal
+Y
+Y
+Y
+P
+Architecture
+3.5
+Khan et al. (2016)
+S15
+Journal
+Y
+Y
+Y
+P
+Platform
+4
+Serra et al. (2014)
+S16
+Journal
+Y
+Y
+Y
+Y
+Algorithm
+4
+Moreno et al. (2014b)
+S17
+Journal
+Y
+Y
+Y
+Y
+Architecture
+4
+Asif et al. (2018)
+S18
+Journal
+Y
+Y
+Y
+P
+Algorithm
+4
+Aswani et al. (2012)
+S19
+Journal
+Y
+Y
+Y
+Y
+Model
+4
+Bujdei and Moraru (2011)
+S20
+Conference
+Y
+Y
+Y
+P
+Model
+3.5
+Velusamy et al. (2013)
+S21
+Journal
+Y
+Y
+P
+P
+Model
+3
+Salamone et al. (2016a)
+S22
+Conference
+Y
+Y
+P
+P
+Model
+3
+Han et al. (2014)
+S23
+Journal
+Y
+Y
+Y
+P
+Architecture
+3.5
+Zeiler et al. (2013)
+S24
+Journal
+Y
+Y
+Y
+Y
+Review
+4
+Barata and Silva (2013)
+S25
+Journal
+Y
+Y
+Y
+Y
+Model
+4
+Kumar (2014)
+S26
+Journal
+Y
+Y
+Y
+P
+Platform
+3.5
+Gateau and Rykowski (2015)
+S27
+Conference
+Y
+Y
+Y
+Y
+Architecture
+3.5
+Bari et al. (2015)
+S28
+Journal
+Y
+Y
+P
+P
+N/A
+3
+Sehar et al. (2017)
+S29
+Journal
+Y
+Y
+Y
+Y
+Algorithm
+4
+Moreno et al. (2014c)
+S30
+Journal
+Y
+Y
+Y
+Y
+Algorithm
+4
+Uribe et al. (2015)
+S31
+Journal
+Y
+Y
+Y
+Y
+Architecture
+4
+Salamone et al. (2016b)
+S32
+Journal
+Y
+Y
+Y
+Y
+Platform
+4
+Salamone et al. (2017b)
+S33
+Journal
+Y
+Y
+Y
+P
+Platform
+3.5
+Salamone et al. (2017a)
+S34
+Journal
+P
+P
+P
+P
+Platform
+3
+Robles and Kim (2010)
+S35
+Journal
+Y
+Y
+Y
+P
+Review
+3.5
+Fischer and Madani (2017)
+S36
+Journal
+Y
+Y
+Y
+Y
+Review
+4
+Darby (2017)
+S37
+Journal
+Y
+Y
+Y
+P
+Review
+3.5
+Thomas et al. (2013)
+S38
+Journal
+Y
+Y
+Y
+P
+Review
+3.5
+Piyare and Lee (2013)
+S39
+Conference
+Y
+Y
+P
+P
+Architecture
+3
+Baig et al. (2013)
+S40
+Journal
+Y
+Y
+P
+P
+Platform
+3
+Rabbani and Keshav (2016)
+S41
+Journal
+Y
+Y
+Y
+Y
+Algorithm
+4
+Zheng et al. (2013)
+S42
+Journal
+Y
+Y
+P
+P
+Review
+3
+Yamauchi et al. (2015)
+S43
+Journal
+Y
+Y
+P
+P
+Platform
+3
+Moreno et al. (2014d)
+S44
+Journal
+Y
+Y
+Y
+Y
+Model
+4
+Javed et al. (2017)
+S45
+Journal
+Y
+Y
+Y
+Y
+Platform
+4
+Luo et al. (2016)
+S46
+Journal
+Y
+Y
+Y
+Y
+Model
+4
+Chen et al. (2013b)
+S47
+Journal
+Y
+Y
+Y
+P
+Algorithm
+3.5
+Kim et al. (2015)
+S48
+Conference
+P
+P
+P
+P
+Model
+2
+Drungilas and Bielskis (2012)
+S49
+Journal
+P
+P
+Y
+Y
+Algorithm
+3
+Meana-Llorián et al. (2017a)
+S50
+Journal
+Y
+Y
+Y
+Y
+Algorithm
+4
+Walker et al. (2016)
+S51
+Journal
+Y
+Y
+Y
+Y
+Review
+4
+Chen et al. (2013a)
+S52
+Journal
+Y
+Y
+P
+P
+Platform
+3
+Ciabattoni et al. (2016)
+S53
+Conference
+Y
+Y
+P
+P
+Platform
+3
+Han et al. (2011)
+S54
+Journal
+Y
+Y
+Y
+Y
+Architecture
+4
+Rehman et al. (2018)
+S55
+Journal
+Y
+Y
+Y
+Y
+Algorithm
+4
+Patti et al. (2013)
+S56
+Journal
+Y
+Y
+Y
+Y
+Infrastructure
+4
+Talari et al. (2017)
+S57
+Journal
+Y
+Y
+Y
+Y
+Review
+4
+Jahn et al. (2010)
+S58
+Journal
+Y
+Y
+Y
+Y
+Platform
+4
+Pan et al. (2012)
+S59
+Journal
+Y
+Y
+Y
+P
+Review
+3.5
+Tereshchenko and Nord (2018)
+S60
+Journal
+Y
+N
+P
+P
+Framework
+2
+Giuseppina and Salvatore (2015)
+S61
+Journal
+Y
+Y
+Y
+P
+Review
+3.5
+Haider et al. (2016)
+S62
+Journal
+Y
+Y
+Y
+Y
+Review
+4Hang-yat and Wang (2013)
+S63
+Journal
+Y
+Y
+Y
+Y
+Platform
+4
+Harfield and Rattanongphisat (2017)
+S64
+Journal
+Y
+Y
+Y
+P
+Framework
+3.5
+Hargreaves et al. (2015)
+S65
+Journal
+Y
+Y
+Y
+P
+Review
+3.5
+Manic et al. (2016)
+S66
+Journal
+Y
+Y
+Y
+Y
+Review
+4
+(continued on next page)
+11
+
+--- PAGE 12 ---
+
+M.S. Aliero, K.N. Qureshi, M.F. Pasha et al.
+Environmental Technology & Innovation 22 (2021) 101443
+Table 3 (continued).
+Author/year
+ID
+Type
+QA1
+QA2
+QA3
+QA4
+S-CATEGORY
+TOTAL
+Altayeva et al. (2016)
+S67
+Journal
+Y
+Y
+Y
+Y
+Review
+4
+Lockton et al. (2013)
+S68
+Journal
+P
+P
+P
+P
+Review
+2
+Kumar (2014)
+S69
+Journal
+Y
+Y
+P
+N
+Platform
+2
+Mansur et al. (2014)
+S70
+Journal
+Y
+Y
+Y
+P
+Algorithm
+3.5
+Langevin et al. (2013)
+S71
+Journal
+Y
+Y
+Y
+P
+Review
+3.5
+Meinke et al. (2016)
+S72
+Journal
+Y
+Y
+Y
+P
+Review
+3.5
+Moreno et al. (2014a)
+S73
+Journal
+Y
+Y
+Y
+P
+Model
+3.5
+Kathiravelu et al. (2015)
+S74
+Journal
+Y
+Y
+Y
+Y
+Architecture
+4
+Alan et al. (2016)
+S75
+Journal
+Y
+Y
+Y
+P
+Algorithm
+3.5
+Zhu et al. (2015)
+S76
+Journal
+Y
+Y
+Y
+P
+Review
+3.5
+Tila and Kim (2015)
+S77
+Journal
+Y
+Y
+Y
+P
+Algorithm
+3.5
+Pritoni et al. (2017)
+S78
+Journal
+Y
+Y
+Y
+Y
+Review
+4
+Huang et al. (2015)
+S79
+Journal
+Y
+Y
+Y
+Y
+Algorithm
+4
+Brager et al. (2015)
+S80
+Journal
+Y
+Y
+Y
+Y
+Review
+4
+Peffer et al. (2016)
+S81
+Journal
+Y
+Y
+Y
+P
+Review
+3.5
+Rostampour and Keviczky (2018)
+S82
+Journal
+Y
+Y
+Y
+P
+Framework
+3.5
+Royapoor and Roskilly (2015)
+S83
+Journal
+Y
+Y
+Y
+Y
+Model
+4
+Michailidis et al. (2018)
+S84
+Journal
+Y
+Y
+Y
+P
+Algorithm
+3.5
+Wei et al. (2018)
+S85
+Journal
+P
+P
+P
+P
+Review
+2
+Wei et al. (2018)
+S86
+Journal
+Y
+Y
+Y
+Y
+Algorithm
+4
+Jia et al. (2018)
+S87
+Journal
+Y
+Y
+Y
+Y
+Review
+4
+Park and Rhee (2018)
+S88
+Journal
+Y
+Y
+Y
+Y
+Review
+4
+AlFaris et al. (2017)
+S89
+Journal
+Y
+Y
+Y
+Y
+Algorithm
+4
+Singh et al. (2017)
+S90
+Journal
+Y
+Y
+Y
+Y
+Algorithm
+4
+Matsui (2018)
+S91
+Journal
+Y
+Y
+P
+P
+Review
+4
+Ejaz et al. (2017)
+S92
+Journal
+Y
+Y
+Y
+P
+Algorithm
+3.5
+Shakeri et al. (2017)
+S93
+Journal
+Y
+Y
+Y
+Y
+Algorithm
+4
+Lu et al. (2017)
+S94
+Journal
+Y
+Y
+P
+P
+Algorithm
+3
+Chellamani and Chandramani (2020)
+S95
+Journal
+Y
+Y
+Y
+Y
+Algorithm
+4
+Samadi et al. (2020)
+S96
+Journal
+Y
+Y
+Y
+Y
+Algorithm
+4
+Li et al. (2020)
+S98
+Journal
+Y
+Y
+Y
+P
+Framework
+3.5
+Hakimi and Hasankhani (2020)
+S99
+Journal
+Y
+Y
+Y
+Y
+Algorithm
+4
+Kerboua et al. (2020)
+S100
+Journal
+Y
+Y
+Y
+Y
+Algorithm
+4
+Chamandoust et al. (2020)
+S101
+Journal
+Y
+Y
+P
+P
+Infrastructure
+3
+Choo et al. (2018)
+S102
+Conference
+Y
+Y
+P
+P
+Architecture
+3
+Qurat ul et al. (2018)
+S103
+Journal
+Y
+Y
+Y
+Y
+Infrastructure
+4
+Ullah et al. (2020b)
+S104
+Journal
+Y
+Y
+Y
+Y
+Architecture
+4
+Hassan et al. (2013)
+S105
+Journal
+Y
+Y
+Y
+Y
+Framework
+4
+Hussain et al. (2018)
+S106
+Journal
+Y
+Y
+Y
+Y
+Algorithm
+4
+Nadeem et al. (2018)
+S107
+Journal
+Y
+Y
+Y
+Y
+Algorithm
+4
+Javaid et al. (2018)
+S108
+Journal
+Y
+Y
+Y
+Y
+Algorithm
+4
+de Castro Tomé et al. (2020)
+S109
+Journal
+Y
+Y
+Y
+Y
+Framework
+4
+Filho et al. (2019)
+S110
+Journal
+Y
+Y
+P
+P
+Algorithm
+3
+Jamaludin et al. (2013)
+S111
+Journal
+Y
+Y
+Y
+Y
+Model
+4
+Rodriguez et al. (2019)
+S112
+Journal
+Y
+Y
+Y
+Y
+Algorithm
+4
+Khemakhem et al. (2020)
+S113
+Journal
+Y
+Y
+Y
+Y
+Algorithm
+4
+Pawar et al. (2020)
+S114
+Journal
+Y
+Y
+Y
+Y
+Algorithm
+4
+Ejaz et al. (2017)
+S115
+Journal
+Y
+Y
+Y
+Y
+Algorithm
+4
+Arya et al. (2019)
+S116
+Journal
+Y
+Y
+Y
+Y
+Algorithm
+4
+Becker et al. (2018)
+S117
+Journal
+Y
+Y
+Y
+Y
+Model
+4
+Al-Ali et al. (2017)
+S118
+Journal
+Y
+Y
+P
+P
+Algorithm
+3
+Liu et al. (2019)
+S119
+Journal
+Y
+Y
+Y
+Y
+Algorithm
+4
+Jo and Yoon (2018)
+S120
+Journal
+Y
+Y
+Y
+Y
+Infrastructure
+4
+Arya et al. (2019)
+S121
+Journal
+Y
+Y
+Y
+Y
+Architecture
+4
+Yuliansyah et al. (2019)
+S122
+Conference
+Y
+Y
+Y
+Y
+Infrastructure
+3
+Chandramohan et al. (2017)
+S123
+Journal
+Y
+Y
+Y
+Y
+Algorithm
+4
+market stability has given the home resident the opportunity to plug smart LEDs together with modernized light
+infrastructure to minimize energy cost and consumption. Today the smart lighting system growth has reached over $20
+billion and is estimated to reach $40 billion by 2024. Some of the industries with the highest smart lighting system
+include Signify Holding (Netherlands), Legrand SA (France) Eaton Corporation (Ireland), General Electric Company (US),
+and OSRAM Licht AG (Germany). These industries strive to make smart lighting systems are, investing in a greater share
+of smart lighting control-related system through adapting acquisition strategy. In 2019, the majority of these industries
+acquired technology developers of the Wiz Wi-Fi lighting control system. This helps to expand the leadership position
+and maintain the position in competition with the regional supplier and control the lighting ecosystem price.
+Challenge: smart lighting control is one of the fastest growing segments in the smart home market due to rising demand
+in automated street lighting, LED occupant lighting systems in developed and Asian Pacific countries. One of the major
+12
+
+--- PAGE 13 ---
+
+M.S. Aliero, K.N. Qureshi, M.F. Pasha et al.
+Environmental Technology & Innovation 22 (2021) 101443
+Fig. 6. SHEMS segments.
+challenges faced by the smart lighting segment is the compatibility issue. The report showed that in 2018, end-users have
+experienced connectivity issues while connecting their appliance with Google Wi-Fi setup, and it seems the company is
+aware of the challenge. To survive the market competition, the smart lighting system has to overcome interoperability
+and allow connectivity issues across a wide range of technologies.
+Integration of smart lighting with other lighting systems into smart cities such as parking-lot lights, traffic lights,
+pollution detection sensors, and energy metres is a logical approach to boost the smart lighting share in the market.
+However, current products available in the market offer only a few devices and accessories to be integrated, which poses
+a more significant threat to the development of future smart cities. Furthermore, with increased magnitude in voice
+controlling research, the industry could consider voice control lighting system development solutions together with other
+innovative lighting applications such as horticulture, speciality, solar, and human-centric lighting. Another opportunity is
+the integration of LED wireless-based technology into an automobile. This could serve as a significant advancement for a
+luxury car to be incorporated with smart lighting.
+Smart Access Control: Conventional access cards remain the biggest player in the market. However, today many
+industries have focused on smart application Bluetooth based technology to offer residents remote access control over
+secured elevators, doors, and turnstiles (Markets and Markets, 2020). This innovative technology has the potential
+to revolutionize the digital security market industry eliminating the burden of security access card management and
+maintenance through the provision of smart access security control via mobile application. Lack of security standard and
+security architecture requirements to suit current smart devices is one key factor that is slowing the market of smart access
+control. Even though the smart access control market is still young, recently, the market observed increased demand in
+smart locks and smart cameras to record and monitor both customer and employee activities. According to the recent
+forecast on the global crime rate, the estimated market growth is expected to rise from $7.5 billion to $12 billion by
+2025. Reliability and affordability of smart access control over traditional proximity and magnetic stripe cards are key
+driving factors bringing a new investor on board. The key market player of smart access control includes ASSA ABLOY
+AB (Sweden), Johnson Controls International Plc (Ireland), Dormakaba Holding AG (Switzerland), Allegion Plc (Ireland),
+Honeywell Security Group (US), Identiv, Inc. (US), Nedap N.V. (Netherlands), Suprema HQ Inc. (South Korea). These market
+players use product acquisitions, partnerships, and product launches as competition strategies to keep and bring new
+foreign and local investors to the market.
+Challenge: Although research on IoT in academia and industries is still in its infancy, most of the current access control
+provides authentication and validation of resident identity without securing end-to-end communication broadcasting
+resident credentials, among other smart home appliances. Therefore, there is a need for an upgrade on current smart
+access control to ensure end-to-end security encryption solution to achieve an adequate level of security for the user
+credentials.
+Smart HVAC (Markets and Markets, 2020): is one of the advanced achievements in smart aimed at providing thermal
+comfort satisfaction to the resident as well as purchasing energy at a low price and avoid unnecessary energy consumption.
+Today different smart thermos, including occupants’ detection, sensors, light, and thermal-based control are available at
+the global market to ensure stakeholders achieve substantial energy saving and help to obtain real-time information on
+energy consumption. Recently there is the increased deployment of a smart HVAC platform equipped with sensors that
+offered remote sensing to regulate the thermostat. This remote sensing application can be configured to monitor and
+manage room temperature, humidity, and refrigerator. The global market for HVAC control accounted for $14 billion in
+2018 and is estimated to reach $27 billion by 2023. The major driving factor for share growth is the ongoing demand for
+13
+
+--- PAGE 14 ---
+
+M.S. Aliero, K.N. Qureshi, M.F. Pasha et al.
+Environmental Technology & Innovation 22 (2021) 101443
+building automation and the efficiency of the products. The major market player for smart HVAC control includes Jonson
+(US), Siemens (Germany) and Honeywell (US).
+Challenge: Researchers in Serra et al. (2014) have shown concern regarding practice employed to regulate smart HVAC
+thermostat, which has been proven to reduce the life span of smart home energy products. For example, the current
+method for handling temperature control is mainly based on the classical binary approach, which tends to cause frequent
+OFF and ON of the appliance when the desire value set is not stable, especially in the afternoon period, which in turn
+tends to reduce their lifespan. An alternate method should be considered, such as a fuzzy control algorithm that would
+help to regulate temperature efficiently even in a situation where the temperature in the room is not stable.
+Another challenge is maintaining thermal satisfaction of resident, which is a significant factor that influences the
+market of smart HVAC system for healthy living and higher productivities at the workplace. Future designs for smart HVAC
+systems should feature a technique that manages and maintains the thermal comfort satisfaction level of the resident to
+avoid health challenges.
+The Smart Healthcare System: is one of the important IoT technologies that exist today. The technology allows a
+doctor to treat and care for the patient at home. There is a wide range of applications in the market that enable doctors
+to examine the health status of the patient at home, such as potential heart attack, drug usage, the blood pressure level
+of the patient. Other advancements include mechanical applications such as a smart robot, the ambient assistant agent
+should be a research focal point that would assisting treating viral disease remotely without the risk of being infected.
+Recently, the University of Tsinghua China developed an automated robot (Gangtie, 2020) to reduce the spread of Corona
+virus among the citizens of China. The robot can determine the potential victim, deliver food and water to quarantine
+patients, provide oral treatment. This is one of the major factors that the Chinese government has adopted to reduce the
+spread of Corona virus to medical personal.
+Today there is increased demand for smart mechanical healthcare assistant agents to monitor and assist patients
+suffering from diabetes, heart ailments, asthma, and joint pain. The global market for smart healthcare system already hit
+$6 billion and forecast to reach $30 billion by 2026. The major key players in this sector include Health Care Originals,
+Apple, Google, and Medical Guardian LLC.
+Challenge: The smart healthcare industry is one of the fastest-growing segments in the smart home market today. This
+is driven by improving ease of access to healthcare application cost. However, with the current increase in the world
+population, the outbreak of viral disease and an increasing number of older people requires an ambient assistant. There is
+a need to increase the number of innovative applications to provide autonomous assistant to treat the patient and assist
+older people.
+Current smart healthcare applications require integration of many technologies to connect patient with doctors, and
+on many occasions, these applications face interoperability challenges. Researchers in academia and industries must focus
+on developing cross-platform layers that address interoperability issues in smart healthcare applications.
+Privacy has a long history in the smart healthcare system and has become a bottleneck for global acceptance of this
+advancement to society. A smart healthcare system usually communicates and shares data among various platforms and
+technologies to establish mutual communication between doctor and patient.
+Recent studies show patient data are being shared with the public domain for research and analytic purpose without
+other technologies of concealment of patient privacy. This practice poses threat to patient privacy, and it is necessary
+to integrate techniques for privacy-preserving in the future smart healthcare system for the broad acceptance of this
+innovation into society. Imaging smart security in healthcare applications is essential for today’s era of the connected
+world accessible by a different type of criminals with different intentions (Aliero et al., 2019): imaging hijacking,
+disruption, interception of healthcare application in the middle of the operating theatre by cybercriminals.
+A recent study shows smart healthcare system has become a prime target of worldwide cyber-attack in recent years.
+These applications are designed without security considerations. Therefore, smart healthcare research must focus on
+modelling classes of advanced traditional security mechanisms to suit smart healthcare applications and integrate them
+in the next generation of smart healthcare applications to avoid cyber murder.
+Smart kitchen (Markets and Markets, 2020): uses different sensors designed to provide comfortable and convenient
+kitchen activities. These appliances are well equipped with wireless and Bluetooth based connectivity features to provide
+communication with other smart house appliances such as tablets and other remote handheld appliances. Today, academia
+and industries are focusing on smart kitchen integration and other start-up products with several smart kitchen appliances
+available in the market equipped with sensors for easy operation and to help residents regulate kitchen activities remotely.
+Smart kitchen appliances are energy efficient compared to conventional kitchen appliances, which is expected to raise
+their demand in the market in coming years. The global market growth for the smart kitchen has already reached $2.7
+million and expected to reach $8.5 million by 2027. The major participants in the market include LG (US) and Tovala.
+Challenge: Whenever we talk about the smart kitchen, everyone will think of a phenomenon where you have kitchen
+system control by artificial intelligence to prepare a favourite resident meal. A number of smart kitchen appliances
+available at the market today are handy. With today’s reliance on technology, it is a big opportunity for smart kitchen
+industries to consider a more sophisticated smart kitchen that would adapt to a favourite resident meal based on resident
+historical data for more straightforward preparations. Featuring the next smart kitchen generation with the ability to
+recognize your favourite meal, order recipe and ingredient and cooked resident favourite food will the game-changer in
+the smart home market.
+14
+
+--- PAGE 15 ---
+
+M.S. Aliero, K.N. Qureshi, M.F. Pasha et al.
+Environmental Technology & Innovation 22 (2021) 101443
+Smart Furniture (Markets and Markets, 2020): is the segment of smart home solutions that monitor residents
+surrounding information to ensure comfort satisfaction and integrated functionality. An increase in individual income
+and the nation’s economy is a key factor influencing individual lifestyle change. The technology mainly monitors resident
+fitness such as bedtime, nutrition, hygiene, and total burned calories. Additionally, smart furniture has features that
+provide wireless charging to smartphones and Bluetooth speakers. Recently it was announced the upcoming smart
+furniture would feature technology that monitors employee work productivities, the status of the closet, and alarm for
+the messy environment. The global market for smart furniture has reached $174 million and estimated to hit $795 million
+by 2026. The market players in smart furniture include Smart Living LLC, Ori Systems, and Ikea Group.
+Challenge: The current smart Furniture available in the market can monitor the status activity style of the resident
+within the surrounding which includes standing, seating, sleeping and eating, and this information is being shared among
+other smart home appliances such as smart home metre autonomously without any authentication mechanism. This
+practice also can introduce a privacy challenge that can lead to theft or committing a high-level crime since criminals
+can manage to gain access to smart furniture and deduce the time the resident is at sleep or not present at home. The
+industries should consider advanced security mechanisms in future smart furniture to ensure proper identification before
+the establishment of communication between smart home and outsider.
+4.1. SHEMS products
+A smart home energy management system is the platform that handles mutual communication between energy
+providers and consumers as well as manages energy consumption by smart home appliances. The platform provides
+functions such as checking the energy purchase price, energy purchase, managing appliance energy demand, and
+eliminating excess energy usage. There is ongoing research on smart home energy management systems in both academia
+and industries. This section study described the top 10 smart home energy management systems available (IoTLineup,
+2020) in the market.
+Philips Hue-Hue Go: is the smart light control emitting different exiting colours of light. The Hue lighting system is
+not bright enough to replace the lamp that lights up the room and does not work without Hue Bridge, which the resident
+has to acquire separately as standalone or purchase Hue kit. The platform has a mobile application that can be used by
+the resident to control the light remotely. Amazon Echo is technology implementing a similar approach with Hue Goand
+can recognize Hue light build; however, the Hue Go does not support Amazon Echo.
+Smart Nest thermostat: is one of the smart home energy management systems you can find in the market that can
+learn from resident energy patterns used and adapt to it autonomously without having to specify it. The device allows the
+resident to view historical energy consumption and manage connected smart home appliances remotely via the internet.
+Current Smart Nest Thermostat in the market does not have the feature to predict the time or best time for energy
+purchase so that the shift able appliances need to be scheduled ahead for cheaper energy consumption rates.
+Logitech POP smart button provide a resident with three gestures to perform different functions and come with
+colourful light similar to Hue-Hue Go. POP allows a resident to connect and manage other smart home appliances such
+as door lock, HVAC system with a simple push-button. Additionally, the device offers the resident the sleep mode option
+that automatically adjusts the room temperature and turns off the home lights with the press of a button. To boost the
+market opportunity of the POP, smart button should feature techniques that can establish communication with other
+smart furniture to learn the sleep schedule of the resident so that everything goes automatically without having to touch
+sleep mode.
+Norm Smart Thermostat: Isa smart home energy management device that connects with the HVAC system via Wi-Fi
+to allow a resident to manage room temperature. It has a feature that can learn from resident thermal satisfaction, such as
+cooling and heating preferences, and automatically adjust it for residents before arriving at home. Even though the device
+cannot connect and manage other smart home appliances, it is one of the best smart devices in the market to ensure
+the thermal satisfaction of the resident. One of the glitches observed by customer review is that Norm Smart Thermostat
+does not give accurate temperature reading. Still, the resident can alternatively use Wink mobile application or Wink
+wall-mounted relay to view and adjust the temperature of the room with additional expenses.
+Honeywell smart home thermostat and Norm smart home thermostat implement a similar approach in terms of
+functionality. Additionally, Norm allows the resident to connect and manage lighting systems on mobile applications,
+schedule energy utilization among devices, and provide a resident with energy-saving mode. Unlike Norm, Honeywell
+delivers an accurate reading on the touch screen and allows the resident to check outside temperature.
+Ambi Climate: is a smart temperature controller that replaces Air-condition infrared remote control with something
+more intelligent. The technology allows a resident to sync Air-condition with mobile application giving full control access
+to manage and monitor room temperature anywhere. The device offers an additional feature to ensure comfort satisfaction
+of residents by continues monitoring of resident preference to the precise temperature set point on the cloud for the
+future prediction. Ambi Climate ensures resident thermal comfort satisfaction by considering indoor temperature, outside
+temperature, and resident historical data from cloud to set his temperature set point automatically tailored to his comfort
+satisfaction, which helps to save more energy than a traditional approach. Looking deeper into this practice, we can realize
+the device will face a challenge to balance the thermal comfort satisfaction for more than three residents of different
+thermal comfort preferences.
+15
+
+--- PAGE 16 ---
+
+M.S. Aliero, K.N. Qureshi, M.F. Pasha et al.
+Environmental Technology & Innovation 22 (2021) 101443
+ZEN Thermostat: is a smart home energy management device that uses a programmable thermostat to regulate the
+HVAC system and maintain resident thermal satisfaction and avoid excess energy usage. ZEN features scheduling options
+based on resident preferences to use energy such as time to leave and arrive at home. This enables the device to easily
+develop a resident profile for better energy utilization. For example, ZEN reduces energy consumption by the HVAC
+system through the use of low-temperature minutes before the resident arrives at home, which is more energy-efficient
+to stabilize the room with comfort temperature than starting with high temperature on the arrival of resident at home.
+Keen Home: is SHEMS that offers ventilation regulation and is efficient in place that is not frequently used in the house.
+The device is very easy to be installed on the wall to regulate the room temperature by creating zone within the house such
+as Bedroom, Dining, or kitchen instead of cooling or heating the whole house to avoid the challenge of some rooms being
+too hot or too cold. It allows the resident to schedule the operation and also have mobile control capability anywhere.
+The idea behind this is to have personalized particular room temperature within the house, especially in summer, when
+individual rooms tend to be hotter; Keen can direct cold to it or allow you to divert warm air away.
+Foobot: is another type of smart home device rather than smart home energy management devices that can be placed
+in the room to monitor the air quality. It keeps the resident up to date about temperature and humidity values and sends
+an alarm whenever the air quality level is not healthy. There is a variety of diseases that infect home residents are a
+result of bad air quality. This health concern includes dementia, cerebrospinal meningitis, among other diseases mostly
+caused by bacteria Neisseria meningitides covering the brain and spinal cord, which results in a stiff neck, high fever,
+rash, severe headache, vomiting, and confusion. The device can also detect air pollutants such as carbon dioxide and
+other volatile organic compounds that can endanger the life of residents even at low concentrations.
+5. Research opportunity
+Improve occupants’ thermal comfort through smart sensing and intelligent control: The thermal comfort satisfaction
+of occupants is one of the primary goals of the SHEMS. However, recent researches are constantly and extensively
+focusing towards energy saving without much given emphasis on occupant’s thermal comfort. Current Smart home
+sensing technologies are seeking for new intelligent learning algorithms to promote HVAC occupants responsive research
+under various active states on occupant’s skin temperature utilizing the wearable device and contactless sensing to infer
+personalized and adaptive thermal comfort.
+Improve occupants’ thermal comfort through building design: improving the current building envelop (basement
+wall, sidewall, slab) through the accounting of energy efficiency in the building design to eliminate the issue of heat loss
+resulting in excess heating or heat gain, which results in excess cooling. Efficient quality insulation on the attic, walls,
+doors, and windows should be accounted similar to having efficient heating and cooling equipment to reduce follow of
+heat into the room as well as keep the indoor cold from seeping outside, is one of the logical ways to cut unnecessary
+heating or cooling. Similarly, careful positioning of the HVAC equipment and other optical factors influencing how thermal
+radiation of the building are key factors to consider to achieve thermal energy-efficient home.
+Standard pricing scheme: Another research opportunity in the smart home energy management system is the
+introduction of an energy pricing scheme based on energy demand from customers and the ability of distribution centres
+to satisfy their order to reduce irregularity in energy consumption bills. The current smart home energy management
+system cannot provide actual pricing for energy for a day or a specific time interval, even with communication with
+energy providers ahead of energy usage. This is one of the factors that drive high energy costs, especially at an event of
+peak demand from customers.
+To handle this, it is essential that energy providers should make historical energy consumption data available to an
+energy control system to ease development of price estimation of the model based on assumption using dependent
+variables such as meteorological data that can be used to predict the level of energy demand and previous pricing scheme
+patterns. Presenting the estimated pricing will help the resident to make a decision on scheduling time to use energy at
+a low cost rate for shift able appliances. For example, pumping water on storage tanker can be scheduled at any time in
+a day as long as storage is not empty, heating water storage for future use such as bathing, kitchen purpose or any other
+relevant heating or cooling can be scheduled when the cost of energy is at low price which will help save money in the
+long run.
+Lighting system: Research has made a tremendous contribution in the lighting system to ensure feasible and efficient
+energy consumption which include smart lighting technology improved lumen, dimmers, and LEDs. However, today,
+lighting system is one of contributing factors that account for excess energy consumption as a result of poor lighting
+control management practice and bad building design. One way to reduce energy consumption in a lighting system is
+to consider an ideal approach that allows optical lighting parameters to be managed independently. Similarly, window
+insulation and position should be considered to achieve efficient transparency to the sun in such a way that it can absorb
+brightness into the room without threatening the skin or damage to materials. Placing daylight sensors and motion
+detection sensor lights on less frequent use areas will reduce unnecessary lighting. Good window insulation and right
+skylight positioning combined with dimmers will help to cut energy consumption by an average of 40%.
+Security: Security has been a real issue since the inception of smart home, particularly on ensuring availability and
+secure communication of smart home appliances. Today smart home energy management systems are among the top
+target interest by cybercriminals which shows the rapid increase of attack threats and vectors ranging from denial of
+16
+
+--- PAGE 17 ---
+
+M.S. Aliero, K.N. Qureshi, M.F. Pasha et al.
+Environmental Technology & Innovation 22 (2021) 101443
+service to breach of confidentiality and integrity of the resident personal information due to lack of adequate level
+implementation of security mechanisms and infrastructure to ensure an end to end communication between smart home
+energy management appliances (Qureshi et al., 2017).
+The dimension of new vulnerabilities and attack-vectors are likely to increase in the future as a result of the ongoing
+deployment of smart home energy management system without accounting for security requirements. A few security
+schemes lack universality and are usually applied to secure special communication or applications domain. To ensure
+global acceptance of smart home energy management system products, industries have to ensure smart home devices
+are secure against any form of attack that security breaches are immediately reported upon detection. The primary way
+to manage this problem is through research funding and collaboration among researchers in academia and industries.
+Privacy: Another challenge is privacy; for example, smart metre connected with smart appliance responsible for
+tracking resident behaviour patterns, vital body signs such blood pressure, heart rate, body temperature, drug overdose,
+muscle strength, sleeping hours, medical prescription. It is essential to know this information is dynamically processed
+in real-time and shared with energy providers and other relevant service providers or in the cloud for data analytic.
+Current practice exposed notable resident personal data directly without preserving its privacy. This became particularly
+dangerous when occupants’ activities or medical status can be personally identified by cybercriminals or unintended
+individuals as it poses threat to resident personal privacy (Aliero et al., 2020; Babar et al., 2018; Bai et al., 2019; Kong
+et al., 2020; Qureshi et al., 2020e; Chehri and Jeon, 2018; Iqbal et al., 0000; Slalmi et al., 2019).
+Scalability: scalability is a major factor that ensures the universal expansion of the smart home energy management
+system. Today there is a high demand for smart energy management system infrastructure that can accumulate newly
+added smart appliances for better energy management operation. Current lighting technology in the market has a limited
+number of lighting bulbs and accessories they can accommodate at a time, for example, replacing traditional lighting
+within the building that is not often used. For instance, bathroom, kitchen hallway, garage, and store with motion sensor
+lights, while two other spots, such as living room and bedroom can be equipped with dimmer lights in order efficiently
+use energy, thereby cutting the energy consumption bill.
+Imaging using a single Hue goes for this type of configuration as it can only handle 50 lights and 12 dimmers or
+motion sensors. Fixing five sensor switches in the first configuration take 47% of the Hue Go hub capacity, setting six
+dimmers, three in living room and three in the bedroom; will take 96% of capacity, which makes it impossible to add
+other accessories in the future. What if the resident suddenly has to deal with three bedrooms, entrance, and backdoors
+with motion sensors? This is why scalability matters in the development of a smart home energy management system
+to reduce the technical and management operation of the smart home lighting system.
+Interoperability: Current smart home energy management systems provide a resident with limited functionalities; for
+example, smart light system cannot communicate with the HVAC system or smart access control to ensure the security
+of resident. This implies that residents that are away from home would not be able to know the status of home security
+through the smart lighting system. The smart home is an environment that brought together a number of smart appliances
+of different manufacturers without sharing mutual standard communication protocols.
+The interoperability issue is one of the obstacles that hinder the rapid growth and development of complex smart
+home energy management systems with broader functionalities. The issue can be expressed as a language barrier among
+smart home appliances. For example, communication between lighting system and HVAC system requires language
+understanding, and image lighting system speak only designated language by its manufacturer. HVAC system also
+understands only its own language designated by a different manufacturer so in this case, it would be difficult for these
+appliances to communicate with each other without a common language. This is a very challenging factor that needs to
+be resolved to ensure the expansion of smart home energy management systems with wider functionalities; otherwise,
+the future growth of the smart energy management system will collapse and be compromised.
+However, there are some initiative projects and proposals aimed ate common understanding among participating smart
+appliances in smart home environments, and these initiatives include IEEE P2413, ZigBee Alliance, X10, and Z-Wave. This
+shows providing standardize unified architecture models suitable to support interoperability among a diversity of smart
+appliances regardless of their specification or manufacturers will promote universal growth for future smart home energy
+management systems.
+6. Conclusion
+Today, global energy demand is increasing faster than the expected annual rate, which is driven by an increasing
+number of world population, production industries, transportation, building, and many other sectors. Study shows building
+sectors account for an average of 35% of energy demand worldwide due to the new, improved standard of living of
+individuals around the world. Subsequently, energy prices in the market impacted negatively posing a threat to the
+thermal comfort satisfaction of home residents.
+Fossil fuel accounts for 44% of global energy sources which currently poses a threat to Inhabitant and well-being of
+the environment. Today, more emphasis is placed on other sources of energy, such as renewable to harness energy from
+nature, which has been less concerned about global warming in order to satisfy the energy consumer demand. Building
+sector is among high energy demand with a large percentage of energy waste. This is a result of poor energy utilization
+and operational policy control practice and implementation.
+17
+
+--- PAGE 18 ---
+
+M.S. Aliero, K.N. Qureshi, M.F. Pasha et al.
+Environmental Technology & Innovation 22 (2021) 101443
+Over the years, researchers in industries and academia have attempted to deal with this problem through implantation
+of renewable energy sources, Smart grid and SHEM’s solutions to reduce energy demand, waste and ensure reliability
+of energy supply in building sectors and provide healthy and convenient living environment. The solutions implement
+various sensing technologies used in home appliances jointly connected via a network to provide synergy to facilitate
+smooth autonomous communications.
+The study investigates different forms of energy generation technology and how it can be coupled with SHEM’s system
+to balance the energy demand supply in building sectors. The study shows fossil fuel is major source of world energy which
+implies demand for expansion and adaptation of renewable energy sources to curtail the rising issue of global warming
+and provide healthy living environment.
+Similarly, this study critically analyses and synthesizes the recent SHEMS literature to control and manage energy
+demand and utilization of home appliances. The review analysis of a large number of literature have reached the certain
+level of smartness proving automatic prediction of occupant’s behaviour towards energy consumption, implementing
+occupants fixed occupants schedules, real-time occupants data processing technology. Furthermore, study provides
+overview on SHEM’s market and products reporting the progress and challenges.
+Finally, the study concludes with results finding and future recommendations on current literature of SHEMS which
+includes special intervention to increase the maturity level of home appliances (entertainment, kitchen, furniture, security
+lock, and HVAC) through machine learning and artificial intelligence, promote research collaboration among industries
+and academia to develop new occupants thermal comfort responsive approach to improve current building design, and
+sensing technologies to ensure occupants thermal comfort level is within the acceptable level. The remaining technical
+findings shows less emphasis on security, privacy, scalability, and interoperability considerations on current deployed
+SHEMS products.
+Declaration of competing interest
+The authors declare that they have no known competing financial interests or personal relationships that could have
+appeared to influence the work reported in this paper.
+Acknowledgments
+This work was supported under the framework of international cooperation program managed by the National
+Research Foundation of Korea (2019K1A3A1A8011295711).
+References
+Al-Ali, A.R., Zualkernan, I.A., Rashid, M., Gupta, R., Alikarar, M., 2017. A smart home energy management system using IoT and big data analytics
+approach. IEEE Trans. Consum. Electron. 63 (4), 426–434.
+Alan, A.T., Shann, M., Costanza, E., Ramchurn, S.D., Seuken, S., 2016. It is too Hot presented at the Proceedings of the 2016 CHI Conference on Human
+Factors in Computing Systems - CHI ’16.
+AlFaris, F., Juaidi, A., Manzano-Agugliaro, F., 2017. Intelligent homes’ technologies to optimize the energy performance for the net zero energy home.
+Energy Build. 153, 262–274.
+Aliero, M.S., Ghani, I., Qureshi, K.N., Rohani, M.F.a., 2019. An algorithm for detecting SQL injection vulnerability using black-box testing. J. Ambient
+Intell. Humaniz. Comput. 1–18.
+Aliero, M.S., Qureshi, K.N., Pasha, M.F., Ghani, I., Yauri, R.A., 2020. Systematic review analysis on SQLIA detection and prevention approaches. Wirel.
+Pers. Commun. 1–37.
+Altayeva, A.B., Omarov, B.S., Cho, Y.I., 2016. Intelligent microclimate control system based on IoT. Int. J. Fuzzy Log. Intell. Syst. 16 (4), 254–261.
+Arya, A., et al., 2019. Energy saving in distribution system using internet of things in smart grid environment. Int. J. Comput. Digit. Syst. 8 (2),
+158–165.
+Asif, S., Ambreen, K., Iftikhar, H., Khan, H.N., Maroof, R., Javaid, N., 2018. Energy management in residential area using genetic and strawberry
+algorithm. In: Advances in Network-Based Information Systems Lecture Notes on Data Engineering and Communications Technologies, pp.
+165–176.
+Aswani, A., Master, N., Taneja, J., Culler, D., Tomlin, C., 2012. Reducing transient and steady state electricity consumption in HVAC using learning-based
+model-predictive control. Proc. IEEE 100 (1), 240–253.
+Atzeni, I., Ordóñez, L.G., Scutari, G., Palomar, D.P., Fonollosa, J.R., 2012. Demand-side management via distributed energy generation and storage
+optimization. IEEE Trans. Smart Grid 4 (2), 866–876.
+Azuatalam, D., Lee, W.-L., de Nijs, F., Liebman, A., 2020. Reinforcement learning for whole-building HVAC control and demand response. Energy AI 2.
+Babar, M., Rehman, A.U., Arif, F., Jeon, G., 2018. Energy-harvesting based on internet of things and big data analytics for smart health monitoring.
+Sustain. Comput. Inf. Syst. 20, 155–164.
+Bai, T., Lin, J., Li, G., Wang, H., Ran, P., Li, Z., Pang, Y., Wu, W., Jeon, G., 2019. An optimized protocol for QoS and energy efficiency on wireless body
+area networks. Peer-to-Peer Netw. Appl. 12 (2), 326–336.
+Baig, F., Mahmood, A., Javaid, N., Razzaq, S., Khan, N., Saleem, Z., 2013. Smart home energy management system for monitoring and scheduling of
+home appliances using zigbee. J. Basic. Appl. Sci. Res. 3 (5), 880–891.
+Barata, F.A., Silva, R., 2013. Distributed model predictive control for housing with hourly auction of available energy. In: Doctoral Conference on
+Computing, Electrical and Industrial Systems. Springer, pp. 469–476.
+Bari, F., Mereu, D., Damarco, C., Greco, C., Malan, S., Marchetto, G., Tirado, S.R., Tisseur, R., Violante, M., Zangari, G., Caruso, S., Masoero, M., Saba, F.,
+2015. The ecothermo project: Key and innovative aspects. Energy Procedia 78, 2977–2982.
+Becker, V., Kleiminger, W., Coroamă, V.C., Mattern, F., 2018. Estimating the savings potential of occupancy-based heating strategies. Energy Inform.
+1 (S1).
+18
+
+--- PAGE 19 ---
+
+M.S. Aliero, K.N. Qureshi, M.F. Pasha et al.
+Environmental Technology & Innovation 22 (2021) 101443
+Brager, G., Zhang, H., Arens, E., 2015. Evolving opportunities for providing thermal comfort. Build. Res. Inf. 43 (3), 274–287.
+Brundu, F.G., Patti, E., Osello, A., Giudice, M.D., Rapetti, N., Krylovskiy, A., Jahn, M., Verda, V., Guelpa, E., Rietto, L., Acquaviva, A., 2017. IoT software
+infrastructure for energy management and simulation in smart cities. IEEE Trans. Ind. Inf. 13 (2), 832–840.
+Bujdei, C., Moraru, S.A., 2011. Ensuring comfort in office buildings: designing a KNX monitoring and control system. In: presented at the 2011 Seventh
+International Conference on Intelligent Environments.
+C., 2018. How is China’s energy footprint changing? Online Report, Report 2018.
+Cao, N., Ting, J., Sen, S., Raychowdhury, A., 2018. Smart sensing for HVAC control: Collaborative intelligence in optical and IR cameras. IEEE Trans.
+Ind. Electron. 65 (12), 9785–9794.
+Chamandoust, H., Derakhshan, G., Hakimi, S.M., Bahramara, S., 2020. Tri-objective scheduling of residential smart electrical distribution grids with
+optimal joint of responsive loads with renewable energy sources. J. Energy Storage 27.
+Chandramohan, J., Nagarajan, R., Satheeshkumar, K., Ajithkumar, N., Gopinath, P.A., Ranjithkumar, S., 2017. Intelligent smart home automation and
+security system using arduino and wi-fi. Int. J. Eng. Comput. Sci..
+Chandrasekhar, K., Kumar, G., Venkata Mohan, S., Pandey, A., Jeon, B.-H., Jang, M., Kim, S.H., 2020. Microbial Electro-Remediation (MER) of hazardous
+waste in aid of sustainable energy generation and resource recovery. Environ. Technol. Innov. 19.
+Chehri, A., Jeon, G., 2018. Optimal matching between energy saving and traffic load for mobile multimedia communication. online published in
+Concurrency and Computation: Practice and Experience (ISSN: 1532-0626).
+Chellamani, G.K., Chandramani, P.V., 2020. An optimized methodical energy management system for residential consumers considering price-driven
+demand response using satin bowerbird optimization. J. Electr. Eng. Technol..
+Chen, S.-Y., Lai, C.-F., Huang, Y.-M., Jeng, Y.-L., 2013a. Intelligent home-appliance recognition over IoT cloud network. In: Wireless Communications
+and Mobile Computing Conference (IWCMC), 2013 9th International. IEEE, pp. 639–643.
+Chen, X., Wei, T., Hu, S., 2013b. Uncertainty-aware household appliance scheduling considering dynamic electricity pricing in smart home. IEEE Trans.
+Smart Grid 4 (2), 932–941.
+Choo, Y.-Y., Ha, Y.-J., Kim, Y.-B., Lee, S.-J., Choi, H.-D., 2018. Development of CoAP-based IoT communication system for smart energy storage system.
+In: presented at the Proceedings of the 2nd International Symposium on Computer Science and Intelligent Control - ISCSIC ’18.
+Ciabattoni, L., Ferracuti, F., Ippoliti, G., Longhi, S., Turri, G., 2016. IoT based indoor personal comfort levels monitoring. In: Consumer Electronics
+(ICCE), 2016 IEEE International Conference on. IEEE, pp. 125–126.
+Curi, T.M.R.d.C., Conti, D., Vercellino, R.d.A., Massari, J.M., Moura, D.J.d., Souza, Z.M.d., Montanari, R., 2017. Positioning of sensors for control of
+ventilation systems in broiler houses: a case study. Sci. Agric. 74 (2), 101–109.
+Darby, S.J., 2017. Smart technology in the home: time for more clarity. Build. Res. Inf. 46 (1), 140–147.
+Darianian, M., Michael, M.P., 2008. Smart home mobile RFID-based Internet-of-Things systems and services. In: presented at the 2008 International
+Conference on Advanced Computer Theory and Engineering.
+de Castro Tomé, M., Nardelli, P.H.J., Hussain, H.M., Wahid, S., Narayanan, A., 2020. A cyber-physical residential energy management system via
+virtualized packets. Energies 13 (3).
+Ding, X., Du, W., Cerpa, A., 2019. Octopus. In: presented at the Proceedings of the 6th ACM International Conference on Systems for Energy-Efficient
+Buildings, Cities, and Transportation.
+Drungilas, D., Bielskis, A.A., 2012. Cloud interconnected affect reward based automation ambient comfort controller. Electron. Electr. Eng. 18 (10).
+Ejaz, W., Naeem, M., Shahid, A., Anpalagan, A., Jo, M., 2017. Efficient energy management for the internet of things in smart cities. IEEE Commun.
+Mag. 55 (1), 84–91.
+Fayed, N.S., Abu-Elkheir, M., El-Daydamony, E.M., Atwan, A., 2019. Sensor-based occupancy detection using neutrosophic features fusion. Heliyon 5
+(9), e02450.
+Feldmeier, M., Paradiso, J.A., 2010. Personalized HVAC control system. In: presented at the 2010 Internet of Things (IOT).
+Filho, G.P.R., Villas, L.A., Gonçalves, V.P., Pessin, G., Loureiro, A.A.F., Ueyama, J., 2019. Energy-efficient smart home systems: Infrastructure and
+decision-making process. Int. Things 5, 153–167.
+Fischer, D., Madani, H., 2017. On heat pumps in smart grids: A review. Renew. Sustain. Energy Rev. 70, 342–357.
+Gangtie, Z., 2020. Roboot to perform examinations on patients infected with the coronavirus. Online Report, 2020.
+Gao, G., Li, J., Wen, Y., 2020. Deepcomfort: Energy-efficient thermal comfort control in buildings via reinforcement learning. IEEE Internet Things J.
+1.
+Gateau, B., Rykowski, J., 2015. Personal e-comfort modelling and management based on multi-agent system and internet of things network. In:
+Pervasive and Embedded Computing and Communication Systems (PECCS), 2015 International Conference on. IEEE, pp. 83–89.
+Giuseppina, N., Salvatore, T., 2015. WSN system design by using an innovative neural network model to perform thermals forecasting in a urban
+canyon scenario.
+Guo, B., Wang, X., Zhang, X., Yang, J., Wang, Z., 2016. Research on the temperature & humidity monitoring system in the key areas of the hospital
+based on the internet of things. Int. J. Smart Home 10 (7), 205–216.
+Hafeez, K., Chandio, Y., Bakar, A., Ali, A., Syed, A.A., Jadoon, T.M., Alizai, M.H., 2017. Inverting HVAC for energy efficient thermal comfort in populous
+emerging countries. In: presented at the Proceedings of the 4th ACM International Conference on Systems for Energy-Efficient Built Environments
+- BuildSys ’17.
+Haider, H.T., See, O.H., Elmenreich, W., 2016. A review of residential demand response of smart grid. Renew. Sustain. Energy Rev. 59, 166–178.
+Hakimi, S.M., Hasankhani, A., 2020. Intelligent energy management in off-grid smart buildings with energy interaction. J. Cleaner Prod. 244.
+Han, J., Choi, C.-S., Lee, I., 2011. More efficient home energy management system based on ZigBee communication and infrared remote controls. IEEE
+Trans. Consum. Electron. 57 (1).
+Han, J., Choi, C.-S., Park, W.-K., Lee, I., Kim, S.-H., 2014. Smart home energy management system including renewable energy based on ZigBee and
+PLC. IEEE Trans. Consum. Electron. 60 (2), 198–202.
+Hang-yat, L.A., Wang, D., 2013. Carrying my environment with me. In: presented at the Proceedings of the 5th ACM Workshop on Embedded Systems
+For Energy-Efficient Buildings - BuildSys’13.
+Harfield, A., Rattanongphisat, W., 2017. Towards an open monitoring platform for improving energy efficiency and thermal comfort in public buildings.
+In: Knowledge and Smart Technology (KST), 2017 9th International Conference on. IEEE, pp. 150–155.
+Hargreaves, T., Hauxwell-Baldwin, R., Coleman, M., Wilson, C., Stankovic, L., Stankovic, V., Murray, D., Liao, J., Kane, T., Firth, S.K., 2015. Smart homes
+control and energy management: How do smart home technologies influence control over energy use and domestic life?
+Haseeb, K., Lee, S., Jeon, G., 2020. EBDS: An energy-efficient big data-based secure framework using Internet of Things for green environment. Environ.
+Technol. Innov..
+Hassan, N., Pasha, M., Yuen, C., Huang, S., Wang, X., 2013. Impact of scheduling flexibility on demand profile flatness and user inconvenience in
+residential smart grid system. Energies 6 (12), 6608–6635.
+Hosking, J.S., MacLeod, D., Phillips, T., Holmes, C., Watson, P., Shuckburgh, E., Mitchell, D., 2018. Changes in European wind energy generation potential
+within a 1.5 C warmer world. Environ. Res. Lett. 13 (5), 054032.
+Huang, Q., 2018. Occupancy-driven energy-efficient buildings using audio processing with background sound cancellation. Buildings 8 (6).
+19
+
+--- PAGE 20 ---
+
+M.S. Aliero, K.N. Qureshi, M.F. Pasha et al.
+Environmental Technology & Innovation 22 (2021) 101443
+Huang, C.-C., Yang, R., Newman, M.W., 2015. The potential and challenges of inferring thermal comfort at home using commodity sensors. In:
+presented at the Proceedings of the 2015 ACM International Joint Conference on Pervasive and Ubiquitous Computing - UbiComp ’15.
+Hussain, H., Javaid, N., Iqbal, S., Hasan, Q., Aurangzeb, K., Alhussein, M., 2018. An efficient demand side management system with a new optimized
+home energy management controller in smart grid. Energies 11 (1).
+Hussain, F.S., Memon, N., Khatri, Z., Memon, S., 2020. Solid waste-derived biodegradable keratin sponges for removal of chromium: A circular approach
+for waste management in leather industry. Environ. Technol. Innov. 20.
+IoTLineup, 2020. Smart home energy managment system.
+Iqbal, S., Qureshi, K.N., Kanwal, N., Jeon, G., 0000. Collaborative energy efficient zone-based routing protocol for multi-hop internet of things, online
+published in Emerging Telecommunications Technologies (ISSN 2161-3915).
+Jahn, M., Jentsch, M., Prause, C.R., Pramudianto, F., Al-Akkad, A., Reiners, R., 2010. The energy aware smart home. In: Future Information Technology
+(FutureTech), 2010 5th International Conference on. IEEE, pp. 1–8.
+Jamaludin, A.A., Keumala, N., Ariffin, A.R.M., Hussein, H., 2013. Satisfaction and perception of residents towards bioclimatic design strategies:
+Residential college buildings. Indoor Built Environ. 23 (7), 933–945.
+Javaid, N., Ahmed, A., Iqbal, S., Ashraf, M., 2018. Day ahead real time pricing and critical peak pricing based power scheduling for smart homes with
+different duty cycles. Energies 11 (6).
+Javed, A., Larijani, H., Ahmadinia, A., Gibson, D., 2017. Smart random neural network controller for HVAC using cloud computing technology. IEEE
+Trans. Ind. Inf. 13 (1), 351–360.
+Jia, Q.-S., Zhang, Y., Zhao, Q., 2018. Controlling the Internet of Things – from energy saving to fast evacuation in smart buildings. In: Intelligent
+Building Control Systems Advances in Industrial Control. pp. 293–310.
+Jo, H., Yoon, Y.I., 2018. Intelligent smart home energy efficiency model using artificial tensorflow engine. Human-centric Comput. Inf. Sci. 8 (1).
+Joos, M., Staffell, I., 2018. Short-term integration costs of variable renewable energy: Wind curtailment and balancing in Britain and Germany. Renew.
+Sustain. Energy Rev. 86, 45–65.
+Jung, W., Jazizadeh, F., 2019. Human-in-the-loop HVAC operations: A quantitative review on occupancy, comfort, and energy-efficiency dimensions.
+Appl. Energy 239, 1471–1508.
+Kathiravelu, P., Sharifi, L., Veiga, L., 2015. Cassowary. In: presented at the Proceedings of the 2nd Workshop on Middleware for Context-Aware
+Applications in the IoT - M4IoT 2015.
+Kerboua, A., Boukli-Hacene, F., Mourad, K.A., 2020. Particle swarm optimization for micro-grid power management and load scheduling. Int. J. Energy
+Econ. Policy 10 (2), 71–80.
+Khan, M., Silva, B.N., Han, K., 2016. Internet of things based energy aware smart home control system. IEEE Access 4, 7556–7566.
+Khemakhem, S., Rekik, M., Krichen, L., 2020. A collaborative energy management among plug-in electric vehicle, smart homes and neighbors’
+interaction for residential power load profile smoothing. J. Build. Eng. 27.
+Kim, Y.-P., Yoo, S., Yoo, C., 2015. Daot: Dynamic and energy-aware authentication for smart home appliances in internet of things. In: Consumer
+Electronics (ICCE), 2015 IEEE International Conference on. IEEE, pp. 196–197.
+Kitchenham, B., Brereton, O.P., Budgen, D., Turner, M., Bailey, J., Linkman, S., 2009. Systematic literature reviews in software engineering–a systematic
+literature review. Inf. Softw. Technol. 51 (1), 7–15.
+Kong, W., Hu, Z., Wu, J., Qu, T., Jeon, G., 2020. A comparative study of estimating auroral electron energy from ground-based hyperspectral imagery
+and DMSP-SSJ5 particle data. Remote Sensing 12 (14), 2259.
+Kontes, G., Giannakis, G., Horn, P., Steiger, S., Rovas, D., 2017. Using thermostats for indoor climate control in office buildings: The effect on thermal
+comfort. Energies 10 (9).
+Kumar, S., 2014. Ubiquitous smart home system using android application. Int. J. Comput. Netw. Commun. 6 (1), 33–43.
+Langevin, J., Wen, J., Gurian, P.L., 2013. Modeling thermal comfort holistically: Bayesian estimation of thermal sensation, acceptability, and preference
+distributions for office building occupants. Build. Environ. 69, 206–226.
+Li, Z., Xu, Y., Feng, X., Wu, Q., 2020. Optimal stochastic deployment of heterogeneous energy storage in a residential multi-energy microgrid with
+demand-side management. IEEE Trans. Ind. Inf. 1.
+Lissa, P., Schukat, M., Barrett, E., 2020. Transfer learning applied to reinforcement learning-based HVAC control. SN Comput. Sci. 1 (3).
+Liu, Y., Yang, C., Jiang, L., Xie, S., Zhang, Y., 2019. Intelligent edge computing for IoT-based energy management in smart cities. IEEE Netw. 33 (2),
+111–117.
+Lockton, D., Bowden, F., Greene, C., Brass, C., Gheerawo, R., 2013. People and energy: A design-led approach to understanding everyday energy use
+behaviour. In: Ethnographic Praxis in Industry Conference Proceedings. (1), Wiley Online Library, pp. 348–362.
+Lu, X., Zhou, K., Chan, F.T.S., Yang, S., 2017. Optimal scheduling of household appliances for smart home energy management considering demand
+response. Nat. Hazards 88 (3), 1639–1653.
+Luo, M., de Dear, R., Ji, W., Bin, C., Lin, B., Ouyang, Q., Zhu, Y., 2016. The dynamics of thermal comfort expectations: The problem, challenge and
+impication. Build. Environ. 95, 322–329.
+Manic, M., Amarasinghe, K., Rodriguez-Andina, J.J., Rieger, C., 2016. Intelligent buildings of the future: Cyberaware, deep learning powered, and human
+interacting. IEEE Ind. Electron. Mag. 10 (4), 32–49.
+Mansur, V., Carreira, P., Arsenio, A., 2014. A learning approach for energy efficiency optimization by occupancy detection. In: Internet of Things.
+User-Centric IoT. Springer, pp. 9–15.
+Markets and Markets, 2020. Smart home market by product online report 2020.
+Matsui, K., 2018. An information provision system to promote energy conservation and maintain indoor comfort in smart homes using sensed data
+by IoT sensors. Future Gener. Comput. Syst. 82, 388–394.
+Meana-Llorián, D., García, C.G., G-bustelo, B.C.P., Lovelle, J.M.C., Garcia-Fernandez, N., 2017a. Iofclime: The fuzzy logic and the internet of things to
+control indoor temperature regarding the outdoor ambient conditions. Future Gener. Comput. Syst. 76, 275–284.
+Meana-Llorián, D., González García, C., Pelayo G.-B.ustelo, B.C., Cueva Lovelle, J.M., Garcia-Fernandez, N., 2017b. IoFClime: The fuzzy logic and the
+internet of things to control indoor temperature regarding the outdoor ambient conditions. Future Gener. Comput. Syst. 76, 275–284.
+Meinke, A., Hawighorst, M., Wagner, A., Trojan, J., Schweiker, M., 2016. Comfort-related feedforward information: occupants’ choice of cooling strategy
+and perceived comfort. Build. Res. Inf. 45, 222–238, 1-2.
+Michailidis, I.T., Schild, T., Sangi, R., Michailidis, P., Korkas, C., Fütterer, J., Müller, D., Kosmatopoulos, E.B., 2018. Energy-efficient HVAC management
+using cooperative, self-trained, control agents: A real-life german building case study. Appl. Energy 211, 113–125.
+Moreno, M.V., Ramos, J.L.H., Skarmeta, A.F., 2014a. User role in IoT-based systems. In: Internet of Things (WF-IoT), 2014 IEEE World Forum on. IEEE,
+pp. 141–146.
+Moreno, M.V., Santa, J., Zamora, M.A., Skarmeta, A.F., 2014b. A holistic IoT-based management platform for smart environments. In: Communications
+(ICC), 2014 IEEE International Conference on. IEEE, pp. 3823–3828.
+Moreno, M.V., Ubeda, B., Skarmeta, A.F., Zamora, M.A., 2014c. How can we tackle energy efficiency in IoT based smart buildings? Sensors 14 (6),
+9582–9614.
+20
+
+--- PAGE 21 ---
+
+M.S. Aliero, K.N. Qureshi, M.F. Pasha et al.
+Environmental Technology & Innovation 22 (2021) 101443
+Moreno, M.V., Zamora, M.A., Skarmeta, A.F., 2014d. User-centric smart buildings for energy sustainable smart cities. Trans. Emerg. Telecommun.
+Technol. 25 (1), 41–55.
+Nadeem, Z., Javaid, N., Malik, A., Iqbal, S., 2018. Scheduling appliances with GA, TLBO, FA, OSR and their hybrids using chance constrained optimization
+for smart homes. Energies 11 (4).
+Oliveira, E.d.L., Alfaia, R.D., Souto, A.V.F., Silva, M.S., Francês, C.R.L., Vijaykumar, N.L., 2017. Smartcom: Smart consumption management architecture
+for providing a user-friendly smart home based on metering and computational intelligence. J. Microw. Optoelectron. Electromagn. Appl. 16 (3),
+736–755.
+Omer, A.M., 2009. Energy use and environmental impacts: A general review. J. Renew. Sustain. Energy 1 (5), 053101.
+O’Neill, Z.D., Li, Y., Cheng, H.C., Zhou, X., Taylor, S.T., 2019. Energy savings and ventilation performance from CO2-based demand controlled ventilation:
+Simulation results from ASHRAE RP-1747 (ASHRAE RP-1747). Sci. Technol. Built Environ. 26 (2), 257–281.
+Outlook, E., 2019. Global energy statistical yearbook 2019. Enerdata, Report 2020.
+Pan, J., Jain, R., Biswas, P., Wang, W., Addepalli, S., 2012. A framework for smart location-based automated energy controls in a green building testbed.
+In: Energytech, 2012 IEEE. IEEE, pp. 1–6.
+Pan, J., Jain, R., Paul, S., Vu, T., Saifullah, A., Sha, M., 2015. An internet of things framework for smart energy in buildings: Designs, prototype, and
+experiments. IEEE Internet Things J. 2 (6), 527–537.
+Park, H., Rhee, S.-B., 2018. IoT-based smart building environment service for occupants’ thermal comfort. J. Sen. 2018, 1–10.
+Part, B.W.E.O., 2016. World Energy Outlook.
+Patti, E., Acquaviva, A., Macii, E., 2013. Enable sensor networks interoperability in smart public spaces through a service oriented approach. In:
+Advances in Sensors and Interfaces (IWASI), 2013 5th IEEE International Workshop on. IEEE, pp. 2–7.
+Paul, A., Jeyaraj, R., 2019. Internet of things: A primer. Hum. Behav. Emerg. Technol. 1 (1), 37–47.
+Pawar, P., TarunKumar, M., P. Vittal, K., 2020. An IoT based intelligent smart energy management system with accurate forecasting and load strategy
+for renewable generation. Measurement 152.
+Peffer, T., Pritoni, M., Fierro, G., Kaam, S., Kim, J., Raftery, P., 2016. Writing controls sequences for buildings: from HVAC industry enclave to hacker’s
+weekend project.
+Piyare, R., Lee, S.R., 2013. Smart home-control and monitoring system using smart phone. ICCA, ASTL 24, 83–86.
+Pritoni, M., Salmon, K., Sanguinetti, A., Morejohn, J., Modera, M., 2017. Occupant thermal feedback for improved efficiency in university buildings.
+Energy Build. 144, 241–250.
+Qurat ul, A., Iqbal, S., Khan, S.A., Malik, A.W., Ahmad, I., Javaid, N., 2018. IoT operating system based fuzzy inference system for home energy
+management system in smart buildings. Sensors 18 (9).
+Qureshi, K.N., Bashir, F., Abdullah, A.H., 2017. Provision of security in vehicular ad hoc networks through an intelligent secure routing scheme. In:
+2017 International Conference on Frontiers of Information Technology (FIT). IEEE, pp. 200–205.
+Qureshi, K.N., Bashir, M.U., Lloret, J., Leon, A., 2020a. Optimized cluster-based dynamic energy-aware routing protocol for wireless sensor networks
+in agriculture precision. J. Sens. 2020.
+Qureshi, K.N., Din, S., Jeon, G., Piccialli, F., 2020b. Link quality and energy utilization based preferable next hop selection routing for wireless body
+area networks. Comput. Commun. 149, 382–392.
+Qureshi, K.N., Hussain, R., Jeon, G., 2020c. A distributed software defined networking model to improve the scalability and quality of services for
+flexible green energy internet for smart grid systems. Comput. Electr. Eng. 84, 106634.
+Qureshi, K.N., Iftikhar, A., Bhatti, S.N., Piccialli, F., Giampaolo, F., Jeon, G., 2020d. Trust management and evaluation for edge intelligence in the Internet
+of Things. Eng. Appl. Artif. Intell. 94, 103756.
+Qureshi, K.N., Tayyab, M.Q., Ur Rehman, S., Jeon, G., 2020e. A interference aware energy efficient data transmission approach for smart cities healthcare
+systems. Sustainable Cities Soc. 62, 102392.
+Rabbani, A., Keshav, S., 2016. The SPOT* personal thermal comfort system. In: presented at the Proceedings of the 3rd ACM International Conference
+on Systems for Energy-Efficient Built Environments - BuildSys ’16.
+Rathore, M.M., Ahmad, A., Paul, A., Rho, S., 2016. Urban planning and building smart cities based on the Internet of Things using Big Data analytics.
+Comput. Netw. 101, 63–80.
+Rathore, P., Rao, A.S., Rajasegarar, S., Vanz, E., Gubbi, J., Palaniswami, M., 2018. Real-time urban microclimate analysis using internet of things. IEEE
+Internet Things J. 5 (2), 500–511.
+Rehman, A.U., Aslam, S., Abideen, Z.U., Zahra, A., Ali, W., Junaid, M., Javaid, N., 2018. Efficient energy management system using firefly and harmony
+search algorithm. In: Advances on Broad-Band Wireless Computing, Communication and Applications Lecture Notes on Data Engineering and
+Communications Technologies, pp. 37–49.
+Revel, G.M., Arnesano, M., Pietroni, F., Frick, J., Reichert, M., Schmitt, K., Huber, J., Ebermann, M., Battista, U., Alessi, F., 2015. Cost-effective technologies
+to control indoor air quality and comfort in energy efficient building retrofitting. Environ. Eng. Manag. J. 14 (7).
+Risteska Stojkoska, B., Trivodaliev, K., Davcev, D., 2017. Internet of things framework for home care systems. Wirel. Commun. Mob. Comput. 2017,
+1–10.
+Robles, R.J., Kim, T.-h., 2010. Applications, systems and methods in smart home technology: A. Int. J. Adv. Sci. Technol. 15.
+Rodriguez, C.M., Medina, J.M., Pinzón, A., 2019. Thermal comfort and satisfaction in the context of social housing: Case Study in Bogotá, Colombia.
+J. Constr. Dev. Countries 24 (1), 101–124.
+Roselyn, J.P., Uthra, R.A., Raj, A., Devaraj, D., Bharadwaj, P., Krishna Kaki, S.V.D., 2019. Development and implementation of novel sensor fusion
+algorithm for occupancy detection and automation in energy efficient buildings. Sustainable Cities Soc. 44, 85–98.
+Rostampour, V., Keviczky, T., 2018. Probabilistic energy management for building climate comfort in smart thermal grids with seasonal storage
+systems. IEEE Trans. Smart Grid.
+Royapoor, M., Roskilly, T., 2015. Building model calibration using energy and environmental data. Energy Build. 94, 109–120.
+Salamone, F., Belussi, L., Danza, L., Galanos, T., Ghellere, M., Meroni, I., 2017a. Design and development of a nearable wireless system to control
+indoor air quality and indoor lighting quality. Sensors 17 (5).
+Salamone, F., Belussi, L., Danza, L., Ghellere, M., Meroni, I., 2016a. Integration of a do it yourself hardware in a lighting device for the management
+of thermal comfort and energy use. Energy Procedia 101, 161–168.
+Salamone, F., Belussi, L., Danza, L., Ghellere, M., Meroni, I., 2016b. An open source smart lamp for the optimization of plant systems and thermal
+comfort of offices. Sensors 16 (3).
+Salamone, F., Danza, L., Meroni, I., Pollastro, M.C., 2017b. A low-cost environmental monitoring system: How to prevent systematic errors in the
+design phase through the combined use of additive manufacturing and thermographic techniques. Sensors 17 (4).
+Samadi, A., Saidi, H., Latify, M.A., Mahdavi, M., 2020. Home energy management system based on task classification and the resident’s requirements.
+Int. J. Electr. Power Energy Syst. 118.
+Sehar, F., Pipattanasomporn, M., Rahman, S., 2017. Integrated automation for optimal demand management in commercial buildings considering
+occupant comfort. Sustainable Cities Soc. 28, 16–29.
+21
+
+--- PAGE 22 ---
+
+M.S. Aliero, K.N. Qureshi, M.F. Pasha et al.
+Environmental Technology & Innovation 22 (2021) 101443
+Serra, J., Pubill, D., Antonopoulos, A., Verikoukis, C., 2014. Smart HVAC control in IoT: energy consumption minimization with user comfort constraints.
+Sci. World J. 161874 (2014).
+Shah, J., Mishra, B., 2016. Customized IoT enabled wireless sensing and monitoring platform for smart buildings. Proc. Technol. 23, 256–263.
+Shakeri, M., Shayestegan, M., Abunima, H., Reza, S.M.S., Akhtaruzzaman, M., Alamoud, A.R.M., Sopian, K., Amin, N., 2017. An intelligent system
+architecture in home energy management systems (HEMS) for efficient demand response in smart grid. Energy Build. 138, 154–164.
+Sims, R.E., Rogner, H.-H., Gregory, K., 2003a. Carbon emission and mitigation cost comparisons between fossil fuel, nuclear and renewable energy
+resources for electricity generation. Energy Policy 31 (13), 1315–1326.
+Sims, R.E., Rogner, H.-H., Gregory, K., 2003b. Carbon emission and mitigation cost comparisons between fossil fuel, nuclear and renewable energy
+resources for electricity generation. Energy Policy 31 (13), 1315–1326.
+Singh, A., Pandey, Y., Kumar, A., Singh, M.K., Kumar, A., Mukhopadhyay, S.C., 2017. Ventilation monitoring and control system for high rise historical
+buildings. IEEE Sens. J. 17 (22), 7533–7541.
+Slalmi, A., Kharraz, H., Saadane, R., Chaibi, H., Chehri, A., Jeon, G., 2019. Energy efficiency proposal for IoT call admission control in 5G network. In:
+Proc. IEEE SITIS 2019, Sorrento, Italy. pp. 26–29.
+Talari, S., Shafie-khah, M., Siano, P., Loia, V., Tommasetti, A., Catalão, J., 2017. A review of smart cities based on the internet of things concept.
+Energies 10 (4).
+Tereshchenko, T., Nord, N., 2018. Future trends in district heating development. Curr. Sustain./Renewable Energy Rep. 5 (2), 172–180.
+Thomas, A.M., Moore, P., Shah, H., Evans, C., Sharma, M., Xhafa, F., Mount, S., Pham, H.V., Wilcox, A.J., Patel, A., 2013. Smart care spaces: needs for
+intelligent at-home care. Int. J. Space-Based Situat. Comput. 3 (1), 35–44.
+Tila, F., Kim, D.H., 2015. Semantic IoT system for indoor environment control – a sparql and SQL based hybrid model.
+Tsai, K.-L., Leu, F.-Y., You, I., 2016. Residence energy control system based on wireless smart socket and IoT. IEEE Access 4, 2885–2894.
+Tsui, K.M., Chan, S.C., 2012. Demand response optimization for smart home scheduling under real-time pricing. IEEE Trans. Smart Grid 3 (4),
+1812–1821.
+Ullah, F., Al-Turjman, F., Nayyar, A., 2020a. IoT-based green city architecture using secured and sustainable android services. Environ. Technol. Innov.
+20.
+Ullah, I., Hussain, I., Singh, M., 2020b. Exploiting grasshopper and cuckoo search bio-inspired optimization algorithms for industrial energy
+management system: Smart industries. Electronics 9 (1).
+Uribe, O.H., Martin, J.P., Garcia-Alegre, M.C., Santos, M., Guinea, D., 2015. Smart building: Decision making architecture for thermal energy management.
+Sensors 15 (11), 27543–27568.
+Velusamy, K., Venkitaramanan, D., Vasudevan, S.K., Periasamy, P., Arumugam, B., 2013. Internet of things in cloud. J. Eng. Appl. Sci. 8 (9), 304–313.
+Walker, G., Brown, S., Neven, L., 2016. Thermal comfort in care homes: vulnerability, responsibility and ‘thermal care’. Build. Res. Inf. 44 (2), 135–146.
+Wang, F., Feng, Q., Chen, Z., Zhao, Q., Cheng, Z., Zou, J., Zhang, Y., Mai, J., Li, Y., Reeve, H., 2017. Predictive control of indoor environment using
+occupant number detected by video data and CO 2 concentration. Energy Build. 145, 155–162.
+Wei, F., Li, Y., Sui, Q., Lin, X., Chen, L., Chen, Z., Li, Z., 2018. A novel thermal energy storage system in smart building based on phase change material.
+IEEE Trans. Smart Grid 1.
+Yamauchi, T., Kondo, H., Nii, K., 2015. Automotive low power technology for IoT society. In: VLSI Technology (VLSI Technology), 2015 Symposium
+on. IEEE, pp. T80–T81.
+Yazici, M., Basurra, S., Gaber, M., 2018. Edge machine learning: Enabling smart internet of things applications. Big Data Cogn. Comput. 2 (3).
+Yoo, W., Kim, H., Shin, M., 2020. Stations-oriented indoor localization (SOIL): A BIM-Based occupancy schedule modeling system. Build. Environ. 168.
+Yuliansyah, H., Corio, D., Yunmar, R.A., Aziz, M.R.K., 2019. Energy monitoring system based on internet of things toward smart campus in institut
+teknologi sumatera. In: IOP Conference Series: Earth and Environmental Science. 258.
+Zeiler, W., Vissers, D., Maaijen, R., Boxem, G., 2013. Occupants’ behavioural impact on energy consumption: ‘human-in-the-loop’ comfort process
+control. Archit. Eng. Des. Manag. 10 (1-2), 108–130.
+Zhang, C., Kuppannagari, S.R., Kannan, R., Prasanna, V.K., 2019. Building HVAC scheduling using reinforcement learning via neural network based
+model approximation. In: presented at the Proceedings of the 6th ACM International Conference on Systems for Energy-Efficient Buildings, Cities,
+and Transportation.
+Zheng, S., Xiong, X., Vause, J., Liu, J., 2013. Real-time measurement of wind environment comfort in urban areas by environmental internet of things.
+Int. J. Sustain. Dev. World Ecol. 20 (3), 254–260.
+Zhu, N., Diethe, T., Camplani, M., Tao, L., Burrows, A., Twomey, N., Kaleshi, D., Mirmehdi, M., Flach, P., Craddock, I., 2015. Bridging e-health and the
+internet of things: The SPHERE project. IEEE Intell. Syst. 30 (4), 39–46.
+Zuraimi, M.S., Pantazaras, A., Chaturvedi, K.A., Yang, J.J., Tham, K.W., Lee, S.E., 2017. Predicting occupancy counts using physical and statistical
+Co2-based modeling methodologies. Build. Environ. 123, 517–528.
+22
