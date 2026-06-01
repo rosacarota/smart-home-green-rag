@@ -1,7 +1,6 @@
 {
   "article_id": "ARTICLE_001",
   "source_title": "Electric Energy Management in the Smart Home",
-  "source_url": "https://docs.nlr.gov/docs/fy13osti/57586.pdf",
   "year": "2013",
   "article_summary": "The article discusses state-of-the-art electric energy management in smart homes, emphasizing how smart homes can increase energy efficiency, reduce costs, and lower carbon footprint. It frames the occupant as an important part of the system and highlights enabling technologies and consumer behavior as key factors for effective home energy management. This is relevant to greener trigger-action rules because it supports energy-aware automation, occupant-centered control, and intent-preserving optimization of home energy use.",
   "normalized_green_categories_one_hot": {

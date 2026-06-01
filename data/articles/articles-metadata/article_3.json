@@ -1,8 +1,7 @@
 {
   "article_id": "ARTICLE_003",
   "source_title": "Understanding User Perception and Intention to Use Smart Homes for Energy Efficiency: A Survey",
-  "source_url": "https://www.researchgate.net/publication/366190267_Understanding_User_Perception_and_Intention_to_Use_Smart_Homes_for_Energy_Efficiency_A_Survey",
-  "year": "2022",
+  "year": "2025",
   "article_summary": "This survey investigates how user perceptions, personal norms, and social influences shape intentions to use smart home technologies specifically for improving household energy efficiency. It combines the theory of planned behavior and the norm activation model, showing that personal moral norms, sense of responsibility, and awareness of environmental consequences are the strongest predictors of energy-efficient smart home use. The authors propose that smart home systems should reinforce pro-environmental norms, support habit formation, and provide personalized feedback on environmental and financial outcomes to encourage sustained efficient use. They further suggest embedding green automation defaults and policy incentives that reward household energy savings as design levers to unlock the technology’s full energy-saving potential.",
   "normalized_green_categories_one_hot": {
     "hvac_optimization": 0,

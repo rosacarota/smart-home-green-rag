@@ -1,7 +1,6 @@
 {
   "article_id": "ARTICLE_010",
   "source_title": "Energy management of smart homes over fog-based IoT architecture",
-  "source_url": "https://www.sciencedirect.com/science/article/pii/S2210537923000537?via%3Dihub",
   "year": "2023",
   "article_summary": "The article presents a smart-home energy management approach based on a Markov-chain prediction model and a novel algorithm that uses those predictions to reduce consumption while maintaining human comfort. It also describes a fog-based IoT architecture deployed in a real smart home to support practical energy-aware automation. This makes it relevant for greener trigger-action rules that rely on predicted user activity, comfort-preserving control, and energy-saving scheduling.",
   "normalized_green_categories_one_hot": {
