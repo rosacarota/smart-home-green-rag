@@ -1,0 +1,17 @@
+{
+  "article_id": "ARTICLE_007",
+  "source_title": "Using consumer behavior data to reduce energy consumption in smart homes",
+  "year": "2015",
+  "article_summary": "The article studies how smart homes can learn inhabitants’ usage patterns and preferences from event data to reduce energy consumption while preserving comfort. It proposes sequential pattern mining to identify behavior patterns and a recommender system that suggests actions to lower energy use, with feedback from test homes used to refine the system. This makes it relevant to greener trigger-action rules because it links user behavior modeling, personalized recommendations, and energy-saving automation choices.",
+  "normalized_green_categories_one_hot": {
+    "hvac_optimization": 0,
+    "lighting_efficiency": 0,
+    "water_saving": 0,
+    "standby_reduction": 0,
+    "appliance_energy_management": 1,
+    "energy_monitoring": 1,
+    "occupancy_based_control": 1,
+    "environmental_awareness": 0,
+    "scheduling_optimization": 1
+  }
+}

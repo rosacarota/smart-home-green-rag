@@ -1,0 +1,17 @@
+{
+  "article_id": "ARTICLE_006",
+  "source_title": "The role of environmental awareness, renewable energy, and green innovation in shaping climate change perceptions",
+  "year": "2025",
+  "article_summary": "This article studies how environmental awareness, renewable energy adoption, and green innovation adoption interact within Chinese SMEs and uses the Value–Belief–Norm (VBN) framework to explain how awareness translates into pro-environmental practices; it treats renewable energy adoption as a mediator and green innovation as a moderator influencing perceptions of climate change severity. The paper discusses practical levers (policy, managerial actions, and incentives) that encourage renewable energy and green innovations, highlights potential behavioral effects (e.g., reduced perceived severity due to perceived efficacy), and emphasizes raising awareness to drive concrete sustainability actions. Methods and measures (survey items, PLS-SEM analysis) are described for assessing relationships among awareness, adoption of renewables/innovations, and perceived climate risk, which could inform design choices and evaluation metrics for greener smart-home automations that aim to change user behavior or adopt cleaner technologies.",
+  "normalized_green_categories_one_hot": {
+    "hvac_optimization": 0,
+    "lighting_efficiency": 0,
+    "water_saving": 0,
+    "standby_reduction": 0,
+    "appliance_energy_management": 0,
+    "energy_monitoring": 0,
+    "occupancy_based_control": 0,
+    "environmental_awareness": 1,
+    "scheduling_optimization": 0
+  }
+}

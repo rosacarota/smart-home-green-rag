@@ -48,15 +48,10 @@
 
 ## Article 10
 
-- **Title**: What people think about green smart home
-- **URL**: https://iris.cnr.it/bitstream/20.500.14243/509853/1/short10.pdf
-
-## Article 11
-
 - **Title**: Energy management of smart homes over fog-based IoT architecture
 - **URL**: https://www.sciencedirect.com/science/article/pii/S2210537923000537?via%3Dihub
 
-## Article 12
+## Article 11
 
 - **Title**: Electric Energy Management in the Smart Home: Perspectives on Enabling Technologies and Consumer Behavior
 - **URL**: https://docs.nlr.gov/docs/fy13osti/57586.pdf

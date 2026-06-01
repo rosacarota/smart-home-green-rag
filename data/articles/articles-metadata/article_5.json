@@ -1,0 +1,17 @@
+{
+  "article_id": "ARTICLE_005",
+  "source_title": "What People Think About Green Smart Homes",
+  "year": "2024",
+  "article_summary": "This paper reports two online surveys (general end users and experienced amateur automators) investigating attitudes, practices, and needs about smart-home automations with a focus on environmental sustainability; respondents show clear interest in monitoring energy consumption, receiving recommendations for optimal appliance activation times, and tools to identify excessive consumption. Experienced users report concrete energy-focused automations: HVAC scheduling tied to occupancy and windows, lighting and appliance shutoff based on presence, load management to avoid meter overload, and synchronizing device operation with photovoltaic production; both groups request better UX, integration/standardization, and AI-assisted suggestions to support greener behavior. The authors conclude that sustainable-management features (monitoring, recommendation, conflict detection) and improved end-user development interfaces are needed to make green automations accessible to more users.",
+  "normalized_green_categories_one_hot": {
+    "hvac_optimization": 1,
+    "lighting_efficiency": 1,
+    "water_saving": 0,
+    "standby_reduction": 1,
+    "appliance_energy_management": 1,
+    "energy_monitoring": 1,
+    "occupancy_based_control": 1,
+    "environmental_awareness": 1,
+    "scheduling_optimization": 1
+  }
+}

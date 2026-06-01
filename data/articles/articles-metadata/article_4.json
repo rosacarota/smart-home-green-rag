@@ -1,0 +1,17 @@
+{
+  "article_id": "ARTICLE_004",
+  "source_title": "Smart home energy management systems in internet of things networks for green cities demands and services",
+  "year": "2021",
+  "article_summary": "The article reviews IoT-based smart home energy management systems and discusses architectures and services that support energy-efficient operation in the context of green cities. It highlights techniques such as demand-side management, load scheduling, device coordination, and digital-twin or monitoring approaches that enable optimized appliance operation and shifting loads to greener/off-peak times. The paper also addresses user-facing aspects like energy-awareness and services that can promote sustainable behavior, as well as integration challenges for occupancy detection and automated control strategies that preserve comfort and safety.",
+  "normalized_green_categories_one_hot": {
+    "hvac_optimization": 1,
+    "lighting_efficiency": 1,
+    "water_saving": 0,
+    "standby_reduction": 1,
+    "appliance_energy_management": 1,
+    "energy_monitoring": 1,
+    "occupancy_based_control": 1,
+    "environmental_awareness": 1,
+    "scheduling_optimization": 1
+  }
+}

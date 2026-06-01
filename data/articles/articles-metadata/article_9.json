@@ -1,0 +1,17 @@
+{
+  "article_id": "ARTICLE_009",
+  "source_title": "Estimating electricity saving-potential in small offices using adaptive thermal comfort",
+  "year": "2022",
+  "article_summary": "This article estimates electricity-saving potential in small office buildings using smart control informed by IoT sensors and remotely controlled devices. It focuses on adaptive thermostat setpoints, occupancy-informed HVAC control, smart plug control, and night-purge free cooling to reduce unnecessary energy use while maintaining indoor thermal comfort. The results show substantial electricity savings, making the paper directly useful for generating greener automation rules centered on HVAC control, occupancy, and scheduling.",
+  "normalized_green_categories_one_hot": {
+    "hvac_optimization": 1,
+    "lighting_efficiency": 0,
+    "water_saving": 0,
+    "standby_reduction": 0,
+    "appliance_energy_management": 1,
+    "energy_monitoring": 0,
+    "occupancy_based_control": 1,
+    "environmental_awareness": 0,
+    "scheduling_optimization": 1
+  }
+}

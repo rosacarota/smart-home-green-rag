@@ -1,0 +1,88 @@
+You are preparing one article for a Retrieval-Augmented Generation (RAG) knowledge base about green smart-home trigger-action rules.
+
+The final goal of the knowledge base is to help an LLM transform existing smart-home IF-THEN automation rules into greener versions while preserving the user's original functional intent, comfort, and safety.
+
+TASK
+Read the provided article carefully and extract ONLY document-level information, without creating chunks or patterns.
+
+You must:
+1. Understand whether and how the article is relevant to green smart-home automation and trigger-action rules.
+2. Produce a concise article summary focused on aspects that could conceptually support greener smart-home rules.
+3. Assign binary one-hot values (0/1) for the following normalized green categories, based on the overall content of the article.
+
+Use ONLY the following normalized green categories as one-hot fields:
+
+- hvac_optimization
+- lighting_efficiency
+- water_saving
+- standby_reduction
+- appliance_energy_management
+- energy_monitoring
+- occupancy_based_control
+- environmental_awareness
+- scheduling_optimization
+
+INTERPRETATION RULES FOR CATEGORIES
+Set a category to 1 if the article contains content that is:
+- directly focused on that topic, OR
+- provides concepts, findings, or design ideas that can reasonably inform greener rules for that topic.
+
+Otherwise, set it to 0.
+
+Guidelines per category:
+
+- hvac_optimization: 1 if the article discusses heating/cooling management, thermal comfort, thermostats, HVAC control, energy-aware temperature management, or scheduling of heating/cooling in homes.
+
+- lighting_efficiency: 1 if the article discusses lighting control, lights automation, using daylight, dimming, turning lights off when not needed, or energy-efficient lighting behavior.
+
+- water_saving: 1 if the article discusses water consumption, irrigation, smart watering, or any strategy explicitly related to reducing water waste.
+
+- standby_reduction: 1 if the article discusses standby consumption, always-on devices, avoiding unnecessary idle power, or similar ideas.
+
+- appliance_energy_management: 1 if the article discusses appliance usage (washing machines, dishwashers, dryers, fridges, ovens, etc.), scheduling or optimizing their use, or shifting their operation to greener/cheaper conditions.
+
+- energy_monitoring: 1 if the article discusses monitoring or visualizing energy consumption, feedback dashboards, digital twins that show energy usage, ecological footprint displays, or any analytics/monitoring features related to energy. (For example, visualizing consumption, CO2 equivalent, or forecasts for energy demand in a smart home.)
+
+- occupancy_based_control: 1 if the article discusses presence detection, occupants’ behavior, adapting automations to when people are home/away, or tailoring control to users’ activities and routines.
+
+- environmental_awareness: 1 if the article discusses sustainability awareness, ecological footprint, behavior change for sustainability, climate impact, or educational/gamification mechanisms to increase environmental consciousness.
+
+- scheduling_optimization: 1 if the article discusses when automations run (timing), off-peak usage, shifting loads in time, optimized schedules for devices, cost-aware or grid-aware timing, or similar concepts.
+
+IMPORTANT:
+- An article can activate multiple categories at once (set multiple values to 1).
+- If a topic is mentioned only in a very generic way, but still clearly relevant to one of the categories above, you can set that category to 1.
+- Do NOT activate a category if there is no clear connection in the article text.
+
+OUTPUT FORMAT
+Return ONLY valid JSON with this exact structure:
+
+{
+  "article_id": "ARTICLE_001",
+  "source_title": "",
+  "year": "",
+  "article_summary": "",
+  "normalized_green_categories_one_hot": {
+    "hvac_optimization": 0,
+    "lighting_efficiency": 0,
+    "water_saving": 0,
+    "standby_reduction": 0,
+    "appliance_energy_management": 0,
+    "energy_monitoring": 0,
+    "occupancy_based_control": 0,
+    "environmental_awareness": 0,
+    "scheduling_optimization": 0
+  }
+}
+
+FILLING RULES
+- article_id: keep the ID provided by the caller, or "ARTICLE_001" if none is given.
+- source_title: the title of the article, if clearly available in the text; otherwise leave as empty string.
+- year: the publication year if clearly detectable; otherwise leave empty.
+- article_summary: write 2–4 sentences that summarize ONLY the aspects of the article that are relevant to green smart-home behavior, sustainability, automation, user behavior, energy awareness, or design concepts that could inform greener rules. Do not summarize unrelated parts.
+- normalized_green_categories_one_hot: set each field to 0 or 1 following the interpretation rules above.
+
+GENERAL CONSTRAINTS
+- Do NOT output any fields other than those specified.
+- Do NOT add comments or explanations outside the JSON.
+- The JSON MUST be syntactically valid.
