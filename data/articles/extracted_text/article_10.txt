@@ -1,0 +1,1456 @@
+--- PAGE 1 ---
+
+Sustainable Computing: Informatics and Systems 39 (2023) 100898
+Available online 20 July 2023
+2210-5379/© 2023 The Author(s). Published by Elsevier Inc. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/bync-nd/4.0/).
+Contents lists available at ScienceDirect
+Sustainable Computing: Informatics and Systems
+journal homepage: www.elsevier.com/locate/suscom
+Energy management of smart homes over fog-based IoT architecture
+Muhammad Umair a,b,∗, Muhammad Aamir Cheema c, Bilal Afzal d, Ghalib Shah e
+a School of Computer Science, The University of Sydney, Camperdown NSW 2006, Australia
+b Department of Electrical, Electronics and Telecommunication Engineering, New Campus, University of Engineering and Technology, Lahore, Pakistan
+c Faculty of Information Technology, MONASH University, Wellington Rd, Clayton VIC 3800, Australia
+d National Centre for Cyber Security, Air University, Islamabad, Pakistan
+e Sultan Qaboos IT Chair, University of Engineering and Technology, Lahore, Pakistan
+A R T I C L E
+I N F O
+Keywords:
+Smart home
+IoT
+Home automation system
+Energy optimization
+Energy modeling
+Fog-based architectures
+Markov chain
+A B S T R A C T
+Existing research studies on home automation systems mostly conserve energy by modeling the occupancy of
+users within home. Some others apply statistical approaches on the survey data about usage of appliances.
+Consequently, these research works either reduce wastage of electricity through automation or achieve energy
+efficiency based on appliances’ usage estimations. However, they do not provide energy consumption modeling
+which is human comfort centric and also validated through practical implementation in real-world smart
+homes. We present a Markov-chain-based probabilistic model to obtain users stochastic activity patterns
+which are used to forecast the energy consumption in a smart home environment. These predictions are
+then leveraged by our novel comfort aware energy saving mechanism named as prediction- and feedback-based
+proactive energy conservation (PF-PEC) algorithm. The PF-PEC algorithm reduces the total energy consumption
+while ensuring standard human comfort. Furthermore, a fog-based Internet of Things (IoT) architecture is
+implemented and deployed in a smart home to efficiently incorporate the proposed algorithm in real-world
+scenarios. Experimental results show up to 36% energy conservation, marking substantial reduction in daily
+electricity usage.
+1. Introduction
+In the last decade, the proliferation of smart devices has remarkably improved and reshaped the lifestyles of their users [1]. A home
+automation system (HAS) introduces smartness and intelligence within
+home appliances to automate various household operations. The primal objective is to reduce the tiresome decision-making process thus
+making the user’s life hassle-free and providing them with flexibility
+of control [2]. An Internet of Things (IoT) enabled smart home is a
+smart place where the appliances are connected to the Internet so
+that every appliance is identifiable, accessible and thus controllable
+across the globe [3]. IoT takes the conventional HAS systems to next
+step, to improve the services of various sub-systems and expand their
+outreach. The appliances are controlled based on the user activity
+patterns, user preferences, and/or according to the changes in dynamic
+environmental conditions. Major benefits include more rational use of
+energy and other resources which in turn results in superior energy
+management as well as significant time and cost savings [4].
+Particularly, the energy management of smart homes has been a
+focus of the research community in recent years [5]. For instance, the
+∗Corresponding author at: School of Computer Science, The University of Sydney, Camperdown NSW 2006, Australia.
+E-mail address: m.umair@uet.edu.pk (M. Umair).
+significance of optimizing demand side management is discussed in [6,
+7]. Several research works leverage different statistical approaches to
+determine user activity patterns [8–10]. Some others have conducted
+user surveys to obtain energy demand and to predict energy consumption of households operations [11,12]. However, these energy
+management techniques are error-prone as they rely upon appliances
+data acquired through user surveys. They may under-perform when appliances’ usage routines are changed due to variations in environment
+over a period of time.
+Similarly, state-of-the-art Markov-chain-based solutions determine
+user state probabilities to compute user activity states and their resulting impact on energy demand [13–15]. However, one of the limitations
+in these approaches is that they do not consider the shared nature of
+appliances’ usage for estimating the user activities and corresponding
+states. In other words, the proposed models in these research works do
+not determine the cumulative users’ activity patterns. Research papers
+on computing household activities and predicting energy consumption
+also exist in literature [16,17]. In fact, many state-of the-art predictive
+https://doi.org/10.1016/j.suscom.2023.100898
+Received 19 March 2020; Received in revised form 30 May 2022; Accepted 14 July 2023
+
+--- PAGE 2 ---
+
+Sustainable Computing: Informatics and Systems 39 (2023) 100898
+2
+M. Umair et al.
+algorithms investigated for smart homes are described in [18]. Nevertheless, the results obtained from these algorithms and prior works in
+this research area are not experimentally validated in real-world smart
+home environments.
+In our research, a novel fog-based IoT-enabled HAS system is designed and implemented to take practical results in real-world scenarios. Therein, user surveys only serve as an initial knowledge to
+the system, which will be then updated by providing a continuous
+feedback about the real-time data reported from the appliances themselves. Hence, compared to traditional prediction based algorithms that
+use user surveys, real-time appliances data usage will provide better
+estimates of energy consumption. To the best of our knowledge, there
+exists no comprehensive work on IoT-enabled smart homes that gives
+thorough explanation of getting user activity patterns, and computes
+state transition probabilities along with stochastic state probabilities
+in order to estimate energy consumption; and in a further step, that
+applies optimization algorithm on the predicted energy consumption to
+reduce electricity usage in smart homes while ensuring user comfort.
+This paper proposes a Markov-chain-based stochastic model to calculate user state transition probabilities which are then used to predict
+the energy demand in next few time slots. Initially, user daily life
+routines are acquired by conducting a survey. The survey is designed
+in a way to simplify the mapping of user data to four activity states
+which include absent, sleep, active and hyper-active state. The obtained
+data is then processed to calculate user state transition probabilities.
+These probabilities are provided as an input to the Markov chain model
+which gives user state probabilities in specified time slots. In this
+respect, we estimate power consumption ranges against user state probabilities that are updated later by real-time appliance usage through
+feedback mechanism. Experimental results are taken to validate that
+the actual energy consumption mostly stays within the range of maximum probability predicted from the model. Further, a prediction- and
+feedback-based proactive energy conservation (PF-PEC) algorithm is presented to minimize electricity cost by optimizing the operation of
+smart home appliances. To incorporate the proposed algorithms in
+real-world scenarios, a fog-based IoT architecture for smart homes is
+implemented and deployed which provides appliances control and local
+data processing closer to end-users. Finally, performance evaluation of
+proposed algorithms is conducted exhibiting significant reduction in
+the energy consumption of a smart home. Below, we summarize our
+contributions.
+• We present novel algorithms that exploit human occupancy patterns for energy conservation in smart homes while ensuring
+human comfort.
+• We present details of our general-purpose fog-based IoT architecture for smart homes discussing its functionalities and characteristics. We create a real-world testbed by implementing the proposed
+architecture in a real-world smart home system.
+• We implement and deploy the proposed algorithms in our realworld testbed and conduct a detailed experimental study. The
+results demonstrate that our algorithms provide significant improvement compared to the existing algorithms in terms of smart
+home energy efficiency without compromising human comfort.
+The rest of the paper is organized as follows. Related work is discussed
+in Section 2. Section 3 presents the details of our stochastic model
+and an algorithm that estimates the energy consumption in future
+timestamps. In Section 4, we introduce the proposed PF-PEC algorithm
+for energy conservation in smart homes. We present our fog-based
+IoT architecture for smart homes and the details of real-world testbed
+in Section 5. Section 6 presents the experimental evaluations and
+Section 7 concludes the paper.
+2. Related work
+2.1. Markov chain for energy optimization
+Markov chain is a stochastic model in which the probability of each
+event in a sequence depends only on the state attained in the previous
+event [19]. We provide more details of Markov chain in Section 3.1
+where we discuss how we apply Markov chain to obtain the user state
+probabilities for our work. Several research studies propose probabilistic methods to model user behaviors [8–10,20]. Authors in [8]
+established the user occupancy from sensors deployed in smart buildings. They proposed a Markov model to forecast the user occupancy.
+The model outperforms the existing techniques based on probability
+sampling, support vector regression and artificial neural networks for
+predicting short term user occupancy. A preliminary version of our
+work is presented in [21] that leverages Markov chain for energy consumption optimization. A building energy consumption model based on
+stochastic Markov models is proposed in [9]. Similarly, authors in [10]
+presented a four-state user occupancy model. They applied first order
+Markov chain on user activity data and presented significance of their
+method through correlation of occupancy states in multiple occupied
+dwellings. Similarly, a stochastic model of household activity patterns
+is presented in [20]. It investigates the empirical activity data and
+explores patterns in form of stochastic process with memory of variable
+length.
+A Markov chain model is proposed in [22] to manage the power
+consumption prediction to prevent overload usage of electricity. It
+is a 3 state model including normal, critical and emergency states of
+the load. The predicted states are then utilized in a smart residential
+load management system. A Hidden Markov Model based algorithm is
+proposed in [23] to predict energy consumption in Korean residential
+buildings using data collected through smart meters. The model is
+validated on four buildings. The results show better root mean square
+error as compared to Artificial Neural Networks (ANN), Support Vector
+Machines (SVM) and Classification and Regression Tree (CART). The
+above stated models although incorporate various factors which may
+directly or indirectly influence the energy consumption, but they do
+not provide the real world applications of their work in the context of
+energy conservation.
+2.2. Smart home energy management
+A smart home energy management solution is proposed in [24]. It
+considers a detailed set of attributes related to energy management in
+a smart home. These attributes are then linked to each other by meaningful and useful relationships. A fuzzy logic based smart home energy
+management is proposed in [25]. It classifies appliances based on their
+energy consumption patterns. In this respect, a fuzzy logic is then
+proposed to operate different classes of appliances. A bat algorithm
+(BA) based solution with exponential inertia weight is proposed in [26]
+to save energy in a smart home without deteriorating the user comfort.
+Temperature, illumination, and indoor air quality are considered to
+account for the user comfort. The proposed approach shows positive
+results due to improved convergence behavior.
+A research study in [12] proposed an algorithm which manages
+household loads according to their predefined priorities and guarantees
+the total power consumption below certain levels. Another research
+in [14] identified several factors related to climate that can influence
+the energy utilization of a building and analyzed their contribution
+in energy consumption. A multi-agent model is proposed in [15] for
+simulating human activities for achieving energy efficiency. Authors
+in [16] developed a novel household resource allocation model which
+incorporates multiple interactions (such as interaction between time of
+use and energy consumption, the intra household interaction) based on
+multi-linear utility functions. They endogenously represented zero consumption for both time and energy within the group decision-making
+
+--- PAGE 3 ---
+
+Sustainable Computing: Informatics and Systems 39 (2023) 100898
+3
+M. Umair et al.
+modeling framework. Likewise, a statistical method is presented in [17]
+for modeling the behavior of home occupants to estimate residential
+energy consumption. A behavioral artificial neural network model is
+proposed in [27] for simulating energy consumption in smart dwellings.
+A methodological framework is presented in [28] for validation of
+domestic lightening model. The metrics affecting lightening behavior
+are identified and lightening model according to different scenarios
+are statistically evaluated. However, these models do not consider and
+predict overall energy consumption of a home as they focus on limited
+factors such as users’ occupancy and/or lightening demand within a
+home.
+2.3. Feedback mechanism and new approaches for energy optimization
+The research in [29] highlights the importance of information feedback for households’ daily activities to improve the accuracy of energy consumption computations. This method gives direct feedback
+to households and the information is relevant since it emanates from
+their own reported activities. Authors in [30] investigated the complexity of existing models for occupancy behavior. Some of the concepts
+presented in these papers [29,30] are leveraged in our model such
+as the application of feedback to the system. Several models specific
+to certain cultures and geography are also available in literature. For
+example, in [11], a tool for predicting the total energy consumption and
+associated greenhouse gas (GHG) emissions of Australian households
+is developed. It integrates the thermal efficiency of building envelope,
+installed equipment, and different occupancy profiles with energy enduse modules for space and water heating, cooling, lighting, and plug-in
+appliances. However, these research works deal with specific use cases
+and are not generic enough to the energy demand of every geographical
+region. Nowadays, homes typically have multiple power sources such as
+solar, battery bank, and grid [31]. Due to COVID-19, daily routines of
+people have changed and they spend more time at home. So, domestic
+energy consumption has increased significantly. In this respect, a list of
+new approaches towards energy management is provided in [32].
+2.4. Fog-based architectures and human-comfort-based energy optimization
+Many fog-based and federated-learning-based architectures have
+been proposed and utilized in many applications in the past few years
+due to the increasing interest in fog and edge computing [33–37]. A
+novel four-tier architecture for load optimization in fog environments is
+proposed in [38]. A fog computing structure is proposed for tier-3. The
+proposed architecture helps in reducing fog node failures. A machine
+learning classifier is proposed in [39] to reduce the energy and latency
+at the fog nodes. It investigates the performance of different machine
+learning classifiers on a fog node. An energy consumption model is
+then proposed for the fog nodes. In [36], a fog platform termed as
+EHOPES is proposed which comprises different hardware and software
+capabilities. Therein, authors investigated the network requirements of
+various smart living applications of IoT and presented the performance
+of their proposed platform in terms of latency and throughput. The
+simulation results reported in [36] showed considerable improvement
+in reducing the latency. However, our proposed fog based architecture
+achieves better latency results in comparison to EHOPES fog platform. A context-aware energy saving algorithm (namely M-CHESS) is
+proposed in [37] which reduces energy consumption in smart home
+environment considering human comfort constraints. Our proposed
+solution human-centric as it also considers human comfort constraints
+as per ANSI/ASHRAE standard while improving energy conservation.
+Another design approach to operate HVAC in a smart home environment is proposed in [40]. It also considers the human comfort
+threshold in energy consumption management. It combines the values
+of humidity and temperature to define comfort zones. We compare our
+PF-PEC algorithm performance with that of E-HOPES and M-CHESS
+algorithms in performance evaluation Section.
+3. Probabilistic model
+We propose a Markov-Chain-based stochastic model which gives
+probabilities of user activities in a smart home. Moreover, the proposed
+model results in probabilities of consuming certain amount of power in
+specified time slots. This probability versus wattage dataset will then
+be used to propose an algorithm to minimize the cost of electricity considering different electricity tariffs. The user activities are categorized
+into four different states. These states are named as absent, sleep, active
+and hyper-active. A user can only be in one state at a given time. The
+description of these user activity states is given in Table 1. User states
+are defined in such a manner that each and every appliance to be used
+at home is covered.
+3.1. Computing user states probabilities
+Initially, we conduct a survey to receive user activity patterns
+throughout the day. This survey acquires information about the number
+of shared and personal appliances at home. It serves as an initial
+knowledge to the model and is used to calculate user activities in
+specified time slots. These activity patterns constitute a state transition
+matrix of a single user. It is important to mention that the user activities will be continuously updated using feedback mechanism by our
+proposed algorithm. In the next step, Markov chain is applied on the
+state transition matrix to compute stochastic user state probabilities.
+Every user has its own state probability matrix as there is a separate
+Markov process for each user. The user activity states are taken as the
+Markov states. The Markov set of states are: {𝛿𝑛∶0 ≤𝑛≤3} where 0
+means absent; 1 represents sleep state; 2 is active; and 3 is hyper-active
+state. Whereas, 𝛿𝑛represents the 𝑛th state. Let 𝑁𝑖,𝑗denote the number
+of transitions from 𝑖th state to 𝑗th which is obtained from the survey
+of activity patterns of each user. Probability of transiting to 𝑗th state
+from 𝑖th state is denoted as 𝑃𝑖,𝑗and is computed as:
+𝑃𝑖,𝑗=
+𝑁𝑖,𝑗
+∑3
+𝑘=0 𝑁𝑖,𝑘
+(1)
+Note that 𝑃𝑖,𝑗≥0 and, for every state 𝑖,
+3
+∑
+𝑗=0
+𝑃𝑖,𝑗= 1
+(2)
+The following 4 × 4 Markov state transition matrix is obtained from
+user activity patterns:
+𝑇𝑠=
+⎡
+⎢
+⎢
+⎢
+⎢⎣
+𝑃0,0
+𝑃0,1
+𝑃0,2
+𝑃0,3
+𝑃1,0
+𝑃1,1
+𝑃1,2
+𝑃1,3
+𝑃2,0
+𝑃2,1
+𝑃2,2
+𝑃2,3
+𝑃3,0
+𝑃3,1
+𝑃3,2
+𝑃3,3
+⎤
+⎥
+⎥
+⎥
+⎥⎦
+where each row in 𝑇𝑠represents transition probability of transiting
+from one particular state to the other states. Fig. 1 shows the state
+diagram representing these activity states. It is clear from the diagram
+that each state is accessible from itself and all other states. Hereafter,
+unless clear from context, we use 𝑇𝑢
+𝑠to denote the transition matrix for
+a particular user 𝑢. We use 𝑃𝑢
+𝑛(𝑡) to denote the probability that a user 𝑢
+is in state 𝑛at time 𝑡where 𝑛is between 0 and 3. The state probability
+matrix of a user 𝑠𝑢(𝑡) at time 𝑡can then be obtained by using its state
+probability matrix at the previous time 𝑡−1 and its transition matrix
+𝑇𝑢
+𝑠:
+𝑠𝑢(𝑡) = [𝑃𝑢
+0 (𝑡)
+𝑃𝑢
+1 (𝑡)
+𝑃𝑢
+2 (𝑡)
+𝑃𝑢
+3 (𝑡)] = 𝑠𝑢(𝑡−1) × 𝑇𝑢
+𝑠
+(3)
+The initial state matrix (at time 0) of a user 𝑢can be obtained
+using its known state at time 0, e.g., if a user is in state 1 at 𝑡= 0
+then the initial state vector is 𝑠𝑢(0) = [0
+1
+0
+0].
+Let 𝑈be the
+set of all users living in a home. The sample space is a set of all
+possible outcomes (represented by 𝑈𝑛) for all users 𝑈living in home,
+i.e. 𝑆𝑎𝑚𝑝𝑙𝑒𝑆𝑝𝑎𝑐𝑒= (𝑈𝑛)𝑈. The possible outcomes are the combinations
+
+--- PAGE 4 ---
+
+Sustainable Computing: Informatics and Systems 39 (2023) 100898
+4
+M. Umair et al.
+Table 1
+Description of user activities.
+States
+Description
+Absent
+A user is in absent state, when he/she is outside the home.
+Sleep
+When a user is present in the house but not engaged in any activity. Power consumed due to
+his/her presence only comprises of cooling and heating of environment in corresponding room.
+Active
+When a user is using his/her personal gadgets and appliances, i.e. computer, video-gaming,
+chargers, etc. These appliances are other than the cooling or heating appliances.
+Hyper-active
+When a user is utilizing one of the shared appliances at home. Shared appliances are the ones
+which are in-use of every person at home, i.e. water pump, electric geyser, electric hearth,
+washing machine, etc. These appliances also do not include heating or cooling appliances.
+Fig. 1. User activities state diagram.
+of different user activity states. Thus, an increase in number of users
+increases the sample space essentially. Power consumption depends on
+the activity states of the users in the house, e.g., if all users are absent,
+the power consumption is low. Several combinations may correspond to
+approximately same power consumption and considering all outcomes
+in the model will be redundant. Therefore, potential outcomes are
+identified and only their combinations are considered. For instance,
+one potential outcome is all users are in absent state; another possible
+outcome is at least one user is in hyperactive state, and so on. In essence,
+only those outcome combinations are selected that correspond to fairly
+different power consumption. Hence, our first outcome combination
+is all users in absent state. Reason to consider this combination in the
+model is because in most cases, it corresponds to minimum power
+consumption range in the house.
+Next, we consider several possible
+combinations of activity states of the users living in the house and show
+how to calculate their probabilities.
+All users are absent. If all of the users are in state 0 (i.e., absent), the
+power consumption will be the lowest. The Markov state probability
+matrix in Eq. (3) is specific to one user. The activity states of all users
+are independent of each other. Therefore, to compute the probability
+of more than one user in a particular state, we simply need to find their
+joint probability i.e. probability that two users 𝑢and 𝑣are both in state
+0 at 𝑡th time slot is 𝑃𝑢
+0 (𝑡).𝑃𝑣
+0 (𝑡). Probability of all users in absent state
+at time 𝑡can is obtained as:
+𝑃𝑎𝑙𝑙−𝑎𝑏𝑠𝑒𝑛𝑡=
+∏
+𝑢∈𝑈
+𝑃𝑢
+0 (𝑡)
+(4)
+All users are sleeping. If the users are present in home but are sleeping
+(i.e., in state 1), the power consumption will still be low but higher than
+when all users are absent. The probability that all users are sleeping at
+time 𝑡can be obtained as
+𝑃𝑎𝑙𝑙−𝑎𝑠𝑙𝑒𝑒𝑝=
+∏
+𝑢∈𝑈
+𝑃𝑢
+1 (𝑡)
+(5)
+At least one user is hyper-active. The power consumption will be quite
+high when at least one user is hyper-active because, as noted in Table 1,
+the user will be using the shared appliances (which are usually the
+high load appliances) in the home. Now, we show how to compute the
+probability that at least one user is in state 3, the hyper-active state.
+The probability that a user 𝑢is not in hyper-active state at time 𝑡is
+(1 −𝑃𝑢
+3 (𝑡)). The probability that all user are in non-hyper-active state
+can be computed as ∏
+𝑢∈𝑈(1 −𝑃𝑢
+3 (𝑡)). Thus, the probability that at least
+one user is in hyper-active state can be obtained as
+𝑃1+ℎ𝑦𝑝𝑒𝑟𝑎𝑐𝑡𝑖𝑣𝑒= 1 −
+∏
+𝑢∈𝑈
+(1 −𝑃𝑢
+3 (𝑡))
+(6)
+At least one user is active. When at least one user is active (i.e., state
+2), the power consumption will be lower than the case when at least one
+user is hyper-active but will be higher than when all users are asleep
+or absent. Similar to Eq. (6), the probability that at least one user is
+active can be computed as
+𝑃1+𝑎𝑐𝑡𝑖𝑣𝑒= 1 −
+∏
+𝑢∈𝑈
+(1 −𝑃𝑢
+2 (𝑡))
+(7)
+Equations (4) to (7) provide the probabilities of different important combinations of user states that can be used to estimate energy
+consumption level. Hence, the principle defined for grouping of user
+activities into states and state probability data set along with current
+state of appliances (provided by feedback mechanism) help to estimate
+probability of consuming a certain amount of energy at a particular
+time slot. This data set is converted into a table as shown in Table 3a
+and Table 3b. These tables are specific to a use case described in
+Section 6. The values in these tables represent different probabilities
+of all users cumulatively consuming a certain power. Next, we present
+an algorithm that uses these probabilities to estimate probability of
+consuming high power at a certain timeslot.
+
+--- PAGE 5 ---
+
+Sustainable Computing: Informatics and Systems 39 (2023) 100898
+5
+M. Umair et al.
+Algorithm 1 : Energy Consumption Modeling Algorithm
+Input: User Activity Patterns
+Output: 𝑃𝑐, the probability of power consumption
+1: Update 𝑇𝑢
+𝑎for every user
+⊳where 𝑇𝑢
+𝑎= Activity Pattern
+2: Compute 𝑇𝑢
+𝑠for every user ⊳where 𝑇𝑢
+𝑠= State Transition Matrix for user
+u
+3: while 𝑡∈𝜏do
+⊳where 𝜏= peak hours duration
+4:
+for each user 𝑢in 𝑈do
+5:
+𝑠𝑢(𝑡) = 𝑠𝑢(𝑡−1) × 𝑇𝑢
+𝑠;
+⊳Eq. (3)
+6:
+end for
+7:
+𝑃𝑎𝑙𝑙−𝑎𝑏𝑠𝑒𝑛𝑡= ∏
+𝑢∈𝑈𝑃𝑢
+0 (𝑡)
+⊳Eq. (4)
+8:
+𝑃𝑎𝑙𝑙−𝑎𝑠𝑙𝑒𝑒𝑝= ∏
+𝑢∈𝑈𝑃𝑢
+1 (𝑡)
+⊳Eq. (5)
+9:
+𝑃1+ℎ𝑦𝑝𝑒𝑟𝑎𝑐𝑡𝑖𝑣𝑒= 1 −∏
+𝑢∈𝑈(1 −𝑃𝑢
+3 (𝑡))
+⊳Eq. (6)
+10:
+𝑃1+𝑎𝑐𝑡𝑖𝑣𝑒= 1 −∏
+𝑢∈𝑈(1 −𝑃𝑢
+2 (𝑡))
+⊳Eq. (7)
+11:
+𝑡+ +
+12: end while
+13: Compute average probability of each combination over all timeslots
+considering the probabilities computed in lines 7-10
+14: Using the average probabilities, estimate the probability of power
+consumption 𝑃𝑐at each level
+15: return 𝑃𝑐
+3.2. Energy consumption modeling algorithm
+In this section, we present our energy consumption modeling algorithm (see Algorithm 1) which leverages the model proposed in
+Section 3.1. The algorithm employs the probabilities computed in
+Eqs. (4)–(7) to estimate the energy consumption. This estimated consumption can then be used to operate appliances in an optimal way
+to save energy. The probabilities are only computed for peak load
+hours during which the electricity is relatively costly. Afterwards, the
+estimated probabilities of high power consumption are fed to another
+algorithm (Algorithm 2 to be presented in Section 4) which controls
+the operation of appliances. Next, we present the details of Algorithm
+1.
+Algorithm 1 takes the user state transitions as an input and returns
+the probability of power consumption at future timestamps. Specifically, given different ranges of power consumption (e.g., low, medium,
+high), the algorithm returns, for each range, the probability that the
+power consumption in future timeslots will be within this range. Firstly,
+the algorithm takes user activity pattern of each user 𝑢(denoted by 𝑇𝑢
+𝑎)
+and computes the state transition matrix of the user (denoted as 𝑇𝑢
+𝑠). It
+is worth mentioning that the feedback from Algorithm 2 continuously
+updates the vector 𝑇𝑢
+𝑎for each user (line 1) to take into consideration
+any update in the user activity pattern, thus, 𝑇𝑢
+𝑠is recomputed for every
+user accordingly (line 2). Then, the algorithm iterates through each
+time slot 𝑡in the desired duration for which energy consumption needs
+to be predicted (line 3). In our implementation, we use the algorithm
+to estimate energy consumption only during the peak hours 𝜏. In each
+iteration, the algorithm first updates the user state probability matrix
+𝑠𝑢(𝑡) for each user 𝑢using Eq. (3) (line 5). Then, the state probability
+matrices of the users are used to compute the probabilities of different
+combinations using Eqs. (4)–(7) as described earlier (lines 7 to 10). In
+each iteration, for each 𝑡, these probabilities are computed and stored
+in an array to be used when the while loop terminates. Specifically,
+the algorithm uses the stored probabilities for each 𝑡and computes the
+average probability of each combination over all timestamps (line 13).
+Based on these probabilities, the algorithm then estimates the probability of power consumption at each level 𝑃𝑐(line 14). For example,
+if 𝑃1+ℎ𝑦𝑝𝑒𝑟𝑎𝑐𝑡𝑖𝑣𝑒is quite high for each timeslot 𝑡(there is at least one
+hyperactive user), then the algorithm will return a high probability
+of the power consumption to be within the high range. Finally, the
+algorithm returns 𝑃𝑐which is to be used by Algorithm 2 presented in
+the next section.
+Tables 3a and 3b in Section 6 show the output of Algorithm 1 when
+deployed in our real-world testbed. This data can be used in predicting
+Table 2
+ANSI/ASHRAE Standard factors for thermal comfort.
+Factors
+Description
+Metabolic rate (met)
+The energy generated from human body
+Clothing insulation (clo)
+The amount of thermal insulation
+person is wearing
+Radiant temperature
+The weighted average of all temperatures
+from surfaces surrounding an occupant
+Air velocity
+Rate of air movement given distance over
+time
+Relative humidity
+Percentage of water vapor in the air
+the user behavior and power consumption of a smart home in near
+future. Next, we present a novel algorithm which uses the output of
+Algorithm 1 to reduce electricity cost while ensuring appropriate user
+comfort.
+4. Prediction and feedback based proactive energy management
+algorithm
+In this Section, we present our PF-PEC algorithm that ensures
+reduction of appliances over-usage in a smart home during peak load
+hours, i.e., when electricity cost is typically higher than the normal
+rates. Considering an appliance activity is schedulable, the proposed
+algorithm schedules the activity from peak load hours to non-peak
+hours without affecting the users’ comfort level. It does so if there is
+a strong prediction of appliance(s) usage in a peak load hour. In a
+smart home, the above mentioned scheduling is achieved by scaling the
+various thresholds of appliances up and down. A threshold is the particular value of any environmental factor such as temperature, humidity,
+etc., which determines the switch-on or switch-off operation(s) of the
+corresponding appliance(s). Hence, a change in the threshold value
+implies that the operation of the appliance can be advanced or delayed.
+While, a change in threshold value of an appliance is dependent upon
+its current as well as future probabilities of certain amount of powerconsumption. Some other parameters are also incorporated to avoid any
+compromise on user comfort.
+4.1. Calibration of threshold ranges on a common scale
+To propose a single energy saving algorithm for all home appliances,
+it is necessary to calibrate environmental parameters on a common
+scale. These parameters are measured in frequently used units, i.e. temperature is measured in degree Celsius (◦C), luminance is measured
+in 𝑙𝑢𝑥and humidity is measured in percentage. To calibrate the temperature thresholds, ANSI/ASHRAE Standard 55 [41] is considered.
+This standard provides minimum requirements for acceptable thermal
+indoor environment conditions. It establishes the acceptable ranges
+of environmental parameters to achieve optimal comfort for smart
+homes users. The thermal comfort is achieved by controlling the factors
+mentioned in Table 2.
+According to ANSI/ASHRAE Standard 55, the range of Predicted
+Mean Vote (PMV) for thermal comfort is −0.5 to 0.5 [42]. To make
+the computations easy, some factors are assumed constant for particular
+environmental conditions. A constant value of 1 is assumed for clothing
+level, which considers that the user is wearing a light business suit.
+Similarly, relative humidity is assumed to be 25% while the radiant
+temperature is 25 ◦C.
+4.2. PF-PEC algorithm operations
+Algorithm 2 outlines the pseudocode of PF-PEC algorithm which
+is executed in peak load hours. Peak load hours are denoted using 𝜏,
+and 𝑃𝑐represents the probability of power consumption obtained from
+Algorithm 1. The parameter 𝑃𝑀𝑉𝑥is initialized to 0, which represents
+the Predicted Mean Vote (PMV) of user comfort for an appliance 𝑥
+
+--- PAGE 6 ---
+
+Sustainable Computing: Informatics and Systems 39 (2023) 100898
+6
+M. Umair et al.
+Table 3a
+Probabilities of specified energy consumption obtained from Algorithm (1).
+KWh ranges
+Time slots
+8am–9am
+9am–10am
+10am–11am
+11am–12pm
+12pm–1pm
+1pm–2pm
+2pm–3pm
+3pm–4pm
+Probability of power
+consumption in
+KWh ranges
+0.01–0.02
+0
+0.0003
+0.0006
+0.0007
+0.0007
+0.0007
+0.0007
+0.0007
+0.05–3.025
+0.11
+0.1639
+0.1878
+0.1983
+0.2029
+0.2048
+0.2057
+0.2060
+0.01–0.03
+0.6875
+0.5673
+0.5143
+0.4880
+0.4741
+0.4664
+0.4620
+0.4595
+0.02–0.04
+0.0391
+0.0454
+0.0452
+0.0441
+0.0431
+0.0424
+0.0420
+0.0417
+0.02–0.03
+0.3129
+0.3996
+0.4308
+0.4450
+0.4525
+0.4567
+0.4590
+0.4602
+Actual Energy
+Consumed (KWh)
+Practical
+0.01
+0.05
+0.02
+0.04
+0.01
+0.04
+0.01
+0.01
+Table 3b
+Probabilities of specified energy consumption obtained from Algorithm (1).
+KWh ranges
+Time slots
+4pm–5pm
+5pm–6pm
+6pm–7pm
+7pm–8pm
+8pm–9pm
+9pm–10pm
+10pm–11pm
+11pm–12am
+Probability of power
+consumption in
+KWh ranges
+0.01–0.02
+0
+0.0012
+0.0011
+0.0009
+0.0008
+0.0007
+0.0007
+0.0007
+0.05–3.025
+0.6
+0.3819
+0.2838
+0.2405
+0.2215
+0.2130
+0.2093
+0.2076
+0.01–0.03
+0.8250
+0.6693
+0.5702
+0.5148
+0.4895
+0.4713
+0.4640
+0.4603
+0.02–0.04
+0.1250
+0.0935
+0.0677
+0.0540
+0.0473
+0.0441
+0.0426
+0.0420
+0.02–0.03
+0.1200
+0.2620
+0.3559
+0.4087
+0.4360
+0.4494
+0.4559
+0.4589
+Actual Energy
+Consumed (KWh)
+Practical
+0.027
+0.03
+0.06
+0.05
+0.04
+0.03
+0.01
+0.01
+(line 1). The algorithm iterates a while loop for the desired peak hours
+duration (line 2). In each iteration, the algorithm computes 𝑃𝑀𝑉𝑥for
+each appliance 𝑥(line 3) and its corresponding thresholds (i.e. 𝑇𝑥
+𝑃𝑀𝑉)
+in a given environment (line 4). Afterwards, it computes the overall
+load of appliances in on-state at time 𝑡(line 5) along with the userstate based on the computed load (line 6). Then, the algorithm passes
+the user-states to Algorithm 1 that returns 𝑃𝐶(line 7), which is used
+to get average probability of consuming maximum power in remaining
+peak load hours. Next, appliances in on-state are selected (line 8). For
+each selected appliance (line 9), the algorithm first obtains the userdefined on-off threshold 𝑇𝑥
+𝑢for the appliance (line 10). The subsequent
+steps (lines 11 to line 13), are executed for these appliances if the user
+defined threshold 𝑇𝑥
+𝑢is greater than the threshold of human comfort
+𝑇𝑥
+𝑃𝑀𝑉for the appliance 𝑥. Therein, it computes the difference (denoted
+by 𝛥) between the user-defined threshold (𝑇𝑥
+𝑢) and minimum threshold
+required for human comfort (𝑇𝑥
+𝑃𝑀𝑉) (line 12). The threshold value 𝑇𝑥
+𝑢
+is updated based on this difference (𝛥) (line 13).
+Algorithm 2 : PF-PEC Algorithm
+Input: Human comfort constraints and parameters, 𝜏; peak hours duration
+Output: 𝑃𝑀𝑉𝑥, 𝑇𝑥
+𝑢, 𝑇𝑥
+𝑃𝑀𝑉
+1: 𝑃𝑀𝑉𝑥←0
+2: while 𝑡∈𝜏do
+3:
+Compute 𝑃𝑀𝑉𝑥for all type of loads
+4:
+Compute 𝑇𝑥
+𝑃𝑀𝑉for all type of loads
+5:
+Compute load in on-state at 𝑡
+6:
+Find user state from computed load
+7:
+Invoke Algorithm 1 and save value of 𝑃𝑐
+8:
+𝐴←Appliances in on-state at 𝑡
+9:
+for each appliance 𝑥in 𝐴do
+10:
+Obtain user defined on-off thresholds (𝑇𝑥
+𝑢) of the appliance
+11:
+if 𝑇𝑥
+𝑢> 𝑇𝑥
+𝑃𝑀𝑉then ;
+12:
+𝛥= 𝑇𝑥
+𝑢−𝑇𝑥
+𝑃𝑀𝑉
+13:
+𝑇𝑥
+𝑢= 𝑇𝑥
+𝑢+ 𝑃𝑐× 𝛥
+14:
+end if
+15:
+end for
+16:
+𝑡+ +
+17: end while
+18: return
+In this way, the algorithm iteratively changes the threshold set
+for different appliances in peak load hours without compromising on
+human comfort. Moving the threshold away actually delays the switchon event of appliances based on the average probability (𝑃𝑐) of energy
+usage in the house. The greater the probability, farther will be the new
+threshold. Algorithm 2 also takes into account the difference between
+user-defined threshold and minimum threshold required for human
+comfort. If this gap is greater, user threshold moves faster to minimum
+value (𝑇𝑥
+𝑃𝑀𝑉). As this difference decreases, pace of threshold towards
+minimum value slows down. The reduction in user threshold eventually
+results in more energy saving.
+It is noteworthy that Algorithm 1 is also invoked in Algorithm 2 by
+passing user-states at time slot 𝑡which actually works as a feedback to
+the Algorithm 1. This feedback is necessary because the user activity
+patterns may change with time according to change in environment
+or circumstances. Hence, there is a need to estimate user states for
+current timeslot 𝑡. This makes system adaptable to the changes in user
+activities. A user state is thus estimated at run time based on the
+type and number of appliances in on-state and their power consumption at a certain time slot. This user state is accurately determined
+using the real data obtained from the smart home. This estimated
+user state is then considered by Algorithm 1 which re-computes the
+probabilities according to this new data to achieve more precise results.
+One immediate benefit of this feedback is that it somewhat solves the
+convergence problem of Markov chain process. As the data set on which
+Markov chain process operates changes consistently due to feedback,
+the results produced by Markov chain process now converge after a
+longer period. Another advantage of enabling feedback in the system
+is achieving higher accuracy of the produced results. One drawback of
+this feedback however, is that the system has to perform more number
+of computations. A visual description of this feedback mechanism is
+shown in Fig. 2.
+To carry out all the above stated operations efficiently as well as
+effectively, a fog-based architecture for IoT enabled HAS system is
+designed such that the data about usage of appliances is seamlessly
+fetched to the cloud. A database is maintained at the cloud to save
+various forms of data sent by the appliances of a smart home. An application running on the IoT cloud thereby computes appliance usage time
+for each user. Using this appliance-usage time, user states at different
+time slots are computed and fed back to the Markov chain process.
+Hence, analyzing appliance usage data at cloud helps in predicting
+user’s current state in real-time which will then update the user activity
+data. Markov chain is then applied on this latest user activity data to
+arrive at new state transitions and this process repeats for every next
+time slot.
+
+--- PAGE 7 ---
+
+Sustainable Computing: Informatics and Systems 39 (2023) 100898
+7
+M. Umair et al.
+Fig. 2. Feedback mechanism of Algorithm 2.
+5. Our proposed fog-based architecture and a real-world testbed
+for smart homes
+In this section, we provide architectural details of the smart home
+that we use as a test bed. A fog based IoT architecture for smart
+homes is presented to realize the implementation of proposed energy
+optimization algorithms in a smart home environment. The efficacy of
+any smart home can get restrained depending upon its architecture.
+Traditionally, a HAS system may under-perform due to the limitations
+of underlying technology while the technology can itself under-achieve
+if the hardware and/or software platforms are not chosen appropriately. IoT offers various innovative features in HAS systems such as low
+complexity, power efficiency, small footprint and less communication
+intensive connections to the Internet. Another critical attribute that IoT
+brings to the table is data dissemination. However, this data dissemination is relatively weak in conventional smart home architectures
+and resultantly the useful data or its timely relevance gets lost usually.
+Hence, it is imperative to develop a fog based IoT architecture to
+incorporate favorable techniques such as data analytics and machine
+learning (ML) to enhance the capabilities of a smart home. A novel fog
+based IoT architecture for smart homes is therefore proposed to better
+utilize the algorithms for energy demand prediction and conservation
+as presented in previous Sections. There are four main building blocks
+of proposed architecture, i.e. Sensing and Data Acquisition, Actuations,
+Fog/Edge Node and Cloud. Each of these network entities have some
+predefined operating principles and standard protocols. This Section
+constitutes the functional and architectural details of these entities.
+5.1. Sensing and data acquisition
+Sensor modules are designed for data acquisition that resides multiple sensors. The microcontroller used in these modules contains 8kB of
+RAM and 16 channel 12 bit ADCs which makes it suitable for sensing
+modules. For wireless connectivity, state of the art Wi-Fi System-onChip (SoC) is used. To make the operation of sensor module energy
+efficient, they are equipped with 5 Volt batteries along with electrical
+power lines as the backup. To attain further energy efficiency, the
+sensor modules are also capable of duty cycling while their processor is
+capable of going into deep sleep mode. Some front-end intelligence is
+also provided within these modules to achieve better decision making
+while forwarding the sensed information. These features are incorporated with reasonably smaller footprint to fulfill the requirements of
+an intelligent sensor module for our fog based IoT architecture which
+is illustrated in Fig. 3 along with a snapshot of sensor module.
+5.2. Actuation
+To enable smart actuation of appliances, an actuation module is
+designed to replace existing switch outlets in conventional and smart
+homes. The specifications of microcontroller used in actuation module
+are similar to that of sensor modules. A Wi-Fi SoC is available for wireless connectivity. There can be multiple switches in a single actuation
+module. TRIACS are used as control switches and relays are included
+to cater for high load appliances. The major messages communicated
+through actuation modules are about the operation of appliances. These
+messages are translated into device on-off operations, fan(s) speed control, lamp dimmers, temperature settings of AC/heaters, etc. To ensure
+synchronization, devices respond with acknowledgment messages upon
+each actuation. The module constantly publishes its switches states via
+wireless link to local server to facilitate the ML and data analytics
+techniques. Actuation module snapshot is shown in Fig. 3.
+5.3. IoT fog node
+A large number of sensing and actuation modules are mostly installed in a smart home. To maintain the connectivity of each module
+with IoT cloud can be expensive in terms of resources. There is a need of
+IoT fog node that can maintain connection with the cloud while acting
+as an edge device for sensor and actuation modules. It enables these
+end-devices to log their data at local server and then to report it to the
+cloud. Some of the benefits of fog node include low latency, network
+scalability, and heterogeneity [43].
+The functional architecture of our IoT fog node is depicted in Fig. 4.
+It operates in two distinct modes, i.e. an online mode and an offline
+mode. The offline mode ensures that appliances can be used within
+the local network when Internet connectivity is not available, and
+also synchronizes the appliances’ states with the cloud when Internet
+connectivity is available again. The synchronization module periodically performs this synchronization and also ensures that the sync
+time is not much significant as compared to user lag faced, or latency
+introduced by removing the fog node. Whenever a user sets his/her
+preferences, it is made sure that those preferences are saved in both
+the local database on fog node and the database on the cloud. It
+makes the appliances directly controllable from fog node based on
+the defined user preferences. Moreover, fog node is equipped with
+various constrained protocols in its communication stack. At application layer, it communicates with sensors and actuators using Message
+Queuing Telemetry Transport (MQTT) protocol. To enable user defined
+intelligence in appliances, a local intelligence module is defined. In
+addition, a specific service is responsible for data dissemination among
+different application programming interfaces (APIs) running on IoT fog
+node. Device identification and device/user authentication services are
+also included. At transport layer, Transmission Control Protocol (TCP)
+is used along with Secure Socket Layer (SSL) for reliable and secure
+connectivity of devices with the cloud. Other services including Secure
+Shell (SSH), Secure File Transfer Protocol (SFTP), Web and Android
+APIs are implemented to access the fog node for configuration purposes.
+The proposed fog node is implemented using Raspberry Pi 4, shown
+in Fig. 3, which has a quad core processor with 1 GB RAM, Ethernet,
+USB ports and Wi-Fi making it suitable for fog node. The proposed
+fog node has rich resources that have the capability to manage all the
+end nodes in a single smart home setup. It simplifies the management
+of data from multiple smart homes on the cloud i.e., single fog node
+per smart home setup. Moreover, it enables the smooth operation of
+fog nodes due to reduced network overloading. There are two limiting
+
+--- PAGE 8 ---
+
+Sustainable Computing: Informatics and Systems 39 (2023) 100898
+8
+M. Umair et al.
+Fig. 3. Proposed fog based IoT architecture for smart home.
+Fig. 4. Functional architecture of fog node.
+factors in the operation of the proposed fog node: the range of the WiFi and the number of requests that can be entertained simultaneously.
+Wi-Fi repeaters can be installed in relatively bigger and multi-story
+dwellings to enhance the range. Simultaneous requests in a fog node
+can be entertained by using threads. However, increasing the number of
+threads overload the fog node and creates a lag in fulfilling the requests.
+In the proposed fog node, a high number of requests can be entertained
+simultaneously because we are using a high-end device.
+5.4. IoT cloud
+Our smart home architecture includes customized implementation
+of IoT cloud whose functional diagram is shown in Fig. 5. The IoT cloud
+is equipped with multiple services and plug-ins to facilitate interaction
+with fog node, users and developers. TCP/IP stack is incorporated
+to provide connection oriented services together with SSL for secure
+communication. Our Algorithm 1 and Algorithm 2 are implemented in
+the cloud within Machine Learning module. Data dissemination layer
+is integrated to classify the data reported from appliances as well
+as sensor devices and to disseminate it to concerned services before
+saving into database. A copy of database is continuously replicated
+to another Virtual Machine (VM) in the cloud to incorporate ML and
+data analytics techniques without compromising the original data reported from appliances. Relaying service is responsible to entertain the
+service-accessibility requests for a specific device originated from users.
+Customized Android and Web APIs are designed to enable flexible
+control over appliances in a smart home. A monitoring module is responsible for generating alerts/warnings. FTP, SFTP and SSH protocols
+are also employed.
+5.5. Real-world scenario to operate the test bed
+The experiments are conducted on a real-world smart home system.
+We leverage the proposed system architecture presented in this section
+to implement a smart home system. A fog node, two sensor nodes and
+one actuation module is used in the test bed. The implemented smart
+home system is connected to the cloud being implemented using the architecture proposed in Fig. 5. It is worth mentioning that the deployed
+system have a centralized database in which the on-off thresholds of
+appliances are saved. These thresholds are set by the corresponding
+users. These thresholds are used by our proposed algorithms to operate
+the appliances accordingly. Algorithms 1 and 2 are deployed on the
+cloud. The outcome of Algorithm 2 is used to send commands to the
+fog node to operate the appliances accordingly.
+The energy consumption model is validated by the experiments
+conducted in a 1125 square feet home with 3 occupants. It is a multistory dwelling located in Lahore. Eight spots in the home are identified
+for system deployment. The experiments are conducted during spring
+season. All the occupants have different daily routines. First is a parttime worker, second is a housewife and third one is a retired person
+who normally stays at home. The results are taken from morning (8am)
+to midnight (12am).
+6. Experiments and results
+In this Section, the performance analysis of proposed algorithms is
+presented. Firstly, the prediction results of energy consumption estimation model (Algorithm 1) are discussed followed by the evaluation of
+proposed PF-PEC (Algorithm 2) which reduces the energy consumption
+of a smart home. The probability distribution of a particular user in
+different states at each time slot is shown in Fig. 6. It should be noted
+that our model includes all the appliances in use within a home.
+The numerical results are illustrated in Table 3a and 3b. In that
+respect, different KWh ranges are specified that corresponds to the
+potential combination of outcomes considered by Algorithm 1. The
+predicted power consumption is provided in terms of the probability
+of consuming energy in a particular KWh range for different time slots.
+The values in Table 3a and 3b are not specific to a single user. These
+probabilistic values represent the likelihood of all users cumulatively
+consuming a certain power. The real energy consumed (KWh) at each
+
+--- PAGE 9 ---
+
+Sustainable Computing: Informatics and Systems 39 (2023) 100898
+9
+M. Umair et al.
+Fig. 5. Functional architecture of IoT cloud.
+Fig. 6. Example of probability distribution of single user in four states.
+Fig. 7. Comparison between actual and predicted energy consumption.
+time slot is also reported in the table and can be compared with the
+KWh range of highest probability event. For example, in 3a for time
+slot 8am–9am, the actual energy consumed is 0.01 KWh whereas the
+corresponding predicted KWh range, i.e. 0.01–0.03, has the highest
+probability. Similarly, for other time slots, the results obtained from
+our energy consumption prediction model in terms of KWh ranges and
+their corresponding probabilities fairly match with that of actual energy
+consumption of the smart home. In Fig. 7, the percentage similarity
+
+--- PAGE 10 ---
+
+Sustainable Computing: Informatics and Systems 39 (2023) 100898
+10
+M. Umair et al.
+Table 4
+Results of PF-PEC Algorithm (2), lights and fan readings.
+Days
+Manual
+Smart
+Smart + PF-PEC Algorithm
+Light 1
+Light 2
+Fan
+Light 1
+Light 2
+Fan
+Light 1
+Light 2
+Fan
+Monday
+6 h,3 m,9 s
+6 h,3 m,9 s
+6 h,3 m
+5 h,49 m
+5 h,49 m
+5 h,58 m
+4 h,54 m
+4 h,54 m
+5 h,45 m
+Tuesday
+6 h,42 m
+6 h,42 m
+6 h,42 m
+6 h
+6 h
+6 h
+4 h,1 m
+3 h,51 m
+5 h,46 m
+Wednesday
+7 h,32 m
+7 h,32 m
+7 h,32 m
+5 h,50 m
+5 h,50 m
+6 h,1 m
+3 h,18 m
+1 h,18 m
+5 h,37 m
+Thursday
+6 h,49 m
+6 h,49 m
+6 h,49 m
+6 h,27 m
+6 h,27 m
+6 h,38 m
+3 h,35 m
+35 m
+6 h,22 m
+Friday
+7 h,5 m
+7 h,5 m
+7 h,5 m
+5 h,33 m
+5 h,33 m
+7 h,5 m
+3 h56 m
+6 m
+6 h,48 m
+Fig. 8. Mean Absolute Error results to determine prediction accuracy.
+of predicted energy consumption with that of actual is shown on 𝑦axis and the events probabilities are shown on 𝑥-axis. This similarity
+measure is simply the percentage number of predictions matching with
+actual power consumption. It shows that the highest probability events
+in 3a and 3b have more chances to correctly predict the actual energy
+usage which in turn means that the actual energy consumed have
+more chances of falling in the KWh range of highest probability event.
+These chances gradually decrease if we move towards lower probability
+events. As the user states are defined on the basis of their appliances usage and number of appliances installed at home are pre-known, so KWh
+ranges are calculated using the information from feedback mechanism
+about user activity and the amount of load active at that time. So, user
+survey and feedback data helps to estimate the KWh range against each
+useful combination of user activity states which are aforementioned in
+Section 3. Thus, Fig. 7 demonstrates that actual energy consumption
+is very much closer to the highest probability event predicted by the
+model. Moreover, to validate the predicted results, Mean Absolute Error
+(MAE) is used as an evaluation criteria as shown in Fig. 8. It is evident
+that Mean Absolute Error for highest probability event (also mentioned
+in Fig. 7) is least whereas its value increases as we move towards lower
+probability events. More specifically, MAE for highest probability event
+is only 0.008 which shows the accuracy of prediction algorithm.
+Algorithm 2 is tested in a different scenario as compared to Algorithm 1. The performance of PF-PEC algorithm is validated in an
+office equipped two lights, one fan and an AC, with a single occupant from 9:00am to 5:00pm for five working days. The light and
+temperature sensors are installed on the walls and accordingly PMVs
+for human comfort are calculated. Initially, Algorithm 1 is applied
+on user activity data and probabilities are generated against power
+consumption. Afterwards, Algorithm 2 is applied on this data to optimize the appliances’ usage in peak load hours. The experimental
+results are considered for a duration of one week as shown in Table 4. It shows the daily time period for which both lights and a fan
+Fig. 9. Comparison of PF-PEC algorithm with baseline and simple smart home.
+remained in on-state. These results validate that the PF-PEC algorithm
+further reduces energy consumption of a smart home. Fig. 9 graphically
+demonstrates these energy consumption in three different scenarios,
+i.e. manual home (normal operations with manual switches), smart
+home (occupancy, temperature and luminance based intelligence), and
+smart home with PF-PEC algorithm. It can be visualized that appliances
+usage decreases further when we simultaneously apply smartness and
+PF-PEC algorithm. Additional analysis determines that Light 2 and fan
+usage timings are reduced further after applying PF-PEC algorithm.
+This reduction in Light 2 usage is essentially due to the fact that only
+
+--- PAGE 11 ---
+
+Sustainable Computing: Informatics and Systems 39 (2023) 100898
+11
+M. Umair et al.
+Fig. 10. Event response time results with and without fog node.
+Fig. 11. Comparison of our architecture with EHOPES fog platform.
+one light serves the purpose according to the visual comfort threshold
+of the user.
+Fig. 10 shows the performance comparison of monitoring results
+with and without fog node in terms of average response time of
+different independent events along with their corresponding energy
+consumption. Therein, a single event is defined by ‘a message communicated by sensor/actuation module to the cloud or fog node with a
+specific payload size, number of MYSQL queries executed and messages
+exchanged with other applications at the cloud or fog node, and finally
+sending back an acknowledgment (ACK) which completes an event
+cycle’. It can be visualized that the average event response time and
+corresponding energy consumption is remarkably reduced with the
+introduction of fog node in smart home architecture.
+Similarly, in Fig. 11 we compare the latency results calculated with
+our proposed architecture with the average latency results achieved
+with another fog architecture based platform for smart environments,
+termed as EHOPES [36]. It can be seen that the average latency results
+in our case are reasonably better than the latency results attained with
+that of EHOPES platform. These improvements are achieved due to
+the modular implementation of architectural functionalities of fog node
+and its seamless interaction with cloud architecture.
+Finally, the percentage energy conservation corresponding to different PMVs is shown in Fig. 12. It provides the comparison of PF-PEC
+algorithm with M-CHESS algorithm proposed recently [37]. Therein,
+the authors reduced the energy consumption of smart home considering various human comfort thresholds. In particular, the M-CHESS
+algorithm sacrifices the human comfort to attain higher energy savings.
+Thus, as shown in Fig. 12, the M-CHESS algorithm achieves energy
+conservation up to 33.7% with human comfort threshold of 1.0 which is
+increased to 38.6% by further compromising human comfort threshold
+to 1.5. On the contrary, PF-PEC provides the energy conservation up
+to 36% while achieving the human comfort threshold of 0.5 as per the
+ASHRAE standard. Therefore, the M-CHESS algorithm though flexibly
+change the human comfort range to attain more energy conservation.
+However, the average energy savings achieved by PF-PEC algorithm
+for a similar value of PMV is always higher than that of M-CHESS
+algorithm. Hence, our PF-PEC algorithm improves the human comfort
+as well as energy savings in a smart home.
+7. Conclusion
+The paper presents energy management and optimization techniques to minimize energy consumption in smart dwellings. A Markov
+
+--- PAGE 12 ---
+
+Sustainable Computing: Informatics and Systems 39 (2023) 100898
+12
+M. Umair et al.
+Fig. 12. PF-PEC algorithm comparison with an energy saving scheme (M-CHESS) that
+considers standard human comfort level.
+chain model is proposed to compute probabilities of power consumption in different time slots. This data set is leveraged by our prediction
+and feedback based energy management algorithm which minimizes
+energy consumption during peak load hours. To efficiently incorporate the proposed algorithms in a real world scenario, a fog based
+IoT architecture is implemented. Experimental evaluations are conducted in a home having 3 occupants. Experiments reveal that the
+forecasted energy estimates are very close to actual energy consumed
+within home. Moreover, it is observed that the energy consumption and
+electricity costs are significantly reduced without degrading standard
+human comfort. We consider that this work can be instrumental for
+employing proactive and precise demand side management in future
+energy systems.
+CRediT authorship contribution statement
+Muhammad Umair: Conceptualization, Methodology, Software,
+Validation, Formal analysis, Investigation, Writing – original draft,
+Visualization, Resources. Muhammad Aamir Cheema: Methodology,
+Data curation, Writing – review & editing, Supervision, Visualization,
+Investigation. Bilal Afzal: Writing – original draft, Writing – review &
+editing, Supervision, Visualization. Ghalib Shah: Writing - Review &
+Editing, Supervision, Visualization, Project administration.
+Declaration of competing interest
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to
+influence the work reported in this paper.
+References
+[1] Bilal Afzal, Muhammad Umair, Ghalib Asadullah Shah, Ejaz Ahmed, Enabling
+iot platforms for social iot applications: vision, feature mapping, and challenges,
+Future Gener. Comput. Syst. 92 (2019) 718–731.
+[2] Davit Marikyan, Savvas Papagiannidis, Eleftherios Alamanos, A systematic review
+of the smart home literature: A user perspective, Technol. Forecast. Soc. Change
+138 (2019) 139–154.
+[3] Zahrah A. Almusaylim, Noor Zaman, A review on smart home present state and
+challenges: linked to context-awareness Internet of Things (IoT), Wirel. Netw. 25
+(6) (2019) 3193–3204.
+[4] A.R. Al-Ali, Imran A. Zualkernan, Mohammed Rashid, Ragini Gupta, Mazin
+Alikarar, A smart home energy management system using IOT and big data
+analytics approach, IEEE Trans. Consum. Electron. 63 (4) (2017) 426–434.
+[5] Jinsoo Han, Chang-Sic Choi, Wan-Ki Park, Ilwoo Lee, Sang-Ha Kim, Smart home
+energy management system including renewable energy based on ZigBee and
+PLC, IEEE Trans. Consum. Electron. 60 (2) (2014) 198–202.
+[6] Adia Khalid, Nadeem Javaid, Mohsen Guizani, Musaed Alhussein, Khursheed Aurangzeb, Manzoor Ilahi, Towards dynamic coordination among home appliances
+using multi-objective energy optimization for demand side management in smart
+buildings, IEEE Access 6 (2018) 19509–19529.
+[7] Minyoung Sung, Younghoo Ko, Machine-learning-integrated load scheduling for
+reduced peak power demand, IEEE Trans. Consum. Electron. 61 (2) (2015)
+167–174.
+[8] Zhaoxuan Li, Bing Dong, A new modeling approach for short-term prediction of
+occupancy in residential buildings, Build. Environ. 121 (2017) 277–290.
+[9] João Virote, Rui Neves-Silva, Stochastic models for building energy prediction
+based on occupant behavior assessment, Energy Build. 53 (2012) 183–193.
+[10] Eoghan McKenna, Michal Krawczynski, Murray Thomson, Four-state domestic
+building occupancy model for energy demand simulations, Energy Build. 96
+(2015) 30–39.
+[11] Zhengen Ren et al., A model for predicting household end-use energy consumption and greenhouse gas emissions in Australia, Int. J. Sustain. Build. Technol.
+Urban Dev. 4 (3) (2013) 210–228.
+[12] Manisa Pipattanasomporn, Murat Kuzlu, Saifur Rahman, An algorithm for intelligent home energy management and demand response analysis, IEEE Trans.
+Smart Grid 3 (4) (2012) 2166–2173.
+[13] A.D. Wills, Ian Beausoleil-Morrison, V.I. Ugursal, Adaptation and validation of an
+existing bottom-up model for simulating temporal and inter-dwelling variations
+of residential appliance and lighting demands, J. Build. Perform. Simul. 11 (3)
+(2018) 350–368.
+[14] Zhun Yu, et al., A systematic procedure to study the influence of occupant behavior on building energy consumption, Energy Build. 43 (6) (2011)
+1409–1417.
+[15] Edouard
+Amouroux,
+Thomas
+Huraux,
+François
+Sempé,
+Nicolas
+Sabouret,
+Yvon Haradji, Simulating human activities to investigate household energy
+consumption, in: ICAART (2), 2013, pp. 71–80.
+[16] Biying Yu, Junyi Zhang, Akimasa Fujiwara, A household time-use and energyconsumption model with multiple behavioral interactions and zero consumption,
+Environ. Plan. B: Plann. Des. 40 (2) (2013) 330–349.
+[17] Brandon Johnson, et al., A method for modeling household occupant behavior to
+simulate residential energy consumption, in: Innovative Smart Grid Technologies
+Conference (ISGT), IEEE PES, IEEE, 2014, pp. 1–5.
+[18] Shaoen Wu, et al., Survey on prediction algorithms in smart homes, IEEE Internet
+Things J. (2017).
+[19] Paul
+A
+Gagniuc,
+Markov
+Chains:
+From
+Theory
+to
+Implementation
+and
+Experimentation, John Wiley & Sons, 2017.
+[20] José Luis Ramírez-Mendiola, Philipp Grünewald, Nick Eyre, Residential activity
+pattern modelling through stochastic chains of variable memory length, Appl.
+Energy 237 (2019) 417–430.
+[21] Muhammad Umair, Ghalib A. Shah, Energy management of smart homes, in:
+2020 IEEE International Conference on Smart Computing, SMARTCOMP, IEEE,
+2020, pp. 247–249.
+[22] Cristian Chiñas-Palacios, Jesus Aguila-Leon, Carlos Vargas-Salgado, Edith X.M.
+Garcia, Julian Sotelo-Castañon, Elías Hurtado-Perez, A smart residential security
+assisted load management system using hybrid cryptography, Sustain. Comput.
+Inform. Syst. 32 (2021) 100611.
+[23] Israr Ullah, Rashid Ahmad, DoHyeun Kim, A prediction mechanism of energy
+consumption in residential buildings using hidden markov model, Energies 11
+(2) (2018) 358.
+[24] Djamel Saba, Youcef Sahli, Abdelkader Hadidi, An ontology based energy
+management for smart home, Sustain. Comput. Inform. Syst. 31 (2021) 100591.
+[25] Rabiya Khalid, Nadeem Javaid, Muhammad Hassan Rahim, Sheraz Aslam, Arshad
+Sher, Fuzzy energy management controller and scheduler for smart homes,
+Sustain. Comput. Inform. Syst. 21 (2019) 103–118.
+[26] Mohamad Razwan Abdul Malek, Nor Azlina Ab Aziz, Salem Alelyani, Mohamed
+Mohana, Farah Nur Arina Baharudin, Zuwairie Ibrahim, Comfort and energy
+consumption optimization in smart homes using bat algorithm with inertia
+weight, J. Build. Eng. 47 (2022) 103848.
+[27] Zhipeng Deng, Qingyan Chen, Simulating the impact of occupant behavior on
+energy use of HVAC systems by implementing a behavioral artificial neural
+network model, Energy Build. (2019).
+[28] Da Yan, Xiaohang Feng, Yuan Jin, Chuang Wang, The evaluation of stochastic
+occupant behavior models from an application-oriented perspective: Using the
+lighting behavior model as a case study, Energy Build. 176 (2018) 151–162.
+[29] Anders Nilsson, Misse Wester, David Lazarevic, Nils Brandt, Smart homes, home
+energy management systems and real-time feedback: Lessons for influencing
+household energy consumption from a Swedish field study, Energy Build. 179
+(2018) 15–25.
+[30] Isabella Gaetani, Pieter-Jan Hoes, Jan L.M. Hensen, Occupant behavior in
+building energy simulation: Towards a fit-for-purpose modeling strategy, Energy
+Build. 121 (2016) 188–204.
+[31] Muhammad Umair, Bilal Afzal, Asad Khan, Atiq Ur Rehman, Y. Ahmet Sekercioglu, Ghalib A. Shah, Self-configurable hybrid energy management system for
+smart buildings, in: 2018 15th International Conference on Control, Automation,
+Robotics and Vision, ICARCV, IEEE, 2018, pp. 1241–1246.
+
+--- PAGE 13 ---
+
+Sustainable Computing: Informatics and Systems 39 (2023) 100898
+13
+M. Umair et al.
+[32] Muhammad Umair, Muhammad Aamir Cheema, Omer Cheema, Huan Li, Hua
+Lu, Impact of COVID-19 on IoT adoption in healthcare, smart homes, smart
+buildings, smart cities, transportation and industrial IoT, Sensors 21 (11) (2021)
+3838.
+[33] Mohammad Sadegh Aslanpour, Adel N. Toosi, Muhammad Aamir Cheema, Raj
+Gaire, Energy-aware resource scheduling for serverless edge computing, in:
+The 22nd IEEE/ACM International Symposium on Cluster, Cloud and Internet
+Computing, CCGrid, 2022.
+[34] Mohammad S. Aslanpour, Adel N. Toosi, Raj Gaire, Muhammad Aamir Cheema,
+WattEdge: A holistic approach for empirical energy measurements in edge
+computing, in: International Conference on Service-Oriented Computing, ICSOC,
+2021, pp. 531–547.
+[35] Junaid Akram, Muhammad Umair, Rutvij H Jhaveri, Muhammad Naveed
+Riaz, Haoran Chi, Sharaf Malebary, Chained-drones: blockchain-based privacypreserving framework for secure and intelligent service provisioning in internet
+of drone things, Comput. Electric. Engrg. 110 (2023) 108772.
+[36] Jianhua Li, Jiong Jin, Dong Yuan, Marimuthu Palaniswami, Klaus Moessner,
+EHOPES: Data-centered fog platform for smart living, in: Telecommunication
+Networks and Applications Conference (ITNAC), 2015 International, IEEE, 2015,
+pp. 308–313.
+[37] Ching-Hu Lu, et al., Context-aware energy saving system with multiple comfortconstrained optimization in M2M-based home environment, IEEE Trans. Autom.
+Sci. Eng. 14 (3) (2017) 1400–1414.
+[38] Shivi Sharma, Hemraj Saini, A novel four-tier architecture for delay aware
+scheduling and load balancing in fog environment, Sustain. Comput. Inform.
+Syst. 24 (2019) 100355.
+[39] Nagender Kumar Suryadevara, Energy and latency reductions at the fog gateway
+using a machine learning classifier, Sustain. Comput. Inform. Syst. 31 (2021)
+100582.
+[40] Daniel Fernando Espejel-Blanco, Jose Antonio Hoyo-Montano, Jaime Arau,
+Guillermo Valencia-Palomo, Abel Garcia-Barrientos, Hector Ricardo HernandezDe-Leon, Jorge Luis Camas-Anzueto, HVAC control system using predicted mean
+vote index for energy savings in buildings, Buildings 12 (1) (2022) 38.
+[41] Standard 55-Thermal Environmental Conditions for Human Occupancy, ASHRAE
+American
+Society
+of
+Heating,
+Refrigerating
+and
+Air-conditioning
+Engineers, (ISSN: 1041-2336) 2013, Available: https://www.ashrae.org/resources--
+publications/bookstore/standard-55-and-user-s-manual.
+[42] Jermy Thomas, Tiffany Swenson, Amanda D Smith, Quantifying the importance
+of measured metabolic rates and clothing levels for effectively using a predicted
+mean vote model: A global sensitivity analysis, ASHRAE Trans. 125 (2019).
+[43] Mohammad Aazam, Sherali Zeadally, Khaled A Harras, Deploying fog computing
+in industrial Internet of Things and Industry 4.0, IEEE Trans. Ind. Inform. (2018).
+Muhammad Umair is a PhD student at the School of
+Computer Science, The University of Sydney. He is also
+a Lecturer at the Department of Electrical, Electronics and
+Telecommunication Engineering, New Campus, UET Lahore.
+He completed his B.Sc. Electrical Engineering and M.Sc.
+Electrical Engineering from University of Engineering and
+Technology (UET) Lahore in 2014 and 2017, respectively.
+He has worked as a Research Officer at Internet of Things
+(IoT) lab at Al-Khwarizmi Institute of Computer Sciences,
+UET Lahore. He has also worked at Sultan Qaboos IT
+Research lab as a Research Officer. His survey on Social
+IoT platforms is the most cited survey for SIoT applications.
+He has designed graduate level courses on IoT. His areas of
+interests include Internet of Things, Embedded Systems, Network Systems, Machine Learning, Algorithms Development,
+Pervasive Computing, Ubiquitous Computing, Cloud Based
+Systems, Data Analytics and working on application layer
+of any of the defined problems.
+Muhammad Aamir Cheema is an ARC Future Fellow,
+an Associate Professor and Director of Research at the
+Department of Software Systems and Cybersecurity, Faculty
+of Information Technology, Monash University, Australia.
+He obtained his PhD from UNSW Australia in 2011. He is
+the recipient of 2012 Malcolm Chaikin Prize for Research
+Excellence in Engineering, 2013 Discovery Early Career
+Researcher Award, 2014 Dean’s Award for Excellence in
+Research by an Early Career Researcher, 2018 Future Fellowship, 2018 Monash Student Association Teaching Award
+and 2019 Young Tall Poppy Science Award. He has also
+won two CiSRA best research paper of the year awards,
+two invited papers in the special issue of IEEE TKDE on the
+best papers of ICDE, and three best paper awards at ICAPS
+2020, WISE 2013 and ADC 2010, respectively. He is the
+Associate Editor of IEEE TKDE and DAPD and served as PC
+co-chair for ADC 2015, ADC 2016, 8th ACM SIGSPATIAL
+Workshop ISA 2016 & 2018, IWSC 2017, proceedings chair
+for DASFAA 2015 & ICDE 2019.
+Bilal Afzal is a graduate from National University of Science
+and Technology, Islamabad, Pakistan. He has worked as
+Research Officer and Senior Research Officer at KICS, UET
+Lahore, Pakistan. His research interests include Computer
+and Wireless Networks, Internet of Things (IoT), IoT Security, and 5G radio technology. He has served as the
+program committee member, co-chair and session manager
+in several IEEE conferences. He is regular reviewer of
+many impact factor journals including Elsevier FGCS, JNCA,
+COMPELECENG, SAGE JDSN, IEEE Network Magazine, and
+IEEE Consumer Electronics Magazine.
+Dr. Ghalib A. Shah is an IEEE Senior Member, and Professor at the Department of Cyber Security, Air University
+Islamabad. He has worked as a Sultan Qaboos IT Co-Chair at
+UET Lahore. He joined Al-Khawarizmi Institute of Computer
+Science, UET Lahore in 2012 and established Internet of
+Things (IoT) Lab, where he received many research grants
+from HEC and ICT R & D Fund and several projects are
+in progress at this Lab. He also received a research grant
+for Cyber Security in IoT and is working on many projects.
+He actively works in the area of communication protocols
+and cyber security in IoT. Dr. Shah started his academic
+career at College of EME, National University of Sciences
+and Technology Islamabad as an Assistant Professor in 2007
+and served for three years. He has been at the School of
+Computer Science, Australian National University as a visiting research fellow during 2009-10. He then joined the Next
+Generation Wireless Networks Lab, Koc University, Istanbul
+as a Research fellow and produced significant research
+publications in the area of cognitive radio sensor networks.
+Dr Shah received his B.Sc. major Math and M.Sc degree
+in Computer Science from Bahauddin Zakariya University
+Multan, Pakistan in 1997 and 2000 respectively and PhD
+degree in computer engineering from Middle East Technical
+University, Ankara Turkey in January 2007.
