@@ -1,0 +1,17 @@
+{
+  "article_id": "ARTICLE_001",
+  "source_title": "The projected timing of abrupt ecological disruption from climate change",
+  "year": "2017",
+  "article_summary": "This paper projects when and where climate change will cause abrupt ecological disruptions that exceed species’ adaptive capacity, focusing on temperature and precipitation velocity and impacts on biodiversity in hotspots. Concepts include timing of ecological thresholds, spatial climate-velocity mapping, and implications for conservation planning and adaptation prioritization — ideas that can inform smart-home sustainability only indirectly via broader environmental awareness and timing/scheduling considerations tied to climate-driven risks.",
+  "normalized_green_categories_one_hot": {
+    "hvac_optimization": 0,
+    "lighting_efficiency": 0,
+    "water_saving": 0,
+    "standby_reduction": 0,
+    "appliance_energy_management": 0,
+    "energy_monitoring": 0,
+    "occupancy_based_control": 0,
+    "environmental_awareness": 1,
+    "scheduling_optimization": 1
+  }
+}
