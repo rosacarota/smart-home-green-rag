@@ -1,7 +1,6 @@
 {
   "article_id": "ARTICLE_002",
   "source_title": "State of the art of smart homes",
-  "source_type": "paper",
   "year": "2012",
   "article_summary": "The article reviews smart-home technologies based on sensing, ambient intelligence, and automatic control, including systems that detect resident behavior and utility consumption to trigger home mechanisms. Its most relevant green contribution is the discussion of energy-efficient smart homes that reduce household energy use by monitoring and controlling devices, using WiFi-enabled smart switches, and rescheduling device operation according to energy demand and supply. It also highlights occupancy/activity detection, multimodal sensing, user preferences, and multi-agent systems that balance energy efficiency with user comfort.",
   "normalized_green_categories_one_hot": {
