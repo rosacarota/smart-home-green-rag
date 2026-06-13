@@ -1,0 +1,37 @@
+{
+  "article_id": "article_3",
+  "source_tei": "data\\articles\\extracted_grobid_tei\\article_3.grobid.tei.xml",
+  "main_output": "data\\articles\\cleaned_markdown\\article_3.md",
+  "supplementary_output": "data\\articles\\supplementary_markdown\\article_3.md",
+  "title_found": true,
+  "abstract_candidates": [
+    {
+      "score": 5.0,
+      "word_count": 228,
+      "language": "",
+      "preview": "Smart Home technology is increasingly seen as a solution for improving household energy efficiency. However, its energy-saving potential depends largely on how consumers use the system. To explore how user perception and intention to use Smart Home can influence energy efficiency, we develop a resea"
+    }
+  ],
+  "selected_abstract_preview": "Smart Home technology is increasingly seen as a solution for improving household energy efficiency. However, its energy-saving potential depends largely on how consumers use the system. To explore how user perception and intention to use Smart Home can influence energy efficiency, we develop a research model combining the theory of planned behavior (TPB) and the norm activation model (NAM), based on a comprehensive literature review. We collect data by surveying users of Smart Home systems (N = ",
+  "counts": {
+    "main_blocks": 107,
+    "supplementary_blocks": 1,
+    "discarded_blocks": 9,
+    "review_blocks": 4,
+    "block_kinds": {
+      "heading": 33,
+      "paragraph": 75
+    },
+    "discard_reasons": {
+      "figure_content": 9
+    }
+  },
+  "quality": {
+    "raw_body_characters": 73370,
+    "main_text_characters": 62022,
+    "main_text_ratio": 0.8453
+  },
+  "warnings": [
+    "manual_review_recommended"
+  ]
+}

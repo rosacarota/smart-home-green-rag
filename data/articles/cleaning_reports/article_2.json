@@ -1,0 +1,36 @@
+{
+  "article_id": "article_2",
+  "source_tei": "data\\articles\\extracted_grobid_tei\\article_2.grobid.tei.xml",
+  "main_output": "data\\articles\\cleaned_markdown\\article_2.md",
+  "supplementary_output": "data\\articles\\supplementary_markdown\\article_2.md",
+  "title_found": true,
+  "abstract_candidates": [
+    {
+      "score": 9.0,
+      "word_count": 156,
+      "language": "",
+      "preview": "In this paper we present a review of the state of the art of smart homes. We will first look at the research work related to smart homes from various view points; first in the view point of specific techniques such as smart homes that utilize computer vision based techniques, smart homes that utiliz"
+    }
+  ],
+  "selected_abstract_preview": "In this paper we present a review of the state of the art of smart homes. We will first look at the research work related to smart homes from various view points; first in the view point of specific techniques such as smart homes that utilize computer vision based techniques, smart homes that utilize audio-based techniques and then smart homes that utilize multimodal techniques. Then we look at it from the view point of specific applications of smart homes such as eldercare and childcare applica",
+  "counts": {
+    "main_blocks": 53,
+    "supplementary_blocks": 1,
+    "discarded_blocks": 14,
+    "review_blocks": 0,
+    "block_kinds": {
+      "heading": 13,
+      "paragraph": 41
+    },
+    "discard_reasons": {
+      "figure_or_table_caption": 4,
+      "figure_content": 10
+    }
+  },
+  "quality": {
+    "raw_body_characters": 34174,
+    "main_text_characters": 25282,
+    "main_text_ratio": 0.7398
+  },
+  "warnings": []
+}

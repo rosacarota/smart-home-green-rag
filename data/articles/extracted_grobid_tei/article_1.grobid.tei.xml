@@ -1,0 +1,1869 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main" xml:id="_cgZKcuF" coords="1,57.09,128.75,254.40,27.90;1,57.09,160.61,94.18,26.58">How Green is &apos;Green&apos; Energy?</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">Luke</forename><surname>Gibson</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Environmental Science and Engineering</orgName>
+								<orgName type="institution">Southern University of Science and Technology</orgName>
+								<address>
+									<settlement>Shenzhen</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">School of Biological Sciences</orgName>
+								<orgName type="institution">University of Hong Kong</orgName>
+								<address>
+									<settlement>Hong Kong</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Elspeth</forename><forename type="middle">N</forename><surname>Wilman</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">School of Biological Sciences</orgName>
+								<orgName type="institution">University of Hong Kong</orgName>
+								<address>
+									<settlement>Hong Kong</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">William</forename><forename type="middle">F</forename><surname>Laurance</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Centre for Tropical Environmental and Sustainability Science, and College of Science and Engineering</orgName>
+								<orgName type="institution">James Cook University</orgName>
+								<address>
+									<postCode>4878</postCode>
+									<settlement>Cairns</settlement>
+									<region>Queensland</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main" xml:id="_fbjDeyx" coords="1,57.09,128.75,254.40,27.90;1,57.09,160.61,94.18,26.58">How Green is &apos;Green&apos; Energy?</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">34F7BEC1BE27E098F9B9EA1EB7A8CE25</idno>
+					<idno type="DOI">10.1016/j.tree.2017.09.007</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-06-12T21:51+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=true, generateTeiCoordinates=[title, head, p, s, note, figure, formula, ref], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_mct7PYv"><p xml:id="_EkKkcmV" coords="2,427.92,122.81,103.46,6.42;2,427.92,132.27,107.08,6.42;2,427.92,141.74,98.05,6.42;2,427.92,151.21,90.39,6.42;2,427.92,160.68,112.31,6.35;2,427.92,170.15,96.09,6.42;2,427.92,179.61,95.18,6.42;2,427.92,189.08,100.74,6.42;2,427.92,198.55,84.24,6.42;2,427.92,207.96,94.16,6.42;2,427.92,217.43,45.03,6.42;2,427.92,226.89,93.36,6.42;2,427.92,236.36,102.39,6.42;2,427.92,245.83,96.08,6.42;2,427.92,255.30,110.11,6.42;2,427.92,264.77,88.49,6.42;2,427.92,274.23,112.58,6.42;2,427.92,283.70,97.73,6.42;2,427.92,293.17,112.59,6.42;2,427.92,302.64,113.80,6.42;2,427.92,310.65,102.91,7.87;2,427.92,320.11,67.59,7.87;2,427.92,329.58,88.43,7.87;2,427.92,340.51,103.67,6.35;2,427.92,349.97,98.48,6.42;2,427.92,359.44,107.81,6.42;2,427.92,367.45,95.12,7.87;2,427.92,376.92,51.58,7.82;2,427.92,387.79,103.97,6.42;2,427.92,397.26,104.61,6.42;2,427.92,406.72,87.84,6.42;2,427.92,416.19,104.81,6.42;2,427.92,425.41,106.25,6.97;2,427.92,435.13,104.77,6.42;2,427.92,444.34,93.87,6.97;2,427.92,454.06,89.77,6.42;2,427.92,463.53,107.81,6.42;2,427.92,473.00,100.31,6.42;2,427.92,482.47,96.33,6.42;2,427.92,491.93,104.34,6.42;2,427.92,501.40,102.43,6.42;2,427.92,510.87,110.46,6.42;2,427.92,520.34,111.53,6.42;2,427.92,529.80,107.31,6.42;2,427.92,539.27,81.87,6.42;2,427.92,548.68,110.80,6.42;2,427.92,558.15,110.41,6.42;2,427.92,567.62,101.40,6.42;2,427.92,577.09,110.51,6.42;2,427.92,586.55,110.79,6.42;2,427.92,596.02,85.86,6.42;2,427.92,605.49,104.48,6.42;2,427.92,614.96,82.23,6.42;2,427.92,624.43,101.92,6.42;2,427.92,633.89,109.26,6.42;2,427.92,643.36,87.41,6.42;2,427.92,652.83,97.14,6.42;2,427.92,662.30,70.38,6.42;2,427.92,671.76,109.26,6.42;2,427.92,681.23,91.93,6.42;2,427.92,690.70,96.57,6.42;2,427.92,700.17,101.17,6.42;2,427.92,709.63,93.99,6.42"><s xml:id="_jW6Ywwb" coords="2,427.92,122.81,103.46,6.42;2,427.92,132.27,107.08,6.42">Bioenergy: energy from materials derived from biological products (e.</s><s xml:id="_E8rfBcX" coords="2,427.92,141.74,98.05,6.42;2,427.92,151.21,90.39,6.42">g., wood, algae) which are often burned to generate electricity.</s><s xml:id="_gecme2U" coords="2,427.92,160.68,112.31,6.35;2,427.92,170.15,96.09,6.42;2,427.92,179.61,95.18,6.42;2,427.92,189.08,100.74,6.42;2,427.92,198.55,84.24,6.42;2,427.92,207.96,94.16,6.42;2,427.92,217.43,45.03,6.42">Concentrating solar power (CSP): the indirect type of solar energy which uses mirrors or lenses to concentrate sunlight onto a small area, generating heat which produces electricity (often via a steam turbine).</s><s xml:id="_HreYbEQ" coords="2,427.92,226.89,93.36,6.42;2,427.92,236.36,102.39,6.42;2,427.92,245.83,96.08,6.42">Conventional energy: energy derived from non-renewable fossil fuel sources (oil, gas, and coal).</s><s xml:id="_BGsaXbk" coords="2,427.92,255.30,110.11,6.42;2,427.92,264.77,88.49,6.42;2,427.92,274.23,112.58,6.42;2,427.92,283.70,50.07,6.42">Electricity generation: the amount of electricity produced over a specified period of time, measured in watt-hours (Wh).</s><s xml:id="_sx4gvkM" coords="2,480.30,283.70,45.35,6.42;2,427.92,293.17,112.59,6.42;2,427.92,302.64,113.80,6.42;2,427.92,310.65,102.91,7.87;2,427.92,320.11,67.59,7.87;2,427.92,329.58,88.43,7.87">For example, a wind turbine with a capacity of 1 MW operating at full capacity for one hour will produce 1 MWh. 1 PWh = 10 3 TWh = 10 6 GWh = 10 9 MWh = 10 12 KWh = 10 15 Wh.</s><s xml:id="_SZ37FPJ" coords="2,427.92,340.51,103.67,6.35;2,427.92,349.97,98.48,6.42;2,427.92,359.44,107.81,6.42;2,427.92,367.45,95.12,7.87;2,427.92,376.92,51.58,7.82;2,427.92,387.79,103.97,6.42;2,427.92,397.26,104.61,6.42;2,427.92,406.72,87.84,6.42">Electricity generation capacity: the maximum possible electricity output at any given time, measured in watts (W). 1 GW = 10 3 MW = 10 6 KW = 10 9 W. Geothermal energy: heat energy generated and stored in the Earth; often converted to electricity.</s><s xml:id="_wJYhTP7" coords="2,427.92,416.19,104.81,6.42;2,427.92,425.41,106.25,6.97;2,427.92,435.13,104.77,6.42;2,427.92,444.34,93.87,6.97;2,427.92,454.06,89.77,6.42">Hydroelectric dam: a barrier that stops or restricts the flow of water; used to create energy in the water flow that can be captured by a turbine to generate electricity.</s><s xml:id="_tEjfY6A" coords="2,427.92,463.53,107.81,6.42;2,427.92,473.00,100.31,6.42;2,427.92,482.47,96.33,6.42">Hydroelectric reservoir: the body of water formed upstream by the creation of a hydroelectric dam.</s><s xml:id="_fmQ4jaC" coords="2,427.92,491.93,104.34,6.42;2,427.92,501.40,102.43,6.42;2,427.92,510.87,110.46,6.42">Hydropower: power derived from the energy of falling water or fastrunning water to generate electricity.</s><s xml:id="_N2S8Xps" coords="2,427.92,520.34,111.53,6.42;2,427.92,529.80,107.31,6.42;2,427.92,539.27,81.87,6.42">Impoundment reservoir: a body of water confined within an enclosure, for example behind a dam.</s><s xml:id="_nS7nh94" coords="2,427.92,548.68,110.80,6.42;2,427.92,558.15,110.41,6.42;2,427.92,567.62,101.40,6.42;2,427.92,577.09,110.51,6.42">Renewable energy: energy derived from renewable resources which are naturally replenished, for example wind, sunlight, and geothermal heat.</s><s xml:id="_pFwXqfb" coords="2,427.92,586.55,110.79,6.42;2,427.92,596.02,85.86,6.42;2,427.92,605.49,104.48,6.42;2,427.92,614.96,82.23,6.42;2,427.92,624.43,101.92,6.42">Solar energy: radiant light and heat from the sun harnessed and converted to electricity by different methods [see solar PV and concentrating solar power (CSP)].</s><s xml:id="_Usyj8vJ" coords="2,427.92,633.89,109.26,6.42;2,427.92,643.36,87.41,6.42;2,427.92,652.83,97.14,6.42;2,427.92,662.30,70.38,6.42">Solar photovoltaic (PV): the direct type of solar energy in which photons from solar radiation are converted to electricity.</s><s xml:id="_udxVf8e" coords="2,427.92,671.76,109.26,6.42;2,427.92,681.23,91.93,6.42;2,427.92,690.70,96.57,6.42">Solar PV panel: an arrangement of PV materials that absorbs and converts sunlight into electricity.</s><s xml:id="_cuncmN7" coords="2,427.92,700.17,101.17,6.42;2,427.92,709.63,93.99,6.42">Transmission lines: power lines used to move electricity from a</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="602.929" lry="782.929"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="602.929" lry="782.929"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="602.929" lry="782.929"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="602.929" lry="782.929"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="602.929" lry="782.929"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="602.929" lry="782.929"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="602.929" lry="782.929"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="602.929" lry="782.929"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="602.929" lry="782.929"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="602.929" lry="782.929"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="602.929" lry="782.929"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="602.929" lry="782.929"/>
+		<surface n="13" ulx="0.0" uly="0.0" lrx="602.929" lry="782.929"/>
+		<surface n="14" ulx="0.0" uly="0.0" lrx="602.929" lry="782.929"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_TkeMhjD"><p xml:id="_gNenHuK" coords="1,57.09,237.91,357.18,9.16;1,57.09,250.84,357.25,9.16;1,57.09,263.82,357.15,9.16;1,57.09,276.75,357.20,9.16;1,57.09,289.73,357.28,9.16;1,57.09,302.30,357.18,9.96;1,57.09,315.22,357.21,9.96;1,57.09,328.57,357.16,9.16;1,57.09,341.49,357.25,9.16;1,57.09,354.47,357.15,9.16;1,57.09,367.40,357.18,9.16;1,57.09,380.38,357.31,9.16;1,57.09,392.95,331.94,9.96"><s xml:id="_dmHjENX" coords="1,57.09,237.91,357.18,9.16;1,57.09,250.84,357.25,9.16;1,57.09,263.82,188.12,9.16">Renewable energy is an important piece of the puzzle in meeting growing energy demands and mitigating climate change, but the potentially adverse effects of such technologies are often overlooked.</s><s xml:id="_GDj633V" coords="1,249.22,263.82,165.02,9.16;1,57.09,276.75,357.20,9.16;1,57.09,289.73,268.94,9.16">Given that climate and ecology are inextricably linked, assessing the effects of energy technologies requires one to consider their full suite of global environmental concerns.</s><s xml:id="_59JEws2" coords="1,328.31,289.73,86.07,9.16;1,57.09,302.30,357.18,9.96;1,57.09,315.22,357.21,9.96">We review here the ecological impacts of three major types of renewable energyhydro, solar, and wind energyand highlight some strategies for mitigating their negative effects.</s><s xml:id="_X3NKpBf" coords="1,57.09,328.57,357.16,9.16;1,57.09,341.49,42.17,9.16">All three types can have significant environmental consequences in certain contexts.</s><s xml:id="_sEG7HbE" coords="1,102.16,341.49,312.18,9.16;1,57.09,354.47,297.94,9.16">Wind power has the fewest and most easily mitigated impacts; solar energy is comparably benign if designed and managed carefully.</s><s xml:id="_pabvRt7" coords="1,358.13,354.47,56.12,9.16;1,57.09,367.40,357.18,9.16;1,57.09,380.38,38.90,9.16">Hydropower clearly has the greatest risks, particularly in certain ecological and geographical settings.</s><s xml:id="_j9uquaA" coords="1,98.08,380.38,316.32,9.16;1,57.09,392.95,331.94,9.96">More research is needed to assess the environmental impacts of these 'green' energy technologies, given that all are rapidly expanding globally.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_YPkpPd6" coords="1,57.09,417.52,112.59,9.16">The Rise of Renewables</head><p xml:id="_jwaq9uF" coords="1,57.09,430.19,357.19,8.25;1,57.09,441.83,357.17,8.97;1,57.09,454.11,357.20,8.25;1,57.09,466.08,357.17,8.25;1,57.09,477.72,193.66,8.97;1,262.20,478.04,152.08,8.25;1,57.09,490.00,357.21,8.25;1,57.09,501.96,357.17,8.25;1,57.09,513.87,105.97,8.25;1,174.90,513.87,2.95,8.25"><s xml:id="_jATNBjj" coords="1,57.09,430.19,357.19,8.25;1,57.09,441.83,336.89,8.97">Growing human populations and rising levels of consumption have elevated energy demands, placing increasing burdens on the environmentparticularly on the global climate.</s><s xml:id="_qJZPY8E" coords="1,398.38,442.15,15.88,8.25;1,57.09,454.11,357.20,8.25;1,57.09,466.08,357.17,8.25;1,57.09,477.72,208.06,8.97">In a transition to clean sources of energy, much energy growth will come from renewable energy (see Glossary) sources and, as of 2016, 176 nations have set targets to obtain certain proportions from so-called 'green' energy sources <ref type="bibr" coords="1,253.36,478.04,8.84,8.25" target="#b0">[1]</ref>.</s><s xml:id="_6n8Qb6n" coords="1,267.76,478.04,146.52,8.25;1,57.09,490.00,357.21,8.25;1,57.09,501.96,357.17,8.25;1,57.09,513.87,120.76,8.25">While these efforts are commendable, much of the development of green energy is having large impacts on the environment and biodiversity, particularly in the hyperdiverse tropics where human populations and economies are expanding most rapidly <ref type="bibr" coords="1,166.05,513.87,8.84,8.25" target="#b1">[2]</ref>.</s></p><p xml:id="_XRFjxjD" coords="1,57.09,537.79,357.17,8.25;1,57.09,549.76,114.66,8.25;1,189.03,549.76,225.33,8.25;1,57.09,561.72,158.41,8.25;1,234.39,561.72,179.94,8.25;1,57.09,573.68,357.17,8.25;1,65.80,585.64,348.53,8.25;1,57.09,597.60,58.29,8.25;1,127.54,597.60,286.76,8.25;1,57.09,609.51,357.21,8.25;1,57.09,621.15,357.17,8.97;1,57.09,633.43,219.80,8.25;1,288.38,633.43,125.86,8.25;1,57.09,645.40,357.30,8.25;1,57.09,657.36,357.17,8.25;1,57.09,669.32,124.64,8.25;1,192.06,669.32,222.21,8.25;1,57.09,681.28,277.28,8.25"><s xml:id="_9E2THtp" coords="1,57.09,537.79,357.17,8.25;1,57.09,549.76,135.10,8.25">Global attention has largely focused on the environmental impacts of conventional energy sources, particularly fossil fuels <ref type="bibr" coords="1,173.25,549.76,9.47,8.25" target="#b2">[3,</ref><ref type="bibr" coords="1,182.72,549.76,6.31,8.25" target="#b3">4]</ref>.</s><s xml:id="_K4BW4AV" coords="1,193.78,549.76,220.58,8.25;1,57.09,561.72,180.79,8.25">However, some recent reviews have compared the impacts among different renewable energy sources <ref type="bibr" coords="1,216.91,561.72,6.99,8.25" target="#b4">[5]</ref><ref type="bibr" coords="1,223.90,561.72,3.50,8.25" target="#b5">[6]</ref><ref type="bibr" coords="1,223.90,561.72,3.50,8.25" target="#b6">[7]</ref><ref type="bibr" coords="1,227.39,561.72,6.99,8.25" target="#b7">[8]</ref>.</s><s xml:id="_aYS29z9" coords="1,239.36,561.72,174.97,8.25;1,57.09,573.68,357.17,8.25;1,57.09,585.64,357.25,8.25;1,57.09,597.60,73.36,8.25">While renewable energy sources generally have low carbon emissions, they are often more land-use intensive than conventional energy sources <ref type="bibr" coords="1,57.09,585.64,8.72,8.25" target="#b5">[6]</ref>, thereby creating potential conflicts with the conservation of terrestrial biodiversity and ecological services <ref type="bibr" coords="1,118.83,597.60,8.72,8.25" target="#b6">[7]</ref>.</s><s xml:id="_gCrVVYM" coords="1,133.97,597.60,280.34,8.25;1,57.09,609.51,357.21,8.25;1,57.09,621.15,357.17,8.97;1,57.09,633.43,234.20,8.25">In a theoretical comparison of wind turbines, solar photovoltaic (PV) panels, and bioenergy from the perennial grass Miscanthus, bioenergy posed the highest threat to biodiversitylargely because of a high degree of overlap between potential Miscanthus production lands and habitats sustaining high biodiversity <ref type="bibr" coords="1,279.67,633.43,8.72,8.25" target="#b6">[7]</ref>.</s><s xml:id="_SFWU2jB" coords="1,294.12,633.43,120.12,8.25;1,57.09,645.40,357.30,8.25;1,57.09,657.36,357.17,8.25;1,57.09,669.32,137.88,8.25">In another study accounting for electricity price, greenhouse gas emissions, energy conversion efficiency, land and water requirements, and social impacts, wind power was found to be the most sustainable form of renewable energy, followed by hydropower <ref type="bibr" coords="1,183.34,669.32,8.72,8.25" target="#b4">[5]</ref>.</s><s xml:id="_kNA7Umt" coords="1,196.55,669.32,217.71,8.25;1,57.09,681.28,277.28,8.25">However, to date there has been no comprehensive review of the different sources of green energy and their impacts on biodiversity.</s></p><p xml:id="_KA4QxWs" coords="1,57.09,704.83,357.17,8.97;1,57.09,716.79,357.16,8.97;1,427.92,244.04,29.71,9.17;1,427.92,258.25,114.01,6.42;1,427.92,267.71,113.90,6.42;1,427.92,277.18,113.89,6.42;1,427.92,286.65,113.93,6.42;1,427.92,296.12,58.75,6.42"><s xml:id="_uqTH5F4" coords="1,57.09,704.83,357.17,8.97;1,57.09,716.79,357.16,8.97;1,427.92,244.04,29.71,9.17;1,427.92,258.25,114.01,6.42">We provide here a general overview of three of the most important renewable energy sourceshydropower, solar energy, and wind powerand assess their potential impacts on Trends Renewable energy is expanding rapidly.</s><s xml:id="_ffX8B5P" coords="1,427.92,267.71,113.90,6.42;1,427.92,277.18,113.89,6.42;1,427.92,286.65,113.93,6.42;1,427.92,296.12,58.75,6.42">Growth is greatest in China, which now constitutes 28%, 26%, and 35% of the global capacity of hydro, solar, and wind power, respectively.</s></p><p xml:id="_UFnNEGa" coords="1,427.92,315.05,113.91,6.42;1,427.92,324.52,113.91,6.42;1,427.92,333.99,113.92,6.42;1,427.92,343.46,113.88,6.42;1,427.92,352.87,113.87,6.42;1,427.92,362.33,113.88,6.42;1,427.92,371.55,113.91,6.97;1,427.92,381.27,113.90,6.42;1,427.92,390.74,113.90,6.42;1,427.92,400.20,113.89,6.42;1,427.92,409.67,113.91,6.42;1,427.92,419.14,22.34,6.42"><s xml:id="_32GfEjz" coords="1,427.92,315.05,113.91,6.42;1,427.92,324.52,113.91,6.42;1,427.92,333.99,113.92,6.42;1,427.92,343.46,113.88,6.42;1,427.92,352.87,113.87,6.42;1,427.92,362.33,40.43,6.42">Hydropower has the largest environmental impacts, mostly because of habitat loss and fragmentation caused by impoundment reservoirs and roads needed for dam construction and maintenance.</s><s xml:id="_RZ3uEuc" coords="1,475.09,362.33,66.71,6.42;1,427.92,371.55,113.91,6.97;1,427.92,381.27,113.90,6.42;1,427.92,390.74,59.10,6.42">Dams block animal migration and disrupt river flows, creating homogenized conditions favoring non-native species.</s><s xml:id="_SqqTe8u" coords="1,489.83,390.74,52.00,6.42;1,427.92,400.20,113.89,6.42;1,427.92,409.67,113.91,6.42;1,427.92,419.14,22.34,6.42">Hydropower also generates greenhouse gases, especially methane, particularly in the tropics.</s></p><p xml:id="_se5494j" coords="1,427.92,438.08,113.89,6.42;1,427.92,447.54,113.88,6.42;1,427.92,457.01,113.91,6.42;1,427.92,466.48,113.88,6.42;1,427.92,475.95,113.87,6.42;1,427.92,485.41,110.41,6.42;1,427.92,504.35,113.89,6.42;1,427.92,513.82,113.89,6.42;1,427.92,523.23,113.92,6.42;1,427.92,532.70,14.99,6.42"><s xml:id="_qkA9HbX" coords="1,427.92,438.08,113.89,6.42;1,427.92,447.54,62.85,6.42">Wind power kills 100 000 s of birds and bats every year.</s><s xml:id="_a8RKg7x" coords="1,493.40,447.54,48.40,6.42;1,427.92,457.01,113.91,6.42;1,427.92,466.48,63.50,6.42">Wind farms can affect bird migrations and trigger population declines.</s><s xml:id="_X2HQqCe" coords="1,496.91,466.48,44.88,6.42;1,427.92,475.95,113.87,6.42;1,427.92,485.41,110.41,6.42">Wind turbines increase ambient temperature and noise, harming some native species.</s><s xml:id="_Re5vh8D" coords="1,427.92,504.35,113.89,6.42;1,427.92,513.82,113.89,6.42;1,427.92,523.23,21.96,6.42">Solar energy is the fastest growing renewable, but its impacts are poorly known.</s><s xml:id="_ymBTGP6" coords="1,451.16,523.23,90.67,6.42;1,427.92,532.70,14.99,6.42">More research is needed in this area.</s></p><p xml:id="_ZmXmk6Y" coords="2,57.09,107.61,357.18,8.25;2,57.09,119.57,357.21,8.25;2,57.09,131.53,324.15,8.25;2,393.39,131.53,20.91,8.25;2,57.09,143.49,357.17,8.25;2,57.09,155.40,357.19,8.25;2,57.09,167.36,356.94,8.25"><s xml:id="_a7XSZdZ" coords="2,57.09,107.61,154.07,8.25">biodiversity and key ecosystem services.</s><s xml:id="_2BdMVKk" coords="2,213.05,107.61,201.21,8.25;2,57.09,119.57,357.21,8.25;2,57.09,131.53,357.21,8.25;2,57.09,143.49,357.17,8.25;2,57.09,155.40,66.90,8.25">Our review does not cover geothermal energy, with a power capacity an order of magnitude lower than that of the other three types above; nor bioenergy, which is presently based mostly on the production of agricultural crops <ref type="bibr" coords="2,384.55,131.53,8.84,8.25" target="#b8">[9]</ref>, and differs markedly from the types of infrastructure developments associated with hydro, solar, and wind energy.</s><s xml:id="_hMb27Jg" coords="2,126.65,155.40,287.63,8.25;2,57.09,167.36,356.94,8.25">We describe recent and projected growth in these three energy types, key sites for each energy source, and their consequences for biodiversity and ecological health.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_dYAcAU4" coords="2,57.09,190.63,168.75,9.16">Overall Trends in Renewable Energy</head><p xml:id="_qh36WJk" coords="2,57.09,203.31,343.71,8.25;2,57.09,215.27,25.91,8.25;2,89.56,215.27,324.74,8.25;2,57.09,227.23,248.88,8.25;2,323.14,227.23,91.16,8.25;2,57.09,239.19,357.21,8.25;2,57.09,251.15,74.05,8.25;2,141.94,251.15,272.32,8.25;2,57.09,262.74,357.18,8.97;2,57.09,275.02,51.63,8.25;2,125.28,275.02,289.01,8.25;2,57.09,286.98,293.32,8.25;2,365.73,286.98,25.91,8.25;2,397.83,286.98,6.39,8.25;2,57.09,310.91,357.19,8.25;2,57.09,322.87,88.43,8.25;2,158.46,322.87,25.91,8.25;2,189.37,322.87,224.93,8.25;2,57.09,334.83,357.22,8.25;2,57.09,346.79,70.83,8.25;2,140.60,346.79,25.91,8.25;2,171.37,346.79,242.93,8.25;2,57.09,358.70,198.79,8.25;2,267.76,358.70,2.95,8.25"><s xml:id="_Pyj4qc8" coords="2,57.09,203.31,357.17,8.25;2,57.09,215.27,38.90,8.25">In 2016 the installed electricity generation capacity of hydropower was 1096 GW <ref type="bibr" coords="2,404.96,203.31,9.31,8.25" target="#b0">[1]</ref> (Figure <ref type="figure" coords="2,86.34,215.27,3.21,8.25" target="#fig_0">1</ref>).</s><s xml:id="_atsZswN" coords="2,99.38,215.27,314.91,8.25;2,57.09,227.23,269.40,8.25">Actual electricity generation, however, was estimated at only 4.1 PWh, much lower than the potential global annual generation of 52.0 PWh <ref type="bibr" coords="2,309.71,227.23,13.42,8.25" target="#b9">[10]</ref>.</s><s xml:id="_PGuvMGg" coords="2,330.24,227.23,84.06,8.25;2,57.09,239.19,357.21,8.25;2,57.09,251.15,87.82,8.25">This could be due to droughts that caused downturns in power production in some regions, including the Americas and Southeast Asia <ref type="bibr" coords="2,133.06,251.15,8.89,8.25" target="#b0">[1]</ref>.</s><s xml:id="_zSvDdjf" coords="2,146.83,251.15,267.43,8.25;2,57.09,262.74,357.18,8.97;2,57.09,275.02,357.20,8.25;2,57.09,286.98,347.14,8.25">This global capacity is not distributed evenly around the world because there are important regional differences in potential hydropower capacity based on river flows and elevation <ref type="bibr" coords="2,111.86,275.02,13.42,8.25" target="#b9">[10]</ref>; China has the highest potential generation (7.17 TWh/year) and installed hydropower capacity (305 GW), followed by Brazil (3.63 TWh/year, 97 GW) <ref type="bibr" coords="2,353.42,286.98,9.31,8.25" target="#b0">[1]</ref> (Figure <ref type="figure" coords="2,394.64,286.98,3.20,8.25" target="#fig_0">1</ref>).</s><s xml:id="_8rbNwpu" coords="2,57.09,310.91,357.19,8.25;2,57.09,322.87,138.68,8.25">Solar PV capacity grew by 33% from 2015 to 2016, a remarkably rapid rate of expansion, from 228 to 303 GW globally <ref type="bibr" coords="2,147.34,322.87,9.31,8.25" target="#b0">[1]</ref> (Figure <ref type="figure" coords="2,186.18,322.87,3.20,8.25">2</ref>).</s><s xml:id="_3TR2HzB" coords="2,197.57,322.87,216.73,8.25">Global capacity has increased 65-fold in the past decade.</s><s xml:id="_43kcFyh" coords="2,57.09,334.83,357.22,8.25;2,57.09,346.79,120.71,8.25">China remained the country with largest capacity (77.4 GW), comprising more than a quarter of the global capacity <ref type="bibr" coords="2,129.60,346.79,9.31,8.25" target="#b0">[1]</ref> (Figure <ref type="figure" coords="2,168.15,346.79,3.21,8.25">2</ref>).</s><s xml:id="_X27mKaX" coords="2,179.49,346.79,234.81,8.25;2,57.09,358.70,213.62,8.25">Although concentrating solar power (CSP) capacity grew to 4.8 GW, it provides only 1.6% of solar PV capacity <ref type="bibr" coords="2,258.92,358.70,8.84,8.25" target="#b0">[1]</ref>.</s></p><p xml:id="_WsJYcs7" coords="2,57.09,382.62,357.18,8.25;2,57.09,394.59,39.67,8.25;2,108.28,394.59,25.62,8.25;2,138.29,394.59,276.01,8.25;2,57.09,406.55,167.08,8.25;2,236.28,406.55,178.04,8.25;2,57.09,418.51,237.67,8.25;2,310.00,418.51,25.56,8.25;2,341.71,418.51,72.64,8.25;2,57.09,430.47,298.48,8.25;2,366.73,430.47,2.91,8.25"><s xml:id="_xtdy8mt" coords="2,57.09,382.62,357.18,8.25;2,57.09,394.59,87.60,8.25">Wind power also expanded substantially in 2016, with a 54 GW addition increasing global capacity to 487 GW <ref type="bibr" coords="2,97.91,394.59,9.19,8.25" target="#b0">[1]</ref> (Figure <ref type="figure" coords="2,135.10,394.59,3.20,8.25">3</ref>).</s><s xml:id="_Tuujbnv" coords="2,145.81,394.59,268.49,8.25;2,57.09,406.55,182.10,8.25">In 2015 wind was the largest source of new energy capacity in Europe and the USA, and the second highest in China <ref type="bibr" coords="2,227.57,406.55,8.72,8.25" target="#b0">[1]</ref>.</s><s xml:id="_xZrPGSj" coords="2,242.70,406.55,171.61,8.25;2,57.09,418.51,291.01,8.25">China has the highest capacity (168.7 GW), comprising an astounding one third of current global capacity <ref type="bibr" coords="2,297.75,418.51,9.19,8.25" target="#b0">[1]</ref> (Figure <ref type="figure" coords="2,338.51,418.51,3.20,8.25">3</ref>).</s><s xml:id="_Se6wMMz" coords="2,351.04,418.51,63.31,8.25;2,57.09,430.47,312.55,8.25">Globally, 12 GW comes from offshore wind farms, representing a 3.4 GW increase since 2014 <ref type="bibr" coords="2,358.02,430.47,8.72,8.25" target="#b0">[1]</ref>.</s></p><p xml:id="_6wAUwFE" coords="2,57.09,454.34,357.21,8.25;2,57.09,465.98,191.73,8.97;2,260.39,465.98,153.86,8.97;2,57.09,477.94,357.17,8.97;2,57.09,490.23,357.18,8.25;2,57.09,502.19,125.07,8.25;2,194.63,501.87,219.65,8.97;2,57.09,514.15,357.20,8.25;2,70.51,526.11,3.36,8.25"><s xml:id="_FCn727E" coords="2,57.09,454.34,357.21,8.25;2,57.09,465.98,206.25,8.97">Global investment in renewable energy reached an all-time high in 2015 of US$312.2 billion [excluding large ( &gt; 50 MW) hydropower projects] <ref type="bibr" coords="2,251.55,466.30,8.84,8.25" target="#b0">[1]</ref>.</s><s xml:id="_F6ZRwm2" coords="2,266.06,465.98,148.19,8.97;2,57.09,477.94,357.17,8.97;2,57.09,490.23,357.18,8.25;2,57.09,502.19,140.48,8.25">For the first time, developing countries (including the 'BRICS' nations of Brazil, Russia, India, China, and South Africa) exceeded developed countries in investment, with China alone accounting for 32% of total global investment in renewable energy <ref type="bibr" coords="2,185.78,502.19,8.84,8.25" target="#b0">[1]</ref>.</s><s xml:id="_DSSjqyC" coords="2,201.26,501.87,213.02,8.97;2,57.09,514.15,357.20,8.25;2,57.09,526.11,16.78,8.25">Globally, 2015 was the first year in which renewables comprised the majority (53.6%) of newly created energy capacity (excluding large hydropower) <ref type="bibr" coords="2,57.09,526.11,13.42,8.25" target="#b10">[11]</ref>.</s></p><p xml:id="_6wZyd8b" coords="2,57.09,549.98,357.19,8.25;2,57.09,561.94,97.55,8.25;2,171.36,561.94,242.92,8.25;2,57.09,573.91,357.16,8.25;2,57.09,585.87,357.20,8.25;2,57.09,597.83,270.34,8.25;2,344.45,597.83,69.80,8.25;2,57.09,609.79,357.17,8.25;2,57.09,621.76,296.29,8.25"><s xml:id="_WJ82yRC" coords="2,57.09,549.98,357.19,8.25;2,57.09,561.94,117.64,8.25">In China, the largest energy consumer worldwide, energy use is expected to increase by 60% between 2015 and 2030 <ref type="bibr" coords="2,157.89,561.94,13.47,8.25" target="#b11">[12]</ref>.</s><s xml:id="_k9pzV4k" coords="2,177.96,561.94,236.31,8.25;2,57.09,573.91,357.16,8.25;2,57.09,585.87,357.20,8.25;2,57.09,597.83,290.72,8.25">Between 2020 and 2050 hydropower generation in China is expected to rise from 11.4 to 15.5 TWh (while declining from 13.1% to 11.1% as a proportion of total energy generation), whereas wind is projected to increase from 3.2 to 10.4 TWh (from 3.7% to 7.5%), and solar from 0.3 to 4.8 TWh (from 0.4% to 3.4%) <ref type="bibr" coords="2,331.03,597.83,13.42,8.25" target="#b11">[12]</ref>.</s><s xml:id="_TTzyfpx" coords="2,351.44,597.83,62.81,8.25;2,57.09,609.79,357.17,8.25;2,57.09,621.76,296.29,8.25">Based on these projections, hydropower will continue to provide the largest share of renewable energy generation, both globally and within China, followed by wind and then solar.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_dCZVMCP" coords="2,57.09,645.03,243.85,9.16">Hydropower: The Largest Renewable Energy Source</head><p xml:id="_j3cmpyM" coords="2,57.09,657.70,70.59,8.25;2,57.09,669.60,357.16,8.25;2,57.09,681.57,357.18,8.25;2,57.09,693.53,72.51,8.25;2,145.74,693.53,268.53,8.25;2,57.09,705.49,357.17,9.11;3,427.92,108.52,107.45,6.42;3,427.92,117.99,99.43,6.42;3,427.92,127.46,101.11,6.42;3,427.92,136.92,83.03,6.42;3,427.92,146.39,35.26,6.42"><s xml:id="_HmzFudG" coords="2,57.09,657.70,70.59,8.25;2,57.09,669.60,357.16,8.25;2,57.09,681.57,357.18,8.25;2,57.09,693.53,92.01,8.25">Carbon Emissions As of March 2014 some 3700 sizable (&gt;1 MW) hydroelectric dams were either planned (83%) or under construction (17%) worldwide, with about nine-tenths of these being in developing nations <ref type="bibr" coords="2,132.32,693.53,13.42,8.25" target="#b12">[13]</ref>.</s><s xml:id="_aWXf79p" coords="2,151.82,693.53,262.45,8.25;2,57.09,705.49,357.17,9.11;3,427.92,108.52,107.45,6.42;3,427.92,117.99,99.43,6.42;3,427.92,127.46,101.11,6.42;3,427.92,136.92,83.03,6.42;3,427.92,146.39,35.26,6.42">Despite being touted as a clean energy source, hydropower causes substantial emissions of greenhouse gases such as CO 2 , methane (CH 4 ), and nitrous oxide generating site (e.g., a power plant) to an electrical substation, which often transforms the voltage from high to low before reaching consumers.</s></p><p xml:id="_VKWE3BH" coords="3,427.92,155.86,113.25,6.42;3,427.92,165.33,82.51,6.42;3,427.92,174.54,98.62,6.97;3,427.92,184.26,74.37,6.42;3,427.92,193.73,98.04,6.42;3,427.92,203.20,108.58,6.42;3,427.92,212.61,105.38,6.42;3,427.92,222.08,107.59,6.42;3,427.92,231.54,88.83,6.42;3,427.92,241.01,57.22,6.42;3,68.35,316.11,12.17,6.83;3,68.35,365.85,12.17,6.83;3,68.47,415.32,12.17,6.83;3,74.58,469.73,16.22,6.83;3,107.17,469.73,16.22,6.83;3,139.90,469.99,16.22,6.83;3,172.88,469.99,16.22,6.83;3,205.08,469.86,16.22,6.83;3,237.81,469.86,16.22,6.83;3,270.92,469.99,16.22,6.83;3,304.29,470.12,16.22,6.83;3,336.75,470.12,16.22,6.83;3,368.83,469.73,45.44,7.09;3,58.78,427.46,8.28,20.41;3,58.78,397.79,8.28,27.48;3,58.78,362.38,8.28,33.22;3,58.78,339.18,8.28,21.01;3,69.22,553.75,12.17,6.83;3,69.22,585.98,12.17,6.83;3,69.22,618.01,12.17,6.83;3,69.22,650.24,12.17,6.83;3,74.82,687.53,16.22,6.83;3,111.37,687.53,16.22,6.83;3,147.73,687.53,16.22,6.83;3,184.10,687.53,16.22,6.83;3,220.46,687.53,16.22,6.83;3,256.72,687.53,16.22,6.83;3,293.19,687.53,16.22,6.83;3,329.45,687.53,16.22,6.83;3,366.12,687.53,16.22,6.83;3,397.73,687.53,16.22,6.83;3,59.68,644.09,8.11,21.13;3,59.68,616.59,8.11,25.36;3,59.68,581.93,8.11,32.53;3,59.68,559.22,8.11,20.57;3,57.09,717.54,357.20,7.33;3,57.09,727.01,90.44,7.33"><s xml:id="_nwBvygr" coords="3,427.92,155.86,113.25,6.42;3,427.92,165.33,82.51,6.42">Wind farm: a group of wind turbines used to produce electricity.</s><s xml:id="_yhh75sG" coords="3,427.92,174.54,98.62,6.97;3,427.92,184.26,74.37,6.42;3,427.92,193.73,98.04,6.42">Wind power: the use of air flow through wind turbines to mechanically produce electricity.</s><s xml:id="_8yMDFkn" coords="3,427.92,203.20,108.58,6.42;3,427.92,212.61,105.38,6.42;3,427.92,222.08,107.59,6.42;3,427.92,231.54,88.83,6.42;3,427.92,241.01,57.22,6.42">Wind turbine: a device with two or three propeller-like blades which in the presence of wind turn around a rotor, spinning a generator to produce electricity.</s><s xml:id="_AUbJ6tf" coords="3,68.35,316.11,12.17,6.83;3,68.35,365.85,12.17,6.83;3,68.47,415.32,12.17,6.83;3,74.58,469.73,16.22,6.83;3,107.17,469.73,16.22,6.83;3,139.90,469.99,16.22,6.83;3,172.88,469.99,16.22,6.83;3,205.08,469.86,16.22,6.83;3,237.81,469.86,16.22,6.83;3,270.92,469.99,16.22,6.83;3,304.29,470.12,16.22,6.83;3,336.75,470.12,16.22,6.83;3,368.83,469.73,45.44,7.09;3,58.78,427.46,8.28,20.41;3,58.78,397.79,8.28,27.48;3,58.78,362.38,8.28,33.22;3,58.78,339.18,8.28,21.01;3,69.22,553.75,12.17,6.83;3,69.22,585.98,12.17,6.83;3,69.22,618.01,12.17,6.83;3,69.22,650.24,12.17,6.83;3,74.82,687.53,16.22,6.83;3,111.37,687.53,16.22,6.83;3,147.73,687.53,16.22,6.83;3,184.10,687.53,16.22,6.83;3,220.46,687.53,16.22,6.83;3,256.72,687.53,16.22,6.83;3,293.19,687.53,16.22,6.83;3,329.45,687.53,16.22,6.83;3,366.12,687.53,16.22,6.83;3,397.73,687.53,16.22,6.83;3,59.68,644.09,8.11,21.13;3,59.68,616.59,8.11,25.36;3,59.68,581.93,8.11,32.53;3,59.68,559.22,8.11,20.57;3,57.09,717.54,357.20,7.33;3,57.09,727.01,46.54,7.33">300 200 100 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 Solar energy capacity (GW) 400 300 200 100 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 Wind power capacity (GW) Figure 3. Wind Power Installed Capacity (GW) 2007-2016 for China (Dark Green) and the Rest of the World (Light Green).</s><s xml:id="_4qAHksp" coords="3,105.96,727.72,41.57,6.42">Data from [1].</s></p><p xml:id="_jfGwBm6" coords="4,57.09,107.61,21.05,9.11;4,93.98,107.61,320.28,8.25;4,57.09,119.57,357.21,9.11;4,57.09,131.53,357.21,9.11;4,57.09,143.17,336.35,8.97;4,410.90,143.49,3.36,8.25;4,57.09,155.40,357.21,8.25;4,57.09,167.36,307.40,8.25"><s xml:id="_EQRaWny" coords="4,57.09,107.61,40.25,9.11">(N 2 O) <ref type="bibr" coords="4,80.56,107.61,13.42,8.25" target="#b13">[14]</ref>.</s><s xml:id="_vb9cYeh" coords="4,99.84,107.61,314.43,8.25;4,57.09,119.57,357.21,9.11;4,57.09,131.53,357.21,9.11;4,57.09,143.17,357.17,8.97">Decomposition of vegetation in anaerobic conditions at the bottom of hydroelectric reservoirs produces substantial quantities of CH 4 , and water passed through turbines and spillways also releases CH 4 dissolved in the water; upstream emissions are proportional to reservoir surface area, whereas downstream emissions are proportional to flow rate <ref type="bibr" coords="4,397.47,143.49,13.42,8.25" target="#b14">[15]</ref>.</s><s xml:id="_TFhQFGU" coords="4,57.09,155.40,357.21,8.25;4,57.09,167.36,307.40,8.25">Further, many new hydropower dams require networks of roads for dam construction and maintenance that in turn increase deforestation and forest colonization (Box 1).</s></p><p xml:id="_NsEVyJW" coords="4,57.09,191.29,357.18,8.25;4,57.09,203.25,58.51,8.25;4,131.00,203.25,283.26,8.25;4,57.09,215.21,357.16,8.25;4,57.09,226.85,357.17,8.97;4,57.09,239.13,357.17,9.11;4,57.09,251.04,357.19,8.25"><s xml:id="_kGjyHdr" coords="4,57.09,191.29,357.18,8.25;4,57.09,203.25,77.27,8.25">The largest greenhouse gas emissions are typically emitted from hydropower reservoirs in tropical regions <ref type="bibr" coords="4,117.58,203.25,13.42,8.25" target="#b15">[16]</ref>.</s><s xml:id="_DqBs9DT" coords="4,136.40,203.25,277.86,8.25;4,57.09,215.21,357.16,8.25;4,57.09,227.17,42.51,8.25">Hydroelectric reservoirs in the tropics are often created in areas with large stocks of above-and below-ground carbon, especially in humid regions that support dense rainforests.</s><s xml:id="_6XEJM4X" coords="4,102.44,226.85,311.81,8.97;4,57.09,239.13,154.17,9.11">Because these forest habitats are flooded by reservoirs, the large carbon stocks produce heavy CH 4 and CO 2 emissions.</s><s xml:id="_8H4QU23" coords="4,213.45,239.14,200.81,8.25;4,57.09,251.04,357.19,8.25">In addition, falling water levels during the dry season, combined with rapid plant growth, result in an annual proliferation of fast-growing plant species</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_bBu4mQn" coords="4,61.11,302.95,275.05,7.33">Box 1. Hydropower Expansion Threatens the Amazon and the Andean Foothills</head><p xml:id="_TrEggKg" coords="4,61.11,315.42,349.19,6.97;4,61.11,324.89,147.00,6.97;4,212.29,324.89,197.99,6.97;4,61.11,334.36,349.19,6.97;4,61.11,344.08,127.12,6.42;4,200.31,344.08,209.99,6.42;4,61.11,353.49,114.64,6.42;4,188.46,353.24,221.85,6.97;4,61.11,362.96,183.74,6.42;4,258.41,362.71,151.91,6.97;4,61.11,372.43,35.92,6.42;4,109.77,372.43,2.61,6.42"><s xml:id="_bp3XVf5" coords="4,61.11,315.42,349.19,6.97;4,61.11,324.89,154.65,6.97">Hydroelectric dams on major river tributaries in the Amazon basin and adjoining Andean foothillswhich drain into the Amazon Riverare exploding in number (Figure <ref type="figure" coords="4,210.56,325.14,1.74,6.42" target="#fig_4">I</ref>).</s><s xml:id="_zTyJVAT" coords="4,218.21,324.89,192.07,6.97;4,61.11,334.36,349.19,6.97;4,61.11,344.08,141.80,6.42">Currently there are 48 dams of &gt;2 MW capacity in the Andean foothills, with another 151 dams planned over the next 20 years, which will disrupt ecological connectivity of five of the six major Andean tributaries of the Amazon <ref type="bibr" coords="4,189.86,344.08,10.44,6.42" target="#b83">[84]</ref>.</s><s xml:id="_wPmrxzj" coords="4,204.60,344.08,205.69,6.42;4,61.11,353.49,129.95,6.42">Currently, 191 dams exist in the Amazon basin itself, and another 246 are planned or are under construction <ref type="bibr" coords="4,178.02,353.49,10.44,6.42" target="#b20">[21]</ref>.</s><s xml:id="_8CTZZSC" coords="4,193.27,353.24,217.04,6.97;4,61.11,362.71,349.20,6.97;4,61.11,372.43,51.26,6.42">The largest nation in the Amazon, Brazilwhich comprises 8.6% of the global hydropower capacity, second only to China (27.9%) <ref type="bibr" coords="4,247.97,362.96,7.24,6.42" target="#b0">[1]</ref> derives &gt;70% of its electricity generation from hydropower <ref type="bibr" coords="4,99.33,372.43,10.44,6.42" target="#b84">[85]</ref>.</s></p><p xml:id="_wW8cDxt" coords="4,61.12,393.60,349.16,6.97;4,61.11,403.32,349.20,6.42;4,61.11,412.79,253.28,6.42;4,328.49,412.79,81.77,6.42;4,61.11,422.26,349.20,6.42;4,61.11,431.73,273.33,6.42;4,347.54,431.73,62.75,6.42;4,61.11,441.19,349.18,6.42;4,61.11,450.66,261.14,6.42;4,335.06,450.66,2.61,6.42"><s xml:id="_pAAYthb" coords="4,61.12,393.60,349.16,6.97;4,61.11,403.32,263.48,6.42">The potential for new dams to promote deforestation, not only by flooding forest but also by promoting road and power line networks that greatly increase human access to forests, is often underappreciated.</s><s xml:id="_ss4w7Wv" coords="4,326.83,403.32,83.48,6.42;4,61.11,412.79,269.98,6.42">Of the planned and existing Andean dams, 36% would require new roads and 79% new transmission lines <ref type="bibr" coords="4,318.05,412.79,10.44,6.42" target="#b83">[84]</ref>.</s><s xml:id="_seNUKMF" coords="4,334.77,412.79,75.48,6.42;4,61.11,422.26,349.20,6.42;4,61.11,431.73,289.03,6.42">Deforestation and forest degradation has affected thousands of square kilometers of forest surrounding the Tucuruí Dam in Brazil, largely from a 10-fold increase in the human population and in associated logging and forest clearing <ref type="bibr" coords="4,337.10,431.73,10.44,6.42" target="#b85">[86]</ref>.</s><s xml:id="_Aptmh4z" coords="4,352.80,431.73,57.49,6.42;4,61.11,441.19,349.18,6.42;4,61.11,450.66,276.56,6.42">Twelve large dams planned for the Tapajós River and its tributaries in the eastern Amazon are projected to increase deforestation by nearly 1 million ha by 2030, largely as a result of increased road and power line construction <ref type="bibr" coords="4,324.62,450.66,10.44,6.42" target="#b86">[87]</ref>.</s></p><p xml:id="_49ZmGUv" coords="4,61.12,472.09,349.14,6.42;4,61.11,481.56,212.07,6.42;4,286.54,481.31,123.77,6.97;4,61.11,489.57,349.19,7.87;4,61.11,500.49,124.98,6.42;4,197.81,500.49,212.46,6.42;4,61.11,509.91,151.39,6.42;5,57.09,107.28,357.19,8.97;5,57.09,119.57,357.21,8.25;5,57.09,131.53,289.35,8.25;5,346.45,129.64,3.74,5.50;5,353.54,131.53,60.72,8.25;5,57.09,143.49,357.17,8.25;5,57.09,155.40,176.62,8.25;5,250.79,155.40,163.46,8.25;5,57.09,167.36,357.20,8.25;5,57.09,179.00,147.53,8.97;5,221.09,179.32,193.21,8.25;5,57.09,191.29,164.10,8.25;5,237.59,191.29,3.36,8.25"><s xml:id="_xD9vsSC" coords="4,61.12,472.09,349.14,6.42;4,61.11,481.31,349.19,6.97;4,61.11,489.57,349.19,7.87;4,61.11,500.49,139.31,6.42">Although the massive Balbina Hydroelectric Reservoir in the Brazilian Amazon increased the available habitat and doubled the population size of the giant otter (Pteronura brasiliensis) <ref type="bibr" coords="4,276.09,481.56,10.44,6.42" target="#b87">[88]</ref>, this same reservoir flooded more than 3000 km 2 of undisturbed rainforest, and 98% of the 3546 islands in the reservoir lost at least 25% of the vertebrate species originally occupying the landscape <ref type="bibr" coords="4,187.37,500.49,10.44,6.42" target="#b88">[89]</ref>.</s><s xml:id="_YkzHgnV" coords="4,201.71,500.49,208.56,6.42;4,61.11,509.91,151.39,6.42">Similar consequences can be expected from the hundreds of dams that are planned or under construction in the Amazon.</s><s xml:id="_ubG9DzS" coords="5,57.09,107.61,188.40,8.25">along the exposed margins of tropical reservoirs.</s><s xml:id="_nfDg2Gj" coords="5,248.14,107.28,166.14,8.97;5,57.09,119.57,340.28,8.25">These regenerating plants are then flooded and killed during the wet season, producing additional carbon emissions each year.</s><s xml:id="_HmsCkHN" coords="5,401.67,119.57,12.62,8.25;5,57.09,131.53,289.35,8.25;5,346.45,129.64,3.74,5.50;5,353.54,131.53,60.72,8.25;5,57.09,143.49,357.17,8.25;5,57.09,155.40,197.06,8.25">For example, the 40 MW Curuá-Una Dam in Pará, Brazil, which spans 72 km 2 in surface area, releases 3.6-fold the amount of greenhouse gases annually than would be produced by generating the same energy from fossil fuels <ref type="bibr" coords="5,237.32,155.40,13.47,8.25" target="#b16">[17]</ref>.</s><s xml:id="_Qc4DNGE" coords="5,257.78,155.40,156.46,8.25;5,57.09,167.36,357.20,8.25;5,57.09,179.00,357.21,8.97;5,57.09,191.29,183.86,8.25">In the vast tropical regions such as the Amazon (Box 1) and Congo basins, very large reservoirs are necessary to generate adequate power because of the flat topography <ref type="bibr" coords="5,207.67,179.32,13.42,8.25" target="#b17">[18]</ref>; the high ratio of reservoir surface area to power generation only increases these emissions <ref type="bibr" coords="5,224.16,191.29,13.42,8.25" target="#b14">[15]</ref>.</s></p><p xml:id="_Gx8mhDd" coords="5,57.09,215.21,357.17,9.11;5,57.09,227.17,357.17,9.11;5,57.09,239.13,32.55,8.25;5,118.29,239.14,295.99,8.25;5,57.09,251.04,357.20,8.25;5,57.09,263.00,30.11,8.25"><s xml:id="_BSuhazt" coords="5,57.09,215.21,357.17,9.11;5,57.09,227.17,357.17,9.11;5,57.09,239.13,64.86,8.25">Globally, hydroelectric reservoirs emit substantial amounts of CO 2 and CH 4 into the atmosphere, ranging from 48-82 Tg of CO 2 and 3-14 Tg of CH 4 per year from their reservoir surfaces <ref type="bibr" coords="5,92.69,239.14,14.63,8.25" target="#b15">[16,</ref><ref type="bibr" coords="5,107.32,239.14,10.97,8.25" target="#b18">19]</ref>.</s><s xml:id="_6pTBBPG" coords="5,124.95,239.14,289.33,8.25;5,57.09,251.04,357.20,8.25;5,57.09,263.00,30.11,8.25">Further emissions are frequently caused by habitat loss and fragmentation associated with networks of roads and power lines needed for dam construction and operation (Box 1).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_XSwFCFK" coords="5,57.09,286.93,90.49,8.25">Impacts on Biodiversity</head><p xml:id="_EWQaPAK" coords="5,57.09,298.89,357.16,8.25;5,57.09,310.85,309.19,8.25;5,366.29,309.02,3.74,5.50;5,385.78,310.85,28.50,8.25;5,57.09,322.81,357.21,8.25;5,57.09,334.78,357.16,8.25;5,57.09,346.74,357.18,8.25;5,57.09,358.64,357.22,8.25;5,57.09,370.28,246.32,8.97;5,303.36,368.77,3.74,5.50;5,310.28,370.61,104.02,8.25;5,57.09,382.57,66.21,8.25;5,123.31,380.73,3.74,5.50;5,129.77,382.57,241.12,8.25;5,386.97,382.57,27.28,8.25;5,57.09,394.53,110.54,8.25;5,167.64,392.70,3.74,5.50;5,173.25,394.53,241.03,8.25;5,57.09,406.49,357.21,8.25;5,57.09,418.45,111.10,8.25;5,184.64,418.45,3.36,8.25"><s xml:id="_Q5erVKU" coords="5,57.09,298.89,357.16,8.25;5,57.09,310.85,69.45,8.16">In many contexts, the largest impact caused by hydropower is the habitat lost to impoundment reservoirs.</s><s xml:id="_Cxmkrap" coords="5,128.92,310.85,237.36,8.25;5,366.29,309.02,3.74,5.50;5,372.36,310.85,41.92,8.25;5,57.09,322.81,357.21,8.25;5,57.09,334.78,106.10,8.25">Globally, hydroelectric reservoirs cover an area of 340 000 km 2 <ref type="bibr" coords="5,372.36,310.85,13.42,8.25" target="#b15">[16]</ref>, nearly the size of Germany, replacing important lowland and riverine forest and grassland habitats used by countless species.</s><s xml:id="_Y75acQh" coords="5,166.22,334.78,248.02,8.25;5,57.09,346.74,357.18,8.25;5,57.09,358.64,270.22,8.25">Secondary impacts caused by hydropower development, in the form of access roads and transmission lines, can also contribute to environmental degradation, sometimes superseding habitat losses from the reservoir itself.</s><s xml:id="_adYrpPH" coords="5,330.01,358.64,84.29,8.25;5,57.09,370.28,246.32,8.97;5,303.36,368.77,3.74,5.50;5,310.28,370.61,104.02,8.25;5,57.09,382.57,66.21,8.25;5,123.31,380.73,3.74,5.50;5,129.77,382.57,260.56,8.25">For example, ongoing construction of the Belo Monte Dam in Brazil will flood 440 km 2 behind the main dam, and another 6140 km 2 behind the Altamira/Babaquara Dam that will regulate riverflow <ref type="bibr" coords="5,373.55,382.57,13.42,8.25" target="#b19">[20]</ref>.</s><s xml:id="_pXDgNve" coords="5,393.00,382.57,21.26,8.25;5,57.09,394.53,110.54,8.25;5,167.64,392.70,3.74,5.50;5,173.25,394.53,241.03,8.25;5,57.09,406.49,357.21,8.25;5,57.09,418.45,130.90,8.25">However, another 4000-5000 km 2 of forest is expected to disappear after the project is completed, when construction workers join other migrants in the search for livelihoods in the region, often causing further deforestation <ref type="bibr" coords="5,171.21,418.45,13.42,8.25" target="#b20">[21]</ref>.</s></p><p xml:id="_GCRcR9D" coords="5,57.09,442.38,357.16,8.25;5,57.09,454.28,357.20,8.25;5,57.09,466.25,36.33,8.25;5,93.43,464.41,3.74,5.50;5,97.17,466.25,317.13,8.25;5,57.09,477.89,357.17,8.97;5,70.51,490.17,333.42,8.25;5,410.69,490.17,3.57,8.25;5,122.23,708.39,238.10,6.42;5,372.82,708.39,41.45,6.42;6,57.09,107.61,357.19,8.25;6,57.09,119.57,34.20,8.25;6,108.33,119.57,305.95,8.25;6,57.09,131.53,357.17,8.25;6,57.09,143.49,357.21,8.25;6,57.09,155.40,184.87,8.25;6,258.39,155.40,3.36,8.25"><s xml:id="_Uyd2qtD" coords="5,57.09,442.38,357.16,8.25;5,57.09,454.28,191.58,8.25">As hydropower reservoirs are formed, the fragmented habitat within or surrounding the reservoir becomes vulnerable to biodiversity loss.</s><s xml:id="_wuJYyQN" coords="5,251.72,454.28,162.57,8.25;5,57.09,466.25,36.33,8.25;5,93.43,464.41,3.74,5.50;5,97.17,466.25,317.13,8.25;5,57.09,477.89,357.17,8.97;5,57.09,490.17,16.78,8.25">Islands persisting in Lago Guri, a massive (4250 km 2 ) hydropower reservoir in Venezuela, experienced great losses in biodiversity and such dramatic changes in species composition that it was termed an 'ecological meltdown' <ref type="bibr" coords="5,57.09,490.17,13.42,8.25" target="#b21">[22]</ref>.</s><s xml:id="_V9e5GFj" coords="5,77.10,490.17,337.16,8.25;5,122.23,708.39,253.20,6.42">Similarly, small (&lt;60 ha) islands formed by Chiew Larn Reservoir in Thailand (Figure <ref type="figure" coords="5,407.11,490.17,3.57,8.25" target="#fig_3">4</ref>) Fauna on isolated hilltops in the reservoir have suffered catastrophic extinctions <ref type="bibr" coords="5,362.38,708.39,10.44,6.42" target="#b22">[23]</ref>.</s><s xml:id="_tBt3pVC" coords="5,377.46,708.39,36.81,6.42;6,57.09,107.61,357.19,8.25;6,57.09,119.57,54.59,8.25">Photo credit suffered catastrophic extinctions, with all 12 native small mammal species disappearing in only 25 years <ref type="bibr" coords="6,94.90,119.57,13.42,8.25" target="#b22">[23]</ref>.</s><s xml:id="_Eh6A4gu" coords="6,115.31,119.57,298.97,8.25;6,57.09,131.53,357.17,8.25;6,57.09,143.49,357.21,8.25;6,57.09,155.40,204.66,8.25">Finally, habitat loss and fragmentation from a hydroelectric dam in Portugal caused the regional distributions of the European wildcat (Felis silvestris) and European polecat (Mustela putorius) to shrink by half and two-thirds, respectively [although the water-dependent European otter (Lutra lutra) expanded its range] <ref type="bibr" coords="6,244.97,155.40,13.42,8.25" target="#b23">[24]</ref>.</s></p><p xml:id="_2MGvRrw" coords="6,57.09,179.00,357.16,8.97;6,57.09,191.29,130.42,8.25;6,215.97,191.29,198.30,8.25;6,57.09,203.25,357.16,8.25;6,57.09,214.89,357.17,8.97;6,57.09,227.17,357.17,8.25;6,57.09,239.13,29.39,8.25;6,101.58,239.14,241.81,8.25;6,358.50,239.14,55.80,8.25;6,57.09,251.04,357.16,8.25;6,57.09,263.00,270.71,8.25;6,344.23,263.00,3.36,8.25"><s xml:id="_zJMaQjn" coords="6,57.09,179.00,357.16,8.97;6,57.09,191.29,162.54,8.25">Hydroelectric dams also create barriers to downriver sediment flow and block the migration of animals upstream or downstream <ref type="bibr" coords="6,190.37,191.29,14.63,8.25" target="#b20">[21,</ref><ref type="bibr" coords="6,205.00,191.29,10.97,8.25" target="#b24">25]</ref>.</s><s xml:id="_3gsVwXb" coords="6,222.52,191.29,191.75,8.25;6,57.09,203.25,357.16,8.25;6,57.09,214.89,91.28,8.97">Dam construction in the Amazon has fragmented populations of two species of dolphins, the Amazon River dolphin (Inia geoffrensis) and the tucuxi (Sotalia fluviatilis).</s><s xml:id="_9CS7fdP" coords="6,150.58,215.21,263.68,8.25;6,57.09,227.17,357.17,8.25;6,57.09,239.13,47.85,8.25">Distribution and population records, however, are poorly understood, and there has been little effort to mitigate the impacts of ongoing dam construction on these species <ref type="bibr" coords="6,88.16,239.14,13.42,8.25" target="#b25">[26]</ref>.</s><s xml:id="_cq7Nwzs" coords="6,106.58,239.14,255.29,8.25">Dams have also negatively affected river dolphin species in Asia <ref type="bibr" coords="6,345.03,239.14,13.47,8.25" target="#b26">[27]</ref>.</s><s xml:id="_vkWsbe3" coords="6,363.46,239.14,50.85,8.25;6,57.09,251.04,357.16,8.25;6,57.09,263.00,290.49,8.25">The scores of planned Mekong dams will also endanger a critically imperiled population of freshwater dolphin (Orcaella brevirostris), which has fewer than 100 individuals remaining <ref type="bibr" coords="6,330.80,263.00,13.42,8.25" target="#b27">[28]</ref>.</s></p><p xml:id="_VH2z5ZV" coords="6,57.09,286.93,357.16,8.25;6,57.09,298.57,97.00,8.97;6,170.01,298.89,244.28,8.25;6,57.09,310.53,322.39,8.97;6,394.62,310.85,19.68,8.25;6,57.09,322.49,357.16,8.97;6,57.09,334.78,42.39,8.25;6,116.77,334.78,297.52,8.25;6,57.09,346.68,357.21,8.25;6,57.09,358.32,357.19,8.97;6,57.09,370.61,130.42,8.25;6,203.74,370.61,210.56,8.25;6,57.09,382.57,357.17,8.25;6,57.09,394.53,65.62,8.25;6,139.11,394.53,3.36,8.25"><s xml:id="_cFencc5" coords="6,57.09,286.93,357.16,8.25;6,57.09,298.57,116.28,8.97">Dams and impoundment reservoirs form major barriers which disrupt the migration patterns of neotropical migratory fish <ref type="bibr" coords="6,156.59,298.89,13.42,8.25" target="#b24">[25]</ref>.</s><s xml:id="_D529kVP" coords="6,175.86,298.89,238.43,8.25;6,57.09,310.53,357.21,8.97;6,57.09,322.49,357.16,8.97;6,57.09,334.78,63.04,8.25">Dams along the Mekong and its tributaries create barriers that disrupt upstream spawning migration and the downstream drift of fish eggs and larvae <ref type="bibr" coords="6,381.15,310.85,13.47,8.25" target="#b28">[29]</ref>, and threaten fisheries that provide likelihoods and food resources for many of the 65 million people living there <ref type="bibr" coords="6,103.35,334.78,13.42,8.25" target="#b29">[30]</ref>.</s><s xml:id="_gYeSd7m" coords="6,123.99,334.78,290.31,8.25;6,57.09,346.68,357.21,8.25;6,57.09,358.32,357.19,8.97;6,57.09,370.61,150.01,8.25">Dams along the Yangtze have driven large species such as the Yangtze sturgeon (Acipenser dabryanus), the Chinese sturgeon (Acipenser sinensis), and the Chinese paddlefish (Psephurus gladius) to be listed as 'critically endangered' by the International Union for Conservation of Nature (IUCN) <ref type="bibr" coords="6,190.32,370.61,13.42,8.25" target="#b30">[31]</ref>.</s><s xml:id="_uaK6TUZ" coords="6,209.88,370.61,204.42,8.25;6,57.09,382.57,357.17,8.25;6,57.09,394.53,85.38,8.25">Large migratory species are particularly vulnerable to dams; in the past two decades populations of the Mekong giant catfish (Pangasianodon gigas) declined by 80% <ref type="bibr" coords="6,125.69,394.53,13.42,8.25" target="#b31">[32]</ref>.</s></p><p xml:id="_Jc9DmMP" coords="6,57.09,418.45,357.21,8.25;6,57.09,430.09,357.22,8.97;6,57.09,442.00,357.19,8.97;6,57.09,453.96,357.20,8.97;6,57.09,465.92,357.21,8.97;6,57.09,478.21,30.25,8.25;6,103.74,478.21,3.36,8.25"><s xml:id="_zJNb69p" coords="6,57.09,418.45,357.21,8.25;6,57.09,430.09,320.57,8.97">Tonle Sap, the largest lake in Southeast Asia and an important wetland habitat for migrating birds and spawning ground for freshwater fisheries, will also suffer from hydropower.</s><s xml:id="_aacZGvT" coords="6,379.79,430.42,34.52,8.25;6,57.09,442.00,357.19,8.97;6,57.09,453.96,357.20,8.97;6,57.09,465.92,357.21,8.97;6,57.09,478.21,50.00,8.25">Dams on the Mekong are projected to cause a 41.6% AE 7.7% decline in sedimentation, and similar reductions in net primary productivity (NPP) -42% among flooded grasslands, 39% among flooded shrublands, and 50% in gallery forestswhich in turn are projected to decline in extent by 22% <ref type="bibr" coords="6,90.31,478.21,13.42,8.25" target="#b32">[33]</ref>.</s></p><p xml:id="_RGvSHRw" coords="6,57.09,501.81,357.18,8.97;6,57.09,514.10,357.19,8.25;6,70.51,526.06,343.75,8.25;6,57.09,537.96,166.25,8.25;6,252.48,537.96,161.79,8.25;6,57.09,549.93,357.18,8.25;6,57.09,561.89,163.59,8.25;6,237.08,561.89,3.36,8.25"><s xml:id="_GAXfURU" coords="6,57.09,501.81,357.18,8.97;6,57.09,514.10,357.19,8.25;6,57.09,526.06,16.78,8.25">Dams regulate water flow and disrupt natural flow cycles, creating homogenized, disturbed conditions that favor the spread of non-native species that in turn threaten many native species <ref type="bibr" coords="6,57.09,526.06,13.42,8.25" target="#b33">[34]</ref>.</s><s xml:id="_qtJnvxA" coords="6,76.20,526.06,338.07,8.25;6,57.09,537.96,199.05,8.25">The shift from lotic (fast-flowing) to lentic (still) waters favors generalist species which can displace range-restricted endemic species <ref type="bibr" coords="6,226.89,537.96,14.63,8.25" target="#b20">[21,</ref><ref type="bibr" coords="6,241.51,537.96,10.97,8.25" target="#b34">35]</ref>.</s><s xml:id="_MXh9mXr" coords="6,259.71,537.96,154.56,8.25;6,57.09,549.93,260.07,8.25">In natural and man-made lakes in Wisconsin and northern Michigan, non-native species were 2.4-7.8-fold</s><s xml:id="_xnzNdks" coords="6,319.29,549.93,94.97,8.25;6,57.09,561.89,183.34,8.25">more likely to be found in man-made reservoirs than in natural lakes <ref type="bibr" coords="6,223.65,561.89,13.42,8.25" target="#b35">[36]</ref>.</s></p><p xml:id="_sEB4M5b" coords="6,57.09,585.49,357.22,8.97;6,57.09,597.77,205.68,8.25;6,279.14,597.77,135.16,8.25;6,57.09,609.74,264.80,8.25;6,329.67,609.74,84.60,8.25;6,57.09,621.70,357.18,8.25;6,57.09,633.60,62.43,8.25;6,119.51,631.56,8.95,5.98;6,130.45,633.60,96.75,8.25;6,242.58,633.60,171.69,8.25;6,57.09,645.57,142.37,8.25"><s xml:id="_FHGsZU4" coords="6,57.09,585.49,357.22,8.97;6,57.09,597.77,225.41,8.25">Dams can also contribute to increased saltwater intrusion in river mouths by blocking the flow of sediment which helps to keep deltas above sea level <ref type="bibr" coords="6,265.72,597.77,13.42,8.25" target="#b36">[37]</ref>.</s><s xml:id="_pWYGCbS" coords="6,285.39,597.77,128.91,8.25;6,57.09,609.74,264.80,8.25;6,321.85,607.85,3.74,5.50;6,329.67,609.74,84.60,8.25;6,57.09,621.70,357.18,8.25;6,57.09,633.60,62.43,8.25;6,119.51,631.56,8.95,5.98;6,130.45,633.60,115.48,8.25">One of the few positive effects of hydroelectric development is that the impoundment of 10 800 km 3 of water in reservoirs worldwide has reduced global sea level rise by 3 cm, slowing sea-level increases by an average of 0.55 mm year À1 over the past half-century <ref type="bibr" coords="6,229.15,633.60,13.42,8.25" target="#b37">[38]</ref>.</s><s xml:id="_VGGaRSG" coords="6,247.92,633.60,166.35,8.25;6,57.09,645.57,142.37,8.25">This also suggests that other sources of sea level rise have been underestimated.</s></p><p xml:id="_5fnzeKu" coords="6,57.09,669.49,357.19,8.25;6,57.09,681.45,357.17,8.25;6,57.09,693.42,222.45,8.25;6,295.47,693.42,118.80,8.25;6,57.09,705.38,357.17,8.25;6,57.09,717.34,357.22,8.25;7,57.09,107.28,160.95,8.97;7,247.89,107.61,166.37,8.25;7,57.09,119.57,357.20,8.25;7,57.09,131.21,338.72,8.97;7,410.90,131.53,3.36,8.25"><s xml:id="_4BcnR7Q" coords="6,57.09,669.49,357.19,8.25;6,57.09,681.45,172.44,8.25">Construction of hydroelectric reservoirs spiked from the 1950s through the 1980s, subsequently slowed, and is rebounding at present.</s><s xml:id="_Uvu2ds4" coords="6,231.36,681.45,182.90,8.25;6,57.09,693.42,241.74,8.25">Currently, nearly half of all freshwater ecoregions globally are obstructed by medium-and large-sized dams <ref type="bibr" coords="6,282.05,693.42,13.42,8.25" target="#b38">[39]</ref>.</s><s xml:id="_UavFhDe" coords="6,301.32,693.42,112.95,8.25;6,57.09,705.38,253.01,8.25">Hydropower impacts will only grow as more dams are constructed, particularly in the tropics.</s><s xml:id="_sjWqv5D" coords="6,313.80,705.38,100.46,8.25;6,57.09,717.34,357.22,8.25;7,57.09,107.28,194.45,8.97">More than 450 dams are planned in the Amazon, Congo, and Mekong river basins, which collectively host one third of the freshwater fish species of the world <ref type="bibr" coords="7,222.29,107.61,14.63,8.25" target="#b34">[35,</ref><ref type="bibr" coords="7,236.92,107.61,10.97,8.25" target="#b39">40]</ref>.</s><s xml:id="_FjYEqA6" coords="7,255.74,107.61,158.52,8.25;7,57.09,119.57,357.20,8.25;7,57.09,131.21,357.16,8.97">Overall, the substantial greenhouse gas emissions and pronounced disruption of terrestrial and aquatic ecosystems from hydropower dams raise serious questions as to whether they should be considered 'green energy' at all <ref type="bibr" coords="7,397.47,131.53,13.42,8.25" target="#b13">[14]</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_g9hvvp4" coords="7,57.09,154.80,216.33,9.16">Solar Energy: The Fastest Growing Renewable</head><p xml:id="_4aGYZPD" coords="7,57.09,167.42,234.88,8.25;7,310.62,167.42,103.68,8.25;7,57.09,179.06,357.21,8.97;7,57.09,191.34,155.40,8.25;7,227.95,191.34,186.31,8.25;7,57.09,203.30,185.50,8.25;7,259.02,203.31,3.36,8.25"><s xml:id="_PtJ7EMt" coords="7,57.09,167.42,357.21,8.25;7,57.09,179.06,357.21,8.97;7,57.09,191.34,174.22,8.25">Many different methods exist for converting sunlight to energy <ref type="bibr" coords="7,294.12,167.42,14.29,8.25" target="#b40">[41]</ref> but, in general, solar power plants require large land areas and high water useparticularly to cool the steam turbine and clean solar panels and reflective surfaces <ref type="bibr" coords="7,214.53,191.34,13.42,8.25" target="#b41">[42]</ref>.</s><s xml:id="_eJe499V" coords="7,233.35,191.34,180.91,8.25;7,57.09,203.30,205.29,8.25">Other than this, little is known about the specific impacts of solar energy development on wildlife <ref type="bibr" coords="7,245.59,203.31,13.42,8.25" target="#b42">[43]</ref>.</s></p><p xml:id="_qMztuzV" coords="7,57.09,227.23,357.21,8.25;7,57.09,239.19,357.18,8.25;7,57.09,251.15,357.20,8.25;7,57.09,263.06,357.16,8.25;7,57.09,275.02,357.21,8.25;7,57.09,286.98,357.19,8.25;7,57.09,298.95,357.20,8.25;7,57.09,310.91,357.17,8.25;7,57.09,322.87,133.18,8.25;7,206.69,322.87,3.36,8.25"><s xml:id="_7Q9B2sf" coords="7,57.09,227.23,357.21,8.25;7,57.09,239.19,164.53,8.25">In the USA solar energy potential is highest in the southwestern deserts, which are closest to the equator and have minimal cloud cover.</s><s xml:id="_34nhDDW" coords="7,224.16,239.19,190.11,8.25;7,57.09,251.15,357.20,8.25;7,57.09,263.06,312.25,8.25">This area overlaps with the distribution of Agassiz desert tortoise (Gopherus agassizii), an ecological-engineer species that constructs burrows that are used by other animals to avoid high temperatures in the desert habitat.</s><s xml:id="_yJ2PYDD" coords="7,372.47,263.06,41.78,8.25;7,57.09,275.02,357.21,8.25;7,57.09,286.98,259.06,8.25">Solar plant development often removes vegetation and creates dust emissions, and the construction and maintenance of the facilities can cause animal burrows to collapse.</s><s xml:id="_UJMpnpB" coords="7,318.90,286.98,95.38,8.25;7,57.09,298.95,357.20,8.25;7,57.09,310.91,357.17,8.25;7,57.09,322.87,152.96,8.25">The dust emissions from large solar facilities can impair the gas exchange, photosynthesis, and water usage of desert plants, whereas heat emissions could alter sex ratios in animal species whose sex is determined by incubation temperatures <ref type="bibr" coords="7,193.27,322.87,13.42,8.25" target="#b42">[43]</ref>.</s></p><p xml:id="_geNEQsE" coords="7,57.09,346.79,357.17,8.25;7,75.23,358.70,339.03,8.25;7,57.09,370.66,357.17,8.25;7,57.09,382.62,76.88,8.25;7,150.39,382.62,3.36,8.25"><s xml:id="_HgPnFRu" coords="7,57.09,346.79,357.17,8.25;7,57.09,358.70,48.99,8.25">The Mojave Desert of California and Nevada has seen rapid expansion of solar energy facilities <ref type="bibr" coords="7,57.09,358.70,14.29,8.25" target="#b43">[44]</ref> (Box 2).</s><s xml:id="_taXt7fR" coords="7,109.87,358.70,304.39,8.25;7,57.09,370.66,357.17,8.25;7,57.09,382.62,96.66,8.25">Although ample space exists to develop solar facilities outside areas of high conservation value, much development has occurred in core ecological habitats, which could affect desert wildlife <ref type="bibr" coords="7,136.97,382.62,13.42,8.25" target="#b44">[45]</ref>.</s></p><p xml:id="_8dW9Tbw" coords="7,57.09,406.55,357.18,8.25;7,57.09,418.51,194.98,8.25;7,267.34,418.51,146.92,8.25;7,57.09,430.15,357.25,8.97;7,57.09,442.11,357.16,8.97;7,57.09,454.34,114.25,8.25;7,186.10,454.34,228.15,8.25;7,57.09,466.30,357.31,8.25;7,57.09,478.27,337.26,8.25;7,410.95,478.27,3.30,8.25;7,57.09,490.23,357.17,8.25;7,57.09,502.19,262.88,8.25"><s xml:id="_DvyWxYD" coords="7,57.09,406.55,357.18,8.25;7,57.09,418.51,213.56,8.25">In the USA an estimated 38 000-138 000 birds are killed each year by utility-scale solar energy development (16 000-59 000 in southern California) <ref type="bibr" coords="7,254.10,418.51,13.24,8.25" target="#b45">[46]</ref>.</s><s xml:id="_EkZSfjH" coords="7,272.69,418.51,141.57,8.25;7,57.09,430.15,357.25,8.97;7,57.09,442.11,357.16,8.97;7,57.09,454.34,132.32,8.25">To some aquatic insects, solar panels appear to be bodies of water and can attract mayflies, caddis flies, long-legged flies (Dolichopodidae), and tabanid flies to lay eggs on the panels, wasting their reproductive effort or exposing them to elevated predation risk <ref type="bibr" coords="7,172.86,454.34,13.24,8.25" target="#b46">[47]</ref>.</s><s xml:id="_Jt3mgN2" coords="7,190.94,454.34,223.31,8.25;7,57.09,466.30,357.31,8.25;7,57.09,478.27,357.16,8.25">Microclimates beneath solar panels are also typically altered; at a UK solar park temperature decreased (by up to 5.2 C) and increased dryness led to a 74% decline in plant biomass and associated declines in diversity and photosynthesis rates <ref type="bibr" coords="7,397.76,478.27,13.20,8.25" target="#b47">[48]</ref>.</s><s xml:id="_qvujBnb" coords="7,57.09,490.23,357.17,8.25;7,57.09,502.19,262.88,8.25">However, these changes could actually enhance local biodiversity, particularly in regions of the world where heat and drought are growth-limiting factors for species.</s></p><p xml:id="_E9Fqd8X" coords="7,57.09,525.46,268.15,9.16"><s xml:id="_TKnzWJC" coords="7,57.09,525.46,268.15,9.16">Wind Power: The Renewable with the Smallest Footprint?</s></p><p xml:id="_dpRzSFt" coords="7,57.09,538.13,357.21,8.25;7,57.09,550.10,357.20,8.25;7,57.09,561.68,51.25,8.97;7,124.09,562.00,290.17,8.25;7,57.09,573.64,357.21,8.97;7,57.09,585.93,67.76,8.25;7,140.57,585.93,273.70,8.25;7,57.09,597.89,357.18,8.25;7,57.09,609.85,239.18,8.25;7,312.13,609.85,102.15,8.25;7,57.09,621.81,357.19,8.25"><s xml:id="_VbEXrE9" coords="7,57.09,538.13,357.21,8.25;7,57.09,550.10,45.50,8.25">As with solar energy, little is known about the potential impacts of wind energy development on biodiversity.</s><s xml:id="_DcfNC6C" coords="7,104.26,550.10,310.03,8.25;7,57.09,561.68,70.36,8.97">Construction of wind farms can affect habitat quality, attract predators, and elevate the risk of fire <ref type="bibr" coords="7,110.66,562.00,13.42,8.25" target="#b48">[49]</ref>.</s><s xml:id="_DWBjCDr" coords="7,129.83,562.00,284.43,8.25;7,57.09,573.64,357.21,8.97;7,57.09,585.93,86.85,8.25">Roads built for access to turbines and culverts built for water drainage can cause mortality to the Agassiz desert tortoise (Gopherus agassizii), a species listed as 'vulnerable' by the IUCN <ref type="bibr" coords="7,127.11,585.93,13.47,8.25" target="#b48">[49]</ref>.</s><s xml:id="_BzWvQXb" coords="7,146.21,585.93,268.07,8.25;7,57.09,597.89,357.18,8.25;7,57.09,609.85,258.41,8.25">However, at the Mesa wind farm with 460 turbines near Palm Springs, California, clutch size, nest predation rates, and hatching successes of desert tortoises were similar to those in adjacent undisturbed sites in similar habitats <ref type="bibr" coords="7,298.66,609.85,13.47,8.25" target="#b49">[50]</ref>.</s><s xml:id="_hktsTed" coords="7,317.88,609.85,96.40,8.25;7,57.09,621.81,357.19,8.25">Studies over longer timeperiods will help to determine the long-term impacts of wind energy on this threatened species.</s></p><p xml:id="_BcVAvRm" coords="7,57.09,645.74,357.21,8.25;7,57.09,657.64,317.11,8.25;7,401.81,657.64,12.45,8.25;7,57.09,669.60,179.48,8.25;7,270.14,669.60,144.16,8.25;7,57.09,681.57,29.56,8.25;7,109.59,681.57,304.69,8.25;7,57.09,693.53,60.02,8.25;7,134.41,693.53,279.89,8.25;7,57.09,705.49,357.17,8.25;8,57.09,107.61,357.20,8.25;8,57.09,119.57,357.21,8.25;8,57.09,131.53,50.52,8.25;8,121.91,131.53,292.37,8.25;8,57.09,143.49,324.49,8.25;8,399.68,143.49,14.62,8.25;8,57.09,155.40,189.82,8.25;8,267.19,155.40,47.15,8.25;8,330.79,155.40,3.36,8.25"><s xml:id="_PeWtQEg" coords="7,57.09,645.74,326.59,8.25">One of the greatest threats posed by wind power is turbine collision with birds and bats.</s><s xml:id="_GU3YPWs" coords="7,385.40,645.74,28.90,8.25;7,57.09,657.64,348.38,8.25">Turbine siting is important, and the highest collision rates are found along forested ridgelines <ref type="bibr" coords="7,376.21,657.64,14.63,8.25" target="#b50">[51,</ref><ref type="bibr" coords="7,390.84,657.64,10.97,8.25" target="#b51">52]</ref>.</s><s xml:id="_JZc6EqR" coords="7,407.45,657.64,6.81,8.25;7,57.09,669.60,357.21,8.25;7,57.09,681.57,203.85,8.25">In the USA an estimated 600 000-888 000 bats <ref type="bibr" coords="7,239.98,669.60,15.29,8.25" target="#b52">[53,</ref><ref type="bibr" coords="7,255.27,669.60,11.47,8.25" target="#b53">54]</ref> and 573 000 birds (including 83 000 raptors) <ref type="bibr" coords="7,90.99,681.57,14.29,8.25" target="#b53">[54]</ref> were killed by wind turbines in 2012.</s><s xml:id="_gyCS57W" coords="7,265.27,681.57,149.01,8.25;7,57.09,693.53,80.67,8.25">This includes 134 000-230 000 small passerine birds <ref type="bibr" coords="7,120.98,693.53,13.42,8.25" target="#b54">[55]</ref>.</s><s xml:id="_5pbBe2c" coords="7,141.68,693.53,272.62,8.25;7,57.09,705.49,357.17,8.25;8,57.09,107.61,357.20,8.25;8,57.09,119.57,357.21,8.25;8,57.09,131.53,357.20,8.25;8,57.09,143.49,357.21,8.25;8,57.09,155.40,277.06,8.25">Although mortality caused by wind turbines is vastly lower than that caused by other anthropogenic sources (e.g., in the USA 0.57 million birds are killed annually by wind turbines versus 5.63 million killed by power line electrocution, 22.8 million by power line collisions, 199.6 million by automobile collisions, 599 million by collisions with buildings, and 2.4 billion by cats <ref type="bibr" coords="8,109.25,131.53,12.66,8.25" target="#b55">[56]</ref>), in some cases low mortality rates can trigger substantial population declines for raptors, as for the endangered Egyptian vultures (Neophron percnopterus) in Spain <ref type="bibr" coords="8,383.47,143.49,14.29,8.25" target="#b56">[57]</ref> and white-tailed eagles (Haliaeetus albicilla) in Finland <ref type="bibr" coords="8,249.90,155.40,14.29,8.25" target="#b57">[58]</ref> and Norway <ref type="bibr" coords="8,317.37,155.40,13.42,8.25" target="#b58">[59]</ref>.</s></p><p xml:id="_7fkr3bS" coords="8,57.09,179.32,357.20,8.25;8,57.09,191.29,107.33,8.25;8,180.21,191.29,234.09,8.25;8,57.09,203.25,357.16,8.25;8,57.09,214.89,317.64,8.97;8,391.74,215.21,22.54,8.25;8,57.09,227.17,190.15,8.25;8,262.70,227.17,151.58,8.25;8,57.09,239.13,357.17,8.25;8,57.09,251.04,357.21,8.25;8,57.09,263.00,125.14,8.25;8,198.07,263.00,216.21,8.25;8,57.09,274.96,129.87,8.25;8,203.34,274.97,3.36,8.25"><s xml:id="_nJ6eHN4" coords="8,57.09,179.32,357.20,8.25;8,57.09,191.29,126.48,8.25">California, which has the most wind turbines, is believed to have nearly half (46.4%) of all bird collisions in the USA (Box 2) <ref type="bibr" coords="8,166.79,191.29,13.42,8.25" target="#b59">[60]</ref>.</s><s xml:id="_ZFkCYkN" coords="8,185.95,191.29,228.35,8.25;8,57.09,203.25,357.16,8.25;8,57.09,214.89,338.00,8.97">A review of 33 wind farms across North America concluded that rotor diameter did not affect the mortality rates of birds or bats, but greater tower height increased mortality among bats À especially when tower height exceeded 65 m <ref type="bibr" coords="8,378.31,215.21,13.42,8.25" target="#b60">[61]</ref>.</s><s xml:id="_YHgf5vD" coords="8,398.66,215.21,15.61,8.25;8,57.09,227.17,208.97,8.25">Bird mortality also increases with greater turbine height <ref type="bibr" coords="8,249.28,227.17,13.42,8.25" target="#b59">[60]</ref>.</s><s xml:id="_2atswZv" coords="8,268.10,227.17,146.19,8.25;8,57.09,239.13,357.17,8.25;8,57.09,251.04,73.06,8.25">At the La Venta II wind farm in Oaxaca, Mexico, nearly one-tenth (34 of 353) of the bird species found locally suffered fatal collisions with wind turbines.</s><s xml:id="_N3FB3U7" coords="8,132.94,251.04,281.36,8.25;8,57.09,263.00,144.34,8.25">Species at highest risk of collisions were smaller in size, with short wingspans and heavier wing loadings <ref type="bibr" coords="8,184.65,263.00,13.42,8.25" target="#b61">[62]</ref>.</s><s xml:id="_n8XVQFb" coords="8,203.81,263.00,210.48,8.25;8,57.09,274.96,149.61,8.25">Among bats, migratory, tree-roosting species are most commonly killed by wind turbines <ref type="bibr" coords="8,189.92,274.97,13.42,8.25" target="#b62">[63]</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_ZftXBRD" coords="8,61.11,336.11,213.92,7.33">Box 2. Wind and Solar Energy Imperil Biodiversity in California</head><p xml:id="_X56wRyc" coords="8,61.11,348.78,349.17,6.42;8,61.11,358.25,349.19,6.42;8,61.11,367.72,171.21,6.42;8,244.41,367.72,165.90,6.42;8,61.11,377.19,112.28,6.42;8,185.28,377.19,164.39,6.42;8,361.54,377.19,48.77,6.42;8,61.11,386.66,108.61,6.42;8,185.50,386.66,142.23,6.42;8,343.50,386.66,34.61,6.42"><s xml:id="_7rXjfHu" coords="8,61.11,348.78,317.31,6.42">California is a pioneer in renewable energy and has set strict targets to reduce its greenhouse gas emissions.</s><s xml:id="_mZ2UFDW" coords="8,379.90,348.78,30.39,6.42;8,61.11,358.25,349.19,6.42;8,61.11,367.72,185.91,6.42">In January 2017 the California Air Resources Board approved a plan to reduce its emissions by 2030 to levels 40% lower than those in 1990, the most ambitious target in North America <ref type="bibr" coords="8,233.97,367.72,10.44,6.42" target="#b89">[90]</ref>.</s><s xml:id="_t2H63fS" coords="8,248.66,367.72,161.66,6.42;8,61.11,377.19,126.78,6.42">This plan involves obtaining one third of its energy from renewables by 2020, and half by 2030 <ref type="bibr" coords="8,174.84,377.19,10.44,6.42" target="#b90">[91]</ref>.</s><s xml:id="_2YrSBtV" coords="8,189.35,377.19,220.96,6.42;8,61.11,386.66,317.00,6.42">California has invested heavily in wind and solar energy <ref type="bibr" coords="8,351.10,377.19,10.44,6.42" target="#b43">[44]</ref>, and is currently the largest producer of solar energy <ref type="bibr" coords="8,172.06,386.66,11.12,6.42" target="#b91">[92]</ref> and the fourth-largest producer of wind energy <ref type="bibr" coords="8,330.01,386.66,11.12,6.42" target="#b92">[93]</ref> in the USA.</s></p><p xml:id="_r2GRTEz" coords="8,61.11,408.09,349.16,6.42;8,61.11,417.55,98.35,6.42;8,162.47,417.55,247.81,6.42;8,61.11,427.02,122.15,6.42;8,195.88,427.02,214.41,6.42;8,61.11,436.24,238.91,6.97;8,311.82,436.49,98.48,6.42;8,61.11,445.96,349.18,6.42;8,61.11,455.42,121.11,6.42;8,194.07,455.42,216.24,6.42;8,61.11,464.89,349.16,6.42;8,61.11,474.30,85.21,6.42;8,159.09,474.30,2.61,6.42;9,61.11,106.54,349.19,6.42;9,61.11,116.00,225.03,6.42;9,297.87,115.75,112.41,6.97;9,61.11,125.47,182.66,6.42;9,248.34,125.47,161.95,6.42;9,61.11,134.94,81.12,6.42;9,148.81,134.94,261.48,6.42;9,61.11,144.41,349.16,6.42;9,61.11,153.62,349.16,6.97;9,61.11,163.34,16.02,6.42;9,99.33,163.34,291.74,6.42;9,407.47,163.34,2.83,6.42;10,57.09,107.61,259.92,8.25;10,332.89,107.61,81.38,8.25;10,57.09,119.57,357.19,8.25;10,57.09,131.21,228.11,8.97;10,300.63,131.53,113.65,8.25;10,57.09,143.49,357.21,8.25;10,70.51,155.08,343.74,8.97;10,57.09,167.36,357.19,8.25;10,57.09,179.32,155.27,8.25;10,228.80,179.32,3.36,8.25"><s xml:id="_bH5X63j" coords="8,61.11,408.09,241.05,6.42">The rapid expansion of wind and solar energy imperils some species in California.</s><s xml:id="_B5w3f5M" coords="8,303.93,408.09,106.35,6.42;8,61.11,417.55,349.16,6.42;8,61.11,427.02,137.38,6.42">The 5400 wind turbines at Altamont Pass Wind Resource Area (Figure <ref type="figure" coords="8,160.84,417.55,1.63,6.42" target="#fig_4">I</ref>) are estimated to kill some 2700 birds per year, including over 1100 raptors, of which 67 are golden eagles (Aquila chrysaetos) <ref type="bibr" coords="8,185.44,427.02,10.44,6.42" target="#b93">[94]</ref>.</s><s xml:id="_8tyMNt2" coords="8,200.69,427.02,209.60,6.42;8,61.11,436.24,253.32,6.97">Among the golden eagles killed, at least 25% were recent immigrants (from &gt;100 km away), suggesting this single facility has continental-scale impacts <ref type="bibr" coords="8,301.38,436.49,10.44,6.42" target="#b94">[95]</ref>.</s><s xml:id="_UndhUab" coords="8,315.84,436.49,94.46,6.42;8,61.11,445.96,349.18,6.42;8,61.11,455.42,135.56,6.42">The Altamont Pass turbines also affect California ground squirrels (Spermophilus beecheyi); individuals living under the turbines had elevated vigilance rates owing to the high background noise <ref type="bibr" coords="8,183.63,455.42,10.44,6.42" target="#b95">[96]</ref>.</s><s xml:id="_Zf7knFV" coords="8,198.03,455.42,212.28,6.42;8,61.11,464.89,349.16,6.42;8,61.11,474.30,100.58,6.42">If displaced by noise from this wind farm, their loss could affect predators such as golden eagles and other species that use their burrows for shelter (e.g., burrowing owls, red-legged frogs, California tiger salamanders) <ref type="bibr" coords="8,148.65,474.30,10.44,6.42" target="#b95">[96]</ref>.</s><s xml:id="_K2QYsvR" coords="9,61.11,106.54,349.19,6.42;9,61.11,115.75,349.17,6.97;9,61.11,125.47,102.40,6.42">The endangered Mojave ground squirrel (Xerospermophilus mohavensis) is expected to lose up to one tenth of its habitat from expansion of wind and solar energy facilities in the Mojave Desert <ref type="bibr" coords="9,287.43,116.00,10.44,6.42" target="#b96">[97]</ref>, which has four of the five largest solar thermal-power stations worldwide.</s><s xml:id="_sV5vFEw" coords="9,164.86,125.47,245.43,6.42;9,61.11,134.94,90.98,6.42">The largest of these (Figure <ref type="figure" coords="9,245.14,125.47,3.20,6.42" target="#fig_4">II</ref>) was built in prime habitat for the Mojave desert tortoise (Gopherus agassizii) (Figure <ref type="figure" coords="9,143.89,134.94,4.93,6.42" target="#fig_4">III</ref>).</s><s xml:id="_TgQbduv" coords="9,153.75,134.94,256.54,6.42;9,61.11,144.41,54.79,6.42">To mitigate its impact, at least 55 tortoises were translocated short distances (&lt;500 m) outside the facility.</s><s xml:id="_UqjSr6m" coords="9,117.58,144.41,292.69,6.42;9,61.11,153.62,349.16,6.97;9,61.11,163.34,41.06,6.42">Compared to control populations, translocated tortoises had somewhat differing activity patterns in the first year after translocation, but there were no differences in body condition, growth, or mortality in subsequent years <ref type="bibr" coords="9,79.43,163.34,11.37,6.42" target="#b97">[98,</ref><ref type="bibr" coords="9,90.80,163.34,8.53,6.42" target="#b98">99]</ref>.</s><s xml:id="_qCX87GZ" coords="9,104.43,163.34,305.87,6.42">This same power plant caused an estimated 3500 bird deaths per year, most due to collisions <ref type="bibr" coords="9,393.34,163.34,14.14,6.42" target="#b99">[100]</ref>.</s><s xml:id="_dnAjkRt" coords="10,57.09,107.61,279.15,8.25">Wind farms can also impact resident and migrating bird populations <ref type="bibr" coords="10,319.46,107.61,13.42,8.25" target="#b63">[64]</ref>.</s><s xml:id="_EZSBYvv" coords="10,338.68,107.61,75.58,8.25;10,57.09,119.57,357.19,8.25;10,57.09,131.21,246.90,8.97">Three wind farms in North and South Dakota caused the displacement of seven breeding grassland bird species, effects that extended beyond the first year after construction <ref type="bibr" coords="10,287.21,131.53,13.42,8.25" target="#b64">[65]</ref>.</s><s xml:id="_BJwCVjd" coords="10,305.91,131.53,108.36,8.25;10,57.09,143.49,357.21,8.25;10,57.09,155.40,16.78,8.25">In Finland, breeding success of white-tailed eagles (Haliaeetus albicilla) was lower in territories located closer to wind turbines <ref type="bibr" coords="10,57.09,155.40,13.42,8.25" target="#b57">[58]</ref>.</s><s xml:id="_b7R6PzS" coords="10,77.05,155.08,337.20,8.97;10,57.09,167.36,357.19,8.25;10,57.09,179.32,175.07,8.25">By contrast, nests of scissor-tailed flycatchers (Tyrannus forficatus) had higher survival rates close to turbines at a Texas wind farm, possibly due to reduced activity by raptors, a key nest predator, around the wind turbines <ref type="bibr" coords="10,215.38,179.32,13.42,8.25" target="#b65">[66]</ref>.</s></p><p xml:id="_DXmYstg" coords="10,57.09,203.25,357.17,8.25;10,57.09,215.21,357.18,8.25;10,57.09,227.17,357.17,8.25;10,57.09,239.13,98.87,8.25;10,172.10,239.14,242.21,8.25;10,57.09,251.04,357.16,8.25;10,57.09,263.00,357.21,8.25;10,57.09,274.96,318.53,8.25;10,392.02,274.97,3.36,8.25"><s xml:id="_TAy98eq" coords="10,57.09,203.25,198.24,8.25">Wind farms affect both local and distant populations.</s><s xml:id="_Vs4KWaN" coords="10,257.10,203.25,157.15,8.25;10,57.09,215.21,357.18,8.25;10,57.09,227.17,357.17,8.25;10,57.09,239.13,118.37,8.25">Stable hydrogen isotope analysis showed that 28% of the noctule bats (Nyctalus noctula) killed by wind turbines in eastern Germany were migratory, originating from distant parts of northern and northeast Europe including the Baltic states, Belarus, or Russia <ref type="bibr" coords="10,158.63,239.14,13.47,8.25" target="#b66">[67]</ref>.</s><s xml:id="_vES2V5h" coords="10,178.13,239.14,236.17,8.25;10,57.09,251.04,357.16,8.25;10,57.09,263.00,267.59,8.25">In the Appalachian Mountains, two bat species sustained the highest levels of mortality at a wind farm; for the eastern red bat (Lasiurus borealis) 57% of mortalities were of non-local individuals, whereas for the hoary bat (L.</s><s xml:id="_RQVenxM" coords="10,327.29,263.00,87.01,8.25;10,57.09,274.96,338.29,8.25">cinereus) 99% of killed individuals were local, suggesting that ongoing mortality could imperil this species <ref type="bibr" coords="10,378.60,274.97,13.42,8.25" target="#b67">[68]</ref>.</s></p><p xml:id="_WjJCr6n" coords="10,57.09,298.89,357.19,8.25;10,57.09,310.85,357.21,8.25;10,57.09,322.81,357.18,8.25;10,57.09,334.78,79.15,8.25;10,151.70,334.78,262.58,8.25;10,57.09,346.68,357.20,8.25;10,57.09,358.64,264.27,8.25;10,337.48,358.64,76.79,8.25;10,57.09,370.61,357.16,8.25;10,57.09,382.57,337.65,8.25;10,410.90,382.57,3.36,8.25;10,57.09,394.53,357.18,8.25;10,57.09,406.17,357.21,8.97;10,57.09,418.45,357.20,8.25;10,70.51,430.42,343.79,8.25;10,57.09,442.32,304.62,8.25;10,378.75,442.32,35.54,8.25;10,57.09,454.28,357.21,8.25;10,57.09,466.25,98.64,8.25;10,172.16,466.25,3.36,8.25"><s xml:id="_4GasfXm" coords="10,57.09,298.89,286.77,8.25">Offshore wind farms can also affect bird populations and migration patterns.</s><s xml:id="_9kkA3Dk" coords="10,345.71,298.89,68.57,8.25;10,57.09,310.85,357.21,8.25;10,57.09,322.81,357.18,8.25;10,57.09,334.78,97.96,8.25">The Belwind Wind Farm at Bligh Bank, 46 km off the coast of Belgium, caused an 85% decline in northern gannets (Morus bassanus), a 71% decline in common guillemots (Uria aalge), and a 64% decline in razorbills (Alca torda) <ref type="bibr" coords="10,138.27,334.78,13.42,8.25" target="#b68">[69]</ref>.</s><s xml:id="_5jnABBg" coords="10,157.04,334.78,257.24,8.25;10,57.09,346.68,357.20,8.25;10,57.09,358.64,283.75,8.25">Conversely, there was a 430% increase in lesser black-backed gulls (Larus fuscus) and a 850% increase in herring gulls (Larus argentatus) at the same wind farm site, possibly because of increased roosting or feeding opportunities <ref type="bibr" coords="10,324.06,358.64,13.42,8.25" target="#b68">[69]</ref>.</s><s xml:id="_TDeaU9h" coords="10,343.62,358.64,70.65,8.25;10,57.09,370.61,357.16,8.25;10,57.09,382.57,357.16,8.25">Pink-footed geese (Anser brachyrhynchus) migrating between Greenland or Iceland and the UK altered their migration route to avoid newly constructed wind farms off the eastern coast of England <ref type="bibr" coords="10,397.47,382.57,13.42,8.25" target="#b69">[70]</ref>.</s><s xml:id="_nJ6qRs4" coords="10,57.09,394.53,357.18,8.25;10,57.09,406.17,357.21,8.97;10,57.09,418.45,357.20,8.25;10,57.09,430.42,16.78,8.25">Common eider (Somateria mollissima) and geese altered their migration routes to avoid a wind farm in the Baltic Sea off the coast of Denmark; the proportion of flocks migrating through the wind farm declined sharply from 40.4% before construction to only 8.9% after construction <ref type="bibr" coords="10,57.09,430.42,13.42,8.25" target="#b70">[71]</ref>.</s><s xml:id="_pqTFKwD" coords="10,75.74,430.42,338.56,8.25;10,57.09,442.32,325.02,8.25">Altered migration patterns can also occur in response to onshore wind farms, as observed for migrating raptors at wind farms in the Isthmus of Tehuantepec in Mexico <ref type="bibr" coords="10,365.33,442.32,13.42,8.25" target="#b71">[72]</ref>.</s><s xml:id="_kCv6bTV" coords="10,385.74,442.32,28.56,8.25;10,57.09,454.28,357.21,8.25;10,57.09,466.25,118.43,8.25">Shifting migration patterns could result in increased energy expenditure by migrating birds and associated declines in survival <ref type="bibr" coords="10,158.74,466.25,13.42,8.25" target="#b72">[73]</ref>.</s></p><p xml:id="_6JbKPk2" coords="10,57.09,490.17,357.15,8.25;10,57.09,502.13,357.18,8.25;10,57.09,514.10,357.20,8.25;10,57.09,526.06,31.71,8.25;10,104.19,526.06,310.08,8.25;10,57.09,537.96,66.24,8.25;10,139.74,537.96,274.56,8.25"><s xml:id="_p7jfzpm" coords="10,57.09,490.17,222.75,8.25">Noise from wind farms can also affect wildlife (Box 2).</s><s xml:id="_JZJFA9K" coords="10,284.26,490.17,129.99,8.25;10,57.09,502.13,357.18,8.25;10,57.09,514.10,357.20,8.25;10,57.09,526.06,50.46,8.25">On wind farms European robins (Erithacus rubecula) decreased their territorial response to intruders because of turbine noise, and this could potentially reduce their ability to deter rivals and thereby reduce their breeding success <ref type="bibr" coords="10,90.77,526.06,13.42,8.25" target="#b73">[74]</ref>.</s><s xml:id="_pfgKPGc" coords="10,109.53,526.06,304.73,8.25;10,57.09,537.96,357.20,8.25">Amphibians, reptiles, birds, and mammals had reduced species richness at wind farms in Portugal <ref type="bibr" coords="10,126.31,537.96,13.42,8.25" target="#b74">[75]</ref>, possibly also because of cascading effects caused by wind turbines.</s></p><p xml:id="_xcyuR32" coords="10,57.09,561.89,357.18,8.25;10,57.09,573.85,238.15,8.25;10,295.26,571.80,8.90,5.98;10,308.58,573.85,105.70,8.25;10,57.09,585.81,220.88,8.25;10,295.02,585.81,119.27,8.25;10,57.09,597.77,357.16,8.25;10,57.09,609.74,113.63,8.25;10,186.34,609.74,227.91,8.25;10,57.09,621.70,219.54,8.25"><s xml:id="_ZqWPVxk" coords="10,57.09,561.89,195.99,8.25">Wind farms can also increase local temperatures.</s><s xml:id="_HXawpUT" coords="10,256.65,561.89,157.62,8.25;10,57.09,573.85,238.15,8.25;10,295.26,571.80,8.90,5.98;10,308.58,573.85,105.70,8.25;10,57.09,585.81,241.28,8.25">Active wind farms in Scotland raised air temperature by 0.18 C and absolute humidity by 0.03 g m À3 during the night, and also increased variability in air, surface, and soil temperature <ref type="bibr" coords="10,281.59,585.81,13.42,8.25" target="#b75">[76]</ref>.</s><s xml:id="_WFqz62n" coords="10,302.00,585.81,112.29,8.25;10,57.09,597.77,357.16,8.25;10,57.09,609.74,132.60,8.25">Based on satellite data, four large wind farms in Texas were found to increase local temperature by up to 0.72 C per decade relative to nearby control sites <ref type="bibr" coords="10,172.91,609.74,13.42,8.25" target="#b76">[77]</ref>.</s><s xml:id="_6rfzppQ" coords="10,191.85,609.74,222.40,8.25;10,57.09,621.70,219.54,8.25">The implications of this temperature increase are unknown but might have additional consequences for biodiversity.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_T3YCYFh" coords="10,57.09,644.91,260.99,9.16">Prescriptions for Sustainable Renewable Energy Growth</head><p xml:id="_SegStqs" coords="10,57.09,657.59,357.17,8.25;10,57.09,669.55,357.17,8.25;10,57.09,681.51,357.20,8.25;10,57.09,693.47,357.21,8.25;10,57.09,705.43,357.20,8.25;10,57.09,717.40,178.06,8.25"><s xml:id="_quZFjcG" coords="10,57.09,657.59,357.17,8.25;10,57.09,669.55,357.17,8.25;10,57.09,681.51,89.72,8.25">It is important to emphasize that research efforts on the three renewable energy sources examined here are uneven, with a particular gap in our understanding of solar energy and its impacts on biodiversity.</s><s xml:id="_Ztewam7" coords="10,148.71,681.51,265.58,8.25;10,57.09,693.47,357.21,8.25;10,57.09,705.43,49.38,8.25">However, based on this review, we found the most serious biodiversity and environmental impacts likely to arise from hydropower, followed by wind power and then solar energy.</s><s xml:id="_grShFT6" coords="10,108.85,705.43,305.44,8.25;10,57.09,717.40,178.06,8.25">All three generate environmental disturbances, some of which have been largely ignored, but many of which can be mitigated.</s></p><p xml:id="_At9s48p" coords="11,57.09,107.61,357.21,8.25;11,57.09,119.57,357.18,8.25;11,57.09,131.53,272.83,8.25;11,347.06,131.53,67.21,8.25;11,57.09,143.17,357.22,8.97;11,57.09,155.40,357.19,8.25;11,57.09,167.36,357.19,8.25;11,57.09,179.32,357.17,8.25;11,57.09,191.29,357.19,8.25;11,57.09,203.25,357.20,8.25;11,57.09,215.21,357.19,8.25;11,57.09,227.17,118.41,8.25;11,191.94,227.17,3.37,8.25"><s xml:id="_gEkg4zC" coords="11,57.09,107.61,357.21,8.25;11,57.09,119.57,145.73,8.25">Given that hydropower facilities are so large and require the most land area, it is difficult to mitigate their effects on biodiversity.</s><s xml:id="_hBKw9bn" coords="11,207.27,119.57,207.00,8.25;11,57.09,131.53,293.33,8.25">That hydropower requires the construction of large reservoirs of water on previously dry land is an inescapable problem <ref type="bibr" coords="11,333.64,131.53,13.42,8.25" target="#b24">[25]</ref>.</s><s xml:id="_W3dmwFk" coords="11,354.10,131.53,60.17,8.25;11,57.09,143.17,357.22,8.97;11,57.09,155.40,239.16,8.25">The large-scale effects on the flooded habitat and the secondary effects of associated roads and power lines on land-use change pose a serious threat to terrestrial biodiversity.</s><s xml:id="_DaupKZz" coords="11,298.15,155.40,116.13,8.25;11,57.09,167.36,357.19,8.25;11,57.09,179.32,357.17,8.25;11,57.09,191.29,40.67,8.25">Impacts on freshwater species and ecosystems are also substantial, although these are incompletely understood, and there is a growing appreciation that hydropower is often a substantial source of greenhouse gas emissions.</s><s xml:id="_WpVDnb7" coords="11,99.44,191.29,314.84,8.25;11,57.09,203.25,357.20,8.25;11,57.09,215.21,357.19,8.25;11,57.09,227.17,138.22,8.25">Fortunately, the HydroCalculator, a free tool recently developed by the Conservation Strategy Fund, allows local citizens, scientists, and policymakers to calculate the projected carbon emissions produced by planned hydropower dams, and this could influence decisions about future dam construction <ref type="bibr" coords="11,178.47,227.17,13.47,8.25" target="#b77">[78]</ref>.</s></p><p xml:id="_vQ8Dpqp" coords="11,57.09,251.04,357.21,8.25;11,57.09,263.00,357.20,8.25;11,57.09,274.96,357.22,8.25;11,57.09,286.60,357.19,8.97;11,57.09,298.57,233.50,8.97;11,308.51,298.89,105.76,8.25;11,57.09,310.85,357.16,8.25;11,57.09,322.81,338.07,8.25;11,410.90,322.81,3.36,8.25;11,57.09,334.78,275.12,8.25;11,351.16,334.78,63.13,8.25;11,70.51,346.68,343.74,8.25;11,57.09,358.64,357.21,8.25;11,57.09,370.61,357.19,8.25;11,57.09,382.25,152.48,8.97;11,225.97,382.57,3.36,8.25"><s xml:id="_tHbEdRu" coords="11,57.09,251.04,342.40,8.25">The siting of these energy facilities is a crucial factor affecting their impacts on biodiversity.</s><s xml:id="_6qUr9ws" coords="11,401.67,251.04,12.62,8.25;11,57.09,263.00,357.20,8.25;11,57.09,274.96,357.22,8.25;11,57.09,286.93,22.42,8.25">For hydropower, the landscape terrain often constrains development strategies for dams, but increasingly there is a recognized need that many decisions must be made at the river-basin scale.</s><s xml:id="_5BkxEyN" coords="11,81.75,286.60,332.53,8.97;11,57.09,298.57,254.78,8.97">In the Mississippi River Basin, several of the largest tributaries of the river sustain &gt;80% of large-river specialist fishes found in the river mainstem <ref type="bibr" coords="11,295.09,298.89,13.42,8.25" target="#b78">[79]</ref>.</s><s xml:id="_TTqMShq" coords="11,316.40,298.89,97.86,8.25;11,57.09,310.85,357.16,8.25;11,57.09,322.81,357.16,8.25">This suggests that large tributaries might serve as ecological surrogates for mainstems, and represent underappreciated conservation opportunities for the preservation of megafauna in major river systems <ref type="bibr" coords="11,397.47,322.81,13.42,8.25" target="#b78">[79]</ref>.</s><s xml:id="_MEW5CBD" coords="11,57.09,334.78,357.20,8.25;11,57.09,346.68,357.17,8.25;11,57.09,358.64,357.21,8.25">Recent basin-scale assessments have been made for the Mekong River <ref type="bibr" coords="11,334.54,334.78,14.29,8.25" target="#b29">[30]</ref> and the Amazon <ref type="bibr" coords="11,57.09,346.68,13.42,8.25" target="#b79">[80]</ref>, incorporating projected changes in hydrology and sediment transport that would affect ecosystem productivity, rural livelihoods, and biodiversity along the mainstem and tributaries.</s><s xml:id="_qEdpbcZ" coords="11,57.09,370.61,357.19,8.25;11,57.09,382.25,172.23,8.97">Such basin-scale assessments will be vital to balance the gains in energy supply versus losses in fisheries, agriculture, and biodiversity <ref type="bibr" coords="11,212.54,382.57,13.42,8.25" target="#b34">[35]</ref>.</s></p><p xml:id="_XBvNP2a" coords="11,57.09,406.49,254.73,8.25;11,329.03,406.49,85.21,8.25;11,57.09,418.45,357.18,8.25;11,57.09,430.42,338.09,8.25;11,410.90,430.42,3.36,8.25;11,57.09,442.32,357.17,8.25;11,57.09,454.28,197.45,8.25;11,271.83,453.96,142.42,8.97;11,57.09,465.92,357.17,8.97;11,57.09,478.21,267.31,8.25;11,340.31,478.21,73.99,8.25;11,57.09,490.17,357.21,8.25;11,57.09,502.13,136.85,8.25"><s xml:id="_J8MYtNT" coords="11,57.09,406.49,275.30,8.25">Little is known about the environmental impacts of solar energy <ref type="bibr" coords="11,315.61,406.49,13.42,8.25" target="#b42">[43]</ref>.</s><s xml:id="_s67kUeb" coords="11,336.19,406.49,78.06,8.25;11,57.09,418.45,357.18,8.25;11,57.09,430.42,357.16,8.25">However, based on available evidence, we know that the impacts of solar energy can be greatly reduced if new development is focused on lands that are already degraded and lack threatened species <ref type="bibr" coords="11,397.47,430.42,13.42,8.25" target="#b44">[45]</ref>.</s><s xml:id="_K9fVDC9" coords="11,57.09,442.32,313.61,8.25">Solar installations should not be constructed in ecologically sensitive habitat.</s><s xml:id="_trTtApB" coords="11,375.48,442.32,38.78,8.25;11,57.09,453.96,357.16,8.97;11,57.09,465.92,357.17,8.97;11,57.09,478.21,286.58,8.25">There are currently 1.1 billion ha of degraded lands globally <ref type="bibr" coords="11,258.41,454.28,13.42,8.25" target="#b80">[81]</ref>, and at current capacity &lt;0.1% of the available degraded lands would be necessary to double the current solar PV capacityeven without accounting for advances in the efficiency of solar energy <ref type="bibr" coords="11,326.89,478.21,13.42,8.25" target="#b81">[82]</ref>.</s><s xml:id="_T5jmgjB" coords="11,346.17,478.21,68.14,8.25;11,57.09,490.17,357.21,8.25;11,57.09,502.13,136.85,8.25">More research on the specific impacts of solar energy developments are urgently needed, particularly given the rapid growth of this energy source.</s></p><p xml:id="_Qgbsj6z" coords="11,57.09,526.06,357.17,8.25;11,57.09,537.96,167.07,8.25;11,253.16,537.96,161.11,8.25;11,57.09,549.93,357.22,8.25;11,57.09,561.89,357.20,8.25;11,57.09,573.85,357.20,8.25;11,57.09,585.49,291.25,8.97;11,364.35,585.81,49.94,8.25;11,57.09,597.77,357.18,8.25;11,57.09,609.41,357.18,8.97;11,57.09,621.70,329.82,8.25"><s xml:id="_puPBJfz" coords="11,57.09,526.06,315.43,8.25">The design of wind farms can be significantly improved to limit biodiversity impacts.</s><s xml:id="_8WndPEe" coords="11,374.63,526.06,39.64,8.25;11,57.09,537.96,199.73,8.25">In general, mortality rates increase with turbine height <ref type="bibr" coords="11,227.57,537.96,14.63,8.25" target="#b55">[56,</ref><ref type="bibr" coords="11,242.19,537.96,10.97,8.25" target="#b59">60]</ref>.</s><s xml:id="_cQWhNqN" coords="11,260.28,537.96,154.00,8.25;11,57.09,549.93,357.22,8.25;11,57.09,561.89,357.20,8.25">By building wind turbines at the lowest height feasible, mortality of birds and bats can be markedly reduced, although there may be tradeoffs between having a smaller number of large turbines versus many smaller turbines.</s><s xml:id="_Y5BtuZP" coords="11,57.09,573.85,357.20,8.25;11,57.09,585.49,310.62,8.97">Turbine placement is also crucial, and particular areas such as ridgelines, which are highvolume transit areas for flying wildlife, should be avoided whenever possible <ref type="bibr" coords="11,350.93,585.81,13.42,8.25" target="#b55">[56]</ref>.</s><s xml:id="_qTHyfuD" coords="11,370.32,585.81,43.98,8.25;11,57.09,597.77,357.18,8.25;11,57.09,609.41,283.25,8.97">Wind farms should not be constructed near habitats for threatened bird or bat species, and important migratory routes for flying animals should be avoided whenever possible.</s><s xml:id="_JZrx2Qz" coords="11,343.28,609.74,70.99,8.25;11,57.09,621.70,329.82,8.25">Furthermore, wind technology should be improved to reduce the noise and heat generated by turbines.</s></p><p xml:id="_R2fGguq" coords="11,57.09,645.57,357.17,8.25;11,57.09,657.53,357.16,8.25;11,57.09,669.49,357.18,8.25;11,57.09,681.45,180.18,8.25"><s xml:id="_DZf4Xnj" coords="11,57.09,645.57,357.17,8.25;11,57.09,657.53,357.16,8.25;11,57.09,669.49,45.49,8.25">Given that wind energy requires a smaller footprint than either solar or hydropower, and that its impacts are more easily addressed, wind is likely the safest form of green energy in terms of biodiversity.</s><s xml:id="_XWMhD73" coords="11,104.43,669.49,309.84,8.25;11,57.09,681.45,180.18,8.25">Clearly, however, there is scope to refine strategies to minimize the impacts of new wind projects on biodiversity and ecosystems.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_jRS8YMV" coords="12,57.09,106.90,96.74,9.16">Concluding Remarks</head><p xml:id="_HACc2c4" coords="12,57.09,119.57,357.16,8.25;12,57.09,131.53,357.16,8.25;12,57.09,143.17,357.20,8.97;12,57.09,155.40,357.22,8.25;12,57.09,167.36,357.22,8.25;12,57.09,179.32,357.20,8.25;12,57.09,191.29,357.21,8.25;12,57.09,202.93,357.17,8.97;12,57.09,214.89,357.17,8.97;12,57.09,227.17,30.89,8.25;12,103.06,227.17,311.23,8.25;12,57.09,238.81,288.64,8.97"><s xml:id="_vGRHMmk" coords="12,57.09,119.57,357.16,8.25;12,57.09,131.53,339.50,8.25">Renewable energy, a vital component of our global climate change mitigation strategy, needs to be considered within the broader context of biodiversity and ecosystem protection.</s><s xml:id="_M39pvsR" coords="12,399.97,131.53,14.28,8.25;12,57.09,143.17,357.20,8.97;12,57.09,155.40,357.22,8.25;12,57.09,167.36,33.04,8.25">Our analysis of three major types of renewableshydro, solar, and wind energysuggests that wind power is most likely the safest form of renewable energy in terms of its overall ecological impacts.</s><s xml:id="_SYwHyj8" coords="12,92.81,167.36,321.50,8.25;12,57.09,179.32,296.92,8.25">Hydropower appears to be the most dangerous in terms of its potential impacts on terrestrial and aquatic species, native habitats, and greenhouse gas emissions.</s><s xml:id="_GPmN4PD" coords="12,355.80,179.32,58.48,8.25;12,57.09,191.29,357.21,8.25;12,57.09,203.25,142.05,8.25">However, more research is needed on the long-term impacts of all three types of renewables and the best strategies to help to mitigate them.</s><s xml:id="_CxzTPBU" coords="12,203.30,202.93,210.96,8.97;12,57.09,214.89,357.17,8.97;12,57.09,227.17,357.19,8.25;12,57.09,238.81,288.64,8.97">Recent policy changes targeting carbon emissionsincluding the landmark Paris Agreementcould trigger an avalanche of renewable energy projects <ref type="bibr" coords="12,89.63,227.17,13.42,8.25" target="#b82">[83]</ref>, and concerted research efforts and practical planning guidelines will be necessary to help to ensure that such developments are truly as 'green' as possible.</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="3,57.66,279.30,357.18,7.33;3,57.66,288.77,177.52,7.33;3,57.08,306.52,357.22,169.03"><head>Figure 1 .</head><label>1</label><figDesc><div><p xml:id="_tHX4gMK"><s xml:id="_hwqDd24" coords="3,57.66,279.30,29.61,7.33">Figure 1.</s><s xml:id="_XY9YyMT" coords="3,89.12,279.30,325.71,7.33;3,57.66,288.77,133.58,7.33">Hydropower Installed Capacity (GW) 2008-2016 for China (Dark Blue), Brazil (Intermediate Blue), and the Rest of the World (Light Blue).</s><s xml:id="_fmVc8Ft" coords="3,193.55,289.48,41.62,6.42">Data from [1].</s></p></div></figDesc><graphic coords="3,57.08,306.52,357.22,169.03" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="3,57.09,498.59,357.20,7.33;3,57.09,508.06,108.58,7.33;3,57.20,524.44,356.96,168.85"><head>Figure 2 .Figure 3 .</head><label>23</label><figDesc><div><p xml:id="_8FQNwes"><s xml:id="_Jwj6dtE" coords="3,57.09,498.59,357.20,7.33;3,57.09,508.06,64.69,7.33">Figure 2. Solar Photovoltaic Energy Installed Capacity (GW) 2006-2016 for China (Orange) and the Rest of the World (Yellow).</s><s xml:id="_CBtmxW5" coords="3,124.10,508.77,41.57,6.42">Data from [1].</s></p></div></figDesc><graphic coords="3,57.20,524.44,356.96,168.85" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2" coords="4,61.11,713.80,241.18,7.33;4,131.36,544.96,209.59,139.51"><head>Figure</head><figDesc><div><p xml:id="_wXHEEdw"><s xml:id="_hJG2qTE" coords="4,61.11,713.80,27.74,7.33">Figure I.</s><s xml:id="_cfbcVyZ" coords="4,91.50,713.80,91.68,7.33">The Tucuruí Dam in Brazil.</s><s xml:id="_y4Ve5da" coords="4,185.50,714.51,116.79,6.42">Photo credit Museu Virtual de Tucuruí.</s></p></div></figDesc><graphic coords="4,131.36,544.96,209.59,139.51" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3" coords="5,57.09,698.27,201.45,7.33;5,258.52,696.59,3.32,4.89;5,263.91,698.27,150.36,7.33;5,57.09,707.68,357.18,7.33;5,122.42,512.74,226.62,161.35"><head>Figure 4 .</head><label>4</label><figDesc><div><p xml:id="_BJXaRde"><s xml:id="_VcqguRW" coords="5,57.09,698.27,201.45,7.33;5,258.52,696.59,3.32,4.89;5,263.91,698.27,150.36,7.33;5,57.09,707.68,63.08,7.33">Figure 4. Chiew Larn Reservoir in Thailand Flooded 165 km 2 of Forest Habitat, Previously Home to Tigers and Other Wildlife.</s><s xml:id="_Pgw3mSn" coords="5,122.23,708.39,253.20,6.42">Fauna on isolated hilltops in the reservoir have suffered catastrophic extinctions [23].</s><s xml:id="_H48mfTp" coords="5,377.46,708.39,36.81,6.42">Photo credit</s></p></div></figDesc><graphic coords="5,122.42,512.74,226.62,161.35" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4" coords="8,61.11,704.67,349.15,7.33;8,61.11,714.14,349.17,7.33;8,68.42,507.82,334.62,167.29"><head>Figure I .</head><label>I</label><figDesc><div><p xml:id="_pNwHzWv"><s xml:id="_cfGArn8" coords="8,61.11,704.67,349.15,7.33;8,61.11,714.14,268.84,7.33">Figure I. Altamont Pass Wind Resource Area Is One of the Largest Wind Farms in California, but Causes the Death of an Estimated 67 Golden Eagles (Aquila chrysaetos) Every Year [94].</s><s xml:id="_qeE4HTG" coords="8,331.31,714.85,78.97,6.42">Photo credit Steve Boland.</s></p></div></figDesc><graphic coords="8,68.42,507.82,334.62,167.29" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5" coords="9,61.11,393.03,349.18,7.33;9,61.11,402.50,349.15,7.33;9,61.11,412.68,102.15,6.42;9,130.88,443.86,209.59,209.59"><head>Figure</head><figDesc><div><p xml:id="_nVtgsXd"><s xml:id="_GrzctxZ" coords="9,61.11,393.03,30.53,7.33">Figure II.</s><s xml:id="_KvfyXSF" coords="9,95.30,393.03,314.99,7.33;9,61.11,402.50,262.30,7.33">Ivanpah Solar Electric Generating System, Located in the Mojave Desert, Is the Largest Concentrating Solar Power Plant in the World, With a Capacity of 392 MW.</s><s xml:id="_JpeYc4D" coords="9,325.81,403.21,84.45,6.42;9,61.11,412.68,102.15,6.42">Photo credit Jamey Stillings (http://jameystillingsprojects.com).</s></p></div></figDesc><graphic coords="9,130.88,443.86,209.59,209.59" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6" coords="9,61.11,683.58,349.19,7.33;9,61.11,693.05,349.19,7.33;9,61.11,703.23,15.64,6.42"><head>Figure</head><figDesc><div><p xml:id="_Hu3w8JC"><s xml:id="_YxeVdxn" coords="9,61.11,683.58,31.56,7.33">Figure III.</s><s xml:id="_b6CsrZc" coords="9,95.58,683.58,314.72,7.33;9,61.11,693.05,288.74,7.33">Solar Energy Developments and Associated Transmission Lines and Access Roads Could Imperil Threatened Species Including the Mojave Desert Tortoise (Gopherus agassizii).</s><s xml:id="_z8QNCdv" coords="9,351.27,693.76,59.03,6.42;9,61.11,703.23,15.64,6.42">Photo credit Dakota Gale.</s></p></div></figDesc></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0" coords="2,356.09,753.09,189.72,7.36"><p xml:id="_kPrXWBk"><s xml:id="_wFByPkK" coords="2,356.09,754.51,138.71,5.52">Trends in Ecology &amp; Evolution, December 2017, Vol.</s><s xml:id="_J4gZ4XF" coords="2,496.40,753.09,49.41,7.36">32, No. 12 923</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1" coords="6,356.09,753.09,189.72,7.36"><p xml:id="_GYxX3CQ"><s xml:id="_mFXCRUB" coords="6,356.09,754.51,138.71,5.52">Trends in Ecology &amp; Evolution, December 2017, Vol.</s><s xml:id="_X64mxKB" coords="6,496.40,753.09,49.41,7.36">32, No. 12 927</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_2" coords="10,356.09,753.09,189.72,7.36"><p xml:id="_pUjtgMF"><s xml:id="_N4XRxmK" coords="10,356.09,754.51,138.71,5.52">Trends in Ecology &amp; Evolution, December 2017, Vol.</s><s xml:id="_5pP3tCr" coords="10,496.40,753.09,49.41,7.36">32, No. 12 931</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_3" coords="14,356.09,753.09,189.72,7.36"><p xml:id="_gEwExGr"><s xml:id="_svd6UHQ" coords="14,356.09,754.51,138.71,5.52">Trends in Ecology &amp; Evolution, December 2017, Vol.</s><s xml:id="_kTyTKRy" coords="14,496.40,753.09,49.41,7.36">32, No. 12 935</s></p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head xml:id="_mjRX7ER" coords="12,57.09,263.26,70.67,7.25">Acknowledgments</head><p xml:id="_uxTbkJ7" coords="12,57.09,274.97,357.19,6.42;12,57.09,285.91,113.46,6.42"><s xml:id="_vB9CHka" coords="12,57.09,274.97,357.19,6.42;12,57.09,285.91,113.46,6.42">We thank <rs type="person">Anna Goldman</rs> and <rs type="person">Sam Yue</rs> for assistance with the preparation of the manuscript, and two anonymous reviewers for constructive comments.</s></p></div>
+			</div>			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_PVwJ4xt" coords="12,427.92,106.05,98.84,9.17">Outstanding Questions</head><p xml:id="_WRPYtVY" coords="12,427.92,120.26,113.91,6.42;12,427.92,129.72,113.87,6.42;12,427.92,139.19,113.90,6.42;12,427.92,148.66,113.89,6.42;12,427.92,158.13,31.51,6.42"><s xml:id="_T7uAVuY" coords="12,427.92,120.26,113.91,6.42;12,427.92,129.72,113.87,6.42;12,427.92,139.19,113.90,6.42;12,427.92,148.66,113.89,6.42;12,427.92,158.13,31.51,6.42">How do environmental impacts of hydro, solar, and wind energy vary by latitude, elevation, temperature, and across other geographic gradients?</s></p><p xml:id="_wjUmCKT" coords="12,427.92,179.50,113.90,6.42;12,427.92,188.97,113.92,6.42;12,427.92,198.43,39.66,6.42"><s xml:id="_kPMYu6M" coords="12,427.92,179.50,113.90,6.42;12,427.92,188.97,113.92,6.42;12,427.92,198.43,39.66,6.42">What conditions would minimize greenhouse gas emissions from hydropower?</s></p><p xml:id="_Z4FfFCy" coords="12,427.92,219.86,113.92,6.42;12,427.92,229.33,113.92,6.42;12,427.92,238.80,113.89,6.42;12,427.92,248.27,56.92,6.42;12,427.92,269.70,113.88,6.42;12,427.92,279.17,113.91,6.42;12,427.92,288.63,113.90,6.42;12,427.92,298.10,42.09,6.42"><s xml:id="_HhWRccZ" coords="12,427.92,219.86,113.92,6.42;12,427.92,229.33,113.92,6.42;12,427.92,238.80,113.89,6.42;12,427.92,248.27,56.92,6.42">What regions have the most degraded lands in proximity to energy demand that would be suitable targets for solar energy expansion?</s><s xml:id="_r4mzCe4" coords="12,427.92,269.70,113.88,6.42;12,427.92,279.17,113.91,6.42;12,427.92,288.63,113.90,6.42;12,427.92,298.10,42.09,6.42">How do solar PV and concentrating solar power differ in terms of electricity generation and environmental impacts per unit area?</s></p><p xml:id="_MuCnzKv" coords="12,427.92,319.47,113.92,6.42;12,427.92,328.94,113.91,6.42;12,427.92,338.41,102.81,6.42;12,427.92,359.84,113.89,6.42;12,427.92,369.31,113.92,6.42;12,427.92,378.77,23.50,6.42;12,427.92,400.20,113.88,6.42;12,427.92,409.67,113.89,6.42;12,427.92,419.14,30.45,6.42;12,427.92,440.57,113.90,6.42;12,427.92,450.04,113.92,6.42;12,427.92,459.51,113.91,6.42;12,427.92,468.92,113.91,6.42;12,427.92,478.38,27.50,6.42;12,427.92,499.81,113.88,6.42;12,427.92,509.28,113.91,6.42;12,427.92,518.75,113.90,6.42;12,427.92,527.97,113.91,6.97;12,427.92,537.69,37.98,6.42;12,427.92,559.11,113.88,6.42;12,427.92,568.58,113.91,6.42;12,427.92,578.05,113.88,6.42;12,427.92,587.52,113.91,6.42;12,427.92,596.99,35.40,6.42;12,427.92,618.36,113.90,6.42;12,427.92,627.83,113.89,6.42;12,427.92,637.29,113.89,6.42;12,427.92,646.76,37.07,6.42;12,427.92,668.19,113.90,6.42;12,427.92,677.66,113.90,6.42;12,427.92,687.13,87.92,6.42"><s xml:id="_FeYEkUB" coords="12,427.92,319.47,113.92,6.42;12,427.92,328.94,113.91,6.42;12,427.92,338.41,102.81,6.42">How will improvements in solar PV technology reduce the land area required for electricity generation?</s><s xml:id="_4n3AJuT" coords="12,427.92,359.84,113.89,6.42;12,427.92,369.31,113.92,6.42;12,427.92,378.77,23.50,6.42">Can solar PV panels be innovated to eliminate the need for precious metals?</s><s xml:id="_MnpKG3W" coords="12,427.92,400.20,113.88,6.42;12,427.92,409.67,113.89,6.42;12,427.92,419.14,30.45,6.42">What technologies added to wind turbines can minimize mortality of birds and bats?</s><s xml:id="_2mUhfC2" coords="12,427.92,440.57,113.90,6.42;12,427.92,450.04,113.92,6.42;12,427.92,459.51,113.91,6.42;12,427.92,468.92,113.91,6.42;12,427.92,478.38,27.50,6.42">Can different renewable energy types be combined into the same facility, thereby reducing needed land area and minimizing environmental impacts?</s><s xml:id="_CSgnpZN" coords="12,427.92,499.81,113.88,6.42;12,427.92,509.28,113.91,6.42;12,427.92,518.75,113.90,6.42;12,427.92,527.97,113.91,6.97;12,427.92,537.69,37.98,6.42">How can governmental policies, particularly in countries with large growth and/or potential in renewable energy, encourage 'smart' development of renewables?</s><s xml:id="_nSNYdza" coords="12,427.92,559.11,113.88,6.42;12,427.92,568.58,113.91,6.42;12,427.92,578.05,113.88,6.42;12,427.92,587.52,113.91,6.42;12,427.92,596.99,35.40,6.42">How can different countries work together to harness and share renewable energy from different sources that might have different peaks of electricity generation?</s><s xml:id="_X2KpbUF" coords="12,427.92,618.36,113.90,6.42;12,427.92,627.83,113.89,6.42;12,427.92,637.29,113.89,6.42;12,427.92,646.76,37.07,6.42">What are the net biodiversity impacts of renewable energy when reduction in fossil fuel extraction and combustion is considered?</s><s xml:id="_UStCZyJ" coords="12,427.92,668.19,113.90,6.42;12,427.92,677.66,113.90,6.42;12,427.92,687.13,87.92,6.42">Is it ecologically and technologically feasible to completely replace fossil fuels with renewable energy?</s></p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted" xml:id="b0">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_Wu9ZKfW" coords="12,70.64,317.24,18.39,5.50;12,156.36,317.24,52.61,5.50">Global Status Report</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<date type="published" when="2017">2017. 2017</date>
+		</imprint>
+	</monogr>
+	<note>REN REN21 Secretariat</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b1">
+	<analytic>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_dYY6TrM" coords="12,143.09,335.15,51.98,5.50">State of the Tropics</title>
+		<imprint>
+			<publisher>State of the Tropics</publisher>
+			<date type="published" when="2014">2014. 2014</date>
+		</imprint>
+		<respStmt>
+			<orgName>James Cook University</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b2">
+	<analytic>
+		<title level="a" type="main" coords="12,123.08,353.12,106.21,5.50" xml:id="_Svg6fHz">Biodiversity risks from fossil fuel extraction</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Butt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_e4CybhX" coords="12,70.64,361.06,20.49,5.50">Science</title>
+		<imprint>
+			<biblScope unit="volume">342</biblScope>
+			<biblScope unit="page" from="425" to="426" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b3">
+	<analytic>
+		<title level="a" type="main" coords="12,127.45,371.04,104.29,5.50;12,70.64,379.03,41.89,5.50" xml:id="_jfrex4H">Future of oil and gas development in the western Amazon</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Finer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_UKMmW6g" coords="12,117.81,379.03,47.63,5.50">Environ. Res. Lett</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">24003</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b4">
+	<analytic>
+		<title level="a" type="main" coords="12,126.31,388.95,105.40,5.50;12,70.64,396.95,80.06,5.50" xml:id="_MMvxyNc">Assessment of sustainability indicators for renewable energy technologies</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Evans</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_cxtFtee" coords="12,155.62,396.95,76.09,5.50">Renew. Sustain. Energy Rev</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="1082" to="1088" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b5">
+	<analytic>
+		<title level="a" type="main" coords="12,181.42,414.86,50.29,5.50;12,70.64,422.86,108.04,5.50" xml:id="_pQkwtC4">Key role for nuclear energy in global biodiversity conservation</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">W</forename><surname>Brook</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J A</forename><surname>Bradshaw</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_C4ZVukZ" coords="12,183.97,422.86,36.81,5.50">Conserv. Biol</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="702" to="712" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b6">
+	<analytic>
+		<title level="a" type="main" coords="12,139.92,440.77,91.81,5.50;12,70.64,448.76,124.55,5.50" xml:id="_s35PKbu">Global change synergies and tradeoffs between renewable energy and biodiversity</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Santangeli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_E2z2c9C" coords="12,199.84,448.76,31.91,5.50;12,70.64,456.70,11.08,5.50">GCB Bioenergy</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="941" to="951" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b7">
+	<analytic>
+		<title level="a" type="main" coords="12,142.98,466.68,88.76,5.50;12,70.64,474.46,161.11,5.98;12,70.64,482.61,86.45,5.50" xml:id="_HQGTeZw">Synergies and trade-offs between renewable energy expansion and biodiversity conservationa cross-national multifactor analysis</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Santangeli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_hyzAXwR" coords="12,161.52,482.61,40.43,5.50">GCB Bioenergy</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="1191" to="1200" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b8">
+	<analytic>
+		<title level="a" type="main" coords="12,191.34,500.58,40.35,5.50;12,70.64,508.52,22.91,5.50" xml:id="_csmMPhZ">How green are biofuels?</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Scharlemann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">F</forename><surname>Laurance</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_yMfE2MJ" coords="12,95.53,508.52,20.49,5.50">Science</title>
+		<imprint>
+			<biblScope unit="volume">319</biblScope>
+			<biblScope unit="page" from="52" to="53" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b9">
+	<analytic>
+		<title level="a" type="main" coords="12,141.11,518.50,90.61,5.50;12,70.64,526.49,92.32,5.50" xml:id="_VsRsTYt">Systematic high-resolution assessment of global hydropower potential</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">A C</forename><surname>Hoes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_V8CZEsb" coords="12,167.02,526.49,26.56,5.50">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">171844</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b10">
+	<monogr>
+		<title level="m" xml:id="_NHnm3T3" coords="12,156.25,536.41,75.46,5.50;12,70.64,544.41,60.53,5.50">Global Trends in Renewable Energy Investment 2016</title>
+		<editor>
+			<persName><forename type="first">A</forename><surname>Mccrone</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Frankfurt School-UNEP Centre/BNEF</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b11">
+	<analytic>
+		<title level="a" type="main" coords="12,123.08,554.38,108.62,5.50;12,70.64,562.32,161.07,5.50;12,70.64,570.31,10.54,5.50" xml:id="_2nKKDSb">A regulatory policy to promote renewable energy consumption in China: review and future evolutionary path</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>He</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_UG2x8Vf" coords="12,85.83,570.31,39.03,5.50">Renew. Energy</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="page" from="695" to="705" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b12">
+	<analytic>
+		<title level="a" type="main" coords="12,126.54,580.24,105.16,5.50;12,70.64,588.23,21.52,5.50" xml:id="_ykk64tH">A global boom in hydropower dam construction</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zarfl</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_69czPgB" coords="12,96.55,588.23,28.57,5.50">Aquat. Sci</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="161" to="170" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b13">
+	<analytic>
+		<title level="a" type="main" coords="12,145.13,598.21,86.57,5.50;12,70.64,606.14,127.85,5.50" xml:id="_VpNpGaC">Greenhouse gas emissions from reservoir water surfaces: a new global synthesis</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>Deemer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_QgF6V9r" coords="12,203.70,606.14,28.02,5.50">Bioscience</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="949" to="964" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b14">
+	<analytic>
+		<title level="a" type="main" coords="12,172.23,624.12,59.52,5.50;12,70.64,632.05,62.79,5.50" xml:id="_tCUxnZQ">Greenhouse-gas emissions from tropical dams</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Fearnside</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pueyo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_3WuVJnx" coords="12,138.61,632.05,47.94,5.50">Nat. Clim. Change</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="382" to="384" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b15">
+	<analytic>
+		<title level="a" type="main" coords="12,134.87,642.03,96.84,5.50;12,70.64,650.02,116.99,5.50" xml:id="_R29ubGA">Carbon emissions from hydroelectric reservoirs linked to reservoir age and latitude</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Barros</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_2ugFCEb" coords="12,192.08,650.02,32.53,5.50">Nat. Geosci</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="593" to="596" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b16">
+	<analytic>
+		<title level="a" type="main" coords="12,132.32,667.94,99.41,5.50;12,70.64,675.88,122.06,5.50" xml:id="_sa3NyMt">Do hydroelectric dams mitigate global warming? The case of Brazil&apos;s Curuá-Una Dam</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Fearnside</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_y33jYEH" coords="12,198.31,675.88,33.43,5.50;12,70.64,683.87,58.48,5.50">Mitig. Adapt. Strateg. Glob. Change</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="675" to="691" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b17">
+	<analytic>
+		<title level="a" type="main" coords="12,118.20,693.85,113.51,5.50;12,70.64,701.79,161.10,5.50;12,70.64,709.78,37.99,5.50" xml:id="_HEGthzv">The impact of hydroelectric development on the Amazonian environment: with particular reference to the Tucuruí project</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Barrow</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_wDxaBGZ" coords="12,113.05,709.78,31.67,5.50">J. Biogeogr</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="67" to="78" />
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b18">
+	<analytic>
+		<title level="a" type="main" coords="12,322.98,317.24,91.32,5.50;12,253.19,325.23,67.58,5.50" xml:id="_9qzVUEZ">Carbon emission from global hydroelectric reservoirs revisited</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_23zY7re" coords="12,325.02,325.23,63.67,5.50">Environ. Sci. Pollut. Res</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="13636" to="13641" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b19">
+	<analytic>
+		<title level="a" type="main" coords="12,314.19,343.15,100.06,5.50;12,253.19,351.14,158.42,5.50" xml:id="_KqGFaS3">Dams in the Amazon: Belo Monte and Brazil&apos;s hydroelectric development of the Xingu River Basin</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Fearnside</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_sUgmJYm" coords="12,253.19,359.08,45.16,5.50">Environ. Manage</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="16" to="27" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b20">
+	<analytic>
+		<title level="a" type="main" coords="12,310.90,369.05,103.40,5.50;12,253.19,377.05,28.00,5.50" xml:id="_jYvcxh8">Hydropower and the future of Amazonian biodiversity</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Lees</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_KVj9k59" coords="12,285.51,377.05,50.30,5.50">Biodivers. Conserv</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="451" to="466" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b21">
+	<analytic>
+		<title level="a" type="main" coords="12,319.12,386.97,95.17,5.50;12,253.19,394.96,41.21,5.50" xml:id="_kgXXU8x">Ecological meltdown in predator-free forest fragments</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Terborgh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_6yqY5rz" coords="12,299.11,394.96,20.49,5.50">Science</title>
+		<imprint>
+			<biblScope unit="volume">294</biblScope>
+			<biblScope unit="page" from="1923" to="1926" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b22">
+	<analytic>
+		<title level="a" type="main" coords="12,312.32,404.94,101.95,5.50;12,253.19,412.88,124.02,5.50" xml:id="_7MjKe2d">Near-complete extinction of native small mammal fauna 25 years after forest fragmentation</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Gibson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_4KsJYHe" coords="12,381.03,412.88,20.49,5.50">Science</title>
+		<imprint>
+			<biblScope unit="volume">341</biblScope>
+			<biblScope unit="page" from="1508" to="1510" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b23">
+	<analytic>
+		<title level="a" type="main" coords="12,316.63,430.85,97.65,5.50;12,253.19,438.79,158.51,5.50" xml:id="_BM5HgS8">Assessing dam implementation impact on threatened carnivores: the case of Alqueva in SE Portugal</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Santos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_XgZPNj6" coords="12,253.19,446.78,60.79,5.50">Environ. Monit. Assess</title>
+		<imprint>
+			<biblScope unit="volume">142</biblScope>
+			<biblScope unit="page" from="47" to="64" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b24">
+	<monogr>
+		<title level="m" type="main" coords="12,318.95,456.70,95.35,5.50;12,253.19,464.48,161.09,5.98;12,253.19,472.69,9.65,5.50" xml:id="_pKxD4Dg">Large reservoirs as ecological barriers to downstream movements of Neotropical migratory fish. Fish Fish</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">M</forename><surname>Pelicice</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="697" to="715" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b25">
+	<analytic>
+		<title level="a" type="main" coords="12,344.64,482.61,69.66,5.50;12,253.19,490.60,90.35,5.50" xml:id="_kCWcXZR">The dammed river dolphins of Brazil: impacts and conservation</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Araújo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_vmj8cSR" coords="12,348.21,490.60,11.85,5.50">Oryx</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="17" to="24" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b26">
+	<analytic>
+		<title level="a" type="main" coords="12,320.83,500.58,93.43,5.50;12,253.19,508.52,111.71,5.50" xml:id="_hnYKHwc">Freshwater biodiversity: importance, threats, status and conservation challenges</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Dudgeon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_JUkX28w" coords="12,369.52,508.52,24.62,5.50">Biol. Rev</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="163" to="182" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b27">
+	<analytic>
+		<title level="a" type="main" coords="12,327.00,526.49,87.29,5.50;12,253.19,534.43,12.91,5.50" xml:id="_uVucs8G">Dams threaten rare Mekong dolphins</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Brownell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_a2SUCPe" coords="12,270.65,534.43,20.49,5.50">Science</title>
+		<imprint>
+			<biblScope unit="volume">355</biblScope>
+			<biblScope unit="page">805</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b28">
+	<analytic>
+		<title level="a" type="main" coords="12,323.15,544.41,91.10,5.50;12,253.19,552.34,104.84,5.50" xml:id="_cNn4NEp">Fish migration, dams, and loss of ecosystem services in the Mekong Basin</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Dugan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_5hP4yDW" coords="12,362.61,552.34,16.61,5.50">Ambio</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="344" to="348" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b29">
+	<analytic>
+		<title level="a" type="main" coords="12,305.69,562.11,108.56,5.98;12,253.19,570.31,111.87,5.50" xml:id="_78UeYvH">Trading-off fish biodiversity, food security, and hydropower in the Mekong River Basin</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ziv</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_JZHEr2k" coords="12,369.69,570.31,44.60,5.50;12,253.19,578.25,32.36,5.50">Proc. Natl. Acad. Sci. U. S. A</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="page" from="5609" to="5614" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b30">
+	<analytic>
+		<title level="a" type="main" coords="12,308.47,588.23,105.80,5.50;12,253.19,596.22,97.15,5.50" xml:id="_wqKTkBn">Requiem for a river: extinctions, climate change and the last of the Yangtze</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Dudgeon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_UjmWdf5" coords="12,356.31,596.22,57.94,5.50;12,253.19,604.16,44.14,5.50">Aquat. Conserv. Mar. Freshw. Ecosyst</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="127" to="131" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b31">
+	<analytic>
+		<title level="a" type="main" coords="12,309.37,613.92,104.88,5.98;12,253.19,622.13,161.07,5.50;12,253.19,630.07,37.03,5.50" xml:id="_FZKaRUG">Asian river fishes in the Anthropocene: threats and conservation challenges in an era of rapid environmental change</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Dudgeon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_42K4kY8" coords="12,295.14,630.07,28.00,5.50">J. Fish Biol</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="1487" to="1524" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b32">
+	<analytic>
+		<title level="a" type="main" coords="12,319.52,640.05,94.75,5.50;12,253.19,647.98,161.11,5.50;12,253.19,655.98,60.59,5.50" xml:id="_VZPBFKY">Impacts of hydropower and climate change on drivers of ecological productivity of Southeast Asia&apos;s most important wetland</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Arias</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_9484KUd" coords="12,318.50,655.98,32.34,5.50">Ecol. Model</title>
+		<imprint>
+			<biblScope unit="volume">272</biblScope>
+			<biblScope unit="page" from="252" to="263" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b33">
+	<analytic>
+		<title level="a" type="main" coords="12,310.62,665.96,103.66,5.50;12,253.19,673.89,127.51,5.50" xml:id="_ba9FYME">Homogenization of regional river dynamics by dams and global biodiversity implications</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">L</forename><surname>Poff</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_zSkTqFG" coords="12,385.91,673.89,28.35,5.50;12,253.19,681.89,49.42,5.50">Proc. Natl. Acad. Sci. U. S. A</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="page" from="5732" to="5737" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b34">
+	<analytic>
+		<title level="a" type="main" coords="12,328.48,691.86,85.82,5.50;12,253.19,699.80,111.60,5.50" xml:id="_sr9XNUa">Balancing hydropower and biodiversity in the Amazon, Congo, and Mekong</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">O</forename><surname>Winemiller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_tHyaZuG" coords="12,369.98,699.80,20.49,5.50">Science</title>
+		<imprint>
+			<biblScope unit="volume">351</biblScope>
+			<biblScope unit="page" from="128" to="129" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b35">
+	<analytic>
+		<title level="a" type="main" coords="13,151.65,105.77,80.07,5.50;13,70.64,113.71,122.71,5.50" xml:id="_y4RRDuy">Dam invaders: impoundments facilitate biological invasions into freshwaters</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">T J</forename><surname>Johnson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_ekKQg6B" coords="13,200.01,113.71,31.73,5.50;13,70.64,121.70,20.59,5.50">Front. Ecol. Environ</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="357" to="363" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b36">
+	<analytic>
+		<title level="a" type="main" coords="13,119.62,131.41,109.86,5.98" xml:id="_hmGy6xg">Dam-building threatens Mekong fisheries</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Stone</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_GQ2bttP" coords="13,70.64,139.62,20.49,5.50">Science</title>
+		<imprint>
+			<biblScope unit="volume">354</biblScope>
+			<biblScope unit="page" from="1084" to="1085" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b37">
+	<analytic>
+		<title level="a" type="main" coords="13,140.49,149.60,91.22,5.50;13,70.64,157.53,85.43,5.50" xml:id="_8pA4pUn">Impact of artificial reservoir water impoundment on global sea level</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">F</forename><surname>Chao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_e8RNZat" coords="13,160.21,157.53,20.49,5.50">Science</title>
+		<imprint>
+			<biblScope unit="volume">320</biblScope>
+			<biblScope unit="page" from="212" to="214" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b38">
+	<analytic>
+		<title level="a" type="main" coords="13,142.64,167.51,89.07,5.50;13,70.64,175.29,77.26,5.98" xml:id="_MNMjDwy">Implications of dam obstruction for global freshwater fish diversity</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Liermann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_D3XtDDA" coords="13,152.11,175.51,28.02,5.50">Bioscience</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="539" to="548" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b39">
+	<analytic>
+		<title level="a" type="main" coords="13,131.02,185.43,100.70,5.50" xml:id="_Z3mF759">Tropical dams: to build or not to build?</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Fearnside</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_24DNVNm" coords="13,70.64,193.42,20.49,5.50">Science</title>
+		<imprint>
+			<biblScope unit="volume">351</biblScope>
+			<biblScope unit="page" from="456" to="457" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b40">
+	<analytic>
+		<title level="a" type="main" coords="13,120.93,203.40,110.78,5.50;13,70.64,211.34,84.08,5.50" xml:id="_yeB8yf4">Multi-criteria decision aid to assess concentrated solar thermal technologies</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Cavallaro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_j4ZUBcC" coords="13,159.31,211.34,39.09,5.50">Renew. Energy</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="1678" to="1685" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b41">
+	<analytic>
+		<title level="a" type="main" coords="13,136.18,229.31,95.57,5.50;13,70.64,237.24,50.97,5.50" xml:id="_24mpnrQ">Environmental impacts from the solar energy technologies</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Tsoutsos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_JyAQfqd" coords="13,126.26,237.24,34.84,5.50">Energy Policy</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="289" to="296" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b42">
+	<analytic>
+		<title level="a" type="main" coords="13,166.73,247.22,64.96,5.50;13,70.64,255.22,161.05,5.50;13,70.64,263.15,15.47,5.50" xml:id="_dHQ7zgG">Wildlife conservation and solar energy development in the Desert Southwest, United States</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Lovich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Ennen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_r9HdswJ" coords="13,90.65,263.15,28.02,5.50">Bioscience</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="982" to="992" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b43">
+	<analytic>
+		<title level="a" type="main" coords="13,144.11,273.13,87.60,5.50;13,70.64,281.07,111.36,5.50" xml:id="_adyTnzx">Solar energy development impacts on land cover change and protected areas</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Hernandez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_Pg92PJb" coords="13,186.75,281.07,45.00,5.50;13,70.64,289.06,32.36,5.50">Proc. Natl. Acad. Sci. U. S. A</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="page" from="13579" to="13584" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b44">
+	<analytic>
+		<title level="a" type="main" coords="13,143.77,299.04,87.93,5.50;13,70.64,306.98,130.26,5.50" xml:id="_uTKMHwc">An approach to enhance the conservation-compatibility of solar energy development</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Cameron</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_gytZze5" coords="13,205.40,306.98,26.33,5.50">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">38437</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b45">
+	<analytic>
+		<title level="a" type="main" coords="13,145.81,324.95,85.91,5.50;13,70.64,332.88,161.05,5.50;13,70.64,340.88,15.47,5.50" xml:id="_p5DXRpg">A preliminary assessment of avian mortality at utility-scale solar energy facilities in the United States</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Walston</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Jr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_BFmEbRQ" coords="13,90.65,340.88,39.09,5.50">Renew. Energy</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="page" from="405" to="414" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b46">
+	<analytic>
+		<title level="a" type="main" coords="13,136.12,350.86,95.59,5.50;13,70.64,358.79,110.22,5.50" xml:id="_efJ3wbW">Reducing the maladaptive attractiveness of solar panels to polarotactic insects</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Horváth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_2KCUput" coords="13,185.27,358.79,36.19,5.50">Conserv. Biol</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="1644" to="1653" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b47">
+	<analytic>
+		<title level="a" type="main" coords="13,139.29,376.71,92.46,5.50;13,70.64,384.70,136.47,5.50" xml:id="_e6NhvW4">Solar park microclimate and vegetation management effects on grassland carbon cycling</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Armstrong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_GFpVSSj" coords="13,211.12,384.70,20.59,5.50;13,70.64,392.70,25.01,5.50">Environ. Res. Lett</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">74016</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b48">
+	<analytic>
+		<title level="a" type="main" coords="13,171.10,402.62,60.60,5.50;13,70.64,410.61,161.07,5.50;13,70.64,418.60,124.30,5.50" xml:id="_GQK9K2Y">Assessing the state of knowledge of utility-scale wind energy development and operation on non-volant terrestrial and marine wildlife</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Lovich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Ennen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_PURNh2t" coords="13,198.82,418.60,32.91,5.50">Appl. Energy</title>
+		<imprint>
+			<biblScope unit="volume">103</biblScope>
+			<biblScope unit="page" from="52" to="60" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b49">
+	<analytic>
+		<title level="a" type="main" coords="13,139.01,436.52,92.69,5.50;13,70.64,444.46,161.09,5.50;13,70.64,452.45,33.26,5.50" xml:id="_zNDazXY">Nesting ecology of a population of Gopherus agassizii at a utility-scale wind energy facility in Southern California</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Ennen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_ggZBMAz" coords="13,108.17,452.45,18.27,5.50">Copeia</title>
+		<imprint>
+			<biblScope unit="page" from="222" to="228" />
+			<date type="published" when="2012">2012. 2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b50">
+	<analytic>
+		<title level="a" type="main" coords="13,121.83,462.43,109.92,5.50;13,70.64,470.15,44.95,5.98" xml:id="_d3bNuzY">Environmental issues associated with wind energya review</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Dai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_y9kgQT3" coords="13,120.13,470.36,39.09,5.50">Renew. Energy</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="911" to="921" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b51">
+	<analytic>
+		<title level="a" type="main" coords="13,158.46,480.34,73.26,5.50;13,70.64,488.34,55.95,5.50" xml:id="_Z5MW44Y">Impacts of wind energy on environment: a review</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_jWNPcVs" coords="13,131.19,488.34,75.24,5.50">Renew. Sustain. Energy Rev</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="437" to="443" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b52">
+	<analytic>
+		<title level="a" type="main" coords="13,120.53,506.25,111.18,5.50;13,70.64,514.25,53.19,5.50" xml:id="_TEm9CNC">Bats killed in large numbers at United States wind energy facilities</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Hayes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_jaWwPV4" coords="13,127.79,514.25,28.02,5.50">Bioscience</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="page" from="975" to="979" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b53">
+	<analytic>
+		<title level="a" type="main" coords="13,136.12,524.17,95.58,5.50;13,70.64,532.16,142.81,5.50" xml:id="_jHUQPfR">Comparing bird and bat fatality-rate estimates among North American wind-energy projects</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Smallwood</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_yFpEUfu" coords="13,217.87,532.16,13.83,5.50;13,70.64,540.10,17.82,5.50">Wildl. Soc. B</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="19" to="33" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b54">
+	<analytic>
+		<title level="a" type="main" coords="13,141.90,550.08,89.82,5.50;13,70.64,558.07,161.11,5.50;13,70.64,566.01,19.62,5.50" xml:id="_xrARcFZ">A comprehensive analysis of smallpasserine fatalities from collision with turbines at wind energy facilities</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">P</forename><surname>Erickson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_D7TavRz" coords="13,94.22,566.01,26.79,5.50">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">107491</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b55">
+	<analytic>
+		<title level="a" type="main" coords="13,131.30,575.98,100.41,5.50;13,70.64,583.98,32.90,5.50" xml:id="_BsRv3Jv">Direct mortality of birds from anthropogenic causes</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Loss</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_JR4vFZJ" coords="13,108.40,583.98,72.20,5.50">Annu. Rev. Ecol. Evol. Syst</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="99" to="120" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b56">
+	<analytic>
+		<title level="a" type="main" coords="13,134.82,593.90,96.93,5.50;13,70.64,601.89,161.09,5.50;13,70.64,609.89,14.62,5.50" xml:id="_C9meacY">Large scale risk-assessment of windfarms on population viability of a globally endangered long-lived raptor</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Carrete</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_WJTkQcg" coords="13,89.69,609.89,36.18,5.50">Biol. Conserv</title>
+		<imprint>
+			<biblScope unit="volume">142</biblScope>
+			<biblScope unit="page" from="2954" to="2961" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b57">
+	<analytic>
+		<title level="a" type="main" coords="13,153.30,619.81,78.42,5.50;13,70.64,627.80,141.81,5.50" xml:id="_FpVdMBw">Proximity to wind-power plants reduces the breeding success of the white-tailed eagle</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Balotari-Chiebao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_GMbZTVZ" coords="13,217.02,627.80,14.72,5.50;13,70.64,635.74,23.03,5.50">Anim. Conserv</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="265" to="272" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b58">
+	<analytic>
+		<title level="a" type="main" coords="13,126.37,645.72,105.36,5.50;13,70.64,653.71,161.10,5.50;13,70.64,661.65,58.55,5.50" xml:id="_hZpvBTK">Reduced breeding success in white-tailed eagles at Smøla windfarm, western Norway, is caused by mortality and displacement</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">L</forename><surname>Dahl</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_rmEq8cv" coords="13,133.97,661.65,36.18,5.50">Biol. Conserv</title>
+		<imprint>
+			<biblScope unit="volume">145</biblScope>
+			<biblScope unit="page" from="79" to="85" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b59">
+	<analytic>
+		<title level="a" type="main" coords="13,133.74,671.62,97.96,5.50;13,70.64,679.62,119.50,5.50" xml:id="_tEr5z4z">Estimates of bird collision mortality at wind facilities in the contiguous United States</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Loss</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_Xy8GRG4" coords="13,195.14,679.62,36.58,5.50">Biol. Conserv</title>
+		<imprint>
+			<biblScope unit="volume">168</biblScope>
+			<biblScope unit="page" from="201" to="209" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b60">
+	<analytic>
+		<title level="a" type="main" coords="13,140.26,697.53,91.44,5.50;13,70.64,705.53,161.06,5.50;13,70.64,713.46,31.40,5.50" xml:id="_U2FnfNt">Variation in bat and bird fatalities at wind energy facilities: assessing the effects of rotor size and tower height</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Barclay</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_m7RNWzk" coords="13,106.53,713.46,33.65,5.50">Can. J. Zool</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="page" from="381" to="387" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b61">
+	<analytic>
+		<title level="a" type="main" coords="13,328.71,105.77,85.56,5.50;13,253.19,113.71,127.36,5.50" xml:id="_TH8AacN">Bird communities and wind farms: a phylogenetic and morphological approach</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Herrera-Alsina</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_cyqUTnB" coords="13,389.03,113.71,25.24,5.50;13,253.19,121.70,23.03,5.50">Biodivers. Conserv</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="2821" to="2836" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b62">
+	<analytic>
+		<title level="a" type="main" coords="13,321.05,131.62,93.19,5.50;13,253.19,139.62,161.09,5.50;13,253.19,147.61,10.89,5.50" xml:id="_AK7egqb">Ecological impacts of wind energy development on bats: questions, research needs, and hypotheses</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H</forename><surname>Kunz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_yrv62nv" coords="13,268.78,147.61,52.28,5.50">Front. Ecol. Environ</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="315" to="324" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b63">
+	<analytic>
+		<title level="a" type="main" coords="13,353.48,157.53,60.80,5.50;13,253.19,165.53,118.94,5.50" xml:id="_ycEK3gt">Avian interactions with renewable energy infrastructure: an update</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Dwyer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_XpDWrWH" coords="13,379.11,165.53,19.38,5.50">Condor</title>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="page" from="411" to="423" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b64">
+	<analytic>
+		<title level="a" type="main" coords="13,342.37,183.44,71.90,5.50;13,253.19,191.44,111.32,5.50" xml:id="_7R84Nun">Effects of wind-energy facilities on breeding grassland bird distributions</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Shaffer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Buhl</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_n2XKDZh" coords="13,368.50,191.44,35.85,5.50">Conserv. Biol</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="59" to="71" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b65">
+	<analytic>
+		<title level="a" type="main" coords="13,329.95,209.35,84.33,5.50;13,253.19,217.13,161.06,5.98;13,253.19,225.28,14.12,5.50" xml:id="_MCVBDA7">Nesting success of scissor-tailed flycatchers (Tyrannus forficatus) at a wind farm in northern Texas</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">G</forename><surname>Rubenstahl</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_gjvT9nD" coords="13,272.13,225.28,41.87,5.50">Southwest. Nat</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="189" to="194" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b66">
+	<analytic>
+		<title level="a" type="main" coords="13,323.55,235.26,90.72,5.50;13,253.19,243.25,78.88,5.50" xml:id="_HZKdsfq">Wind farm facilities in Germany kill noctule bats from near and far</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Lehnert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_E2Sx7hp" coords="13,336.13,243.25,26.79,5.50">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">103106</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b67">
+	<analytic>
+		<title level="a" type="main" coords="13,322.24,253.17,92.04,5.50;13,253.19,261.17,118.78,5.50" xml:id="_DksBswY">Geographic origins and population genetics of bats killed at wind-energy facilities</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Pylant</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_kxPBSAB" coords="13,375.93,261.17,28.02,5.50">Ecol. Appl</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="1381" to="1395" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b68">
+	<analytic>
+		<title level="a" type="main" coords="13,322.47,279.08,91.78,5.50;13,253.19,287.08,158.17,5.50" xml:id="_EMvZ92t">Seabird avoidance and attraction at an offshore wind farm in the Belgian part of the North Sea</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Vanermen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_BjDejwS" coords="13,253.19,295.01,35.44,5.50">Hydrobiologia</title>
+		<imprint>
+			<biblScope unit="volume">756</biblScope>
+			<biblScope unit="page" from="51" to="61" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b69">
+	<analytic>
+		<title level="a" type="main" coords="13,360.17,304.99,54.08,5.50;13,253.19,312.99,161.07,5.50;13,253.19,320.92,59.74,5.50" xml:id="_dAWEwe8">Radar monitoring of migrating pink-footed geese: behavioural responses to offshore wind farm development</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Plonczkier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">C</forename><surname>Simms</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_7UTJGmB" coords="13,317.82,320.92,34.68,5.50">J. Appl. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="1187" to="1194" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b70">
+	<analytic>
+		<title level="a" type="main" coords="13,349.80,330.90,64.48,5.50;13,253.19,338.89,47.50,5.50" xml:id="_r8uDBjz">Avian collision risk at an offshore wind farm</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Desholm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kahlert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_mVy6bUS" coords="13,305.35,338.89,24.67,5.50">Biol. Lett</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="296" to="298" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b71">
+	<analytic>
+		<title level="a" type="main" coords="13,382.34,348.82,31.91,5.50;13,253.19,356.81,151.08,5.50" xml:id="_uvd35n4">Response of migrating raptors to an increasing number of wind farms</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Cabrera-Cruz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Villegas-Patraca</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_smWYpwH" coords="13,409.61,356.81,4.65,5.50;13,253.19,364.80,27.99,5.50">J. Appl. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="1667" to="1675" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b72">
+	<analytic>
+		<title level="a" type="main" coords="13,299.11,374.72,115.19,5.50;13,253.19,382.72,89.98,5.50" xml:id="_ZbrJqcH">Can conditions experienced during migration limit the population levels of birds?</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Newton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_P9SR7UY" coords="13,345.15,382.72,28.39,5.50">J. Ornithol</title>
+		<imprint>
+			<biblScope unit="volume">147</biblScope>
+			<biblScope unit="page" from="146" to="166" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b73">
+	<analytic>
+		<title level="a" type="main" coords="13,317.42,392.70,96.87,5.50;13,253.19,400.63,79.27,5.50" xml:id="_WKYJdxC">Wind farm noise suppresses territorial defense behavior in a songbird</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Zwart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_nvDK3tB" coords="13,337.10,400.63,32.47,5.50">Behav. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="101" to="108" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b74">
+	<analytic>
+		<title level="a" type="main" coords="13,321.39,410.61,92.87,5.50;13,253.19,418.60,161.07,5.50;13,253.19,426.54,115.99,5.50" xml:id="_cDCuZru">Predicting the trends of vertebrate species richness as a response to wind farms installation in mountain ecosystems of northwest Portugal</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Santos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_WywmEgw" coords="13,374.34,426.54,29.03,5.50">Ecol. Indic</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="192" to="205" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b75">
+	<analytic>
+		<title level="a" type="main" coords="13,324.57,444.46,89.72,5.50;13,253.19,452.45,158.48,5.50" xml:id="_mhmQevK">Ground-level climate at a peatland wind farm in Scotland is affected by wind turbine operation</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Armstrong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_5FXHNdW" coords="13,253.19,460.44,47.63,5.50">Environ. Res. Lett</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">44024</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b76">
+	<analytic>
+		<title level="a" type="main" coords="13,311.75,470.36,102.50,5.50;13,253.19,478.36,30.25,5.50" xml:id="_atFsFUg">Impacts of wind farms on land surface temperature</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_zjutdXe" coords="13,288.17,478.36,47.94,5.50">Nat. Clim. Change</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="539" to="543" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b77">
+	<analytic>
+		<title level="a" type="main" coords="13,326.49,488.34,87.76,5.50;13,253.19,496.27,81.23,5.50" xml:id="_ZHyzZW3">Improving hydropower choices via an online and open access tool</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Vilela</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Reid</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_4USUbKn" coords="13,338.68,496.27,26.79,5.50">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">179393</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b78">
+	<analytic>
+		<title level="a" type="main" coords="13,320.49,506.25,93.79,5.50;13,253.19,514.25,103.80,5.50" xml:id="_qCb8Etn">Enhancing conservation of large-river biodiversity by accounting for tributaries</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Pracheil</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_K8khSHF" coords="13,361.47,514.25,52.79,5.50">Front. Ecol. Environ</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="124" to="128" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b79">
+	<analytic>
+		<title level="a" type="main" coords="13,327.91,532.16,86.35,5.50;13,253.19,540.10,12.82,5.50" xml:id="_j86w4zj">Damming the rivers of the Amazon basin</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Latrubesse</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_jV4VDxn" coords="13,270.60,540.10,17.28,5.50">Nature</title>
+		<imprint>
+			<biblScope unit="volume">546</biblScope>
+			<biblScope unit="page" from="363" to="369" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b80">
+	<analytic>
+		<title level="a" type="main" coords="13,310.51,550.08,101.10,5.50" xml:id="_YjyTCrK">Land availability for biofuel production</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Cai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_EVCZJWZ" coords="13,253.19,558.07,56.23,5.50">Environ. Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="334" to="339" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b81">
+	<monogr>
+		<title level="m" type="main" coords="13,309.09,567.99,105.17,5.50;13,253.19,575.98,78.06,5.50" xml:id="_F5neAK8">Land-use Requirements for Solar Power Plants in the United States</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ong</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+		<respStmt>
+			<orgName>National Renewable Energy Laboratory</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b82">
+	<analytic>
+		<title level="a" type="main" coords="13,304.95,593.90,109.34,5.50;13,253.19,601.89,96.59,5.50" xml:id="_2QyyVNQ">Freshwater ecosystems could become the biggest losers of the Paris Agreement</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Hermoso</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_axu8aDP" coords="13,354.73,601.89,49.28,5.50">Glob. Change Biol</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="3433" to="3436" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b83">
+	<analytic>
+		<title level="a" type="main" coords="13,342.94,619.81,71.33,5.50;13,253.19,627.80,161.07,5.50;13,253.19,635.74,40.82,5.50" xml:id="_6MwJTRX">Proliferation of hydroelectric dams in the Andean Amazon and implications for Andes-Amazon connectivity</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Finer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">N</forename><surname>Jenkins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_YecBCDq" coords="13,298.49,635.74,26.79,5.50">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">35126</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b84">
+	<monogr>
+		<title level="m" type="main" coords="13,380.35,645.72,33.89,5.50;13,253.19,653.71,161.07,5.50;13,253.19,661.65,8.86,5.50" xml:id="_sphwmR5">Hydroelectric Plants Account for More than 70% of Brazil&apos;s Electric Generation</title>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<publisher>US EIA</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b85">
+	<analytic>
+		<title level="a" type="main" coords="13,308.92,671.62,105.36,5.50;13,253.19,679.62,161.06,5.50;13,253.19,687.56,141.74,5.50" xml:id="_jGJyJta">Spatiotemporal patterns of tropical deforestation and forest degradation in response to the operation of the Tucuruí hydroelectric dam in the Amazon basin</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_zKGjre4" coords="13,400.88,687.56,13.40,5.50;13,253.19,695.55,17.72,5.50">Appl. Geogr</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="page" from="1" to="8" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b86">
+	<analytic>
+		<title level="a" type="main" coords="13,314.59,705.53,99.71,5.50;13,253.19,713.46,85.93,5.50" xml:id="_xwffDW3">O risco de desmatamento associado a doze hidrelétricas na Amazônia</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Barreto</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_Ct87MUj" coords="13,354.84,713.46,59.40,5.50;14,70.64,105.77,56.88,5.50">Tapajós: Hidrelétricas, Infraestrutura e Caos</title>
+		<editor>
+			<persName><forename type="first">W</forename><forename type="middle">C</forename><surname>Sousa</surname></persName>
+		</editor>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+			<biblScope unit="page" from="149" to="175" />
+		</imprint>
+	</monogr>
+	<note>Instituto Aeronáutica</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b87">
+	<analytic>
+		<title level="a" type="main" coords="14,142.02,123.69,89.74,5.50;14,70.64,131.62,161.11,5.50;14,70.64,139.62,30.12,5.50" xml:id="_BQu48KJ">Giant otter population responses to habitat expansion and degradation induced by a mega hydroelectric dam</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Palmeirim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_3Pn2t8S" coords="14,106.07,139.62,36.18,5.50">Biol. Conserv</title>
+		<imprint>
+			<biblScope unit="volume">174</biblScope>
+			<biblScope unit="page" from="30" to="38" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b88">
+	<analytic>
+		<title level="a" type="main" coords="14,172.52,149.60,59.22,5.50;14,70.64,157.53,161.11,5.50;14,70.64,165.53,26.38,5.50" xml:id="_qmX5NXC">Predicting local extinctions of Amazonian vertebrates in forest islands created by a mega dam</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Benchimol</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Peres</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_w4jDSdN" coords="14,102.33,165.53,36.18,5.50">Biol. Conserv</title>
+		<imprint>
+			<biblScope unit="volume">187</biblScope>
+			<biblScope unit="page" from="61" to="72" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b89">
+	<monogr>
+		<title level="m" type="main" coords="14,174.84,175.51,56.88,5.50;14,70.64,183.44,158.32,5.50" xml:id="_BrPvqfS">California Issues Proposed Plan To Achieve Groundbreaking 2030 Climate Goals</title>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<publisher>Office of Communications</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b90">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Renewables</forename><surname>Committee</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">California Energy Commission</orgName>
+			</affiliation>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_VPedZ4Q" coords="14,155.74,201.41,76.00,5.50;14,70.64,209.35,61.12,5.50">California Renewable Energy Overview and Programs</title>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b91">
+	<monogr>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">V</forename><surname>Open</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Project</surname></persName>
+		</author>
+		<title level="m" xml:id="_bEPWU8W" coords="14,138.50,219.33,66.45,5.50">Open PV State Rankings</title>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+		<respStmt>
+			<orgName>National Renewable Energy Laboratory</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b92">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_xqyncvU" coords="14,103.86,245.24,16.50,5.50">AWEA</title>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<publisher>American Wind Energy Association</publisher>
+		</imprint>
+	</monogr>
+	<note type="report_type">U.S. Wind Energy State Facts</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b93">
+	<analytic>
+		<title level="a" type="main" coords="14,181.64,255.22,50.09,5.50;14,70.64,263.15,92.56,5.50" xml:id="_dJPjtMy">Bird mortality in the Altamont Pass Wind Resource Area</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Smallwood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Thelander</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_ABqahtF" coords="14,167.98,263.15,63.73,5.50;14,70.64,271.15,8.39,5.50">California. J. Wildl. Manage</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="215" to="223" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b94">
+	<analytic>
+		<title level="a" type="main" coords="14,320.03,105.77,94.26,5.50;14,253.19,113.71,158.44,5.50" xml:id="_TZmREry">Golden Eagle fatalities and the continental-scale consequences of local wind-energy generation</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Katzner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_NZBDxkG" coords="14,253.19,121.70,36.19,5.50">Conserv. Biol</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="406" to="415" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b95">
+	<analytic>
+		<title level="a" type="main" coords="14,318.33,131.62,95.93,5.50;14,253.19,139.62,161.11,5.50;14,253.19,147.61,23.41,5.50" xml:id="_u3GdJJk">The effects of wind turbines on antipredator behavior in California ground squirrels (Spermophilus beecheyi)</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Rabin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_E2Vhvf8" coords="14,281.20,147.61,36.24,5.50">Biol. Conserv</title>
+		<imprint>
+			<biblScope unit="volume">131</biblScope>
+			<biblScope unit="page" from="410" to="420" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b96">
+	<analytic>
+		<title level="a" type="main" coords="14,317.20,157.53,97.06,5.50;14,253.19,165.53,107.87,5.50" xml:id="_dq7qTbq">Is there room for all of us? Renewable energy and Xerospermophilus mohavensis</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Inman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_PD7V8ED" coords="14,365.73,165.53,48.55,5.50;14,253.19,173.52,11.51,5.50">Endanger. Species Res</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="1" to="18" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b97">
+	<analytic>
+		<title level="a" type="main" coords="14,329.16,183.44,85.09,5.50;14,253.19,191.44,143.41,5.50" xml:id="_AWu7SDk">Short-term space-use patterns of translocated Mojave desert tortoise in southern California</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Farnsworth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_Vt8Y9mt" coords="14,400.20,191.44,14.07,5.50;14,253.19,199.37,10.74,5.50">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">134250</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b98">
+	<analytic>
+		<title level="a" type="main" coords="14,317.76,209.35,96.53,5.50;14,253.19,217.34,161.08,5.50;14,253.19,225.28,161.11,5.50;14,253.19,233.27,32.07,5.50" xml:id="_k7zeNcJ">Mitigation-driven translocation effects on temperature, condition, growth, and mortality of Mojave desert tortoise (Gopherus agassizii) in the face of solar energy development</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Brand</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_qGMEnF7" coords="14,290.15,233.28,36.24,5.50">Biol. Conserv</title>
+		<imprint>
+			<biblScope unit="volume">200</biblScope>
+			<biblScope unit="page" from="104" to="111" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b99">
+	<analytic>
+		<title level="a" type="main" coords="14,294.24,243.25,120.04,5.50;14,253.19,251.19,56.77,5.50" xml:id="_CRvgUdK">Review of avian mortality studies at concentrating solar power plants</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">K</forename><surname>Ho</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_nJtsFCJ" coords="14,314.42,251.19,40.55,5.50">AIP Conf. Proc</title>
+		<imprint>
+			<biblScope unit="volume">1734</biblScope>
+			<biblScope unit="page">70017</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

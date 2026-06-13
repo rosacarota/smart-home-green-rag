@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main" xml:id="_SH5QbSE" coords="1,125.68,141.27,343.92,12.81;1,225.41,159.21,144.45,12.81">Estimating electricity saving-potential in small offices using adaptive thermal comfort</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2022-05-12">12 May 2022</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">Yujiao</forename><surname>Chen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Sidewalk Labs</orgName>
+								<address>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Rongxin</forename><surname>Yin</surname></persName>
+							<email>ryin@lbl.gov</email>
+							<affiliation key="aff1">
+								<orgName type="institution">Lawrence Berkeley National Laboratory</orgName>
+								<address>
+									<settlement>Berkeley</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main" xml:id="_TXt4jQu" coords="1,125.68,141.27,343.92,12.81;1,225.41,159.21,144.45,12.81">Estimating electricity saving-potential in small offices using adaptive thermal comfort</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2022-05-12">12 May 2022</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">BBCA410DED0AFC486F3D78CA2124F634</idno>
+					<idno type="arXiv">arXiv:2205.10324v1[eess.SP]</idno>
+					<note type="submission">Preprint submitted to ASHRAE Journal</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-06-12T21:52+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=true, generateTeiCoordinates=[title, head, p, s, note, figure, formula, ref], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term xml:id="_JVvmNdB">energy efficiency</term>
+					<term xml:id="_UhF3Rva">adaptive thermal comfort</term>
+					<term xml:id="_kT8AxTp">IoT sensing and control</term>
+					<term xml:id="_vpAwEva">occupancy-based HVAC and plug load control</term>
+					<term xml:id="_WB5UJNP">smart thermostat control</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_Ax7mpP4"><p xml:id="_nqNwS27" coords="1,116.32,295.41,372.60,8.90;1,106.36,307.36,382.57,8.90;1,106.36,319.32,382.56,8.90;1,106.36,331.27,382.57,8.90;1,106.36,343.23,382.57,8.90;1,106.36,355.18,382.56,8.90;1,106.36,367.14,382.56,8.90;1,106.36,379.09,42.33,8.90"><s xml:id="_qUkYjTc" coords="1,116.32,295.41,372.60,8.90;1,106.36,307.36,188.73,8.90">Small office buildings below 10,000 square feet account for approximately 75% of the total number of office buildings in the United States.</s><s xml:id="_URKuSac" coords="1,298.28,307.36,190.64,8.90;1,106.36,319.32,382.56,8.90;1,106.36,331.27,124.28,8.90">Unlike large office buildings, small office buildings usually use packaged HVAC systems for environmental control and are not equipped with building management systems.</s><s xml:id="_NtVvytM" coords="1,235.73,331.27,253.19,8.90;1,106.36,343.23,211.01,8.90">The lack of smart control in small office buildings leaves lowhanging fruit unpicked in terms of energy efficiency.</s><s xml:id="_dcw9aKv" coords="1,321.49,343.23,167.43,8.90;1,106.36,355.18,382.56,8.90;1,106.36,367.14,382.56,8.90;1,106.36,379.09,42.33,8.90">The commonly seen missed opportunities include the fixed cooling setpoint schedule that ignores people's comfort needs and actual occupancy patterns, and the wasted energy from equipment and appliances while not being used by occupants.</s></p><p xml:id="_ZF8aHGV" coords="1,116.32,391.05,372.60,8.90;1,106.36,403.00,382.56,8.90;1,106.36,414.96,382.57,8.90;1,106.36,426.91,382.56,8.90;1,106.36,438.87,382.57,8.90;1,106.36,450.82,382.56,8.90;1,106.36,462.78,382.56,8.90;1,106.36,474.73,382.56,8.90;1,106.36,486.69,77.38,8.90;1,183.74,485.09,3.49,6.23;1,190.71,486.69,67.98,8.90;1,258.68,485.09,3.49,6.23;1,265.65,486.69,223.27,8.90;1,106.36,498.64,382.56,8.90;1,106.36,510.60,134.81,8.90"><s xml:id="_wTg5H99" coords="1,116.32,391.05,372.60,8.90;1,106.36,403.00,382.56,8.90;1,106.36,414.96,88.87,8.90">The smart control informed by IoT sensors and enabled by remotely controlled devices can optimize the building operation to minimize unnecessary energy consumption and improve indoor thermal comfort.</s><s xml:id="_yZQrBB4" coords="1,200.04,414.96,288.88,8.90;1,106.36,426.91,348.23,8.90">This paper quantifies the potential for electricity savings in small office buildings from smart thermostat control and occupancy-informed smart plug control.</s><s xml:id="_v7YSCgM" coords="1,460.97,426.91,27.95,8.90;1,106.36,438.87,382.57,8.90;1,106.36,450.82,382.56,8.90;1,106.36,462.78,56.87,8.90">This is done by simulating the effect of adaptive setpoint temperature, occupancy-based HVAC control, and night-purge free cooling on small office buildings across all major climate zones in the United States.</s><s xml:id="_RK5Ga45" coords="1,169.23,462.78,319.69,8.90;1,106.36,474.73,382.56,8.90;1,106.36,486.69,77.38,8.90;1,183.74,485.09,3.49,6.23;1,190.71,486.69,67.98,8.90;1,258.68,485.09,3.49,6.23;1,265.65,486.69,115.40,8.90">Adopting these smart control measures can achieve 8.9% to 20.4% of savings in total electricity consumption of small office buildings, or equivalent to annual reductions between 12.2 kWh/m 2 and 30.4 kWh/m 2 in electricity usage intensity.</s><s xml:id="_Mz3rdgP" coords="1,385.61,486.69,103.31,8.90;1,106.36,498.64,382.56,8.90;1,106.36,510.60,134.81,8.90">Among all climate zones, the hot and dry climates benefit the most from proposed smart controls and achieve the highest percentages of electricity savings.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="13" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="14" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="15" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="16" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1." xml:id="_uF8mPBQ" coords="2,106.36,144.18,66.52,8.82">Introduction</head><p xml:id="_n4c2eNG" coords="2,116.32,164.56,309.02,8.90;2,439.01,164.56,49.91,8.90;2,106.36,176.51,382.56,8.90;2,106.36,188.47,209.94,8.90;2,330.18,188.47,158.73,8.90;2,106.36,200.42,382.56,8.90;2,106.36,212.38,382.57,8.90;2,106.36,224.33,245.18,8.90;2,364.55,224.33,124.37,8.90;2,106.36,236.29,382.56,8.90;2,106.36,248.24,382.56,8.90;2,106.36,260.20,252.27,8.90"><s xml:id="_bvPwzKF" coords="2,116.32,164.56,326.22,8.90">In the United States, more than 73% of electricity is consumed by buildings <ref type="bibr" coords="2,428.43,164.56,10.58,8.90" target="#b0">[1]</ref>.</s><s xml:id="_xPKAF5x" coords="2,447.42,164.56,41.50,8.90;2,106.36,176.51,382.56,8.90;2,106.36,188.47,227.36,8.90">Electricity used for space cooling in buildings reached 392 billion kWh in 2020, which accounted for approximately 10% of overall electricity consumption <ref type="bibr" coords="2,319.60,188.47,10.58,8.90" target="#b1">[2]</ref>.</s><s xml:id="_yEv55wK" coords="2,339.25,188.47,149.67,8.90;2,106.36,200.42,382.56,8.90;2,106.36,212.38,382.57,8.90;2,106.36,224.33,261.72,8.90">Among all building types, electricity used for space cooling in commercial buildings accounted for 4% of overall electricity consumption in the U.S. Small office buildings, with a floor area of less than 10,000 square feet, account for approximately 75% of the total number of office buildings <ref type="bibr" coords="2,353.97,224.33,10.58,8.90" target="#b1">[2]</ref>.</s><s xml:id="_R7xKe8A" coords="2,371.15,224.33,117.78,8.90;2,106.36,236.29,382.56,8.90;2,106.36,248.24,382.56,8.90;2,106.36,260.20,252.27,8.90">Reducing the energy required for space cooling not only makes a great impact on total energy consumption but also significantly alleviates the stress on electricity generation and the power grid, which consequently leads to more economical operation and lower carbon intensity.</s></p><p xml:id="_NC534vR" coords="2,116.32,272.15,372.60,8.90;2,106.36,284.11,382.56,8.90;2,106.36,296.06,117.64,8.90;2,237.04,296.06,251.87,8.90;2,106.36,308.02,382.56,8.90;2,106.36,319.97,382.56,8.90;2,106.36,331.93,382.56,8.90;2,106.36,343.88,198.41,8.90"><s xml:id="_YzWcRMK" coords="2,116.32,272.15,372.60,8.90;2,106.36,284.11,382.56,8.90;2,106.36,296.06,134.22,8.90">For small office buildings, the most widely used space cooling system is packaged airconditioning equipment, which serves more than half of the total square footage of commercial buildings in the United States <ref type="bibr" coords="2,226.46,296.06,10.58,8.90" target="#b2">[3]</ref>.</s><s xml:id="_my8t4mu" coords="2,243.66,296.06,245.26,8.90;2,106.36,308.02,382.56,8.90;2,106.36,319.97,179.64,8.90">Packaged air-conditioning equipment usually has discrete onoff control for single-stage or two-stage cooling, operating on a fixed schedule of desired indoor air temperature (setpoints) by day and time.</s><s xml:id="_pSm8AUB" coords="2,291.88,319.97,197.04,8.90;2,106.36,331.93,382.56,8.90;2,106.36,343.88,198.41,8.90">A more sophisticated approach to control, using commercial off-the-shelf devices and cloud-based optimization techniques can substantially improve energy efficiency and occupant satisfaction.</s></p><p xml:id="_wZbduAP" coords="2,116.32,355.84,368.82,8.90"><s xml:id="_xtu3F2m" coords="2,116.32,355.84,368.82,8.90">This paper focuses on three opportunities for improving energy use in small office buildings:</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.1." xml:id="_cDkW7Xq" coords="2,106.36,379.22,142.74,8.71">Overcooling in office buildings</head><p xml:id="_AB2RztJ" coords="2,116.32,393.50,372.60,8.90;2,106.36,405.45,382.56,8.90;2,106.36,417.41,382.56,8.90;2,120.88,429.36,14.39,8.90;2,148.76,429.36,340.16,8.90;2,106.36,441.32,382.56,8.90;2,106.36,453.27,382.56,8.90;2,106.36,465.23,68.35,8.90;2,187.64,465.23,301.28,8.90;2,106.36,477.18,157.47,8.90;2,277.59,477.18,211.33,8.90;2,106.36,489.14,382.57,9.74;2,106.36,501.10,81.36,8.90"><s xml:id="_uPXvmK7" coords="2,116.32,393.50,372.60,8.90;2,106.36,405.45,128.56,8.90">It is not uncommon for people in the United States to experience excessively cooled office buildings on a hot summer day.</s><s xml:id="_sNvuRJB" coords="2,240.27,405.45,248.65,8.90;2,106.36,417.41,162.86,8.90">Often, people need to put on an additional layer of clothes if sitting at their desk for extended periods.</s><s xml:id="_thVdncC" coords="2,272.32,417.41,216.60,8.90;2,106.36,429.36,45.93,8.90">This is especially common for women, as described in <ref type="bibr" coords="2,106.36,429.36,11.62,8.90" target="#b3">[4]</ref> and <ref type="bibr" coords="2,138.18,429.36,10.58,8.90" target="#b4">[5]</ref>.</s><s xml:id="_9ETxN3B" coords="2,156.63,429.36,332.29,8.90;2,106.36,441.32,324.39,8.90">These studies find that females prefer higher room temperatures than males, based on large scale field surveys and actual metabolic rate through biophysical analysis.</s><s xml:id="_skbzuzb" coords="2,433.71,441.32,55.21,8.90;2,106.36,453.27,382.56,8.90;2,106.36,465.23,382.56,8.90">The empirical rules to set cooling temperature follow a model developed in the 1960s that derived from male test subjects only <ref type="bibr" coords="2,177.06,465.23,10.58,8.90" target="#b5">[6]</ref>, which causes the intrinsic mismatch in providing comfort to all occupants.</s><s xml:id="_3JaCMU2" coords="2,106.36,477.18,382.56,8.90;2,106.36,489.14,382.57,9.74;2,106.36,501.10,81.36,8.90">In addition to discomfort, according to <ref type="bibr" coords="2,267.01,477.18,10.58,8.90" target="#b6">[7]</ref>, the overcooling in the United States resulted in an annual energy waste of 103,929 GWh, a carbon footprint of 57,125 kt CO 2 e, and a financial loss of 10 billion dollars.</s></p><p xml:id="_XgNCbWk" coords="2,116.32,513.05,372.60,8.90;2,106.36,525.01,382.56,8.90;2,106.36,536.96,382.57,8.90;2,106.36,548.92,382.56,8.90;2,106.36,560.87,382.56,8.90;2,106.36,572.83,241.50,8.90;2,361.29,572.83,127.63,8.90;2,106.36,584.78,382.56,8.90;2,106.36,596.74,382.56,8.90;2,106.36,608.69,139.82,8.90"><s xml:id="_gFMadzd" coords="2,116.32,513.05,372.60,8.90;2,106.36,525.01,319.44,8.90">The technical barrier to the flexible cooling setpoint that reflects the true occupants' preference usually lays on the lack of feedback channel and access to the setpoint control.</s><s xml:id="_Yf38A7c" coords="2,430.32,525.01,58.60,8.90;2,106.36,536.96,382.57,8.90;2,106.36,548.92,338.55,8.90">Namely, occupants don't have a convenient way to effectively express their thermal feedback, and there is no mechanism to collect occupants' feedback and take appropriate actions to address it.</s><s xml:id="_7XWYddU" coords="2,448.59,548.92,40.33,8.90;2,106.36,560.87,382.56,8.90;2,106.36,572.83,55.70,8.90">This issue has started to improve with the implementation of consumer-grade IoT sensors and integrated smart control.</s><s xml:id="_2M7sfFj" coords="2,166.22,572.83,322.70,8.90;2,106.36,584.78,382.56,8.90;2,106.36,596.74,382.56,8.90;2,106.36,608.69,139.82,8.90">Some smart building solutions, such as Mesa <ref type="bibr" coords="2,350.71,572.83,10.58,8.90" target="#b7">[8]</ref>, provide comfort buttons and a user app in their offering that allows each occupant's thermal preference to be heard by the smart control engine, and subsequently adjusts the setpoint to improve overall occupants' satisfaction towards their thermal environment.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.2." xml:id="_khePyVx" coords="2,106.36,632.07,150.09,8.71">Occupancy-decoupled operation</head><p xml:id="_Vj8R5tV" coords="2,116.32,646.35,372.60,8.90;2,106.36,658.31,382.57,8.90;2,106.36,670.26,382.56,8.90;2,106.36,682.22,382.56,8.90;2,106.36,694.17,382.56,8.90;3,106.36,144.23,382.56,8.90;3,106.36,156.19,382.56,8.90;3,106.36,168.14,245.87,8.90;3,366.00,168.14,122.92,8.90;3,106.36,180.10,382.56,8.90;3,106.36,192.05,382.57,8.90;3,106.36,204.01,382.57,8.90;3,106.36,215.96,382.56,8.90;3,106.36,227.92,382.56,8.90;3,106.36,239.87,301.25,8.90;3,425.37,239.87,3.82,8.90"><s xml:id="_rEYKr62" coords="2,116.32,646.35,372.60,8.90;2,106.36,658.31,104.23,8.90">Programmable thermostats are the most prevailing devices to control HVAC operation in small and medium-sized offices.</s><s xml:id="_cEBjhCK" coords="2,213.68,658.31,275.25,8.90;2,106.36,670.26,244.97,8.90">Those devices adjust the temperature according to a series of settings to be triggered by the time of the day and day of the week.</s><s xml:id="_w3utjec" coords="2,357.18,670.26,131.74,8.90;2,106.36,682.22,382.56,8.90;2,106.36,694.17,139.73,8.90">For example, the thermostat can be programmed to set the temperature at 22°C during business hours and switch to a setback of 28°C at night and on weekends.</s><s xml:id="_FQY8d8t" coords="2,250.26,694.17,238.65,8.90;3,106.36,144.23,352.88,8.90">However, the programmable thermostat itself does not save energy; its energy-efficiency performance can only be as good as how users operate it.</s><s xml:id="_k2T2btA" coords="3,464.57,144.23,24.35,8.90;3,106.36,156.19,382.56,8.90;3,106.36,168.14,263.17,8.90">Issues come up in practice as the previous survey results revealed that 40% of users do not operate their programmable thermostats as expected by the manufacturers <ref type="bibr" coords="3,355.42,168.14,10.58,8.90" target="#b8">[9]</ref>.</s><s xml:id="_rTMvV5T" coords="3,374.77,168.14,114.15,8.90;3,106.36,180.10,382.56,8.90;3,106.36,192.05,382.57,8.90;3,106.36,204.01,29.05,8.90">Assumptions about business hours may fail to reflect the true occupancy -for example, the AC turns off at 6 pm sharp while people are still working in the office, or the AC operates on Saturday when the office is unoccupied.</s><s xml:id="_7Q2h22s" coords="3,140.16,204.01,348.77,8.90;3,106.36,215.96,382.56,8.90;3,106.36,227.92,382.56,8.90;3,106.36,239.87,322.83,8.90">Whoever sets the programs of thermostat in small and medium-sized office also needs a better solution -more than often, it is either the case that the thermostat is physically locked into a plastic box to prevent unauthorized interference, or multiple people interacting with the thermostat and their conflicts inadvertently cause the increase of energy use <ref type="bibr" coords="3,410.09,239.87,15.27,8.90" target="#b9">[10]</ref>.</s></p><p xml:id="_3tJHHH7" coords="3,116.32,251.83,372.60,8.90;3,106.36,263.78,382.56,8.90;3,106.36,275.74,382.57,8.90;3,106.36,287.70,21.87,8.90"><s xml:id="_pyZXt9e" coords="3,116.32,251.83,372.60,8.90;3,106.36,263.78,234.28,8.90">The motion-sensor embedded or coupled thermostat, on the other hand, captures the true occupancy patterns instead of solely relying on user settings.</s><s xml:id="_gF3KNMz" coords="3,344.36,263.78,144.56,8.90;3,106.36,275.74,382.57,8.90;3,106.36,287.70,21.87,8.90">This mechanism allows temperature control to be more accurate and dynamic, thus improving the energy efficiency of HVAC operations.</s></p><p xml:id="_SSRcBHg" coords="3,116.32,299.65,372.60,8.90;3,106.36,311.61,382.56,8.90;3,106.36,323.56,118.63,8.90;3,274.28,323.56,214.64,8.90;3,106.36,335.52,382.56,8.90;3,106.36,347.47,382.56,8.90;3,106.36,359.43,382.56,8.90;3,106.36,371.38,352.94,8.90"><s xml:id="_thJPmER" coords="3,116.32,299.65,321.47,8.90">The occupancy-centric operation also saves energy on plug loads and lighting.</s><s xml:id="_NmrSjep" coords="3,443.81,299.65,45.11,8.90;3,106.36,311.61,382.56,8.90;3,106.36,323.56,171.86,8.90">It has been supported by multiple studies that plug loads account for about 30% of electricity consumption in U.S. commercial buildings <ref type="bibr" coords="3,228.07,323.56,15.77,8.90" target="#b10">[11,</ref><ref type="bibr" coords="3,246.92,323.56,12.45,8.90" target="#b11">12,</ref><ref type="bibr" coords="3,262.45,323.56,11.83,8.90" target="#b12">13]</ref>.</s><s xml:id="_gWxxKff" coords="3,283.08,323.56,205.84,8.90;3,106.36,335.52,382.56,8.90;3,106.36,347.47,200.04,8.90">Unlike lighting that has widely adopted occupancy sensors for automatic control, equipment and appliances in general solely rely on manual control and consume energy even when not being used.</s><s xml:id="_gWEQBs2" coords="3,313.88,347.47,175.04,8.90;3,106.36,359.43,127.87,8.90">This standby power consumption is called phantom load or vampire load.</s><s xml:id="_uqZgJvx" coords="3,241.47,359.43,247.45,8.90;3,106.36,371.38,352.94,8.90">The smart plugs and power strips that allow remote control consequently save a substantial amount of energy when coupled with occupancy signals.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.3." xml:id="_fkGHHPw" coords="3,106.36,395.36,140.84,8.71">Unused free cooling resources</head><p xml:id="_WMQvvSh" coords="3,116.32,410.24,372.61,8.90;3,106.36,422.19,158.68,8.90;3,283.28,422.19,205.64,8.90;3,106.36,434.15,382.56,8.90;3,106.36,446.10,267.44,8.90;3,392.80,446.10,96.12,8.90;3,106.36,458.06,382.56,8.90;3,106.36,470.01,382.57,8.90;3,106.36,481.97,382.56,8.90;3,106.36,493.92,276.15,8.90;3,400.27,493.92,3.82,8.90"><s xml:id="_xqQubFg" coords="3,116.32,410.24,372.61,8.90;3,106.36,422.19,180.74,8.90">Most climate zones in the United States offer the opportunity to utilize natural ventilation as free cooling for various lengths of time <ref type="bibr" coords="3,268.01,422.19,15.27,8.90" target="#b13">[14]</ref>.</s><s xml:id="_yRMv5cC" coords="3,291.62,422.19,197.30,8.90;3,106.36,434.15,382.56,8.90;3,106.36,446.10,290.26,8.90">The fresh outdoor air at the pleasant temperature and humidity level not only improves indoor air quality by flushing out the pollutant in the stale air, but also saves significant amounts of cooling and fan energy <ref type="bibr" coords="3,377.53,446.10,15.27,8.90" target="#b14">[15]</ref>.</s><s xml:id="_sqxxxsy" coords="3,403.42,446.10,85.50,8.90;3,106.36,458.06,382.56,8.90;3,106.36,470.01,218.64,8.90">The most convenient implementation of natural ventilation is the night purge, which is to leave the windows and louvers open during the night if the weather is suitable.</s><s xml:id="_y2McRvp" coords="3,328.04,470.01,160.88,8.90;3,106.36,481.97,382.56,8.90;3,106.36,493.92,116.21,8.90">This passive ventilation is most effective in the climate with substantial diurnal temperature swings and in buildings with a significant amount of thermal mass (e.g.</s><s xml:id="_MnpxSJP" coords="3,225.66,493.92,178.43,8.90">concrete, brick, phase-change material) <ref type="bibr" coords="3,385.00,493.92,15.27,8.90" target="#b15">[16]</ref>.</s></p><p xml:id="_rJKEHuV" coords="3,116.32,505.88,372.60,8.90;3,106.36,517.83,382.56,8.90;3,106.36,529.79,111.60,8.90"><s xml:id="_9JYs9cv" coords="3,116.32,505.88,372.60,8.90;3,106.36,517.83,382.56,8.90;3,106.36,529.79,111.60,8.90">With the increasing adoption of window actuators, IoT sensors, and integrated intelligent control, more natural ventilation opportunities can be unlocked to reduce the load and carbon footprint of building operations.</s></p><p xml:id="_YW3Ne7Z" coords="3,116.32,541.74,372.60,8.90;3,106.36,553.70,382.56,8.90;3,106.36,565.65,382.56,8.90;3,106.36,577.61,382.56,8.90;3,106.36,589.56,365.56,8.90"><s xml:id="_QWv7cNR" coords="3,116.32,541.74,372.60,8.90;3,106.36,553.70,382.56,8.90;3,106.36,565.65,213.23,8.90">To address these missed opportunities and harvest the low-hanging fruit, this paper is intended to quantify the cooling energy savings potential in small and medium-sized office buildings across all major climate zones in the United States.</s><s xml:id="_EU7SDvD" coords="3,326.37,565.65,162.55,8.90;3,106.36,577.61,382.56,8.90;3,106.36,589.56,365.56,8.90">By adopting adaptive cooling setpoints, occupant-centric thermostat control, and night purge as free cooling, the total cooling energy savings in kilowatt-hours are estimated for typical small and medium-sized office buildings.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2." xml:id="_W4cjMXM" coords="4,106.36,144.18,68.35,8.82">Methodology</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1." xml:id="_vnb9M6V" coords="4,106.36,166.79,98.34,8.71">Overall Framework</head><p xml:id="_AkuN4wp" coords="4,116.32,183.23,372.60,8.90;4,106.36,195.19,266.43,8.90;4,378.67,195.19,110.25,8.90;4,106.36,207.14,382.57,8.90;4,106.36,219.10,171.47,8.90;4,296.96,219.10,191.96,8.90;4,106.36,231.05,382.56,8.90;4,106.36,243.01,382.56,8.90;4,106.36,254.96,172.65,8.90"><s xml:id="_Jmf59Kg" coords="4,116.32,183.23,372.60,8.90;4,106.36,195.19,172.35,8.90">For each prototype building model at each climate, we will evaluate the energy-saving potentials with individual or combined measures.</s><s xml:id="_f2hvDYr" coords="4,281.68,195.19,207.24,8.90;4,106.36,207.14,382.57,8.90;4,106.36,219.10,194.43,8.90">As illustrated in Figure <ref type="figure" coords="4,374.94,195.19,3.74,8.90" target="#fig_0">1</ref>, we use the DOE prototype small office model as the baseline and create the proposed model with individual and combined energy efficiency measures in EnergyPlus <ref type="bibr" coords="4,281.69,219.10,15.27,8.90" target="#b16">[17]</ref>.</s><s xml:id="_ZkQF3fX" coords="4,307.99,219.10,180.93,8.90;4,106.36,231.05,382.56,8.90;4,106.36,243.01,101.69,8.90">It is worth noting that the energy efficiency measures proposed in this study can be deployed through a set of "plug and play" IoT sensing and control technologies.</s><s xml:id="_JEDTcMa" coords="4,212.99,243.01,275.92,8.90;4,106.36,254.96,172.65,8.90">Therefore, we need to keep the same HVAC system design capacity between the baseline and proposed models.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2." xml:id="_xYCwNPT" coords="4,106.36,480.32,123.53,8.71">Prototype Building Model</head><p xml:id="_ypYcy9F" coords="4,116.32,496.76,372.60,8.90;4,106.36,508.72,382.56,8.90;4,121.63,520.67,367.30,8.90;4,106.36,532.63,325.85,8.90;4,441.79,532.63,47.13,8.90;4,106.36,544.59,382.57,8.90;4,106.36,556.54,40.12,8.90"><s xml:id="_tS4Y6rF" coords="4,116.32,496.76,372.60,8.90;4,106.36,508.72,382.56,8.90;4,106.36,520.67,19.09,8.90">The models of small office buildings to quantify cooling energy savings are based on the U.S. Department of Energy commercial benchmark models developed by DOE national labs <ref type="bibr" coords="4,106.36,520.67,15.27,8.90" target="#b17">[18]</ref>.</s><s xml:id="_sbYtbnb" coords="4,132.62,520.67,356.31,8.90;4,106.36,532.63,300.93,8.90">These benchmark models serve as a consistent baseline to compare the efficiency and effectiveness of different improvements on building systems and operations.</s><s xml:id="_z3srjhz" coords="4,410.32,532.63,78.60,8.90;4,106.36,544.59,382.57,8.90;4,106.36,556.54,40.12,8.90">Table <ref type="table" coords="4,434.51,532.63,4.98,8.90" target="#tab_0">1</ref> presents the general model input for a small office that complies with ASHRAE 90.1-2004 and 62.1-1999 standards.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3." xml:id="_ac9Q6qH" coords="4,106.36,582.09,72.23,8.71">Climate zone</head><p xml:id="_JvKK5YX" coords="4,116.32,598.53,372.60,8.90;4,106.36,610.48,382.56,8.90;4,106.36,622.44,382.56,8.90;4,106.36,634.40,382.56,8.90;4,106.36,646.35,382.56,8.90;4,106.36,658.31,382.56,8.90;4,106.36,670.26,382.56,8.90;4,106.36,682.22,382.56,8.90;4,106.36,694.17,35.41,8.90;4,159.52,694.17,3.82,8.90;5,116.32,374.97,372.60,8.90;5,106.36,386.92,382.56,8.90;5,106.36,398.88,382.56,8.90;5,106.36,410.83,258.99,8.90;5,386.92,410.83,65.34,8.90;5,458.49,410.83,3.74,8.90"><s xml:id="_hSWxS9a" coords="4,116.32,598.53,372.60,8.90;4,106.36,610.48,382.56,8.90;4,106.36,622.44,145.73,8.90">The climate zone designation is based on the climate zone map used by the International Energy Conservation Code (IECC) and the American Society of Heating, Refrigerating and Air-Conditioning Engineers (ASHRAE).</s><s xml:id="_zf89zxK" coords="4,254.25,622.44,234.67,8.90;4,106.36,634.40,382.56,8.90;4,106.36,646.35,248.95,8.90">This climate zone map was developed by Pacific Northwest National Laboratory, dividing the United States into eight main climate zones based on the temperature, using cooling degree days and heating degree days.</s><s xml:id="_CJNCvax" coords="4,360.90,646.35,128.02,8.90;4,106.36,658.31,382.56,8.90;4,106.36,670.26,325.52,8.90">Ordered by descending average temperature, these zones are Zone 1 (Very Hot), Zone 2 (Hot), Zone 3 (Warm), Zone 4 (Mixed), Zone 5 (Cool), Zone 6 (Cold), and Zone 7 (Very Cold), and Zone 8 (subarctic).</s><s xml:id="_uVrB5Au" coords="4,437.12,670.26,51.80,8.90;4,106.36,682.22,382.56,8.90;4,106.36,694.17,56.99,8.90">Each zone is further divided into three subcategories by moisture regimes, as A (Humid), B (Dry), and C (Marine) <ref type="bibr" coords="4,144.25,694.17,15.27,8.90" target="#b18">[19]</ref>.</s><s xml:id="_8GUJbt9" coords="5,116.32,374.97,355.05,8.90">The land and population under each climate zone vary dramatically in the United States.</s><s xml:id="_Z24TbxE" coords="5,475.23,374.97,13.69,8.90;5,106.36,386.92,238.80,8.90">For example, Zone 8 Subarctic climate is only found in Alaska.</s><s xml:id="_5GK5BHf" coords="5,349.01,386.92,139.90,8.90;5,106.36,398.88,382.56,8.90;5,106.36,410.83,355.87,8.90">The number of small and mediumsized office buildings under each climate zone, summarized by researchers at Pacific Northwest National Laboratory and National Renewable Energy Laboratory <ref type="bibr" coords="5,367.83,410.83,16.60,8.90" target="#b18">[19]</ref> is listed in Table <ref type="table" coords="5,454.76,410.83,3.74,8.90" target="#tab_1">2</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4." xml:id="_9kQU5Qw" coords="5,106.36,434.81,155.25,8.71">Adaptive Thermal Comfort Model</head><p xml:id="_Nm3v4zh" coords="5,116.32,449.69,372.60,8.90;5,106.36,461.64,180.86,8.90;5,304.95,461.64,183.97,8.90;5,106.36,473.60,382.56,8.90;5,106.36,485.55,382.56,8.90;5,106.36,497.51,382.56,8.90;5,106.36,509.46,382.56,8.90;5,106.36,521.42,73.80,8.90"><s xml:id="_TZAYNmw" coords="5,116.32,449.69,372.60,8.90;5,106.36,461.64,202.41,8.90">The adaptive thermal comfort model was developed through a data-driven approach from the ASHRAE Global Thermal Comfort Database <ref type="bibr" coords="5,289.68,461.64,15.27,8.90" target="#b19">[20]</ref>.</s><s xml:id="_BDNhY5H" coords="5,311.84,461.64,177.08,8.90;5,106.36,473.60,324.79,8.90">The adaptive comfort model relates the zone operative temperature setpoint to the recent history of outdoor air temperatures.</s><s xml:id="_5sr4Ryu" coords="5,436.74,473.60,52.17,8.90;5,106.36,485.55,382.56,8.90">The adaptive comfort models only apply to cooling mode and generate a single setpoint value for each day.</s><s xml:id="_qrFNfUm" coords="5,106.36,497.51,382.56,8.90;5,106.36,509.46,382.56,8.90;5,106.36,521.42,73.80,8.90">During summertime in hot climates, the zone thermostat setting can be higher than the traditional thermostat setting based on the adaptive thermal comfort model, which results in energy savings of HVAC systems.</s></p><p xml:id="_DKMuyug" coords="5,116.32,533.37,372.60,8.90;5,106.36,545.33,382.56,8.90;5,106.36,557.28,353.53,8.90;5,473.70,557.28,15.22,8.90;5,106.36,569.24,66.66,8.90;5,185.13,569.24,303.79,8.90;5,106.36,581.19,382.56,8.90;5,106.36,593.15,382.56,8.90;5,106.36,605.10,145.38,8.90"><s xml:id="_VtqVqwr" coords="5,116.32,533.37,372.60,8.90;5,106.36,545.33,382.56,8.90;5,106.36,557.28,382.56,8.90;5,106.36,569.24,81.26,8.90">For the adaptive comfort model selected in this paper, the thermostat setpoint temperature schedule for space cooling will be overwritten with the calculated operative temperature based on the selected acceptability limits of the comfort model defined in ASHRAE 55-2020 <ref type="bibr" coords="5,463.12,557.28,10.58,8.90" target="#b5">[6]</ref>, as shown in Figure <ref type="figure" coords="5,176.58,569.24,4.98,8.90" target="#fig_1">2</ref> .</s><s xml:id="_UujpsPS" coords="5,193.93,569.24,294.99,8.90;5,106.36,581.19,281.92,8.90">The adaptive comfort model takes into account the variation of comfort preference along with the seasonality and has a wider comfort range.</s><s xml:id="_tCkw9jC" coords="5,393.70,581.19,95.22,8.90;5,106.36,593.15,382.56,8.90;5,106.36,605.10,145.38,8.90">The ASHRAE adaptive comfort model is only applicable when the running average outdoor air temperature for the past 30 days is between 10.0 and 33.5°C.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3." xml:id="_kSYT2na" coords="7,106.36,144.18,43.45,8.82">Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1." xml:id="_kKPq8Mp" coords="7,106.36,165.66,155.25,8.71">Adaptive Thermal Comfort Model</head><p xml:id="_J5b9BkT" coords="7,116.32,180.96,372.60,8.90;7,106.36,192.92,140.19,8.90"><s xml:id="_kQMYEVD" coords="7,116.32,180.96,372.60,8.90;7,106.36,192.92,140.19,8.90">In this study, we first compare the temperature range between the ASHRAE 55 standard and adaptive comfort model as follows.</s></p><p xml:id="_yFmXqxZ" coords="7,113.83,213.17,375.09,8.90;7,126.28,225.13,362.64,8.90;7,126.28,237.08,362.64,8.90;7,126.28,248.29,362.64,9.96;7,126.28,260.25,349.11,9.96;7,113.83,274.21,375.09,8.90;7,126.28,286.17,362.64,8.90;7,126.28,297.38,362.64,9.96;7,126.28,309.33,362.64,9.96;7,126.28,322.04,362.64,8.90;7,126.28,333.99,362.64,8.90;7,126.28,345.95,32.18,8.90;7,113.83,359.17,375.09,8.90;7,126.28,371.12,362.64,8.90;7,126.28,383.08,362.64,8.90;7,126.28,395.03,200.99,8.90"><s xml:id="_s4pMrQ9" coords="7,113.83,213.17,375.09,8.90;7,126.28,225.13,362.64,8.90;7,126.28,237.08,146.84,8.90">1. "Adaptive-ASH55-Central" (Adaptive-55) is the central line of the acceptability limits of the ASHRAE Standard 55-2020 adaptive comfort model that will be used to generate the zone operative temperature setpoint.</s><s xml:id="_3AKsRk4" coords="7,278.47,237.08,210.45,8.90;7,126.28,248.29,362.64,9.96;7,126.28,260.25,86.96,9.96">It is derived from the prevailing mean outdoor temperature and is calculated as shown below Central line = 0.31 prevailing mean outdoor temperature + 17.8°C</s><s xml:id="_gqutY7K" coords="7,215.74,261.00,259.66,8.90">The Adaptive-55 is strictly bounded between 20.9°C and 28.2°C.</s><s xml:id="_A2WPh3G" coords="7,113.83,274.21,375.09,8.90;7,126.28,286.17,298.01,8.90">2. "Adaptive-ASH55-90percent-Upper" (Adaptive-90) is the upper line of the 90% acceptability limits of the ASHRAE Standard 55-2020 adaptive comfort model.</s><s xml:id="_7McZfhd" coords="7,429.44,286.17,59.48,8.90;7,126.28,297.38,362.64,9.96;7,126.28,309.33,36.95,9.96">It is calculated as the equation shown below 90% upper line = 0.31 prevailing mean outdoor temperature + 20.3°C</s><s xml:id="_QqG8PHj" coords="7,165.78,310.08,260.14,8.90">The Adaptive-90 is strictly bounded between 23.4°C and 30.6°C.</s><s xml:id="_5jP8AYX" coords="7,428.48,310.08,60.44,8.90;7,126.28,322.04,362.64,8.90;7,126.28,333.99,66.90,8.90">This upper line is only used in this section to demonstrate additional cooling energy savings compared to the Adaptive-55.</s><s xml:id="_SGVxPyk" coords="7,197.28,333.99,291.64,8.90;7,126.28,345.95,32.18,8.90">In all other sections, only the Adaptive-55 is used to quantify the energy savings.</s><s xml:id="_qr5F3yF" coords="7,113.83,359.17,375.09,8.90;7,126.28,371.12,75.40,8.90">3. The adaptive comfort models only apply to cooling mode and generate a single setpoint value for each day.</s><s xml:id="_PTa5hQ6" coords="7,205.25,371.12,283.67,8.90;7,126.28,383.08,362.64,8.90;7,126.28,395.03,200.99,8.90">During summertime in hot climates, the zone thermostat setting can be higher than the traditional thermostat setting based on the adaptive thermal comfort model, which results in energy savings of HVAC systems.</s></p><p xml:id="_vaAQTSV" coords="7,116.32,415.23,372.60,8.90;7,106.36,427.18,64.91,8.90;7,177.70,427.18,311.22,8.90;7,106.36,439.14,382.56,8.90;7,106.36,451.09,382.56,8.90;7,106.36,463.05,369.76,8.90"><s xml:id="_arCA84d" coords="7,116.32,415.23,372.60,8.90;7,106.36,427.18,75.08,8.90">The cooling setpoints in climate zone 4A, based on both Adaptive-55 and Adaptive-90, are shown in Figure <ref type="figure" coords="7,173.96,427.18,3.74,8.90" target="#fig_2">3</ref>.</s><s xml:id="_st4gx2A" coords="7,185.12,427.18,303.80,8.90;7,106.36,439.14,156.33,8.90">The X-axis is the maximum daily outdoor air temperature, and the Y-axis is the mean cooling setpoint temperature.</s><s xml:id="_PcqdBgF" coords="7,266.60,439.14,222.32,8.90;7,106.36,451.09,68.31,8.90">The baseline static cooling setpoint at 22.2°C is plotted as a dashed line.</s><s xml:id="_9qh4Eqr" coords="7,180.78,451.09,308.14,8.90;7,106.36,463.05,369.76,8.90">In climate 4A, the adaptive cooling setpoint based on Adaptive-55 is never above 25.8°C and the adaptive cooling setpoint based on Adaptive-90 is never above 28.3°C.</s></p><p xml:id="_34JYTsm" coords="7,116.32,475.06,372.60,8.90;7,110.09,487.02,378.83,8.90;7,106.36,498.98,382.56,8.90;7,106.36,510.93,382.56,8.90;7,106.36,522.89,82.84,8.90"><s xml:id="_Pn63Xk5" coords="7,116.32,475.06,372.60,8.90;7,106.36,487.02,7.47,8.90">The daily cooling setpoints in climate zone 4A based on Adaptive-55 are shown in Figure <ref type="figure" coords="7,106.36,487.02,3.74,8.90">4</ref>.</s><s xml:id="_Mr6gc67" coords="7,117.63,487.02,371.29,8.90;7,106.36,498.98,382.56,8.90;7,106.36,510.93,53.95,8.90">The cooling setpoint changes in the same direction of prevailing outdoor temperature, which starts to rise from late May, peaks in August, and falls back to the baseline setback temperature in November.</s><s xml:id="_gjJVUmA" coords="7,163.43,510.93,325.49,8.90;7,106.36,522.89,82.84,8.90">On weekends and holidays, the system cooling setpoint is the same as the setback temperature at 29°C.</s></p><p xml:id="_FX7WwXH" coords="7,116.32,534.90,372.60,8.90;7,106.36,546.86,112.55,8.90;7,224.89,546.86,264.03,8.90;7,106.36,558.81,382.56,8.90;7,106.36,570.77,382.56,8.90;7,106.36,582.72,382.56,8.90;7,106.36,594.68,93.59,8.90"><s xml:id="_SpZEvRV" coords="7,116.32,534.90,372.60,8.90;7,106.36,546.86,32.18,8.90">Raising cooling setpoints by a mere few degrees from the baseline leads to significant energy savings.</s><s xml:id="_hvB8EYh" coords="7,141.54,546.86,347.38,8.90;7,106.36,558.81,382.56,8.90;7,106.36,570.77,382.56,8.90;7,106.36,582.72,95.79,8.90">As shown in Figure <ref type="figure" coords="7,221.15,546.86,3.74,8.90">5</ref>, the cooling setpoints based on Adaptive-55, ranging from 22.2°C to 25.8°C, achieve approximately 20% of total cooling energy savings; the cooling setpoints based on Adaptive-90, ranging from 22.2°C to 28.3°C, achieve an even higher 38% of total cooling energy savings.</s><s xml:id="_YWDWfEk" coords="7,207.94,582.72,280.98,8.90;7,106.36,594.68,93.59,8.90">This cooling energy savings include both compressor energy savings and fan energy savings.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2." xml:id="_cAWGXCm" coords="7,106.36,619.09,213.67,8.71">Occupancy-based HVAC and Plug Load Control</head><p xml:id="_6PUVpDd" coords="7,116.32,634.40,372.61,8.90;7,106.36,646.35,382.56,8.90;7,106.36,658.31,56.35,8.90;7,180.62,658.31,308.29,8.90;7,106.36,670.26,382.56,8.90;7,106.36,682.22,89.83,8.90;7,214.96,682.22,273.96,8.90;7,106.36,694.17,382.56,8.90;9,106.36,322.80,382.57,7.12;9,106.36,332.26,219.43,7.12"><s xml:id="_Rfy2UtC" coords="7,116.32,634.40,372.61,8.90;7,106.36,646.35,382.56,8.90;7,106.36,658.31,78.09,8.90">The occupancy input is based on the realistic schedule for office space developed at Lawrence Berkeley National Laboratory (LBNL) by incorporating real data collection and stochastic modeling methods <ref type="bibr" coords="7,165.35,658.31,15.27,8.90" target="#b20">[21]</ref>.</s><s xml:id="_bXAke22" coords="7,188.04,658.31,300.88,8.90;7,106.36,670.26,382.56,8.90;7,106.36,682.22,112.42,8.90">It is also the result of the International Energy Agency Energy in Buildings and Communities Programme (IEA-EBC) Annex 66 -Definition and Simulation of Occupant Behavior in Buildings <ref type="bibr" coords="7,199.68,682.22,15.27,8.90" target="#b21">[22]</ref>.</s><s xml:id="_2Y87eBh" coords="7,224.89,682.22,264.03,8.90;7,106.36,694.17,382.56,8.90;9,106.36,322.80,382.57,7.12;9,106.36,332.26,219.43,7.12">The realistic occupancy level at 10-minute intervals is generated by LBNL's occupant behavior web application [23] considering the diversity and stochastics of  Figure 5: Comparison of HVAC Savings (%) between ASHRAE55-CentralLine and 90PercentUpperLine under different daily weather conditions (left) and total savings in climate 4A (right)</s></p><p xml:id="_kKr8Hzb" coords="9,106.36,364.57,236.98,8.90;9,349.45,364.57,139.47,8.90;9,106.36,376.53,382.56,8.90;9,106.36,388.48,382.57,8.90;9,106.36,400.44,65.76,8.90;9,178.97,400.44,309.95,8.90;9,106.36,412.39,288.58,8.90;9,116.32,646.35,372.60,8.90;9,106.36,658.31,382.56,8.90;9,106.36,670.26,382.57,8.90;9,106.36,682.22,382.56,8.90;9,106.36,694.17,382.56,8.90;10,106.36,144.23,382.56,8.90;10,106.36,156.19,218.26,8.90;10,324.61,154.59,3.49,6.23;10,331.07,156.19,65.31,8.90;10,396.38,154.59,3.49,6.23;10,400.37,156.19,88.56,8.90;10,106.36,168.14,93.08,8.90;10,199.44,166.54,3.49,6.23;10,203.42,168.14,2.49,8.90"><s xml:id="_ZkNs7Kf" coords="9,106.36,364.57,76.56,8.90">occupant activities.</s><s xml:id="_Gx74nUH" coords="9,185.97,364.57,167.22,8.90">The occupancy level is shown in Figure <ref type="figure" coords="9,345.72,364.57,3.74,8.90" target="#fig_4">6</ref>.</s><s xml:id="_hw4Xf6p" coords="9,356.24,364.57,132.68,8.90;9,106.36,376.53,382.56,8.90;9,106.36,388.48,366.08,8.90">Unlike the traditional assumption of static occupancy e.g. 8 am -5 pm, the stochastic occupancy takes into account the variations in real offices setting, providing a high-resolution occupancy level at sub-hourly intervals.</s><s xml:id="_h6nQXtK" coords="9,477.85,388.48,11.07,8.90;9,106.36,400.44,382.56,8.90;9,106.36,412.39,288.58,8.90">As shown in Figure <ref type="figure" coords="9,175.24,400.44,3.74,8.90" target="#fig_4">6</ref>, the occupancy level in the early morning, around noon, and in the evening has larger variations due to day-to-day and person-to-person differences.</s><s xml:id="_qJrSc26" coords="9,116.32,646.35,372.60,8.90;9,106.36,658.31,294.43,8.90">The accurate occupancy sensing enabled by IoT sensors not only saves HVAC system energy consumption but also helps to save electricity on lighting and plug load.</s><s xml:id="_jGS5f6q" coords="9,406.14,658.31,82.78,8.90;9,106.36,670.26,382.57,8.90;9,106.36,682.22,360.82,8.90">The smart plug control automatically turns off non-critical equipment and appliances (such as monitors, televisions, coffee makers, water heaters, etc.) if occupancy is not detected for an extended period.</s><s xml:id="_eYHurQ4" coords="9,473.43,682.22,15.49,8.90;9,106.36,694.17,382.56,8.90;10,106.36,144.23,364.03,8.90">The occupancy-centric control alone achieves 7.7% of total electricity consumption savings in small offices located in Climate 4A, by reducing 6.7% HVAC consumption and 28.2% plug loads.</s><s xml:id="_kFbau6e" coords="10,473.43,144.23,15.49,8.90;10,106.36,156.19,218.26,8.90;10,324.61,154.59,3.49,6.23;10,331.07,156.19,65.31,8.90;10,396.38,154.59,3.49,6.23;10,400.37,156.19,88.56,8.90;10,106.36,168.14,93.08,8.90;10,199.44,166.54,3.49,6.23;10,203.42,168.14,2.49,8.90">The electricity intensity is thus reduced from 132.4 kWh/m 2 to 122.2 kWh/m 2 , achieving substantial savings of 10.2 kWh/m 2 .</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3." xml:id="_s8WWaYV" coords="10,106.36,461.60,183.60,8.71">Passive Cooling Strategies (Night Purge)</head><p xml:id="_Z2V3t2b" coords="10,116.32,478.23,372.60,8.90;10,106.36,490.18,382.56,8.90;10,106.36,502.14,382.56,8.90;10,106.36,514.09,317.12,8.90"><s xml:id="_gjYHfJu" coords="10,116.32,478.23,302.28,8.90">We implement a strategy for precooling a building at night using outdoor air.</s><s xml:id="_cSW6f4f" coords="10,421.58,478.23,67.34,8.90;10,106.36,490.18,382.56,8.90;10,106.36,502.14,155.49,8.90">This strategy can consist of running the system fans with the outdoor air dampers open when outdoor conditions are favorable for a precooling strategy.</s><s xml:id="_EfAMrfy" coords="10,266.06,502.14,222.86,8.90;10,106.36,514.09,317.12,8.90">The zone terminal unit air dampers may also be held at their fully open position to minimize fan energy consumption while precooling.</s></p><p xml:id="_8nyTms3" coords="10,116.32,526.30,26.01,8.90;10,153.17,526.30,335.75,8.90;10,106.36,538.25,382.57,8.90;10,106.36,550.21,382.56,8.90;10,106.36,562.16,382.56,8.90;10,106.36,574.12,320.98,8.90"><s xml:id="_E37bJD4" coords="10,116.32,526.30,372.61,8.90;10,106.36,538.25,204.74,8.90">Figure <ref type="figure" coords="10,145.26,526.30,4.98,8.90" target="#fig_6">8</ref> shows the daily energy saving from the HVAC by different daily mean OAT ranges for a small office building in the climate zone 4A.</s><s xml:id="_j8YgkW3" coords="10,314.35,538.25,174.57,8.90;10,106.36,550.21,341.19,8.90">It can be seen that the night purge strategy has played a role in reducing HVAC energy consumption when the climate is suitable.</s><s xml:id="_9sBg7pr" coords="10,450.59,550.21,38.33,8.90;10,106.36,562.16,382.56,8.90;10,106.36,574.12,320.98,8.90">When the daily mean OAT exceeds about 25 ºC, night ventilation may not be able to effectively reduce the HVAC operating time during the day, thus wasting the energy of the fan at night.</s></p><p xml:id="_PNPPAMJ" coords="10,116.32,586.32,372.60,8.90;10,106.36,598.28,238.46,8.90;10,351.82,598.28,137.10,8.90;10,106.36,610.23,118.25,8.90;10,224.61,608.63,3.49,6.23;10,228.59,610.23,113.53,8.90;10,342.12,608.63,3.49,6.23;10,348.80,610.23,140.11,8.90;10,106.36,622.26,30.19,8.71;10,136.54,620.59,3.49,6.23;10,143.02,622.19,90.45,8.90"><s xml:id="_csK4qT4" coords="10,116.32,586.32,372.60,8.90;10,106.36,598.28,249.20,8.90">During the cooling season, the night purge alone saves 3.0% of HVAC energy consumption in small offices located in Climate 4A, as shown in Figure <ref type="figure" coords="10,348.09,598.28,3.74,8.90" target="#fig_6">8</ref>.</s><s xml:id="_drrVP7N" coords="10,360.96,598.28,127.96,8.90;10,106.36,610.23,118.25,8.90;10,224.61,608.63,3.49,6.23;10,228.59,610.23,113.53,8.90;10,342.12,608.63,3.49,6.23;10,348.80,610.23,140.11,8.90;10,106.36,622.26,30.19,8.71;10,136.54,620.59,3.49,6.23;10,143.02,622.19,90.45,8.90">The energy intensity is reduced by approximately 0.7 kWh/m 2 , which includes 0.7 kWh/m 2 of cooling energy savings and 0.05 kWh/m 2 of fan energy increase.</s></p><p xml:id="_2duBQcc" coords="10,116.32,634.40,372.60,8.90;10,106.36,646.35,221.69,8.90;10,346.40,646.35,142.52,8.90;10,106.36,658.31,382.56,8.90;10,106.36,670.26,382.56,8.90;10,106.36,682.22,382.56,8.90;10,106.36,694.17,361.01,8.90;10,485.11,694.17,3.82,8.90;11,106.36,363.62,382.56,8.90;11,106.36,375.58,382.56,8.90;11,106.36,387.53,250.82,8.90"><s xml:id="_KfWdxtY" coords="10,116.32,634.40,372.60,8.90;10,106.36,646.35,243.86,8.90">Night purge is most effective in the buildings with high thermal mass and climates that diurnal temperature swing is significant or summer is mild <ref type="bibr" coords="10,331.13,646.35,15.27,8.90" target="#b22">[24]</ref>.</s><s xml:id="_PZUZRdx" coords="10,355.08,646.35,133.84,8.90;10,106.36,658.31,382.56,8.90;10,106.36,670.26,382.56,8.90;10,106.36,682.22,71.40,8.90">In the cases when buildings have exposed concrete slabs, the night purge will cool down the slab temperature, which will help reduce the daytime HVAC energy consumption thanks to lowered radiant temperature and operative temperature.</s><s xml:id="_n95JbKw" coords="10,180.80,682.22,308.12,8.90;10,106.36,694.17,382.57,8.90">When night purge is applied along with phase changing material and adaptive thermal comfort setpoint, it will create a synergistic effect and unlock more energy savings <ref type="bibr" coords="10,469.83,694.17,15.27,8.90" target="#b15">[16]</ref>.</s><s xml:id="_SBMtHBQ" coords="11,106.36,363.62,382.56,8.90;11,106.36,375.58,382.56,8.90;11,106.36,387.53,250.82,8.90">The cooling demand on the HVAC system is greatly reduced as the phase-changing material that is cooled by the cool night air, slowly absorbs heat throughout the day and keeps indoor air temperature close to the adaptive thermal comfort temperature.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4." xml:id="_Ffd8k4G" coords="11,106.36,411.94,101.74,8.71">Combined Measures</head><p xml:id="_qj5tSaH" coords="11,116.32,427.25,372.60,8.90;11,106.36,439.20,120.20,8.90;11,233.93,439.20,255.00,8.90;11,106.36,451.16,382.56,8.90;11,106.36,463.11,382.56,8.90;11,106.36,475.07,382.57,8.90;11,106.36,487.02,382.56,8.90;11,106.36,498.98,382.56,8.90;11,106.36,510.93,382.57,8.90;11,106.36,522.89,382.56,8.90;11,106.36,534.84,382.56,8.90;11,106.36,546.80,220.73,8.90"><s xml:id="_43Rk2Yw" coords="11,116.32,427.25,372.60,8.90;11,106.36,439.20,32.18,8.90">Combining the three optimization strategies above, buildings can achieve the highest energy savings.</s><s xml:id="_FjRmtZT" coords="11,145.05,439.20,343.87,8.90;11,106.36,451.16,382.56,8.90;11,106.36,463.11,138.16,8.90">As shown in Figure <ref type="figure" coords="11,230.19,439.20,3.74,8.90" target="#fig_7">9</ref>, the standard small office in climate zone 4A reduces annual electricity consumption by 12.4%, implementing adaptive setpoint, occupancy-centric control, and night purge natural ventilation.</s><s xml:id="_KYHVbzh" coords="11,247.46,463.11,241.46,8.90;11,106.36,475.07,382.57,8.90;11,106.36,487.02,258.75,8.90">Among these individual measures, occupancy-centric control is the most effective strategy and leads to a 7.7% reduction in total electricity consumption, as the savings come from the HVAC system, plug load, and lighting.</s><s xml:id="_tqF9jj6" coords="11,368.09,487.02,120.83,8.90;11,106.36,498.98,382.56,8.90;11,106.36,510.93,85.67,8.90">The adaptive setpoint achieves a 4.6% reduction in annual electricity savings, all of which stems from reduced cooling energy of the HVAC system.</s><s xml:id="_ufZMkHD" coords="11,196.19,510.93,292.73,8.90;11,106.36,522.89,382.56,8.90">The night purge ventilation is the least effective measure and saves 0.4% of total electricity consumption, which is also solely from reduced cooling energy consumption.</s><s xml:id="_VHHGTWu" coords="11,106.36,534.84,382.56,8.90;11,106.36,546.80,220.73,8.90">The interactive effect of these three measures is insignificant as the sum of individual savings (12.7%) is very close to the combined savings (12.4%).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.5." xml:id="_HB89s5H" coords="11,106.36,571.21,180.09,8.71">Comparison between Different Climates</head><p xml:id="_UbnUYdM" coords="11,116.32,586.51,26.01,8.90;11,157.76,586.51,331.16,8.90;11,106.36,598.47,382.56,8.90;11,106.36,610.42,382.56,8.90;11,106.36,622.38,300.97,8.90;11,434.23,622.38,54.68,8.90;11,106.36,634.33,382.56,8.90;11,106.36,646.29,382.56,8.90;11,106.36,658.24,382.57,8.90;11,106.36,670.20,312.33,8.90"><s xml:id="_3ZDMXJq" coords="11,116.32,586.51,372.60,8.90;11,106.36,598.47,35.70,8.90">Figure <ref type="figure" coords="11,145.07,586.51,9.96,8.90" target="#fig_8">10</ref> shows the annual electricity savings comparison of EE measures between different climates.</s><s xml:id="_xNAdNTs" coords="11,149.05,598.47,339.86,8.90;11,106.36,610.42,278.28,8.90">It can be clearly seen that the effect of the dynamic occupancy behavior model is consistent in all climate conditions, saving about 7.4-9.5% per year.</s><s xml:id="_KqXxBUw" coords="11,390.54,610.42,98.38,8.90;11,106.36,622.38,331.27,8.90">In contrast, the adaptive comfort model is primarily influenced by the climate, as shown in Figure <ref type="figure" coords="11,410.72,622.38,23.51,8.90" target="#fig_8">10 (a)</ref>.</s><s xml:id="_GPVBvXa" coords="11,443.41,622.38,45.51,8.90;11,106.36,634.33,382.56,8.90;11,106.36,646.29,215.44,8.90">In terms of reducing cooling power consumption, the effect of the adaptive comfort model decreases from 12% to 1.5% as the climate changes from hot to cold.</s><s xml:id="_Pk3Af3c" coords="11,325.59,646.29,163.33,8.90;11,106.36,658.24,234.72,8.90">On the other hand, the humidity also has a large impact on the effect of the adaptive comfort model.</s><s xml:id="_3AeVUj8" coords="11,344.66,658.24,144.27,8.90;11,106.36,670.20,312.33,8.90">Under the same climatic conditions, a drier climate can achieve much higher savings compared to a humid climate.</s></p><p xml:id="_7m7m9Pa" coords="11,116.32,682.22,372.60,8.90;11,106.36,694.17,221.13,8.90;11,344.36,694.17,144.56,8.90;12,106.36,414.87,382.56,8.90;12,106.36,426.83,382.56,8.90;12,106.36,438.78,48.98,8.90"><s xml:id="_z5x2KN6" coords="11,116.32,682.22,372.60,8.90;11,106.36,694.17,134.19,8.90">Among the three measures, the effect of the "night purge" strategy is fairly limited, saving only about 0.1% to 1% per year.</s><s xml:id="_Y5Q6wrs" coords="11,246.52,694.17,242.40,8.90;12,106.36,414.87,313.81,8.90">As shown in Figure <ref type="figure" coords="11,330.94,694.17,9.96,8.90" target="#fig_8">10</ref> (c), the most effective climate zone for night purge is 3C (ocean), which is warm during the day and cool at night.</s><s xml:id="_SqqeEUy" coords="12,423.91,414.87,65.01,8.90;12,106.36,426.83,382.56,8.90;12,106.36,438.78,48.98,8.90">Previous studies have shown that in dry climates with warm days and cool nights, this measure is usually worth considering.</s></p><p xml:id="_QS7fbng" coords="12,116.32,450.74,372.60,8.90;12,106.36,462.69,382.56,8.90;12,106.36,474.65,382.57,8.90;12,106.36,486.60,317.26,8.90;12,434.49,486.60,54.43,8.90;12,106.36,498.56,382.56,8.90;12,106.36,510.51,382.56,8.90;12,106.36,522.47,382.56,8.90;12,106.36,534.42,382.56,8.90;12,106.36,546.38,131.17,8.90"><s xml:id="_GmheMCc" coords="12,116.32,450.74,372.60,8.90;12,106.36,462.69,382.56,8.90;12,106.36,474.65,171.73,8.90">From hot to cold climates, the annual electricity savings percentage by adopting adaptive thermal comfort decreases as the cooling energy is responsible for smaller proportions of total electricity consumption in cooler climates.</s><s xml:id="_CPXffYb" coords="12,282.75,474.65,206.17,8.90;12,106.36,486.60,235.59,8.90">Climates that belong to different humidity subcategories also show different levels of cooling energy savings.</s><s xml:id="_2xV2D92" coords="12,345.29,486.60,143.63,8.90;12,106.36,498.56,270.97,8.90">As shown in Figure <ref type="figure" coords="12,426.19,486.60,8.30,8.90" target="#fig_9">11</ref>, dry climate, or subcategory B, benefits most from the adaptive cooling setpoints.</s><s xml:id="_g2vV4GV" coords="12,380.44,498.56,108.48,8.90;12,106.36,510.51,382.56,8.90;12,106.36,522.47,142.01,8.90">Humid climate, or subcategory A, sees a lower saving percentage as the HVAC system consumes energy to meet the latent cooling load for moisture removal.</s><s xml:id="_pFejWKr" coords="12,254.28,522.47,234.64,8.90;12,106.36,534.42,382.56,8.90;12,106.36,546.38,131.17,8.90">Marine climate, or subcategory C, shows the least saving percentage because of its mild summer that results in a smaller percentage of cooling energy of the total electricity consumption.</s></p><p xml:id="_Ue7Jz9r" coords="12,116.32,558.33,26.01,8.90;12,158.79,558.33,330.13,8.90;12,106.36,570.29,382.56,8.90;12,106.36,582.24,382.56,8.90;12,106.36,594.20,325.77,8.90"><s xml:id="_MN22HyU" coords="12,116.32,558.33,372.60,8.90;12,106.36,570.29,180.00,8.90">Figure <ref type="figure" coords="12,145.58,558.33,9.96,8.90" target="#fig_1">12</ref> presents the annual electricity savings achieved by combining three EE measures across all climate zones in the United States.</s><s xml:id="_CwrhUWY" coords="12,290.45,570.29,198.47,8.90;12,106.36,582.24,84.79,8.90">In the hot and dry climate zone "2B", the highest saving is about 20%.</s><s xml:id="_TqbVPMQ" coords="12,196.21,582.24,292.71,8.90;12,106.36,594.20,325.77,8.90">In contrast, the lowest saving observed in the cold climate zone "6A" is only 8.9%, and most of the electricity savings come from smart plug load control.</s></p><p xml:id="_ZBk9HDM" coords="12,116.32,606.15,21.89,8.90;12,148.51,606.15,340.41,8.90;12,106.36,618.11,382.57,8.90;12,106.36,630.06,167.68,8.90;12,274.03,628.46,3.49,6.23;12,280.68,630.06,60.69,8.90;12,341.37,628.46,3.49,6.23;12,348.01,630.06,140.91,8.90;12,106.36,642.02,196.81,8.90;12,303.17,640.42,3.49,6.23;12,310.23,642.02,61.54,8.90;12,371.77,640.42,3.49,6.23;12,375.76,642.02,113.17,8.90;12,106.36,653.97,382.56,8.90;12,106.36,665.93,183.17,8.90"><s xml:id="_w8MHpHn" coords="12,116.32,606.15,372.60,8.90;12,106.36,618.11,230.52,8.90">Table <ref type="table" coords="12,140.87,606.15,4.98,8.90" target="#tab_2">3</ref> summarizes the annual electricity savings at the entire building level and HVAC enduse level in different climate regions in the United States.</s><s xml:id="_4MZMRcp" coords="12,340.84,618.11,148.08,8.90;12,106.36,630.06,167.68,8.90;12,274.03,628.46,3.49,6.23;12,280.68,630.06,60.69,8.90;12,341.37,628.46,3.49,6.23;12,348.01,630.06,34.47,8.90">The deployment of combined energy efficiency measures can save 12.2 kWh/m 2 to 30.4 kWh/m 2 per year.</s><s xml:id="_wPQsPjk" coords="12,386.07,630.06,102.85,8.90;12,106.36,642.02,196.81,8.90;12,303.17,640.42,3.49,6.23;12,310.23,642.02,61.54,8.90;12,371.77,640.42,3.49,6.23;12,375.76,642.02,2.49,8.90">Most of the savings come from HVAC end-use, which is about 6.5 kWh/m 2 to 22.6 kWh/m 2 .</s><s xml:id="_uPZdDHw" coords="12,383.11,642.02,105.81,8.90;12,106.36,653.97,382.56,8.90;12,106.36,665.93,183.17,8.90">Compared to the baseline, combined energy efficiency measures can achieve electricity savings of 9% to 20% for the entire building, and 23% to 39% for HVAC end-use.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4." xml:id="_uWwVwG6" coords="15,106.36,144.18,60.06,8.82">Conclusion</head><p xml:id="_ME7tDBa" coords="15,116.32,165.15,372.60,8.90;15,106.36,177.11,382.56,8.90;15,106.36,189.06,382.57,8.90;15,106.36,201.02,382.56,8.90;15,106.36,212.98,382.57,8.90;15,106.36,224.93,55.32,8.90"><s xml:id="_ngxzqd2" coords="15,116.32,165.15,372.60,8.90;15,106.36,177.11,382.56,8.90">The U.S. commercial buildings have substantial energy-saving potential if the building control could address varying occupancy, occupant's thermal preference, and utilizing free cooling.</s><s xml:id="_kr8VUSY" coords="15,106.36,189.06,382.57,8.90;15,106.36,201.02,382.56,8.90;15,106.36,212.98,28.77,8.90">This study quantifies the energy savings in small office buildings across all major U.S. climate zones, based on the commercial prototype building models developed by the U.S. Department of energy.</s><s xml:id="_tWyewMY" coords="15,138.83,212.98,350.09,8.90;15,106.36,224.93,55.32,8.90">The energy-saving effectiveness of each individual measure and all measures combined are presented.</s></p><p xml:id="_vRcgmnb" coords="15,116.32,236.89,372.60,8.90;15,106.36,248.84,382.56,8.90;15,106.36,260.80,382.57,8.90;15,106.36,272.75,382.56,8.90;15,106.36,284.71,382.56,8.90;15,106.36,296.66,30.56,8.90"><s xml:id="_A7WJRP2" coords="15,116.32,236.89,372.60,8.90;15,106.36,248.84,382.56,8.90;15,106.36,260.80,77.51,8.90">The adaptive cooling setpoints are applied to avoid over-cooling in commercial buildings, taking into consideration people's adaptive behavior and clothing adjustment against general weather conditions.</s><s xml:id="_xWZVd3P" coords="15,186.77,260.80,302.15,8.90;15,106.36,272.75,382.56,8.90;15,106.36,284.71,382.56,8.90;15,106.36,296.66,30.56,8.90">This measure is extremely effective in reducing cooling energy consumption, especially in climate 2B, in which the adaptive cooling setpoint alone saves 12% electricity consumption of the small office building, compared to the baseline static cooling setpoint at 22.2°C.</s></p><p xml:id="_hYTdTM4" coords="15,116.32,308.62,372.60,8.90;15,106.36,320.57,382.56,8.90;15,106.36,332.53,382.56,8.90;15,106.36,344.48,382.56,8.90;15,106.36,356.44,25.18,8.90"><s xml:id="_49Hz2hu" coords="15,116.32,308.62,372.60,8.90;15,106.36,320.57,240.52,8.90">The occupancy-centric control, enabled by IoT sensors that detect occupancy and motion, is applied to both the HVAC system and smart plugs control.</s><s xml:id="_ucJMqjB" coords="15,352.68,320.57,136.24,8.90;15,106.36,332.53,382.56,8.90">The corresponding savings of the HVAC system energy consumption is around 6.7% and savings of plug load is about 28.2%.</s><s xml:id="_uefgum6" coords="15,106.36,344.48,382.56,8.90;15,106.36,356.44,25.18,8.90">This measure alone saves approximately 7.7% of total electricity consumption across all climate zones.</s></p><p xml:id="_GJZ7Vt3" coords="15,116.32,368.39,372.60,8.90;15,106.36,380.35,382.56,8.90;15,106.36,392.30,382.56,8.90;15,106.36,404.26,382.56,8.90;15,106.36,416.21,322.24,8.90"><s xml:id="_uqerEu5" coords="15,116.32,368.39,326.81,8.90">The night purge ventilation utilizes free cooling and improves indoor air quality.</s><s xml:id="_nU2CgkV" coords="15,448.15,368.39,40.77,8.90;15,106.36,380.35,382.56,8.90;15,106.36,392.30,85.93,8.90">This measure alone reduces up to 3.0% of the cooling energy consumption of the HVAC system for small offices in climate 4A.</s><s xml:id="_XVe6jaP" coords="15,195.02,392.30,293.89,8.90;15,106.36,404.26,382.56,8.90">Specifically, it is most effective in marine climates such as 3C (San Francisco) and 4C (Seattle), and can achieve approximately 5.6% of cooling electricity consumption.</s><s xml:id="_ps32sPq" coords="15,106.36,416.21,322.24,8.90">It is equivalent to about 0.9% of the total electricity consumption of the building.</s></p><p xml:id="_8zjBZzK" coords="15,116.32,428.17,372.60,8.90;15,106.36,440.12,225.85,8.90;15,332.21,438.52,3.49,6.23;15,339.12,440.12,61.23,8.90;15,400.34,438.52,3.49,6.23;15,407.25,440.12,81.66,8.90;15,106.36,452.08,382.56,8.90;15,106.36,464.03,382.56,8.90;15,106.36,475.99,261.64,8.90"><s xml:id="_nJy9Ctj" coords="15,116.32,428.17,372.60,8.90;15,106.36,440.12,225.85,8.90;15,332.21,438.52,3.49,6.23;15,339.12,440.12,61.23,8.90;15,400.34,438.52,3.49,6.23;15,407.25,440.12,81.66,8.90;15,106.36,452.08,104.29,8.90">Significant total electricity savings ranging from 8.9% to 20.4% can be achieved by combining all three measures, which are equivalent to 12.2 kWh/m 2 to 30.4 kWh/m 2 annual reductions in electricity usage intensity.</s><s xml:id="_dEhvfY6" coords="15,214.66,452.08,274.26,8.90;15,106.36,464.03,64.01,8.90">The electricity-saving percentages show a decreasing trend from hot to cold climate.</s><s xml:id="_7Unu9Py" coords="15,176.90,464.03,312.02,8.90;15,106.36,475.99,261.64,8.90">For climate zones with similar numbers of cooling degree days and heating degree days, the dry subzones achieve the highest energy savings.</s></p><p xml:id="_cgzpD87" coords="15,116.32,487.94,372.60,8.90;15,106.36,499.90,382.56,8.90;15,106.36,511.85,382.56,8.90;15,106.36,523.81,382.57,8.90;15,106.36,535.77,382.56,8.90;15,106.36,547.72,382.56,8.90;15,106.36,559.68,358.70,8.90"><s xml:id="_3pmKDpC" coords="15,116.32,487.94,372.60,8.90;15,106.36,499.90,382.56,8.90;15,106.36,511.85,101.75,8.90">Enabled by building IoT sensors, smart hardware, and automated building subsystems, more energy-saving opportunities can be unlocked by smart control to improve the energy efficiency of commercial buildings.</s><s xml:id="_3u2udwx" coords="15,214.27,511.85,274.65,8.90;15,106.36,523.81,382.57,8.90;15,106.36,535.77,56.82,8.90">This study quantifies the electricity savings from adaptive setpoint, occupant-centric control, and night purge ventilation in small office buildings across all U.S. climate zones.</s><s xml:id="_MMEvKAg" coords="15,166.20,535.77,322.72,8.90;15,106.36,547.72,382.56,8.90;15,106.36,559.68,358.70,8.90">The next step is to carry out experiments of such "plug and play" IoT sensing and control devices (for example, smart thermostats with occupancy sensors, smart plugs, window actuators) in small offices and quantify the energy-saving and demand reduction potential.</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="4,231.35,444.37,132.58,7.12;4,106.36,276.26,382.56,154.07"><head>Figure 1 :</head><label>1</label><figDesc><div><p xml:id="_c6tgrwz"><s xml:id="_QKtq4Yu" coords="4,231.35,444.37,132.58,7.12">Figure 1: Proposed Modeling Framework</s></p></div></figDesc><graphic coords="4,106.36,276.26,382.56,154.07" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="6,219.63,678.57,156.01,7.12;6,106.36,431.30,382.59,233.22"><head>Figure 2 :</head><label>2</label><figDesc><div><p xml:id="_UHAefmn"><s xml:id="_czJ3Nv5" coords="6,219.63,678.57,156.01,7.12">Figure 2: ASHRAE 55 Adaptive Comfort Model</s></p></div></figDesc><graphic coords="6,106.36,431.30,382.59,233.22" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2" coords="8,129.42,427.97,336.44,7.12;8,106.36,181.63,382.59,232.29"><head>Figure 3 :</head><label>3</label><figDesc><div><p xml:id="_M4Pmvmp"><s xml:id="_fbTydyD" coords="8,129.42,427.97,336.44,7.12">Figure 3: Comparison of Thermostat Cooling Setpoints between the Static and Adaptive Comfort Models</s></p></div></figDesc><graphic coords="8,106.36,181.63,382.59,232.29" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3" coords="8,240.50,653.14,114.28,7.12;8,106.36,524.33,382.56,114.77"><head>Figure 4 :Figure 5 :</head><label>45</label><figDesc><div><p xml:id="_t5fCGaM"><s xml:id="_hAYYqts" coords="8,240.50,653.14,114.28,7.12">Figure 4: Annual Cooling Setpoints</s></p></div></figDesc><graphic coords="8,106.36,524.33,382.56,114.77" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4" coords="9,154.72,622.18,285.83,7.12;9,106.36,435.27,382.57,172.86"><head>Figure 6 :</head><label>6</label><figDesc><div><p xml:id="_Mn6SGEc"><s xml:id="_wQa86gJ" coords="9,154.72,622.18,285.83,7.12">Figure 6: Dynamic Occupant Behaviours (e.g., Open Office) and Plug Load on Weekdays</s></p></div></figDesc><graphic coords="9,106.36,435.27,382.57,172.86" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5" coords="10,106.36,417.60,382.56,7.12;10,106.36,427.07,90.28,7.12;10,106.36,189.49,382.58,214.07"><head>Figure 7 :</head><label>7</label><figDesc><div><p xml:id="_AjUr8zF"><s xml:id="_QrD6y5X" coords="10,106.36,417.60,382.56,7.12;10,106.36,427.07,90.28,7.12">Figure 7: Comparison of Electricity Consumption Intensity between Static and Dynamic Occupancy-based Control for Small Offices in Climate 4A</s></p></div></figDesc><graphic coords="10,106.36,189.49,382.58,214.07" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6" coords="11,106.36,323.76,382.56,7.12;11,106.36,333.22,141.92,7.12;11,106.36,141.00,382.57,168.72"><head>Figure 8 :</head><label>8</label><figDesc><div><p xml:id="_yMdew2F"><s xml:id="_sWqhdkS" coords="11,106.36,323.76,382.56,7.12;11,106.36,333.22,141.92,7.12">Figure 8: Daily Energy Saving from HVAC by Different Daily Mean OAT Ranges (left) and Cooling Electricity Consumption intensity in Cooling Season (right)</s></p></div></figDesc><graphic coords="11,106.36,141.00,382.57,168.72" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7" coords="12,135.22,384.59,324.83,7.12;12,106.36,140.99,382.59,229.55"><head>Figure 9 :</head><label>9</label><figDesc><div><p xml:id="_kXAZ9BM"><s xml:id="_u78GCUw" coords="12,135.22,384.59,324.83,7.12">Figure 9: Potential Annual Electricity Savings for Individual and Combined Measures in Small Office</s></p></div></figDesc><graphic coords="12,106.36,140.99,382.59,229.55" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8" coords="13,165.56,405.63,264.15,7.12;13,106.36,149.46,382.56,242.12"><head>Figure 10 :</head><label>10</label><figDesc><div><p xml:id="_mGCURYf"><s xml:id="_f6QmVhm" coords="13,165.56,405.63,264.15,7.12">Figure 10: Comparison of Energy Efficiency Measures between Different Climates</s></p></div></figDesc><graphic coords="13,106.36,149.46,382.56,242.12" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9" coords="13,220.95,685.32,153.38,7.12;13,106.36,437.65,382.59,233.62"><head>Figure 11 :</head><label>11</label><figDesc><div><p xml:id="_AXCF9s5"><s xml:id="_Q4MrT4z" coords="13,220.95,685.32,153.38,7.12">Figure 11: Cooling Energy Savings by Climates</s></p></div></figDesc><graphic coords="13,106.36,437.65,382.59,233.62" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10" coords="14,112.48,354.87,370.32,7.12"><head>13 Figure 12 :</head><label>1312</label><figDesc><div><p xml:id="_gcTdEvP"><s xml:id="_JfQTSeg" coords="14,112.48,354.87,370.32,7.12">Figure 12: Potential Annual Electricity Savings for Combined Measures in Small Office among Difference Climates</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11" coords="14,106.36,176.85,382.59,163.97"><graphic coords="14,106.36,176.85,382.59,163.97" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" coords="5,112.73,151.02,361.24,188.01"><head>Table 1 :</head><label>1</label><figDesc><div><p xml:id="_m4M7Xzj"><s xml:id="_zUyDyz9" coords="5,247.33,151.02,128.80,7.12">Small Office Prototype Model Summary</s></p></div></figDesc><table coords="5,112.73,171.08,361.24,167.95"><row><cell>Building Type</cell><cell>Small Office</cell></row><row><cell>Compliance</cell><cell>ASHRAE Standards 90.1-2004 and</cell></row><row><cell></cell><cell>62.1-1999</cell></row><row><cell>Description</cell><cell>Single-story five-zone office building</cell></row><row><cell>Total Floor Area</cell><cell>511 m 2 (5,500 ft 2 )</cell></row><row><cell>HVAC -Cooling</cell><cell>Packaged Single Zone Air Conditioner</cell></row><row><cell></cell><cell>(PSZ-AC)</cell></row><row><cell>Economizer</cell><cell>No</cell></row><row><cell>Internal Gains -Lighting</cell><cell>1 W/ft 2</cell></row><row><cell>Internal Gains -Plug Loads</cell><cell>1 W/ft 2</cell></row><row><cell>Internal Gains -People</cell><cell>5 W/ 1,000 ft 2</cell></row><row><cell>Envelope</cell><cell>Envelope thermal properties vary with</cell></row><row><cell></cell><cell>climate according to ASHRAE Standard</cell></row><row><cell></cell><cell>90.1-2004.</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1" coords="6,112.73,166.23,369.81,213.92"><head>Table 2 :</head><label>2</label><figDesc><div><p xml:id="_5CqwSKH"><s xml:id="_YejzrM8" coords="6,202.13,166.23,219.19,7.12">Number of Buildings by Type and Climate Zone in the United States</s></p></div></figDesc><table coords="6,112.73,186.29,369.81,193.85"><row><cell>Climate Zone</cell><cell>Represent City</cell><cell># Small Office</cell></row><row><cell>1A (Hot-Humid)</cell><cell>Miami, Florida</cell><cell>28,000</cell></row><row><cell>2A (Hot-Humid)</cell><cell>Houston, Texas</cell><cell>354,930</cell></row><row><cell>2B (Hot-Dry)</cell><cell>Phoenix, Arizona</cell><cell>96,470</cell></row><row><cell>3A (Hot-Humid and</cell><cell>Atlanta, Georgia</cell><cell>321,170</cell></row><row><cell>Mixed-Humid)</cell><cell></cell><cell></cell></row><row><cell>3B (Hot-Dry)</cell><cell>Las Vegas, Nevada</cell><cell>158,390</cell></row><row><cell>3C (Marine)</cell><cell>San Francisco, California</cell><cell>25,930</cell></row><row><cell>4A (Mixed-Humid)</cell><cell>New York, New York</cell><cell>312,150</cell></row><row><cell>4B (Mixed-Dry)</cell><cell>Albuquerque, New Mexico</cell><cell>15,790</cell></row><row><cell>4C (Marine)</cell><cell>Seattle, Washington</cell><cell>40,880</cell></row><row><cell>5A (Cold)</cell><cell>Chicago, Illinois</cell><cell>306,880</cell></row><row><cell>5B (Cold)</cell><cell>Boulder, Colorado</cell><cell>107,340</cell></row><row><cell>6A (Cold)</cell><cell>Minneapolis, Minnesota</cell><cell>80,460</cell></row><row><cell>6B (Cold)</cell><cell>Helena, Montana</cell><cell>10,080</cell></row><row><cell>7 (Very Cold)</cell><cell>Duluth, Minnesota</cell><cell>10,790</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2" coords="14,111.75,451.69,371.78,201.56"><head>Table 3 :</head><label>3</label><figDesc><div><p xml:id="_5AyE2kj"><s xml:id="_JsZhFNy" coords="14,139.92,451.69,343.61,7.12">Annual Electricity Saving of Combined Energy Efficiency Measures for Small Offices in Different Climates</s></p></div></figDesc><table coords="14,146.08,470.21,300.63,183.05"><row><cell>Climate Zone</cell><cell cols="4">Annual Savings (kWh/m 2 ) Total Electricity HVAC Total Electricity HVAC Annual Savings (%)</cell></row><row><cell>1A</cell><cell>29.5</cell><cell>21.4</cell><cell>19%</cell><cell>33%</cell></row><row><cell>2A</cell><cell>26.6</cell><cell>18.6</cell><cell>18%</cell><cell>32%</cell></row><row><cell>2B</cell><cell>30.4</cell><cell>22.6</cell><cell>20%</cell><cell>39%</cell></row><row><cell>3A</cell><cell>22.3</cell><cell>15.0</cell><cell>16%</cell><cell>36%</cell></row><row><cell>3B</cell><cell>25.1</cell><cell>17.6</cell><cell>18%</cell><cell>37%</cell></row><row><cell>3C</cell><cell>18.3</cell><cell>10.5</cell><cell>15%</cell><cell>30%</cell></row><row><cell>4A</cell><cell>16.4</cell><cell>10.0</cell><cell>12%</cell><cell>30%</cell></row><row><cell>4B</cell><cell>21.1</cell><cell>13.9</cell><cell>16%</cell><cell>35%</cell></row><row><cell>4C</cell><cell>12.4</cell><cell>6.6</cell><cell>10%</cell><cell>25%</cell></row><row><cell>5A</cell><cell>14.3</cell><cell>7.7</cell><cell>11%</cell><cell>29%</cell></row><row><cell>5B</cell><cell>16.9</cell><cell>10.2</cell><cell>13%</cell><cell>30%</cell></row><row><cell>6A</cell><cell>12.2</cell><cell>6.5</cell><cell>9%</cell><cell>23%</cell></row><row><cell>6B</cell><cell>13.4</cell><cell>7.2</cell><cell>10%</cell><cell>26%</cell></row></table></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted" xml:id="b0">
+	<monogr>
+		<title level="m" type="main" coords="16,134.35,164.01,189.58,7.12" xml:id="_2DDqQ2Y">Energy Information Administration, Electric Power Annual</title>
+		<ptr target="www.eia.gov" />
+		<imprint>
+			<date type="published" when="2019">2019. 2021</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">Tech. rep</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b1">
+	<monogr>
+		<ptr target="https://www.eia.gov/outlooks/aeo/" />
+		<title level="m" xml:id="_jRsWHpp" coords="16,124.61,182.94,76.45,7.12">Annual Energy Outlook</title>
+		<imprint>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b2">
+	<monogr>
+		<ptr target="https://www.eia.gov/consumption/commercial/data/2012/" />
+		<title level="m" xml:id="_UG8jJVm" coords="16,124.61,192.40,353.15,7.12">Energy Information Administration (EIA)-Commercial Buildings Energy Consumption Survey (CBECS) Data</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b3">
+	<analytic>
+		<title level="a" type="main" coords="16,175.25,211.33,310.20,7.12" xml:id="_n4kcf8n">Gender differences in thermal comfort and use of thermostats in everyday thermal environments</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Karjalainen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.buildenv.2006.01.009</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_PYzSwGw" coords="16,124.62,220.80,84.70,7.12">Building and Environment</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1594" to="1603" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b4">
+	<analytic>
+		<title level="a" type="main" coords="16,260.58,230.26,199.83,7.12" xml:id="_FaFb6Vz">Energy consumption in buildings and female thermal demand</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kingma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Van Marken Lichtenbelt</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nclimate2741</idno>
+		<ptr target="https://www.nature.com/articles/nclimate2741" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_CurP6Zs" coords="16,467.23,230.26,21.69,7.12;16,124.62,239.73,51.58,7.12">Nature Climate Change</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1054" to="1056" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b5">
+	<monogr>
+		<ptr target="www.ashrae.org" />
+		<title level="m" xml:id="_ZwUfRZr" coords="16,124.61,258.65,265.31,7.12">ASHRAE Standard 55 -Thermal Environmental Conditions for Human Occupancy</title>
+		<meeting><address><addrLine>Atlanta, GA</addrLine></address></meeting>
+		<imprint>
+			<publisher>American Society of Heating, Refrigerating and Air-Conditioning Engineers, Inc</publisher>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">Tech. rep</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b6">
+	<analytic>
+		<title level="a" type="main" coords="16,201.08,287.05,213.33,7.12" xml:id="_hhXYmvq">The cost of over-cooling commercial buildings in the United States</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Derrible</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Reeder</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.enbuild.2015.09.022</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_yXKd2Sw" coords="16,419.46,287.05,69.46,7.12">Energy and Buildings</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="page" from="304" to="306" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b7">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Mesa -Sidewalk</forename><surname>Labs</surname></persName>
+		</author>
+		<ptr target="https://www.sidewalklabs.com/products/mesa" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b8">
+	<analytic>
+		<title level="a" type="main" coords="16,307.05,324.91,181.87,7.12;16,124.62,334.37,267.54,7.12" xml:id="_gqS9JMd">Energy efficiency and the misuse of programmable thermostats: The effectiveness of crowdsourcing for understanding household behavior</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pritoni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Meier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Aragon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Perry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Peffer</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.erss.2015.06.002</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_4KzQnH4" coords="16,398.01,334.37,90.91,7.12;16,124.62,343.83,24.79,7.12">Energy Research and Social Science</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="190" to="197" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b9">
+	<analytic>
+		<title level="a" type="main" coords="16,250.22,353.30,238.70,7.12;16,124.62,362.76,97.33,7.12" xml:id="_cwKD4kE">Thermostat wars? The roles of gender and thermal comfort negotiations in household energy use behavior</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Sintov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">V</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Walpole</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0224198</idno>
+		<ptr target="https://doi.org/10.1371/journal.pone.0224198" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_uYJwTPd" coords="16,227.24,362.76,36.09,7.12">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page">224198</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b10">
+	<analytic>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sheppy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lobato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pless</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">G</forename><surname>Polese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Torcellini</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_jP64R5y" coords="16,319.99,381.69,168.93,7.12;16,124.62,391.16,108.42,7.12">Office Buildings: Assessing and Reducing Plug and Process Loads in Office Buildings</title>
+		<imprint/>
+		<respStmt>
+			<orgName>National Renewable Energy Laboratory</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Tech. rep</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b11">
+	<analytic>
+		<title level="a" type="main" coords="16,231.81,400.62,257.11,7.12;16,124.62,410.09,53.45,7.12" xml:id="_gMaCces">An assessment of power flexibility from commercial building cooling systems in the United States</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zuo</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.energy.2020.119571</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_W6grK9G" coords="16,183.06,410.09,22.87,7.12">Energy</title>
+		<imprint>
+			<biblScope unit="volume">221</biblScope>
+			<biblScope unit="page">119571</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b12">
+	<monogr>
+		<title level="m" type="main" coords="16,157.37,419.55,331.55,7.12;16,124.62,429.02,11.07,7.12" xml:id="_y2SUmfY">Inventorying Plug Load Equipment and Assessing Plug Load Reduction Solutions on a University Campus</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hafer</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b13">
+	<analytic>
+		<title level="a" type="main" coords="16,225.79,438.48,263.12,7.12;16,124.62,447.94,30.21,7.12" xml:id="_3b2sxgy">Investigating natural ventilation potentials across the globe: Regional and climatic variations</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Tong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Malkawi</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.buildenv.2017.06.026</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_B2bRM2X" coords="16,159.83,447.94,84.70,7.12">Building and Environment</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="page" from="386" to="396" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b14">
+	<analytic>
+		<title level="a" type="main" coords="16,308.86,457.41,180.06,7.12;16,124.62,466.87,151.74,7.12" xml:id="_Xajh4uN">Optimal control of HVAC and window systems for natural ventilation through reinforcement learning</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">K</forename><surname>Norford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">W</forename><surname>Samuelson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Malkawi</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.enbuild.2018.03.051</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_8wzSvcz" coords="16,282.38,466.87,70.82,7.12">Energy and Buildings</title>
+		<imprint>
+			<biblScope unit="volume">169</biblScope>
+			<biblScope unit="page" from="195" to="205" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b15">
+	<analytic>
+		<title level="a" type="main" coords="16,229.97,485.80,258.95,7.12;16,124.62,495.27,141.30,7.12" xml:id="_dexGM2N">Cooling load reduction in office buildings of hot-arid climate, combining phase change materials and night purge ventilation</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Solgi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Fayaz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Kari</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.renene.2015.07.028</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_pBwK4rW" coords="16,271.07,495.27,60.13,7.12">Renewable Energy</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="page" from="725" to="731" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b16">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Energyplus -Energyplus</surname></persName>
+		</author>
+		<ptr target="https://energyplus.net/" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b17">
+	<monogr>
+		<ptr target="https://www.energycodes.gov/development/commercial/prototype_models" />
+		<title level="m" xml:id="_qy9QTvp" coords="16,124.61,533.12,126.48,7.12">Commercial Prototype Building Models</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b18">
+	<monogr>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Baechler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Gilbride</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Cole</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Hefty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ruiz</surname></persName>
+		</author>
+		<ptr target="www.buildingamerica.gov" />
+		<title level="m" xml:id="_sY7xuS8" coords="16,328.02,552.05,157.26,7.12">Guide to Determining Climate Regions by County</title>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+		<respStmt>
+			<orgName>Pacific Northwest National Laboratory</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Tech. rep</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b19">
+	<monogr>
+		<ptr target="http://www.comfortdatabase.com/" />
+		<title level="m" xml:id="_pVbJxg8" coords="16,124.61,580.45,151.63,7.12">ASHRAE Global Thermal Comfort Database II</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b20">
+	<analytic>
+		<title level="a" type="main" coords="16,215.10,599.38,155.66,7.12" xml:id="_GpEkkX2">An agent-based stochastic Occupancy Simulator</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Luo</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s12273-017-0379-7</idno>
+		<ptr target="https://link.springer.com/article/10.1007/s12273-017-0379-7" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_rJNaEHb" coords="16,376.92,599.38,65.55,7.12">Building Simulation</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="37" to="49" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b21">
+	<monogr>
+		<author>
+			<persName><surname>Iea-Ebc</surname></persName>
+		</author>
+		<ptr target="http://www.annex66.org/" />
+		<title level="m" xml:id="_UddXWHX" coords="16,158.04,627.77,230.69,7.12">Annex 66: Definition and Simulation of Occupant Behavior in Buildings</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b22">
+	<monogr>
+		<title level="m" type="main" coords="16,344.67,665.63,144.25,7.12;16,124.62,675.09,132.77,7.12" xml:id="_hZrY6Ax">Impacts of Commercial Building Controls on Energy Savings and Peak Load Reduction</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Fernandez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Katipamula</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Corbin</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<pubPlace>Richland</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Pacific Northwest National Laboratory</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Tech. rep</note>
+	<note>Washington</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

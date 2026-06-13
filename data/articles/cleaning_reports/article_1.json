@@ -1,0 +1,40 @@
+{
+  "article_id": "article_1",
+  "source_tei": "data\\articles\\extracted_grobid_tei\\article_1.grobid.tei.xml",
+  "main_output": "data\\articles\\cleaned_markdown\\article_1.md",
+  "supplementary_output": "data\\articles\\supplementary_markdown\\article_1.md",
+  "title_found": true,
+  "abstract_candidates": [
+    {
+      "score": -2.0,
+      "word_count": 325,
+      "language": "",
+      "preview": "Bioenergy: energy from materials derived from biological products (e. g., wood, algae) which are often burned to generate electricity. Concentrating solar power (CSP): the indirect type of solar energy which uses mirrors or lenses to concentrate sunlight onto a small area, generating heat which prod"
+    }
+  ],
+  "selected_abstract_preview": "Bioenergy: energy from materials derived from biological products (e. g., wood, algae) which are often burned to generate electricity. Concentrating solar power (CSP): the indirect type of solar energy which uses mirrors or lenses to concentrate sunlight onto a small area, generating heat which produces electricity (often via a steam turbine). Conventional energy: energy derived from non-renewable fossil fuel sources (oil, gas, and coal). Electricity generation: the amount of electricity produce",
+  "counts": {
+    "main_blocks": 43,
+    "supplementary_blocks": 12,
+    "discarded_blocks": 13,
+    "review_blocks": 3,
+    "block_kinds": {
+      "paragraph": 46,
+      "heading": 9
+    },
+    "discard_reasons": {
+      "figure_or_table_caption": 2,
+      "figure_content": 7,
+      "boilerplate_or_noise": 4
+    }
+  },
+  "quality": {
+    "raw_body_characters": 36636,
+    "main_text_characters": 23571,
+    "main_text_ratio": 0.6434
+  },
+  "warnings": [
+    "low_confidence_abstract",
+    "manual_review_recommended"
+  ]
+}

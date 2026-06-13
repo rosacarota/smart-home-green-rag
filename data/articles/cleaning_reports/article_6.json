@@ -1,0 +1,39 @@
+{
+  "article_id": "article_6",
+  "source_tei": "data\\articles\\extracted_grobid_tei\\article_6.grobid.tei.xml",
+  "main_output": "data\\articles\\cleaned_markdown\\article_6.md",
+  "supplementary_output": "data\\articles\\supplementary_markdown\\article_6.md",
+  "title_found": true,
+  "abstract_candidates": [
+    {
+      "score": 5.0,
+      "word_count": 235,
+      "language": "",
+      "preview": "Globally, pollution is deteriorating the climate with air and water pollution, harboring more pathogens and parasites that affect the agriculture sector, food quality, and human life. The study aims to examine how pollution deteriorates the environment and focuses on renewable energy and the adoptio"
+    }
+  ],
+  "selected_abstract_preview": "Globally, pollution is deteriorating the climate with air and water pollution, harboring more pathogens and parasites that affect the agriculture sector, food quality, and human life. The study aims to examine how pollution deteriorates the environment and focuses on renewable energy and the adoption of green innovation adoption as solutions to reduce the detrimental effects of traditional energy consumption practices with the help of spreading environmental awareness. VBN theory was applied to ",
+  "counts": {
+    "main_blocks": 95,
+    "supplementary_blocks": 3,
+    "discarded_blocks": 12,
+    "review_blocks": 5,
+    "block_kinds": {
+      "paragraph": 63,
+      "heading": 35
+    },
+    "discard_reasons": {
+      "figure_or_table_caption": 3,
+      "figure_content": 8,
+      "duplicate_content": 1
+    }
+  },
+  "quality": {
+    "raw_body_characters": 56277,
+    "main_text_characters": 47142,
+    "main_text_ratio": 0.8377
+  },
+  "warnings": [
+    "manual_review_recommended"
+  ]
+}

@@ -1,0 +1,2024 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main" xml:id="_mhMMGjy" coords="1,42.52,165.98,205.17,12.71">State of the art of smart homes</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2012-06-12">12 June 2012</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">Liyanage</forename><forename type="middle">C</forename><surname>De Silva</surname></persName>
+							<email>liyanagecd@yahoo.co.nz</email>
+							<affiliation key="aff0">
+								<orgName type="department">Faculty of Science</orgName>
+								<orgName type="laboratory">Applied Physics Group</orgName>
+								<orgName type="institution">University of Brunei Darussalam</orgName>
+								<address>
+									<country key="BN">Brunei Darussalam</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">School of Engineering and Advanced Technology</orgName>
+								<orgName type="institution">Massey University</orgName>
+								<address>
+									<settlement>Palmerston North</settlement>
+									<country key="NZ">New Zealand</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Chamin</forename><surname>Morikawa</surname></persName>
+							<email>chamin@me.com</email>
+							<affiliation key="aff1">
+								<orgName type="department">Interfaculty Initiative in Information Studies</orgName>
+								<orgName type="institution">The University of Tokyo</orgName>
+								<address>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Iskandar</forename><forename type="middle">M</forename><surname>Petra</surname></persName>
+							<email>iskandar.petra@ubd.edu.bn</email>
+							<affiliation key="aff0">
+								<orgName type="department">Faculty of Science</orgName>
+								<orgName type="laboratory">Applied Physics Group</orgName>
+								<orgName type="institution">University of Brunei Darussalam</orgName>
+								<address>
+									<country key="BN">Brunei Darussalam</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="department">Faculty of Science</orgName>
+								<orgName type="laboratory">Applied Physics Group</orgName>
+								<orgName type="institution">University of Brunei Darussalam</orgName>
+								<address>
+									<country key="BN">Brunei Darussalam</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main" xml:id="_PbDf8xX" coords="1,42.52,165.98,205.17,12.71">State of the art of smart homes</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2012-06-12">12 June 2012</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">99DBFB870C6CD21332A3A6ED2D5C0278</idno>
+					<idno type="DOI">10.1016/j.engappai.2012.05.002</idno>
+					<note type="submission">Received 5 January 2012 Received in revised form 10 April 2012 Accepted 2 May 2012</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-06-12T21:52+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=true, generateTeiCoordinates=[title, head, p, s, note, figure, formula, ref], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords xml:id="_wdcqNcu">Smart monitoring Audiovisual event detection Eldercare Energy efficient homes Video summarization Smart home</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_zwp3Nfa"><p xml:id="_XnCtDr2" coords="1,206.93,277.51,355.59,6.78;1,206.93,287.04,355.64,6.78;1,206.93,296.62,355.62,6.78;1,206.93,306.20,355.60,6.78;1,206.93,315.72,355.63,6.78;1,206.93,325.30,355.59,6.78;1,206.93,334.89,355.62,6.78;1,206.93,344.47,355.60,6.78;1,206.93,353.99,355.58,6.78;1,206.93,363.57,312.33,6.78"><s xml:id="_XTawj38" coords="1,206.93,277.51,264.97,6.78">In this paper we present a review of the state of the art of smart homes.</s><s xml:id="_WXK4DSM" coords="1,475.15,277.51,87.38,6.78;1,206.93,287.04,355.64,6.78;1,206.93,296.62,355.62,6.78;1,206.93,306.20,307.81,6.78">We will first look at the research work related to smart homes from various view points; first in the view point of specific techniques such as smart homes that utilize computer vision based techniques, smart homes that utilize audio-based techniques and then smart homes that utilize multimodal techniques.</s><s xml:id="_tsuHpGA" coords="1,516.59,306.20,45.94,6.78;1,206.93,315.72,355.63,6.78;1,206.93,325.30,355.59,6.78;1,206.93,334.89,132.90,6.78">Then we look at it from the view point of specific applications of smart homes such as eldercare and childcare applications, energy efficiency applications and finally in the research directions of multimedia retrieval for ubiquitous environments.</s><s xml:id="_EEbmKnE" coords="1,342.26,334.89,220.29,6.78;1,206.93,344.47,52.46,6.78">We will summarize the smart homes based research into these two categories.</s><s xml:id="_PC5xAkD" coords="1,261.87,344.47,300.66,6.78;1,206.93,353.99,355.58,6.78;1,206.93,363.57,312.33,6.78">In the survey we found out that some well-known smart home applications like video based security applications has seen the maturity in terms of new research directions while some topics like smart homes for energy efficiency and video summarization are gaining momentum.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1." xml:id="_qpyqq8m" coords="1,42.52,430.90,64.31,7.53">Introduction</head><p xml:id="_J85HU5V" coords="1,54.48,451.82,239.13,7.53;1,42.52,462.31,251.10,7.53;1,42.52,472.74,251.04,7.53;1,42.52,483.23,251.08,7.53;1,42.52,493.66,251.07,7.53;1,42.52,504.15,251.03,7.53;1,42.52,514.58,251.05,7.53;1,42.52,525.07,251.07,7.53;1,42.52,535.50,251.02,7.53;1,42.52,545.99,194.99,7.53"><s xml:id="_3R9bxQT" coords="1,54.48,451.82,239.13,7.53;1,42.52,462.31,74.66,7.53">Humans interact with the environment that surrounds them, in numerous ways.</s><s xml:id="_Nmek8CN" coords="1,120.58,462.31,173.03,7.53;1,42.52,472.74,142.90,7.53">They perceive the environmental conditions and act, react or adjust accordingly.</s><s xml:id="_ZzFzsuq" coords="1,189.12,472.74,104.44,7.53;1,42.52,483.23,251.08,7.53;1,42.52,493.66,152.47,7.53">If the environment can be made to reciprocate this behavior and respond to human behavior, it will lead to several advantages.</s><s xml:id="_xHQ7Psu" coords="1,198.25,493.66,95.34,7.53;1,42.52,504.15,251.03,7.53;1,42.52,514.58,154.12,7.53">Such behavior can automate various tasks that humans have to perform manually, and also provide novel services and facilities.</s><s xml:id="_S7utYPM" coords="1,198.70,514.58,94.87,7.53;1,42.52,525.07,251.07,7.53;1,42.52,535.50,251.02,7.53;1,42.52,545.99,194.99,7.53">A smart home is a homelike environment that possesses ambient intelligence and automatic control, which allow it to respond to the behavior of residents and provide them with various facilities.</s></p><p xml:id="_UNWG5Vv" coords="1,54.48,556.42,239.08,7.53;1,42.52,566.91,251.06,7.53;1,42.52,577.34,251.03,7.53;1,42.52,587.83,251.10,7.53;1,42.52,598.26,251.05,7.53;1,42.52,608.75,251.06,7.53;1,42.52,619.18,251.00,7.53;1,42.52,629.67,251.01,7.53;1,42.52,640.10,251.03,7.53;1,42.52,650.59,202.10,7.53"><s xml:id="_nPkuBCE" coords="1,54.48,556.42,239.08,7.53;1,42.52,566.91,21.42,7.53">The standard approach for building smart homes is to computerize them.</s><s xml:id="_nwC9HJe" coords="1,68.20,566.91,225.38,7.53;1,42.52,577.34,196.07,7.53">A set of sensors gather different types of data, regarding the residents and utility consumption of the home.</s><s xml:id="_NWUc3J7" coords="1,241.93,577.34,51.61,7.53;1,42.52,587.83,251.10,7.53;1,42.52,598.26,206.81,7.53">Computers or devices with computing power (e.g.,: micro-controllers) analyze these data to identify actions of residents or events.</s><s xml:id="_m2w6nXB" coords="1,253.98,598.26,39.59,7.53;1,42.52,608.75,251.06,7.53;1,42.52,619.18,126.69,7.53">They then respond to these actions and events by controlling certain mechanisms that are built in to the home.</s><s xml:id="_dbeKEMV" coords="1,171.42,619.18,122.10,7.53;1,42.52,629.67,251.01,7.53">A simple example for such smart behavior is turning the lights on when a person enters a room.</s><s xml:id="_aPURBWT" coords="1,42.52,640.10,251.03,7.53;1,42.52,650.59,202.10,7.53">However, more complicated tasks such as detecting if an elderly resident is alone and not feeling well are also desired.</s></p><p xml:id="_7RW3qXq" coords="1,323.49,430.90,239.06,7.53;1,311.53,441.39,251.03,7.53;1,311.53,451.82,138.52,7.53;1,514.47,451.82,48.11,7.53;1,311.53,462.31,251.02,7.53;1,311.53,472.74,251.06,7.53;1,311.53,483.23,241.45,7.53"><s xml:id="_ezQf2zt" coords="1,323.49,430.90,239.06,7.53;1,311.53,441.39,32.42,7.53">Smart homes have been researched for nearly a couple of decades.</s><s xml:id="_n2Grsy7" coords="1,347.24,441.39,215.31,7.53;1,311.53,451.82,207.00,7.53">The pioneering work in this area are the Smart Rooms implemented by the MIT Media Lab <ref type="bibr" coords="1,452.69,451.82,61.78,7.53" target="#b65">(Pentland, 1996)</ref>.</s><s xml:id="_fmChgdp" coords="1,521.18,451.82,41.40,7.53;1,311.53,462.31,251.02,7.53;1,311.53,472.74,106.21,7.53">Thereafter, several researches have investigated this topic with a wide range of prospective applications.</s><s xml:id="_34xFTXB" coords="1,420.83,472.74,141.76,7.53;1,311.53,483.23,241.45,7.53">At the current state, there are many types of smart homes with three major application categories.</s></p><p xml:id="_6RQ3V8k" coords="1,323.49,493.66,239.07,7.53;1,311.53,504.15,251.07,7.53;1,311.53,514.58,251.09,7.53;1,311.53,525.07,251.03,7.53;1,311.53,535.50,251.04,7.53;1,311.53,545.99,251.03,7.53;1,311.53,556.42,175.90,7.53"><s xml:id="_cajfBke" coords="1,323.49,493.66,239.07,7.53;1,311.53,504.15,251.07,7.53;1,311.53,514.58,68.32,7.53">The first category aims at providing services to the residents by detecting and recognizing their actions or by detecting their health conditions.</s><s xml:id="_zJQtC8Z" coords="1,381.99,514.58,180.62,7.53;1,311.53,525.07,251.03,7.53">Such smart homes act as information collection testbeds to support the wellbeing of the residents of the home.</s><s xml:id="_ryjwNqa" coords="1,311.53,535.50,251.04,7.53;1,311.53,545.99,251.03,7.53;1,311.53,556.42,175.90,7.53">These smart homes can be further divided into three types; smart homes that provide eldercare, smart homes that provide healthcare and smart homes that provide childcare.</s></p><p xml:id="_9hvkn8s" coords="1,323.49,566.90,239.07,7.53;1,311.53,577.34,251.05,7.53;1,311.53,587.82,251.03,7.53;1,311.53,598.26,251.03,7.53;1,311.53,608.74,236.49,7.53"><s xml:id="_Wpbz9g8" coords="1,323.49,566.90,239.07,7.53;1,311.53,577.34,251.05,7.53;1,311.53,587.82,166.37,7.53">The second category of smart homes aims at storing and retrieving of multi-media captured within the smart home, in different levels from photos to experiences.</s><s xml:id="_recSzq4" coords="1,480.30,587.82,82.26,7.53;1,311.53,598.26,251.03,7.53;1,311.53,608.74,236.49,7.53">One might argue that the issue of privacy of such type of information collection, but it will be a matter of acceptance in to one's lifestyle with time.</s></p><p xml:id="_P9kzBwk" coords="1,323.49,619.17,239.03,7.53;1,311.53,629.66,251.00,7.53;1,311.53,640.09,251.07,7.53;1,311.53,650.58,251.07,7.53;1,311.53,661.07,225.93,7.53"><s xml:id="_yE9UtCd" coords="1,323.49,619.17,239.03,7.53;1,311.53,629.66,251.00,7.53;1,311.53,640.09,251.07,7.53;1,311.53,650.58,187.30,7.53">The third category is surveillance, where the data captured in the environment are processed to obtain information that can help to raise alarms, in order to protect the home and the residents from burglaries, theft and natural disasters like flood etc.</s><s xml:id="_aZybVE6" coords="1,500.76,650.58,61.84,7.53;1,311.53,661.07,225.93,7.53">A few researches attempted to combine these functions into one smart home.</s></p><p xml:id="_hZeJTWX" coords="1,323.49,671.50,239.10,7.53;1,311.53,681.99,251.04,7.53;1,311.53,692.42,251.01,7.53;1,311.53,702.91,251.04,7.53;1,311.53,713.34,224.96,7.53"><s xml:id="_dRVZSCM" coords="1,323.49,671.50,239.10,7.53;1,311.53,681.99,251.04,7.53;1,311.53,692.42,251.01,7.53;1,311.53,702.91,251.04,7.53;1,311.53,713.34,224.96,7.53">Apart from the 3 types of smart homes we have discussed there is an emerging trend of a special type of smart homes which can help the occupants to reduce the energy consumption of the house by monitoring and controlling of the devices and rescheduling their operating time according to the energy demand and supply.</s></p><p xml:id="_4UgHWrm" coords="1,206.25,62.39,194.15,7.34;1,186.63,118.12,233.41,7.34;2,44.67,59.28,239.06,7.53;2,32.71,69.71,251.05,7.53;2,32.71,80.20,251.08,7.53;2,32.71,90.63,250.98,7.53;2,32.71,101.12,251.02,7.53;2,32.71,111.55,251.00,7.53;2,32.71,122.04,251.01,7.53;2,32.71,132.47,251.10,7.53;2,32.71,142.96,251.01,7.53;2,32.71,153.39,251.02,7.53;2,32.71,163.88,227.88,7.53;1,206.25,62.39,101.27,7.34"><s xml:id="_yUeMUuN" coords="1,206.25,62.39,101.27,7.34">Contents lists available at <ref type="url" coords="1,310.34,62.39,90.07,7.34;1,186.63,118.12,233.41,7.34" target="http://www.elsevier.com/locate/engappai">SciVerse ScienceDirect   journal homepage: www.elsevier.com/locate/engappai</ref></s><s xml:id="_5xHtvzU" coords="2,44.67,59.28,239.06,7.53;2,32.71,69.71,251.05,7.53;2,32.71,80.20,251.08,7.53;2,32.71,90.63,37.03,7.53">With recent advances in electronics and computing, sensing technologies and computing power required to implement a smart home is now available in small sizes, low prices and energy efficiency.</s><s xml:id="_kX2cjvQ" coords="2,75.01,90.63,208.67,7.53;2,32.71,101.12,251.02,7.53;2,32.71,111.55,16.99,7.53">However, providing the ambient intelligence that is required to make decisions for smart behavior is still a challenging task.</s><s xml:id="_K7FBfdj" coords="2,54.13,111.55,193.74,7.53">Human behavior at home is highly unstructured.</s><s xml:id="_CMwBTqd" coords="2,252.30,111.55,31.41,7.53;2,32.71,122.04,215.84,7.53">Multiple sensory modalities are required to sense such behavior.</s><s xml:id="_7aPH3N5" coords="2,252.35,122.04,31.37,7.53;2,32.71,132.47,251.10,7.53;2,32.71,142.96,95.38,7.53">Advance pattern recognition techniques are required to recognize the behavior of multiple residents.</s><s xml:id="_hezdzQR" coords="2,130.42,142.96,153.31,7.53;2,32.71,153.39,106.11,7.53">Privacy becomes an important issue once the systems store the data.</s><s xml:id="_Z4CbepC" coords="2,142.74,153.39,140.99,7.53;2,32.71,163.88,227.88,7.53">Due to such challenges, smart room technologies at the current state are far from being matured.</s></p><p xml:id="_BpVCZEy" coords="2,44.67,174.31,239.08,7.53;2,32.71,184.80,250.99,7.53;2,32.71,195.23,251.09,7.53;2,32.71,205.72,251.04,7.53;2,32.71,216.15,251.06,7.53;2,32.71,226.64,251.00,7.53;2,32.71,237.07,251.05,7.53;2,32.71,247.56,251.05,7.53;2,32.71,257.99,251.03,7.53;2,32.71,268.48,251.05,7.53;2,32.71,278.91,251.12,7.53;2,32.71,289.40,251.11,7.53;2,32.71,299.83,250.94,7.53;2,32.71,310.32,251.08,7.53;2,32.71,320.75,251.07,7.53;2,32.71,331.23,72.14,7.53"><s xml:id="_gP78Vfw" coords="2,44.67,174.31,239.08,7.53;2,32.71,184.80,20.83,7.53">This paper surveys the state of the art of smart home technologies.</s><s xml:id="_Pv9D78E" coords="2,56.83,184.80,158.19,7.53">It organizes related researches as follows.</s><s xml:id="_PfVpXrv" coords="2,218.31,184.80,65.39,7.53;2,32.71,195.23,251.09,7.53;2,32.71,205.72,251.04,7.53;2,32.71,216.15,177.39,7.53">Before going into specific application categories we will first look at different techniques used in smart homes namely; video based techniques, audio based techniques and multimodal techniques.</s><s xml:id="_mswkcuz" coords="2,214.24,216.15,69.53,7.53;2,32.71,226.64,251.00,7.53;2,32.71,237.07,53.11,7.53">Section 2 outlines video based techniques for human activity detection in smart environments.</s><s xml:id="_gSx54cN" coords="2,89.18,237.07,156.17,7.53">Section 3 covers audio-based techniques.</s><s xml:id="_7Nb6JMS" coords="2,248.71,237.07,35.05,7.53;2,32.71,247.56,251.05,7.53;2,32.71,257.99,210.63,7.53">Section 4 investigates how to combine multiple sensory modalities to recognize actions and events that take place in a smart home.</s><s xml:id="_hRtXuEM" coords="2,245.79,257.99,37.96,7.53;2,32.71,268.48,193.86,7.53">Thereafter we will look at specific applications of smart homes.</s><s xml:id="_khbqv5A" coords="2,228.85,268.48,54.92,7.53;2,32.71,278.91,251.12,7.53;2,32.71,289.40,35.34,7.53">First in Section 5 we will look at smart homes applications for eldercare and childcare.</s><s xml:id="_8HnKt4F" coords="2,71.23,289.40,212.60,7.53;2,32.71,299.83,250.94,7.53;2,32.71,310.32,143.72,7.53">Then in Section 6 we look at the energy efficient smart homes and Section 7 investigates research directions on Multimedia Retrieval for Ubiquitous Environments.</s><s xml:id="_a6FyJYD" coords="2,178.65,310.32,105.15,7.53;2,32.71,320.75,251.07,7.53;2,32.71,331.23,72.14,7.53">We conclude the paper with a brief discussion on the state of the art, and suggestions for future research directions.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2." xml:id="_wmYKZrH" coords="2,32.71,362.64,175.90,7.53">Video-based techniques in smart homes</head><p xml:id="_H3hGJuM" coords="2,44.68,383.56,239.07,7.53;2,32.71,393.99,251.07,7.53;2,32.71,404.48,251.06,7.53;2,32.71,414.91,251.06,7.53;2,32.71,425.40,251.09,7.53;2,32.71,435.83,191.60,7.53"><s xml:id="_vzACDsS" coords="2,44.68,383.56,239.07,7.53;2,32.71,393.99,251.07,7.53;2,32.71,404.48,31.15,7.53">Video is highly prospective as an input modality for smart homes, due to its non-intrusive nature and rich information content.</s><s xml:id="_BpGKayv" coords="2,67.12,404.48,216.65,7.53;2,32.71,414.91,251.06,7.53">However, its use in a home-like environment has been sometimes questioned and argued about, due to privacy concerns.</s><s xml:id="_Kkd6qgw" coords="2,32.71,425.40,251.09,7.53;2,32.71,435.83,191.60,7.53">Despite such concerns, research on vision-based activity detection in smart environments has been growing rapidly.</s></p><p xml:id="_a9AQqk8" coords="2,44.68,446.32,239.11,7.53;2,32.71,456.75,251.06,7.53;2,32.71,467.24,15.30,7.53;2,101.45,467.24,28.59,7.53;2,217.91,467.24,3.68,7.53;2,32.71,477.67,251.02,7.53;2,32.71,488.16,251.04,7.53;2,32.71,498.59,251.09,7.53;2,32.71,509.08,251.05,7.53;2,68.53,519.51,215.21,7.53;2,32.71,530.00,251.04,7.53;2,32.71,540.43,251.03,7.53;2,32.71,550.92,250.99,7.53;2,32.71,561.35,251.06,7.53;2,32.71,571.84,251.08,7.53;2,32.71,582.27,251.06,7.53;2,32.71,592.76,251.09,7.53;2,32.71,603.19,147.16,7.53;2,271.65,603.19,3.82,7.53"><s xml:id="_FkjKQmg" coords="2,44.68,446.32,239.11,7.53;2,32.71,456.75,251.06,7.53;2,32.71,467.24,72.56,7.53">Many types of vision-based systems for surveillance and monitoring of closed environments have been described and built over the past <ref type="bibr" coords="2,50.29,467.24,51.16,7.53" target="#b40">(Harper, 2003)</ref>.</s><s xml:id="_mcBr4MW" coords="2,107.54,467.24,176.22,7.53;2,32.71,477.67,251.02,7.53;2,32.71,488.16,101.56,7.53">Henry <ref type="bibr" coords="2,132.32,467.24,85.58,7.53" target="#b78">Tan and De Silva (2003)</ref>, <ref type="bibr" coords="2,223.88,467.24,59.88,7.53">Tan et al. (2003)</ref> has proposed a simple technique for human activity recognition using head movement detection.</s><s xml:id="_wceBGes" coords="2,138.56,488.16,145.19,7.53;2,32.71,498.59,153.78,7.53">Smart environments are an immediate application of human activity detection.</s><s xml:id="_zM589na" coords="2,190.97,498.59,92.83,7.53;2,32.71,509.08,251.05,7.53;2,32.71,519.51,39.40,7.53">Alex Pentland's research group at MIT Media Laboratory designed a smart room in 1991 <ref type="bibr" coords="2,32.71,519.51,35.82,7.53">(Pentland)</ref>.</s><s xml:id="_pPQfAJg" coords="2,73.93,519.51,209.81,7.53;2,32.71,530.00,251.04,7.53;2,32.71,540.43,63.84,7.53">This has evolved from its initial design to its matured state of five networked smart rooms in the United States, Japan and the United Kingdom.</s><s xml:id="_wMknuNk" coords="2,101.04,540.43,182.70,7.53;2,32.71,550.92,250.99,7.53;2,32.71,561.35,233.38,7.53">These rooms use several machines, none more powerful than a personal computer, to identify the location, identity, facial expression and hand gestures of the persons in the room.</s><s xml:id="_3kntS6Z" coords="2,268.65,561.35,15.12,7.53;2,32.71,571.84,194.91,7.53">Few more related research can be found in (Bobick; MIT).</s><s xml:id="_s3hCyjn" coords="2,230.23,571.84,53.56,7.53;2,32.71,582.27,251.06,7.53;2,32.71,592.76,251.09,7.53;2,32.71,603.19,242.76,7.53">Systems based on single or multiple cameras, both stationary and moving, have been designed and implemented for automatic detection, tracking and recognition of humans and their actions <ref type="bibr" coords="2,182.41,603.19,89.24,7.53" target="#b86">(Vadakkepat et al., 2008)</ref>.</s></p><p xml:id="_wF9beeP" coords="2,44.68,613.68,49.48,7.53;2,195.88,613.68,87.87,7.53;2,32.71,624.11,251.07,7.53;2,32.71,634.59,251.03,7.53;2,32.71,645.03,251.06,7.53;2,32.71,655.51,251.04,7.53;2,32.71,665.95,251.04,7.53;2,32.71,676.43,251.06,7.53;2,32.71,686.92,251.07,7.53;2,32.71,697.35,251.03,7.53;2,32.71,707.84,251.07,7.53"><s xml:id="_XfcDeZf" coords="2,44.68,613.68,239.07,7.53;2,32.71,624.11,251.07,7.53;2,32.71,634.59,251.03,7.53;2,32.71,645.03,251.06,7.53">In the paper <ref type="bibr" coords="2,97.97,613.68,94.07,7.53">(Utsumi et al., 1998a,b)</ref> the authors propose a system that analyses image sequences from multiple stationary cameras, acquired from a particular scene, to detect humans and their actions, and index the sequence according to these activities.</s><s xml:id="_vyApEDc" coords="2,32.71,655.51,251.04,7.53;2,32.71,665.95,38.64,7.53">The image sequences are indexed using the results for faster searching.</s><s xml:id="_azuJVv6" coords="2,73.82,665.95,209.94,7.53;2,32.71,676.43,251.06,7.53;2,32.71,686.92,116.29,7.53">Key frames are extracted from the image sequences for each entry in the index, to facilitate visual inspection without browsing the image sequence.</s><s xml:id="_qahR54S" coords="2,151.48,686.92,132.30,7.53;2,32.71,697.35,251.03,7.53;2,32.71,707.84,251.07,7.53">In addition to the index, visualizations of motion paths for humans in the scene are created to provide a faster way of tracking human movements in the scene.</s></p><p xml:id="_zXW2t2h" coords="2,44.68,718.27,181.89,7.53;2,32.71,728.76,251.07,7.53;2,32.71,739.19,251.04,7.53;2,301.72,59.28,251.07,7.53;2,301.72,69.71,217.99,7.53;2,519.70,68.15,3.62,5.02;2,523.33,69.71,29.47,7.53;2,301.72,80.20,89.37,7.53;2,490.85,80.20,61.91,7.53;2,301.72,90.63,251.03,7.53;2,301.72,101.12,251.03,7.53;2,301.72,111.55,251.06,7.53;2,301.72,122.04,36.71,7.53;2,431.77,122.04,121.00,7.53;2,301.72,132.47,251.03,7.53;2,301.72,142.96,251.06,7.53;2,301.72,153.39,251.05,7.53;2,301.72,163.88,251.06,7.53"><s xml:id="_qwgmySb" coords="2,44.68,718.27,239.12,7.53;2,32.71,728.76,251.07,7.53">A camera based detection approach is given in <ref type="bibr" coords="2,229.50,718.27,54.30,7.53" target="#b48">Kainka (2003)</ref> where it involves a single camera tracking a number of people.</s><s xml:id="_7gWAz9V" coords="2,32.71,739.19,251.04,7.53;2,301.72,59.28,251.07,7.53;2,301.72,69.71,187.87,7.53">The system works by extracting points and identifying feature points from an image, creates a path and clusters them and finally each of these clusters corresponds to a person.</s><s xml:id="_p7spHaU" coords="2,493.34,69.71,26.37,7.53;2,519.70,68.15,3.62,5.02;2,523.33,69.71,29.47,7.53;2,301.72,80.20,27.44,7.53">The W 4 : Who? When?</s><s xml:id="_E32r7mg" coords="2,332.28,80.20,30.10,7.53">Where?</s><s xml:id="_UfhTvdv" coords="2,365.55,80.20,187.20,7.53;2,301.72,90.63,251.03,7.53;2,301.72,101.12,251.03,7.53;2,301.72,111.55,232.97,7.53">What? <ref type="bibr" coords="2,394.24,80.20,93.45,7.53" target="#b39">(Haritaoglu et al., 1998)</ref> technique relies on the system to solely identify a combination of shapes and sizes from the image segmentation of the monochromatic imagery to identify a subject's presence and its interaction and time.</s><s xml:id="_QntzHk9" coords="2,538.80,111.55,13.97,7.53;2,301.72,122.04,251.06,7.53;2,301.72,132.47,251.03,7.53;2,301.72,142.96,251.06,7.53;2,301.72,153.39,129.32,7.53">The system in <ref type="bibr" coords="2,340.61,122.04,88.96,7.53">(Utsumi et al., 1998a,b)</ref> uses multiple cameras to detect human motion by selecting the best viewpoints of the images to extract a maximum amount of information on the individual or multiple amounts of individuals.</s><s xml:id="_2HU4XX4" coords="2,434.89,153.39,117.88,7.53;2,301.72,163.88,251.06,7.53">The results of the system are reconstructions of the human position, normal axis and body size.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1." xml:id="_vP8tycd" coords="2,301.72,187.63,155.74,7.53">Video sensor-based event recognition</head><p xml:id="_6X4ZqYW" coords="2,313.62,208.55,49.31,7.53;2,457.06,208.55,95.72,7.53;2,301.72,219.04,251.03,7.53;2,301.72,229.47,59.51,7.53;2,373.27,229.47,179.49,7.53;2,301.72,239.96,194.21,7.53;2,506.38,239.96,46.42,7.53;2,301.72,250.39,129.93,7.53"><s xml:id="_UFkyqAr" coords="2,313.62,208.55,239.15,7.53;2,301.72,219.04,206.52,7.53">In the paper <ref type="bibr" coords="2,366.63,208.55,86.70,7.53" target="#b32">(De Silva et al., 2006)</ref> the authors use a statebased approach to recognize events and actions.</s><s xml:id="_D9Y23ZP" coords="2,514.20,219.04,38.55,7.53;2,301.72,229.47,251.04,7.53;2,301.72,239.96,170.83,7.53">The state diagram in Fig. <ref type="figure" coords="2,364.82,229.47,4.83,7.53" target="#fig_0">1</ref> shows the transitions between states defined for a tracked human in the image sequence.</s><s xml:id="_BTuvyB8" coords="2,475.31,239.96,77.49,7.53;2,301.72,250.39,129.93,7.53">Table <ref type="table" coords="2,498.73,239.96,4.83,7.53" target="#tab_0">1</ref> summarizes the rules for the state transitions.</s></p><p xml:id="_GgAs2gZ" coords="2,313.62,260.88,239.13,7.53;2,301.72,271.31,251.04,7.53;2,301.72,281.80,251.05,7.53;2,301.72,292.23,251.06,7.53;2,301.72,302.72,251.01,7.53;2,301.72,313.15,238.88,7.53;2,546.22,313.15,6.55,7.53"><s xml:id="_CF8jP6f" coords="2,313.62,260.88,239.13,7.53;2,301.72,271.31,251.04,7.53;2,301.72,281.80,51.42,7.53">In order to execute the various actions in the above state diagram the authors detect and track humans entering the environment.</s><s xml:id="_62N2MU2" coords="2,356.31,281.80,196.46,7.53;2,301.72,292.23,202.57,7.53">Each human entering the smart room is modelled using the detected location and motion parameters.</s><s xml:id="_K8vzxGt" coords="2,507.39,292.23,45.38,7.53;2,301.72,302.72,251.01,7.53;2,301.72,313.15,251.05,7.53">These parameters are buffered over a window of 10 seconds and validated against a set of decision rules to detect state transitions (Table <ref type="table" coords="2,542.95,313.15,3.27,7.53" target="#tab_0">1</ref>).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2." xml:id="_krtuqAJ" coords="2,301.72,336.96,222.24,7.53">Performance evaluation of tracking using video sensors</head><p xml:id="_tFkzweC" coords="2,313.62,357.88,239.11,7.53;2,301.72,368.37,251.03,7.53;2,301.72,378.80,50.16,7.53;2,448.61,378.80,104.13,7.53;2,301.72,389.29,251.05,7.53;2,301.72,399.72,251.04,7.53;2,301.72,410.21,251.08,7.53;2,301.72,420.64,221.61,7.53"><s xml:id="_pDeyYcc" coords="2,313.62,357.88,239.11,7.53;2,301.72,368.37,251.03,7.53">Although tracking is an intermediate step in any activity detection system, there is no immediate method for evaluation.</s><s xml:id="_P9QQbyx" coords="2,301.72,378.80,251.03,7.53;2,301.72,389.29,206.44,7.53">In the paper <ref type="bibr" coords="2,356.03,378.80,88.45,7.53" target="#b32">(De Silva et al., 2006)</ref> the authors use 20 image sequences for evaluating the performance of tracking.</s><s xml:id="_Q398Fqm" coords="2,510.62,389.29,42.14,7.53;2,301.72,399.72,251.04,7.53;2,301.72,410.21,35.46,7.53">The results are compared with ground truth for quantitatively estimating the accuracy.</s><s xml:id="_Ggy5nH9" coords="2,343.16,410.21,209.64,7.53;2,301.72,420.64,221.61,7.53">On the other hand, (de Silva, 2003) qualitatively evaluate their system based on user studies by residents.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3." xml:id="_yGaHney" coords="2,301.72,444.45,166.30,7.53">Detection of unusual events and actions</head><p xml:id="_Z4hNQP6" coords="2,313.62,465.37,239.14,7.53;2,301.72,475.80,251.07,7.53;2,301.72,486.29,251.04,7.53;2,301.72,496.72,81.34,7.53;2,474.12,496.72,78.65,7.53;2,301.72,507.21,251.06,7.53;2,301.72,517.64,251.04,7.53;2,301.72,528.13,251.03,7.53;2,301.72,538.56,251.04,7.53;2,301.72,549.05,251.02,7.53;2,301.72,559.53,153.42,7.53;3,54.48,195.23,239.08,7.53;3,42.52,205.72,251.03,7.53;3,42.52,216.15,251.07,7.53;3,42.52,226.64,251.08,7.53;3,42.52,237.07,165.30,7.53;3,213.90,237.07,6.58,7.53"><s xml:id="_7vMPUKn" coords="2,313.62,465.37,239.14,7.53;2,301.72,475.80,198.64,7.53">It is possible that actions or events that are important to be recorded, but not specified by the rules, take place.</s><s xml:id="_K669Emw" coords="2,503.20,475.80,49.59,7.53;2,301.72,486.29,251.04,7.53;2,301.72,496.72,29.93,7.53">For example, there can be a situation where a person trying to block the camera.</s><s xml:id="_y64s2Ve" coords="2,334.83,496.72,217.95,7.53;2,301.72,507.21,251.06,7.53;2,301.72,517.64,196.17,7.53">In the paper <ref type="bibr" coords="2,386.30,496.72,84.60,7.53" target="#b32">(De Silva et al., 2006)</ref> the authors keep an index to such an action as ''unrecognized'' to facilitate human observation to recognize the action at a later stage.</s><s xml:id="_yfKF3au" coords="2,500.36,517.64,52.39,7.53;2,301.72,528.13,251.03,7.53;2,301.72,538.56,251.04,7.53;2,301.72,549.05,100.58,7.53">If the amount of scene change occurring between two frames is substantial and the action/event cannot be recognized, the scenario is identified as an unrecognized event.</s><s xml:id="_tyMq5CZ" coords="2,405.12,549.05,147.61,7.53;2,301.72,559.53,153.42,7.53">Key frames showing the scene change are extracted from the image sequence.</s><s xml:id="_H4GqJks" coords="3,54.48,195.23,239.08,7.53;3,42.52,205.72,251.03,7.53;3,42.52,216.15,200.20,7.53">Falling is an another unusual event that need to be investigated in a smart home that cater for elderly since a sudden fall can lead the person into life threatening situations.</s><s xml:id="_DkFXYVQ" coords="3,245.70,216.15,47.89,7.53;3,42.52,226.64,251.08,7.53;3,42.52,237.07,177.97,7.53">In the paper (De Silva, 2008e) the author describes the method of detection of such an event using a video sequence (Fig. <ref type="figure" coords="3,210.61,237.07,3.29,7.53" target="#fig_1">2</ref>).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3." xml:id="_hBFyDfy" coords="3,42.52,268.48,176.75,7.53">Audio-based techniques in smart homes</head><p xml:id="_Hg327Jd" coords="3,54.48,289.40,239.07,7.53;3,42.52,299.83,251.05,7.53;3,42.52,310.32,251.06,7.53;3,42.52,320.75,213.33,7.53;3,66.92,331.24,226.68,7.53;3,42.52,341.73,251.03,7.53;3,42.52,352.16,251.03,7.53;3,42.52,362.64,251.05,7.53;3,42.52,373.08,251.06,7.53;3,42.52,383.56,251.05,7.53;3,42.52,394.00,251.05,7.53;3,42.52,404.48,251.10,7.53;3,42.52,414.91,251.07,7.53;3,42.52,425.40,251.06,7.53;3,42.52,435.83,251.04,7.53;3,42.52,446.32,251.07,7.53;3,42.52,456.75,251.05,7.53;3,42.52,467.24,160.75,7.53"><s xml:id="_2zK2kcW" coords="3,54.48,289.40,239.07,7.53;3,42.52,299.83,251.05,7.53;3,42.52,310.32,124.93,7.53">Video sensor based event detection approach has some shortfalls like it fails to cover the entire room and also event non-detection due to occlusion.</s><s xml:id="_CMAmH3v" coords="3,171.09,310.32,122.49,7.53;3,42.52,320.75,251.09,7.53;3,42.52,331.24,28.47,7.53">Hence some authors have proposed audio sensor based methods for actions detection <ref type="bibr" coords="3,258.00,320.75,35.61,7.53;3,42.52,331.24,24.40,7.53">(De Silva, 2008e)</ref>.</s><s xml:id="_52JntDf" coords="3,74.49,331.24,219.11,7.53;3,42.52,341.73,251.03,7.53;3,42.52,352.16,206.53,7.53">In his paper for the separation of cough, cry and shout (vocal track generated sounds) from walk, door-open and fall (non-vocal sounds), they use pitch contour detection.</s><s xml:id="_kAVH637" coords="3,251.76,352.16,41.78,7.53;3,42.52,362.64,251.05,7.53;3,42.52,373.08,153.86,7.53">This is due to the fact that vocal track generated audio signals consists of its inherent formant frequency component.</s><s xml:id="_N7wpcg8" coords="3,198.65,373.08,94.93,7.53;3,42.52,383.56,185.35,7.53">They proposed a method of detecting walking action using audio signals.</s><s xml:id="_aEUwFg6" coords="3,230.85,383.56,62.72,7.53;3,42.52,394.00,251.05,7.53;3,42.52,404.48,67.41,7.53">Events like door open and walking had been separated by using the audio intensity profiles.</s><s xml:id="_sENPFH6" coords="3,112.93,404.48,180.69,7.53;3,42.52,414.91,251.07,7.53;3,42.52,425.40,251.06,7.53;3,42.52,435.83,251.04,7.53;3,42.52,446.32,251.07,7.53">According to the authors of the paper walking has its inherent property of gradual increase of the intensity profile till the steps are getting closer to the microphone and then gradual decrease when walks past the microphones while the door opening is one off high pitch isolated and localized sound.</s><s xml:id="_WHfB3uy" coords="3,42.52,456.75,251.05,7.53;3,42.52,467.24,160.75,7.53">Also they combined the falling audio activity with the video based falling detection to get a higher accuracy.</s></p><p xml:id="_yVGUrcc" coords="3,54.48,477.67,239.10,7.53;3,42.52,488.16,191.79,7.53;3,109.02,498.59,184.59,7.53;3,42.52,509.08,251.04,7.53;3,42.52,519.51,251.07,7.53;3,42.52,530.00,251.07,7.53;3,42.52,540.43,251.06,7.53;3,42.52,550.92,251.04,7.53;3,42.52,561.35,251.09,7.53;3,42.52,571.84,251.09,7.53;3,42.52,582.27,251.04,7.53;3,42.52,592.76,251.07,7.53;3,42.52,603.19,251.06,7.53;3,42.52,613.68,145.63,7.53;3,264.58,613.68,28.99,7.53;3,42.52,624.11,251.05,7.53;3,42.52,634.60,251.03,7.53;3,42.52,645.03,71.63,7.53"><s xml:id="_pq7kb4H" coords="3,54.48,477.67,239.10,7.53;3,42.52,488.16,191.79,7.53">Different types of events can be recognized by processing audio signals captured within a smart home.</s><s xml:id="_eY7temR" coords="3,240.15,488.16,53.41,7.53;3,42.52,498.59,251.10,7.53;3,42.52,509.08,251.04,7.53;3,42.52,519.51,129.05,7.53"><ref type="bibr" coords="3,240.15,488.16,53.41,7.53;3,42.52,498.59,62.09,7.53" target="#b76">Smeaton and McHugh (2005)</ref> demonstrated that a network of microphones can detect audio events that can significantly summarize a video collection from multiple cameras.</s><s xml:id="_KdqJyxC" coords="3,173.98,519.51,119.61,7.53;3,42.52,530.00,251.07,7.53;3,42.52,540.43,251.06,7.53;3,42.52,550.92,112.29,7.53">The inference of this statement is that in order to extract vital information for video summarization, audio events can be used as they are connected in the time domain up to some extent.</s><s xml:id="_ZwkgN4J" coords="3,159.47,550.92,134.09,7.53;3,42.52,561.35,251.09,7.53;3,42.52,571.84,251.09,7.53;3,42.52,582.27,22.35,7.53">Hence it is somewhat easier, for example, to follow the stepping sound of a child in a house to extract the video clips where the child is walking from room to room.</s><s xml:id="_BhXGJRs" coords="3,67.18,582.27,226.38,7.53;3,42.52,592.76,183.66,7.53">In order to track the child only using video information the field of view of cameras should be overlapping.</s><s xml:id="_RQ3JAEA" coords="3,228.97,592.76,64.61,7.53;3,42.52,603.19,235.06,7.53">But with the use of network of microphones one can bridge the gap very easily.</s><s xml:id="_SegDsuK" coords="3,279.60,603.19,13.97,7.53;3,42.52,613.68,251.05,7.53;3,42.52,624.11,251.05,7.53;3,42.52,634.60,251.03,7.53;3,42.52,645.03,71.63,7.53">The Human Speech Home Project of MIT <ref type="bibr" coords="3,191.90,613.68,68.96,7.53" target="#b73">(Roy et al., 2006)</ref> investigated how continuously captured audio in a smart home can be used for media retrieval, early language learning, and several other applications.</s></p><p xml:id="_rJgHAEj" coords="3,54.48,655.52,239.09,7.53;3,42.52,665.95,251.08,7.53;3,42.52,676.44,251.08,7.53;3,42.52,686.92,251.04,7.53;3,42.52,697.35,251.03,7.53;3,42.52,707.84,214.29,7.53;3,105.80,718.27,84.45,7.53;3,279.33,718.27,14.23,7.53;3,42.52,728.76,54.96,7.53;3,197.91,728.76,95.68,7.53;3,103.17,739.19,190.43,7.53;3,311.53,195.22,199.83,7.53;3,339.25,205.71,223.32,7.53;3,311.53,216.14,226.47,7.53;3,544.19,216.14,3.40,7.53"><s xml:id="_2pjzb7S" coords="3,54.48,655.52,239.09,7.53;3,42.52,665.95,190.28,7.53">A home is an environment with a number of rooms that are connected to each other, directly or indirectly.</s><s xml:id="_kERAJ3U" coords="3,237.37,665.95,56.23,7.53;3,42.52,676.44,226.69,7.53">The degree of connectivity can change with opening and closing of doors.</s><s xml:id="_sT8ETsF" coords="3,271.61,676.44,21.99,7.53;3,42.52,686.92,251.04,7.53;3,42.52,697.35,210.78,7.53">These conditions make sound source localization a prerequisite for multiple source audio analysis in a smart home.</s><s xml:id="_PZY8jhE" coords="3,259.48,697.35,34.08,7.53;3,42.52,707.84,251.04,7.53;3,42.52,718.27,251.04,7.53;3,42.52,728.76,251.07,7.53">Different researches employed different techniques for this task <ref type="bibr" coords="3,260.21,707.84,33.35,7.53;3,42.52,718.27,63.28,7.53" target="#b74">(Rui and Florencio, 2003)</ref>; Microphone arrays <ref type="bibr" coords="3,195.53,718.27,78.54,7.53" target="#b12">(Chen et al., 2005)</ref> and beam-forming <ref type="bibr" coords="3,99.72,728.76,95.88,7.53" target="#b42">(Hoshuyama et al., 1999)</ref> are common approaches.</s><s xml:id="_mrbxWBG" coords="3,42.52,739.19,251.08,7.53;3,311.53,195.22,199.83,7.53"><ref type="formula" coords="3,42.52,739.19,60.65,7.53">Bian et al. (2004</ref>) employed sound source localization followed by classification to infer activities inside a smart home.</s><s xml:id="_FtHQU9C" coords="3,513.86,195.22,48.73,7.53;3,311.53,205.71,251.04,7.53;3,311.53,216.14,236.07,7.53"><ref type="bibr" coords="3,513.86,195.22,48.73,7.53;3,311.53,205.71,25.24,7.53" target="#b57">Liu and Wan (2001)</ref> demonstrated the use of time-domain audio features with supervised learning for multi-class audio classification Fig. <ref type="figure" coords="3,540.79,216.14,3.40,7.53" target="#fig_4">3</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4." xml:id="_PRrbkzd" coords="3,311.53,247.55,200.17,7.53">Multimodal-based techniques in smart homes</head><p xml:id="_YdH5fV9" coords="3,323.49,268.47,54.02,7.53;3,481.61,268.47,80.98,7.53;3,311.53,278.90,251.06,7.53;3,311.53,289.39,251.06,7.53;3,311.53,299.82,251.04,7.53;3,311.53,310.31,251.07,7.53;3,311.53,320.74,251.07,7.53;3,311.53,331.23,251.06,7.53;3,311.53,341.66,251.07,7.53;3,311.53,352.15,251.05,7.53;3,311.53,362.58,251.03,7.53;3,311.53,373.07,251.02,7.53;3,311.53,383.56,251.03,7.53;3,311.53,393.99,174.32,7.53"><s xml:id="_y2Qkr66" coords="3,323.49,268.47,239.10,7.53;3,311.53,278.90,251.06,7.53;3,311.53,289.39,43.74,7.53">In their paper <ref type="bibr" coords="3,380.69,268.47,97.75,7.53" target="#b86">(Vadakkepat et al., 2008)</ref> addressed a scenario where a robot tracks and follows a human using multimodal techniques.</s><s xml:id="_jQc3rmm" coords="3,358.13,289.39,204.46,7.53;3,311.53,299.82,97.19,7.53">The use of multimodality is to improve the accuracy of detection and tracking.</s><s xml:id="_4XjJdGe" coords="3,410.79,299.82,151.77,7.53;3,311.53,310.31,194.63,7.53">A neural network is utilized to learn the skin and non-skin colors of the human in the room.</s><s xml:id="_Hv4gUAe" coords="3,508.19,310.31,54.41,7.53;3,311.53,320.74,251.07,7.53;3,311.53,331.23,80.48,7.53">The skin-color probability map is utilized for skin classification and morphologybased preprocessing.</s><s xml:id="_HWvX6YT" coords="3,395.20,331.23,167.38,7.53;3,311.53,341.66,251.07,7.53;3,311.53,352.15,251.05,7.53;3,311.53,362.58,61.95,7.53">In addition to the visual cues, the tracking process considers 16 sonar scan and tactile sensor readings from the robot to generate a robust measure of the person's distance from the robot.</s><s xml:id="_6QuYD8c" coords="3,377.69,362.58,184.87,7.53;3,311.53,373.07,251.02,7.53;3,311.53,383.56,40.45,7.53">The robot thus decides an appropriate action, namely, to follow the human subject and perform obstacle avoidance.</s><s xml:id="_HqXjAQQ" coords="3,357.50,383.56,205.06,7.53;3,311.53,393.99,174.32,7.53">Heuristic rule is used for face-ratio analysis and Bayesian cost analysis for label classification.</s></p><p xml:id="_yzREZ9C" coords="3,323.49,404.47,239.09,7.53;3,311.53,414.91,251.02,7.53;3,311.53,425.39,251.03,7.53;3,311.53,435.83,22.79,7.53;3,336.64,446.31,225.97,7.53;3,311.53,456.74,251.04,7.53;3,311.53,467.23,206.61,7.53;3,334.85,477.68,227.76,7.53;3,311.53,488.16,251.03,7.53;3,311.53,498.60,25.36,7.53;3,403.00,498.60,4.07,7.53"><s xml:id="_zqEUzUY" coords="3,323.49,404.47,239.09,7.53;3,311.53,414.91,226.05,7.53">Let us look at the research work related to audio-visual based approaches for human activity detection in smart homes.</s><s xml:id="_tE9uQCQ" coords="3,540.90,414.91,21.65,7.53;3,311.53,425.39,251.03,7.53;3,311.53,435.83,251.03,7.53;3,311.53,446.31,251.08,7.53;3,311.53,456.74,90.49,7.53">There are some audio-visual based attempts for human emotion recognition <ref type="bibr" coords="3,336.30,435.83,80.04,7.53" target="#b31">(De Silva et al., 1997;</ref><ref type="bibr" coords="3,418.39,435.83,109.80,7.53" target="#b30">De Silva and Miyasato, 1998;</ref><ref type="bibr" coords="3,530.25,435.83,32.31,7.53;3,311.53,446.31,22.12,7.53" target="#b26">De Silva, 2004)</ref> which can support smart home activities as a background processing mechanism.</s><s xml:id="_3KvvP3r" coords="3,405.75,456.74,156.82,7.53;3,311.53,467.23,251.04,7.54;3,311.53,477.68,27.21,7.53">An excellent survey of audio and video based multimodal affect recognition can be found in <ref type="bibr" coords="3,521.40,467.24,41.16,7.53;3,311.53,477.68,23.32,7.53" target="#b96">Zeng et al. (2009)</ref>.</s><s xml:id="_NC9TCf9" coords="3,341.86,477.68,220.75,7.53;3,311.53,488.16,251.03,7.53;3,311.53,498.60,95.54,7.53">There have also been some attempts to use audio-visual sensors for human activity detection in the context of smart homes <ref type="bibr" coords="3,339.65,498.60,63.35,7.53">(De Silva, 2008e)</ref>.</s></p><p xml:id="_Etp6E5V" coords="3,323.49,509.08,239.11,7.53;3,311.53,519.51,201.57,7.53;3,406.61,540.43,4.03,7.53"><s xml:id="_FeCE57e" coords="3,323.49,509.08,239.11,7.53;3,311.53,519.51,251.04,7.53;3,311.53,530.00,251.07,7.53;3,311.53,540.43,99.11,7.53">Some researches combined data from multiple sensors other than audio or video sensors, to improve the accuracy <ref type="bibr" coords="3,515.33,519.51,47.24,7.53;3,311.53,530.00,44.94,7.53" target="#b33">(Demongeot et al., 2002;</ref><ref type="bibr" coords="3,358.87,530.00,73.29,7.53" target="#b7">Brooks et al., 2003;</ref><ref type="bibr" coords="3,434.55,530.00,66.09,7.53" target="#b4">Beigl et al., 2004;</ref><ref type="bibr" coords="3,503.04,530.00,59.56,7.53;3,311.53,540.43,22.04,7.53" target="#b70">Petrushin et al., 2006;</ref><ref type="bibr" coords="3,336.36,540.43,70.25,7.53" target="#b11">Chana et al., 2008)</ref>.</s></p><p xml:id="_HZ67m2T" coords="3,323.49,550.92,239.10,7.53;3,311.53,561.35,251.02,7.53;3,311.53,571.84,251.04,7.53;3,311.53,582.27,251.07,7.53;3,311.53,592.76,67.11,7.53"><s xml:id="_2kn8ENw" coords="3,323.49,550.92,239.10,7.53;3,311.53,561.35,61.30,7.53">In the next three sections we will look at specific applications of smart homes.</s><s xml:id="_u4jDwkx" coords="3,375.08,561.35,187.47,7.53;3,311.53,571.84,251.04,7.53;3,311.53,582.27,251.07,7.53;3,311.53,592.76,67.11,7.53">Either one or a couple of the three techniques we have discussed in the previous three sections, audio based, video based or multi-modal are being used to achieve these specific application goals.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5." xml:id="_EC3HYhB" coords="3,311.53,624.11,121.34,7.53">Smart homes for eldercare</head><p xml:id="_RdnZAvU" coords="3,323.49,645.03,239.08,7.53;3,311.53,655.52,251.03,7.53;3,311.53,665.95,251.08,7.53;3,311.53,676.44,251.08,7.53;3,311.53,686.93,251.01,7.53;3,311.53,697.36,251.06,7.53;3,311.53,707.85,251.07,7.53;3,311.53,718.28,251.04,7.53;3,311.53,728.77,251.06,7.53;3,311.53,739.20,190.30,7.53;3,558.54,739.20,4.03,7.53;4,44.67,352.16,7.59,7.53;4,136.35,352.16,147.44,7.53;4,32.71,362.59,251.04,7.53;4,32.71,373.08,251.08,7.53;4,32.71,383.51,251.09,7.53;4,32.71,394.00,251.09,7.53;4,32.71,404.48,251.07,7.53;4,32.71,414.92,251.08,7.53;4,32.71,425.40,251.08,7.53;4,32.71,435.84,251.07,7.53;4,32.71,446.32,251.07,7.53;4,32.71,456.75,251.05,7.53;4,32.71,467.24,251.05,7.53;4,32.71,477.67,251.04,7.53;4,32.71,488.16,251.02,7.53;4,32.71,498.59,251.09,7.53;4,32.71,509.08,251.09,7.53;4,32.71,519.51,251.07,7.53;4,32.71,530.00,251.03,7.53;4,32.71,540.43,159.59,7.53"><s xml:id="_bDGkwTj" coords="3,323.49,645.03,239.08,7.53;3,311.53,655.52,132.27,7.53">Smart homes for eldercare applications are growing at a very fast phase in all parts of the world.</s><s xml:id="_VmJ6csA" coords="3,446.06,655.52,116.50,7.53;3,311.53,665.95,251.08,7.53">One main requirement of such applications is the human detection and activity classification.</s><s xml:id="_TEPT7rS" coords="3,311.53,676.44,251.08,7.53;3,311.53,686.93,251.01,7.53;3,311.53,697.36,139.98,7.53">The necessity for the development of human detection methods in the field of modern Home-care and security systems has become very popular and essential.</s><s xml:id="_4XztNNt" coords="3,455.01,697.36,107.58,7.53;3,311.53,707.85,251.07,7.53;3,311.53,718.28,122.66,7.53">There are many techniques currently being used for human detection using many different kinds of sensory information.</s><s xml:id="_GTzWmcH" coords="3,440.04,718.28,122.52,7.53;3,311.53,728.77,251.06,7.53;3,311.53,739.20,251.05,7.53">It is necessary to detect the presence of the human in advance before processing the human activities such as falling, standing or walking etc. <ref type="bibr" coords="3,504.62,739.20,53.93,7.53" target="#b48">(Kainka, 2003)</ref>.</s><s xml:id="_56GT9Jk" coords="4,44.67,352.16,239.11,7.53;4,32.71,362.59,251.04,7.53;4,32.71,373.08,251.08,7.53;4,32.71,383.51,251.09,7.53">In <ref type="bibr" coords="4,56.18,352.16,76.24,7.53" target="#b35">Elliott et al. (2009)</ref> the authors described an experiment that extends the distributive sensing approach to identify the three-dimensional location of an object in constant motion that can be applied to human activity detection in a smart home.</s><s xml:id="_hSPXDKs" coords="4,32.71,394.00,251.09,7.53;4,32.71,404.48,192.51,7.53">Distributive sensing has previously been used in the identification of size and location of statically placed objects.</s><s xml:id="_7NvR5vt" coords="4,229.43,404.48,54.35,7.53;4,32.71,414.92,251.08,7.53;4,32.71,425.40,35.46,7.53">Here, in their paper they propose a novel system to measure balance or sway of a human.</s><s xml:id="_WAcCn9n" coords="4,70.30,425.40,213.49,7.53;4,32.71,435.84,251.07,7.53">They presented an experimental set-up which consisted of a pendulum structure positioned on a supported steel plate.</s><s xml:id="_ZKWmX7X" coords="4,32.71,446.32,251.07,7.53;4,32.71,456.75,251.05,7.53;4,32.71,467.24,202.41,7.53">Three low-cost deflection sensors were positioned under the plate with the resulting signals used as inputs to a neural network implemented on a field-programmable gate array.</s><s xml:id="_3kKTasJ" coords="4,239.58,467.24,44.19,7.53;4,32.71,477.67,251.04,7.53;4,32.71,488.16,251.02,7.53;4,32.71,498.59,136.91,7.53">The results showed that the embedded system can accurately track the pendulum position in real time with a mean tracking error of around 6% in all three dimensions.</s><s xml:id="_hf5Pn8g" coords="4,172.97,498.59,110.83,7.53;4,32.71,509.08,251.09,7.53;4,32.71,519.51,251.07,7.53;4,32.71,530.00,251.03,7.53;4,32.71,540.43,159.59,7.53">This evidence indicated that their technique is sufficiently sensitive and could be implemented in a pragmatic configuration for discriminating between balance and sway, which can be used to detect fall of an elderly in a smart home environment just before it happen.</s></p><p xml:id="_ZdWpdfm" coords="4,44.67,550.92,239.08,7.53;4,32.71,561.35,81.08,7.53;4,110.33,571.84,79.18,7.53;4,272.98,571.84,10.78,7.53;4,32.71,582.27,251.03,7.53;4,32.71,592.76,219.62,7.53;4,108.20,603.19,175.56,7.53;4,32.71,613.68,251.06,7.53;4,32.71,624.11,251.06,7.53;4,32.71,634.60,126.58,7.53;4,58.85,645.03,83.61,7.53;4,212.92,645.03,70.82,7.53;4,32.71,655.52,251.03,7.53;4,32.71,665.95,251.05,7.53;4,80.73,676.44,55.30,7.53;4,203.76,676.44,80.01,7.53;4,32.71,686.87,61.17,7.53;4,161.41,686.87,122.33,7.53;4,32.71,697.36,251.05,7.53;4,32.71,707.79,170.09,7.53"><s xml:id="_xXmkfwu" coords="4,44.67,550.92,239.08,7.53;4,32.71,561.35,251.08,7.53;4,32.71,571.84,251.05,7.53;4,32.71,582.27,110.32,7.53">There are numerous Smart Home projects that intend to make daily life comfortable <ref type="bibr" coords="4,115.82,561.35,93.53,7.53" target="#b33">(Demongeot et al., 2002;</ref><ref type="bibr" coords="4,211.35,561.35,72.44,7.53" target="#b62">Ogawa et al., 2002;</ref><ref type="bibr" coords="4,32.71,571.84,75.02,7.53" target="#b68">Pereira et al., 2006)</ref> Aware Home Project <ref type="bibr" coords="4,192.13,571.84,78.20,7.53" target="#b0">(Abowd et al., 2002)</ref> for supporting elderly residents.</s><s xml:id="_3udeX87" coords="4,145.70,582.27,138.04,7.53;4,32.71,592.76,251.04,7.53;4,32.71,603.19,79.49,7.53">Basic activities such as opening and closing of doors was recorded using switch-based sensors <ref type="bibr" coords="4,254.54,592.76,29.21,7.53;4,32.71,603.19,75.48,7.53" target="#b63">(Ogawa and Togawa, 2000)</ref>.</s><s xml:id="_KkvnpRr" coords="4,117.19,603.19,166.57,7.53;4,32.71,613.68,251.06,7.53;4,32.71,624.11,18.11,7.53">Numerous types of sensors are used for tracking and detection of the persons and recognize their activities.</s><s xml:id="_rSASn9t" coords="4,55.79,624.11,227.98,7.53;4,32.71,634.60,35.64,7.53">Use of cameras and image analysis for this purpose is common.</s><s xml:id="_JAeMsND" coords="4,72.45,634.60,211.33,7.53;4,32.71,645.03,251.03,7.53;4,32.71,655.52,178.20,7.53">In Easy Living Project <ref type="bibr" coords="4,163.39,634.60,60.88,7.53" target="#b8">(Brumitt, 2000;</ref><ref type="bibr" coords="4,228.36,634.60,55.42,7.53;4,32.71,645.03,22.07,7.53" target="#b51">Krumm et al., 2000)</ref> and Intelligent Space <ref type="bibr" coords="4,146.55,645.03,66.37,7.53" target="#b54">(Lee et al., 1999)</ref>, the positions of humans are detected using multiple cameras.</s><s xml:id="_Tv5tS98" coords="4,214.07,655.52,69.68,7.53;4,32.71,665.95,251.05,7.53;4,32.71,676.44,251.05,7.53;4,32.71,686.87,251.02,7.53;4,32.71,697.36,251.05,7.53;4,32.71,707.79,170.09,7.53">However, alternative methods such as Radio Frequency Identification (RFID) tags <ref type="bibr" coords="4,32.71,676.44,48.01,7.53" target="#b47">(Juels, 2006)</ref>, optical tags <ref type="bibr" coords="4,140.88,676.44,58.01,7.53" target="#b48">(Kainka, 2003)</ref> and Infra-red based motion sensors <ref type="bibr" coords="4,99.04,686.87,57.22,7.53" target="#b59">(Moore, 1999)</ref> have been used where image acquisition and analysis is not possible due to issues such as privacy, disk space, and computational cost.</s></p><p xml:id="_H8xBEsH" coords="4,44.67,718.28,239.07,7.53;4,32.71,728.71,251.08,7.53;4,32.71,739.19,8.02,7.53;4,373.66,352.15,179.07,7.53;4,301.72,362.58,251.00,7.53;4,301.72,373.07,251.04,7.53;4,301.72,383.50,251.04,7.53;4,301.72,393.99,251.04,7.53;4,301.72,404.48,251.03,7.53;4,301.72,414.91,198.52,7.53;4,352.76,425.40,200.02,7.53;4,301.72,435.83,251.03,7.53;4,301.72,446.32,251.02,7.53;4,301.72,456.75,251.03,7.53;4,301.72,467.24,251.07,7.53;4,301.72,477.67,251.04,7.53;4,301.72,488.16,251.04,7.53;4,301.72,498.59,108.06,7.53"><s xml:id="_v5uCsdf" coords="4,44.67,718.28,239.07,7.53;4,32.71,728.71,123.77,7.53">Human detection techniques at present can be either video based or any other sensor based.</s><s xml:id="_CFP3UPc" coords="4,158.62,728.71,125.17,7.53;4,32.71,739.19,251.04,7.53;4,301.72,352.15,251.01,7.53;4,301.72,362.58,251.00,7.53;4,301.72,373.07,199.31,7.53">Sensor based detections are such as <ref type="bibr" coords="4,45.87,739.19,112.24,7.53" target="#b63">(Ogawa and Togawa, 2000;</ref><ref type="bibr" coords="4,163.22,739.19,81.74,7.53" target="#b61">Ogawa et al., 2001;</ref><ref type="bibr" coords="4,250.07,739.19,33.68,7.53;4,301.72,352.15,66.51,7.53" target="#b56">Lim and Kriegman, 2004)</ref> where infrared sensors and carbon dioxide sensors are used to detect motion and magnetic sensors are utilized to detect the opening and closing of doors.</s><s xml:id="_SwvjCxc" coords="4,503.99,373.07,48.76,7.53;4,301.72,383.50,251.04,7.53;4,301.72,393.99,251.04,7.53;4,301.72,404.48,214.51,7.53">An illumination sensor is a type of sensor where once the subject is present, the sensor relies on changes in the environment caused by the subject to trigger a chain of events in the circuit.</s><s xml:id="_f9TnQfW" coords="4,521.74,404.48,31.02,7.53;4,301.72,414.91,251.04,7.53;4,301.72,425.40,55.06,7.53">A more fascinating approach is a system called Cenwits <ref type="bibr" coords="4,505.30,414.91,47.46,7.53;4,301.72,425.40,51.04,7.53" target="#b43">(Huang and Mishra, 2005)</ref>.</s><s xml:id="_AKPYeBP" coords="4,359.21,425.40,193.57,7.53;4,301.72,435.83,26.72,7.53">Connection-less Sensor-Based Tracking Using Witnesses.</s><s xml:id="_vEvTgp3" coords="4,331.48,435.83,221.27,7.53;4,301.72,446.32,116.59,7.53">This is a mobile system that emits a signal from time to time using RF communication.</s><s xml:id="_TJvdNWs" coords="4,420.60,446.32,132.14,7.53;4,301.72,456.75,251.03,7.53;4,301.72,467.24,251.07,7.53;4,301.72,477.67,175.47,7.53">When two of these mobile sensors are close to each other, information is gathered such as time and location at that time of the subject carrying the sensor and finally all information is dumped at an access point.</s><s xml:id="_8eMQSHP" coords="4,480.02,477.67,72.75,7.53;4,301.72,488.16,251.04,7.53;4,301.72,498.59,108.06,7.53">This system would be useful for application in a large area where it being necessary to keep track of individuals.</s></p><p xml:id="_vNpDBCE" coords="4,313.63,509.07,53.73,7.53;4,442.89,509.07,109.89,7.53;4,301.72,519.51,251.02,7.53;4,301.72,529.99,251.03,7.53;4,301.72,540.43,110.32,7.53"><s xml:id="_T8JumGY" coords="4,313.63,509.07,239.15,7.53;4,301.72,519.51,157.92,7.53">The paper by <ref type="bibr" coords="4,370.72,509.07,68.86,7.53" target="#b95">You et al. (2008)</ref> has two goals, one is elder care and the other is childcare support.</s><s xml:id="_EW4D9R5" coords="4,462.25,519.51,90.48,7.53;4,301.72,529.99,251.03,7.53;4,301.72,540.43,110.32,7.53">AIST Japan under their Digital Human project had built a Smart home for child accident prevention (AIST).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6." xml:id="_5Xx7vyS" coords="4,301.72,571.83,152.34,7.53">Smart homes for energy efficiency</head><p xml:id="_BkfjTAF" coords="4,313.63,592.75,239.14,7.53;4,301.72,603.18,251.08,7.53;4,301.72,613.67,251.03,7.53;4,301.72,624.10,251.06,7.53;4,301.72,634.59,251.05,7.53;4,301.72,645.02,164.73,7.53;4,540.34,645.02,12.42,7.53;4,301.72,655.51,251.04,7.53;4,301.72,665.94,251.05,7.53;4,301.72,676.43,76.52,7.53;4,388.91,676.44,163.86,7.53;4,301.72,686.93,251.01,7.53;4,301.72,697.36,251.04,7.53;4,301.72,707.85,251.02,7.53;4,301.72,718.28,181.26,7.53"><s xml:id="_uEpF5k2" coords="4,313.63,592.75,239.14,7.53;4,301.72,603.18,251.08,7.53;4,301.72,613.67,80.36,7.53">In recent days we can find there are a growing number of new research proposals and findings in related to new and alternative energy technologies.</s><s xml:id="_TByEVNB" coords="4,386.19,613.67,166.56,7.53;4,301.72,624.10,251.06,7.53;4,301.72,634.59,52.19,7.53">However there are many easy and cheap ways to reduce energy use at our homes by efficient energy management.</s><s xml:id="_eaCvseR" coords="4,356.77,634.59,196.00,7.53;4,301.72,645.02,115.03,7.53">Most of these simply require a change in behavior of the occupants of the home.</s><s xml:id="_XbEMD5s" coords="4,419.36,645.02,133.41,7.53;4,301.72,655.51,251.04,7.53;4,301.72,665.94,251.05,7.53;4,301.72,676.43,60.43,7.53">In the paper <ref type="bibr" coords="4,469.07,645.02,68.62,7.53" target="#b52">(Lach et al., 2007)</ref> the authors proposed an automatic monitoring system to reduce the energy usage of a typical home by using WIFI technology enabled smart switches.</s><s xml:id="_fQegWpB" coords="4,365.05,676.43,187.73,7.54;4,301.72,686.93,29.07,7.53">Fig. <ref type="figure" coords="4,381.15,676.43,4.83,7.53" target="#fig_2">4</ref> shows the GUI of the presented prototype system.</s><s xml:id="_26mWyqN" coords="4,333.58,686.93,219.15,7.53;4,301.72,697.36,251.04,7.53;4,301.72,707.85,251.02,7.53;4,301.72,718.28,181.26,7.53">In their project they were looking ahead to enhance this technology by adding different types of sensors to enhance the automatic monitoring and control of the environment according to the user preference based on their profiling.</s></p><p xml:id="_BzYyK4V" coords="4,313.62,728.77,63.21,7.53;4,470.44,728.77,82.34,7.53;4,301.72,739.20,16.26,7.53;4,325.62,739.20,227.13,7.53;5,42.52,488.16,251.05,7.53;5,42.52,498.60,251.09,7.53;5,42.52,509.08,251.05,7.53;5,42.52,519.52,251.05,7.53;5,42.52,530.00,251.03,7.53;5,42.52,540.43,251.09,7.53;5,42.52,550.92,251.08,7.53;5,42.52,561.35,251.04,7.53;5,42.52,571.84,251.07,7.53;5,42.52,582.27,251.03,7.53;5,42.52,592.76,251.09,7.53;5,42.52,603.19,251.03,7.53;5,42.52,613.68,92.42,7.53"><s xml:id="_JhQv3gG" coords="4,313.62,728.77,239.15,7.53;4,301.72,739.20,251.03,7.53;5,42.52,488.16,171.72,7.53">In the paper by <ref type="bibr" coords="4,380.81,728.77,85.62,7.53" target="#b72">Reinisch et al. (2011)</ref> in their Think Home (Fig. <ref type="figure" coords="4,321.67,739.20,3.95,7.53" target="#fig_3">5</ref>) they looked into the use of a multi-agent technique to reduce the energy consumption in a house.</s><s xml:id="_NbcsH2s" coords="5,217.70,488.16,75.87,7.53;5,42.52,498.60,251.09,7.53;5,42.52,509.08,251.05,7.53;5,42.52,519.52,135.69,7.53">Their work puts its focus on alleviating the current problems by proposing a comprehensive system concept that ensures the smart homes can keep their promise in the future.</s><s xml:id="_CJrHmbe" coords="5,182.72,519.52,110.85,7.53;5,42.52,530.00,251.03,7.53;5,42.52,540.43,209.80,7.53">The system operates on an extensive knowledge base that stores all information needed to fulfill the goals of energy efficiency and user comfort.</s><s xml:id="_jJyakAB" coords="5,255.34,540.43,38.28,7.53;5,42.52,550.92,251.08,7.53;5,42.52,561.35,229.50,7.53">Its intelligence is implemented as and within a multi-agent system that also caters for the system's openness to the outside world.</s><s xml:id="_abSZPKu" coords="5,275.01,561.35,18.55,7.53;5,42.52,571.84,251.07,7.53;5,42.52,582.27,251.03,7.53;5,42.52,592.76,76.92,7.53">They propose several agents such as Global goal agent, Control agent, User agent, Auxiliary data agent, and Interface agent etc. to execute the system.</s><s xml:id="_gpjq6Uh" coords="5,122.34,592.76,171.27,7.53;5,42.52,603.19,251.03,7.53;5,42.52,613.68,92.42,7.53">Different agents contain and provide intelligence regarding aspects such as user preferences, auxiliary data, and control parameters.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7." xml:id="_VQ5K9PQ" coords="5,42.52,645.03,216.86,7.53">Multimedia retrieval for ubiquitous environments</head><p xml:id="_QrCvkhZ" coords="5,54.48,665.95,239.16,7.53;5,42.52,676.44,251.04,7.53;5,42.52,686.93,250.95,7.53;5,42.52,697.36,251.04,7.53;5,42.52,707.85,251.05,7.53;5,42.52,718.28,251.01,7.53;5,42.52,728.77,251.04,7.53;5,42.52,739.20,250.97,7.53;5,311.53,634.60,251.02,7.53;5,311.53,645.03,251.00,7.53;5,311.53,655.52,155.81,7.53"><s xml:id="_N5F8pPa" coords="5,54.48,665.95,239.16,7.53;5,42.52,676.44,155.81,7.53">Automated capture of experiences taking place at home is interesting owing to a number of reasons.</s><s xml:id="_DTgFnWG" coords="5,200.83,676.44,92.73,7.53;5,42.52,686.93,250.95,7.53">Home is an environment where a variety of important events and experiences take place.</s><s xml:id="_EUpATM3" coords="5,42.52,697.36,251.04,7.53;5,42.52,707.85,119.88,7.53">Some of these, such as the first footsteps of a child, provide no opportunity for manual capture.</s><s xml:id="_hNqRp6j" coords="5,164.95,707.85,128.62,7.53;5,42.52,718.28,251.01,7.53;5,42.52,728.77,84.42,7.53">Some others are so important that humans do not want to keep themselves out of the experience to shoot photos or video.</s><s xml:id="_vwq5BRA" coords="5,129.89,728.77,163.67,7.53;5,42.52,739.20,250.97,7.53;5,311.53,634.60,180.03,7.53">A corpus of interactions and experiences at home can provide valuable information for studies related to the design of better housing, human behavior, etc.</s><s xml:id="_eyjMEY5" coords="5,495.25,634.60,67.29,7.53;5,311.53,645.03,251.00,7.53;5,311.53,655.52,155.81,7.53">Other prospective applications include assistance for elderly residents and aiding recollection of things that were forgotten.</s></p><p xml:id="_GNTxW3S" coords="5,323.49,665.95,239.09,7.53;5,311.53,676.44,251.06,7.53;5,311.53,686.87,251.04,7.53;5,311.53,697.36,251.03,7.53;5,311.53,707.79,251.04,7.53;5,311.53,718.28,251.06,7.53;5,311.53,728.71,251.04,7.53;5,311.53,739.20,251.03,7.53;6,32.71,59.28,251.05,7.53;6,32.71,69.71,143.09,7.53"><s xml:id="_Zx7b8YF" coords="5,323.49,665.95,239.09,7.53;5,311.53,676.44,251.06,7.53">Both capture and retrieval of experiences in a home-like environment is extremely difficult due to a number of reasons.</s><s xml:id="_FKFMjbn" coords="5,311.53,686.87,251.04,7.53;5,311.53,697.36,251.03,7.53;5,311.53,707.79,251.04,7.53;5,311.53,718.28,89.24,7.53">Even the simplest and the smallest of the houses are partitioned into a number of rooms or regions, making it necessary to have a large number of cameras and a fair number of microphones for complete data capture.</s><s xml:id="_hr56cvP" coords="5,403.88,718.28,158.71,7.53;5,311.53,728.71,251.04,7.53;5,311.53,739.20,146.58,7.53">Continuous recording of data from these devices, to ensure the capture of all important experiences, results in a very large amount of data.</s><s xml:id="_SwRETCg" coords="5,460.63,739.20,101.93,7.53;6,32.71,59.28,251.05,7.53;6,32.71,69.71,143.09,7.53">The level of privacy differs   at different places of a house, and sometimes certain regions are shared only among certain residents.</s></p><p xml:id="_7ESX7qD" coords="6,44.67,80.20,239.07,7.53;6,32.71,90.63,251.08,7.53;6,32.71,101.12,251.07,7.53;6,32.71,111.55,251.07,7.53;6,32.71,122.04,251.02,7.53;6,32.71,132.47,251.06,7.53;6,32.71,142.96,28.18,7.53;6,44.67,163.88,239.08,7.53;6,44.67,174.31,239.13,7.53;6,44.67,184.80,21.13,7.53"><s xml:id="_XYuTbru" coords="6,44.67,80.20,239.07,7.53;6,32.71,90.63,166.42,7.53">The most difficult problems, however, arise during retrieval and summarization of the captured data.</s><s xml:id="_65nmj5s" coords="6,203.52,90.63,80.27,7.53;6,32.71,101.12,251.07,7.53;6,32.71,111.55,51.42,7.53">Content captured at home is much less structured compared to that from any other environment.</s><s xml:id="_UqYVVPb" coords="6,86.11,111.55,197.67,7.53;6,32.71,122.04,251.02,7.53;6,32.71,132.47,44.52,7.53">Queries for retrieval could be at very different levels of complexity, and the results can be in various levels of granularity.</s><s xml:id="_XGnmkMd" coords="6,81.92,132.47,201.85,7.53;6,32.71,142.96,28.18,7.53;6,44.67,163.88,239.08,7.53;6,44.67,174.31,239.13,7.53;6,44.67,184.80,21.13,7.53">Some examples are shown below (as of de Silva (2007): Show the video from the camera near the entrance to the living room, from 8:30 pm to 9:00 pm, on the 1st of February, 2005.</s></p><p xml:id="_WA2xAe3" coords="6,313.63,59.28,239.14,7.53;6,313.63,69.71,41.66,7.53"><s xml:id="_MSFKunW" coords="6,313.63,59.28,239.14,7.53;6,313.63,69.71,41.66,7.53">What was our child doing between 5:30 and 6:30 pm yesterday?</s></p><p xml:id="_2WSZqb3" coords="6,313.63,80.20,166.80,7.53;6,313.63,90.63,239.14,7.53;6,313.63,101.12,21.99,7.53"><s xml:id="_bZyMG6X" coords="6,313.63,80.20,166.80,7.53">On which date did Jeff visit us last month?</s><s xml:id="_e25wAyy" coords="6,313.63,90.63,239.14,7.53;6,313.63,101.12,21.99,7.53">How did the strawberry jam that I bought last week finish in 4 days?</s></p><p xml:id="_WTWKGsZ" coords="6,313.63,122.10,239.16,7.53;6,301.72,132.59,251.04,7.53;6,301.72,143.02,251.02,7.53;6,301.72,153.51,251.01,7.53;6,301.72,163.94,251.05,7.53;6,301.72,174.43,251.04,7.53;6,301.72,184.91,251.07,7.53;6,301.72,195.34,251.03,7.53;6,301.72,205.83,251.05,7.53;6,301.72,216.26,251.03,7.53;7,42.52,394.00,251.08,7.53;7,42.52,404.49,91.90,7.53"><s xml:id="_sAyp937" coords="6,313.63,122.10,239.16,7.53;6,301.72,132.59,251.04,7.53;6,301.72,143.02,251.02,7.53;6,301.72,153.51,34.33,7.53">Given the large content and the state of the art of content processing algorithms, multimedia retrieval for ubiquitous environments based solely on content analysis is neither efficient nor accurate.</s><s xml:id="_dNWzgtA" coords="6,338.80,153.51,213.94,7.53;6,301.72,163.94,171.09,7.53">Therefore, it is desirable to make use of supplementary data from other sensors for easier retrieval.</s><s xml:id="_YPJQYrm" coords="6,476.10,163.94,76.67,7.53;6,301.72,174.43,251.04,7.53;6,301.72,184.91,197.12,7.53">For example, proximity sensors that get activated by human presence will remove the burden of image analysis for human detection.</s><s xml:id="_ZZdbzmE" coords="6,501.73,184.91,51.07,7.53;6,301.72,195.34,251.03,7.53;6,301.72,205.83,251.05,7.53;6,301.72,216.26,152.02,7.53">Since ubiquitous environments are built with infrastructure to support cameras and microphones for capture, it is relatively easy to add additional sensors to acquire such data.</s><s xml:id="_QjY6QND" coords="6,456.26,216.26,96.49,7.53;7,42.52,394.00,251.08,7.53;7,42.52,404.49,91.90,7.53">Domain knowledge, such   as the purpose of use for each room, is also helpful in the design of algorithms for retrieval.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7.1." xml:id="_YVM2wBA" coords="7,42.52,425.40,59.05,7.53">Motivation</head><p xml:id="_ft4d3s6" coords="7,54.48,446.32,239.13,7.53;7,42.52,456.76,250.99,7.53;7,42.52,467.24,251.05,7.53;7,42.52,477.67,251.03,7.53;7,42.52,488.16,251.03,7.53;7,42.52,498.59,251.07,7.53;7,42.52,509.08,251.13,7.53;7,42.52,519.51,251.09,7.53;7,42.52,530.00,251.03,7.53;7,42.52,540.43,251.02,7.53;7,42.52,550.92,251.09,7.53;7,42.52,561.35,251.11,7.53;7,42.52,571.84,251.03,7.53;7,42.52,582.27,220.01,7.53"><s xml:id="_aTuzFwe" coords="7,54.48,446.32,239.13,7.53;7,42.52,456.76,250.99,7.53;7,42.52,467.24,129.14,7.53">Investigation in to automated retrieval of experiences at home can be useful in several other aspects, in addition to the significances mentioned above.</s><s xml:id="_tCdrPX8" coords="7,176.94,467.24,116.64,7.53;7,42.52,477.67,251.03,7.53;7,42.52,488.16,57.05,7.53">This topic encompasses the general research areas of multimedia retrieval and ubiquitous environments.</s><s xml:id="_BCF46Mw" coords="7,102.86,488.16,190.69,7.53;7,42.52,498.59,251.07,7.53;7,42.52,509.08,35.61,7.53">However, a home is much less controlled compared to the other ubiquitous environments used in related research.</s><s xml:id="_JFWPfjM" coords="7,82.67,509.08,210.98,7.53;7,42.52,519.51,251.09,7.53;7,42.52,530.00,251.03,7.53;7,42.52,540.43,35.72,7.53">Video captured at home are unstructured content, marking a significant contrast from news, sports or instructional video which are the common inputs for automated retrieval.</s><s xml:id="_fUHXABc" coords="7,85.27,540.43,208.27,7.53;7,42.52,550.92,251.09,7.53;7,42.52,561.35,57.89,7.53">Therefore, the selected topic will pose several research challenges, with prospects of significant contributions to these areas.</s><s xml:id="_SXhMTNE" coords="7,103.48,561.35,190.15,7.53;7,42.52,571.84,251.03,7.53;7,42.52,582.27,220.01,7.53">The outcomes of this research are applicable in areas with practical significance, such as automated surveillance, elder care, and automated video summarization.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7.2." xml:id="_bTV3GgF" coords="7,42.52,603.19,79.20,7.53">Related research</head><p xml:id="_hV2E6pC" coords="7,54.48,624.11,239.11,7.53;7,42.52,634.60,251.06,7.53;7,42.52,645.03,251.06,7.53;7,42.52,655.52,251.06,7.53;7,42.52,665.95,251.04,7.53;7,42.52,676.44,251.04,7.53;7,42.52,686.93,83.03,7.53;7,182.26,686.93,111.32,7.53;7,42.52,697.36,251.03,7.53;7,42.52,707.84,251.06,7.53;7,42.52,718.28,128.41,7.53;7,249.39,718.28,44.22,7.53;7,42.52,728.76,251.08,7.53;7,42.52,739.20,251.05,7.53;7,311.53,393.99,251.06,7.53;7,311.53,404.48,251.01,7.53;7,311.53,414.91,251.04,7.53;7,311.53,425.40,166.54,7.53;7,331.57,435.83,231.02,7.53;7,311.53,446.32,156.59,7.53"><s xml:id="_KKZS2yy" coords="7,54.48,624.11,239.11,7.53;7,42.52,634.60,251.06,7.53;7,42.52,645.03,251.06,7.53;7,42.52,655.52,64.43,7.53">Research on multimedia retrieval for smart homes and other smart environments has become possible due to the recent developments in storage technologies facilitating recording large amounts of data.</s><s xml:id="_4VwmUSu" coords="7,109.47,655.52,184.10,7.53;7,42.52,665.95,39.56,7.53">There are several ongoing projects that work on this topic.</s><s xml:id="_cPKWc3q" coords="7,86.23,665.95,207.33,7.53;7,42.52,676.44,200.18,7.53">Applications in this category include meeting video retrieval and summarization of instructional video.</s><s xml:id="_fM3p2Ez" coords="7,246.04,676.44,47.52,7.53;7,42.52,686.93,251.06,7.53;7,42.52,697.36,251.03,7.53;7,42.52,707.84,146.74,7.53">Some of the projects, such as CHIL <ref type="bibr" coords="7,127.84,686.93,54.42,7.53" target="#b89">(Waibel, 2005)</ref>, attempted to combine both the above directions by supporting user interaction real-time and using retrieval for long term support.</s><s xml:id="_qNr3xUn" coords="7,192.52,707.84,101.06,7.53;7,42.52,718.28,251.09,7.53;7,42.52,728.76,138.81,7.53">The college of computing, Georgia Institute of Technology <ref type="bibr" coords="7,176.03,718.28,73.36,7.53" target="#b5">(Bian et al., 2004)</ref>, has constructed several smart classrooms.</s><s xml:id="_R8R6rnc" coords="7,185.95,728.76,107.65,7.53;7,42.52,739.20,251.05,7.53;7,311.53,393.99,234.80,7.53">These rooms are equipped with multiple data projectors, cameras and active white boards, to facilitate capturing of lectures for later review by students.</s><s xml:id="_3tDGREU" coords="7,548.61,393.99,13.97,7.53;7,311.53,404.48,251.01,7.53;7,311.53,414.91,63.31,7.53">The classrooms are also equipped with stylus based tablets for the use of the students.</s><s xml:id="_JvUrDC2" coords="7,379.10,414.91,183.47,7.53;7,311.53,425.40,251.05,7.53;7,311.53,435.83,24.05,7.53">Xerox PARC uses infrared beacons to provide improved user interfaces for smart rooms <ref type="bibr" coords="7,481.83,425.40,80.75,7.53;7,311.53,435.83,20.04,7.53" target="#b92">(Want and Borriello, 2000)</ref>.</s><s xml:id="_SuydjmH" coords="7,338.34,435.83,224.24,7.53;7,311.53,446.32,156.59,7.53">A graphical user interface is used to control equipment in the room, with the aid of these beacons.</s></p><p xml:id="_CRyUhz5" coords="7,323.49,456.75,239.08,7.53;7,311.53,467.24,251.09,7.53;7,311.53,477.67,180.12,7.53;7,311.53,488.16,251.09,7.53;7,311.53,498.59,251.06,7.53;7,311.53,509.08,251.07,7.53;7,311.53,519.51,251.02,7.53;7,311.53,530.00,251.07,7.53;7,311.53,540.43,251.13,7.53;7,311.53,550.91,154.58,7.53;7,339.65,561.35,222.88,7.53;7,311.53,571.83,251.09,7.53;7,311.53,582.27,211.02,7.53"><s xml:id="_eefwSre" coords="7,323.49,456.75,239.08,7.53;7,311.53,467.24,251.09,7.53;7,311.53,477.67,180.12,7.53">The Ubiquitous Sensor Room is an environment that captures data from both wearable and ubiquitous sensors to retrieve video diaries related to experiences of each person in the room.</s><s xml:id="_WTUM8PP" coords="7,493.51,477.67,69.06,7.53;7,311.53,488.16,251.09,7.53;7,311.53,498.59,231.95,7.53"><ref type="bibr" coords="7,493.51,477.67,69.06,7.53" target="#b46">Jaimes et al. (2004)</ref> utilize graphical representations of important memory cues for interactive video retrieval from a ubiquitous environment.</s><s xml:id="_ZVzdPce" coords="7,549.10,498.59,13.50,7.53;7,311.53,509.08,251.07,7.53;7,311.53,519.51,251.02,7.53;7,311.53,530.00,81.53,7.53">The Sensing Room is a ubiquitous sensing environment equipped with cameras, floor sensors and RFID sensors for long-term analysis of daily human behavior.</s><s xml:id="_cqsyn8e" coords="7,395.21,530.00,167.39,7.53;7,311.53,540.43,251.13,7.53;7,311.53,550.91,154.58,7.53">Video and sensor data are segmented into 10min intervals and the activity in the room during each segment is recognized using a Hidden Markov Model.</s><s xml:id="_uaJGxpd" coords="7,468.45,550.91,94.09,7.53;7,311.53,561.35,251.00,7.53;7,311.53,571.83,251.09,7.53;7,311.53,582.27,211.02,7.53"><ref type="bibr" coords="7,468.45,550.91,94.09,7.53;7,311.53,561.35,23.99,7.53" target="#b58">Matsuoka and Fukushima (2004)</ref> attempted to understand and support daily activities in a house, using a single camera installed in each room and sensors attached to the floor, furniture and household appliances.</s></p><p xml:id="_ABbNDaY" coords="7,323.49,592.75,66.37,7.53;7,524.64,592.75,37.95,7.53;7,311.53,603.18,251.06,7.53;7,311.53,613.67,251.02,7.53;7,311.53,624.10,251.04,7.53;7,311.53,634.59,251.01,7.53;7,311.53,645.02,251.06,7.53;7,311.53,655.51,251.05,7.53;7,311.53,665.94,251.04,7.53;7,311.53,676.43,251.03,7.53;7,311.53,686.86,251.02,7.53;7,311.53,697.35,251.03,7.53;7,311.53,707.78,251.03,7.53;7,311.53,718.27,251.04,7.53;7,311.53,728.70,251.05,7.53;7,311.53,739.19,251.07,7.53;7,422.32,103.09,3.53,6.03;7,48.47,111.65,90.99,6.03;7,464.54,111.65,3.54,6.03;7,48.47,120.21,94.86,6.03;7,310.27,120.21,3.56,6.03;7,48.47,128.77,90.58,6.03;7,197.80,128.77,18.45,6.03;7,48.47,137.33,115.04,6.03;7,326.67,137.33,3.54,6.03;7,48.47,145.89,117.60,6.03;7,57.37,154.45,59.42,6.03;7,42.52,190.00,17.25,6.03;7,42.52,198.61,208.80,6.03"><s xml:id="_uE9AzMn" coords="7,323.49,592.75,239.09,7.53;7,311.53,603.18,233.23,7.53">In their paper (de <ref type="bibr" coords="7,391.98,592.75,130.52,7.53">Silva and Yamasaki et al., 2008c,d)</ref> presented their techniques for experience retrieval in a smart home.</s><s xml:id="_qPTN9En" coords="7,548.61,603.18,13.97,7.53;7,311.53,613.67,251.02,7.53;7,311.53,624.10,251.04,7.53;7,311.53,634.59,48.55,7.53">The smart home they have analysed was equipped with 19 cameras, 25 microphones and pressure-based sensors mounted on the house floor.</s><s xml:id="_Vhm7Sed" coords="7,366.18,634.59,196.36,7.53;7,311.53,645.02,251.06,7.53;7,311.53,655.51,224.47,7.53">Hierarchical clustering of pressure sensor data followed by video handover automatically created videos tracking residents as they walked to and from different rooms.</s><s xml:id="_nMWcSH7" coords="7,540.67,655.51,21.91,7.53;7,311.53,665.94,251.04,7.53;7,311.53,676.43,56.78,7.53">Video summarization reduced these videos to sets of key frames, for faster viewing.</s><s xml:id="_MFJVp7V" coords="7,371.17,676.43,191.39,7.53;7,311.53,686.86,241.71,7.53">Sound source localization followed by supervised machine learning facilitated video indexing by audio events.</s><s xml:id="_B4hVw5c" coords="7,557.11,686.86,5.44,7.53;7,311.53,697.35,251.03,7.53;7,311.53,707.78,251.03,7.53;7,311.53,718.27,179.74,7.53">A user interface based on hierarchical media segmentation combined these results to enable residents to retrieve their life experiences in a fast and effective manner.</s><s xml:id="_m5eMm5d" coords="7,496.29,718.27,66.29,7.53;7,311.53,728.70,251.05,7.53;7,311.53,739.19,251.07,7.53;7,197.80,103.09,228.05,6.03;7,48.47,111.65,90.99,6.03;7,197.80,111.65,270.29,6.03;7,48.47,120.21,94.86,6.03;7,197.80,120.21,116.03,6.03;7,48.47,128.77,90.58,6.03;7,197.80,128.77,71.41,6.03;7,48.47,137.33,115.04,6.03;7,197.80,137.33,132.41,6.03;7,48.47,145.89,117.60,6.03;7,57.37,154.45,59.42,6.03;7,197.80,145.89,358.80,6.03;7,197.80,154.45,82.41,6.03;7,42.52,190.00,23.37,6.03;7,42.52,198.61,208.80,6.03">The system was evaluated by a family who stayed in the smart home and used the system to retrieve their experiences six months after their  <ref type="bibr" coords="7,197.80,103.09,48.05,6.03" target="#b18">(de Silva, 2003;</ref><ref type="bibr" coords="7,248.09,103.09,73.38,6.03" target="#b78">Tan and De Silva, 2003;</ref><ref type="bibr" coords="7,323.72,103.09,50.03,6.03">Tan et al., 2003;</ref><ref type="bibr" coords="7,375.99,103.09,46.34,6.03">De Silva, 2008e</ref>) 2 Smart homes for eldercare <ref type="bibr" coords="7,197.80,111.65,66.47,6.03" target="#b31">(De Silva et al., 1997;</ref><ref type="bibr" coords="7,266.46,111.65,90.33,6.03" target="#b30">De Silva and Miyasato, 1998;</ref><ref type="bibr" coords="7,359.04,111.65,60.40,6.03" target="#b0">Abowd et al., 2002;</ref><ref type="bibr" coords="7,421.68,111.65,42.86,6.03" target="#b26">De Silva, 2004</ref>) 3 Smart homes for healthcare <ref type="bibr" coords="7,197.80,120.21,65.39,6.03" target="#b94">(Yong and Lee, 2002;</ref><ref type="bibr" coords="7,265.44,120.21,44.84,6.03" target="#b10">Cai et al., 2005</ref>) 4 Smart homes for childcare (AIST; <ref type="bibr" coords="7,218.49,128.77,50.72,6.03" target="#b95">You et al., 2008)</ref> 5 Smart homes for energy efficiency <ref type="bibr" coords="7,197.80,137.33,66.30,6.03" target="#b29">(De Silva et al., 2009;</ref><ref type="bibr" coords="7,266.34,137.33,60.32,6.03" target="#b28">De Silva et al., 2010</ref>) 6 Smart homes for better life (music, entertainment etc.) <ref type="bibr" coords="7,197.80,145.89,35.34,6.03" target="#b64">(Panasonic;</ref><ref type="bibr" coords="7,234.99,145.89,44.81,6.03" target="#b8">Brumitt, 2000;</ref><ref type="bibr" coords="7,281.65,145.89,72.08,6.03">de Silva et al., 2005a, b;</ref><ref type="bibr" coords="7,355.58,145.89,72.14,6.03">de Silva et al., 2005a, b;</ref><ref type="bibr" coords="7,429.56,145.89,61.42,6.03">de Silva et al., 2007;</ref><ref type="bibr" coords="7,492.83,145.89,63.77,6.03;7,197.80,154.45,6.32,6.03">de Silva et al., 2008c, d;</ref><ref type="bibr" coords="7,206.30,154.45,73.90,6.03">de Silva et al., 2008c, d)</ref> Table <ref type="table" coords="7,62.02,190.00,3.87,6.03">3</ref> Comparison of smart home research by activity detection methods.</s></p><p xml:id="_PjNKthq" coords="7,57.37,215.62,144.93,6.03;7,48.47,232.69,82.44,6.03;7,440.07,241.25,3.19,6.03;7,48.47,249.81,81.93,6.03;7,425.07,318.35,3.56,6.03;7,48.47,326.91,84.71,6.03;7,387.89,344.03,3.54,6.03;7,48.47,352.59,117.03,6.03;7,57.37,361.15,53.30,6.03;8,32.71,59.28,34.17,7.53;8,78.41,59.28,205.39,7.53"><s xml:id="_RJm5Y33" coords="7,57.37,215.62,144.93,6.03;7,48.47,232.69,82.44,6.03;7,182.09,232.69,374.50,6.03;7,182.10,241.25,261.16,6.03;7,48.47,249.81,81.93,6.03;7,182.09,249.81,374.48,6.03;7,182.10,258.37,372.59,6.03;7,182.10,266.93,374.47,6.03;7,182.10,275.49,374.46,6.03;7,182.10,284.05,374.49,6.03;7,182.10,292.61,357.02,6.03;7,182.10,301.23,290.81,6.03;7,48.47,309.79,83.24,6.03;7,182.09,309.79,374.51,6.03;7,182.10,318.35,246.53,6.03;7,48.47,326.91,84.71,6.03;7,182.09,326.91,374.51,6.03;7,182.10,335.47,374.50,6.03;7,182.10,344.03,209.34,6.03;7,48.47,352.59,117.03,6.03;7,57.37,361.15,53.30,6.03;7,182.09,352.59,256.68,6.03;8,32.71,59.28,17.68,7.53">Technique used for Activity detection Papers 1 Audio based techniques <ref type="bibr" coords="7,182.09,232.69,38.80,6.03" target="#b9">(Bush, 1945;</ref><ref type="bibr" coords="7,222.92,232.69,74.69,6.03" target="#b42">Hoshuyama et al., 1999;</ref><ref type="bibr" coords="7,299.62,232.69,74.80,6.03" target="#b74">Rui and Florencio, 2003;</ref><ref type="bibr" coords="7,376.44,232.69,59.38,6.03" target="#b85">Vacher et al., 2003;</ref><ref type="bibr" coords="7,437.84,232.69,51.61,6.03" target="#b5">Bian et al., 2004;</ref><ref type="bibr" coords="7,491.47,232.69,47.64,6.03" target="#b10">Cai et al., 2005;</ref><ref type="bibr" coords="7,541.13,232.69,15.46,6.03;7,182.10,241.25,36.65,6.03" target="#b12">Chen et al., 2005;</ref><ref type="bibr" coords="7,220.93,241.25,53.99,6.03" target="#b50">Kraft et al., 2005;</ref><ref type="bibr" coords="7,277.17,241.25,89.94,6.03" target="#b76">Smeaton and McHugh, 2005;</ref><ref type="bibr" coords="7,369.35,241.25,70.71,6.03">de Silva et al., 2008c, d</ref>) 2 Video based techniques <ref type="bibr" coords="7,182.09,249.81,51.05,6.03" target="#b65">(Pentland, 1996;</ref><ref type="bibr" coords="7,235.33,249.81,76.05,6.03" target="#b75">Segen and Pingali, 1996;</ref><ref type="bibr" coords="7,313.57,249.81,90.11,6.03" target="#b30">De Silva and Miyasato, 1998;</ref><ref type="bibr" coords="7,405.86,249.81,71.29,6.03" target="#b39">Haritaoglu et al., 1998;</ref><ref type="bibr" coords="7,479.34,249.81,77.24,6.03" target="#b41">Healey and Picard, 1998;</ref><ref type="bibr" coords="7,182.10,258.37,72.42,6.03">Utsumi et al., 1998a, b;</ref><ref type="bibr" coords="7,256.76,258.37,72.42,6.03">Utsumi et al., 1998a, b;</ref><ref type="bibr" coords="7,331.43,258.37,78.26,6.03" target="#b45">Ivanov and Bobick, 1999;</ref><ref type="bibr" coords="7,411.93,258.37,62.05,6.03" target="#b51">Krumm et al., 2000;</ref><ref type="bibr" coords="7,476.22,258.37,78.47,6.03;7,182.10,266.93,17.60,6.03" target="#b66">Pentland and Choudhury, 2000;</ref><ref type="bibr" coords="7,201.54,266.93,44.70,6.03" target="#b17">de Silva, 2001;</ref><ref type="bibr" coords="7,248.09,266.93,81.49,6.03" target="#b69">Petkovic and Jonker, 2002;</ref><ref type="bibr" coords="7,331.43,266.93,82.68,6.03" target="#b81">Tjondronegoro et al., 2002;</ref><ref type="bibr" coords="7,415.96,266.93,67.88,6.03" target="#b88">Viola and Jones, 2002;</ref><ref type="bibr" coords="7,485.69,266.93,61.70,6.03" target="#b94">Yong and Lee, 2002;</ref><ref type="bibr" coords="7,549.18,266.93,7.38,6.03;7,182.10,275.49,35.29,6.03" target="#b18">de Silva, 2003;</ref><ref type="bibr" coords="7,219.06,275.49,41.64,6.03" target="#b48">Kainka, 2003;</ref><ref type="bibr" coords="7,262.32,275.49,71.00,6.03" target="#b78">Tan and De Silva, 2003;</ref><ref type="bibr" coords="7,334.94,275.49,48.27,6.03">Tan et al. ,2003;</ref><ref type="bibr" coords="7,384.83,275.49,48.27,6.03">Tan et al., 2003;</ref><ref type="bibr" coords="7,434.72,275.49,60.57,6.03">de Silva et al., 2004;</ref><ref type="bibr" coords="7,496.91,275.49,59.65,6.03;7,182.10,284.05,17.65,6.03" target="#b36">Gandhi and Trivedi, 2004;</ref><ref type="bibr" coords="7,201.71,284.05,63.46,6.03" target="#b53">Lam and Chiu, 2004;</ref><ref type="bibr" coords="7,267.14,284.05,77.64,6.03" target="#b56">Lim and Kriegman, 2004;</ref><ref type="bibr" coords="7,346.73,284.05,56.38,6.03" target="#b93">Wood et al., 2004;</ref><ref type="bibr" coords="7,405.07,284.05,54.33,6.03" target="#b34">Duan et al., 2005;</ref><ref type="bibr" coords="7,461.42,284.05,74.86,6.03" target="#b44">Huayong and Hui, 2005;</ref><ref type="bibr" coords="7,538.30,284.05,18.29,6.03;7,182.10,292.61,60.63,6.03" target="#b77">Snoek and Worring, 2005;</ref><ref type="bibr" coords="7,244.97,292.61,81.49,6.03" target="#b87">Valera and Velastin, 2005;</ref><ref type="bibr" coords="7,328.70,292.61,100.37,6.03" target="#b90">Wang and Parameswaran, 2005;</ref><ref type="bibr" coords="7,431.32,292.61,38.80,6.03" target="#b2">Anavi, 2006;</ref><ref type="bibr" coords="7,472.36,292.61,66.75,6.03" target="#b37">Gemmell et al., 2006;</ref><ref type="bibr" coords="7,182.10,301.23,74.01,6.03" target="#b38">Girgensohn et al., 2006;</ref><ref type="bibr" coords="7,258.35,301.23,60.29,6.03" target="#b68">Pereira et al., 2006;</ref><ref type="bibr" coords="7,320.88,301.23,74.86,6.03">De Silva et al., 2008a, b;</ref><ref type="bibr" coords="7,397.98,301.23,63.05,6.03">De Silva et al., 2008a</ref><ref type="bibr" coords="7,461.03,301.23,11.87,6.03;7,48.47,309.79,83.24,6.03;7,182.09,309.79,64.09,6.03">, b) 3 Audio-visual techniques (De Silva et al., 1997;</ref><ref type="bibr" coords="7,247.86,309.79,48.10,6.03" target="#b71">Pye et al., 1998;</ref><ref type="bibr" coords="7,297.58,309.79,55.02,6.03" target="#b91">Wang et al., 2000;</ref><ref type="bibr" coords="7,354.27,309.79,45.21,6.03" target="#b26">De Silva, 2004;</ref><ref type="bibr" coords="7,401.10,309.79,50.82,6.03" target="#b14">Cucchiara, 2005;</ref><ref type="bibr" coords="7,453.54,309.79,71.17,6.03">de Silva et al., 2005a, b;</ref><ref type="bibr" coords="7,526.34,309.79,30.27,6.03;7,182.10,318.35,17.65,6.03" target="#b49">Kim et al., 2005;</ref><ref type="bibr" coords="7,202.00,318.35,45.55,6.03" target="#b19">de Silva, 2007;</ref><ref type="bibr" coords="7,249.79,318.35,73.84,6.03">de Silva et al., 2008c, d;</ref><ref type="bibr" coords="7,325.81,318.35,49.86,6.03">De Silva, 2008e;</ref><ref type="bibr" coords="7,377.86,318.35,47.22,6.03" target="#b95">You et al., 2008</ref>) 4 Sensor based techniques <ref type="bibr" coords="7,182.09,326.91,83.76,6.03" target="#b63">(Ogawa and Togawa, 2000;</ref><ref type="bibr" coords="7,267.93,326.91,59.10,6.03" target="#b13">Collins et al., 2001;</ref><ref type="bibr" coords="7,329.16,326.91,59.32,6.03" target="#b61">Ogawa et al., 2001;</ref><ref type="bibr" coords="7,390.56,326.91,63.12,6.03" target="#b55">Lee and Mase, 2002;</ref><ref type="bibr" coords="7,455.75,326.91,59.32,6.03" target="#b62">Ogawa et al., 2002;</ref><ref type="bibr" coords="7,517.15,326.91,39.45,6.03;7,182.10,335.47,17.65,6.03" target="#b7">Brooks et al., 2003;</ref><ref type="bibr" coords="7,202.00,335.47,53.82,6.03" target="#b4">Beigl et al., 2004;</ref><ref type="bibr" coords="7,258.01,335.47,53.43,6.03" target="#b60">Mori et al., 2004;</ref><ref type="bibr" coords="7,313.68,335.47,73.55,6.03" target="#b3">Arampatzis et al., 2005;</ref><ref type="bibr" coords="7,389.48,335.47,78.54,6.03" target="#b43">Huang and Mishra, 2005;</ref><ref type="bibr" coords="7,470.21,335.47,35.91,6.03" target="#b47">Juels, 2006;</ref><ref type="bibr" coords="7,508.31,335.47,48.29,6.03;7,182.10,344.03,17.65,6.03" target="#b70">Petrushin et al., 2006;</ref><ref type="bibr" coords="7,201.99,344.03,63.80,6.03" target="#b29">De Silva et al., 2009;</ref><ref type="bibr" coords="7,268.04,344.03,57.28,6.03" target="#b35">Elliott et al., 2009;</ref><ref type="bibr" coords="7,327.57,344.03,60.32,6.03" target="#b28">De Silva et al., 2010</ref>) 5 Mixture of audio, video and sensor based techniques <ref type="bibr" coords="7,182.09,352.59,103.32,6.03" target="#b58">(Matsuoka and Fukushima, 2004;</ref><ref type="bibr" coords="7,287.66,352.59,74.06,6.03">de Silva et al., 2005a, b;</ref><ref type="bibr" coords="7,363.91,352.59,74.87,6.03" target="#b86">Vadakkepat et al., 2008)</ref> stay.</s><s xml:id="_xm5THh9" coords="8,53.69,59.28,230.11,7.53">Fig. <ref type="figure" coords="8,70.24,59.28,4.83,7.53" target="#fig_6">6</ref> shows the sensor arrangement of their smart home.</s></p><p xml:id="_qxs7kJ8" coords="8,32.71,69.71,251.06,7.53;8,32.71,80.20,76.69,7.53;8,117.01,80.20,166.74,7.53;8,32.71,90.63,201.30,7.53;8,240.21,90.63,3.40,7.53"><s xml:id="_G5meuRj" coords="8,32.71,69.71,251.06,7.53;8,32.71,80.20,87.70,7.53">The functional overview of their proposed methodology is summarized in Fig. <ref type="figure" coords="8,113.61,80.20,3.40,7.53" target="#fig_5">7</ref>.</s><s xml:id="_Fpg7VDn" coords="8,124.61,80.20,159.14,7.53;8,32.71,90.63,210.90,7.53">A block diagram of user interaction for retrieving a summary of movement is shown in Fig. <ref type="figure" coords="8,236.81,90.63,3.40,7.53" target="#fig_7">8</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="8." xml:id="_pYSmFMr" coords="8,32.71,120.79,61.30,7.53">Conclusions</head><p xml:id="_6qg7CP8" coords="8,44.68,141.71,239.07,7.53;8,32.71,152.14,251.07,7.53;8,32.71,162.63,251.02,7.53;8,32.71,173.06,251.04,7.53;8,32.71,183.55,251.05,7.53;8,32.71,193.98,251.08,7.53;8,32.71,204.47,251.02,7.53;8,32.71,214.90,251.07,7.53;8,32.71,225.39,251.02,7.53;8,32.71,235.82,224.09,7.53;8,269.52,235.82,14.23,7.53;8,32.71,246.31,20.61,7.53;8,65.09,246.31,218.70,7.53;8,32.71,256.74,251.04,7.53"><s xml:id="_gf7wEtY" coords="8,44.68,141.71,239.07,7.53;8,32.71,152.14,251.07,7.53;8,32.71,162.63,251.02,7.53;8,32.71,173.06,80.76,7.53">In this paper we looked at the research work related to smart homes from various view points; first in the view point of specific techniques and then in the last 3 sections in the view point of specific applications.</s><s xml:id="_an9zKUQ" coords="8,117.30,173.06,166.46,7.53;8,32.71,183.55,251.05,7.53;8,32.71,193.98,251.08,7.53">Specifically we looked at computer vision based techniques in smart homes, audio-based techniques in smart homes, multimodal techniques in smart homes at first.</s><s xml:id="_SRM4VSN" coords="8,32.71,204.47,251.02,7.53;8,32.71,214.90,251.07,7.53;8,32.71,225.39,251.02,7.53;8,32.71,235.82,199.58,7.53">Then when we looked from the view point of applications of smart homes we looked at applications like eldercare and childcare, energy efficiency and finally in the research directions of multimedia retrieval for ubiquitous environments.</s><s xml:id="_NZ87bze" coords="8,236.18,235.82,47.57,7.53;8,32.71,246.31,251.07,7.53;8,32.71,256.74,251.04,7.53">Table <ref type="table" coords="8,260.73,235.82,4.83,7.53" target="#tab_1">2</ref> and Table <ref type="table" coords="8,56.75,246.31,4.83,7.53">3</ref> summarize the past research works in to some specific sub topics based on application centered and technique centered.</s></p><p xml:id="_b9kW5h4" coords="8,44.68,267.23,239.06,7.53;8,32.71,277.66,251.04,7.53;8,32.71,288.15,251.07,7.53;8,32.71,298.58,251.07,7.53;8,32.71,309.07,251.06,7.53;8,32.71,319.50,200.22,7.53"><s xml:id="_tjJFNkW" coords="8,44.68,267.23,239.06,7.53;8,32.71,277.66,251.04,7.53;8,32.71,288.15,21.99,7.53">Here we observed that some of the smart home research areas are getting saturated and some new emerging areas are taking place.</s><s xml:id="_2Qw8wXg" coords="8,57.15,288.15,226.64,7.53;8,32.71,298.58,251.07,7.53;8,32.71,309.07,251.06,7.53;8,32.71,319.50,200.22,7.53">For example, video based person identification and activity detection for security applications has almost come to maturity but new areas like multiple sensor integration based techniques for energy efficient applications are taking the lead.</s></p><p xml:id="_KWdKett" coords="8,44.68,329.99,239.09,7.53;8,32.71,340.42,251.03,7.53;8,32.71,350.91,250.97,7.53;8,32.71,361.40,251.02,7.53;8,32.71,371.83,251.05,7.53;8,32.71,382.31,251.08,7.53;8,32.71,392.75,250.95,7.53;8,32.71,403.23,251.05,7.53;8,32.71,413.67,251.05,7.53;8,32.71,424.15,251.08,7.53;8,32.71,434.58,251.07,7.53;8,32.71,445.07,251.05,7.53;8,32.71,455.50,251.13,7.53;8,32.71,465.99,251.07,7.53;8,32.71,476.42,251.02,7.53;8,32.71,486.91,251.05,7.53;8,32.71,497.34,250.98,7.53;8,32.71,507.83,251.07,7.53;8,32.71,518.26,192.19,7.53"><s xml:id="_UUNhDzh" coords="8,44.68,329.99,239.09,7.53;8,32.71,340.42,251.03,7.53;8,32.71,350.91,199.29,7.53">In the future we can envisage that more and more computer power given to smart sensors researchers will make use of them in home area distributed sensor networks.</s><s xml:id="_5KFKfsb" coords="8,235.52,350.91,48.16,7.53;8,32.71,361.40,251.02,7.53;8,32.71,371.83,203.77,7.53">Each sensor will either report in real time to the host or they will keep the information in the memory for offline processing.</s><s xml:id="_g9HBtUK" coords="8,239.78,371.83,43.99,7.53;8,32.71,382.31,251.08,7.53;8,32.71,392.75,250.95,7.53;8,32.71,403.23,161.23,7.53">In order to address complex situations in smart rooms, multiple agents based intelligent and distributed software/hardware frameworks have been proposed recently.</s><s xml:id="_QwFFnmG" coords="8,200.58,403.23,83.19,7.53;8,32.71,413.67,251.05,7.53;8,32.71,424.15,251.08,7.53;8,32.71,434.58,251.07,7.53;8,32.71,445.07,19.02,7.53">Some top software companies are building application specific software targeted for smart homes so that existing infrastructure can be upgraded with added intelligence and decision making support.</s><s xml:id="_PFB4xuQ" coords="8,55.14,445.07,189.59,7.53">In the future our homes will not be the same.</s><s xml:id="_KDdkSTs" coords="8,248.08,445.07,35.68,7.53;8,32.71,455.50,122.35,7.53">A simple example is our mobile phones.</s><s xml:id="_j2Qzv2F" coords="8,157.45,455.50,126.39,7.53;8,32.71,465.99,106.55,7.53">About 10 years ago it was just a phone that can make calls.</s><s xml:id="_HctD8Wt" coords="8,141.70,465.99,142.08,7.53;8,32.71,476.42,55.05,7.53">Now the number of functions it has are countless.</s><s xml:id="_jpVQrth" coords="8,90.20,476.42,193.53,7.53">This analogy can be easily applied to our homes.</s><s xml:id="_84tYvVx" coords="8,32.71,486.91,147.72,7.53">One day it will be a robot inside out.</s><s xml:id="_ptGTWak" coords="8,183.16,486.91,100.61,7.53;8,32.71,497.34,250.98,7.53;8,32.71,507.83,228.54,7.53">The house will look at us from many directions to protect us from potential dangers due to our forgetfulness or due to other physical disabilities.</s><s xml:id="_b6zErGU" coords="8,264.09,507.83,19.69,7.53;8,32.71,518.26,192.19,7.53">Then we will always have a friend to live in with us.</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="2,301.72,740.03,251.03,6.03;2,303.68,579.82,247.32,150.48"><head>Fig. 1 .</head><label>1</label><figDesc><div><p xml:id="_6YTjgwG"><s xml:id="_KpGCP3S" coords="2,301.72,740.03,18.63,6.03">Fig. 1.</s><s xml:id="_sevs3sA" coords="2,323.66,740.03,229.09,6.03">State transitions for video sensor based detection (as of De Silva et al. (2006)).</s></p></div></figDesc><graphic coords="2,303.68,579.82,247.32,150.48" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="4,212.37,327.08,160.70,6.03;4,130.76,58.64,324.00,258.72"><head>Fig. 2 .</head><label>2</label><figDesc><div><p xml:id="_24PdQRW"><s xml:id="_WvRMA5a" coords="4,212.37,327.08,160.70,6.03">Fig. 2. Fall Detection Results (as of De Silva 2008e).</s></p></div></figDesc><graphic coords="4,130.76,58.64,324.00,258.72" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2" coords="5,311.53,279.29,251.01,6.03;5,311.53,287.85,109.84,6.03;5,314.08,58.64,246.24,210.96"><head>Fig. 4 .</head><label>4</label><figDesc><div><p xml:id="_tJQ4UVX"><s xml:id="_VqJJGwR" coords="5,311.53,279.29,20.39,6.03">Fig.4.</s><s xml:id="_gwrNCUz" coords="5,335.23,279.29,227.31,6.03;5,311.53,287.85,109.84,6.03">Energy efficient smart homes -GUI of the control system for energy efficiency -as of<ref type="bibr" coords="5,365.95,287.85,52.30,6.03" target="#b52">Lach et al. (2007)</ref>.</s></p></div></figDesc><graphic coords="5,314.08,58.64,246.24,210.96" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3" coords="5,311.53,598.02,251.07,6.03;5,314.08,320.15,246.24,268.13"><head>Fig. 5 .</head><label>5</label><figDesc><div><p xml:id="_nWgdVMw"><s xml:id="_VH4ae5f" coords="5,311.53,598.02,251.07,6.03">Fig. 5. Think home -an energy efficient smart home -as of Reinisch et al. (2011).</s></p></div></figDesc><graphic coords="5,314.08,320.15,246.24,268.13" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4" coords="5,42.52,427.99,251.02,6.03;5,42.52,436.55,251.07,6.03;5,42.52,445.17,118.40,6.03;5,71.96,229.67,192.34,188.71"><head>Fig. 3 .</head><label>3</label><figDesc><div><p xml:id="_jKqdDZR"><s xml:id="_zVspz36" coords="5,42.52,427.99,20.22,6.03">Fig.3.</s><s xml:id="_mkX7WRR" coords="5,66.05,427.99,227.49,6.03;5,42.52,436.55,251.07,6.03;5,42.52,445.17,118.40,6.03">Configuration of the markers on a swing designed to mimic the body balancing patterns of an elderly which can be sensed by the platform underneath before a fall (as of<ref type="bibr" coords="5,101.03,445.17,56.78,6.03" target="#b35">Elliott et al. (2009)</ref>.</s></p></div></figDesc><graphic coords="5,71.96,229.67,192.34,188.71" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5" coords="6,32.71,739.92,520.02,6.03;6,112.77,461.90,360.00,268.27"><head>Fig. 7 .</head><label>7</label><figDesc><div><p xml:id="_CHEe29u"><s xml:id="_VS7mNG5" coords="6,32.71,739.92,18.91,6.03">Fig. 7.</s><s xml:id="_NBzZvKz" coords="6,54.94,739.92,243.87,6.03">The functional overview of the proposed systems as of de Silva et al. (2008c,d).</s><s xml:id="_scRCqek" coords="6,300.87,739.92,251.86,6.03">Here they have used different sensory modalities for indexing actions and events.</s></p></div></figDesc><graphic coords="6,112.77,461.90,360.00,268.27" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6" coords="6,32.71,428.45,251.04,6.03;6,32.71,437.01,32.83,6.03;6,34.69,211.38,247.32,207.36"><head>Fig. 6 .</head><label>6</label><figDesc><div><p xml:id="_re7DdMZ"><s xml:id="_Udp33gW" coords="6,32.71,428.45,18.74,6.03">Fig. 6.</s><s xml:id="_jA6D2Z4" coords="6,54.77,428.45,228.99,6.03;6,32.71,437.01,32.83,6.03">The sensor arrangement of the ubiquitous smart home (as of de Silva et al. (2008c,d)).</s></p></div></figDesc><graphic coords="6,34.69,211.38,247.32,207.36" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7" coords="6,301.72,428.45,251.01,6.03;6,301.72,437.01,236.13,6.03;6,303.68,236.57,247.32,182.16"><head>Fig. 8 .</head><label>8</label><figDesc><div><p xml:id="_CgmAPYQ"><s xml:id="_t27NvNE" coords="6,301.72,428.45,20.44,6.03">Fig. 8.</s><s xml:id="_HPrvjhC" coords="6,325.47,428.45,227.25,6.03;6,301.72,437.01,236.13,6.03">The user interaction used in the retrieval process of the summary of movements inside the ubiquitous smart home (as of de Silva et al. (2008c)).</s></p></div></figDesc><graphic coords="6,303.68,236.57,247.32,182.16" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" coords="3,42.52,60.45,514.05,108.64"><head>Table 1</head><label>1</label><figDesc><div><p><s xml:id="_f6e5buS" coords="3,42.52,69.01,81.02,6.03;3,189.41,120.21,367.16,6.03;3,48.47,128.77,3.87,6.03;3,100.97,128.77,17.32,6.03;3,189.41,128.77,359.91,6.03">Rules for state transitions.Human model instance located near the entrance region for more than 10 frames, and could not be tracked thereafter 4 Stand Y coordinate of the head centroid increases by more than 2 head-heights, with less than 10% change in head-height</s></p></div></figDesc><table coords="3,48.47,86.02,502.21,83.07"><row><cell>Rule ID</cell><cell>State moved to</cell><cell>Specification</cell></row><row><cell>1</cell><cell>Enter (initial state)</cell><cell>New human model instance detected near the entrance region for 10 frames</cell></row><row><cell>2</cell><cell>Walk</cell><cell>Coordinates of the centroid of the head-shoulder region changes gradually over 20 frames</cell></row><row><cell>3</cell><cell>Exit (final state)</cell><cell></cell></row><row><cell>5</cell><cell>Take object</cell><cell>Location of object changes together with the location of the person</cell></row><row><cell>6</cell><cell>Place object</cell><cell>New object detected on the table region for more than 15 frames</cell></row><row><cell>7</cell><cell>Sit</cell><cell>Y coordinate of the head centroid decreases by more than 2 head-heights, with less than 10% change in head-height</cell></row><row><cell>8</cell><cell>Use a computer</cell><cell>Person sitting near computer with only small movements below shoulder region</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1" coords="7,42.52,60.45,188.19,48.66"><head>Table 2</head><label>2</label><figDesc><div><p xml:id="_qxHUq2V"><s xml:id="_FYvm9x7" coords="7,42.52,69.01,178.42,6.03">Comparison of smart home research by application areas.</s></p></div></figDesc><table coords="7,48.47,86.02,182.23,23.09"><row><cell>Type of smart home</cell><cell>References</cell></row><row><cell>1 Smart homes for security</cell><cell></cell></row></table></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted" xml:id="b0">
+	<analytic>
+		<title level="a" type="main" coords="8,142.92,565.02,140.83,6.03;8,44.67,573.01,48.40,6.03" xml:id="_u8QPFUS">The aware home: developing technologies for successful aging</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">D</forename><surname>Abowd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Bobick</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_Y4SsN79" coords="8,98.47,573.01,185.29,6.03">Proceedings of American Assocition of Artificial Intelligence</title>
+		<meeting>American Assocition of Artificial Intelligence</meeting>
+		<imprint>
+			<date type="published" when="2002">2002. 2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b1">
+	<monogr>
+		<title level="m" type="main" coords="8,50.12,588.95,78.11,6.03" xml:id="_gjDgggH">AIST Digital home project</title>
+		<author>
+			<persName><surname>Aist</surname></persName>
+		</author>
+		<ptr target="http://www.dh.aist.go.jp/en/research/enabling/S" />
+		<imprint>
+			<date type="published" when="2011">20/12/2011, 2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b2">
+	<monogr>
+		<title level="m" type="main" coords="8,87.81,604.88,195.91,6.03;8,44.67,612.87,23.98,6.03" xml:id="_bCB4xjP">Information Processing in a Ubiquitous Home Using Image Analysis</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Anavi</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+		<respStmt>
+			<orgName>Signal Processing Institute, School of Engineering. Swiss Federal Institute of Technology, Lausanne</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b3">
+	<analytic>
+		<title level="a" type="main" coords="8,150.63,628.80,133.08,6.03;8,44.67,636.74,91.89,6.03" xml:id="_xPFtuHN">A survey of applications of wireless sensors and wireless sensor networks</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Arampatzis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lygeros</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_FqDgmCY" coords="8,142.80,636.74,140.96,6.03;8,44.67,644.73,107.65,6.03">Proceedings of the 13th Mediterranean Conference on Control and Automation</title>
+		<meeting>the 13th Mediterranean Conference on Control and Automation<address><addrLine>Limassol, Cyprus</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2005">2005</date>
+			<biblScope unit="page" from="719" to="724" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b4">
+	<analytic>
+		<title level="a" type="main" coords="8,146.15,652.72,137.58,6.03;8,44.67,660.66,63.90,6.03" xml:id="_FsxQS9w">Typical sensors needed in ubiquitous and pervasive computing</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Beigl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Krohn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_DkRnSUr" coords="8,115.65,660.66,168.08,6.03;8,44.67,668.65,62.02,6.03">First International Workshop on Networked Sensing Systems (INSS 2004)</title>
+		<meeting><address><addrLine>Tokyo, Japan</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2004">2004</date>
+			<biblScope unit="page" from="153" to="158" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b5">
+	<monogr>
+		<title level="m" type="main" coords="8,137.93,676.59,145.80,6.03;8,44.67,684.58,83.61,6.03" xml:id="_ef6FTru">Using sound source localization to monitor and infer activities in the home</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Bian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">D</forename><surname>Abowd</surname></persName>
+		</author>
+		<idno>GIT-GVU-04-20</idno>
+		<imprint>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+		<respStmt>
+			<orgName>Georgia Institute of Technology</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">GVU Technical Report</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b6">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bobick</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Kids' Room</surname></persName>
+		</author>
+		<ptr target="http://vismod.media.mit.edu/vismod/demos/kidsroom/kidsroom.htmlS" />
+		<imprint>
+			<date type="published" when="2011-12-28">2011/12/28</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b7">
+	<analytic>
+		<title level="a" type="main" coords="8,169.85,716.45,113.88,6.03;8,44.67,724.44,84.41,6.03" xml:id="_5Pa6z82">Distributed target classification and tracking in sensor networks</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Brooks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ramanathan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_nYmpPHG" coords="8,134.70,724.44,38.82,6.03">Proc. IEEE 91</title>
+		<meeting>IEEE 91</meeting>
+		<imprint>
+			<date type="published" when="2003">2003</date>
+			<biblScope unit="page" from="1163" to="1171" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b8">
+	<analytic>
+		<title level="a" type="main" coords="8,88.27,732.38,163.16,6.03" xml:id="_5gaAew3">Easy living: technologies for intelligent environments</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Brumitt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_ZFCqG7u" coords="8,256.92,732.38,26.84,6.03;8,44.67,740.37,226.72,6.03">Proceedings of International Symposium on Handheld and Ubiquitous Computing</title>
+		<meeting>International Symposium on Handheld and Ubiquitous Computing</meeting>
+		<imprint>
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b9">
+	<analytic>
+		<title level="a" type="main" coords="8,349.45,60.45,51.18,6.03" xml:id="_sYd3hnw">As we may think</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Bush</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_WFAJrEC" coords="8,405.80,60.45,41.72,6.03">Atlantic Mon</title>
+		<imprint>
+			<biblScope unit="volume">176</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="101" to="108" />
+			<date type="published" when="1945">1945</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b10">
+	<analytic>
+		<title level="a" type="main" coords="8,387.27,68.38,162.35,6.03" xml:id="_mCku3cP">Unsupervised content discovery in composite audio</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Cai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_GMEAbjB" coords="8,313.62,76.55,99.63,6.03">Proceedings of ACM Multimedia</title>
+		<meeting>ACM Multimedia<address><addrLine>Singapore, ACM</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2005">2005. 2005</date>
+			<biblScope unit="page" from="628" to="637" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b11">
+	<analytic>
+		<title level="a" type="main" coords="8,412.78,84.54,139.96,6.03;8,313.62,92.71,51.70,6.03" xml:id="_Y3s44Zv">A review of smart homes-present state and future challenges</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Chana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Est Evea</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_NgBjrJJ" coords="8,370.65,92.71,111.81,6.03">Comput. Methods Program. Biomed</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b12">
+	<analytic>
+		<title level="a" type="main" coords="8,398.55,100.64,154.18,6.03;8,313.62,108.81,30.43,6.03" xml:id="_2W8N9A9">An adaptive microphone array with local acoustic sensitivity</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Shue</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_3XVFu6C" coords="8,348.83,108.81,200.68,6.03">IEEE International Conference on Multimedia &amp; Expo (ICME 2005)</title>
+		<meeting><address><addrLine>Amsterdam, The Netherlands</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b13">
+	<analytic>
+		<title level="a" type="main" coords="8,426.61,124.96,126.13,6.03;8,313.62,133.13,35.41,6.03" xml:id="_wWuCa2h">Algorithms for cooperative multisensor surveillance</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">T</forename><surname>Collins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Lipton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_MXdjNBs" coords="8,354.27,133.13,30.37,6.03">Proc. IEEE</title>
+		<meeting>IEEE</meeting>
+		<imprint>
+			<date type="published" when="2001">2001</date>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="page" from="1456" to="1477" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b14">
+	<analytic>
+		<title level="a" type="main" coords="8,366.52,141.12,101.63,6.03" xml:id="_BTdXtg6">Multimedia surveillance systems</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Cucchiara</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_ftQQS93" coords="8,474.51,141.12,78.21,6.03;8,313.62,149.29,239.11,6.03;8,313.62,157.45,10.54,6.03">Proceedings of the Third ACM international Workshop on Video Surveillance &amp; Sensor Networks (VSSN &apos;05)</title>
+		<meeting>the Third ACM international Workshop on Video Surveillance &amp; Sensor Networks (VSSN &apos;05)<address><addrLine>Hilton; Singapore; New York, NY</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM Press</publisher>
+			<date type="published" when="2005">2005</date>
+			<biblScope unit="page" from="3" to="10" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b15">
+	<analytic>
+		<title level="a" type="main" coords="8,427.23,165.39,125.52,6.03;8,313.62,173.61,209.15,6.03" xml:id="_zZnu3qx">Cloud basis function network: a modified RBF network architecture for holistic facial expression recognition</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>De Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ranganath</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_V8GSKyH" coords="8,368.50,181.77,3.65,6.03">J</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1241" to="1253" />
+			<date type="published" when="2008">2008</date>
+			<publisher>Elsevier Pattern Recognit</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b16">
+	<analytic>
+		<title level="a" type="main" coords="8,432.16,189.71,120.57,6.03;8,313.62,197.87,236.07,6.03" xml:id="_TZTNZ6X">Cloud basis function neural network: a modified RBF network architecture for holistic facial expression recognition</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>De Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ranganath</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_fBXwfwv" coords="8,313.62,206.03,52.64,6.03">Pattern Recognit</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1241" to="1253" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b17">
+	<monogr>
+		<title level="m" type="main" coords="8,368.96,214.03,180.45,6.03" xml:id="_wJ6sSw3">Traffic Flow Measurement Using Video Image Sequences</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>De Silva</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2001">2001</date>
+			<pubPlace>Sri Lanka, MEng</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Department of Computer Science and Engineering. Univ. of Moratuwa</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b18">
+	<monogr>
+		<title level="m" type="main" coords="8,368.56,238.35,184.18,6.03;8,313.62,246.51,30.05,6.03" xml:id="_GyU7JFv">Tracking and Indexing of Human Actions in Video Image Sequences</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>De Silva</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2003">2003</date>
+			<pubPlace>MEng</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Dept. of Electrical and Computer Engineering. Singapore. National University of Singapore</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b19">
+	<monogr>
+		<title level="m" type="main" coords="8,364.53,262.61,163.47,6.03" xml:id="_RFrnuYA">Multimedia Experience Retrieval in Ubiquitous Home</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>De Silva</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+		<respStmt>
+			<orgName>Japan. University of Tokyo, PhD</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b20">
+	<analytic>
+		<title level="a" type="main" coords="8,422.30,278.77,130.44,6.03;8,313.62,286.94,68.28,6.03" xml:id="_mqEX7KD">Tracking and indexing of human actions in video image sequences</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>De Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>De Silva</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_QrXpRrE" coords="8,437.61,286.94,115.12,6.03;8,313.62,295.10,119.29,6.03">Proceedings of the Annual Conference on Image and Vision Computing IVCNZ</title>
+		<meeting>the Annual Conference on Image and Vision Computing IVCNZ</meeting>
+		<imprint>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note>Published in the</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b21">
+	<analytic>
+		<title level="a" type="main" coords="8,428.31,303.09,124.43,6.03;8,313.62,311.26,135.31,6.03" xml:id="_dhGxDj9">Evaluation of video summarization for a large number of cameras in ubiquitous home</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>De Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yamasaki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_vKAfmb4" coords="8,454.50,311.26,98.27,6.03">Proceedings of ACM Multimedia</title>
+		<meeting>ACM Multimedia</meeting>
+		<imprint>
+			<date type="published" when="2005">2005. 2005</date>
+			<biblScope unit="page" from="820" to="828" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b22">
+	<analytic>
+		<title level="a" type="main" coords="8,429.78,327.36,122.98,6.03;8,313.62,335.52,15.13,6.03" xml:id="_QxSkuyT">An Interactive multimedia diary for the home</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>De Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yamasaki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_DeHHRWt" coords="8,334.77,335.52,188.18,6.03">IEEE Computer, Special Issue on Human Centered Computing</title>
+		<imprint>
+			<biblScope unit="page" from="52" to="59" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b23">
+	<analytic>
+		<title level="a" type="main" coords="8,430.29,343.51,122.46,6.03;8,313.62,351.68,73.01,6.03" xml:id="_6z4DRdu">Audio analysis for multimedia retrieval from a ubiquitous home</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>De Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yamasaki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_tfkYnjf" coords="8,392.65,351.68,82.10,6.03">Proceedings of MMM 2008</title>
+		<meeting>MMM 2008</meeting>
+		<imprint>
+			<date type="published" when="2008">2008</date>
+			<biblScope unit="page" from="466" to="476" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b24">
+	<analytic>
+		<title level="a" type="main" coords="8,424.74,359.67,128.01,6.03;8,313.62,367.84,71.21,6.03" xml:id="_4hcAKtn">Ubiquitous home: retrieval of experiences in a home environment</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>De Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yamasaki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_Asab32q" coords="8,390.50,367.84,78.35,6.03">IEICE Trans. Inf. Syst. E</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="330" to="340" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b25">
+	<analytic>
+		<title level="a" type="main" coords="8,442.77,375.77,109.97,6.03;8,313.62,383.94,146.16,6.03" xml:id="_TJP42j8">Video handover for retrieval in a ubiquitous environment using floor sensor data</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>De Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yamasaki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_XWK4XpA" coords="8,465.04,383.94,78.89,6.03">Proceedings of ICME 2005</title>
+		<meeting>ICME 2005</meeting>
+		<imprint>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b26">
+	<analytic>
+		<title level="a" type="main" coords="8,372.87,391.93,104.04,6.03" xml:id="_N4zYZjP">Audiovisual emotion recognition</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>De Silva</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_pFSscwP" coords="8,362.83,400.09,189.93,6.03;8,313.62,408.26,52.21,6.03">IEEE International Conference on Systems, Man and Cybernetics (SMC2004)</title>
+		<meeting><address><addrLine>The Hague, The Netherlands</addrLine></address></meeting>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note>Invited Paper in the</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b27">
+	<analytic>
+		<title level="a" type="main" coords="8,370.48,416.25,182.28,6.03;8,313.62,424.42,116.74,6.03" xml:id="_dxCQUZk">Audiovisual sensing of human movements for home-care and security in a smart environment</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>De Silva</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_qGpSPTD" coords="8,436.98,424.42,95.21,6.03">Int. J. Smart Sens. Intell. Syst</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="220" to="245" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b28">
+	<analytic>
+		<title level="a" type="main" coords="8,437.72,440.52,115.00,6.03;8,313.62,448.68,239.10,6.03;8,313.62,456.84,49.10,6.03" xml:id="_WVfNBJQ">Multiple sensor based autonomous monitoring and control for energy efficiency. Springer book series titled communications</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>De Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Dewana</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="s" xml:id="_PA2K76n" coords="8,478.99,456.84,73.76,6.03;8,313.62,465.01,35.65,6.03">Computer and Information Science</title>
+		<editor>
+			<persName><forename type="first">P</forename><surname>Vadakkepat</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Kim</surname></persName>
+		</editor>
+		<imprint>
+			<biblScope unit="volume">103</biblScope>
+			<biblScope unit="page" from="361" to="368" />
+			<date type="published" when="2010">2010</date>
+			<publisher>Springer</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b29">
+	<analytic>
+		<title level="a" type="main" coords="8,426.55,473.00,126.20,6.03;8,313.62,481.17,235.61,6.03" xml:id="_6z3DCzw">Ambient intelligence in a smart home for energy efficiency and eldercare. Springer book series titled communications</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>De Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Iskandar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="s" xml:id="_uhxgJgV" coords="8,388.17,489.33,106.74,6.03">Computer and Information Science</title>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">H K</forename></persName>
+		</editor>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="187" to="194" />
+			<date type="published" when="2009">2009</date>
+			<publisher>Springer</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b30">
+	<monogr>
+		<title level="m" type="main" coords="8,409.03,505.49,110.81,6.03" xml:id="_MB4fHWX">Hierarchical Expression Recognition</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>De Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Miyasato</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1998">1998. 2967058</date>
+			<publisher>Japanese National Patent</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b31">
+	<analytic>
+		<title level="a" type="main" coords="8,444.01,521.59,108.74,6.03;8,313.62,529.81,77.04,6.03" xml:id="_3ymVtQY">Facial emotion recognition using multi-modal information</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>De Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Miyasato</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_5wBAyta" coords="8,397.36,529.81,155.41,6.03;8,313.62,537.97,201.19,6.03">Proceedings of IEEE International Conference on Information, Communications and Signal Processing (ICICS1997)</title>
+		<meeting>IEEE International Conference on Information, Communications and Signal Processing (ICICS1997)<address><addrLine>Singapore</addrLine></address></meeting>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b32">
+	<analytic>
+		<title level="a" type="main" coords="8,415.44,554.07,137.31,6.03;8,313.62,562.24,114.08,6.03" xml:id="_ksAyrJY">Video based event detection and tracking for eldercare and security in smart rooms</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>De Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Pereira</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_dXTdFkP" coords="8,432.96,562.24,119.77,6.03;8,313.62,570.40,36.03,6.03">Proceedings of Image Media Processing Symposium</title>
+		<meeting>Image Media Processing Symposium<address><addrLine>Shizuoka, Japan</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2006">2006. 2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b33">
+	<analytic>
+		<title level="a" type="main" coords="8,430.58,578.39,122.19,6.03;8,313.62,586.56,239.10,6.03;8,313.62,594.72,18.92,6.03" xml:id="_PrWnJ34">Multi-sensors acquisition, data fusion, knowledge mining and alarm triggering in health smart homes for elderly people</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Demongeot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Virone</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_XKBWXQD" coords="8,337.94,594.72,26.81,6.03">C.R. Biol</title>
+		<imprint>
+			<biblScope unit="volume">325</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="673" to="682" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b34">
+	<analytic>
+		<title level="a" type="main" coords="8,391.40,602.71,161.32,6.03;8,313.62,610.88,44.49,6.03" xml:id="_J3Pb3yH">A unified framework for semantic shot classification in sports video</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Duan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Xu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_cmjVnXY" coords="8,363.40,610.88,71.86,6.03">IEEE Trans. Multimedia</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1066" to="1083" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b35">
+	<analytic>
+		<title level="a" type="main" coords="8,414.59,618.82,138.12,6.03;8,313.62,626.98,183.40,6.03" xml:id="_uEgYCyC">Quantifying sway through surface deflection patterns: a novel approach using distributive tactile sensing</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Elliott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I</forename><surname>Petra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_w2PtZQp" coords="8,502.18,626.98,50.57,6.03;8,313.62,635.14,73.17,6.03">Proc. Inst. Mech. Eng. Part H J. Eng. Med</title>
+		<imprint>
+			<biblScope unit="volume">223</biblScope>
+			<biblScope unit="page">7</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b36">
+	<analytic>
+		<title level="a" type="main" coords="8,398.89,643.14,153.95,6.03;8,313.62,651.30,112.82,6.03" xml:id="_XATSSXS">Calibration of a reconfigurable array of omnidirectional cameras using a moving person</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Gandhi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Trivedi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_X9tZRBa" coords="8,431.60,651.30,121.23,6.03;8,313.62,659.46,174.59,6.03">Proceedings of the ACM Second International Workshop on Video Surveillance &amp; Sensor Networks</title>
+		<meeting>the ACM Second International Workshop on Video Surveillance &amp; Sensor Networks<address><addrLine>New York, NY, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b37">
+	<analytic>
+		<title level="a" type="main" coords="8,405.80,667.46,143.79,6.03" xml:id="_qvtkbXD">MyLifeBits: a personal database for everything</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gemmell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Bell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_46WyPTW" coords="8,313.62,675.62,46.43,6.03">Commun. ACM</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="88" to="95" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b38">
+	<analytic>
+		<title level="a" type="main" coords="8,423.44,683.56,129.22,6.03;8,313.62,691.72,56.68,6.03" xml:id="_GTM5Av2">Support for Effective Use of Multiple Video Streams in Security</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Girgensohn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shipman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_ZJFGXpa" coords="8,375.68,691.72,177.03,6.03;8,313.62,699.89,140.51,6.03">Proceedings of the Fourth ACM international Workshop on Video Surveillance &amp; Sensor Networks (VSSN &apos;06)</title>
+		<meeting>the Fourth ACM international Workshop on Video Surveillance &amp; Sensor Networks (VSSN &apos;06)<address><addrLine>New York, NY</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM Press</publisher>
+			<date type="published" when="2006">2006</date>
+			<biblScope unit="page" from="19" to="26" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b39">
+	<monogr>
+		<author>
+			<persName><forename type="first">I</forename><surname>Haritaoglu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">.</forename><forename type="middle">D</forename><surname>Harwood</surname></persName>
+		</author>
+		<title level="m" xml:id="_7bgA5wP" coords="8,440.67,707.88,112.05,6.03;8,313.62,716.04,239.10,6.03;8,313.62,724.21,212.45,6.03">Who? When? Where? What? A real time system for detecting and tracking people. Proceedings of the Third IEEE International Conference on Automatic Face and Gesture Recognition</title>
+		<imprint>
+			<date type="published" when="1998">1998</date>
+			<biblScope unit="volume">4</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b40">
+	<monogr>
+		<title level="m" type="main" coords="8,361.13,732.20,188.03,6.03" xml:id="_kRJ58uM">Inside the Smart Home: Ideas, Possibilities, and Methods</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Harper</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2003">2003</date>
+			<publisher>Springer-Verlag</publisher>
+			<pubPlace>UK.</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b41">
+	<analytic>
+		<title level="a" type="main" coords="9,132.66,60.45,128.85,6.03" xml:id="_dka2fJ4">Startle cam: a cybernetic wearable Camera</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Healey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Picard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_qZjpn79" coords="9,266.96,60.45,26.62,6.03;9,54.48,68.56,224.32,6.03">Proceedings of the Second IEEE International Symposium on Wearable Computers</title>
+		<meeting>the Second IEEE International Symposium on Wearable Computers</meeting>
+		<imprint>
+			<date type="published" when="1998">1998</date>
+			<biblScope unit="page">42</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b42">
+	<analytic>
+		<title level="a" type="main" coords="9,182.72,76.55,110.84,6.03;9,54.48,84.72,236.64,6.03" xml:id="_EWwBfyb">A robust adaptive beamformer for microphone arrays with a blocking matrix using constrained adaptive filters</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hoshuyama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sugiyama</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_KqSkdsa" coords="9,54.48,92.83,81.14,6.03">IEEE Trans. Signal Process</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="2677" to="2684" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b43">
+	<analytic>
+		<title level="a" type="main" coords="9,137.93,100.82,152.47,6.03" xml:id="_tKnCcfj">A sensor based tracking system using witnesses</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mishra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_T2gQN4M" coords="9,54.48,108.98,239.07,6.03;9,54.48,117.09,68.77,6.03">Proceedings of the 25th IEEE International Conference on Distributed Computing System Workshops</title>
+		<meeting>the 25th IEEE International Conference on Distributed Computing System Workshops</meeting>
+		<imprint>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b44">
+	<analytic>
+		<title level="a" type="main" coords="9,130.62,125.08,162.94,6.03;9,54.48,133.25,130.76,6.03" xml:id="_yTjp8eB">A content-based broadcasted sports video retrieval system using multiple modalities: sportbr</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Huayong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Hui</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_UMQqffD" coords="9,190.99,133.25,102.57,6.03;9,54.48,141.35,235.83,6.03">Proceedings of the Fifth International Conference on Computer and Information Technology (CIT 2005)</title>
+		<meeting>the Fifth International Conference on Computer and Information Technology (CIT 2005)<address><addrLine>Washington, DC</addrLine></address></meeting>
+		<imprint>
+			<publisher>IEEE Computer Society</publisher>
+			<date type="published" when="2005">2005</date>
+			<biblScope unit="page" from="652" to="656" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b45">
+	<analytic>
+		<title level="a" type="main" coords="9,142.46,157.46,151.11,6.03;9,54.48,165.62,35.41,6.03" xml:id="_Kbh92Y2">Recognition of multi-agent interactions in video surveillance</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">A</forename><surname>Ivanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Bobick</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_mxRNsea" coords="9,95.70,165.62,197.85,6.03;9,54.48,173.78,17.74,6.03">IEEE Proceedings of the International Conference on Computer Vision</title>
+		<meeting><address><addrLine>Kerkyra, Greece</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1999">1999</date>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="169" to="176" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b46">
+	<analytic>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jaimes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Omura</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_bn5RvNN" coords="9,156.35,181.72,134.34,6.03">Memory Cues for Meeting Video Retrieval</title>
+		<imprint>
+			<date type="published" when="2004">2004</date>
+			<biblScope unit="volume">2004</biblScope>
+			<biblScope unit="page" from="74" to="85" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b47">
+	<analytic>
+		<title level="a" type="main" coords="9,92.18,197.88,141.60,6.03" xml:id="_C2YGQtn">RFID security and privacy: a research survey</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Juels</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_EVSdJ9h" coords="9,239.97,197.88,53.58,6.03;9,54.48,205.98,29.62,6.03">IEEE J. Sel. Areas Commun</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="381" to="394" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b48">
+	<monogr>
+		<title level="m" type="main" coords="9,95.58,213.98,94.85,6.03" xml:id="_WVqyeD8">Passive-optical person detector</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kainka</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2003">2003</date>
+			<biblScope unit="volume">2</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b49">
+	<analytic>
+		<title level="a" type="main" coords="9,147.34,221.97,146.23,6.03;9,54.48,230.08,176.71,6.03" xml:id="_e3ZEquJ">An effective news anchorperson shot detection method based on adaptive audio/visual model generation</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Hwang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_nEzBXaj" coords="9,236.57,230.08,56.99,6.03;9,54.48,238.24,235.83,6.03">Proceedings of the Fourth International Conference in Image and Video Retrieval (CIVR 2005)</title>
+		<meeting>the Fourth International Conference in Image and Video Retrieval (CIVR 2005)<address><addrLine>Singapore</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2005">2005</date>
+			<biblScope unit="page" from="276" to="285" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b50">
+	<analytic>
+		<title level="a" type="main" coords="9,140.99,254.34,152.59,6.03;9,54.48,262.51,77.54,6.03" xml:id="_Udxb4PY">Temporal ICA for Classification of Acoustic Events in a Kitchen Environment</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Kraft</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Malkin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_mRz6E6e" coords="9,137.70,262.51,40.04,6.03">INTERSPEECH</title>
+		<imprint>
+			<date type="published" when="2005">2005</date>
+			<pubPlace>Lisbon, Portugal</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b51">
+	<analytic>
+		<title level="a" type="main" coords="9,136.61,270.50,144.88,6.03" xml:id="_ahMX5zj">Multi-camera multi-person tracking for easy living</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Krumm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Harris</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_qJAPa3e" coords="9,54.48,278.61,74.75,6.03">Proceedings of Third IEEE</title>
+		<meeting>Third IEEE</meeting>
+		<imprint>
+			<date type="published" when="2000">2000</date>
+			<biblScope unit="page" from="3" to="10" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b52">
+	<analytic>
+		<title level="a" type="main" coords="9,158.45,286.60,135.10,6.03;9,54.48,294.77,93.19,6.03" xml:id="_zSD4BYe">Smart home system operating remotely Via 802.11b/g wireless technology</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Punchihewa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_ukvDRaC" coords="9,153.46,294.77,140.11,6.03;9,54.48,302.87,239.07,6.03;9,54.48,311.04,36.43,6.03">Proceedings of the Fourth International Conference Computational Intelligence and Robotics and Autonomous Systems (CIRAS2007)</title>
+		<meeting>the Fourth International Conference Computational Intelligence and Robotics and Autonomous Systems (CIRAS2007)<address><addrLine>New Zealand</addrLine></address></meeting>
+		<imprint>
+			<publisher>Palmerston North</publisher>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b53">
+	<analytic>
+		<title level="a" type="main" coords="9,127.61,319.03,165.96,6.03;9,54.48,327.14,72.74,6.03" xml:id="_3GjD5HT">Adaptive visual object surveillance with continuously moving panning camera</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Lam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H C</forename><surname>Chiu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_hjy5kmc" coords="9,132.71,327.14,160.89,6.03;9,54.48,335.30,143.15,6.03">Proceedings of the ACM Second International Workshop on Video Surveillance &amp; Sensor Networks</title>
+		<meeting>the ACM Second International Workshop on Video Surveillance &amp; Sensor Networks<address><addrLine>New York, NY, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b54">
+	<analytic>
+		<title level="a" type="main" coords="9,128.12,343.29,101.46,6.03" xml:id="_VagkVqV">Design policy for intelligent space</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ando</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_MxWUAKz" coords="9,234.36,343.29,59.22,6.03;9,54.48,351.40,20.94,6.03">Proceedings of IEEE SMC&apos;99</title>
+		<meeting>IEEE SMC&apos;99</meeting>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b55">
+	<monogr>
+		<title level="m" type="main" coords="9,115.14,359.39,178.43,6.03;9,54.48,367.56,62.16,6.03" xml:id="_7cFMCuP">Activity and location recognition using wearable sensors. Pervasive Computing</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Mase</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002-07">2002. July-September</date>
+			<biblScope unit="page" from="10" to="18" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b56">
+	<analytic>
+		<title level="a" type="main" coords="9,127.90,375.50,165.64,6.03;9,54.48,383.66,95.94,6.03" xml:id="_gVhtQC7">Tracking humans using prior and learned representations of shape and appearance</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kriegman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_W9u2NzN" coords="9,156.81,383.66,136.77,6.03;9,54.48,391.82,171.09,6.03">Proceedings of the Sixth IEEE International Conference on Automatic Face and Gesture Recognition</title>
+		<meeting>the Sixth IEEE International Conference on Automatic Face and Gesture Recognition</meeting>
+		<imprint>
+			<date type="published" when="2004">2004</date>
+			<biblScope unit="page" from="869" to="874" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b57">
+	<analytic>
+		<title level="a" type="main" coords="9,117.35,399.76,176.23,6.03;9,54.48,407.92,45.23,6.03" xml:id="_bgpj4dg">A study on content-based classification and retrieval of audio database</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_6HqHJWK" coords="9,105.56,407.92,187.99,6.03;9,54.48,416.09,87.71,6.03">Proceedings of the 2001 International Database Engineering and Applications Symposium</title>
+		<meeting>the 2001 International Database Engineering and Applications Symposium<address><addrLine>Grenoble, France</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2001">2001</date>
+			<biblScope unit="page" from="339" to="345" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b58">
+	<analytic>
+		<title level="a" type="main" coords="9,151.36,424.02,142.19,6.03;9,54.48,432.19,64.68,6.03" xml:id="_WFqbqyQ">Understanding of living activity in a house for real-time life support</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Matsuoka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Fukushima</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_eTasCzK" coords="9,124.55,432.19,33.09,6.03">SCIS &amp; ISIS</title>
+		<imprint>
+			<biblScope unit="volume">2004</biblScope>
+			<biblScope unit="page" from="1" to="6" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b59">
+	<analytic>
+		<title level="a" type="main" coords="9,100.00,456.28,193.55,6.03;9,54.48,464.39,136.49,6.03" xml:id="_j4WUXd7">Implementing phicons: combining computer vision with infra red technology for interactive physical icons</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Moore</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_Y4xZvzE" coords="9,196.15,464.39,94.03,6.03">Proceedings of ACM UIST 1999</title>
+		<meeting>ACM UIST 1999<address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM Press</publisher>
+			<date type="published" when="1999">1999</date>
+			<biblScope unit="page" from="67" to="78" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b60">
+	<monogr>
+		<title level="m" type="main" coords="9,148.70,480.55,144.88,6.03;9,54.48,488.65,132.30,6.03" xml:id="_RFz3QSN">Sensing room: distributed sensor environment for measurement of human daily behavior</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Noguchi</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2004">2004</date>
+			<biblScope unit="page" from="40" to="43" />
+		</imprint>
+	</monogr>
+	<note>First International Workshop on Networked Sensing Systems (INSS2004</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b61">
+	<analytic>
+		<title level="a" type="main" coords="9,158.05,504.81,135.48,6.03;9,54.48,512.92,59.35,6.03" xml:id="_YxjrxNn">Remote monitoring of daily activities and behaviors at home</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ogawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ochiai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_aMB3JwN" coords="9,121.89,512.92,171.69,6.03;9,54.48,521.08,32.50,6.03">Proceedings of the 23rd Annual EMBS International Conference</title>
+		<meeting>the 23rd Annual EMBS International Conference<address><addrLine>Istanbul, Turkey</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2001">2001</date>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="3973" to="3976" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b62">
+	<analytic>
+		<title level="a" type="main" coords="9,152.73,529.08,140.86,6.03;9,54.48,537.18,173.31,6.03" xml:id="_JG6VKAQ">Long-term remote behavioural monitoring of the elderly using sensors installed in domestic houses</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ogawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Suzuki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_QHqvHye" coords="9,234.36,537.18,59.20,6.03;9,54.48,545.35,112.37,6.03">Proceedings of the Second Joint EMBS/BMES Conference</title>
+		<meeting>the Second Joint EMBS/BMES Conference<address><addrLine>TX, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2002">2002</date>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="1853" to="1854" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b63">
+	<analytic>
+		<title level="a" type="main" coords="9,130.50,553.34,163.09,6.03;9,54.48,561.45,57.14,6.03" xml:id="_PMa6zyf">Monitoring daily activities and behaviours at home by using brief sensors</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ogawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Togawa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_ZDDZSTk" coords="9,117.41,561.45,176.17,6.03;9,54.48,569.61,158.75,6.03">First Annual International IEEE-EMBS Special Topic Conference on Microtechnologies in Medicine &amp; Biology</title>
+		<meeting><address><addrLine>Lyon, France</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2000">2000</date>
+			<biblScope unit="page" from="611" to="614" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b64">
+	<monogr>
+		<title level="m" type="main" coords="9,79.88,577.61,114.32,6.03" xml:id="_JG2y2ub">Smart Life for an Entire Lifestyle</title>
+		<author>
+			<persName><surname>Panasonic</surname></persName>
+		</author>
+		<ptr target="http://ch.panasonic.co.jp/global/contents/03270/S" />
+		<imprint>
+			<date type="published" when="2011-12-20">20/12/2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b65">
+	<monogr>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pentland</surname></persName>
+		</author>
+		<title level="m" xml:id="_4YBRDra" coords="9,102.27,593.71,103.16,6.03">Smart Rooms. Scientific American</title>
+		<imprint>
+			<date type="published" when="1996">1996</date>
+			<biblScope unit="page" from="54" to="62" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b66">
+	<analytic>
+		<title level="a" type="main" coords="9,158.34,601.70,131.81,6.03" xml:id="_69jxqcq">Face recognition for smart environments</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pentland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Choudhury</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_mZGyQyz" coords="9,54.48,609.81,28.41,6.03">Computer</title>
+		<imprint>
+			<biblScope unit="page" from="50" to="55" />
+			<date type="published" when="2000">2000</date>
+			<publisher>IEEE Press United</publisher>
+			<pubPlace>Kingdom</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b67">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Pentland</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Smart Rooms</surname></persName>
+		</author>
+		<ptr target="http://vismod.www.media.mit.edu/vismod/demos/smartroom/ive.htmlS" />
+		<imprint>
+			<date type="published" when="2011-12-28">2011/12/28</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b68">
+	<analytic>
+		<title level="a" type="main" coords="9,163.27,633.90,130.28,6.03;9,54.48,642.06,68.20,6.03" xml:id="_zgaTpcC">Vision based human activity detection for eldercare and security</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Pereira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>De Silva</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_7n862cE" coords="9,128.29,642.06,165.24,6.03;9,54.48,650.23,55.27,6.03">Proceedings of the Annual Conference on Image and Vision Computing</title>
+		<meeting>the Annual Conference on Image and Vision Computing<address><addrLine>New Zealand</addrLine></address></meeting>
+		<imprint>
+			<publisher>Great Barrier Island</publisher>
+			<date type="published" when="2006">2006. 2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b69">
+	<analytic>
+		<title level="a" type="main" coords="9,413.68,60.45,148.88,6.03;9,323.49,68.39,107.74,6.03" xml:id="_aRaSqza">Cobra: a content-based video retrieval system (advances in database technology)</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Petkovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Jonker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_mNYarKW" coords="9,437.61,68.39,124.92,6.03;9,323.49,76.38,148.16,6.03">Proceedings of the Eighth International Conference on Extending Database Technology</title>
+		<meeting>the Eighth International Conference on Extending Database Technology<address><addrLine>Prague, Czech Republic</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2002">2002. 2002</date>
+			<biblScope unit="page" from="736" to="738" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b70">
+	<analytic>
+		<title level="a" type="main" coords="9,424.74,92.31,134.50,6.03" xml:id="_xUGXF2t">Multiple-sensor indoor surveillance system</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">A</forename><surname>Petrushin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_x7bJN8a" coords="9,323.49,100.25,239.08,6.03;9,323.49,108.24,25.03,6.03">Proceedings of the Third Canadian Conference on Computer and Robot Vision (CRV&apos;06)</title>
+		<meeting>the Third Canadian Conference on Computer and Robot Vision (CRV&apos;06)</meeting>
+		<imprint>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b71">
+	<analytic>
+		<title level="a" type="main" coords="9,424.23,116.23,138.30,6.03;9,323.49,124.17,25.89,6.03" xml:id="_x2DmsxU">Audio-visual segmentation for content-based Retrieval</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Pye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Hollinghurst</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_VfTtQtK" coords="9,357.11,124.17,205.43,6.03;9,323.49,132.16,29.36,6.03">The International Conference on Spoken Language Processing (ICSLP&apos;98)</title>
+		<meeting><address><addrLine>Sydney, Australia</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b72">
+	<analytic>
+		<title level="a" type="main" coords="9,424.68,140.10,137.86,6.03;9,323.49,148.09,18.23,6.03" xml:id="_NZ5eHfA">Thinkhome energy efficiency in future smart homes</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Reinisch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Kofler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_GvfdHDd" coords="9,347.58,148.09,122.34,6.03">EURASIP Journal on Embedded Systems</title>
+		<imprint>
+			<biblScope unit="page">19</biblScope>
+			<date type="published" when="2011">2011. 2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b73">
+	<analytic>
+		<title level="a" type="main" coords="9,404.95,156.09,94.66,6.03" xml:id="_rTg2wgT">The human speechome project</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Roy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Patel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_p44RKvM" coords="9,505.01,156.09,57.56,6.03;9,323.49,164.03,128.98,6.03">Proceedings of the 28th Annual Cognitive Science Conference</title>
+		<meeting>the 28th Annual Cognitive Science Conference</meeting>
+		<imprint>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b74">
+	<analytic>
+		<title level="a" type="main" coords="9,405.97,172.02,156.58,6.03;9,323.49,179.96,34.09,6.03" xml:id="_w34jaUZ">New direct approaches to robust sound source localization</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Rui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Florencio</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_Qsy8TRV" coords="9,364.53,179.96,198.04,6.03;9,323.49,187.95,16.10,6.03">IEEE International Conference on Multimedia &amp; Expo (ICME 2003)</title>
+		<meeting><address><addrLine>Baltimore, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b75">
+	<analytic>
+		<title level="a" type="main" coords="9,390.89,195.89,168.29,6.03" xml:id="_HB8Jzbv">A camera-based system for tracking people in real Time</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Segen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pingali</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_56kHb5a" coords="9,323.49,203.89,223.34,6.03">Proceedings of the 13th International Conference on Pattern Recognition</title>
+		<meeting>the 13th International Conference on Pattern Recognition</meeting>
+		<imprint>
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b76">
+	<analytic>
+		<title level="a" type="main" coords="9,422.81,211.88,139.73,6.03;9,323.49,219.82,46.42,6.03" xml:id="_RRA5b27">Towards event detection in an audio-based sensor network</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Smeaton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mchugh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_pkuaDX9" coords="9,376.10,219.82,186.47,6.03;9,323.49,227.81,114.91,6.03">Proceedings of the Third ACM Workshop on Video Surveillance and Sensor Networks (VSSN&apos;05)</title>
+		<meeting>the Third ACM Workshop on Video Surveillance and Sensor Networks (VSSN&apos;05)<address><addrLine>Singapore</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2005">2005</date>
+			<biblScope unit="page" from="87" to="94" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b77">
+	<analytic>
+		<title level="a" type="main" coords="9,416.58,235.75,145.99,6.03;9,323.49,243.74,41.67,6.03" xml:id="_rnDAwwn">Multimedia event-based video indexing using time intervals</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Snoek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Worring</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_gnuTtFj" coords="9,370.26,243.74,71.80,6.03">IEEE Trans. Multimedia</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="638" to="647" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b78">
+	<analytic>
+		<title level="a" type="main" coords="9,413.17,251.74,149.38,6.03;9,323.49,259.67,156.82,6.03" xml:id="_5u7UcRF">Human activity recognition by head movement using Elman network and Neuro-Markovian hybrids</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C C</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>De Silva</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_ueaT7ky" coords="9,485.00,259.67,77.54,6.03;9,323.49,267.67,120.92,6.03">Proceedings of Image and Vision Computing New Zealand (IVCNZ</title>
+		<meeting>Image and Vision Computing New Zealand (IVCNZ<address><addrLine>New Zealand</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2003">2003. 2003</date>
+			<biblScope unit="page" from="320" to="326" />
+		</imprint>
+		<respStmt>
+			<orgName>Massey University, Palmerston North</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b79">
+	<analytic>
+		<title level="a" type="main" coords="9,436.42,283.60,126.15,6.03;9,323.49,291.53,163.28,6.03" xml:id="_P6BcBpB">An automatic system for multiple human tracking and actions recognition in office environment</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C C</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E G</forename><surname>Janapriya</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_PGHjQeG" coords="9,491.80,291.53,70.77,6.03;9,323.49,299.53,213.02,6.03">Proceedings of IEEE the International Conference on Acoustics, Speech and Signal Processing</title>
+		<meeting>IEEE the International Conference on Acoustics, Speech and Signal Processing<address><addrLine>Hong Kong</addrLine></address></meeting>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2003">2003. 2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b80">
+	<analytic>
+		<title level="a" type="main" coords="9,409.32,315.46,153.24,6.03;9,323.49,323.45,117.62,6.03" xml:id="_bvs3cdu">Human activities recognition by head movement using partial recurrent neural network</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C C</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Jia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_uY4SBaZ" coords="9,446.73,323.45,30.09,6.03">Proc. SPIE</title>
+		<meeting>SPIE</meeting>
+		<imprint>
+			<date type="published" when="2003">2003. 2007</date>
+			<biblScope unit="volume">5150</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b81">
+	<monogr>
+		<author>
+			<persName><forename type="first">D</forename><surname>Tjondronegoro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-P</forename><forename type="middle">P</forename><surname>Chen</surname></persName>
+		</author>
+		<title level="m" xml:id="_s29ZJ7F" coords="9,450.53,331.39,112.00,6.03;9,323.49,339.38,239.09,6.03;9,323.49,347.37,67.29,6.03">A framework for customizable sport video management and retrieval. Mining Multimedia and Complex Data: KDD Workshop MDM/KDD</title>
+		<imprint>
+			<publisher>PAKDD Workshop KDMCD 2002 Revised Papers</publisher>
+			<date type="published" when="2002">2002. 2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b82">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">O</forename><surname>Za€iane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Simoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Djeraba</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Springer</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="page" from="248" to="265" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b83">
+	<analytic>
+		<title level="a" type="main" coords="9,431.77,363.31,130.79,6.03;9,323.49,371.24,23.54,6.03" xml:id="_p54pNZt">Multiple-human tracking using multiple cameras</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Utsumi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Mori</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_wzYD7my" coords="9,352.23,371.24,210.35,6.03;9,323.49,379.24,90.64,6.03">Proceedings of the Third IEEE International Conference on Automatic Face and Gesture Recognition</title>
+		<meeting>the Third IEEE International Conference on Automatic Face and Gesture Recognition</meeting>
+		<imprint>
+			<date type="published" when="1998">1998</date>
+			<biblScope unit="page" from="498" to="503" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b84">
+	<analytic>
+		<title level="a" type="main" coords="9,429.16,387.23,133.40,6.03;9,323.49,395.17,22.42,6.03" xml:id="_yz6fDxy">Multiple view-based tracking of multiple humans</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Utsumi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Mori</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_65CvBZ2" coords="9,352.00,395.17,210.56,6.03;9,323.49,403.16,16.98,6.03">Proceedings of the 14th International Conference on Pattern Recognition</title>
+		<meeting>the 14th International Conference on Pattern Recognition</meeting>
+		<imprint>
+			<date type="published" when="1998">1998</date>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="597" to="601" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b85">
+	<analytic>
+		<title level="a" type="main" coords="9,424.63,411.10,113.59,6.03" xml:id="_TrTYhTD">Smart audio sensor for telemedicine</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Vacher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Istrate</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_JuQymRC" coords="9,544.36,411.10,18.22,6.03;9,323.49,419.09,59.11,6.03">Smart Objects Conference</title>
+		<meeting><address><addrLine>Grenoble, France</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2003">2003. 2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b86">
+	<analytic>
+		<title level="a" type="main" coords="9,419.52,427.03,143.06,6.03;9,323.49,435.02,37.29,6.03" xml:id="_VFXVkCU">Multimodal approach to human-face detection and tracking</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Vadakkepat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Lim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_pTGHdBZ" coords="9,365.95,435.02,76.85,6.03">IEEE Trans. Ind. Electron</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="1385" to="1393" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b87">
+	<analytic>
+		<title level="a" type="main" coords="9,415.56,443.01,146.99,6.03;9,323.49,450.95,19.22,6.03" xml:id="_Qg8Wcx5">Intelligent distributed surveillance systems: a review</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Valera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Velastin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_2dVbG7x" coords="9,348.15,450.95,94.86,6.03">IEE Proc. Image Signal Process</title>
+		<imprint>
+			<biblScope unit="volume">152</biblScope>
+			<biblScope unit="page" from="192" to="204" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b88">
+	<analytic>
+		<title level="a" type="main" coords="9,389.53,458.94,101.59,6.03" xml:id="_CDYWD7f">Robust real-time object detection</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Viola</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jones</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_BjNucuX" coords="9,496.17,458.94,63.44,6.03">Int. J. Comput. Vision</title>
+		<imprint>
+			<biblScope unit="page" from="1026" to="1033" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b89">
+	<analytic>
+		<title level="a" type="main" coords="9,365.21,474.87,147.59,6.03" xml:id="_SwJRJ6P">CHIL-Computers in the human interaction loop</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Waibel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_XfWdvSh" coords="9,517.88,474.87,44.65,6.03;9,323.49,482.87,26.02,6.03">Proceedings of Learntec</title>
+		<meeting>Learntec</meeting>
+		<imprint>
+			<date type="published" when="2005">2005. 2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b90">
+	<analytic>
+		<title level="a" type="main" coords="9,418.56,490.81,143.97,6.03;9,323.49,498.80,53.25,6.03" xml:id="_RqK9kNV">Survey of sports video analysis: research issues and applications</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Parameswaran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Piccardi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hintz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">D</forename><surname>Feng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_QxZKvC9" coords="9,385.85,498.80,176.67,6.03;9,323.49,506.74,124.55,6.03">Proceedings of the Pan-Sydney area workshop on Visual information processing (VIP &apos;05)</title>
+		<meeting>the Pan-Sydney area workshop on Visual information processing (VIP &apos;05)<address><addrLine>Darlinghurst, Australia</addrLine></address></meeting>
+		<imprint>
+			<publisher>Australian Computer Society, Inc</publisher>
+			<date type="published" when="2005">2005</date>
+			<biblScope unit="page" from="87" to="90" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b91">
+	<analytic>
+		<title level="a" type="main" coords="9,404.78,530.66,157.76,6.03;9,323.49,538.65,32.38,6.03" xml:id="_QXCQzXQ">Multimedia content analysis using both audio and visual cues</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_cw9WttB" coords="9,361.13,538.65,99.03,6.03">IEEE Signal Processing Magazine</title>
+		<imprint>
+			<biblScope unit="page" from="12" to="36" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b92">
+	<analytic>
+		<title level="a" type="main" coords="9,406.94,546.59,106.37,6.03" xml:id="_npjtZVa">Survey on information appliances</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Want</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Borriello</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_HeyqF5K" coords="9,519.92,546.59,42.61,6.03;9,323.49,554.58,44.94,6.03">IEEE Comput. Graphics Appl</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="24" to="31" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b93">
+	<analytic>
+		<title level="a" type="main" coords="9,414.25,562.52,71.12,6.03" xml:id="_NV29UQJ">Playing with SenseCam</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Wood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Fleck</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_XDnBc5R" coords="9,491.80,562.52,70.73,6.03;9,323.49,570.51,239.07,6.03;9,323.49,578.51,33.90,6.03">Proceedings of Playing with Sensors: Exploring the Boundaries of Sensing for Playful Ubiquitous Computing</title>
+		<meeting>Playing with Sensors: Exploring the Boundaries of Sensing for Playful Ubiquitous Computing</meeting>
+		<imprint>
+			<date type="published" when="2004">2004. 2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b94">
+	<analytic>
+		<title level="a" type="main" coords="9,399.17,586.44,163.36,6.03;9,323.49,594.44,58.82,6.03" xml:id="_sKtknZr">Content-based retrieval of video data with flexibly managed attributes</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">I</forename><surname>Yong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">S</forename><surname>Lee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_mbnwGSt" coords="9,387.44,594.44,46.92,6.03">Knowl. Inf. Syst</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="507" to="519" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b95">
+	<analytic>
+		<title level="a" type="main" coords="9,397.36,602.38,165.22,6.03;9,323.49,610.37,135.43,6.03" xml:id="_5wNTbdr">Prototyping and evaluation for smart home controller based on chinese families behavior analysis</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>You</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Luo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_c5fM7mg" coords="9,464.42,610.37,98.11,6.03;9,323.49,618.31,200.14,6.03">Proceedings of the Eighth Asia-Pacific conference on Computer-Human Interaction (APCHI &apos;08</title>
+		<meeting>the Eighth Asia-Pacific conference on Computer-Human Interaction (APCHI &apos;08</meeting>
+		<imprint>
+			<date type="published" when="2008">2008</date>
+			<biblScope unit="page" from="437" to="445" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b96">
+	<analytic>
+		<title level="a" type="main" coords="9,415.44,634.29,147.09,6.03;9,323.49,642.23,109.56,6.03" xml:id="_HBek7Ny">A survey of affect recognition methods: audio, visual, and spontaneous expressions</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zeng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pantic</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_HGsKMrB" coords="9,438.06,642.23,114.88,6.03">IEEE Trans. Pattern Anal. Mach. Intell</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="39" to="58" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

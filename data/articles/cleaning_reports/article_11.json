@@ -1,0 +1,36 @@
+{
+  "article_id": "article_11",
+  "source_tei": "data\\articles\\extracted_grobid_tei\\article_11.grobid.tei.xml",
+  "main_output": "data\\articles\\cleaned_markdown\\article_11.md",
+  "supplementary_output": null,
+  "title_found": false,
+  "abstract_candidates": [],
+  "selected_abstract_preview": "",
+  "counts": {
+    "main_blocks": 81,
+    "supplementary_blocks": 0,
+    "discarded_blocks": 10,
+    "review_blocks": 1,
+    "block_kinds": {
+      "paragraph": 63,
+      "heading": 18
+    },
+    "discard_reasons": {
+      "boilerplate_or_noise": 1,
+      "figure_or_table_caption": 1,
+      "figure_content": 6,
+      "duplicate_content": 2
+    }
+  },
+  "quality": {
+    "raw_body_characters": 41550,
+    "main_text_characters": 39277,
+    "main_text_ratio": 0.9453
+  },
+  "warnings": [
+    "abstract_not_found",
+    "abstract_not_selected",
+    "manual_review_recommended",
+    "title_not_found"
+  ]
+}

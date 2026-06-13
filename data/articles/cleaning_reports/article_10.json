@@ -1,0 +1,39 @@
+{
+  "article_id": "article_10",
+  "source_tei": "data\\articles\\extracted_grobid_tei\\article_10.grobid.tei.xml",
+  "main_output": "data\\articles\\cleaned_markdown\\article_10.md",
+  "supplementary_output": "data\\articles\\supplementary_markdown\\article_10.md",
+  "title_found": true,
+  "abstract_candidates": [
+    {
+      "score": 9.0,
+      "word_count": 183,
+      "language": "",
+      "preview": "Existing research studies on home automation systems mostly conserve energy by modeling the occupancy of users within home. Some others apply statistical approaches on the survey data about usage of appliances. Consequently, these research works either reduce wastage of electricity through automatio"
+    }
+  ],
+  "selected_abstract_preview": "Existing research studies on home automation systems mostly conserve energy by modeling the occupancy of users within home. Some others apply statistical approaches on the survey data about usage of appliances. Consequently, these research works either reduce wastage of electricity through automation or achieve energy efficiency based on appliances' usage estimations. However, they do not provide energy consumption modeling which is human comfort centric and also validated through practical impl",
+  "counts": {
+    "main_blocks": 88,
+    "supplementary_blocks": 2,
+    "discarded_blocks": 17,
+    "review_blocks": 8,
+    "block_kinds": {
+      "heading": 22,
+      "paragraph": 56,
+      "formula": 12
+    },
+    "discard_reasons": {
+      "figure_or_table_caption": 2,
+      "figure_content": 15
+    }
+  },
+  "quality": {
+    "raw_body_characters": 57054,
+    "main_text_characters": 46184,
+    "main_text_ratio": 0.8095
+  },
+  "warnings": [
+    "manual_review_recommended"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "article_id": "article_9",
+  "source_tei": "data\\articles\\extracted_grobid_tei\\article_9.grobid.tei.xml",
+  "main_output": "data\\articles\\cleaned_markdown\\article_9.md",
+  "supplementary_output": null,
+  "title_found": true,
+  "abstract_candidates": [
+    {
+      "score": 5.0,
+      "word_count": 249,
+      "language": "",
+      "preview": "Small office buildings below 10,000 square feet account for approximately 75% of the total number of office buildings in the United States. Unlike large office buildings, small office buildings usually use packaged HVAC systems for environmental control and are not equipped with building management "
+    }
+  ],
+  "selected_abstract_preview": "Small office buildings below 10,000 square feet account for approximately 75% of the total number of office buildings in the United States. Unlike large office buildings, small office buildings usually use packaged HVAC systems for environmental control and are not equipped with building management systems. The lack of smart control in small office buildings leaves lowhanging fruit unpicked in terms of energy efficiency. The commonly seen missed opportunities include the fixed cooling setpoint s",
+  "counts": {
+    "main_blocks": 51,
+    "supplementary_blocks": 0,
+    "discarded_blocks": 18,
+    "review_blocks": 1,
+    "block_kinds": {
+      "heading": 16,
+      "paragraph": 35
+    },
+    "discard_reasons": {
+      "figure_or_table_caption": 4,
+      "figure_content": 14
+    }
+  },
+  "quality": {
+    "raw_body_characters": 26584,
+    "main_text_characters": 21227,
+    "main_text_ratio": 0.7985
+  },
+  "warnings": [
+    "manual_review_recommended"
+  ]
+}

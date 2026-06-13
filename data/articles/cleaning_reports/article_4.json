@@ -1,0 +1,36 @@
+{
+  "article_id": "article_4",
+  "source_tei": "data\\articles\\extracted_grobid_tei\\article_4.grobid.tei.xml",
+  "main_output": "data\\articles\\cleaned_markdown\\article_4.md",
+  "supplementary_output": null,
+  "title_found": true,
+  "abstract_candidates": [
+    {
+      "score": 5.0,
+      "word_count": 217,
+      "language": "",
+      "preview": "Today, 44% of global energy has been derived from fossil fuel, which currently poses a threat to inhabitants and well-being of the environment. In a recent investigation of the global demand for energy consumption across various energy consumption sectors, the building sector has been shown to be on"
+    }
+  ],
+  "selected_abstract_preview": "Today, 44% of global energy has been derived from fossil fuel, which currently poses a threat to inhabitants and well-being of the environment. In a recent investigation of the global demand for energy consumption across various energy consumption sectors, the building sector has been shown to be one of the primary energy consumers, with a high percentage of energy consumption deemed as unnecessary. This as a result of poor management practice and implementation of strategies to avoid excess ene",
+  "counts": {
+    "main_blocks": 100,
+    "supplementary_blocks": 0,
+    "discarded_blocks": 11,
+    "review_blocks": 0,
+    "block_kinds": {
+      "heading": 16,
+      "paragraph": 84
+    },
+    "discard_reasons": {
+      "figure_or_table_caption": 1,
+      "figure_content": 10
+    }
+  },
+  "quality": {
+    "raw_body_characters": 74003,
+    "main_text_characters": 58662,
+    "main_text_ratio": 0.7927
+  },
+  "warnings": []
+}

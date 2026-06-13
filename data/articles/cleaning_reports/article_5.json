@@ -1,0 +1,33 @@
+{
+  "article_id": "article_5",
+  "source_tei": "data\\articles\\extracted_grobid_tei\\article_5.grobid.tei.xml",
+  "main_output": "data\\articles\\cleaned_markdown\\article_5.md",
+  "supplementary_output": null,
+  "title_found": true,
+  "abstract_candidates": [
+    {
+      "score": 9.0,
+      "word_count": 138,
+      "language": "",
+      "preview": "Current technological trends have enabled several smart spaces in our daily environments. A typical example is the home, which is becoming more and more populated by connected objects and sensors. In this way, even people who are not professional software developers can create automations that compo"
+    }
+  ],
+  "selected_abstract_preview": "Current technological trends have enabled several smart spaces in our daily environments. A typical example is the home, which is becoming more and more populated by connected objects and sensors. In this way, even people who are not professional software developers can create automations that compose the dynamic behaviours of such connected objects. In this paper, we report and discuss two online surveys targeting two different groups of users: one consists of a general population of end users ",
+  "counts": {
+    "main_blocks": 28,
+    "supplementary_blocks": 0,
+    "discarded_blocks": 0,
+    "review_blocks": 0,
+    "block_kinds": {
+      "heading": 9,
+      "paragraph": 19
+    },
+    "discard_reasons": {}
+  },
+  "quality": {
+    "raw_body_characters": 21060,
+    "main_text_characters": 20794,
+    "main_text_ratio": 0.9874
+  },
+  "warnings": []
+}

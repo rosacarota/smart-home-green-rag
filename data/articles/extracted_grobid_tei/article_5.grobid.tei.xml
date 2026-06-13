@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main" xml:id="_VBgYsfE" coords="1,84.96,93.15,327.41,15.35">What People Think About Green Smart Homes</title>
+				<funder ref="#_9kJjWdM">
+					<orgName type="full">Italian MUR PRIN 2022</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">European Union -Next Generation EU</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">End-User Development of Automations for Explainable Green Smart Homes</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">Barbara</forename><forename type="middle">Rita</forename><surname>Barricelli</surname></persName>
+							<email>barbara.barricelli@unibs.it</email>
+							<affiliation key="aff0">
+								<orgName type="institution">University of Brescia</orgName>
+								<address>
+									<settlement>Brescia</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Daniela</forename><surname>Fogli</surname></persName>
+							<email>daniela.fogli@unibs.it</email>
+							<affiliation key="aff0">
+								<orgName type="institution">University of Brescia</orgName>
+								<address>
+									<settlement>Brescia</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Simone</forename><surname>Gallo</surname></persName>
+							<email>simone.gallo@isti.cnr.it</email>
+							<affiliation key="aff1">
+								<orgName type="institution">CNR -ISTI</orgName>
+								<address>
+									<settlement>Pisa</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Davide</forename><surname>Guizzardi</surname></persName>
+							<email>davide.guizzardi@unibs.it</email>
+							<affiliation key="aff0">
+								<orgName type="institution">University of Brescia</orgName>
+								<address>
+									<settlement>Brescia</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sara</forename><surname>Maenza</surname></persName>
+							<email>sara.maenza@isti.cnr.it</email>
+							<affiliation key="aff1">
+								<orgName type="institution">CNR -ISTI</orgName>
+								<address>
+									<settlement>Pisa</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Andrea</forename><surname>Mattioli</surname></persName>
+							<email>andrea.mattioli@isti.cnr.it</email>
+							<affiliation key="aff1">
+								<orgName type="institution">CNR -ISTI</orgName>
+								<address>
+									<settlement>Pisa</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Fabio</forename><surname>Paternò</surname></persName>
+							<email>fabio.paterno@isti.cnr.it</email>
+							<affiliation key="aff1">
+								<orgName type="institution">CNR -ISTI</orgName>
+								<address>
+									<settlement>Pisa</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main" xml:id="_G2WpRN2" coords="1,84.96,93.15,327.41,15.35">What People Think About Green Smart Homes</title>
+					</analytic>
+					<monogr>
+						<idno type="ISSN">1613-0073</idno>
+					</monogr>
+					<idno type="MD5">7A650F2E8BF14344C97D5CC497E07115</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-06-12T21:52+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=true, generateTeiCoordinates=[title, head, p, s, note, figure, formula, ref], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term xml:id="_ZPHpwKb">Smart homes, End-User Development, Internet of Things 1 (F. Paternò) 0000-0001-9575-5542 (B. R. Barricelli)</term>
+					<term xml:id="_U6NEWzR">0000-0003-1479-2240 (D. Fogli)</term>
+					<term xml:id="_YF9aSrc">0000-0002-5162-0475 (S. Gallo)</term>
+					<term xml:id="_pKFd2c4">0009-0000-7761-7103 (D. Guizzardi)</term>
+					<term xml:id="_aZRjnPH">0009-0000-2205-6599 (S. Maenza)</term>
+					<term xml:id="_ex9dJ2d">0000-0001-6766-7916 (A. Mattioli)</term>
+					<term xml:id="_G6Vznwn">0000-0001-8355-6909 (F. Paternò)</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_3n3zNpX"><p xml:id="_ckYkxfs" coords="1,141.66,223.12,368.26,8.11;1,141.66,233.68,368.31,8.11;1,141.66,244.24,368.20,8.11;1,141.66,254.80,368.26,8.11;1,141.66,265.36,368.26,8.11;1,141.66,275.92,368.30,8.11;1,141.66,286.48,368.27,8.11;1,141.66,297.04,368.26,8.11;1,141.66,307.60,368.22,8.11;1,141.66,318.16,352.34,8.11"><s xml:id="_upguhkU" coords="1,141.66,223.12,359.57,8.11">Current technological trends have enabled several smart spaces in our daily environments.</s><s xml:id="_Jg8w2tt" coords="1,504.23,223.12,5.68,8.11;1,141.66,233.68,368.31,8.11;1,141.66,244.24,48.28,8.11">A typical example is the home, which is becoming more and more populated by connected objects and sensors.</s><s xml:id="_KV22eM5" coords="1,192.39,244.24,317.47,8.11;1,141.66,254.80,300.99,8.11">In this way, even people who are not professional software developers can create automations that compose the dynamic behaviours of such connected objects.</s><s xml:id="_4YyFjbn" coords="1,444.91,254.80,65.01,8.11;1,141.66,265.36,368.26,8.11;1,141.66,275.92,368.30,8.11;1,141.66,286.48,368.27,8.11;1,141.66,297.04,253.81,8.11">In this paper, we report and discuss two online surveys targeting two different groups of users: one consists of a general population of end users with different degrees of experience in smart home use and personalization, and the other composed of people who have already some experiences in directly creating automations and managing smart environments.</s><s xml:id="_WtUdkqb" coords="1,397.81,297.04,112.12,8.11;1,141.66,307.60,368.22,8.11;1,141.66,318.16,352.34,8.11">Overall, such studies provide useful information for better understanding the requirements that end-user development approaches should address to be successful in order to be actually adopted in such contexts.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.0" lry="842.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.0" lry="842.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.0" lry="842.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.0" lry="842.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.0" lry="842.0"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.0" lry="842.0"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="595.0" lry="842.0"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="595.0" lry="842.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1." xml:id="_jMYEn78" coords="1,84.96,389.12,87.54,12.54">Introduction</head><p xml:id="_QptWmWe" coords="1,99.16,415.52,410.72,9.81;1,84.96,429.68,92.76,9.81;1,192.58,429.68,317.30,9.81;1,84.96,443.84,424.89,9.81;1,84.96,458.00,424.92,9.81;1,84.96,472.40,36.55,9.81;1,142.59,472.40,367.23,9.81;1,84.96,486.56,424.88,9.81;1,84.96,500.72,424.91,9.81;1,84.96,514.88,361.97,9.81;1,461.70,514.88,48.17,9.81;1,84.96,529.04,424.90,9.81;1,84.96,543.20,217.50,9.81;1,330.06,543.20,179.85,9.81;2,84.96,91.04,424.96,9.81;2,84.96,105.20,356.58,9.81;2,460.81,105.20,49.04,9.81;2,84.96,119.36,424.95,9.81;2,84.96,133.52,424.94,9.81;2,84.96,147.68,424.92,9.81;2,84.96,161.84,100.12,9.81;2,207.35,161.84,302.56,9.81;2,84.96,176.24,424.94,9.81;2,84.96,190.40,424.92,9.81;2,84.96,204.56,424.93,9.81;2,84.96,218.72,135.23,9.81;2,234.50,218.72,275.33,9.81;2,84.96,232.88,282.33,9.81;2,383.13,232.88,126.72,9.81;2,84.96,247.04,424.92,9.81;2,97.11,261.20,412.76,9.81;2,84.96,275.36,424.91,9.81;2,84.96,289.52,424.82,9.81;2,84.96,303.92,424.85,9.81;2,84.96,318.08,425.05,9.81;2,84.96,332.24,424.99,9.81;2,84.96,346.40,424.94,9.81;2,84.96,360.56,171.41,9.81"><s xml:id="_WD76nvC" coords="1,99.16,415.52,410.72,9.81;1,84.96,429.68,401.67,9.81">Current technological trends indicate an exponential growth in the number of connected objects and sensors <ref type="bibr" coords="1,180.54,429.68,12.04,9.81" target="#b8">[9]</ref>, which populate more and more people's daily environments.</s><s xml:id="_9Skm3Yw" coords="1,489.49,429.68,20.39,9.81;1,84.96,443.84,424.89,9.81;1,84.96,458.00,328.92,9.81">This opens up new possibilities where even non-professional software developers can define and control automations in such environments, such as the home.</s><s xml:id="_Hc6pK4u" coords="1,418.73,458.00,91.15,9.81;1,84.96,472.40,424.86,9.81;1,84.96,486.56,280.51,9.81">However, previous surveys <ref type="bibr" coords="1,125.14,472.40,13.81,9.81" target="#b2">[3]</ref> report that often people had difficulty avoiding false alarms, communicating complex schedules, and resolving conflicting preferences.</s><s xml:id="_kQp8YkY" coords="1,370.19,486.56,139.66,9.81;1,84.96,500.72,424.91,9.81;1,84.96,514.88,380.75,9.81">In general, more research is needed to understand what people think about smart home, whether and how they use automations in their spaces, and what are their needs in these environments <ref type="bibr" coords="1,449.65,514.88,12.04,9.81" target="#b7">[8]</ref>.</s><s xml:id="_YcRavK3" coords="1,468.46,514.88,41.41,9.81;1,84.96,529.04,424.90,9.81;1,84.96,543.20,61.77,9.81">Previous studies have investigated people's relationship with smart homes under several perspectives.</s><s xml:id="_88DDCuq" coords="1,150.57,543.20,359.35,9.81;2,84.96,91.04,424.96,9.81;2,84.96,105.20,253.09,9.81">For example, Ur and colleagues <ref type="bibr" coords="1,306.33,543.20,19.90,9.81" target="#b9">[10]</ref> explored the expectations of possible users regarding the functionality of a smart home, and then analysed what functionality had been expressed "in the wild" by scraping IFTTT rules.</s><s xml:id="_4U4xMv8" coords="2,340.81,105.20,169.05,9.81;2,84.96,119.36,424.95,9.81;2,84.96,133.52,174.03,9.81">Corno and colleagues <ref type="bibr" coords="2,444.29,105.20,13.77,9.81" target="#b1">[2]</ref> conducted a one-week diary study where participants were required to write down automations that emerged during their daily activities.</s><s xml:id="_AEgAbMJ" coords="2,261.68,133.52,248.22,9.81;2,84.96,147.68,424.92,9.81">The purpose of the study was to investigate whether other abstractions to describe automations (besides the vendor-centric one) are possible.</s><s xml:id="_UbghsHf" coords="2,84.96,161.84,424.94,9.81;2,84.96,176.24,424.94,9.81;2,84.96,190.40,414.15,9.81">Mattioli and Paternò <ref type="bibr" coords="2,189.30,161.84,13.80,9.81" target="#b5">[6]</ref> put out a study where they analysed what functionality users expect from a smart home, but also how they would define it, in terms of what operators and constructs they would need to implement the automated behaviours they desire.</s><s xml:id="_NGUMszN" coords="2,503.01,190.40,6.88,9.81;2,84.96,204.56,424.93,9.81;2,84.96,218.72,153.56,9.81">A topic that has been gaining increasing interest in recent years is how smart homes can help environmental sustainability <ref type="bibr" coords="2,222.46,218.72,12.04,9.81" target="#b3">[4]</ref>.</s><s xml:id="_shzZ3N2" coords="2,240.79,218.72,269.04,9.81;2,84.96,232.88,424.90,9.81;2,84.96,247.04,424.92,9.81;2,84.96,261.20,20.26,9.81">Indeed, the ability to effectively manage energy resources is an important factor in the development of smart homes <ref type="bibr" coords="2,371.02,232.88,12.11,9.81" target="#b0">[1]</ref>, and several studies have analysed how to optimize power consumption and generation at the grid level (for instance, <ref type="bibr" coords="2,84.96,261.20,12.15,9.81" target="#b6">[7]</ref>).</s><s xml:id="_xB2CXFf" coords="2,107.63,261.20,402.25,9.81;2,84.96,275.36,304.87,9.81">In this paper, it is examined how different types of users relate to smart homes, with a focus on environmental sustainability from a broad perspective.</s><s xml:id="_CaBxGpe" coords="2,392.96,275.36,116.92,9.81;2,84.96,289.52,424.82,9.81;2,84.96,303.92,424.85,9.81">Two questionnaires, one for the general population with varying degrees of experience with home automation and one for enthusiast adopters of these systems, were disseminated on online communities.</s><s xml:id="_SKNpcnF" coords="2,84.96,318.08,425.05,9.81;2,84.96,332.24,424.99,9.81;2,84.96,346.40,424.94,9.81;2,84.96,360.56,171.41,9.81">The remainder of this paper analyses the responses to these questionnaires and draws conclusions about the current state of smart home management systems, the perception different user groups have of them, and the future challenges and opportunities regarding home automation and sustainability.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2." xml:id="_CeVTDHF" coords="2,84.96,388.16,153.70,12.54">End-User Questionnaire</head><p xml:id="_6DdCm3E" coords="2,98.46,419.60,411.40,9.81;2,84.96,433.76,424.96,9.81;2,84.96,447.92,424.94,9.81;2,84.96,462.08,424.79,9.81;2,84.96,476.24,424.98,9.81;2,84.96,490.40,424.91,9.81;2,84.96,504.56,424.77,9.81;2,84.96,518.72,424.75,9.81;2,84.96,533.12,424.92,9.81;2,84.96,547.28,424.82,9.81;2,84.96,561.44,424.93,9.81;2,84.96,575.60,61.28,9.81"><s xml:id="_vYGUDXT" coords="2,98.46,419.60,411.40,9.81;2,84.96,433.76,424.96,9.81;2,84.96,447.92,295.26,9.81">A first questionnaire was submitted to a general population of potential end users of a green smart home to investigate their attitudes towards current technologies for home automation and their potential to enhance energy consumption.</s><s xml:id="_gxTN2X3" coords="2,382.07,447.92,127.83,9.81;2,84.96,462.08,49.45,9.81">The questionnaire included 4 sections.</s><s xml:id="_BDEHnMd" coords="2,137.10,462.08,372.65,9.81;2,84.96,476.24,424.98,9.81;2,84.96,490.40,424.91,9.81;2,84.96,504.56,424.77,9.81;2,84.96,518.72,424.75,9.81;2,84.96,533.12,424.92,9.81;2,84.96,547.28,424.82,9.81;2,84.96,561.44,424.93,9.81;2,84.96,575.60,61.28,9.81">All respondents were presented with questions in Section 1, to provide general and demographic data, and in Section 4, to provide opinions about environment sustainability and green smart homes; Section 2 was reserved only for participants who declared to possess at least one smart device, to investigate how they manage these smart devices, their knowledge of automations, and their interest in a centralized system to control a smart home; Section 3 was then only filled by participants who declared to create automations for their smart home, to investigate which kind of tools they use, and whether any issues occur in using such tools, also related to possible emerging conflicts between automations.</s></p><p xml:id="_jfA28wf" coords="2,98.46,589.76,411.34,9.81;2,84.96,603.92,424.80,9.81;2,84.96,618.08,424.98,9.81;2,84.96,632.24,424.96,9.81;2,84.96,646.40,424.93,9.81;2,84.96,660.80,424.92,9.81;2,84.96,674.96,424.92,9.81;2,84.96,689.12,424.93,9.81;2,84.96,703.28,424.93,9.81;3,84.96,91.04,424.92,9.81;3,84.96,105.20,330.16,9.81"><s xml:id="_k6KcMW2" coords="2,98.46,589.76,66.75,9.81">General data.</s><s xml:id="_56EezcY" coords="2,167.25,589.76,233.98,9.81">111 participants in total filled in the online survey.</s><s xml:id="_SVBpSXw" coords="2,403.28,589.76,106.52,9.81;2,84.96,603.92,424.80,9.81;2,84.96,618.08,112.60,9.81">93% of them are based in Italy, while the remaining come from Hungary, The Netherlands, The United States, Thailand, and Germany.</s><s xml:id="_kMaMCEj" coords="2,200.56,618.08,309.38,9.81;2,84.96,632.24,250.90,9.81">The age distribution of individuals exhibits significant variability, spanning from 17 years old to 70 years old (M=38.8,</s><s xml:id="_ajnrzVd" coords="2,338.95,632.24,51.92,9.81">SD=12.27).</s><s xml:id="_Z8xJtAp" coords="2,393.96,632.24,115.95,9.81;2,84.96,646.40,403.61,9.81">Among the users, 58.6% identified as male, 40.5% as female, and 0.9% preferred not to answer the question.</s><s xml:id="_hdTV67W" coords="2,491.91,646.40,17.98,9.81;2,84.96,660.80,424.92,9.81;2,84.96,674.96,181.85,9.81">The survey data indicates a significant bias towards higher education levels, with 73% of participants holding a degree or a PhD.</s><s xml:id="_KrYfVv2" coords="2,269.17,674.96,240.71,9.81;2,84.96,689.12,291.71,9.81">Conversely, only a minority possesses a high school diploma (26%), and one respondent is currently in high school.</s><s xml:id="_uV5pBwG" coords="2,378.70,689.12,131.19,9.81;2,84.96,703.28,424.93,9.81;3,84.96,91.04,424.92,9.81;3,84.96,105.20,330.16,9.81">To the question about users' experience with programming, rated on a scale with five levels, 51% reported having no experience, while the rest are divided among having Very Good Experience (21%), Good Experience (13%), Average Experience (8%), and Low Experience (7%).</s></p><p xml:id="_jV9QKFG" coords="3,98.46,119.36,411.49,9.81;3,84.96,133.52,424.88,9.81;3,84.96,147.68,424.80,9.81;3,84.96,161.84,424.91,9.81;3,84.96,176.24,424.90,9.81;3,84.96,190.40,424.97,9.81;3,84.96,204.56,424.90,9.81;3,84.96,218.72,424.92,9.81;3,84.96,232.88,424.84,9.81;3,84.96,247.04,424.94,9.81;3,84.96,261.20,424.83,9.81;3,84.96,275.36,424.91,9.81;3,84.96,289.52,424.98,9.81;3,84.96,303.92,424.92,9.81;3,84.96,318.08,424.94,9.81;3,84.96,332.24,424.89,9.81;3,84.96,346.40,127.58,9.81"><s xml:id="_7tyfw5x" coords="3,98.46,119.36,106.81,9.81">Use of smart devices.</s><s xml:id="_q2Xmz3Y" coords="3,208.09,119.36,301.86,9.81;3,84.96,133.52,94.67,9.81">Out of the 111 users who responded to the survey, 63 owned at least 1 smart device.</s><s xml:id="_3bxZWXj" coords="3,181.74,133.52,328.10,9.81;3,84.96,147.68,67.49,9.81">Specifically, 49 possessed up to 3 devices, 10 up to 10, and 4 more than 10 appliances.</s><s xml:id="_HVTrx99" coords="3,155.40,147.68,354.36,9.81;3,84.96,161.84,274.81,9.81">For those who answered positively about having smart devices, the survey reserved a set of questions to dive deeper into the subject.</s><s xml:id="_PdzY8RC" coords="3,362.39,161.84,147.48,9.81;3,84.96,176.24,424.90,9.81;3,84.96,190.40,75.38,9.81">To manage their smart devices, the respondents show a strong inclination towards smartphone usage (87%) and smart speakers (48%).</s><s xml:id="_Dgfrz8G" coords="3,163.12,190.40,346.82,9.81;3,84.96,204.56,424.90,9.81;3,84.96,218.72,223.46,9.81">These results are justified by the fact that almost all the manufacturers of smart devices provide a smartphone application and/or integrate them with virtual assistants, usually accessed via smart speakers.</s><s xml:id="_hqwdP25" coords="3,311.16,218.72,198.72,9.81;3,84.96,232.88,424.84,9.81;3,84.96,247.04,104.28,9.81">Such findings underline the importance of having tools for managing smart devices that prioritize seamless integration with household appliances.</s><s xml:id="_8Mp6pRm" coords="3,192.10,247.04,317.80,9.81;3,84.96,261.20,53.75,9.81">Further proof of such an idea comes from the following question of the survey.</s><s xml:id="_Rf67aRx" coords="3,143.22,261.20,366.56,9.81;3,84.96,275.36,424.91,9.81;3,84.96,289.52,116.51,9.81">In fact, when asked to express interest in a unique system supporting the management of all their smart devices, only 27% of the users declared to be neutral or not interested in the topic.</s><s xml:id="_Hd7pmN3" coords="3,207.58,289.52,302.36,9.81;3,84.96,303.92,424.92,9.81;3,84.96,318.08,424.94,9.81;3,84.96,332.24,424.89,9.81;3,84.96,346.40,127.58,9.81">The last question of this section wanted to investigate the participants' awareness of tools for the creation of smart home automations: 9% of the 63 participants declared no knowledge of such tools, 50% were aware of automations but did not use them, while the remaining 41% (26 out of 63) knew automation creation tools and have used them in the past.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_CDj6zWw" coords="3,98.46,360.56,99.15,9.81">Use of automations.</head><p xml:id="_um4HCr3" coords="3,199.89,360.56,310.03,9.81;3,84.96,374.72,424.93,9.81;3,84.96,388.88,424.98,9.81;3,84.96,403.04,424.98,9.81;3,84.96,417.20,424.89,9.81;3,84.96,431.36,424.90,9.81;3,84.96,445.76,424.93,9.81;3,84.96,459.92,424.96,9.81;3,84.96,474.08,424.92,9.81;3,84.96,488.24,424.98,9.81;3,84.96,502.40,424.87,9.81;3,84.96,516.56,424.86,9.81;3,84.96,530.72,424.97,9.81;3,84.96,544.88,424.99,9.81;3,84.96,559.04,424.90,9.81;3,84.96,573.44,424.97,9.81;3,84.96,587.60,424.80,9.81;3,84.96,601.76,424.88,9.81;3,84.96,615.92,424.94,9.81;3,84.96,630.08,371.79,9.81"><s xml:id="_ahQaVFe" coords="3,199.89,360.56,310.03,9.81;3,84.96,374.72,289.13,9.81">The questionnaire presented a set of follow-up questions to the 26 participants who used smart home automations in the past.</s><s xml:id="_UqzhTbZ" coords="3,377.89,374.72,132.00,9.81;3,84.96,388.88,299.31,9.81">The first question aimed to know which tools were used for the creation of automations.</s><s xml:id="_CRGuyfD" coords="3,388.38,388.88,121.56,9.81;3,84.96,403.04,424.98,9.81;3,84.96,417.20,26.58,9.81">Virtual assistants are the predominant choice for this task, in fact, 96% of the respondents employed one or more of them.</s><s xml:id="_u9UvFr7" coords="3,113.46,417.20,396.40,9.81;3,84.96,431.36,274.56,9.81">More in detail, 52% used Amazon Alexa exclusively, 13% Google Home, 4% Apple Siri, and the remaining (26%) a combination of two or more.</s><s xml:id="_Ew5bSxG" coords="3,363.28,431.36,146.58,9.81;3,84.96,445.76,273.75,9.81">Only one user did not use any virtual assistant and relied on Home Assistant instead.</s><s xml:id="_rtMrK6h" coords="3,363.88,445.76,146.02,9.81;3,84.96,459.92,424.96,9.81;3,84.96,474.08,91.02,9.81">When asked how often users encountered issues with their tool for automation creation, only 20% reported no problems during the process.</s><s xml:id="_5u7hf6F" coords="3,179.08,474.08,330.81,9.81;3,84.96,488.24,424.98,9.81;3,84.96,502.40,79.59,9.81">Unsupported devices, unavailable actions, and conditions that did not align with desired scenarios are the main obstacles that participants faced during the creation process.</s><s xml:id="_HrnGJ2Q" coords="3,166.80,502.40,343.03,9.81;3,84.96,516.56,424.86,9.81;3,84.96,530.72,171.78,9.81">Another challenge encountered by users is the difficulty in understanding how to interact with such tools, indicating that their user interfaces may lack intuitiveness or suffer from discoverability issues.</s><s xml:id="_WmJhehp" coords="3,259.36,530.72,250.57,9.81;3,84.96,544.88,403.63,9.81">The major concern when dealing with automations is the arising of conflicts in smart home environments where multiple inhabitants live.</s><s xml:id="_GgzwTMH" coords="3,491.91,544.88,18.04,9.81;3,84.96,559.04,388.32,9.81">Ten out of 26 respondents declared not to be the sole automation creator in the house.</s><s xml:id="_rYhzxKr" coords="3,475.99,559.04,33.87,9.81;3,84.96,573.44,424.97,9.81;3,84.96,587.60,272.73,9.81">90% of these 10 users came across scenarios in which their automation conflicted with other inhabitants' automations leading to unexpected outcomes.</s><s xml:id="_tFWFu3q" coords="3,360.03,587.60,149.73,9.81;3,84.96,601.76,231.81,9.81">In general, all the users who use automations seem to give importance to conflicts.</s><s xml:id="_H27BfsY" coords="3,319.05,601.76,190.79,9.81;3,84.96,615.92,424.94,9.81;3,84.96,630.08,371.79,9.81">When asked to express their interest in a system that could notify if their automation will lead to conflicts, 9 said to be very interested, 10 were somewhat interested, and the remaining 7 manifested neutral interest.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_kTTf54F" coords="3,98.46,644.24,119.01,9.81">Environmental aspects.</head><p xml:id="_DeNVxq4" coords="3,220.52,644.24,289.39,9.81;3,84.96,658.40,425.00,9.81;3,84.96,672.56,425.02,9.81;3,84.96,686.72,424.92,9.81;3,84.96,700.88,424.97,9.81;4,84.96,91.04,424.88,9.81;4,84.96,105.20,424.87,9.81;4,84.96,119.36,424.93,9.81;4,84.96,133.52,424.91,9.81;4,84.96,147.68,424.97,9.81;4,84.96,161.84,424.94,9.81;4,84.96,176.24,424.87,9.81;4,84.96,190.40,425.05,9.81;4,84.96,204.56,424.93,9.81;4,84.96,218.72,424.92,9.81;4,84.96,232.88,424.92,9.81;4,84.96,247.04,424.91,9.81;4,84.96,261.20,424.91,9.81;4,84.96,275.36,425.06,9.81;4,84.96,289.52,425.02,9.81;4,84.96,303.92,424.91,9.81;4,84.96,318.08,424.98,9.81;4,84.96,332.24,425.06,9.81;4,84.96,346.40,424.94,9.81;4,84.96,360.56,424.80,9.81;4,84.96,374.72,424.85,9.81;4,84.96,388.88,424.90,9.81;4,84.96,403.04,424.92,9.81;4,84.96,417.20,424.94,9.81;4,84.96,431.36,424.92,9.81;4,84.96,445.76,424.93,9.81;4,84.96,459.92,424.79,9.81;4,84.96,474.08,415.56,9.81"><s xml:id="_6dwrNdC" coords="3,220.52,644.24,289.39,9.81;3,84.96,658.40,185.55,9.81">Questions included in the fourth section of the questionnaire were answered by all 111 participants.</s><s xml:id="_JcbDxs3" coords="3,273.57,658.40,236.39,9.81;3,84.96,672.56,425.02,9.81;3,84.96,686.72,65.82,9.81">The primary objective of the first question was to get a general idea of the population's level of concern about the environment and its sustainability.</s><s xml:id="_CSHfTJC" coords="3,154.22,686.72,355.66,9.81;3,84.96,700.88,424.97,9.81;4,84.96,91.04,414.83,9.81">The findings revealed a nearly unanimous sentiment of concern: 37.8% of respondents expressed being very concerned, 53.2% indicated concern, while the remaining 9% were divided between being neutral (7%) and being unconcerned (2%).</s><s xml:id="_yyhwQP9" coords="4,502.96,91.04,6.88,9.81;4,84.96,105.20,424.87,9.81;4,84.96,119.36,424.93,9.81;4,84.96,133.52,424.91,9.81;4,84.96,147.68,154.96,9.81">A similar trend emerged when participants were asked to express their level of interest in a system that could provide daily consumption data: 43.2% of the participants manifested a high level of interest, 41.4% a medium level of interest, 10.8% were neutral and the remainder expressed no interest.</s><s xml:id="_TazQ4ms" coords="4,242.16,147.68,267.77,9.81;4,84.96,161.84,424.94,9.81;4,84.96,176.24,228.72,9.81">This initial analysis reveals a population characterized by a strong commitment to environmental causes and a desire to take direct action to reduce their ecological footprint and daily consumption.</s><s xml:id="_UYh48ua" coords="4,316.11,176.24,193.71,9.81;4,84.96,190.40,158.15,9.81">Further proof comes from the answers to the next questions of the section.</s><s xml:id="_m7qCSZs" coords="4,246.40,190.40,263.61,9.81;4,84.96,204.56,182.81,9.81">To the question "Does your electricity contract provide time slots with different energy costs?"</s><s xml:id="_4rvKTTk" coords="4,270.18,204.56,239.71,9.81;4,84.96,218.72,180.27,9.81">22% of respondents declared they do not know the existence of peak and off-peak hours.</s><s xml:id="_s6PMMTg" coords="4,268.95,218.72,240.93,9.81;4,84.96,232.88,237.10,9.81">Within the remaining sample, 44% said to exploit them, while 25% expressed a desire to have them.</s><s xml:id="_KupDQdm" coords="4,324.80,232.88,185.09,9.81;4,84.96,247.04,424.91,9.81;4,84.96,261.20,367.56,9.81">Additionally, 16% possessed a contract with peak and off-peak hours but exhibited no interest in exploiting the advantages of offpeak periods, and 15% neither had slots with different costs nor wanted them.</s><s xml:id="_gNC9BuF" coords="4,454.92,261.20,54.95,9.81;4,84.96,275.36,425.06,9.81;4,84.96,289.52,425.02,9.81;4,84.96,303.92,21.40,9.81">As a followup question, participants were prompted to indicate their level of interest in a system that could recommend optimal activation times for their smart appliances, to reduce energy cost.</s><s xml:id="_mGvPGjh" coords="4,108.88,303.92,400.99,9.81">A high percentage of participants (80%) manifested some level of interest in the idea.</s><s xml:id="_q69cC6A" coords="4,84.96,318.08,424.98,9.81;4,84.96,332.24,103.29,9.81">Specifically, 34% said to be very interested in the system, while 46% reported to be somewhat interested.</s><s xml:id="_5dzwNUD" coords="4,192.38,332.24,317.64,9.81;4,84.96,346.40,338.51,9.81">The remainder is divided into having neutral interest (11%), not being very interested (7%), and expressing no interest whatsoever (2%).</s><s xml:id="_HeFCg4K" coords="4,425.41,346.40,84.49,9.81;4,84.96,360.56,424.80,9.81;4,84.96,374.72,311.85,9.81">The last questions of the section delved into the participant's experience with issues associated with excessive energy consumption, such as instances of circuit breaker tripping.</s><s xml:id="_2ySBtEy" coords="4,399.66,374.72,110.16,9.81;4,84.96,388.88,424.90,9.81;4,84.96,403.04,138.41,9.81">49% of the users never faced problems due to excessive house consumption, while 51% reported having to deal with electricity interruptions.</s><s xml:id="_fgc6Vy8" coords="4,225.66,403.04,284.22,9.81;4,84.96,417.20,254.78,9.81">Specifically, 45% said to encounter interruptions sometimes, whereas 6% experience them with a higher frequency.</s><s xml:id="_S3yQfUF" coords="4,342.07,417.20,167.83,9.81;4,84.96,431.36,424.92,9.81;4,84.96,445.76,272.22,9.81">Despite having a relevant portion of participants who never faced difficulties related to overconsumption of electricity, the population manifested a general concern toward the issue.</s><s xml:id="_p9pUtCG" coords="4,359.29,445.76,150.59,9.81;4,84.96,459.92,424.79,9.81;4,84.96,474.08,415.56,9.81">In fact, when asked to state their interest in a system designed to identify if an appliance activation leads to excessive energy consumption, 79% of the respondents demonstrated a moderate to high level of interest.</s></p><p xml:id="_F7EDmWS" coords="4,99.16,488.24,410.77,9.81;4,84.96,502.40,424.91,9.81;4,84.96,516.56,424.95,9.81;4,84.96,530.72,424.92,9.81;4,84.96,544.88,424.95,9.81;4,84.96,559.04,424.93,9.81;4,84.96,573.44,424.89,9.81;4,84.96,587.60,424.91,9.81;4,84.96,601.76,425.08,9.81;4,84.96,615.92,377.82,9.81"><s xml:id="_6ruDz68" coords="4,99.16,488.24,410.77,9.81;4,84.96,502.40,257.22,9.81">The survey concluded with an open-ended question, allowing participants to freely express their desired features for a green smart home.</s><s xml:id="_DgPqy4C" coords="4,344.99,502.40,164.88,9.81;4,84.96,516.56,424.95,9.81;4,84.96,530.72,424.92,9.81;4,84.96,544.88,197.08,9.81">Some of the suggested features are already implemented in current applications for smart device control and automation creation (e.g., remote control of appliances, advanced temperature control), even though the participants were now aware of that.</s><s xml:id="_9hkkyrJ" coords="4,285.59,544.88,224.31,9.81;4,84.96,559.04,424.93,9.81;4,84.96,573.44,248.04,9.81">The respondents manifested a keen interest in sustainability and cost-saving measures, asking for a system that lets them choose the energy source of the house according to their needs.</s><s xml:id="_NTMts82" coords="4,335.92,573.44,173.93,9.81;4,84.96,587.60,315.17,9.81">Moreover, they would like to receive suggestions for saving money and minimizing energy consumption.</s><s xml:id="_SdbDsA8" coords="4,402.52,587.60,107.35,9.81;4,84.96,601.76,425.08,9.81;4,84.96,615.92,377.82,9.81">A significant portion of users expressed the desire for detailed insights into their daily consumption patterns and tools to analyse each appliance to identify what are the most demanding devices.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3." xml:id="_Ts5EqQD" coords="4,84.96,645.68,157.56,12.54">Amateurs Questionnaire</head><p xml:id="_AxZ6FuH" coords="4,99.16,672.08,410.61,9.81;4,84.96,686.24,189.86,9.81;4,293.33,686.24,216.46,9.81;4,84.96,700.40,424.96,9.81;5,84.96,91.04,424.88,9.81;5,84.96,105.20,424.77,9.81;5,84.96,119.36,424.92,9.81;5,84.96,133.52,424.92,9.81;5,84.96,147.68,424.89,9.81;5,84.96,161.84,424.92,9.81;5,84.96,176.24,423.02,9.81"><s xml:id="_77zFvwV" coords="4,99.16,672.08,410.61,9.81;4,84.96,686.24,424.82,9.81;4,84.96,700.40,61.28,9.81">For the second questionnaire, we explored green smart homes by asking the opinion of technical users with amateur experience <ref type="bibr" coords="4,277.16,686.24,13.81,9.81" target="#b4">[5]</ref> in managing smart environments and creating automations.</s><s xml:id="_4gtma2B" coords="4,149.88,700.40,360.04,9.81;5,84.96,91.04,424.88,9.81;5,84.96,105.20,424.77,9.81;5,84.96,119.36,424.92,9.81;5,84.96,133.52,337.30,9.81">In this questionnaire, we investigated the main aspects of the automations created by the users (e.g., number of automations, smart objects involved), with a particular focus on those devices and automations designed to reduce environmental impact and manage energy consumption; finally, participants also shared their opinions and ideas about the evolving world of smart spaces and associated technologies.</s><s xml:id="_7fUX6eT" coords="5,425.69,133.52,84.19,9.81;5,84.96,147.68,424.89,9.81;5,84.96,161.84,395.28,9.81">Participants were recruited through Home Assistant social media (Home Assistant official Facebook group, Home Assistant Italia) and similar communities (for instance, Smart Home Italia).</s><s xml:id="_aHFGdE2" coords="5,484.05,161.84,25.84,9.81;5,84.96,176.24,423.02,9.81">Some experience with smart environments and automation systems was required to participate.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_XZP2mMm" coords="5,99.16,190.40,67.09,9.81">General data.</head><p xml:id="_8P4jvat" coords="5,168.62,190.40,341.26,9.81;5,84.96,204.56,424.94,9.81;5,84.96,218.72,424.92,9.81;5,84.96,232.88,424.92,9.81;5,84.96,247.04,424.83,9.81;5,84.96,261.20,424.94,9.81;5,84.96,275.36,424.93,9.81;5,84.96,289.52,424.96,9.81;5,84.96,303.92,424.90,9.81;5,84.96,318.08,424.95,9.81;5,84.96,332.24,424.93,9.81;5,84.96,346.40,424.97,9.81;5,84.96,360.56,424.92,9.81;5,84.96,374.72,424.91,9.81;5,84.96,388.88,424.93,9.81;5,84.96,403.04,424.90,9.81;5,84.96,417.20,424.91,9.81;5,84.96,431.36,424.92,9.81;5,84.96,445.76,424.92,9.81;5,84.96,459.92,424.91,9.81;5,84.96,474.08,424.93,9.81;5,84.96,488.24,424.93,9.81;5,84.96,502.40,424.95,9.81;5,84.96,516.56,424.91,9.81;5,84.96,530.72,424.92,9.81;5,84.96,544.88,424.92,9.81;5,84.96,559.04,424.91,9.81;5,84.96,573.44,424.89,9.81;5,84.96,587.60,424.92,9.81;5,84.96,601.76,424.90,9.81;5,84.96,615.92,424.90,9.81;5,84.96,630.08,424.94,9.81;5,84.96,644.24,424.91,9.81;5,84.96,658.40,135.14,9.81"><s xml:id="_XhBUExJ" coords="5,168.62,190.40,341.26,9.81;5,84.96,204.56,234.47,9.81">The online survey recruited 36 participants, spanning ages from 32 to 70 years, with a mean age of 47 years (SD=8.86).</s><s xml:id="_4EbcDC8" coords="5,324.53,204.56,185.37,9.81;5,84.96,218.72,238.67,9.81">In terms of programming experience, participants have different levels of expertise.</s><s xml:id="_u8qdm3D" coords="5,330.94,218.72,178.95,9.81;5,84.96,232.88,424.92,9.81">Specifically, 7 respondents had no programming experience, while 11 had a basic understanding of markup languages (e.g.</s><s xml:id="_nv6cY9s" coords="5,84.96,247.04,424.83,9.81;5,84.96,261.20,35.81,9.81">HTML), and, in some cases, familiarity with a programming language such as JavaScript or Python.</s><s xml:id="_TTUrpKn" coords="5,123.82,261.20,386.08,9.81;5,84.96,275.36,424.93,9.81;5,84.96,289.52,424.96,9.81;5,84.96,303.92,424.90,9.81;5,84.96,318.08,100.21,9.81">9 participants described having moderate experience, characterized by proficient knowledge of one programming language and basic in another (e.g., PHP, Python, Java). 2 individuals reported a good comprehension of various programming languages they employ, whereas 7 participants declared having advanced or professional mastery of their respective languages.</s><s xml:id="_ZzXejYZ" coords="5,187.59,318.08,322.32,9.81;5,84.96,332.24,280.55,9.81">Regarding the experience with smart home systems, overall emerges a significant number of users with considerable experience.</s><s xml:id="_PA5ChXW" coords="5,368.23,332.24,141.65,9.81;5,84.96,346.40,424.97,9.81;5,84.96,360.56,64.74,9.81">3 respondents reported about 6 months of experience, while another 3 about a year, 1 had 1 to 3 years, and 20 had more than 3 years.</s><s xml:id="_U4tKZjb" coords="5,154.44,360.56,355.44,9.81;5,84.96,374.72,424.91,9.81;5,84.96,388.88,424.93,9.81;5,84.96,403.04,274.81,9.81">The survey result reported various participants' experiences with home automation systems, with Home Assistant receiving the most mentions at 35 (33.33%), following Alexa and Google Home, both with 21 mentions (20%); IFTTT was mentioned 10 times (9.52%), while NodeRED had 8 mentions (7.62%).</s><s xml:id="_W68Y3Hg" coords="5,363.75,403.04,146.12,9.81;5,84.96,417.20,40.98,9.81">OpenHab received 4 mentions (3.81%),</s><s xml:id="_ddUZcXh" coords="5,128.33,417.20,381.54,9.81;5,84.96,431.36,320.87,9.81">Apple HomeKit 3 mentions (2.86%), and other platforms such as Smart Life Tuya, Carel, and Samsung SmartThings each received 1 mention (0.95%).</s><s xml:id="_fG24pGD" coords="5,409.03,431.36,100.85,9.81;5,84.96,445.76,424.92,9.81;5,84.96,459.92,424.91,9.81">Participants declared their methods of interacting with their smart home devices (multiple selections was possible), with the majority opting for direct/instant commands (26 occurrences, 39.39%).</s><s xml:id="_P4Q5K88" coords="5,84.96,474.08,424.93,9.81;5,84.96,488.24,360.46,9.81">Closely follows automations usage (24 occurrences, 36.36%), but users also reported using proprietary devices apps (e.g., Shelly app) with 14 occurrences (21.21%).</s><s xml:id="_v69a5qB" coords="5,449.70,488.24,60.20,9.81;5,84.96,502.40,339.20,9.81">The analysis reveals that participants engage in automation for a range of purposes.</s><s xml:id="_C9esarW" coords="5,427.37,502.40,82.54,9.81;5,84.96,516.56,424.91,9.81;5,84.96,530.72,424.92,9.81;5,84.96,544.88,424.92,9.81;5,84.96,559.04,222.35,9.81">Among these, the pursuit of comfort emerges as a primary goal, with activities such as controlling lights/devices and managing temperature (36 occurrences, 28.57%), while energy saving (monitoring consumption, preventing waste, managing device power) constitutes another significant objective (32 occurrences, 25.40%).</s><s xml:id="_tASEyxc" coords="5,310.32,559.04,199.55,9.81;5,84.96,573.44,424.89,9.81;5,84.96,587.60,325.06,9.81">Also, environmental and network security aspects are considered (27 occurrences 21.43%), with participants citing alarm systems, video monitoring, intrusion detection, and network traffic monitoring.</s><s xml:id="_dEZFS4T" coords="5,411.88,587.60,98.00,9.81;5,84.96,601.76,424.90,9.81;5,84.96,615.92,424.90,9.81;5,84.96,630.08,364.47,9.81">Organization-related tasks, such as calendar notifications, shopping lists, weather updates, and general reminders, were mentioned 17 times (13.49%), while health-related goals, including air quality monitoring and medication reminders, were cited 11 times (8.73%).</s><s xml:id="_TQ8Cquj" coords="5,452.93,630.08,56.96,9.81;5,84.96,644.24,424.91,9.81;5,84.96,658.40,135.14,9.81">Participants also expressed an interest in wellbeing (3 occurrences, 2.38%) through monitoring physical activity and/or sleep quality.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_7JWPt9r" coords="5,99.16,672.56,144.99,9.81">Energy saving automations.</head><p xml:id="_GSXWDGV" coords="5,249.39,672.56,260.49,9.81;5,84.96,686.72,156.23,9.81"><s xml:id="_4HtXnRM" coords="5,249.39,672.56,260.49,9.81;5,84.96,686.72,156.23,9.81">The feedback concerning energy saving automations reveals the following key themes.</s></p><p xml:id="_STwGj7x" coords="6,99.16,91.04,410.74,9.81;6,84.96,105.20,424.81,9.81;6,84.96,119.36,424.88,9.81;6,84.96,133.52,424.92,9.81;6,84.96,147.68,424.88,9.81;6,84.96,161.84,424.95,9.81;6,84.96,176.24,424.92,9.81;6,84.96,190.40,140.45,9.81"><s xml:id="_FRUxZKe" coords="6,99.16,91.04,410.74,9.81;6,84.96,105.20,424.81,9.81;6,84.96,119.36,424.88,9.81;6,84.96,133.52,424.92,9.81;6,84.96,147.68,207.89,9.81">Heating and cooling efficiency: many users leverage automations to fine-tune their heating and cooling systems, with a focus on minimizing energy consumption by adjusting settings based on factors like occupancy, routine, and external influences such as solar energy production or ambient temperatures (e.g., "my heating schedule adapts to presence and routines, to minimize energy usage").</s><s xml:id="_nfwuVSF" coords="6,297.81,147.68,212.03,9.81;6,84.96,161.84,424.95,9.81;6,84.96,176.24,424.92,9.81;6,84.96,190.40,140.45,9.81">Additionally, practices such as deactivating climate control when windows are open (e.g., "switching off the climate on opening windows for prolonged periods") and synchronizing energy usage with renewable energy generation are being adopted.</s></p><p xml:id="_Jzwdxpb" coords="6,99.16,204.56,410.72,9.81;6,84.96,218.72,424.92,9.81;6,84.96,232.88,424.95,9.81;6,84.96,247.04,425.02,9.81;6,84.96,261.20,424.94,9.81;6,84.96,275.36,29.97,9.81"><s xml:id="_4MytBAc" coords="6,99.16,204.56,410.72,9.81;6,84.96,218.72,424.92,9.81;6,84.96,232.88,424.95,9.81;6,84.96,247.04,425.02,9.81;6,84.96,261.20,424.94,9.81;6,84.96,275.36,29.97,9.81">Smart lighting and appliance management: automation is employed to control lighting and appliances, ensuring they are turned off when not needed based on occupancy, time of day, or specific triggers to avoid unnecessary electricity usage (e.g., "I'm using room presence sensor and home presence sensors to turn off and on lights and TVs"; "lights and computer monitors turn off a few seconds after no pressure is detected on office chair seat").</s></p><p xml:id="_MhKXUUh" coords="6,99.16,289.52,410.73,9.81;6,84.96,303.92,424.76,9.81;6,84.96,318.08,424.92,9.81;6,84.96,332.24,424.85,9.81;6,84.96,346.40,424.89,9.81;6,84.96,360.56,424.92,9.81;6,84.96,374.72,424.93,9.81;6,84.96,388.88,216.76,9.81"><s xml:id="_DPARXwH" coords="6,99.16,289.52,410.73,9.81;6,84.96,303.92,424.76,9.81;6,84.96,318.08,424.92,9.81;6,84.96,332.24,424.85,9.81;6,84.96,346.40,63.07,9.81">Optimization of load and consumption: several comments underscore the strategic deployment of automations to synchronize energy consumption with periods of high solar production or lower electricity rates, aiming to utilise energy when it is most cost-effective (e.g., "switching on loads, such as car and washing machine, according to photovoltaic production").</s><s xml:id="_AMvjxD3" coords="6,151.29,346.40,358.56,9.81;6,84.96,360.56,424.92,9.81;6,84.96,374.72,424.93,9.81;6,84.96,388.88,216.76,9.81">Moreover, users have implemented advanced load management systems to prevent overloading (e.g., "[...] I have installed a system for disconnecting loads if the electric meter's kW is exceeded [...]"; "load management when I had limited power on the meter with disconnection of non-priority loads [...]").</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_eYzMnBU" coords="6,99.16,403.04,196.92,9.81">Smart homes and automation systems.</head><p xml:id="_MU557sq" coords="6,298.99,403.04,210.87,9.81;6,84.96,417.20,297.67,9.81"><s xml:id="_sK54bdy" coords="6,298.99,403.04,210.87,9.81;6,84.96,417.20,297.67,9.81">Concerning the feedback about the domestic spaces landscape, we identified the following recurrent themes.</s></p><p xml:id="_RZvcEBg" coords="6,99.16,431.36,410.75,9.81;6,84.96,445.76,424.92,9.81;6,84.96,459.92,424.92,9.81;6,84.96,474.08,424.95,9.81;6,84.96,488.24,424.98,9.81;6,84.96,502.40,424.90,9.81;6,84.96,516.56,424.90,9.81;6,84.96,530.72,424.89,9.81;6,84.96,544.88,317.77,9.81"><s xml:id="_WN99bAH" coords="6,99.16,431.36,410.75,9.81;6,84.96,445.76,424.92,9.81;6,84.96,459.92,424.92,9.81;6,84.96,474.08,424.95,9.81;6,84.96,488.24,69.80,9.81">Usability and user experience: the received comments emphasize the importance of matching the expressive power of these systems with user-friendly interfaces, the easy setup and management of smart devices (e.g., "[Home Assistant is an] extremely powerful system but user experience still to be improved for the creation and management of automations").</s><s xml:id="_99ydC7B" coords="6,161.98,488.24,347.97,9.81;6,84.96,502.40,424.90,9.81;6,84.96,516.56,424.90,9.81;6,84.96,530.72,424.89,9.81;6,84.96,544.88,317.77,9.81">There is a desire for systems accessible to both experienced and inexperienced users, underscoring the need for improved user experience (UX) design (e.g., "I think home assistant needs more effort and time to be configured, while Alexa and Google Home are simpler but do simpler things", "still very little user friendly, if it were more stable and close to inexperienced users it would be very useful for many").</s></p><p xml:id="_nShkT8p" coords="6,99.16,559.04,410.74,9.81;6,84.96,573.44,424.88,9.81;6,84.96,587.60,424.96,9.81;6,84.96,601.76,424.96,9.81;6,84.96,615.92,424.91,9.81;6,84.96,630.08,424.90,9.81;6,84.96,644.24,425.03,9.81;6,84.96,658.40,189.50,9.81"><s xml:id="_PhuSbEC" coords="6,99.16,559.04,410.74,9.81;6,84.96,573.44,169.85,9.81">Integration and compatibility: a significant concern is the integration of diverse devices within the smart home ecosystem.</s><s xml:id="_4gatJJT" coords="6,259.46,573.44,250.38,9.81;6,84.96,587.60,424.96,9.81;6,84.96,601.76,424.96,9.81;6,84.96,615.92,113.80,9.81">Users express their urge for standardization and a universal language for device communication to facilitate cohesive and efficient configuration and maintainability (e.g., "standardization of protocols is essential to integrate all devices, e.g.</s><s xml:id="_RwAFk6R" coords="6,201.14,615.92,42.32,9.81">Matter").</s><s xml:id="_dxV7f96" coords="6,245.83,615.92,264.03,9.81;6,84.96,630.08,424.90,9.81;6,84.96,644.24,270.81,9.81">From a reliability perspective, users highlight that smart home systems should function seamlessly even in the absence of internet connectivity (e.g., "this could be a life changer, but this must be done wisely.</s><s xml:id="_ek2JKKe" coords="6,358.25,644.24,151.74,9.81;6,84.96,658.40,189.50,9.81">If your server is down, you must still be able to switch a light without it").</s></p><p xml:id="_cWSK85F" coords="6,99.16,672.56,410.72,9.81;6,84.96,686.72,424.91,9.81;6,84.96,700.88,424.89,9.81;7,84.96,91.04,424.94,9.81;7,84.96,105.20,424.91,9.81;7,84.96,119.36,424.82,9.81;7,84.96,133.52,43.82,9.81"><s xml:id="_8DzFuCE" coords="6,99.16,672.56,410.72,9.81;6,84.96,686.72,424.91,9.81;6,84.96,700.88,424.89,9.81;7,84.96,91.04,56.57,9.81">Evolution and future outlook: finally, responses convey optimism about the future of smart homes and automation technologies, citing the rapid development of the Internet of Things (IoT) (e.g., "20 years ago [...] IoT was a very vague concept and not easy to understand.</s><s xml:id="_rUzhcVy" coords="7,144.60,91.04,365.30,9.81;7,84.96,105.20,52.33,9.81">Today, the smart home is a reality, and it is spectacular to see all that can be achieved.")</s><s xml:id="_VKHza7c" coords="7,141.24,105.20,368.64,9.81;7,84.96,119.36,424.82,9.81;7,84.96,133.52,43.82,9.81">and anticipating further advancements that will revolutionize life and home management (e.g., "with new technological developments on the horizon, our lives will change").</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4." xml:id="_2VFXjYY" coords="7,84.96,161.12,185.20,12.54">Conclusions and Future Work</head><p xml:id="_cZjUuJV" coords="7,99.16,187.52,410.72,9.81;7,84.96,201.68,424.93,9.81;7,84.96,215.84,424.94,9.81;7,84.96,230.00,424.92,9.81;7,84.96,244.40,424.90,9.81;7,84.96,258.56,424.95,9.81;7,84.96,272.72,424.93,9.81;7,84.96,286.88,424.95,9.81;7,84.96,301.04,424.91,9.81;7,84.96,315.20,424.93,9.81;7,84.96,329.36,108.44,9.81"><s xml:id="_2qpytA5" coords="7,99.16,187.52,410.72,9.81;7,84.96,201.68,278.77,9.81">From the first survey it emerged that end users' knowledge and skills are not yet aligned with those requested by current solutions for smart homes.</s><s xml:id="_vZe2typ" coords="7,366.20,201.68,143.69,9.81;7,84.96,215.84,424.94,9.81;7,84.96,230.00,246.63,9.81">Most users are not even aware of the possibilities provided by current technologies, especially for what concerns behaviour personalization enabled by automations.</s><s xml:id="_cVyxSVD" coords="7,335.40,230.00,174.48,9.81;7,84.96,244.40,424.90,9.81;7,84.96,258.56,300.42,9.81">On the other hand, those users who create automations encounter difficulties due to poor user interfaces and the limited control on smart home behaviour, such as the management of conflicts.</s><s xml:id="_KRjNECv" coords="7,388.15,258.56,121.75,9.81;7,84.96,272.72,424.93,9.81;7,84.96,286.88,424.95,9.81;7,84.96,301.04,44.63,9.81">Thus, AI techniques could be useful to support users with tailored suggestions, while end-user development techniques embedded in user interfaces should make end user activities easier and engaging.</s><s xml:id="_pgHPgTK" coords="7,133.94,301.04,375.94,9.81;7,84.96,315.20,424.93,9.81;7,84.96,329.36,108.44,9.81">These features should also consider the interest in sustainability and energy consumption reduction by households, providing them with adequate monitoring and recommendation tools.</s></p><p xml:id="_9V7srFY" coords="7,99.16,343.52,410.80,9.81;7,84.96,357.68,424.88,9.81;7,84.96,372.08,424.90,9.81;7,84.96,386.24,424.95,9.81;7,84.96,400.40,424.90,9.81;7,84.96,414.56,424.81,9.81;7,84.96,428.72,424.93,9.81;7,84.96,442.88,424.95,9.81;7,84.96,457.04,424.93,9.81;7,84.96,471.20,197.60,9.81"><s xml:id="_RDFhgwT" coords="7,99.16,343.52,410.80,9.81;7,84.96,357.68,294.51,9.81">The second questionnaire underscores the attention experienced users dedicate to energy production and consumption monitoring automations.</s><s xml:id="_c27CtXf" coords="7,382.73,357.68,127.11,9.81;7,84.96,372.08,424.90,9.81">However, it also highlights an understanding that optimal outcomes necessitate user effort, expertise, and engagement.</s><s xml:id="_kD4QXZj" coords="7,84.96,386.24,424.95,9.81;7,84.96,400.40,424.90,9.81;7,84.96,414.56,286.71,9.81">Despite possessing advanced knowledge, respondents express concern over the lack of intuitive interfaces (e.g., for composing automations) and recognize the challenges inexperienced users might face in adopting such technologies.</s><s xml:id="_CVxvke6" coords="7,373.64,414.56,136.13,9.81;7,84.96,428.72,424.93,9.81;7,84.96,442.88,221.85,9.81">From a technical perspective, users underline the need for protocol standardization to facilitate the development of more easily configurable and maintainable systems.</s><s xml:id="_Jm9HgHf" coords="7,310.85,442.88,199.06,9.81;7,84.96,457.04,424.93,9.81;7,84.96,471.20,197.60,9.81">In future work, we will use the feedback obtained from the questionnaires to design and implement a system that enables the sustainable management of a smart home.</s></p></div>		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head xml:id="_MDUY7wb" coords="7,84.96,498.80,114.55,12.54">Acknowledgements</head><p xml:id="_dCVUQQ3" coords="7,84.96,523.52,425.01,9.81;7,84.96,537.68,425.00,9.81;7,84.96,551.84,179.72,9.81"><s xml:id="_2mQX7SV" coords="7,84.96,523.52,425.01,9.81;7,84.96,537.68,425.00,9.81;7,84.96,551.84,179.72,9.81">This work has been supported by the <rs type="funder">Italian MUR PRIN 2022</rs> <rs type="projectName">PNRR</rs> Project <rs type="grantNumber">P2022YR9B7</rs>, <rs type="funder">End-User Development of Automations for Explainable Green Smart Homes</rs>, funded by <rs type="funder">European Union -Next Generation EU</rs>.</s></p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funded-project" xml:id="_9kJjWdM">
+					<idno type="grant-number">P2022YR9B7</idno>
+					<orgName type="project" subtype="full">PNRR</orgName>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted" xml:id="b0">
+	<analytic>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">Q H</forename><surname>Badar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Anvari-Moghaddam</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_acnSpR7" coords="7,293.68,605.84,216.19,9.81;7,106.26,620.00,29.71,9.81">Smart home energy management system -a review</title>
+		<imprint>
+			<date type="published" when="2022">2022</date>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="118" to="143" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b1">
+	<analytic>
+		<title level="a" type="main" coords="7,309.36,634.16,200.55,9.81;7,106.26,648.56,34.00,9.81" xml:id="_HE9zaGT">How do end-users program the Internet of Things?</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Corno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">De</forename><surname>Russis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Monge</forename><surname>Roffarello</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_DhNGTnP" coords="7,147.53,648.56,174.73,9.81">Behaviour &amp; Information Technology</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1865" to="1887" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b2">
+	<analytic>
+		<title level="a" type="main" coords="7,320.67,662.72,189.24,9.81;7,106.26,676.88,178.76,9.81" xml:id="_QQRfKcV">When smart devices are stupid: negative experiences using home smart devices</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Weijia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Martinez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Padhi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ur</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_V9nG9Fq" coords="7,331.64,676.88,178.25,9.81;7,106.26,691.04,27.08,9.81">IEEE Security and Privacy Workshops (SPW)</title>
+		<imprint>
+			<biblScope unit="page" from="150" to="155" />
+			<date type="published" when="2019">2019. 2019</date>
+			<publisher>IEEE</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b3">
+	<analytic>
+		<title level="a" type="main" coords="8,358.20,91.04,151.68,9.81;8,106.26,105.20,345.77,9.81" xml:id="_stSqsCy">A systematic review of the smart energy conservation system: From smart homes to sustainable smart cities</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hakpyeong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>An</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yeom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_xF5wQqc" coords="8,457.89,105.20,51.99,9.81;8,106.26,119.36,148.00,9.81">Renewable and sustainable energy reviews</title>
+		<imprint>
+			<biblScope unit="volume">140</biblScope>
+			<biblScope unit="page">110755</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b4">
+	<monogr>
+		<title level="m" type="main" coords="8,225.72,133.52,284.16,9.81;8,106.26,147.68,94.93,9.81" xml:id="_2xJNC8D">The pro-am revolution: How enthusiasts are changing our society and economy</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Leadbeater</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Miller</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2004">2004</date>
+			<publisher>Demos</publisher>
+			<pubPlace>London</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b5">
+	<analytic>
+		<title level="a" type="main" coords="8,215.40,161.84,294.43,9.81;8,106.26,176.24,23.50,9.81" xml:id="_z3aYxyn">Understanding User Needs in Smart Homes and How to Fulfil Them</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mattioli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Paternò</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_u4twyHu" coords="8,159.80,176.24,259.29,9.81">International Symposium on End User Development</title>
+		<imprint>
+			<publisher>Springer Nature Switzerland</publisher>
+			<date type="published" when="2023">2023</date>
+			<biblScope unit="page" from="125" to="142" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b6">
+	<analytic>
+		<title level="a" type="main" coords="8,106.26,218.72,403.67,9.81;8,106.26,232.88,97.49,9.81" xml:id="_CYYfemh">SolarClub: Supporting Renewable Energy Communities through an Interactive Coordination System</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Panagiotidou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Costanza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Potapov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nkatha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Fell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Samanani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Knox</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_B59FJK5" coords="8,230.21,232.88,279.66,9.81;8,106.26,247.04,126.21,9.81">Proceedings of the CHI Conference on Human Factors in Computing Systems, CHI&apos;24</title>
+		<meeting>the CHI Conference on Human Factors in Computing Systems, CHI&apos;24<address><addrLine>New York, NY, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Association for Computing Machinery</publisher>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b7">
+	<analytic>
+		<title level="a" type="main" coords="8,337.92,275.36,171.93,9.81;8,106.26,289.52,231.58,9.81" xml:id="_Cqn5vVy">Programmable smart home toolkits should better address households&apos; social needs</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Salovaara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bellucci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vianello</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Jacucci</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_cU6Jsg8" coords="8,365.34,289.52,144.56,9.81;8,106.26,303.92,316.32,9.81">Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems, CHI&apos;21</title>
+		<meeting>the 2021 CHI Conference on Human Factors in Computing Systems, CHI&apos;21<address><addrLine>New York, NY, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Association for Computing Machinery</publisher>
+			<date type="published" when="2021">2021</date>
+			<biblScope unit="page" from="1" to="14" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b8">
+	<monogr>
+		<author>
+			<persName><surname>Statista</surname></persName>
+		</author>
+		<ptr target="https://www.statista.com/statistics/1183457/iot-connected-devices-worldwide/" />
+		<title level="m" xml:id="_54Thfps" coords="8,147.89,332.24,361.98,9.81;8,106.26,346.40,21.30,9.81">Number of IoT connected devices worldwide 2019-2021 with forecasts to 2030</title>
+		<imprint>
+			<date type="published" when="2023-04-12">2023/04/12</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b9">
+	<analytic>
+		<title level="a" type="main" coords="8,321.04,374.72,188.85,9.81;8,106.26,388.88,72.18,9.81" xml:id="_XHRz4Zr">Practical trigger-action programming in the smart home</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Mcmanus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P Y</forename><surname>Ho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Littman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_99TNGJF" coords="8,209.00,388.88,300.90,9.81;8,106.26,403.04,126.21,9.81">Proceedings of the 2014 CHI Conference on Human Factors in Computing Systems, CHI&apos;14</title>
+		<meeting>the 2014 CHI Conference on Human Factors in Computing Systems, CHI&apos;14<address><addrLine>New York, NY, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Association for Computing Machinery</publisher>
+			<date type="published" when="2014">2014</date>
+			<biblScope unit="page" from="803" to="812" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

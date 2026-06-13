@@ -1,0 +1,38 @@
+{
+  "article_id": "article_8",
+  "source_tei": "data\\articles\\extracted_grobid_tei\\article_8.grobid.tei.xml",
+  "main_output": "data\\articles\\cleaned_markdown\\article_8.md",
+  "supplementary_output": "data\\articles\\supplementary_markdown\\article_8.md",
+  "title_found": true,
+  "abstract_candidates": [
+    {
+      "score": 5.0,
+      "word_count": 253,
+      "language": "",
+      "preview": "The sixth assessment report of the Intergovernmental Panel on Climate Change (IPCC) emphasises the potential of demand-side measures, such as sufficiency, for mitigating climate change. Although quantified potentials of various sufficiency measures exist, policy advisors and energy modellers critici"
+    }
+  ],
+  "selected_abstract_preview": "The sixth assessment report of the Intergovernmental Panel on Climate Change (IPCC) emphasises the potential of demand-side measures, such as sufficiency, for mitigating climate change. Although quantified potentials of various sufficiency measures exist, policy advisors and energy modellers criticise the lack of findability and comparability of the relevant data. Due to the high level of heterogeneity in units, reference points and calculation methods, the data cannot be used to summarise suffi",
+  "counts": {
+    "main_blocks": 95,
+    "supplementary_blocks": 4,
+    "discarded_blocks": 11,
+    "review_blocks": 1,
+    "block_kinds": {
+      "paragraph": 82,
+      "heading": 17
+    },
+    "discard_reasons": {
+      "figure_or_table_caption": 3,
+      "figure_content": 8
+    }
+  },
+  "quality": {
+    "raw_body_characters": 52840,
+    "main_text_characters": 47628,
+    "main_text_ratio": 0.9014
+  },
+  "warnings": [
+    "manual_review_recommended"
+  ]
+}

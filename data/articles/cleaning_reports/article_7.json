@@ -1,0 +1,38 @@
+{
+  "article_id": "article_7",
+  "source_tei": "data\\articles\\extracted_grobid_tei\\article_7.grobid.tei.xml",
+  "main_output": "data\\articles\\cleaned_markdown\\article_7.md",
+  "supplementary_output": "data\\articles\\supplementary_markdown\\article_7.md",
+  "title_found": true,
+  "abstract_candidates": [
+    {
+      "score": 5.0,
+      "word_count": 178,
+      "language": "",
+      "preview": "This paper discusses how usage patterns and preferences of inhabitants can be learned efficiently to allow smart homes to autonomously achieve energy savings. We propose a frequent sequential pattern mining algorithm suitable for real-life smart home event data. The performance of the proposed algor"
+    }
+  ],
+  "selected_abstract_preview": "This paper discusses how usage patterns and preferences of inhabitants can be learned efficiently to allow smart homes to autonomously achieve energy savings. We propose a frequent sequential pattern mining algorithm suitable for real-life smart home event data. The performance of the proposed algorithm is compared to existing algorithms regarding completeness/correctness of the results, run times as well as memory consumption and elaborates on the shortcomings of the different solutions.\n\nWe al",
+  "counts": {
+    "main_blocks": 80,
+    "supplementary_blocks": 1,
+    "discarded_blocks": 8,
+    "review_blocks": 1,
+    "block_kinds": {
+      "heading": 12,
+      "paragraph": 69
+    },
+    "discard_reasons": {
+      "figure_or_table_caption": 3,
+      "figure_content": 5
+    }
+  },
+  "quality": {
+    "raw_body_characters": 23655,
+    "main_text_characters": 20418,
+    "main_text_ratio": 0.8632
+  },
+  "warnings": [
+    "manual_review_recommended"
+  ]
+}

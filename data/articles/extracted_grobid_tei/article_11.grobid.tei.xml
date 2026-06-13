@@ -1,0 +1,1446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main" xml:id="_DfHXzGS"></title>
+				<funder>
+					<orgName type="full">Program of Research and Scholarly Excellence</orgName>
+					<orgName type="abbreviated">PRSE</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Office of the Vice President for Research</orgName>
+					<orgName type="abbreviated">VPR</orgName>
+				</funder>
+				<funder ref="#_nMBh38S">
+					<orgName type="full">US National Science Foundation</orgName>
+				</funder>
+				<funder ref="#_ec4hMJX">
+					<orgName type="full">U.S. Department of Energy</orgName>
+				</funder>
+				<funder ref="#_9EsdFFz">
+					<orgName type="full">US Government</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2013-08">August 2013</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">U.S. Department of Energy Office of Scientific and Technical Information P.O. Box 62 Oak Ridge</orgName>
+								<address>
+									<postCode>37831-0062</postCode>
+									<region>TN</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">U.S. Department of Commerce National Technical Information Service</orgName>
+								<orgName type="institution">University of Technology of Belfort- Montbéliard</orgName>
+								<address>
+									<addrLine>5285 Port Royal Road Springfield</addrLine>
+									<postCode>22161</postCode>
+									<settlement>Belfort</settlement>
+									<region>VA</region>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="institution">Fort Collins Utilities in Fort Collins</orgName>
+								<address>
+									<region>CO</region>
+									<country key="US">United States</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="institution">Mean Income</orgName>
+								<address>
+									<addrLine>Quintile I 4 310 11 656 170 Mean Income Quintile II 10 727 29 517 175 Mean Income Quintile III 17 132 183 Mean Income Quintile IV 26 760 206 Mean Income Quintile V 46 497 171</addrLine>
+									<postCode>701 50 078 79 057 268</postCode>
+								</address>
+							</affiliation>
+						</author>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2013-08">August 2013</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">28116EA6E31774105BF6AB4919F4B2DA</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-06-12T21:51+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=true, generateTeiCoordinates=[title, head, p, s, note, figure, formula, ref], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_SNpHbG6"><formula xml:id="formula_0" coords="3,303.48,747.09,5.01,9.71">1</formula><p xml:id="_PE9WeAS" coords="3,43.20,740.13,185.88,10.43;3,43.20,751.65,211.17,10.43;3,43.20,763.17,129.77,10.43;3,43.20,740.13,185.88,10.43;3,43.20,751.65,211.17,10.43;3,43.20,763.17,8.37,10.43;3,168.40,763.17,4.56,10.43"><s xml:id="_7rU2rFM" coords="3,43.20,740.13,185.88,10.43;3,43.20,751.65,211.17,10.43;3,43.20,763.17,8.37,10.43;3,168.40,763.17,4.56,10.43">This report is available at no cost from the National Renewable Energy Laboratory (NREL) at <ref type="url" coords="3,54.29,763.17,114.11,10.43" target="www.nrel.gov/publications">www.nrel.gov/publications</ref>.</s></p><p xml:id="_JFedQXT" coords="3,56.88,244.36,241.92,8.72;3,46.81,254.92,252.02,8.72;3,46.82,265.47,252.00,8.72;3,46.82,276.03,251.97,8.72;3,46.82,286.59,252.03,8.72;3,46.82,297.14,251.98,8.72;3,46.83,307.70,251.98,8.72;3,46.81,318.26,252.02,8.72;3,46.81,328.82,252.02,8.72;3,46.81,339.37,217.40,8.72;3,56.88,361.66,241.96,8.72;3,46.80,372.22,251.95,8.72;3,46.80,382.78,45.75,8.72"><s xml:id="_Q8EeKzc" coords="3,56.88,244.36,241.92,8.72;3,46.81,254.92,252.02,8.72;3,46.82,265.47,252.00,8.72;3,46.82,276.03,129.51,8.72">Abstract-Smart homes hold the potential for increasing energy efficiency, decreasing costs of energy use, decreasing the carbon footprint by including renewable resources, and transforming the role of the occupant.</s><s xml:id="_fvG2BXK" coords="3,179.30,276.03,119.49,8.72;3,46.82,286.59,252.03,8.72;3,46.82,297.14,251.98,8.72;3,46.83,307.70,43.34,8.72">At the crux of the smart home is an efficient electric energy management system that is enabled by emerging technologies in the electricity grid and consumer electronics.</s><s xml:id="_TQNUYaV" coords="3,93.44,307.70,205.37,8.72;3,46.81,318.26,252.02,8.72;3,46.81,328.82,252.02,8.72;3,46.81,339.37,217.40,8.72">This article presents a discussion of the state-of-theart in electricity management in smart homes, the various enabling technologies that will accelerate this concept, and topics around consumer behavior with respect to energy usage.</s><s xml:id="_AuN9hKE" coords="3,56.88,361.66,241.96,8.72;3,46.80,372.22,251.95,8.72;3,46.80,382.78,45.75,8.72">Index Terms-behavioral science, consumer behavior, decision making, energy management, load management, smart grid, smart home</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_Zq9wwpC" coords="3,135.78,405.51,74.05,9.71">I. INTRODUCTION</head><p xml:id="_DaBE3x7" coords="3,67.02,421.23,231.74,9.71;3,66.99,433.53,231.70,9.71;3,46.76,445.84,251.97,9.71;3,46.76,458.14,251.95,9.71;3,46.75,470.45,142.82,9.71;3,206.34,470.45,92.39,9.71;3,46.76,482.75,251.97,9.71;3,46.76,495.06,251.97,9.71;3,46.76,507.36,251.99,9.71;3,46.75,519.66,251.89,9.71;3,46.75,531.97,251.97,9.71;3,46.76,544.27,87.09,9.71;3,148.67,544.27,150.07,9.71;3,46.76,556.58,251.94,9.71;3,313.20,230.67,251.95,9.71;3,313.20,242.97,208.98,9.71;3,532.24,242.97,32.87,9.71;3,313.20,255.28,251.96,9.71;3,313.19,267.58,251.89,9.71;3,313.19,279.89,93.01,9.71;3,420.38,279.89,3.87,9.71;3,435.85,279.89,3.87,9.71"><s xml:id="_9S4JauD" coords="3,67.02,421.23,231.74,9.71;3,66.99,433.53,231.70,9.71;3,46.76,445.84,251.97,9.71;3,46.76,458.14,251.95,9.71;3,46.75,470.45,163.14,9.71">smart home may be defined as a well-designed structure with sufficient access to assets, communication, controls, data, and information technologies for enhancing the occupants' quality of life through comfort, convenience, reduced costs, and increased connectivity <ref type="bibr" coords="3,195.68,470.45,10.66,9.71" target="#b0">[1]</ref>.</s><s xml:id="_h82jTqN" coords="3,215.96,470.45,82.77,9.71;3,46.76,482.75,251.97,9.71;3,46.76,495.06,239.63,9.71">The idea has been widely acknowledged for decades, but few people have ever seen a smart home, and fewer still have occupied one.</s><s xml:id="_gFj6KhB" coords="3,291.50,495.06,7.23,9.71;3,46.76,507.36,251.99,9.71;3,46.75,519.66,251.89,9.71;3,46.75,531.97,251.97,9.71;3,46.76,544.27,105.46,9.71">A commonly cited reason for this slow growth has been the exorbitant cost associated with upgrading existing building stock to include "smart" technologies such as network connected appliances <ref type="bibr" coords="3,138.00,544.27,10.67,9.71" target="#b0">[1]</ref>.</s><s xml:id="_uMn4mne" coords="3,156.38,544.27,142.35,9.71;3,46.76,556.58,251.94,9.71;3,313.20,230.67,251.95,9.71;3,313.20,242.97,182.80,9.71">However, consumers have historically been willing to incur significant costs for new communi-cation technologies, such as cellular telephones, broadband internet connections, and television services.</s><s xml:id="_2qVYQQH" coords="3,499.37,242.97,65.73,9.71;3,313.20,255.28,251.96,9.71;3,313.19,267.58,251.89,9.71;3,313.19,279.89,126.53,9.71">Table <ref type="table" coords="3,525.52,242.97,3.34,9.71">I</ref> presents the changes in US mean monthly income by quintiles and overall consumer spending on communication services, adjusted for 2011 USD <ref type="bibr" coords="3,408.77,279.89,11.61,9.71" target="#b1">[2]</ref>- <ref type="bibr" coords="3,424.25,279.89,11.61,9.71" target="#b5">[6]</ref>.</s></p><p xml:id="_EWcbXys" coords="3,336.36,302.82,31.86,7.73"><s xml:id="_z83DZcz" coords="3,336.36,302.82,31.86,7.73">TABLE I.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_dtsCce7" coords="3,390.36,302.82,151.61,7.73;3,381.96,311.28,114.40,7.73">US MONTHLY INCOME AND COMMUNICATIONS EXPENDITURES FOR 1980 AND 2008</head><p xml:id="_cebeCHq" coords="3,323.28,459.03,241.93,9.71;3,313.20,471.34,251.95,9.71;3,313.18,483.64,251.96,9.71;3,313.17,495.95,251.99,9.71;3,313.16,508.25,251.92,9.71;3,313.16,520.55,153.89,9.71;3,482.33,520.55,82.83,9.71;3,313.16,532.86,251.88,9.71;3,313.16,545.16,251.84,9.71;3,313.16,557.47,74.77,9.71;3,401.15,557.47,3.55,9.71"><s xml:id="_EqC8tsQ" coords="3,323.28,459.03,241.93,9.71;3,313.20,471.34,251.95,9.71;3,313.18,483.64,116.62,9.71">This information may indicate that consumers are not averse to significantly changing their spending habits with the advent of new technologies.</s><s xml:id="_YcqHbep" coords="3,433.60,483.64,131.54,9.71;3,313.17,495.95,251.99,9.71;3,313.16,508.25,251.92,9.71;3,313.16,520.55,172.72,9.71">According to the US Bureau of Labor Statistics the average homeowner spent approximately 11% more on entertainment (including cell phone and internet services) in 2010 than 25 years ago <ref type="bibr" coords="3,471.68,520.55,10.66,9.71" target="#b1">[2]</ref>.</s><s xml:id="_gBV5GGK" coords="3,490.46,520.55,74.70,9.71;3,313.16,532.86,251.88,9.71;3,313.16,545.16,251.84,9.71;3,313.16,557.47,91.54,9.71">Data indicate that consumers are willing to spend more on hybrid vehicles than on similarly sized traditional vehicles for reasons other than economic payback <ref type="bibr" coords="3,390.49,557.47,10.66,9.71" target="#b6">[7]</ref>.</s></p><p xml:id="_2av8V5g" coords="3,323.24,569.77,241.90,9.71;3,313.17,582.08,251.96,9.71;3,313.17,594.38,251.99,9.71;3,313.18,606.69,251.93,9.71;3,313.18,618.99,251.99,9.71;3,313.18,631.30,251.97,9.71;3,313.18,643.60,251.98,9.71;3,313.18,655.90,232.43,9.71"><s xml:id="_53KAJ2F" coords="3,323.24,569.77,223.00,9.71">Diverse motivations can lead to the same end goal.</s><s xml:id="_DEnYzxQ" coords="3,551.19,569.77,13.96,9.71;3,313.17,582.08,251.96,9.71;3,313.17,594.38,251.99,9.71;3,313.18,606.69,170.68,9.71">For instance, a consumer may purchase a hybrid vehicle to decrease carbon emissions, reduce dependency on foreign oil, save money, or simply as a status symbol.</s><s xml:id="_fffUGVw" coords="3,486.76,606.69,78.36,9.71;3,313.18,618.99,251.99,9.71;3,313.18,631.30,251.97,9.71;3,313.18,643.60,41.90,9.71">Regardless, driving a hybrid vehicle contributes to a more sustainable energy future by reducing oil consumption and greenhouse gas emissions.</s><s xml:id="_HtP2udE" coords="3,360.55,643.60,204.61,9.71;3,313.18,655.90,232.43,9.71">Similarly, marketing or societal influences may motivate consumers to invest in smart home technologies.</s></p><p xml:id="_FaX22Zz" coords="3,323.26,668.21,241.86,9.71;3,313.18,680.51,251.98,9.71;3,313.18,692.82,251.91,9.71;3,313.17,705.12,94.78,9.71;3,421.14,705.12,3.55,9.71;4,56.88,53.19,241.80,9.71;4,46.79,65.49,251.96,9.71;4,46.78,77.80,41.74,9.71;4,111.19,77.80,187.56,9.71;4,46.79,90.10,251.99,9.71;4,46.79,102.41,136.21,9.71;4,200.85,102.41,97.92,9.71;4,46.80,114.71,251.93,9.71;4,46.80,127.01,213.59,9.71;4,274.29,127.01,24.49,9.71;4,46.79,139.32,251.96,9.71;4,46.79,151.62,251.96,9.71;4,46.80,163.93,162.57,9.71"><s xml:id="_VBGbgXN" coords="3,323.26,668.21,241.86,9.71;3,313.18,680.51,251.98,9.71">The authors contend that cost and the lack of perceived value have combined to slow the adoption of smart homes.</s><s xml:id="_vWybuqy" coords="3,313.18,692.82,251.91,9.71;3,313.17,705.12,111.52,9.71">However, the perceived value of a smart home is likely to vary across populations <ref type="bibr" coords="3,410.48,705.12,10.66,9.71" target="#b7">[8]</ref>.</s><s xml:id="_gde2Gm9" coords="4,56.88,53.19,241.80,9.71;4,46.79,65.49,251.96,9.71;4,46.78,77.80,67.97,9.71">The US Energy Information Administration (EIA) estimates that 37% of end use electricity in the US is consumed in residences <ref type="bibr" coords="4,100.54,77.80,10.66,9.71" target="#b3">[4]</ref>.</s><s xml:id="_H2DRaBV" coords="4,126.76,77.80,171.99,9.71;4,46.79,90.10,251.99,9.71;4,46.79,102.41,157.61,9.71">Concomitantly, household appliances, consumer electronics, and construction techniques are becoming increasingly efficient <ref type="bibr" coords="4,190.18,102.41,10.67,9.71" target="#b4">[5]</ref>.</s><s xml:id="_s6fvBYU" coords="4,211.62,102.41,87.14,9.71;4,46.80,114.71,251.93,9.71;4,46.80,127.01,231.04,9.71">As the Smart Grid Initiative in the US progresses, the end-user is enabled with near-real time information from the service provider <ref type="bibr" coords="4,263.63,127.01,10.66,9.71" target="#b8">[9]</ref>.</s><s xml:id="_uM4UKrT" coords="4,280.97,127.01,17.82,9.71;4,46.79,139.32,251.96,9.71;4,46.79,151.62,251.96,9.71;4,46.80,163.93,162.57,9.71">This presents an opportunity to coordinate the management of appliances and other loads in the smart home, considering information flow and end-user behavior.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_9YD34Rs" coords="3,103.86,69.79,340.80,23.26">Electric Energy Management in the</head><p xml:id="_WaUEwPP" coords="4,56.88,176.23,241.83,9.71;4,46.79,188.54,251.98,9.71;4,46.79,200.84,251.85,9.71;4,46.79,213.15,251.90,9.71;4,46.79,225.45,251.86,9.71;4,46.79,237.76,81.85,9.71"><s xml:id="_8EBAhrj" coords="4,56.88,176.23,241.83,9.71;4,46.79,188.54,251.98,9.71;4,46.79,200.84,251.85,9.71;4,46.79,213.15,251.90,9.71;4,46.79,225.45,251.86,9.71;4,46.79,237.76,81.85,9.71">This paper is organized as follows: section II describes a smart home; section III outlines the assets and control strategies in a smart home; section IV presents some enabling technologies; section V explains consumer energy behavior, especially in a residential environment; and, section VI offers concluding remarks.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_XU6K5rQ" coords="4,134.58,261.99,76.44,9.78">II. SMART HOMES</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_vyZYaww" coords="4,54.00,283.71,111.75,9.71">A. What is a Smart Home?</head><p xml:id="_x5EgapD" coords="4,56.87,298.41,241.86,9.71;4,46.79,310.71,251.96,9.71;4,46.80,323.02,251.95,9.71;4,46.79,335.32,251.97,9.71;4,46.79,347.63,212.48,9.71;4,273.03,347.63,3.55,9.71;4,294.94,347.63,3.85,9.71;4,46.80,359.93,251.93,9.71;4,46.80,372.24,251.93,9.71;4,46.80,384.54,251.98,9.71;4,46.81,396.85,251.97,9.71;4,46.81,409.15,251.95,9.71;4,46.81,421.46,251.84,9.71;4,46.81,433.76,252.00,9.71;4,46.81,446.06,252.00,9.71;4,46.80,458.37,252.00,9.71;4,46.80,470.67,251.98,9.71;4,46.80,482.98,82.22,9.71"><s xml:id="_NXkTZEy" coords="4,56.87,298.41,241.86,9.71;4,46.79,310.71,251.96,9.71;4,46.80,323.02,44.81,9.71">A home is already a well-designed connector for power transfer between the electricity grid and energy-consuming appliances.</s><s xml:id="_e9mGN5s" coords="4,94.74,323.02,204.02,9.71;4,46.79,335.32,251.97,9.71;4,46.79,347.63,251.99,9.71">A smart home also functions as a switchboard for data flow among appliances and participants such as the enduser, the electric utility, and a third party aggregator <ref type="bibr" coords="4,262.37,347.63,10.66,9.71" target="#b8">[9]</ref>, <ref type="bibr" coords="4,279.54,347.63,15.40,9.71" target="#b9">[10]</ref>.</s><s xml:id="_j6f7ZQC" coords="4,46.80,359.93,251.93,9.71;4,46.80,372.24,251.93,9.71;4,46.80,384.54,251.98,9.71;4,46.81,396.85,233.80,9.71">This evolved capability benefits stakeholders on both sides of the interface -utility customers, utilities, and third party energy management firms -because there are strong incentives for all sides to help the others function smoothly.</s><s xml:id="_H9V8TH9" coords="4,284.83,396.85,13.96,9.71;4,46.81,409.15,251.95,9.71;4,46.81,421.46,251.84,9.71;4,46.81,433.76,252.00,9.71;4,46.81,446.06,67.76,9.71">For instance, a homeowner may not inherently care about the peak demand issues faced by the utility, but electricity prices and supply reliability are tied to operational practices of the service provider.</s><s xml:id="_DD7T4BV" coords="4,117.42,446.06,181.39,9.71;4,46.80,458.37,252.00,9.71;4,46.80,470.67,251.98,9.71;4,46.80,482.98,82.22,9.71">On the other hand, a utility may be primarily concerned with meeting the requirements of public utility commissions, but unhappy ratepayers may result in business and regulatory risks.</s></p><p xml:id="_pFDak52" coords="4,56.88,495.28,241.95,9.71;4,46.80,507.59,251.98,9.71;4,46.79,519.89,57.64,9.71;4,111.99,519.89,186.72,9.71;4,46.79,532.20,251.85,9.71;4,46.79,544.50,251.90,9.71;4,46.79,556.81,251.83,9.71;4,46.78,569.11,251.89,9.71;4,46.78,581.41,235.42,9.71;4,323.28,410.37,241.84,9.71;4,313.20,422.68,251.89,9.71;4,313.20,434.98,252.02,9.71;4,313.19,447.29,251.93,9.71;4,313.19,459.59,251.97,9.71;4,313.18,471.89,252.00,9.71;4,313.19,484.20,251.87,9.71;4,313.19,496.50,252.01,9.71;4,313.19,508.81,172.71,9.71;4,507.20,508.81,57.98,9.71;4,313.19,521.11,251.92,9.71;4,313.19,533.42,252.01,9.71;4,313.18,545.72,251.90,9.71;4,313.18,558.03,251.89,9.71;4,313.18,570.33,127.88,9.71;4,460.46,570.33,104.72,9.71;4,313.19,582.64,251.89,9.71;4,313.19,594.94,26.19,9.71;4,345.68,594.94,3.77,9.71"><s xml:id="_SYDS2fy" coords="4,56.88,495.28,241.95,9.71;4,46.80,507.59,251.98,9.71;4,46.79,519.89,251.91,9.71;4,46.79,532.20,251.85,9.71;4,46.79,544.50,239.02,9.71">Looking outward, a smart residential building has two-way communication with the utility grid, enabled by a smart meter, shown in Fig. <ref type="figure" coords="4,108.21,519.89,3.77,9.71" target="#fig_1">1</ref>, so that it can interact dynamically with the grid system, receiving signals from the service provider and responding with information on usage and diagnostics.</s><s xml:id="_CPNKJcQ" coords="4,291.46,544.50,7.23,9.71;4,46.79,556.81,251.83,9.71;4,46.78,569.11,13.13,9.71">A detailed description of the smart meter is provided in section IV.</s><s xml:id="_jMgEFHt" coords="4,63.09,569.11,235.58,9.71;4,46.78,581.41,235.42,9.71">This bidirectional information exchange is enabled by the rapid adoption of advanced metering infrastructure (AMI).</s><s xml:id="_NH54hkb" coords="4,323.28,410.37,241.84,9.71;4,313.20,422.68,251.89,9.71;4,313.20,434.98,252.02,9.71;4,313.19,447.29,142.81,9.71">Looking inward, a smart home employs automated home energy management (AHEM), an elegant network that self manages end-use systems based on information flowing from the occupants and the smart meter.</s><s xml:id="_vru88CN" coords="4,459.29,447.29,105.83,9.71;4,313.19,459.59,251.97,9.71;4,313.18,471.89,252.00,9.71;4,313.19,484.20,251.87,9.71">The value of AHEM is in reconciliation of the energy use of connected systems in a house with the occupant's objectives of comfort and cost as well as the information received from the service provider.</s><s xml:id="_BAh8XVD" coords="4,313.19,496.50,252.01,9.71;4,313.19,508.81,251.99,9.71;4,313.19,521.11,251.92,9.71;4,313.19,533.42,252.01,9.71;4,313.18,545.72,251.90,9.71;4,313.18,558.03,251.89,9.71;4,313.18,570.33,151.13,9.71">Sensors and controls work together via a wireless home area network (HAN) to gather relevant data <ref type="bibr" coords="4,491.78,508.81,15.42,9.71" target="#b10">[11]</ref>, process the information using effective algorithms, and implement control strategies that simultaneously co-optimize several objectives: comfort and convenience at minimal cost to the occupant, efficiency in energy consumption, and timely response to the request of the service provider <ref type="bibr" coords="4,445.06,570.33,15.40,9.71" target="#b11">[12]</ref>.</s><s xml:id="_AC8A9ck" coords="4,468.29,570.33,96.89,9.71;4,313.19,582.64,251.89,9.71;4,313.19,594.94,36.26,9.71">An example of a smart home, constructed in a laboratory setting at NREL, is shown in Fig. <ref type="figure" coords="4,341.91,594.94,3.77,9.71" target="#fig_0">2</ref>.</s></p><p xml:id="_4S5NnK9" coords="5,43.20,740.13,185.88,10.43;5,43.20,751.65,211.17,10.43;5,43.20,763.17,129.77,10.43;5,43.20,740.13,185.88,10.43;5,43.20,751.65,211.17,10.43;5,43.20,763.17,8.37,10.43;5,168.40,763.17,4.56,10.43"><s xml:id="_FrNb6n3" coords="5,43.20,740.13,185.88,10.43;5,43.20,751.65,211.17,10.43;5,43.20,763.17,8.37,10.43;5,168.40,763.17,4.56,10.43">This report is available at no cost from the National Renewable Energy Laboratory (NREL) at <ref type="url" coords="5,54.29,763.17,114.11,10.43" target="www.nrel.gov/publications">www.nrel.gov/publications</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_fuvTRaS" coords="5,54.00,256.71,217.14,9.71;5,54.00,268.41,35.72,9.71">B. Economic feasibility and likelihood of widespread adoption</head><p xml:id="_dPrqFMQ" coords="5,56.89,283.11,241.85,9.71;5,46.81,295.41,251.95,9.71;5,46.81,307.72,160.69,9.71"><s xml:id="_6PfMxst" coords="5,56.89,283.11,241.85,9.71;5,46.81,295.41,251.95,9.71;5,46.81,307.72,99.42,9.71">Several market and technology trends are expected to accelerate the development of cost-effective AHEM systems that enable smart homes.</s><s xml:id="_wZrKXC2" coords="5,148.75,307.72,58.75,9.71">These include:</s></p><p xml:id="_gXEgh5C" coords="5,56.89,320.02,241.78,9.71;5,67.03,332.33,231.77,9.71;5,67.03,344.63,28.19,9.71"><s xml:id="_Tkt5xrM" coords="5,56.89,320.02,241.78,9.71;5,67.03,332.33,231.77,9.71;5,67.03,344.63,28.19,9.71">• Implementation of smart grids and continued growth in home offices will expand market penetration of secure HANs.</s></p><p xml:id="_Nmy77CG" coords="5,56.89,356.94,241.88,9.71;5,67.03,369.24,231.68,9.71;5,67.03,381.55,172.59,9.71;5,257.62,381.55,3.85,9.71"><s xml:id="_b8cE4Qd" coords="5,56.89,356.94,241.88,9.71;5,67.03,369.24,231.68,9.71;5,67.03,381.55,194.45,9.71">• Growth in web-based cloud computing applications will enable low-cost home energy data storage, data display, and data analysis for AHEM trend analysis <ref type="bibr" coords="5,242.23,381.55,15.40,9.71" target="#b12">[13]</ref>.</s></p><p xml:id="_uF5N4v2" coords="5,56.90,393.85,241.90,9.71;5,67.05,406.16,130.44,9.71;5,215.76,406.16,82.99,9.71;5,67.05,418.46,200.74,9.71"><s xml:id="_dkEDmrB" coords="5,56.90,393.85,241.90,9.71;5,67.05,406.16,231.70,9.71;5,67.05,418.46,200.74,9.71">• Advancements in smartphone technology such as batteries, user interfaces, and material <ref type="bibr" coords="5,200.36,406.16,15.40,9.71" target="#b13">[14]</ref>, are expected to aid the development and adoption of AHEM systems.</s></p><p xml:id="_FJRkaUu" coords="5,56.92,430.76,241.90,9.71;5,67.06,443.07,231.75,9.71;5,67.06,455.37,231.75,9.71;5,67.06,467.68,231.68,9.71;5,67.06,479.98,231.74,9.71;5,67.06,492.29,231.69,9.71;5,67.06,504.59,231.68,9.71;5,67.06,516.90,231.67,9.71;5,82.45,529.20,3.85,9.71"><s xml:id="_75QXJKF" coords="5,56.92,430.76,241.90,9.71;5,67.06,443.07,231.75,9.71;5,67.06,455.37,231.75,9.71;5,67.06,467.68,231.68,9.71;5,67.06,479.98,231.74,9.71;5,67.06,492.29,231.69,9.71;5,67.06,504.59,231.68,9.71;5,67.06,516.90,231.67,9.71;5,67.06,529.20,19.25,9.71">• Manufacturers of residential equipment and appliances continue to embed additional sensors and control capabilities in new, smart home appliances that are internetready, can respond to requests from service providers, and offer advanced cycle controls such as multi-mode or variable speed controls and fault diagnostic sensors for space-conditioning equipment and "eco" modes for dishwashers, clothes washers, and other major appliances <ref type="bibr" coords="5,67.06,529.20,15.40,9.71" target="#b14">[15]</ref>.</s></p><p xml:id="_A4Guf4V" coords="5,56.93,541.51,241.84,9.71;5,67.07,553.81,231.73,9.71;5,67.07,566.11,89.99,9.71;5,56.93,578.42,241.81,9.71;5,46.85,590.72,252.09,9.71;5,46.83,603.03,251.96,9.71;5,46.83,615.33,251.89,9.71;5,46.82,627.64,252.00,9.71;5,46.81,639.94,251.97,9.71;5,46.82,652.25,251.93,9.71;5,46.82,664.55,251.95,9.71;5,46.82,676.86,251.87,9.71;5,46.81,689.16,251.93,9.71;5,46.81,701.46,116.56,9.71"><s xml:id="_nDAzJ83" coords="5,56.93,541.51,241.84,9.71;5,67.07,553.81,231.73,9.71;5,67.07,566.11,89.99,9.71">• Integration of energy services into other networked product offerings, such as security systems and television and telephony service.</s><s xml:id="_DFY46Sk" coords="5,56.93,578.42,241.81,9.71;5,46.85,590.72,252.09,9.71;5,46.83,603.03,251.96,9.71;5,46.83,615.33,251.89,9.71;5,46.82,627.64,46.46,9.71">A key strategy to engaging all stakeholders may lie in changes to the end-user electricity pricing structures -from fixed tariffs to dynamic prices that may change several times over a day -that reflect the use of the assets on the grid at any given time.</s><s xml:id="_WD7AMNs" coords="5,97.31,627.64,201.51,9.71;5,46.81,639.94,251.97,9.71;5,46.82,652.25,251.93,9.71;5,46.82,664.55,251.95,9.71;5,46.82,676.86,251.87,9.71;5,46.81,689.16,30.87,9.71">If these structures are implemented to provide a tangible financial incentive for customers to respond to the requests of the service providers for demand reduction, the customers can receive measurable monetary value for their participation, in addition to the increased reliability of their service.</s><s xml:id="_KwgB6as" coords="5,80.88,689.16,217.85,9.71;5,46.81,701.46,116.56,9.71">Financial incentives are but one motivating factor for the adoption of smart homes.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_fTpDsT9" coords="5,320.41,53.34,153.38,9.71">C. Smart Home Energy Management</head><p xml:id="_uY45FEv" coords="5,323.29,68.04,241.80,9.71;5,313.21,80.34,251.95,9.71;5,313.21,92.65,251.90,9.71;5,313.20,104.95,251.88,9.71;5,313.20,117.26,251.93,9.71;5,313.19,129.56,251.94,9.71;5,313.20,141.87,251.90,9.71;5,313.20,154.17,69.68,9.71;5,382.86,151.83,4.92,6.28;5,391.14,153.99,174.04,9.71;5,313.20,166.29,251.94,9.71;5,313.20,178.60,251.95,9.71;5,313.20,190.90,251.88,9.71;5,313.19,203.21,251.92,9.71;5,313.19,215.51,251.86,9.71;5,313.18,227.81,252.02,9.71;5,313.18,240.12,251.91,9.71;5,313.17,252.42,251.93,9.71;5,313.17,264.73,139.36,9.71;5,471.79,264.73,93.31,9.71;5,313.17,277.03,251.93,9.71;5,313.17,289.34,66.18,9.71"><s xml:id="_3ypySqw" coords="5,323.29,68.04,241.80,9.71;5,313.21,80.34,251.95,9.71;5,313.21,92.65,77.30,9.71">Large-scale demonstration efforts have thus far approached smart home research with a strong utility focus and less homeowner focus.</s><s xml:id="_cvcYvj6" coords="5,396.16,92.65,168.95,9.71;5,313.20,104.95,251.88,9.71;5,313.20,117.26,251.93,9.71;5,313.19,129.56,165.29,9.71">Currently the incentive for homeowner participation is limited to relatively small financial gain via utility pricing structures; otherwise the motivation is primarily altruistic (i.e., environmental benefits).</s><s xml:id="_99ntRuT" coords="5,484.08,129.56,81.05,9.71;5,313.20,141.87,251.90,9.71;5,313.20,154.17,69.68,9.71;5,382.86,151.83,4.92,6.28;5,391.14,153.99,174.04,9.71;5,313.20,166.29,251.94,9.71;5,313.20,178.60,49.95,9.71">Most utilities offer incentives for energy upgrades such as attic insulation or ENERGY STAR ® appliances and many have leveraged loadshedding technologies that cycle air conditioners during peak load events.</s><s xml:id="_y6TvRvP" coords="5,367.66,178.60,197.49,9.71;5,313.20,190.90,251.88,9.71">Increasingly, utilities are funding more elegant efforts for on-request load reduction in the residential sector.</s><s xml:id="_vpctuqf" coords="5,313.19,203.21,251.92,9.71;5,313.19,215.51,251.86,9.71;5,313.18,227.81,252.02,9.71;5,313.18,240.12,251.91,9.71;5,313.17,252.42,251.93,9.71;5,313.17,264.73,162.46,9.71">For example, CPS Energy of San Antonio, Texas has partnered with Consert Inc. to demonstrate a load reduction system that can alter air conditioner and water heater set points and pool pump operation at the end-user facility during peak load times to enable substantial peak savings with limited impact on their customers <ref type="bibr" coords="5,456.39,264.73,15.40,9.71" target="#b15">[16]</ref>.</s><s xml:id="_QNFCtbJ" coords="5,479.42,264.73,85.67,9.71;5,313.17,277.03,251.93,9.71;5,313.17,289.34,66.18,9.71">This system is being rolled out to most residential customers in the San Antonio service territory.</s></p><p xml:id="_zjbDD42" coords="5,323.25,301.64,241.83,9.71;5,313.16,313.95,251.88,9.71;5,313.16,326.25,78.21,9.71;5,414.24,326.25,150.92,9.71;5,313.17,338.56,251.96,9.71;5,313.17,350.86,251.98,9.71;5,313.17,363.16,65.86,9.71;5,389.12,363.16,74.53,9.71;5,481.61,363.16,3.85,9.71;5,323.28,573.21,241.89,9.71;5,313.20,585.52,166.49,9.71;5,498.64,585.52,66.54,9.71;5,313.20,597.82,251.87,9.71;5,313.20,610.13,251.90,9.71;5,313.20,622.43,251.95,9.71;5,313.19,634.73,251.96,9.71;5,313.19,647.04,252.03,9.71;5,313.20,659.34,251.97,9.71;5,313.20,671.65,67.98,9.71;5,400.04,671.65,165.09,9.71;5,313.19,683.95,251.90,9.71;5,313.19,696.26,251.87,9.71;5,313.19,708.56,163.14,9.71"><s xml:id="_v8HxGaF" coords="5,323.25,301.64,241.83,9.71;5,313.16,313.95,251.88,9.71;5,313.16,326.25,104.93,9.71">Some utilities such as ComEd provide near-real time data to homeowners, along with several pricing structures and load reduction requests <ref type="bibr" coords="5,398.84,326.25,15.40,9.71" target="#b16">[17]</ref>.</s><s xml:id="_QNUg8fr" coords="5,425.55,326.25,139.62,9.71;5,313.17,338.56,251.96,9.71;5,313.17,350.86,251.98,9.71;5,313.17,363.16,172.28,9.71">Many companies have recently incorporated web-based user interfaces, so a homeowner can adjust thermostat settings or turn off lights from a smartphone, as shown in Fig. <ref type="figure" coords="5,381.57,363.16,5.01,9.71" target="#fig_3">3</ref> , or a web browser <ref type="bibr" coords="5,466.21,363.16,15.40,9.71" target="#b14">[15]</ref>.</s><s xml:id="_g6eqruF" coords="5,323.28,573.21,241.89,9.71;5,313.20,585.52,189.29,9.71">Advanced grid measurements using AMI infrastructure are being rolled out in California and Texas <ref type="bibr" coords="5,483.24,585.52,15.40,9.71" target="#b17">[18]</ref>.</s><s xml:id="_3e7A2Vq" coords="5,505.98,585.52,59.20,9.71;5,313.20,597.82,251.87,9.71;5,313.20,610.13,251.90,9.71;5,313.20,622.43,208.70,9.71">These projects have multipronged focus of better integration of renewables, enhancement of efficiency, and optimization of consumer demands with utility needs on a community scale.</s><s xml:id="_Ate8cCD" coords="5,525.71,622.43,39.44,9.71;5,313.19,634.73,251.96,9.71;5,313.19,647.04,252.03,9.71;5,313.20,659.34,251.97,9.71;5,313.20,671.65,90.70,9.71">Emerging nonintrusive load measurement systems can provide enabling data, but these modern measurement techniques are not yet robust, accurate, easy to install, or cost-effective for integration at the meter <ref type="bibr" coords="5,384.61,671.65,15.43,9.71" target="#b18">[19]</ref>.</s><s xml:id="_5uczGc2" coords="5,407.33,671.65,157.80,9.71;5,313.19,683.95,251.90,9.71;5,313.19,696.26,251.87,9.71;5,313.19,708.56,163.14,9.71">The available legacy methods for load disaggregation use algorithms supplemented with estimation, so the results may have less relevance to a given household than across an aggregated population [ ].</s></p><p xml:id="_eHCEnR6" coords="6,43.20,740.13,185.88,10.43;6,43.20,751.65,211.17,10.43;6,43.20,763.17,129.77,10.43;6,43.20,740.13,185.88,10.43;6,43.20,751.65,211.17,10.43;6,43.20,763.17,8.37,10.43;6,168.40,763.17,4.56,10.43"><s xml:id="_Nq3qv3U" coords="6,43.20,740.13,185.88,10.43;6,43.20,751.65,211.17,10.43;6,43.20,763.17,8.37,10.43;6,168.40,763.17,4.56,10.43">This report is available at no cost from the National Renewable Energy Laboratory (NREL) at <ref type="url" coords="6,54.29,763.17,114.11,10.43" target="www.nrel.gov/publications">www.nrel.gov/publications</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_Sw2uJEd" coords="6,114.42,53.19,116.76,9.71">III. ASSETS AND CONTROLS</head><p xml:id="_BvHUnrk" coords="6,56.88,68.91,241.94,9.71;6,46.80,81.21,251.88,9.71;6,46.79,93.52,251.94,9.71;6,46.78,105.82,251.94,9.71;6,46.76,118.13,251.91,9.71;6,46.76,130.43,30.11,9.71;6,94.80,130.43,3.85,9.71"><s xml:id="_v8K2uBC" coords="6,56.88,68.91,241.94,9.71;6,46.80,81.21,251.88,9.71;6,46.79,93.52,185.76,9.71">In smart homes, many loads can be considered as assets that can participate in the efficient use of electric energy: thermal loads, electric vehicles, and smart appliances.</s><s xml:id="_Myd9q7T" coords="6,235.68,93.52,63.06,9.71;6,46.78,105.82,251.94,9.71;6,46.76,118.13,251.91,9.71;6,46.76,130.43,51.88,9.71">By intelligently controlling their behavior in either a reactive or a coordinated manner, these assets can provide leverage for energy and cost savings <ref type="bibr" coords="6,79.40,130.43,15.40,9.71" target="#b19">[20]</ref>.</s></p><p xml:id="_XV4zZf9" coords="6,56.83,142.74,241.85,9.71;6,46.75,155.04,251.93,9.71;6,46.74,167.34,251.89,9.71;6,46.74,179.65,252.00,9.71;6,46.75,191.95,251.97,9.71;6,46.75,204.26,144.34,9.71;6,209.20,204.26,89.52,9.71;6,46.75,216.56,251.98,9.71;6,46.76,228.87,251.98,9.71;6,46.76,241.17,177.44,9.71;6,243.64,241.17,3.85,9.71;6,266.93,241.17,31.83,9.71;6,46.75,253.48,252.02,9.71;6,46.75,265.78,251.98,9.71;6,46.75,278.09,251.94,9.71;6,46.75,290.39,251.91,9.71;6,46.75,302.69,251.91,9.71;6,46.75,315.00,251.89,9.71;6,46.75,327.30,251.84,9.71;6,46.75,339.61,252.00,9.71;6,46.74,351.91,251.83,9.71;6,46.74,364.22,252.10,9.71;6,46.74,376.52,251.85,9.71;6,46.74,388.83,251.97,9.71;6,46.73,401.13,250.89,9.71"><s xml:id="_ZHSEpZv" coords="6,56.83,142.74,241.85,9.71;6,46.75,155.04,251.93,9.71;6,46.74,167.34,48.58,9.71">Thermal loads, such as air conditioning, electric space heating and water heating, can be controlled by "intelligent" thermostats.</s><s xml:id="_JCbht4G" coords="6,102.29,167.34,196.34,9.71;6,46.74,179.65,252.00,9.71;6,46.75,191.95,251.97,9.71;6,46.75,204.26,166.30,9.71">Contrary to traditional thermostats operating according to the hysteresis principle, an advanced thermostat such as the Nest has a learning capability that can automatically learn from user behavior patterns <ref type="bibr" coords="6,193.81,204.26,15.40,9.71" target="#b20">[21]</ref>.</s><s xml:id="_bTYqpqx" coords="6,215.76,204.26,82.97,9.71;6,46.75,216.56,251.98,9.71;6,46.76,228.87,251.98,9.71;6,46.76,241.17,224.02,9.71">Then, the thermostat adapts the room temperature efficiently, e.g., by autoscheduling heating according to arrival and departure times and by detecting when the users are away <ref type="bibr" coords="6,228.25,241.17,15.39,9.71" target="#b20">[21]</ref>, <ref type="bibr" coords="6,251.52,241.17,15.41,9.71" target="#b21">[22]</ref>.</s><s xml:id="_VaybaC5" coords="6,274.81,241.17,23.95,9.71;6,46.75,253.48,252.02,9.71;6,46.75,265.78,251.98,9.71;6,46.75,278.09,251.94,9.71">These strategies can help reduce energy consumption, especially when traditional or programmable thermostats are not configured properly, or cannot detect that users are away.</s><s xml:id="_99d9zBJ" coords="6,46.75,290.39,251.91,9.71;6,46.75,302.69,251.91,9.71;6,46.75,315.00,31.47,9.71">Detailed control of household loads would allow the inherent thermal inertia of smart housing stock to be used for energy storage.</s><s xml:id="_Fh6dX6T" coords="6,81.85,315.00,216.79,9.71;6,46.75,327.30,251.84,9.71;6,46.75,339.61,231.44,9.71">The controller could "learn" the thermal response of the home, including factors such as weather forecasts, weather observations, and load levels from monitored devices.</s><s xml:id="_YpAVWn8" coords="6,283.14,339.61,15.61,9.71;6,46.74,351.91,251.83,9.71;6,46.74,364.22,252.10,9.71;6,46.74,376.52,64.40,9.71">The resulting model would better predict future loads, which could be used locally or aggregated for the utility to plan short-term control options.</s><s xml:id="_WnxcKRz" coords="6,115.05,376.52,183.55,9.71;6,46.74,388.83,251.97,9.71;6,46.73,401.13,250.89,9.71">For example, a smart home controller could pre-cool a house in the morning, before the system peak load, reducing air conditioning loads when signaled from the utility.</s></p><p xml:id="_DGYRB4Q" coords="6,56.82,413.44,241.84,9.71;6,46.74,425.74,251.94,9.71;6,62.14,438.04,236.57,9.71;6,46.74,450.35,251.98,9.71;6,46.73,462.65,251.94,9.71;6,46.72,474.96,251.90,9.71;6,46.72,487.26,251.89,9.71;6,46.72,499.57,251.96,9.71;6,46.72,511.87,251.94,9.71;6,46.72,524.18,134.89,9.71;6,204.30,524.18,3.85,9.71;6,230.82,524.18,67.88,9.71;6,46.70,536.48,251.97,9.71;6,46.70,548.79,251.99,9.71;6,46.69,561.09,251.94,9.71;6,46.69,573.40,251.97,9.71;6,46.69,585.70,42.53,9.71;6,107.15,585.70,3.85,9.71"><s xml:id="_gasFPXz" coords="6,56.82,413.44,241.84,9.71;6,46.74,425.74,251.94,9.71;6,46.74,438.04,19.25,9.71">Plug-in electric vehicles, including hybrids, are expected to represent 1.7 to 3.5% of all US light duty vehicles by 2025 <ref type="bibr" coords="6,46.74,438.04,15.40,9.71" target="#b22">[23]</ref>.</s><s xml:id="_fA8Au6v" coords="6,70.32,438.04,228.40,9.71;6,46.74,450.35,251.98,9.71;6,46.73,462.65,32.42,9.71">These correspond to a significant domestic load interfaced with power electronics that can also help make homes smarter.</s><s xml:id="_F2NsKbJ" coords="6,85.77,462.65,212.90,9.71;6,46.72,474.96,251.90,9.71;6,46.72,487.26,251.89,9.71;6,46.72,499.57,251.96,9.71;6,46.72,511.87,251.94,9.71;6,46.72,524.18,187.95,9.71">Using the vehicle-to-home technology, they can temporarily power the household, e.g., during demand peaks when power may become more expensive and the battery can provide a part of the total demand, or during outages by powering the entire household until the battery reaches its lower state-of-charge threshold <ref type="bibr" coords="6,188.91,524.18,15.39,9.71" target="#b23">[24]</ref>, <ref type="bibr" coords="6,215.42,524.18,15.40,9.71" target="#b24">[25]</ref>.</s><s xml:id="_jqaWmtN" coords="6,241.87,524.18,56.82,9.71;6,46.70,536.48,251.97,9.71;6,46.70,548.79,206.08,9.71">Adapting the charging schedule according to grid supply conditions offers additional possibilities, as described in section IV.</s><s xml:id="_jfecXkD" coords="6,256.03,548.79,42.67,9.71;6,46.69,561.09,251.94,9.71;6,46.69,573.40,251.97,9.71;6,46.69,585.70,64.31,9.71">The utility of such distributed storage may be improved when used together with distributed generationsources, such as photovoltaic panels <ref type="bibr" coords="6,91.75,585.70,15.40,9.71" target="#b23">[24]</ref>.</s></p><p xml:id="_2AhrcRS" coords="6,56.77,598.00,241.77,9.71;6,46.69,610.31,251.94,9.71;6,46.68,622.61,251.99,9.71;6,46.68,634.92,251.89,9.71;6,46.68,647.22,251.96,9.71;6,313.08,53.41,251.96,9.71;6,313.08,65.71,111.94,9.71;6,445.84,65.71,3.85,9.71;6,470.44,65.71,94.61,9.71;6,313.09,78.02,251.93,9.71;6,313.09,90.32,251.92,9.71;6,313.08,102.63,186.27,9.71"><s xml:id="_gRRKhmg" coords="6,56.77,598.00,241.77,9.71;6,46.69,610.31,251.94,9.71;6,46.68,622.61,40.84,9.71">A growing number of domestic loads, including electronics, solid-state lighting and variable-speed motors, use DC power internally.</s><s xml:id="_2Tt4DQJ" coords="6,91.32,622.61,207.35,9.71;6,46.68,634.92,251.89,9.71;6,46.68,647.22,46.53,9.71">Most small, distributed, renewable energy sources generate DC power, which must be converted to AC for grid connection.</s><s xml:id="_VUdPZUm" coords="6,95.82,647.22,202.82,9.71;6,313.08,53.41,251.96,9.71;6,313.08,65.71,161.21,9.71">Some recent work has considered household-sized distributed storage systems for local back-up power and ancillary service provision <ref type="bibr" coords="6,430.45,65.71,15.39,9.71" target="#b25">[26]</ref>, <ref type="bibr" coords="6,455.04,65.71,15.41,9.71" target="#b27">[27]</ref>.</s><s xml:id="_6PuNz8v" coords="6,479.65,65.71,85.41,9.71;6,313.09,78.02,251.93,9.71;6,313.09,90.32,251.92,9.71;6,313.08,102.63,186.27,9.71">The convergence of these sources and loads provides an interesting opportunity for significant advances in granular control of loads and high penetration of small-rated DC-powered assets.</s></p><p xml:id="_9r88CZD" coords="6,323.16,114.93,241.89,9.71;6,313.08,127.23,251.90,9.71;6,313.08,139.54,252.00,9.71;6,313.08,151.84,251.84,9.71;6,313.08,164.15,251.96,9.71;6,313.07,176.45,251.95,9.71;6,313.07,188.76,252.01,9.71;6,313.08,201.06,251.90,9.71;6,313.07,213.37,251.85,9.71;6,313.07,225.67,251.96,9.71;6,313.07,237.98,251.91,9.71;6,313.07,250.28,183.69,9.71;6,514.99,250.28,50.10,9.71;6,313.07,262.58,251.90,9.71;6,313.07,274.89,251.92,9.71;6,313.07,287.19,169.44,9.71;6,500.56,287.19,3.85,9.71"><s xml:id="_FCqVemc" coords="6,323.16,114.93,241.89,9.71">A smart home could also integrate a low-voltage DC bus.</s><s xml:id="_dvyPUn7" coords="6,313.08,127.23,251.90,9.71;6,313.08,139.54,194.57,9.71">Renewable resources, battery storage, and potentially vehicle charging could all interconnect on a DC bus.</s><s xml:id="_X73q7xy" coords="6,512.34,139.54,52.75,9.71;6,313.08,151.84,251.84,9.71;6,313.08,164.15,222.75,9.71">The DC bus would be integrated at a single point, and many inverters and converters would be reduced to DC-DC converters.</s><s xml:id="_mrZqRgu" coords="6,541.02,164.15,24.03,9.71;6,313.07,176.45,251.95,9.71;6,313.07,188.76,252.01,9.71;6,313.08,201.06,207.81,9.71">When high volumes drive down costs, this simplification could reduce the cost and improve the efficiency of renewable systems, solid-state lighting and electronic loads.</s><s xml:id="_qQt7Ur7" coords="6,525.65,201.06,39.34,9.71;6,313.07,213.37,251.85,9.71;6,313.07,225.67,123.43,9.71">However, this paradigm shift presents challenges in electrical protection, re-wiring, and standardization.</s><s xml:id="_6hCvHwh" coords="6,439.13,225.67,125.91,9.71;6,313.07,237.98,251.91,9.71;6,313.07,250.28,205.78,9.71">Presently, the EMerge Alliance is developing standards for DC distribution and usage, including 24V and 380V distribution systems <ref type="bibr" coords="6,499.52,250.28,15.47,9.71" target="#b28">[28]</ref>.</s><s xml:id="_Uve7Z58" coords="6,521.63,250.28,43.46,9.71;6,313.07,262.58,251.90,9.71;6,313.07,274.89,251.92,9.71;6,313.07,287.19,191.33,9.71">Use of DC power distribution remains a retrofit challenge for existing US housing stock, but researchers are studying combined AC/DC distribution using existing building wiring <ref type="bibr" coords="6,485.16,287.19,15.40,9.71" target="#b29">[29]</ref>.</s></p><p xml:id="_ZYaaPTg" coords="6,323.16,299.50,241.90,9.71;6,313.08,311.80,251.95,9.71;6,313.08,324.11,251.91,9.71;6,313.08,336.41,252.01,9.71;6,313.08,348.72,251.93,9.71;6,313.06,361.02,251.97,9.71;6,313.06,373.33,251.94,9.71;6,313.06,385.63,227.21,9.71;6,561.20,385.63,3.86,9.71;6,313.07,397.93,251.99,9.71;6,313.06,410.24,251.96,9.71;6,313.07,422.54,251.95,9.71;6,313.07,434.85,251.94,9.71;6,313.07,447.15,251.87,9.71;6,313.07,459.46,251.85,9.71;6,313.07,471.76,251.96,9.71;6,313.07,484.07,80.65,9.71"><s xml:id="_Uc6x6E7" coords="6,323.16,299.50,241.90,9.71">Appliances also hold potential for smarter energy use.</s><s xml:id="_epuFjNV" coords="6,313.08,311.80,251.95,9.71;6,313.08,324.11,251.91,9.71;6,313.08,336.41,81.58,9.71">Dishwashers, washing machines and clothes dryers can be scheduled in advance, and do not need to be directly controlled by the user.</s><s xml:id="_UHK2vVK" coords="6,399.30,336.41,165.80,9.71;6,313.08,348.72,251.93,9.71;6,313.06,361.02,175.66,9.71">The starting time can be postponed by several hours, with no impact on the user as long as the cycle is over when the user requested it initially.</s><s xml:id="_rVvrJzf" coords="6,491.97,361.02,73.07,9.71;6,313.06,373.33,251.94,9.71;6,313.06,385.63,251.99,9.71">A similar strategy can be used to control freezer and refrigerator cycle so as to reduce peak demand by coordinating their operation <ref type="bibr" coords="6,545.77,385.63,15.43,9.71" target="#b30">[30]</ref>.</s><s xml:id="_xqwTnY8" coords="6,313.07,397.93,251.99,9.71;6,313.06,410.24,251.96,9.71;6,313.07,422.54,251.95,9.71;6,313.07,434.85,251.94,9.71">Finally, many other loads can provide resources for smart energy use, and increase the comfort of the user, including automatic blinds that adjust based on daylight intensity, adaptive lighting, and autonomous vacuum cleaning robots.</s><s xml:id="_TAn5haa" coords="6,313.07,447.15,251.87,9.71;6,313.07,459.46,251.85,9.71;6,313.07,471.76,251.96,9.71;6,313.07,484.07,80.65,9.71">These devices exploit the possibilities offered by the extensive use of sensors, sometimes forming wireless sensor networks, and actuators controlled by smart, adaptive and possibly learning algorithms.</s></p><p xml:id="_mxrG6uV" coords="6,323.15,496.37,241.91,9.71;6,313.07,508.68,251.90,9.71;6,313.07,520.98,251.85,9.71;6,313.07,533.29,251.95,9.71;6,313.06,545.59,251.98,9.71;6,313.06,557.89,251.92,9.71;6,313.05,570.20,251.91,9.71;6,313.05,582.50,251.96,9.71;6,313.05,594.81,251.93,9.71;6,313.05,607.11,251.98,9.71;6,313.05,619.42,251.85,9.71;6,313.05,631.72,160.60,9.71;6,479.95,631.72,3.77,9.71"><s xml:id="_kbeaTep" coords="6,323.15,496.37,241.91,9.71;6,313.07,508.68,251.90,9.71;6,313.07,520.98,251.85,9.71;6,313.07,533.29,251.95,9.71">Almost all loads are, or could be, equipped with intelligent controllers, ranging from simple on/off control of state lighting, to sophisticated controllers for photovoltaic systems, vehicle chargers, and large loads such as air conditioning.</s><s xml:id="_ck5bntW" coords="6,313.06,545.59,251.98,9.71;6,313.06,557.89,251.92,9.71;6,313.05,570.20,127.25,9.71">With appropriate standardization and high volumes, practical, low-cost communication systems could connect most loads to a central household controller.</s><s xml:id="_ybaJMRW" coords="6,444.58,570.20,120.39,9.71;6,313.05,582.50,196.41,9.71">The controller could provide detailed monitoring and control for occupants.</s><s xml:id="_Mymphpz" coords="6,514.11,582.50,50.90,9.71;6,313.05,594.81,251.93,9.71;6,313.05,607.11,251.98,9.71">With proper AMI interfacing, the home could further aggregate the resources for system uses, requested by the service provider.</s><s xml:id="_ZcdC7Yu" coords="6,313.05,619.42,251.85,9.71;6,313.05,631.72,170.67,9.71">A block diagram of the centrally controlled smart home and its constituent assets is presented in Fig. <ref type="figure" coords="6,476.18,631.72,3.77,9.71" target="#fig_4">4</ref>.</s></p><p xml:id="_UDEgmNk" coords="7,43.20,740.13,185.88,10.43;7,43.20,751.65,211.17,10.43;7,43.20,763.17,129.77,10.43;7,43.20,740.13,185.88,10.43;7,43.20,751.65,211.17,10.43;7,43.20,763.17,8.37,10.43;7,168.40,763.17,4.56,10.43;7,56.88,362.01,241.82,9.71;7,46.80,374.32,251.87,9.71;7,46.80,386.62,251.97,9.71;7,46.80,398.93,251.90,9.71;7,46.80,411.23,162.69,9.71"><s xml:id="_Y6zbyea" coords="7,43.20,740.13,185.88,10.43;7,43.20,751.65,211.17,10.43;7,43.20,763.17,8.37,10.43;7,168.40,763.17,4.56,10.43">This report is available at no cost from the National Renewable Energy Laboratory (NREL) at <ref type="url" coords="7,54.29,763.17,114.11,10.43" target="www.nrel.gov/publications">www.nrel.gov/publications</ref>.</s><s xml:id="_nnPYs7H" coords="7,56.88,362.01,241.82,9.71;7,46.80,374.32,251.87,9.71;7,46.80,386.62,180.19,9.71">If properly designed, controllers could also monitor loads and identify system issues, such as unexpected increases in power draw, current harmonics or vibration.</s><s xml:id="_HvnNPfc" coords="7,230.10,386.62,68.68,9.71;7,46.80,398.93,251.90,9.71;7,46.80,411.23,162.69,9.71">Significant value -economic and personal -could be derived from identifying issues in advance of catastrophic failure.</s></p><p xml:id="_KjhcNsh" coords="7,56.88,423.53,241.85,9.71;7,46.80,435.84,251.85,9.71;7,46.80,448.14,251.87,9.71;7,46.80,460.45,251.99,9.71;7,46.80,472.75,251.94,9.71;7,46.80,485.06,251.98,9.71;7,46.80,497.36,251.94,9.71;7,46.81,509.67,251.98,9.71;7,46.81,521.97,251.91,9.71;7,46.81,534.28,251.96,9.71;7,46.81,546.58,251.99,9.71;7,46.81,558.88,251.93,9.71;7,46.81,571.19,212.44,9.71"><s xml:id="_y2KGEmS" coords="7,56.88,423.53,241.85,9.71">For many utilities, a smart meter constitutes a smart grid.</s><s xml:id="_vErbfA7" coords="7,46.80,435.84,251.85,9.71;7,46.80,448.14,251.87,9.71;7,46.80,460.45,113.60,9.71">For others, these smart meters can be put to greater use and provide more substantial value to the utility, the grid, and the end-users via coordination.</s><s xml:id="_JJu6v56" coords="7,165.24,460.45,133.56,9.71;7,46.80,472.75,251.94,9.71;7,46.80,485.06,251.98,9.71;7,46.80,497.36,251.94,9.71;7,46.81,509.67,251.98,9.71">Analogously, smart homes may span the spectrum from the simple addition of discrete features -such as smart appliances or remotely controllable lighting and thermostats -to an automatically controlled, highly coordinated self-learning system with grid interaction.</s><s xml:id="_thbvWgS" coords="7,46.81,521.97,251.91,9.71;7,46.81,534.28,251.96,9.71;7,46.81,546.58,178.22,9.71">In the latter case, the control system serves as the brain of the smart home by automating domestic chores and providing sufficient feedback and communication.</s><s xml:id="_yZYMPf8" coords="7,233.31,546.58,65.49,9.71;7,46.81,558.88,251.93,9.71;7,46.81,571.19,212.44,9.71">This symbiotic relationship improves the user's quality of life and allows active participation in bulk power system operations.</s></p><p xml:id="_QMAQGc7" coords="7,59.42,583.49,239.37,9.71;7,46.81,595.80,251.89,9.71;7,46.81,608.10,251.92,9.71;7,46.81,620.41,251.91,9.71;7,46.81,632.71,251.99,9.71;7,46.81,645.02,200.90,9.71;7,262.30,645.02,36.49,9.71;7,46.81,657.32,251.97,9.71;7,46.81,669.63,251.85,9.71;7,46.80,681.93,251.83,9.71;7,46.80,694.23,251.92,9.71;7,46.79,706.54,251.99,9.71;7,313.19,362.14,252.02,9.71;7,313.19,374.45,153.37,9.71;7,486.93,374.45,78.26,9.71;7,313.19,386.75,251.89,9.71;7,313.19,399.06,237.15,9.71"><s xml:id="_eBJeSas" coords="7,59.42,583.49,239.37,9.71;7,46.81,595.80,139.23,9.71">There are two schools of thought about the overall purpose of the smart home control system.</s><s xml:id="_5snRsSC" coords="7,189.16,595.80,109.54,9.71;7,46.81,608.10,251.92,9.71;7,46.81,620.41,251.91,9.71;7,46.81,632.71,251.99,9.71;7,46.81,645.02,219.04,9.71">The first school of thought posits that an ideal smart home control system should be entirely automated, predicting a user's every whim and reacting accordingly so as to maintain user-centered optimal comfort, convenience, and if applicable, savings <ref type="bibr" coords="7,251.64,645.02,10.66,9.71" target="#b0">[1]</ref>.</s><s xml:id="_FgVN9Xm" coords="7,269.77,645.02,29.02,9.71;7,46.81,657.32,251.97,9.71;7,46.81,669.63,23.14,9.71">One of the tenets of this prevailing theory envisions minimal user input.</s><s xml:id="_kUsyGX3" coords="7,72.90,669.63,225.76,9.71;7,46.80,681.93,202.97,9.71">The control system may incorporate a machine learning algorithm to predict a user's desires as they occur.</s><s xml:id="_P6eBEM4" coords="7,252.47,681.93,46.16,9.71;7,46.80,694.23,251.92,9.71;7,46.79,706.54,251.99,9.71;7,313.19,362.14,252.02,9.71;7,313.19,374.45,177.58,9.71">The second -and competing -school of thought envisions smart homes with well-informed and engaged users that value energy sustainability and are thus active participants in the everyday electricity management of the home <ref type="bibr" coords="7,471.53,374.45,15.40,9.71" target="#b32">[32]</ref>.</s><s xml:id="_QSPtPze" coords="7,495.72,374.45,69.47,9.71;7,313.19,386.75,251.89,9.71;7,313.19,399.06,237.15,9.71">In this case, the consumer is enabled with timely feedback on costs, energy, and emissions to influence the appropriate control strategy.</s></p><p xml:id="_9qtaPsw" coords="7,323.28,411.36,72.60,9.71;7,416.08,411.36,50.38,9.71;7,486.63,411.36,54.64,9.71;7,561.33,411.36,3.85,9.71;7,313.19,423.66,119.43,9.71;7,451.35,423.66,113.82,9.71;7,313.19,435.97,251.95,9.71;7,313.19,448.27,251.98,9.71;7,313.18,460.58,251.96,9.71;7,313.18,472.88,251.99,9.71;7,313.17,485.19,120.53,9.71"><s xml:id="_v6v5HCe" coords="7,323.28,411.36,241.89,9.71;7,313.19,423.66,251.97,9.71;7,313.19,435.97,211.43,9.71">Machine learning <ref type="bibr" coords="7,400.68,411.36,15.40,9.71" target="#b33">[33]</ref>, rule-based <ref type="bibr" coords="7,471.23,411.36,15.40,9.71" target="#b34">[34]</ref>, multi-agent <ref type="bibr" coords="7,545.93,411.36,15.40,9.71" target="#b35">[35]</ref>, and decision-making systems <ref type="bibr" coords="7,435.95,423.66,15.40,9.71" target="#b31">[31]</ref>, constitute the state-of-theart in control strategy paradigms for the smart home.</s><s xml:id="_tqwfDR9" coords="7,527.21,435.97,37.94,9.71;7,313.19,448.27,251.98,9.71;7,313.18,460.58,251.96,9.71;7,313.18,472.88,251.99,9.71;7,313.17,485.19,120.53,9.71">Although several smart home control systems are commercially available, they are currently cost prohibitive to the average consumer; these are expected to become affordable as enabling technologies mature.</s></p><p xml:id="_tHGEMxt" coords="7,376.06,509.31,126.27,9.89;7,323.28,525.03,241.88,9.71;7,313.19,537.33,252.00,9.71;7,313.18,549.64,252.00,9.71;7,313.17,561.94,251.90,9.71;7,313.16,574.25,251.98,9.71;7,313.15,586.55,131.85,9.71"><s xml:id="_a8xpu35" coords="7,376.06,509.31,126.27,9.89;7,323.28,525.03,241.88,9.71;7,313.19,537.33,252.00,9.71;7,313.18,549.64,193.16,9.71">IV. ENABLING TECHNOLOGIES Enabling technologies for smart homes mostly fall into two broad categories: utility-side and customer-side, and may be further enhanced through policy and legislation.</s><s xml:id="_3Mb9vbp" coords="7,508.95,549.64,56.23,9.71;7,313.17,561.94,251.90,9.71;7,313.16,574.25,251.98,9.71;7,313.15,586.55,131.85,9.71">Psychological and behavioral considerations (explained in detail in section V) could also greatly enhance the effectiveness of all the following enabling technologies.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_zVeRJvT" coords="7,320.35,604.85,157.34,9.71">A. Utility-Side Enabling Technologies</head><p xml:id="_vsNRTfm" coords="7,323.23,619.55,241.92,9.71;7,313.15,631.85,251.94,9.71;7,313.15,644.16,251.93,9.71;7,313.14,656.46,251.92,9.71;7,313.13,668.77,251.95,9.71;7,313.12,681.07,251.96,9.71;7,313.11,693.37,251.99,9.71;7,313.11,705.68,251.95,9.71;8,43.20,740.13,185.88,10.43;8,43.20,751.65,211.17,10.43;8,43.20,763.17,129.77,10.43;7,323.23,619.55,241.92,9.71;7,313.15,631.85,251.94,9.71;7,313.15,644.16,251.93,9.71;7,313.14,656.46,251.92,9.71;7,313.13,668.77,251.95,9.71;7,313.12,681.07,251.96,9.71;7,313.11,693.37,251.99,9.71;7,313.11,705.68,251.95,9.71;8,43.20,740.13,185.88,10.43;8,43.20,751.65,211.17,10.43;8,43.20,763.17,8.37,10.43;8,168.40,763.17,4.56,10.43"><s xml:id="_s5Z6mge" coords="7,323.23,619.55,241.92,9.71;7,313.15,631.85,124.41,9.71">One of the most pressing issues for a utility company is the management of peak demand.</s><s xml:id="_rJ9Xuyx" coords="7,441.53,631.85,123.57,9.71;7,313.15,644.16,251.93,9.71;7,313.14,656.46,251.92,9.71;7,313.13,668.77,251.95,9.71;7,313.12,681.07,116.56,9.71">From electricity generation to delivery, the electricity grid is designed to serve consumers during peak demand conditions; however for most of the time, the system is not used at full capacity, so a significant fraction of the system capacity idles.</s><s xml:id="_KKkm4bb" coords="7,433.05,681.07,132.03,9.71;7,313.11,693.37,251.99,9.71;7,313.11,705.68,251.95,9.71;8,43.20,740.13,185.88,10.43;8,43.20,751.65,211.17,10.43;8,43.20,763.17,8.37,10.43;8,168.40,763.17,4.56,10.43">This is economically inefficient, as it requires large capital investments for peaking plants that are infrequently used, in some cases for only a few dozen This report is available at no cost from the National Renewable Energy Laboratory (NREL) at <ref type="url" coords="8,54.29,763.17,114.11,10.43" target="www.nrel.gov/publications">www.nrel.gov/publications</ref>.</s></p><p xml:id="_wbP4yUQ" coords="8,46.80,53.19,251.96,9.71;8,46.79,65.49,251.95,9.71;8,46.79,77.80,251.94,9.71;8,46.79,90.10,251.97,9.71;8,46.78,102.41,248.36,9.71"><s xml:id="_6h9VzDK" coords="8,46.80,53.19,240.28,9.71">hours per year, but that have to be maintained year-round.</s><s xml:id="_WUmGTRW" coords="8,290.40,53.19,8.37,9.71;8,46.79,65.49,251.95,9.71;8,46.79,77.80,251.94,9.71;8,46.79,90.10,251.97,9.71;8,46.78,102.41,248.36,9.71">In the transmission and distribution realm, similar situations occur in the installation and maintenance of transmission lines, substations, transformers, distribution feeders and cables that are designed to accommodate infrequent peak conditions.</s></p><p xml:id="_HfAzgbU" coords="8,56.87,114.71,241.88,9.71;8,46.79,127.01,251.95,9.71;8,46.78,139.32,251.87,9.71;8,46.78,151.62,251.95,9.71;8,46.78,163.93,251.87,9.71;8,46.78,176.23,251.88,9.71;8,46.78,188.54,251.98,9.71;8,46.78,200.84,188.89,9.71"><s xml:id="_qVRmvTe" coords="8,56.87,114.71,241.88,9.71;8,46.79,127.01,251.95,9.71;8,46.78,139.32,251.87,9.71;8,46.78,151.62,251.95,9.71;8,46.78,163.93,35.79,9.71">Smart homes are expected to aid utility companies through the ability to dynamically modify their electric energy consumption in response to grid conditions, allowing reductions in the output of peaking generation and transmission capacity.</s><s xml:id="_eVuNHf4" coords="8,87.26,163.93,211.39,9.71;8,46.78,176.23,251.88,9.71;8,46.78,188.54,251.98,9.71;8,46.78,200.84,188.89,9.71">The savings introduced to utilities in the form of reduced capital investments as well as reduced purchase of expensive electricity from peaking generators in the spot market, will ultimately be passed to ratepayers.</s></p><p xml:id="_23FnmJg" coords="8,56.85,213.15,241.89,9.71;8,46.77,225.45,251.93,9.71;8,46.77,237.76,251.88,9.71;8,46.77,250.06,251.89,9.71;8,46.77,262.36,252.02,9.71;8,46.77,274.67,251.98,9.71;8,46.76,286.97,251.90,9.71;8,46.76,299.28,251.99,9.71;8,46.76,311.58,215.88,9.71;8,280.90,311.58,17.79,9.71;8,46.76,323.89,252.03,9.71;8,46.77,336.19,251.95,9.71;8,46.77,348.50,251.90,9.71;8,46.77,360.80,251.91,9.71;8,46.77,373.11,251.92,9.71;8,46.77,385.41,251.83,9.71;8,46.77,397.71,133.22,9.71;8,186.14,397.71,7.27,9.71"><s xml:id="_pwDQndB" coords="8,56.85,213.15,241.89,9.71;8,46.77,225.45,251.93,9.71;8,46.77,237.76,251.88,9.71;8,46.77,250.06,251.89,9.71;8,46.77,262.36,38.54,9.71">There are two primary methods of modifying home energy consumption: total energy reduction through efficiency improvements or other measures; and peak demand shedding or shifting through some method of demand response (DR) activities.</s><s xml:id="_gpt7tCq" coords="8,91.05,262.36,207.74,9.71;8,46.77,274.67,251.98,9.71;8,46.76,286.97,251.90,9.71;8,46.76,299.28,222.63,9.71">The former aims to reduce the amount of fuel consumed at power plants to produce electricity; the latter, explained in detailed in subsection 2, is of more interest to utilities since it reduces infrastructure requirements.</s><s xml:id="_Jg5Xq5D" coords="8,274.81,299.28,23.95,9.71;8,46.76,311.58,251.92,9.71;8,46.76,323.89,177.13,9.71">These two methods are represented graphically in Fig. <ref type="figure" coords="8,269.25,311.58,5.01,9.71" target="#fig_5">5</ref> with synthesized data for a typical residence.</s><s xml:id="_ewbEkfa" coords="8,229.95,323.89,68.85,9.71;8,46.77,336.19,251.95,9.71;8,46.77,348.50,251.90,9.71;8,46.77,360.80,251.91,9.71;8,46.77,373.11,251.92,9.71;8,46.77,385.41,251.83,9.71;8,46.77,397.71,146.64,9.71">Potential energy efficiency schemes are portrayed by the dashed line (for 5% uniform energy savings), and for a possible peak demand mitigation technique that uses approximately the same overall energy over 24 hours as the base case, but uses it at more optimal times than during the hours of system peak (indicated between 1600-2100 hours in Fig. <ref type="figure" coords="8,182.51,397.71,3.63,9.71" target="#fig_5">5</ref>).</s></p><p xml:id="_DpQ6PcZ" coords="8,56.85,410.02,241.81,9.71;8,46.77,422.32,251.97,9.71;8,46.78,434.63,251.94,9.71;8,46.78,446.93,251.92,9.71;8,46.78,459.24,109.85,9.71"><s xml:id="_P7yM6Cv" coords="8,56.85,410.02,241.81,9.71;8,46.77,422.32,251.97,9.71;8,46.78,434.63,108.16,9.71">Motivating residential customers to modify energy consumption habits is a difficult task that often has shown unexpected consequences.</s><s xml:id="_fjJwW9Z" coords="8,159.63,434.63,139.10,9.71;8,46.78,446.93,251.92,9.71;8,46.78,459.24,109.85,9.71">These will be discussed in more detail in section V, but here the authors will outline the existing incentive methods.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_ZRXqzAH" coords="8,327.60,53.19,37.74,9.71">1) Rates</head><p xml:id="_44Fzxds" coords="8,323.28,67.89,241.85,9.71;8,313.19,80.19,251.95,9.71;8,313.19,92.50,251.87,9.71;8,313.19,104.80,251.99,9.71;8,313.18,117.10,251.95,9.71;8,313.17,129.41,250.31,9.71"><s xml:id="_TmdQ6hG" coords="8,323.28,67.89,241.85,9.71;8,313.19,80.19,111.35,9.71">One tool that is traditionally used to influence demand of any commodity is its cost.</s><s xml:id="_M5kTvaf" coords="8,428.75,80.19,136.39,9.71;8,313.19,92.50,251.87,9.71;8,313.19,104.80,124.67,9.71">For electricity utilities, each rate structure imposes specific requirements on the metering system to be implemented.</s><s xml:id="_SKKZYES" coords="8,446.21,104.80,118.98,9.71;8,313.18,117.10,251.95,9.71;8,313.17,129.41,250.31,9.71">Inclining-block, time-of-use (TOU), critical peak price (CPP), and peak-time-rebate (PTR) are the typical rate forms used to influence electricity demand.</s></p><p xml:id="_WD4uHS2" coords="8,323.25,141.71,241.88,9.71;8,313.16,154.02,251.98,9.71;8,313.15,166.32,251.94,9.71;8,313.15,178.63,251.92,9.71;8,313.15,190.93,251.91,9.71;8,313.15,203.24,251.85,9.71;8,313.15,215.54,251.97,9.71;8,313.14,227.85,252.01,9.71;8,313.14,240.15,251.91,9.71;8,313.14,252.45,251.96,9.71;8,313.14,264.76,252.02,9.71;8,313.14,277.06,251.89,9.71;8,313.14,289.37,252.00,9.71;8,313.14,301.67,251.97,9.71;8,313.14,313.98,252.00,9.71;8,313.14,326.28,251.98,9.71;8,313.14,338.59,251.97,9.71;8,313.14,350.89,251.97,9.71;8,313.13,363.20,251.88,9.71;8,313.13,375.50,194.12,9.71"><s xml:id="_hnkqxYY" coords="8,323.25,141.71,241.88,9.71;8,313.16,154.02,251.98,9.71;8,313.15,166.32,77.00,9.71">Inclining block rates are designed so that the relationship between consumption and cost is non-linear, and discourages high consumption.</s><s xml:id="_fAhAsZV" coords="8,395.02,166.32,170.07,9.71;8,313.15,178.63,148.09,9.71">This rate aims to reduce overall energy consumption and not peak demand.</s><s xml:id="_BQVZV3y" coords="8,465.20,178.63,99.87,9.71;8,313.15,190.93,167.13,9.71">TOU rates, as the name suggests, change based on a set schedule.</s><s xml:id="_5admDyr" coords="8,482.93,190.93,82.13,9.71;8,313.15,203.24,251.85,9.71;8,313.15,215.54,200.73,9.71">There are frequently three price buckets (low, medium, and high) corresponding to off-peak, mid-peak, and on-peak, respectively.</s><s xml:id="_gpEfw6A" coords="8,519.77,215.54,45.35,9.71;8,313.14,227.85,252.01,9.71;8,313.14,240.15,251.91,9.71;8,313.14,252.45,203.11,9.71">TOU rates attempt to shift loads away from peak times, but they are not flexible enough to respond to dynamic operating conditions because the schedules are set far in advance.</s><s xml:id="_2fg47Sk" coords="8,522.33,252.45,42.78,9.71;8,313.14,264.76,252.02,9.71;8,313.14,277.06,183.27,9.71">CPP rates address the dynamic conditions of the electricity grid by defining a "super peak" with very high costs.</s><s xml:id="_6sndMCP" coords="8,499.23,277.06,65.80,9.71;8,313.14,289.37,252.00,9.71;8,313.14,301.67,251.97,9.71;8,313.14,313.98,203.05,9.71">This encourages customers to shift loads and contribute to improving near real time operational conditions -such as system overload or peaking generator dispatch -to avoid higher costs.</s><s xml:id="_xawyBQ3" coords="8,519.00,313.98,46.14,9.71;8,313.14,326.28,251.98,9.71;8,313.14,338.59,251.97,9.71;8,313.14,350.89,47.13,9.71">A PTR rate also contains super peak periods, but pays a rebate to the consumers based on the usage reduction relative to the projections.</s><s xml:id="_AgN4eAb" coords="8,363.89,350.89,201.22,9.71;8,313.13,363.20,251.88,9.71;8,313.13,375.50,194.12,9.71">Advanced analytics including weather and usage patterns are used to predict what the consumer's usage would have been in the absence of a super peak period.</s></p><p xml:id="_NTgCBkq" coords="8,323.21,387.80,241.84,9.71;8,313.13,400.11,251.97,9.71;8,313.13,412.41,251.96,9.71;8,313.13,424.72,251.89,9.71;8,313.13,437.02,251.87,9.71;8,313.12,449.33,251.89,9.71;8,313.12,461.63,76.94,9.71;8,410.35,461.63,154.70,9.71;8,313.12,473.94,251.97,9.71;8,313.12,486.24,251.87,9.71;8,313.12,498.55,226.50,9.71"><s xml:id="_Cgswdjf" coords="8,323.21,387.80,241.84,9.71;8,313.13,400.11,251.97,9.71;8,313.13,412.41,183.09,9.71">The effectiveness of these pricing structures at reducing residential energy or peak consumption is not well established, as AMI projects are relatively few.</s><s xml:id="_Y96WAcV" coords="8,501.15,412.41,63.95,9.71;8,313.13,424.72,251.89,9.71;8,313.13,437.02,251.87,9.71;8,313.12,449.33,251.89,9.71;8,313.12,461.63,101.08,9.71">Different pilots indicate that residential consumers achieve the high peak reductions, especially in the summer, with the modified rate structures (CPP and PTR), and high satisfaction levels under the modified rates <ref type="bibr" coords="8,394.92,461.63,15.42,9.71" target="#b36">[36]</ref>.</s><s xml:id="_6reNZ6X" coords="8,419.07,461.63,145.97,9.71;8,313.12,473.94,251.97,9.71;8,313.12,486.24,251.87,9.71;8,313.12,498.55,226.50,9.71">These dynamic rate structures and other enabling technologies can reduce utility side infrastructure investments, and therefore reduce electricity rates to consumers, simultaneously saving money for both sides.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_j6BF2Xm" coords="8,327.52,516.84,90.00,9.71">2) Demand Response</head><p xml:id="_86x8b7N" coords="8,323.20,531.54,241.85,9.71;8,313.12,543.85,251.91,9.71;8,313.12,556.15,251.89,9.71;8,313.12,568.46,251.86,9.71;8,313.12,580.76,227.96,9.71;8,561.26,580.76,3.85,9.71;8,313.13,593.06,251.93,9.71;8,313.13,605.37,251.94,9.71;8,313.13,617.67,251.97,9.71;8,313.13,629.98,251.88,9.71;8,313.13,642.28,251.85,9.71;8,313.13,654.59,251.83,9.71;8,313.13,666.89,251.94,9.71;8,313.13,679.20,251.90,9.71;8,313.13,691.50,251.87,9.71;8,313.13,703.81,251.97,9.71;9,43.20,740.13,185.88,10.43;9,43.20,751.65,211.17,10.43;9,43.20,763.17,8.37,10.43;9,168.40,763.17,4.56,10.43;9,46.80,53.19,251.97,9.71;9,46.80,65.49,31.60,9.71;9,100.21,65.49,160.66,9.71"><s xml:id="_C8GqzZN" coords="8,323.20,531.54,241.85,9.71;8,313.12,543.85,234.24,9.71">In addition to rate structures, utilities may employ other strategies, such as DR, to mitigate peak load conditions.</s><s xml:id="_KNZJwUs" coords="8,551.09,543.85,13.95,9.71;8,313.12,556.15,251.89,9.71;8,313.12,568.46,251.86,9.71">DR refers to a group of technologies and mechanisms that enable load curtailment or shifting in response to supply conditions.</s><s xml:id="_cVQ3hSW" coords="8,313.12,580.76,251.99,9.71">DR is particularly effective at reducing peak demand <ref type="bibr" coords="8,545.87,580.76,15.40,9.71" target="#b37">[37]</ref>.</s><s xml:id="_UnmKkh5" coords="8,313.13,593.06,251.93,9.71;8,313.13,605.37,62.07,9.71">Contrary to energy efficiency, DR only aims at temporarily reducing load.</s><s xml:id="_huSqfCY" coords="8,382.36,605.37,182.71,9.71;8,313.13,617.67,251.97,9.71;8,313.13,629.98,73.82,9.71">In addition to rate structures, residential customers in smart homes can participate in DR via dispatchable mechanisms.</s><s xml:id="_apNw7vv" coords="8,392.30,629.98,172.71,9.71;8,313.13,642.28,251.85,9.71;8,313.13,654.59,251.83,9.71">Direct load control is generally used to mobilize capacity for load reduction, or for participating in ancillary services in the electricity market, e.g., for reserves.</s><s xml:id="_9ZWzeKP" coords="8,313.13,666.89,251.94,9.71;8,313.13,679.20,251.90,9.71;8,313.13,691.50,251.87,9.71">Because many household-scale loads are required to reach significant capacities of several MWs, energy service providers called aggregators sometimes operate such services.</s><s xml:id="_yV4UXF9" coords="8,313.13,703.81,251.97,9.71;9,43.20,740.13,185.88,10.43;9,43.20,751.65,211.17,10.43;9,43.20,763.17,8.37,10.43;9,168.40,763.17,4.56,10.43">These aggregators (which are sometimes the utility) are This report is available at no cost from the National Renewable Energy Laboratory (NREL) at <ref type="url" coords="9,54.29,763.17,114.11,10.43" target="www.nrel.gov/publications">www.nrel.gov/publications</ref>.</s><s xml:id="_9bXBfUH" coords="9,46.80,53.19,251.97,9.71;9,46.80,65.49,214.07,9.71">required to enable customers to participate indirectly in energy markets <ref type="bibr" coords="9,80.94,65.49,16.77,9.71" target="#b38">[38]</ref> in exchange for financial compensation.</s></p><p xml:id="_hG3GB8U" coords="9,56.89,77.80,241.91,9.71;9,46.81,90.10,251.94,9.71;9,46.81,102.41,251.96,9.71;9,46.81,114.71,251.92,9.71;9,46.80,127.01,251.87,9.71;9,46.80,139.32,251.96,9.71;9,46.80,151.62,251.93,9.71;9,46.80,163.93,251.92,9.71;9,46.80,176.23,251.93,9.71;9,46.80,188.54,107.44,9.71;9,173.62,188.54,125.18,9.71;9,46.81,200.84,251.89,9.71;9,46.81,213.15,251.92,9.71;9,46.81,225.45,96.17,9.71;9,160.97,225.45,3.85,9.71"><s xml:id="_6n5YEUs" coords="9,56.89,77.80,241.91,9.71;9,46.81,90.10,111.58,9.71">Loads can be curtailed or shifted in time by several means using direct load control.</s><s xml:id="_zzExPMw" coords="9,164.65,90.10,134.11,9.71;9,46.81,102.41,251.96,9.71;9,46.81,114.71,251.92,9.71;9,46.80,127.01,251.87,9.71;9,46.80,139.32,215.18,9.71">For thermal loads such as air conditioning or water heating, temperature settings can be temporarily changed so that the load is reduced (due to thermal inertia) or not used during the DR event, reducing electricity consumption compared to the baseline.</s><s xml:id="_GRjnrYc" coords="9,267.69,139.32,31.07,9.71;9,46.80,151.62,251.93,9.71;9,46.80,163.93,251.92,9.71;9,46.80,176.23,251.93,9.71;9,46.80,188.54,130.67,9.71">Electric vehicle charging can also be rescheduled by postponing the beginning of the charge, by reducing the charging rate, or by simply not fully recharging the battery (in the case of a plugin hybrid electric vehicle) <ref type="bibr" coords="9,158.22,188.54,15.40,9.71" target="#b39">[39]</ref>.</s><s xml:id="_r49WCMT" coords="9,181.38,188.54,117.42,9.71;9,46.81,200.84,251.89,9.71;9,46.81,213.15,251.92,9.71;9,46.81,225.45,118.01,9.71">The use of smart appliances can also be shifted in time, e.g., a washing machine can be programmed to operate only when the electricity price is below a given threshold <ref type="bibr" coords="9,145.57,225.45,15.40,9.71" target="#b40">[40]</ref>.</s></p><p xml:id="_zRYvRYJ" coords="9,56.90,237.76,241.89,9.71;9,46.82,250.06,251.84,9.71;9,46.82,262.36,98.94,9.71;9,164.33,262.36,134.49,9.71;9,46.82,274.67,251.95,9.71;9,46.81,286.97,251.95,9.71;9,46.81,299.28,251.95,9.71;9,46.81,311.58,251.95,9.71;9,46.80,323.89,251.93,9.71;9,46.80,336.19,252.00,9.71;9,46.80,348.50,251.88,9.71;9,46.80,360.80,251.99,9.71;9,46.80,373.11,251.90,9.71;9,46.80,385.41,251.97,9.71;9,46.80,397.71,251.86,9.71;9,46.80,410.02,118.66,9.71"><s xml:id="_w5vJknG" coords="9,56.90,237.76,241.89,9.71;9,46.82,250.06,251.84,9.71;9,46.82,262.36,121.36,9.71">Depending on the mechanism used to achieve DR, a rebound effect may appear in the form of a large load peak after the end of the DR event <ref type="bibr" coords="9,148.90,262.36,15.42,9.71" target="#b41">[41]</ref>.</s><s xml:id="_CyeQbtA" coords="9,171.37,262.36,127.44,9.71;9,46.82,274.67,251.95,9.71;9,46.81,286.97,113.99,9.71">This peak counters the purpose of a DR event, due to all the curtailed devices restarting their operation at the same time.</s><s xml:id="_D663HJA" coords="9,164.83,286.97,133.94,9.71;9,46.81,299.28,251.95,9.71;9,46.81,311.58,251.95,9.71">Strategies such as cascading the beginning and end of the DR event for end-users can be used to mitigate this effect by lengthening and flattening this peak.</s><s xml:id="_qfsFvA2" coords="9,46.80,323.89,251.93,9.71;9,46.80,336.19,197.77,9.71">However, these mechanisms may impact the habits and comfort of the user and cause acceptance issues.</s><s xml:id="_862S9z4" coords="9,247.64,336.19,51.16,9.71;9,46.80,348.50,251.88,9.71;9,46.80,360.80,232.22,9.71">Temperature sensations vary from one person to the other, and what seems comfortable for one person may not be for another.</s><s xml:id="_p9Zqyq9" coords="9,284.86,360.80,13.94,9.71;9,46.80,373.11,251.90,9.71;9,46.80,385.41,251.97,9.71;9,46.80,397.71,195.36,9.71">DR mechanisms therefore need to take into account these constraints, for example, by allowing users to customize settings and set minimum and maximum values.</s><s xml:id="_yMs2nFJ" coords="9,245.11,397.71,53.56,9.71;9,46.80,410.02,118.66,9.71">These effects will be explored in section V.</s></p><p xml:id="_YtFp7jY" coords="9,56.88,422.32,241.91,9.71;9,46.80,434.63,251.91,9.71;9,46.80,446.93,251.86,9.71;9,46.80,459.24,251.92,9.71;9,46.80,471.54,252.00,9.71;9,46.81,483.85,251.93,9.71;9,46.81,496.15,220.49,9.71"><s xml:id="_htKfASz" coords="9,56.88,422.32,241.91,9.71;9,46.80,434.63,251.91,9.71;9,46.80,446.93,251.86,9.71;9,46.80,459.24,251.92,9.71;9,46.80,471.54,99.46,9.71">A proper use of DR mechanisms may help end-users reduce their electricity bills in exchange for a moderate impact on their comfort, while utilities can achieve significant savings by avoiding the need to build new generation capacity or to buy expensive peak power.</s><s xml:id="_h4CF62g" coords="9,152.57,471.54,146.23,9.71;9,46.81,483.85,251.93,9.71;9,46.81,496.15,220.49,9.71">Moreover, when demand exceeds capacity, DR can reduce the load with limited customer impact compared to traditional load shedding schemes.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_J5ZpBrC" coords="9,61.21,514.45,69.76,9.71">3) Smart Meters</head><p xml:id="_THsKcGG" coords="9,56.89,529.15,241.85,9.71;9,46.81,541.45,251.85,9.71;9,46.81,553.76,141.37,9.71;9,194.40,553.76,104.35,9.71;9,46.80,566.06,251.88,9.71;9,46.80,578.37,251.89,9.71;9,46.80,590.67,251.91,9.71;9,46.79,602.97,252.02,9.71;9,46.79,615.28,251.95,9.71;9,46.78,627.58,251.87,9.71;9,46.78,639.89,23.68,9.71"><s xml:id="_tZg4Q9a" coords="9,56.89,529.15,241.85,9.71;9,46.81,541.45,251.85,9.71;9,46.81,553.76,154.86,9.71">The above-described technologies rely on an enabling technology whose acceptance and implementation is accelerating: the smart meter (shown in Fig. <ref type="figure" coords="9,190.77,553.76,3.63,9.71" target="#fig_1">1</ref>).</s><s xml:id="_wk9pGpt" coords="9,204.25,553.76,94.50,9.71;9,46.80,566.06,251.88,9.71;9,46.80,578.37,251.89,9.71;9,46.80,590.67,251.91,9.71">A smart meter provides the information and communication infrastructure to communicate in real time the operational and pricing information bi-directionally between the end-user and the service provider.</s><s xml:id="_YbyAA7k" coords="9,46.79,602.97,252.02,9.71;9,46.79,615.28,251.95,9.71;9,46.78,627.58,251.87,9.71;9,46.78,639.89,23.68,9.71">Smart meters are usually capable of much more than this by including the ability to communicate with in-home appliances, programmable communicating thermostats (PCTs), and other loads.</s></p><p xml:id="_bwpHSCq" coords="9,56.86,652.19,241.84,9.71;9,46.78,664.50,251.95,9.71;9,46.78,676.80,251.92,9.71;9,46.78,689.11,251.99,9.71;9,46.77,701.41,251.96,9.71;9,313.16,53.41,252.03,9.71;9,313.16,65.71,251.90,9.71;9,313.16,78.02,251.91,9.71;9,313.16,90.32,251.85,9.71;9,313.16,102.63,251.96,9.71;9,313.16,114.93,50.13,9.71"><s xml:id="_R87jfun" coords="9,56.86,652.19,241.84,9.71;9,46.78,664.50,251.95,9.71;9,46.78,676.80,214.43,9.71">Smart meters can record consumption data at intervals (as frequently as every minute) and automatically transfer the information to the utility over a secure network.</s><s xml:id="_KxJHWUP" coords="9,266.92,676.80,31.78,9.71;9,46.78,689.11,251.99,9.71;9,46.77,701.41,189.82,9.71">Various communication architectures, including point-to-multipoint and mesh networks, have been implemented.</s><s xml:id="_K28XFTb" coords="9,241.04,701.41,57.70,9.71;9,313.16,53.41,252.03,9.71;9,313.16,65.71,195.36,9.71">This network, often in conjunction with a backhaul layer, provides two-way connectivity between the utility and the meter.</s><s xml:id="_6Mjvt33" coords="9,512.55,65.71,52.51,9.71;9,313.16,78.02,251.91,9.71;9,313.16,90.32,251.85,9.71;9,313.16,102.63,251.96,9.71;9,313.16,114.93,50.13,9.71">The network also supports pushing signals to the meter, which could be used for an "on demand" reading to confirm power restoration after an outage, or to notify the meter of an upcoming "super peak" event.</s></p><p xml:id="_WYbQJkM" coords="9,323.24,127.23,241.88,9.71;9,313.15,139.54,251.95,9.71;9,313.14,151.84,251.96,9.71;9,313.14,164.15,251.89,9.71;9,313.14,176.45,251.93,9.71;9,313.14,188.76,97.50,9.71"><s xml:id="_PBn6cxd" coords="9,323.24,127.23,241.88,9.71;9,313.15,139.54,251.95,9.71;9,313.14,151.84,224.45,9.71">When the meter is notified of an event, the information is communicated to appliances inside the customer's home using the meter's onboard ZigBee radio chip or other means.</s><s xml:id="_KJPjUCU" coords="9,540.66,151.84,24.45,9.71;9,313.14,164.15,251.89,9.71;9,313.14,176.45,251.93,9.71;9,313.14,188.76,97.50,9.71">Based on pre-defined preferences or rules, different appliances can act to reduce or shift consumption in preparation for or during the "super peak" events.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_dJS7SKG" coords="9,320.35,207.05,170.84,9.71">B. Customer-Side Enabling Technologies</head><p xml:id="_DapaqTT" coords="9,323.23,221.75,241.86,9.71;9,313.15,234.06,251.94,9.71;9,313.15,246.36,252.01,9.71;9,313.15,258.67,251.96,9.71;9,313.15,270.97,251.83,9.71;9,313.15,283.28,251.97,9.71;9,313.14,295.58,244.48,9.71"><s xml:id="_UEcNKf4" coords="9,323.23,221.75,241.86,9.71;9,313.15,234.06,69.34,9.71">Customer-side enabling technologies can rarely exist on their own merits.</s><s xml:id="_cymKNmG" coords="9,385.62,234.06,179.48,9.71;9,313.15,246.36,157.01,9.71">They usually require at least one utility side enabling technology to predate them.</s><s xml:id="_3yMZyzP" coords="9,474.67,246.36,90.49,9.71;9,313.15,258.67,251.96,9.71;9,313.15,270.97,49.99,9.71">For example, a smart appliance is of lesser use without a dynamic rate structure or smart meter.</s><s xml:id="_DfzwZnF" coords="9,365.85,270.97,199.14,9.71;9,313.15,283.28,251.97,9.71;9,313.14,295.58,244.48,9.71">This has been somewhat of a stumbling block for the industry, as the chicken-or-the-egg causality argument has prevented significant adoption and investment on either side.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_DtHCSCm" coords="9,327.54,313.88,66.60,9.71">1) Smart Loads</head><p xml:id="_BYBqXuc" coords="9,323.22,328.58,241.81,9.71;9,313.14,340.88,251.95,9.71;9,313.13,353.19,251.94,9.71;9,313.14,365.49,252.00,9.71;9,313.13,377.79,251.90,9.71;9,313.14,390.10,252.02,9.71;9,313.14,402.40,251.84,9.71;9,313.14,414.71,251.96,9.71;9,313.14,427.01,251.91,9.71;9,313.14,439.32,251.86,9.71;9,313.14,451.62,251.92,9.71;9,313.14,463.93,28.12,9.71"><s xml:id="_Xj9nQ7P" coords="9,323.22,328.58,229.59,9.71">Smart appliances are currently a fledging technology.</s><s xml:id="_UuEpfna" coords="9,557.80,328.58,7.23,9.71;9,313.14,340.88,251.95,9.71;9,313.13,353.19,251.94,9.71;9,313.14,365.49,252.00,9.71;9,313.13,377.79,24.71,9.71">A smart appliance is an end-use device that is connected to a HAN and may be able to automatically or remotely respond to signals from the utility or other sub-systems in the smart home.</s><s xml:id="_CBzfGm4" coords="9,341.33,377.79,223.71,9.71;9,313.14,390.10,252.02,9.71;9,313.14,402.40,251.84,9.71;9,313.14,414.71,112.53,9.71">Different devices allow reduction or shifting of power consumption, including PCTs, which can change the set-point or cycle the air conditioning compressor based on notification of a "super peak" event.</s><s xml:id="_S7AQwpX" coords="9,432.12,414.71,132.99,9.71;9,313.14,427.01,251.91,9.71;9,313.14,439.32,251.86,9.71;9,313.14,451.62,251.92,9.71;9,313.14,463.93,28.12,9.71">More advanced and intriguing options have been proposed for freezers and refrigerators, such as delaying the defrost cycle (often the highest demand mode of operation) to be scheduled away from "super peak" events.</s></p><p xml:id="_HPtXmGX" coords="9,323.22,476.23,241.89,9.71;9,313.14,488.54,251.94,9.71;9,313.14,500.84,251.92,9.71;9,313.13,513.14,251.89,9.71;9,313.13,525.45,252.00,9.71;9,313.13,537.75,251.92,9.71;9,313.12,550.06,251.93,9.71;9,313.12,562.36,115.19,9.71"><s xml:id="_Z7DpBpB" coords="9,323.22,476.23,241.89,9.71;9,313.14,488.54,251.94,9.71;9,313.14,500.84,251.92,9.71;9,313.13,513.14,251.89,9.71;9,313.13,525.45,34.19,9.71">A more advanced use of a PCT would be to lower the setpoint in advance of the initiation of the "super peak" event to pre-cool the house and then use the thermal inertia of the construction to coast during the event, without affecting comfort.</s><s xml:id="_sQTdWmn" coords="9,351.24,525.45,213.90,9.71;9,313.13,537.75,251.92,9.71;9,313.12,550.06,251.93,9.71;9,313.12,562.36,115.19,9.71">Advanced analytics -including knowing the actual heat exchange rate of the building -may be required, though machine learning controls can effectively learn building thermal mass characteristics.</s></p><p xml:id="_YwgPdMr" coords="9,323.20,574.67,241.85,9.71;9,313.12,586.97,251.95,9.71;9,313.11,599.28,252.00,9.71;9,313.10,611.58,251.98,9.71;9,313.10,623.89,251.99,9.71;9,313.10,636.19,251.85,9.71;9,313.10,648.50,39.87,9.71"><s xml:id="_Rnfutcw" coords="9,323.20,574.67,241.85,9.71;9,313.12,586.97,251.95,9.71;9,313.11,599.28,223.24,9.71">The significant investment required to outfit a home with smart appliances can be somewhat alleviated by retrofitting traditional appliances with smart plug-load switches.</s><s xml:id="_2dt3VgD" coords="9,541.17,599.28,23.95,9.71;9,313.10,611.58,251.98,9.71;9,313.10,623.89,251.99,9.71;9,313.10,636.19,251.85,9.71;9,313.10,648.50,39.87,9.71">These devices have yet to standardize a communication protocol, with available devices using ZigBee, 802.11 class wireless local area network, Bluetooth, or power line communication protocols.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_56F52Kf" coords="9,327.51,666.79,82.64,9.71">2) Customer Portal</head><p xml:id="_VqYy8pt" coords="9,323.19,681.49,241.88,9.71;9,313.11,693.80,251.87,9.71;9,313.11,706.10,251.90,9.71;10,43.20,740.13,185.88,10.43;10,43.20,751.65,211.17,10.43;10,43.20,763.17,129.77,10.43;10,46.80,53.19,251.96,9.71;10,46.80,65.49,251.91,9.71;10,46.80,77.80,251.92,9.71;10,46.80,90.10,251.97,9.71;10,46.80,102.41,251.88,9.71;10,46.79,114.71,251.95,9.71;10,46.79,127.01,251.96,9.71;10,46.78,139.32,251.98,9.71;10,46.78,151.62,251.92,9.71;10,46.78,163.93,252.01,9.71;10,46.78,176.23,251.94,9.71;10,46.78,188.54,198.94,9.71;9,323.19,681.49,241.88,9.71;9,313.11,693.80,251.87,9.71;9,313.11,706.10,251.90,9.71;10,43.20,740.13,185.88,10.43;10,43.20,751.65,211.17,10.43;10,43.20,763.17,8.37,10.43;10,168.40,763.17,4.56,10.43;10,46.80,53.19,251.96,9.71;10,46.80,65.49,251.91,9.71;10,46.80,77.80,251.92,9.71;10,46.80,90.10,251.97,9.71;10,46.80,102.41,251.88,9.71;10,46.79,114.71,251.95,9.71;10,46.79,127.01,251.96,9.71;10,46.78,139.32,251.98,9.71;10,46.78,151.62,251.92,9.71;10,46.78,163.93,252.01,9.71;10,46.78,176.23,251.94,9.71;10,46.78,188.54,198.94,9.71"><s xml:id="_fGugj6d" coords="9,323.19,681.49,241.88,9.71;9,313.11,693.80,251.87,9.71;9,313.11,706.10,97.69,9.71">The information collected by the smart meter may be of high value to the consumer, as it can help increase awareness of energy consumption.</s><s xml:id="_rRfEVVE" coords="9,414.65,706.10,150.36,9.71;10,43.20,740.13,185.88,10.43;10,43.20,751.65,211.17,10.43;10,43.20,763.17,8.37,10.43;10,168.40,763.17,4.56,10.43">To make this information accessible This report is available at no cost from the National Renewable Energy Laboratory (NREL) at <ref type="url" coords="10,54.29,763.17,114.11,10.43" target="www.nrel.gov/publications">www.nrel.gov/publications</ref>.</s><s xml:id="_cUnHchE" coords="10,46.80,53.19,251.96,9.71;10,46.80,65.49,251.91,9.71;10,46.80,77.80,251.92,9.71;10,46.80,90.10,42.50,9.71">and understandable, several utilities are introducing web portals that customers can use to access detailed information on their usage patterns, and often discover avenues of energy efficiency.</s><s xml:id="_WNvnZqa" coords="10,92.43,90.10,206.34,9.71;10,46.80,102.41,251.88,9.71;10,46.79,114.71,251.95,9.71;10,46.79,127.01,107.06,9.71">Many commercial web portals include functionality such as analytics to increase energy efficiency based on consumption patterns, insights on why a bill increased, and historical bill information.</s><s xml:id="_XGCkpEU" coords="10,157.22,127.01,141.53,9.71;10,46.78,139.32,251.98,9.71;10,46.78,151.62,144.39,9.71">Export functions -to integrate the raw data with third party applications for further analytical insights -are becoming common.</s><s xml:id="_Wank6B4" coords="10,195.92,151.62,102.79,9.71;10,46.78,163.93,252.01,9.71;10,46.78,176.23,251.94,9.71;10,46.78,188.54,198.94,9.71">These web portals often include a smartphone app, which is somewhat different from the browser based web portal, as the app is geared toward high frequency and low engagement transactions.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_h5rZkWq" coords="10,53.98,206.83,102.88,9.71">C. Policy and Standards</head><p xml:id="_YwZQSdt" coords="10,56.87,221.53,241.84,9.71;10,46.79,233.84,251.88,9.71;10,46.79,246.14,251.97,9.71;10,46.79,258.45,251.92,9.71;10,46.79,270.75,251.90,9.71;10,46.79,283.06,251.91,9.71;10,46.79,295.36,251.89,9.71;10,46.79,307.66,155.35,9.71"><s xml:id="_nhHa2mz" coords="10,56.87,221.53,241.84,9.71;10,46.79,233.84,251.88,9.71;10,46.79,246.14,251.97,9.71;10,46.79,258.45,111.66,9.71">Changes to energy policies and available subsidies for retrofitting existing homes with smart appliances as well as building new homes with smart technologies are viewed as non-technological enablers.</s><s xml:id="_WSWbrRh" coords="10,161.76,258.45,136.95,9.71;10,46.79,270.75,251.90,9.71;10,46.79,283.06,251.91,9.71;10,46.79,295.36,251.89,9.71;10,46.79,307.66,155.35,9.71">In the US, the Energy Policy Act of 2005, the Energy Independence and Security Act of 2007, and the American Recovery and Reinvestment Act of 2009 have all provided tax incentives, credits or deductions for residential energy efficiency upgrades.</s></p><p xml:id="_fzPqwDc" coords="10,56.88,319.97,241.83,9.71;10,46.80,332.27,251.97,9.71;10,46.80,344.58,251.85,9.71;10,46.80,356.88,251.86,9.71;10,46.80,369.19,251.98,9.71;10,46.80,381.49,154.63,9.71"><s xml:id="_jTKSD4y" coords="10,56.88,319.97,241.83,9.71;10,46.80,332.27,251.97,9.71;10,46.80,344.58,182.24,9.71">Lack of industry-accepted device communication and interoperability standards is a critical barrier to more widespread adoption of smart home technologies.</s><s xml:id="_yzHgFTq" coords="10,232.05,344.58,66.60,9.71;10,46.80,356.88,251.86,9.71;10,46.80,369.19,127.53,9.71">Several ISO and IEEE standards activities are underway or recently completed to begin addressing this barrier.</s><s xml:id="_xyxfJuu" coords="10,176.98,369.19,121.80,9.71;10,46.80,381.49,154.63,9.71">Key among them are ISO/IEC 15045, 15067, 18012, and IEEE 2030.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_3x4kYBb" coords="10,119.21,405.69,107.16,9.81">V. CONSUMER BEHAVIOR</head><p xml:id="_DcHFcB2" coords="10,56.88,421.41,241.79,9.71;10,46.80,433.71,251.84,9.71;10,46.80,446.02,251.91,9.71;10,46.80,458.32,251.90,9.71;10,46.80,470.63,38.96,9.71;10,109.42,470.63,189.35,9.71;10,46.80,482.93,251.96,9.71;10,46.79,495.24,251.98,9.71;10,46.79,507.54,143.81,9.71"><s xml:id="_YXtYRp3" coords="10,56.88,421.41,241.79,9.71;10,46.80,433.71,251.84,9.71;10,46.80,446.02,251.91,9.71;10,46.80,458.32,251.90,9.71;10,46.80,470.63,66.46,9.71">The impact of technological advancement is acknowledged as an important enabler for the expansion of smart homes, an integral part of the equation is influencing the behavior of the occupant vis-à-vis energy usage with information and education <ref type="bibr" coords="10,94.03,470.63,15.39,9.71" target="#b32">[32]</ref>.</s><s xml:id="_TeTBqwk" coords="10,121.50,470.63,177.26,9.71;10,46.80,482.93,191.92,9.71">Feedback and automation are essential features of achieving this in a smart home.</s><s xml:id="_BzhD9Cw" coords="10,244.38,482.93,54.39,9.71;10,46.79,495.24,251.98,9.71;10,46.79,507.54,143.81,9.71">However, an optimal energy efficiency strategy requires both features be designed with the end-user in mind.</s></p><p xml:id="_BDGmJq9" coords="10,56.88,519.84,241.86,9.71;10,46.80,532.15,251.88,9.71;10,46.80,544.45,219.01,9.71;10,284.20,544.45,14.56,9.71;10,46.80,556.76,168.08,9.71;10,234.57,556.76,64.21,9.71;10,46.80,569.06,251.87,9.71;10,46.80,581.37,251.93,9.71;10,46.80,593.67,164.94,9.71;10,230.86,593.67,67.91,9.71;10,46.80,605.98,251.95,9.71;10,46.81,618.28,40.62,9.71;10,106.02,618.28,192.75,9.71;10,46.81,630.59,251.95,9.71;10,46.79,642.89,159.38,9.71;10,228.74,642.89,4.10,9.71;10,249.26,642.89,49.52,9.71;10,46.79,655.19,251.92,9.71;10,46.78,667.50,251.88,9.71;10,46.78,679.80,251.92,9.71;10,46.77,692.11,224.79,9.71"><s xml:id="_d3FDCUj" coords="10,56.88,519.84,241.86,9.71;10,46.80,532.15,209.43,9.71">Numerous studies have examined the effect of diverse forms of feedback on residential electricity usage.</s><s xml:id="_Y2tWgvH" coords="10,260.26,532.15,38.43,9.71;10,46.80,544.45,251.96,9.71;10,46.80,556.76,191.62,9.71">Feedback has ranged from low-tech forms such as door hangers <ref type="bibr" coords="10,268.80,544.45,15.40,9.71" target="#b42">[42]</ref>, to state-of-the-art in home displays (IHDs) <ref type="bibr" coords="10,219.18,556.76,15.40,9.71" target="#b43">[43]</ref>.</s><s xml:id="_GHVHJuX" coords="10,242.69,556.76,56.09,9.71;10,46.80,569.06,251.87,9.71;10,46.80,581.37,251.93,9.71;10,46.80,593.67,187.91,9.71">Feedback has usually comprised the current and past electricity usage of the end-user, but has sometimes included normative information, such as comparisons to one's neighbors <ref type="bibr" coords="10,215.46,593.67,15.40,9.71" target="#b44">[44]</ref>.</s><s xml:id="_gxa2wG7" coords="10,238.38,593.67,60.38,9.71;10,46.80,605.98,251.95,9.71;10,46.81,618.28,63.06,9.71">In some cases, feedback has been combined with TOU rates or other incentives <ref type="bibr" coords="10,90.62,618.28,15.40,9.71" target="#b45">[45]</ref>.</s><s xml:id="_ffhSNnH" coords="10,113.05,618.28,185.71,9.71;10,46.81,630.59,251.95,9.71;10,46.79,642.89,206.57,9.71">Recent reviews have concluded that real time feedback can effectively deliver durable 4% to 9% reductions in residential electricity consumption <ref type="bibr" coords="10,212.33,642.89,16.41,9.71" target="#b46">[46]</ref>- <ref type="bibr" coords="10,232.85,642.89,16.41,9.71" target="#b48">[48]</ref>.</s><s xml:id="_36mEyXr" coords="10,259.44,642.89,39.35,9.71;10,46.79,655.19,251.92,9.71;10,46.78,667.50,251.88,9.71;10,46.78,679.80,137.39,9.71">However, utilities are challenged when predicting the energy savings that will be achieved through feedback programs because of limitations in the available data.</s><s xml:id="_89nDpew" coords="10,189.10,679.80,109.61,9.71;10,46.77,692.11,224.79,9.71">This is critical as utilities attempt to make the case to already skeptical customers.</s></p><p xml:id="_y5cDzRZ" coords="10,323.25,53.29,241.82,9.71;10,313.17,65.60,251.92,9.71;10,313.17,77.90,251.94,9.71;10,313.17,90.21,251.89,9.71;10,313.17,102.51,251.96,9.71;10,313.17,114.82,251.84,9.71;10,313.17,127.12,251.84,9.71;10,313.17,139.43,64.69,9.71"><s xml:id="_5vJUpdE" coords="10,323.25,53.29,241.82,9.71;10,313.17,65.60,251.92,9.71;10,313.17,77.90,251.94,9.71;10,313.17,90.21,251.89,9.71;10,313.17,102.51,239.23,9.71">Although it is beyond the scope of this paper to extensively review these feedback studies, the authors point out some important differences among them and caution the reader about extrapolating from the average energy reductions obtained in these studies to wide-scale IHD deployment.</s><s xml:id="_gTsx9vg" coords="10,556.77,102.51,8.37,9.71;10,313.17,114.82,251.84,9.71;10,313.17,127.12,251.84,9.71;10,313.17,139.43,64.69,9.71">In particular, feedback studies vary in their recruitment strategies and some have methodological features that limit their generalizability.</s></p><p xml:id="_xwznk7z" coords="10,323.25,151.73,241.91,9.71;10,313.17,164.03,251.96,9.71;10,313.16,176.34,251.92,9.71;10,313.16,188.64,195.03,9.71;10,526.98,188.64,3.85,9.71;10,549.60,188.64,15.52,9.71;10,313.16,200.95,251.88,9.71;10,313.16,213.25,141.96,9.71;10,474.96,213.25,4.10,9.71;10,495.47,213.25,69.70,9.71;10,313.17,225.56,251.92,9.71;10,313.17,237.86,251.88,9.71;10,313.16,250.17,251.93,9.71;10,313.15,262.47,156.66,9.71;10,490.13,262.47,4.10,9.71;10,510.64,262.47,54.49,9.71;10,313.16,274.78,139.73,9.71;10,479.05,274.78,14.49,9.71;10,519.68,274.78,45.44,9.71;10,313.15,287.08,251.99,9.71;10,313.15,299.38,251.98,9.71;10,313.15,311.69,251.98,9.71;10,313.14,323.99,252.02,9.71;10,313.14,336.30,37.85,9.71;10,368.92,336.30,3.85,9.71;10,390.71,336.30,3.85,9.71"><s xml:id="_GeaUjRb" coords="10,323.25,151.73,241.91,9.71;10,313.17,164.03,251.96,9.71;10,313.16,176.34,251.92,9.71;10,313.16,188.64,240.29,9.71">A critical aspect of feedback studies is whether participants opt-in or opt-out, i.e., some utility pilots randomly selected a group of customers to enroll in a pilot and allowed those customers to choose not to participate (opt-out) <ref type="bibr" coords="10,511.58,188.64,15.40,9.71" target="#b49">[49]</ref>, <ref type="bibr" coords="10,534.20,188.64,15.40,9.71" target="#b50">[50]</ref>.</s><s xml:id="_6P2wGyK" coords="10,556.76,188.64,8.37,9.71;10,313.16,200.95,251.88,9.71;10,313.16,213.25,186.41,9.71">In contrast, opt-in studies, which are more common, advertised the study and asked for volunteers <ref type="bibr" coords="10,458.54,213.25,16.41,9.71" target="#b51">[51]</ref>- <ref type="bibr" coords="10,479.06,213.25,16.41,9.71" target="#b53">[53]</ref>.</s><s xml:id="_kQHtcBu" coords="10,502.95,213.25,62.22,9.71;10,313.17,225.56,251.92,9.71;10,313.17,237.86,28.65,9.71">This seemingly subtle difference in recruitment can profoundly affect the results.</s><s xml:id="_kujWBMJ" coords="10,344.67,237.86,220.39,9.71;10,313.16,250.17,51.81,9.71">Opt-in studies have shown relatively consistent effects of feedback.</s><s xml:id="_smzRcD8" coords="10,369.67,250.17,195.43,9.71;10,313.15,262.47,201.59,9.71">For example, three opt-in studies have shown overall energy savings of 6% to 10% <ref type="bibr" coords="10,473.71,262.47,16.41,9.71" target="#b52">[52]</ref>- <ref type="bibr" coords="10,494.23,262.47,16.41,9.71" target="#b54">[54]</ref>.</s><s xml:id="_adNqWhe" coords="10,518.66,262.47,46.47,9.71;10,313.16,274.78,251.95,9.71;10,313.15,287.08,229.15,9.71">In contrast, two opt-out studies conducted in <ref type="bibr" coords="10,457.63,274.78,16.77,9.71" target="#b49">[49]</ref> and <ref type="bibr" coords="10,498.25,274.78,16.77,9.71" target="#b50">[50]</ref> showed no significant effect of IHDs on electricity consumption.</s><s xml:id="_6DT33Yj" coords="10,547.33,287.08,17.82,9.71;10,313.15,299.38,251.98,9.71;10,313.15,311.69,251.98,9.71;10,313.14,323.99,252.02,9.71;10,313.14,336.30,81.41,9.71">This difference has been demonstrated across a variety of energy conservation programs showing that opt-in programs have larger participant impact but lower penetration than opt-out programs <ref type="bibr" coords="10,353.52,336.30,15.40,9.71" target="#b44">[44]</ref>, <ref type="bibr" coords="10,375.31,336.30,15.40,9.71" target="#b55">[55]</ref>.</s></p><p xml:id="_ndDMEU7" coords="10,323.23,348.60,241.80,9.71;10,313.15,360.91,251.93,9.71;10,313.15,373.21,251.93,9.71;10,313.15,385.52,123.76,9.71;10,456.00,385.52,3.85,9.71;10,478.86,385.52,86.25,9.71;10,313.17,397.82,251.85,9.71;10,313.17,410.13,251.97,9.71;10,313.17,422.43,228.80,9.71;10,561.29,422.43,3.87,9.71;10,328.57,434.73,236.50,9.71;10,313.17,447.04,210.09,9.71;10,550.65,447.04,14.49,9.71;10,313.16,459.34,251.85,9.71;10,313.16,471.65,251.96,9.71;10,313.16,483.95,251.94,9.71;10,313.16,496.26,251.96,9.71;10,313.15,508.56,252.00,9.71;10,334.16,520.87,230.89,9.71;10,313.15,533.17,221.23,9.71"><s xml:id="_FhnjfZ9" coords="10,323.23,348.60,241.80,9.71;10,313.15,360.91,251.93,9.71;10,313.15,373.21,94.87,9.71">Another important consideration for evaluating feedback studies is whether they include comparisons to a randomly assigned control group.</s><s xml:id="_fCFCavQ" coords="10,411.01,373.21,154.08,9.71;10,313.15,385.52,169.56,9.71">However, the absence of comparisons to a control group is common <ref type="bibr" coords="10,440.60,385.52,15.40,9.71" target="#b56">[56]</ref>, <ref type="bibr" coords="10,463.46,385.52,15.40,9.71" target="#b57">[57]</ref>.</s><s xml:id="_WVQXSMQ" coords="10,486.33,385.52,78.79,9.71;10,313.17,397.82,251.85,9.71;10,313.17,410.13,251.97,9.71;10,313.17,422.43,251.98,9.71;10,313.17,434.73,19.25,9.71">The HAN pilots of Salt River Project in Arizona and San Diego Gas &amp; Electric in California both report having control groups without comparisons between the treatment and control in the analyses <ref type="bibr" coords="10,545.81,422.43,15.48,9.71" target="#b45">[45]</ref>, <ref type="bibr" coords="10,313.17,434.73,15.40,9.71" target="#b58">[58]</ref>.</s><s xml:id="_xzZ5XCw" coords="10,335.62,434.73,229.46,9.71;10,313.17,447.04,149.04,9.71">Moreover, some studies that include a control group are unable to yield valid comparisons.</s><s xml:id="_xJFgBSk" coords="10,467.61,447.04,97.52,9.71;10,313.16,459.34,251.85,9.71;10,313.16,471.65,251.96,9.71;10,313.16,483.95,251.94,9.71;10,313.16,496.26,189.43,9.71">For example, <ref type="bibr" coords="10,528.61,447.04,16.77,9.71" target="#b43">[43]</ref> had three IHD conditions consisting of customers who opted in to the study; and, the IHD conditioned energy usage was compared to that of a control group selected from utility customers who did not volunteer for the study.</s><s xml:id="_Dwc6PUR" coords="10,505.52,496.26,59.61,9.71;10,313.15,508.56,214.68,9.71">These two sets of customers are likely to differ in important ways.</s><s xml:id="_YMjHwE3" coords="10,531.79,508.56,33.37,9.71;10,313.15,520.87,251.89,9.71;10,313.15,533.17,221.23,9.71">Because <ref type="bibr" coords="10,313.15,520.87,16.77,9.71" target="#b43">[43]</ref> did not control for prior electricity usage, comparisons between the control and IHD groups are of limited use.</s></p><p xml:id="_mq4aVRF" coords="10,323.24,545.48,241.81,9.71;10,313.16,557.78,251.97,9.71;10,313.16,570.08,44.51,9.71;10,377.58,570.08,187.56,9.71;10,313.16,582.39,251.98,9.71;10,313.16,594.69,251.93,9.71;10,313.16,607.00,251.90,9.71;10,313.16,619.30,251.88,9.71;10,313.16,631.61,230.04,9.71;10,561.30,631.61,3.85,9.71;10,313.16,643.91,251.96,9.71;10,313.15,656.22,251.96,9.71;10,313.15,668.52,251.94,9.71;10,313.15,680.83,251.87,9.71;10,313.15,693.13,251.83,9.71;10,313.15,705.44,176.66,9.71;10,514.52,705.44,50.66,9.71;11,43.20,740.13,185.88,10.43;11,43.20,751.65,211.17,10.43;11,43.20,763.17,8.37,10.43;11,168.40,763.17,4.56,10.43"><s xml:id="_VDHwfYa" coords="10,323.24,545.48,241.81,9.71;10,313.16,557.78,251.97,9.71;10,313.16,570.08,68.27,9.71">A major limitation to the work on feedback efficacy is the relative lack of long-term datasets that can help evaluate persistence <ref type="bibr" coords="10,362.18,570.08,15.40,9.71" target="#b59">[59]</ref>.</s><s xml:id="_hVqBvpY" coords="10,385.95,570.08,179.19,9.71;10,313.16,582.39,251.98,9.71">For smart homes to realize their potential, consumers must be engaged, which may prove challenging.</s><s xml:id="_sECXVFR" coords="10,313.16,594.69,251.93,9.71;10,313.16,607.00,251.90,9.71;10,313.16,619.30,251.88,9.71;10,313.16,631.61,251.98,9.71">For example, a recent study examined the effectiveness of electricity consumption feedback by randomly assigning participants to feedback delivered via the now discontinued Google Powermeter web interface and control conditions <ref type="bibr" coords="10,545.90,631.61,15.40,9.71" target="#b51">[51]</ref>.</s><s xml:id="_hZW2yyW" coords="10,313.16,643.91,251.96,9.71;10,313.15,656.22,183.86,9.71">The feedback consisted primarily of a graph that presented 10min interval and historical comparison data.</s><s xml:id="_7mSkj3f" coords="10,501.04,656.22,64.08,9.71;10,313.15,668.52,251.94,9.71;10,313.15,680.83,251.87,9.71;10,313.15,693.13,251.83,9.71;10,313.15,705.44,115.20,9.71">However, other features were available, including projected electricity consumption during different time periods (e.g., night, morning) and for the whole year, a link to energy conservation tips and an email reminder.</s><s xml:id="_9zXqWfT" coords="10,432.37,705.44,132.81,9.71;11,43.20,740.13,185.88,10.43;11,43.20,751.65,211.17,10.43;11,43.20,763.17,8.37,10.43;11,168.40,763.17,4.56,10.43">The results in <ref type="bibr" coords="10,493.81,705.44,16.77,9.71" target="#b51">[51]</ref> indicate that This report is available at no cost from the National Renewable Energy Laboratory (NREL) at <ref type="url" coords="11,54.29,763.17,114.11,10.43" target="www.nrel.gov/publications">www.nrel.gov/publications</ref>.</s></p><p xml:id="_WXJd7yp" coords="11,46.80,53.19,252.01,9.71;11,46.80,65.49,252.03,9.71;11,46.81,77.80,249.60,9.71"><s xml:id="_PszcWEk" coords="11,46.80,53.19,160.17,9.71">the effect of feedback wanes over time.</s><s xml:id="_we7HrRG" coords="11,212.73,53.19,86.08,9.71;11,46.80,65.49,217.24,9.71">Reductions in energy consumption of 8% were seen in the first week.</s><s xml:id="_uXGRp2Q" coords="11,269.83,65.49,29.01,9.71;11,46.81,77.80,249.60,9.71">Energy consumption had returned to baseline levels by the fifth week.</s></p><p xml:id="_eeHyfZx" coords="11,56.90,90.10,241.90,9.71;11,46.83,102.41,251.97,9.71;11,46.83,114.71,251.96,9.71;11,46.83,127.01,251.89,9.71;11,46.83,139.32,251.95,9.71;11,62.22,151.62,236.56,9.71;11,46.82,163.93,251.97,9.71;11,46.82,176.23,251.99,9.71;11,46.83,188.54,251.97,9.71;11,46.83,200.84,252.01,9.71;11,46.82,213.15,240.49,9.71"><s xml:id="_4jYgF5X" coords="11,56.90,90.10,241.90,9.71;11,46.83,102.41,251.97,9.71">Concerns about the durability of behavior change feed the belief that the real solution to energy efficiency is automation.</s><s xml:id="_MEKJM6x" coords="11,46.83,114.71,251.96,9.71;11,46.83,127.01,251.89,9.71;11,46.83,139.32,251.95,9.71;11,46.82,151.62,19.25,9.71">Automation will be an important component of smart homes and should not be viewed as a way to override the consumer but rather to increase the convenience of efficient choices <ref type="bibr" coords="11,46.82,151.62,15.40,9.71" target="#b32">[32]</ref>.</s><s xml:id="_626WNJR" coords="11,69.87,151.62,228.92,9.71;11,46.82,163.93,251.97,9.71;11,46.82,176.23,21.39,9.71">Successful smart home design requires focusing on the idea that people use energy for important functions in their lives.</s><s xml:id="_AJ4qqQ3" coords="11,71.78,176.23,227.03,9.71;11,46.83,188.54,251.97,9.71;11,46.83,200.84,82.14,9.71">Therefore, automation must allow consumers to reduce energy use without being perceived as interfering with these important functions.</s><s xml:id="_ZbFM9MP" coords="11,132.40,200.84,166.44,9.71;11,46.82,213.15,240.49,9.71">Otherwise, the end-user may circumvent the technology and reduce the efficiency of the smart home.</s></p><p xml:id="_4TXVP4H" coords="11,56.90,225.45,241.85,9.71;11,46.82,237.76,51.80,9.71;11,117.06,237.76,181.65,9.71;11,46.82,250.06,251.97,9.71;11,46.81,262.36,251.93,9.71;11,46.81,274.67,251.90,9.71;11,46.81,286.97,252.00,9.71;11,46.81,299.28,251.91,9.71;11,46.81,311.58,251.97,9.71;11,46.82,323.89,251.95,9.71;11,46.82,336.19,251.97,9.71;11,46.82,348.50,251.99,9.71;11,46.80,360.80,138.05,9.71"><s xml:id="_ZnrD3v8" coords="11,56.90,225.45,241.85,9.71;11,46.82,237.76,74.09,9.71">The construct of psychological reactance describes this phenomenon <ref type="bibr" coords="11,101.66,237.76,15.40,9.71" target="#b60">[60]</ref>.</s><s xml:id="_5vUF5J3" coords="11,123.91,237.76,174.80,9.71;11,46.82,250.06,179.42,9.71">When individuals feel that their freedom is threatened, they act to restore that freedom.</s><s xml:id="_EAhv7xq" coords="11,229.70,250.06,69.10,9.71;11,46.81,262.36,251.93,9.71;11,46.81,274.67,251.90,9.71;11,46.81,286.97,252.00,9.71;11,46.81,299.28,36.38,9.71">If people believe that the smart home is prohibiting them from living the way they wish, they may respond by overriding the programmable thermostat to manually set points higher than before it was installed.</s><s xml:id="_pGnU3aw" coords="11,86.35,299.28,212.37,9.71;11,46.81,311.58,135.88,9.71">To prevent psychological reactance, the smart home must give the end-user choice.</s><s xml:id="_nmVrRdu" coords="11,188.59,311.58,110.19,9.71;11,46.82,323.89,251.95,9.71;11,46.82,336.19,251.97,9.71;11,46.82,348.50,251.99,9.71;11,46.80,360.80,138.05,9.71">Allowing the end-user to customize the settings of smart appliances and especially allowing the user to opt-out of functions, such as a delayedstart on a dishwasher on a use-by-use basis, will be important to reduce psychological reactance.</s></p><p xml:id="_QMDu3Ms" coords="11,56.88,373.11,241.85,9.71;11,46.80,385.41,251.97,9.71;11,46.81,397.71,251.88,9.71;11,46.81,410.02,251.95,9.71;11,46.81,422.32,111.28,9.71;11,176.56,422.32,122.20,9.71;11,46.80,434.63,251.95,9.71;11,46.80,446.93,77.96,9.71"><s xml:id="_EGDG4Q4" coords="11,56.88,373.11,241.85,9.71;11,46.80,385.41,251.97,9.71;11,46.81,397.71,251.88,9.71;11,46.81,410.02,251.95,9.71;11,46.81,422.32,133.60,9.71">In the case of energy efficiency, psychological reactance manifests through the "rebound effect" that occurs when technological improvements fail to live up to the expected energy savings because behavioral changes counteract the increased energy efficiency <ref type="bibr" coords="11,161.16,422.32,15.40,9.71" target="#b61">[61]</ref>.</s><s xml:id="_buzrvhs" coords="11,183.42,422.32,115.33,9.71;11,46.80,434.63,251.95,9.71;11,46.80,446.93,77.96,9.71">The authors differentiate the rebound effect mentioned from that mentioned in section IV with respect to DR.</s></p><p xml:id="_pK36x9j" coords="11,56.88,459.24,241.78,9.71;11,46.80,471.54,251.96,9.71;11,46.80,483.85,251.93,9.71;11,46.79,496.15,251.91,9.71;11,46.79,508.46,183.82,9.71;11,248.67,508.46,50.13,9.71;11,46.80,520.76,251.99,9.71;11,46.80,533.06,252.00,9.71;11,46.80,545.37,72.82,9.71;11,138.69,545.37,160.13,9.71;11,46.79,557.67,251.84,9.71;11,46.79,569.98,32.88,9.71;11,98.91,569.98,199.77,9.71;11,46.80,582.28,252.01,9.71;11,46.80,594.59,251.94,9.71;11,46.80,606.89,251.97,9.71;11,46.80,619.20,15.56,9.71;11,81.70,619.20,217.08,9.71;11,46.80,631.50,251.98,9.71;11,46.79,643.81,200.39,9.71;11,269.13,643.81,3.85,9.71;11,294.93,643.81,3.85,9.71;11,46.80,656.11,251.97,9.71;11,46.80,668.41,251.96,9.71;11,46.80,680.72,153.01,9.71;11,218.20,680.72,80.58,9.71;11,46.81,693.02,251.90,9.71;11,46.81,705.33,203.86,9.71"><s xml:id="_zNFGHJe" coords="11,56.88,459.24,241.78,9.71;11,46.80,471.54,251.96,9.71;11,46.80,483.85,20.92,9.71">Studies of the rebound effect for residential space heating show that energy savings fall short of expectations by 10 to 30%.</s><s xml:id="_4wzEmaN" coords="11,71.64,483.85,227.09,9.71;11,46.79,496.15,251.91,9.71;11,46.79,508.46,205.73,9.71">In particular, in lower income homes, families convert some of their new energy efficiency into greater comfort by increasing the wintertime thermostat set point <ref type="bibr" coords="11,233.27,508.46,15.40,9.71" target="#b61">[61]</ref>.</s><s xml:id="_AbCSX9Z" coords="11,255.12,508.46,43.69,9.71;11,46.80,520.76,251.99,9.71;11,46.80,533.06,252.00,9.71;11,46.80,545.37,95.74,9.71">This might seem counterintuitive to engineers and other professionals who define energy efficiency as "using less energy to provide the same service" <ref type="bibr" coords="11,123.26,545.37,15.42,9.71" target="#b62">[62]</ref>.</s><s xml:id="_cw8u5AU" coords="11,146.21,545.37,152.60,9.71;11,46.79,557.67,251.84,9.71;11,46.79,569.98,55.97,9.71">However, consumers view efficiency as providing the functionality they desire for as little energy as possible <ref type="bibr" coords="11,83.51,569.98,15.40,9.71" target="#b63">[63]</ref>.</s><s xml:id="_6v2DKT6" coords="11,106.62,569.98,192.06,9.71;11,46.80,582.28,252.01,9.71;11,46.80,594.59,34.22,9.71">In fact, increasing comfort was the top reason cited by California homeowners for pursuing energy efficient retrofits.</s><s xml:id="_mEnSPbj" coords="11,86.40,594.59,212.34,9.71;11,46.80,606.89,251.97,9.71;11,46.80,619.20,38.75,9.71">Although comfort outranked the desire to reduce energy bills, reducing costs was also an important consideration <ref type="bibr" coords="11,66.30,619.20,15.40,9.71" target="#b64">[64]</ref>.</s><s xml:id="_9FdS4vv" coords="11,89.47,619.20,209.31,9.71;11,46.80,631.50,251.98,9.71;11,46.79,643.81,251.99,9.71">Other studies have found that participants consistently cite saving money as a top reason for performing energy efficient retrofits such as insulating the attic <ref type="bibr" coords="11,253.73,643.81,15.40,9.71" target="#b65">[65]</ref>, <ref type="bibr" coords="11,279.53,643.81,15.40,9.71" target="#b66">[66]</ref>.</s><s xml:id="_qr2mtyq" coords="11,46.80,656.11,251.97,9.71;11,46.80,668.41,251.96,9.71;11,46.80,680.72,175.25,9.71">However, comfort is often overlooked and needs to be considered in smart home design because energy use varies as a function of tolerance for discomfort <ref type="bibr" coords="11,202.80,680.72,15.40,9.71" target="#b63">[63]</ref>.</s><s xml:id="_pBEUegM" coords="11,225.01,680.72,73.78,9.71;11,46.81,693.02,251.90,9.71;11,46.81,705.33,203.86,9.71">Although technology enables the development of smart homes, an integral part of the equation is influencing occupants' behavior.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_TYCScAM" coords="11,402.67,53.43,73.07,9.71">VI. CONCLUSION</head><p xml:id="_QrkSpB2" coords="11,323.28,68.91,241.87,9.71;11,313.20,81.21,251.97,9.71;11,313.20,93.52,251.99,9.71;11,313.20,105.82,251.96,9.71;11,313.19,118.13,251.99,9.71;11,313.19,130.43,251.93,9.71;11,313.19,142.74,252.00,9.71;11,313.19,155.04,251.91,9.71;11,313.19,167.34,151.77,9.71"><s xml:id="_vfRM5Bc" coords="11,323.28,68.91,241.87,9.71;11,313.20,81.21,206.59,9.71">Smart homes rely on numerous enabling technologies in both the electricity grid and consumer electronics.</s><s xml:id="_XNhDyEn" coords="11,523.38,81.21,41.79,9.71;11,313.20,93.52,251.99,9.71;11,313.20,105.82,186.09,9.71">Standardization and maturity of the technologies in each of these realms is required if smart homes are to be pervasive.</s><s xml:id="_emjMWdj" coords="11,501.94,105.82,63.22,9.71;11,313.19,118.13,251.99,9.71;11,313.19,130.43,251.93,9.71;11,313.19,142.74,137.26,9.71">Given that buyin from users is a key that will unlock the adoption of smart homes, rigorous tests with consumers must be integrated into the smart home design procedure.</s><s xml:id="_r3N84qk" coords="11,453.40,142.74,111.79,9.71;11,313.19,155.04,251.91,9.71;11,313.19,167.34,151.77,9.71">Without the comprehensive multi-disciplinary assessment of the smart home, an expensive system may fall short of expectations.</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="3,450.68,69.79,57.29,23.26;3,82.32,97.39,447.17,23.26;3,189.30,124.99,233.35,23.26;3,81.72,171.35,448.59,10.64;3,98.40,184.07,415.19,10.64;3,164.74,196.79,282.49,10.64;3,46.80,420.59,20.23,27.15;4,303.48,747.09,5.01,9.71;4,43.20,740.13,185.88,10.43;4,43.20,751.65,211.17,10.43;4,43.20,763.17,129.77,10.43"><head>2</head><label>2</label><figDesc><div><p xml:id="_Ux74BBB"><s xml:id="_bkEN5RC" coords="3,450.68,69.79,57.29,23.26;3,82.32,97.39,447.17,23.26;3,189.30,124.99,233.35,23.26;3,81.72,171.35,448.59,10.64;3,98.40,184.07,415.19,10.64;3,164.74,196.79,282.49,10.64;3,46.80,420.59,20.23,27.15;4,43.20,740.13,185.88,10.43;4,43.20,751.65,211.17,10.43;4,43.20,763.17,129.77,10.43">Smart Home: Perspectives on Enabling Technologies and Consumer Behavior Adam Zipperer, Student Member, IEEE, Patricia A. Aloise-Young, Siddharth Suryanarayanan, Senior Member, IEEE, Robin Roche, Member, IEEE, Lieko Earle, Member, IEEE, Dane Christensen, Member, IEEE, Pablo Bauleo, Daniel Zimmerle, Member, IEEE A This report is available at no cost from the National Renewable Energy Laboratory (NREL) at www.nrel.gov/publications.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="4,313.20,377.70,252.05,7.73;4,313.20,387.60,158.96,7.73;4,313.28,50.40,251.90,318.66"><head>Fig. 1 .</head><label>1</label><figDesc><div><p xml:id="_GKjMuat"><s xml:id="_R6uY2Sy" coords="4,313.20,377.70,21.08,7.73">Fig. 1.</s><s xml:id="_kemBuHB" coords="4,336.66,377.70,94.79,7.73">A smart meter at a residence.</s><s xml:id="_cmrD8Jv" coords="4,433.77,377.70,131.48,7.73;4,313.20,387.60,158.96,7.73">Photo sourced from National Renewable Energy Laboratory (NREL) database, PIX 21394.</s></p></div></figDesc><graphic coords="4,313.28,50.40,251.90,318.66" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2" coords="5,46.80,226.32,252.03,7.73;5,46.81,236.22,22.10,7.73;5,46.83,50.43,251.10,167.10"><head>Fig. 2 .</head><label>2</label><figDesc><div><p xml:id="_yrMVSTy"><s xml:id="_RFK2NVz" coords="5,46.80,226.32,114.09,7.73">Fig. 2. NREL's AHEM laboratory.</s><s xml:id="_7xA4eCW" coords="5,163.51,226.32,135.32,7.73;5,46.81,236.22,22.10,7.73">Photo sourced from NREL database, PIX 20207.</s></p></div></figDesc><graphic coords="5,46.83,50.43,251.10,167.10" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3" coords="5,313.20,540.54,252.02,7.73;5,313.20,550.44,68.44,7.73;5,313.23,384.90,252.00,146.86"><head>Fig. 3 .</head><label>3</label><figDesc><div><p xml:id="_pCvugbe"><s xml:id="_8sBkSpY" coords="5,313.20,540.54,23.17,7.73">Fig. 3.</s><s xml:id="_E9deTeu" coords="5,340.86,540.54,126.76,7.73">A smartphone app for smart homes.</s><s xml:id="_ayWhWXn" coords="5,472.02,540.54,93.20,7.73;5,313.20,550.44,68.44,7.73">Photo sourced from NREL database, PIX 20284.</s></p></div></figDesc><graphic coords="5,313.23,384.90,252.00,146.86" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4" coords="7,175.44,339.24,261.15,7.73;7,131.41,50.40,349.75,285.85"><head>Fig. 4 .</head><label>4</label><figDesc><div><p xml:id="_yXmt3NK"><s xml:id="_ds3uDrC" coords="7,175.44,339.24,20.65,7.73">Fig.4.</s><s xml:id="_QVJSNfU" coords="7,198.06,339.24,238.54,7.73">Schematic diagram of a centrally controlled smart home adapted from<ref type="bibr" coords="7,423.20,339.24,13.40,7.73" target="#b31">[31]</ref></s></p></div></figDesc><graphic coords="7,131.41,50.40,349.75,285.85" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5" coords="8,46.80,680.82,252.06,7.73;8,46.79,690.72,251.98,7.73;8,46.78,700.62,205.66,7.73;8,46.80,481.04,250.72,191.10"><head>Fig. 5 .</head><label>5</label><figDesc><div><p xml:id="_5NHZHfx"><s xml:id="_7PrgUD7" coords="8,46.80,680.82,23.23,7.73">Fig.5.</s><s xml:id="_akDDuWs" coords="8,74.58,680.82,224.29,7.73;8,46.79,690.72,251.98,7.73;8,46.78,700.62,205.66,7.73">Typical residential electrical load profile with base case, energy efficient case with uniform 5% energy savings, and load shifting case using approximately the same amount of energy but with peak shifted.</s></p></div></figDesc><graphic coords="8,46.80,481.04,250.72,191.10" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6" coords="1,36.12,36.12,540.00,161.25"><graphic coords="1,36.12,36.12,540.00,161.25" type="bitmap" /></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xml:id="_ymZx9Fd"><p xml:id="_BpT7Yjk" coords="12,43.20,740.13,185.88,10.43;12,43.20,751.65,211.17,10.43;12,43.20,763.17,129.77,10.43;12,43.20,740.13,185.88,10.43;12,43.20,751.65,211.17,10.43;12,43.20,763.17,8.37,10.43;12,168.40,763.17,4.56,10.43"><s xml:id="_FZS9XGf" coords="12,43.20,740.13,185.88,10.43;12,43.20,751.65,211.17,10.43;12,43.20,763.17,8.37,10.43;12,168.40,763.17,4.56,10.43">This report is available at no cost from the <rs type="affiliation">National Renewable Energy Laboratory (NREL</rs>) at <ref type="url" coords="12,54.29,763.17,114.11,10.43" target="www.nrel.gov/publications">www.nrel.gov/publications</ref>.</s></p></div>
+			</div>
+			<div type="funding">
+<div xml:id="_QFkM2wn"><p xml:id="_QXgxBea" coords="2,53.99,207.56,503.98,10.43;2,53.99,219.09,503.95,10.43;2,53.99,230.55,504.04,10.43;2,53.98,242.07,317.33,10.43;3,56.88,590.34,241.97,7.73;3,46.80,599.75,252.07,7.73;3,46.80,609.17,252.01,7.73;3,46.80,618.59,252.05,7.73;3,46.80,628.00,227.84,7.73;3,56.88,637.42,241.95,7.73;3,46.80,646.84,225.83,7.73;3,67.86,684.50,231.04,7.73;3,46.80,693.92,131.10,7.73"><s xml:id="_3BFzpDW" coords="2,53.99,207.56,503.98,10.43;2,53.99,219.09,409.22,10.43">The submitted manuscript has been offered by an employee of the <rs type="institution">Alliance for Sustainable Energy, LLC (Alliance)</rs>, a contractor of the <rs type="funder">US Government</rs> under Contract No. <rs type="grantNumber">DE-AC36-08GO28308</rs>.</s><s xml:id="_tB9B3xC" coords="2,467.33,219.09,90.61,10.43;2,53.99,230.55,504.04,10.43;2,53.98,242.07,317.33,10.43">Accordingly, the <rs type="funder">US Government</rs> and Alliance retain a nonexclusive royalty-free license to publish or reproduce the published form of this contribution, or allow others to do so, for US Government purposes.</s><s xml:id="_AkaEjSQ" coords="3,56.88,590.34,241.97,7.73;3,46.80,599.75,252.07,7.73;3,46.80,609.17,252.01,7.73;3,46.80,618.59,252.05,7.73;3,46.80,628.00,227.84,7.73;3,56.88,637.42,241.95,7.73;3,46.80,646.84,225.83,7.73;3,67.86,684.50,231.04,7.73;3,46.80,693.92,131.10,7.73">This work was supported in part by: the <rs type="funder">U.S. Department of Energy</rs> under Contract No. <rs type="grantNumber">DE-AC36-08GO28308</rs> with the <rs type="institution">National Renewable Energy Laboratory</rs>; <rs type="funder">US National Science Foundation</rs> Award # <rs type="grantNumber">0931748</rs>; and the <rs type="funder">Program of Research and Scholarly Excellence (PRSE)</rs> grant from the <rs type="funder">Office of the Vice President for Research (VPR)</rs> at <rs type="institution">Colorado State University</rs>. <rs type="person">A. Zipperer</rs>, <rs type="person">D. Zimmerle</rs>, <rs type="person">P. Aloise-Young</rs>, and <rs type="person">S. Suryanarayanan</rs> are with <rs type="affiliation">Colorado State University in Fort Collins, CO, United States Earle</rs> and <rs type="person">D. Christensen</rs> are with the <rs type="affiliation">National Renewable Energy Laboratory in Golden, CO, United States</rs></s></p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_9EsdFFz">
+					<idno type="grant-number">DE-AC36-08GO28308</idno>
+				</org>
+				<org type="funding" xml:id="_ec4hMJX">
+					<idno type="grant-number">DE-AC36-08GO28308</idno>
+				</org>
+				<org type="funding" xml:id="_nMBh38S">
+					<idno type="grant-number">0931748</idno>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted" xml:id="b0">
+	<monogr>
+		<title level="m" type="main" coords="11,360.67,206.76,71.30,7.73" xml:id="_fKFnE8Q">Inside the Smart Home</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Harper</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2003">2003</date>
+			<publisher>Springer</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b1">
+	<monogr>
+		<title level="m" type="main" coords="11,344.08,216.17,221.09,7.73;11,313.19,225.59,28.66,7.73" xml:id="_cmpTR34">Beyond the Numbers: Pricing and Spending</title>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">S</forename></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012-10">Oct. 2012</date>
+		</imprint>
+	</monogr>
+	<note>Bureau of Labor Statistics</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b2">
+	<monogr>
+		<title level="m" type="main" coords="11,327.03,235.01,238.22,7.73;11,313.19,244.42,41.36,7.73" xml:id="_upbPyHw">Spending on Newspapers and Magazines Slides as Spending for Internet Access Soars</title>
+		<ptr target="http://www.bls.gov/cex/newspapers.htm" />
+		<imprint>
+			<date type="published" when="2012-02-18">Feb-2012. 18-Dec-2012</date>
+		</imprint>
+		<respStmt>
+			<orgName>United States Department of Labor Bureau of Labor Statistics</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b3">
+	<analytic>
+		<title level="a" type="main" coords="11,342.05,272.67,113.25,7.73" xml:id="_yQqW5TS">Energy Information Administration</title>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">S</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_EfDy3PN" coords="11,465.10,272.67,75.92,7.73">Annual Energy Review</title>
+		<imprint>
+			<date type="published" when="2011-09">2011. Sep. 2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b4">
+	<monogr>
+		<title level="m" type="main" coords="11,327.99,291.50,229.91,7.73;11,313.19,300.92,174.88,7.73" xml:id="_sYnr8rC">RECS Data Show Decreased Energy Consumption Per Household</title>
+		<ptr target="http://www.eia.gov/consumption/residential/reports/2009/consumption-down.cfm" />
+		<imprint>
+			<date type="published" when="2012-06-18">Jun-2012. 18-Dec-2012</date>
+		</imprint>
+	</monogr>
+	<note>United States Energy Information Administration</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b5">
+	<monogr>
+		<title level="m" type="main" coords="11,327.29,338.64,77.49,7.73" xml:id="_meFa2Gn">CPI Inflation Calculator</title>
+		<ptr target="http://www.bls.gov/data/inflation_calculator.htm" />
+		<imprint>
+			<date type="published" when="2012-12">Dec-2012</date>
+			<biblScope unit="page">21</biblScope>
+		</imprint>
+		<respStmt>
+			<orgName>United States Department of Labor Bureau of Labor Statistics</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b6">
+	<monogr>
+		<title level="m" type="main" coords="11,371.65,366.90,187.30,7.73" xml:id="_8f74ctV">Customer Priorities and Behavior: kWhs, iPads, and Lattes</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Leblanc</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012-09">Sep-2012</date>
+			<biblScope unit="volume">25</biblScope>
+			<pubPlace>Fort Collins, Colorado</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b7">
+	<monogr>
+		<author>
+			<persName><forename type="first">W</forename><surname>Mert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Watts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Tritthart</surname></persName>
+		</author>
+		<title level="m" xml:id="_zpaWtFM" coords="11,462.20,385.73,102.97,7.73;11,313.19,395.15,235.66,7.73;11,313.20,404.56,171.24,7.73">Smart Domestic Appliances in Sustainable Energy Systems -Consumer Acceptance and Restrictions</title>
+		<imprint>
+			<biblScope unit="volume">1761</biblScope>
+		</imprint>
+	</monogr>
+	<note>Proceedings of the ECEEE 2009 Summer Study, 1751</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b8">
+	<monogr>
+		<title level="m" type="main" coords="11,407.87,413.98,150.21,7.73" xml:id="_GhWKfkB">Energy Independence and Security Act of 2007</title>
+		<imprint>
+			<date type="published" when="2007-07">Jul-2007</date>
+			<publisher>United States Government Printing Office</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b9">
+	<analytic>
+		<title level="a" type="main" coords="11,429.76,442.23,135.49,7.73;11,313.22,451.64,204.71,7.73" xml:id="_auFR94W">A Proposed Framework for Heuristic Approaches to Resource Allocation in the Emerging Smart Grid</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hansen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Roche</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Suryanarayanan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Siegel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Zimmerle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Young</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Maciejewski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_R3y3pRK" coords="11,326.24,461.06,239.01,7.73">IEEE PES International Conference on Power Systems and Technology</title>
+		<meeting><address><addrLine>Auckland, New Zealand</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2012">2012. 2012</date>
+			<biblScope unit="page" from="1" to="6" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b10">
+	<analytic>
+		<title level="a" type="main" coords="11,480.28,479.89,84.94,7.73;11,313.22,489.31,252.02,7.73;11,313.22,498.73,16.60,7.73" xml:id="_ZV323s9">ElectriSense: Single-Point Sensing Using EMI for Electrical Event Detection and Classification in the Home</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gupta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Reynolds</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">N</forename><surname>Patel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_E6VYFdw" coords="11,348.32,498.73,47.59,7.73">UbiComp 2010</title>
+		<meeting><address><addrLine>Copenhagen, Denmark</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+			<biblScope unit="page" from="139" to="148" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b11">
+	<analytic>
+		<title level="a" type="main" coords="11,468.02,508.14,97.28,7.73;11,313.22,517.56,203.90,7.73" xml:id="_E7K3qZN">Wireless sensor networks for cost-efficient residential energy management in the smart grid</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Erol-Kantarci</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">Smart Grid</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">T</forename><surname>Mouftah</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">Smart Grid</orgName>
+			</affiliation>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_ZkGZEyP" coords="11,313.22,526.98,69.76,7.73">IEEE Transactions on</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="314" to="325" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b12">
+	<monogr>
+		<title level="m" type="main" coords="11,377.11,536.39,181.32,7.73;11,313.23,545.81,12.00,7.73;11,343.89,545.81,18.60,7.73;11,381.15,545.81,18.72,7.73" xml:id="_29aB8Vp">Modeling a Green Energy Challenge after a Blue Button</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Chopra</surname></persName>
+		</author>
+		<ptr target="http://www.whitehouse.gov/blog/2011/09/15/modeling-green-energy-challenge-after-blue-button" />
+		<imprint>
+			<date type="published" when="2011-09-15">15-Sep-2011. 18-Dec-2012</date>
+		</imprint>
+	</monogr>
+	<note>The White House</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b13">
+	<analytic>
+		<title level="a" type="main" coords="11,496.75,574.06,68.53,7.73;11,313.26,583.47,66.04,7.73" xml:id="_jqFJt8W">Making Smartphones Brilliant: Ten Trends</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Atluri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Cakmak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Varanasi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_shJX5Fa" coords="11,388.20,583.47,72.22,7.73">McKinsey &amp; Company</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<date type="published" when="2012-06">Jun. 2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b14">
+	<monogr>
+		<title level="m" type="main" coords="11,337.15,592.89,158.00,7.73" xml:id="_PgQDvBR">Nucleus Home Energy Manager</title>
+		<ptr target="http://www.geappliances.com/home-energy-manager/" />
+		<imprint>
+			<date type="published" when="2012-12-19">19-Dec-2012</date>
+		</imprint>
+	</monogr>
+	<note>GE Appliances</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b15">
+	<monogr>
+		<title level="m" type="main" coords="11,337.89,621.14,112.00,7.73" xml:id="_URk7y8b">CPS Energy: A Consert Case Study</title>
+		<imprint>
+			<date type="published" when="2012-09">Sep. 2012</date>
+			<publisher>Consert, Inc</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b16">
+	<analytic>
+		<title level="a" type="main" coords="11,338.09,630.56,123.44,7.73" xml:id="_Wgj9HNZ">ComEd RRTP Program Overview</title>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_7Vsh7NA" coords="11,476.68,630.56,21.65,7.73">ComEd</title>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note>Online</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b17">
+	<monogr>
+		<title level="m" type="main" coords="11,337.26,649.39,203.80,7.73" xml:id="_fRBwB6p">Recovery Act Smart Grid Project Information</title>
+		<ptr target="http://www.smartgrid.gov/recovery_act/project_information" />
+		<imprint>
+			<date type="published" when="2012-12">2012. 19-Dec-2012</date>
+		</imprint>
+	</monogr>
+	<note>SmartGrid.gov</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b18">
+	<analytic>
+		<title level="a" type="main" coords="11,522.05,687.05,43.25,7.73;11,313.30,696.47,185.13,7.73" xml:id="_J9aqcrv">Circuit-Level Load Monitoring for Household Energy Management</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Marchiori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hakkarinen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Earle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_rBQz85M" coords="11,511.42,696.47,53.90,7.73;11,313.30,705.89,33.88,7.73">IEEE Pervasive Computing</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="40" to="48" />
+			<date type="published" when="2011-03">Mar. 2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b19">
+	<analytic>
+		<title level="a" type="main" coords="12,214.29,52.62,84.48,7.73;12,46.81,62.03,246.30,7.73" xml:id="_wn2SJvt">An exploratory analysis of California residential customer response to critical peak pricing of electricity</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Herter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mcauliffe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rosenfeld</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_3N6CqxE" coords="12,46.81,71.45,21.51,7.73">Energy</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="25" to="34" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b20">
+	<monogr>
+		<title level="m" type="main" coords="12,109.69,80.87,189.13,7.73;12,46.82,90.28,115.27,7.73" xml:id="_usk2s4b">Nest Learning Thermostate Efficiency Simulation: Update Using Data from First Three Months</title>
+		<imprint>
+			<date type="published" when="2012-04">Apr-2012</date>
+		</imprint>
+		<respStmt>
+			<orgName>Nest Labs</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b21">
+	<analytic>
+		<title level="a" type="main" coords="12,172.73,99.70,126.11,7.73;12,46.82,109.12,171.26,7.73" xml:id="_Ds8BfTB">Living With an Intelligent Thermostat: Advanced Control for Heating and Cooling Systems</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Newman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_6m86raK" coords="12,237.19,109.12,61.69,7.73;12,46.82,118.53,157.33,7.73">Proceedings of the 2012 ACM Conference on Ubiquitous Computing</title>
+		<meeting>the 2012 ACM Conference on Ubiquitous Computing</meeting>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<biblScope unit="page" from="1102" to="1107" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b22">
+	<monogr>
+		<title level="m" type="main" coords="12,87.79,127.95,211.00,7.73;12,46.82,137.36,14.41,7.73" xml:id="_BaFcbTV">Energy Information Administration</title>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">S</forename></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012-06">2012. Jun. 2012</date>
+			<biblScope unit="page">383</biblScope>
+		</imprint>
+	</monogr>
+	<note>Annual Energy Outlook 2012</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b23">
+	<analytic>
+		<title level="a" type="main" coords="12,177.75,156.20,121.08,7.73;12,46.82,165.61,252.06,7.73;12,46.82,175.03,140.30,7.73" xml:id="_EKVxDgt">Practical Storage and Utilization of Household Photovoltaic Energy by Electric Vehicle Battery,&quot; presented at the Innovative Smart Grid Technologies (ISGT)</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Yoshimi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Osawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Yamashita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Niimura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Yokoyama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Masuda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kondou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hirota</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_rFXZ27k" coords="12,210.72,175.03,31.00,7.73">IEEE PES</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="8" />
+			<date type="published" when="2012">2012. 2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b24">
+	<monogr>
+		<title level="m" type="main" coords="12,254.55,193.86,44.33,7.73;12,46.84,203.28,252.04,7.73;12,46.85,212.70,6.75,7.73" xml:id="_fusSPAA">Future Home Uninterruptible Renewable Energy System With Vehicle-To-Grid Technology</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Cvetkovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Thacker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Francis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Podosinov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Boroyevich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Burgos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Skutt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lesko</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009">2009. 2009. 2009</date>
+			<publisher>IEEE Energy Conversion Congress and Exposition</publisher>
+			<biblScope unit="page" from="2675" to="2681" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b25">
+	<monogr>
+		<title level="m" type="main" coords="12,267.26,231.53,31.60,7.73;12,46.86,240.95,252.04,7.73;12,46.86,250.36,39.82,7.73" xml:id="_xCaFMCJ">Technical and Economic Feasibility of Applying Used EV Batteries in Stationary Applications</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Cready</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lippert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pihl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Weinstock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Symons</surname></persName>
+		</author>
+		<imprint>
+			<pubPlace>Albuquerque, NM, USA</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Sandia National Laboratories</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b26">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Livermore</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Usa</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Sand</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002">2002-4084, 2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b27">
+	<monogr>
+		<title level="m" type="main" coords="12,205.36,269.19,93.51,7.73;12,46.86,278.61,137.22,7.73" xml:id="_aGFp5KU">Secondary Use of PHEV and EV Batteries -Opportunities &amp; Challenges</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Neubauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pesaran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Howell</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010-05-19">19-May-2010</date>
+			<pubPlace>Orlando, Florida, USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b28">
+	<monogr>
+		<title level="m" type="main" coords="12,70.83,297.44,200.63,7.73" xml:id="_F5ujMBK">Occupied Space Standards Overview</title>
+		<ptr target="http://www.emergealliance.org/Standards/OccupiedSpace/Overview.aspx" />
+		<imprint>
+			<date type="published" when="2012-12">2012. 19-Dec-2012</date>
+		</imprint>
+	</monogr>
+	<note>EMerge Alliance</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b29">
+	<monogr>
+		<title level="m" type="main" coords="12,231.37,335.11,67.49,7.73;12,46.87,344.53,222.45,7.73" xml:id="_A8w5h52">Combined Operation of AC and DC Distribution System with Distributed Generation Units</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Noroozian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Abedi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gharehpetian</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b30">
+	<analytic>
+		<title level="a" type="main" coords="12,194.51,353.94,104.40,7.73;12,46.87,363.36,179.08,7.73" xml:id="_cWJetgZ">Demand Side Management by Controlling Refrigerators and its Effects on Consumers</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Zehir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bagriyanik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_SM3CyXd" coords="12,236.17,363.36,62.69,7.73;12,46.87,372.77,53.87,7.73">Energy Conversion and Management</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="238" to="244" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b31">
+	<monogr>
+		<title level="m" type="main" coords="12,208.13,382.19,90.78,7.73;12,46.88,391.61,252.02,7.73;12,46.87,401.02,252.06,7.73;12,46.87,410.44,24.89,7.73" xml:id="_Xm2BCNp">A Heuristic Technique for Scheduling a Customer-Driven Residential Distributed Energy Resource Installation</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Armas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Suryanarayanan</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009">2009. 2009</date>
+			<biblScope unit="page" from="1" to="7" />
+		</imprint>
+	</monogr>
+	<note>presented at the Intelligent System Applications to Power Systems</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b32">
+	<analytic>
+		<title level="a" type="main" coords="12,113.21,419.86,127.85,7.73" xml:id="_Vspe6N9">The goal: smart people, not smart homes</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Intille</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_Z868Ct5" coords="12,258.89,419.86,39.97,7.73;12,46.88,429.27,248.69,7.73">Proceedings of the International Conference on Smart Homes and Health Telematics</title>
+		<meeting>the International Conference on Smart Homes and Health Telematics</meeting>
+		<imprint>
+			<date type="published" when="2006">2006</date>
+			<biblScope unit="page" from="3" to="6" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b33">
+	<analytic>
+		<title level="a" type="main" coords="12,178.47,448.11,120.42,7.73;12,46.89,457.52,221.31,7.73" xml:id="_9B4Yfrf">Research and Implementation of the Context-Aware Middleware for Controlling Home Appliances</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Shin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Shin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_GRQ3S6C" coords="12,281.72,457.52,17.24,7.73;12,46.89,466.94,127.79,7.73">IEEE Transactions on Consumer Electronics</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="301" to="306" />
+			<date type="published" when="2005-02">Feb. 2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b34">
+	<analytic>
+		<title level="a" type="main" coords="12,219.37,485.77,79.55,7.73;12,46.90,495.19,133.97,7.73" xml:id="_zmZQWsX">Proactive Fuzzy Control and Adaptation Methods for Smart Homes</title>
+		<author>
+			<persName><forename type="first">A.-M</forename><surname>Vainio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Valtonen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Vanhala</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_sZ9ZTKn" coords="12,190.98,495.19,78.18,7.73">IEEE Intelligent Systems</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="42" to="49" />
+			<date type="published" when="2008-03">Mar. 2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b35">
+	<analytic>
+		<title level="a" type="main" coords="12,245.52,514.02,53.37,7.73;12,46.91,523.44,252.01,7.73;12,46.91,532.85,24.87,7.73" xml:id="_9CedWE5">An Anticipation Mechanism for Power Management in a Smart Home Using Multi-Agent Systems</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Abras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pesty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ploix</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jacomino</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_dfBzb7x" coords="12,91.13,532.85,207.80,7.73;12,46.91,542.27,159.97,7.73">3rd International Conference on Information and Communication Technologies: From Theory to Applications</title>
+		<imprint>
+			<date type="published" when="2008">2008. 2008. 2008</date>
+			<biblScope unit="page" from="1" to="6" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b36">
+	<monogr>
+		<title level="m" xml:id="_Rg2Jkja" coords="12,71.23,561.10,227.71,7.73;12,46.92,570.52,33.84,7.73">PowerCentsDC(TM) Program: Final Report</title>
+		<imprint>
+			<date type="published" when="2010-09">Sep. 2010</date>
+		</imprint>
+	</monogr>
+	<note>eMeter Strategic Consulting</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b37">
+	<analytic>
+		<title level="a" type="main" coords="12,163.84,579.94,135.11,7.73;12,46.93,589.35,103.45,7.73" xml:id="_795vppY">Demand Response as a Market Resource Under the Smart Grid Paradigm</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Rahimi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ipakchi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_NazSTrj" coords="12,160.40,589.35,111.24,7.73">IEEE Transactions on Smart Grid</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="82" to="88" />
+			<date type="published" when="2010-06">Jun. 2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b38">
+	<analytic>
+		<title level="a" type="main" coords="12,232.13,608.18,66.79,7.73;12,46.94,617.60,150.03,7.73" xml:id="_RTR7gxK">Pool-Based Demand Response Exchange: Concept and Modeling</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nguyen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Negnevitsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>De Groot</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_Cn5e5gD" coords="12,219.42,617.60,79.54,7.73;12,46.94,627.02,103.05,7.73">2011 IEEE Power and Energy Society General Meeting</title>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+			<biblScope unit="page">1</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b39">
+	<analytic>
+		<title level="a" type="main" coords="12,235.87,636.43,63.03,7.73;12,46.94,645.85,223.09,7.73" xml:id="_sCHNSNZ">Grid Integration of Electric Vehicles and Demand Response With Customer Choice</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pipattanasomporn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Rahman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_qqAWNNw" coords="12,281.72,645.85,17.24,7.73;12,46.94,655.27,88.71,7.73">IEEE Transactions on Smart Grid</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="543" to="550" />
+			<date type="published" when="2012-03">Mar. 2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b40">
+	<analytic>
+		<title level="a" type="main" coords="12,176.73,664.68,122.24,7.73;12,46.95,674.10,179.47,7.73" xml:id="_HUew5Ws">Demand Response From Household Customers: Experiences From a Pilot Study in Norway</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Saele</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">S</forename><surname>Grande</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_DG2cfNe" coords="12,237.04,674.10,61.91,7.73;12,46.95,683.52,44.83,7.73">IEEE Transactions on Smart Grid</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="102" to="109" />
+			<date type="published" when="2011-03">Mar. 2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b41">
+	<analytic>
+		<title level="a" type="main" coords="12,226.61,692.93,72.37,7.73;12,46.97,702.35,154.30,7.73" xml:id="_9mxN8DR">Energy Efficiency and Consumption -The Rebound Effect -A Survey</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Greening</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Greene</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Difiglio</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_9XJU2zZ" coords="12,210.88,702.35,44.89,7.73">Energy Policy</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">6-7</biblScope>
+			<biblScope unit="page" from="389" to="401" />
+			<date type="published" when="2000-06">Jun. 2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b42">
+	<analytic>
+		<title level="a" type="main" coords="12,316.68,61.78,188.66,7.73" xml:id="_dvzGyTN">Residential Electricity Demand: An Experimental Study</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Battalio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Kagel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Winkler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Winett</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_DRgx99B" coords="12,516.18,61.78,49.20,7.73;12,313.38,71.19,79.23,7.73">The Review of Economics and Statistics</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="180" to="189" />
+			<date type="published" when="1979">1979</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b43">
+	<analytic>
+		<title level="a" type="main" coords="12,343.52,90.03,221.94,7.73;12,313.39,99.44,96.57,7.73" xml:id="_mpFw28U">A Comparative Study of Three Feedback Devices for Residential Real-Time Energy Monitoring</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Alahmad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Wheeler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Schwer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Eiden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Brumbaugh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_sJWRs9n" coords="12,419.24,99.44,142.96,7.73">IEEE Transactions on Industrial Electronics</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<date type="published" when="2012-04">Apr. 2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b44">
+	<analytic>
+		<title level="a" type="main" coords="12,482.97,118.28,82.42,7.73;12,313.39,127.69,72.54,7.73" xml:id="_TemHsux">Residential Energy Use Behavior Change Pilot</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Carroll</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Hatton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Brown</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_JrmWep4" coords="12,393.80,127.69,23.78,7.73">Opower</title>
+		<imprint>
+			<date type="published" when="2009-03">Mar. 2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b45">
+	<analytic>
+		<title level="a" type="main" coords="12,337.96,137.40,220.43,7.73" xml:id="_8nQF3SR">Home Area Network Pilots Process Evaluation -Final Report</title>
+		<idno>SDG0259.01</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_SVwFFee" coords="12,313.21,146.81,66.54,7.73">Research Into Action</title>
+		<imprint>
+			<date type="published" when="2012-05">May 2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b46">
+	<monogr>
+		<title level="m" type="main" coords="12,464.27,156.23,100.99,7.73;12,313.22,165.65,84.36,7.73" xml:id="_PDdABTX">People Centered Initiatives for Increasing Energy Savings</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ehrhardt-Martinez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Laitner</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b47">
+	<analytic>
+		<title level="a" type="main" coords="12,470.22,175.06,95.00,7.73;12,313.22,184.48,244.98,7.73" xml:id="_nBKRJ79">The Impact of Informational Feedback on Energy Consumption -A Survey of the Experimental Evidence</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Faruqui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sergici</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sharif</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_u69qmgV" coords="12,313.22,193.90,21.51,7.73">Energy</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1598" to="1608" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b48">
+	<analytic>
+		<title level="a" type="main" coords="12,458.70,203.31,106.53,7.73;12,313.22,212.73,56.37,7.73" xml:id="_rXQXwkv">Results from Recent Real-Time Feedback Studies</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Foster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mazur-Stommen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_HeXVJjx" coords="12,379.11,212.73,186.13,7.73;12,313.22,222.14,28.31,7.73">Results from Real-time Feedback Studies Foster Mazur-Stommen</title>
+		<meeting><address><addrLine>Washington, DC, USA, B</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2012-02">Feb. 2012</date>
+			<biblScope unit="volume">122</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b49">
+	<monogr>
+		<title level="m" type="main" coords="12,481.71,231.56,83.57,7.73;12,313.23,240.98,252.02,7.73;12,313.23,250.39,75.99,7.73" xml:id="_JVcEjEn">The Effect on Electricity Consumption of the Commonwealth Edison Customer Applications Program: Phase 2 Final Analysis</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wakefield</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Horst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Neenan</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011-10">Oct. 2011</date>
+			<publisher>Electric Power Research Institute</publisher>
+			<biblScope unit="volume">1023644</biblScope>
+			<pubPlace>Palo Alto, CA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b50">
+	<analytic>
+		<title level="a" type="main" coords="12,387.88,269.23,177.38,7.73;12,313.24,278.64,32.75,7.73" xml:id="_FpzX7xs">The Effects of Information on Residential Demand for Electricity</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Matsukawa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_GUadWhH" coords="12,353.92,278.64,62.65,7.73">The Energy Journal</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="17" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b51">
+	<analytic>
+		<title level="a" type="main" coords="12,547.86,288.06,17.42,7.73;12,313.26,297.48,252.00,7.73;12,313.26,306.89,130.43,7.73" xml:id="_4rGn9PA">Real-Time Feedback and Electricity Consumption: A Field Experiment Assessing the Potential for Savings and Persistence</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Houde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Todd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sudarshan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Flora</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C</forename><surname>Armel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_krysZJc" coords="12,452.21,306.89,63.01,7.73">The Energy Journal</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b52">
+	<monogr>
+		<title level="m" type="main" coords="12,337.43,325.73,227.83,7.73;12,313.26,335.14,20.48,7.73" xml:id="_x9HR6J3">Cape Light Compact: Residential Smart Energy Monitoring Pilot Final Report</title>
+		<author>
+			<orgName type="collaboration">PA Consulting Group</orgName>
+		</author>
+		<imprint>
+			<date type="published" when="2010-03">Mar. 2010</date>
+			<pubPlace>Madison, WI, USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b53">
+	<analytic>
+		<title level="a" type="main" coords="12,474.63,344.56,90.71,7.73;12,313.27,353.97,199.37,7.73" xml:id="_ejhdZ9Y">Pilot Evaluation of Energy Savings from Residential Energy Demand Feedback Devices</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Parker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hoak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cummings</surname></persName>
+		</author>
+		<idno>FSEC-CR-1742-08</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_QjCnAms" coords="12,522.47,353.97,42.86,7.73;12,313.27,363.39,45.00,7.73">Florida Solar Energy Centre</title>
+		<imprint>
+			<date type="published" when="2008">2008</date>
+			<pubPlace>Cocoa, Florida, USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b54">
+	<monogr>
+		<title level="m" type="main" coords="12,389.23,372.81,176.06,7.73;12,313.27,382.22,163.36,7.73" xml:id="_RMWheAd">The Impact of Real-Time Feedback on Residential Electricity Consumption: The Hydro One Pilot</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mountain</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006-03">Mar. 2006</date>
+			<pubPlace>Ontario, Canada</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>McMaster Institute for Energy Studies</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b55">
+	<monogr>
+		<title level="m" type="main" coords="12,394.60,401.06,170.66,7.73;12,313.28,410.47,84.16,7.73" xml:id="_keyy9aF">Scaling Behavior-Based Programs: The Tradeoffs of Opt-In vs. Opt-Out Design</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Scaramellino</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+			<pubPlace>Washington, DC, USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b56">
+	<monogr>
+		<title level="m" type="main" coords="12,378.18,419.89,187.08,7.73;12,313.28,429.31,71.52,7.73" xml:id="_28EMGRW">PowerCost Monitor Pilot Program Evaluation</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Norton</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008-04">Apr. 2008</date>
+			<pubPlace>Waltham, MA, USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Opinion Dynamics Corporation</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b57">
+	<monogr>
+		<title level="m" type="main" coords="12,377.96,438.72,58.56,7.73" xml:id="_HzwXCTM">NV Energy Update</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Holmes</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008">2008</date>
+			<pubPlace>Denver, CO, USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b58">
+	<monogr>
+		<title level="m" type="main" coords="12,373.60,448.14,92.81,7.73" xml:id="_xsD2bUc">Salt River Project M-Power</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Pruitt</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2005-11">Nov-2005</date>
+			<pubPlace>Phoenix, AZ, USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b59">
+	<analytic>
+		<title level="a" type="main" coords="12,523.72,466.97,41.55,7.73;12,313.30,476.39,207.80,7.73" xml:id="_VPyH5vV">A Review of Intervention Studies Aimed at Household Energy Conservation</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Abrahamse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Steg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Vlek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Rothengatter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_nG7jpbE" coords="12,531.04,476.39,34.27,7.73;12,313.30,485.80,84.94,7.73">Journal of Environmental Psychology</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="273" to="291" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b60">
+	<monogr>
+		<title level="m" type="main" coords="12,439.18,495.22,126.16,7.73;12,313.30,504.64,68.47,7.73" xml:id="_EZmbpUU">Psychological Reactance: A Theory of Freedom and Control</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Brehm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Brehm</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1981">1981</date>
+			<publisher>Academic Press</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b61">
+	<monogr>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sorrell</surname></persName>
+		</author>
+		<title level="m" xml:id="_bF8CDWY" coords="12,373.24,514.05,192.10,7.73;12,313.31,523.47,209.95,7.73">The Rebound Effect: An Assessment of the Evidence for Economy-Wide Energy Savings from Improved Energy Efficiency</title>
+		<meeting><address><addrLine>UK Energy Research Centre London</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b62">
+	<monogr>
+		<title level="m" type="main" coords="12,337.66,542.30,85.82,7.73" xml:id="_yKhaDuW">What is energy efficiency?</title>
+		<ptr target="http://eetd.lbl.gov/ee/ee-1.html" />
+		<imprint>
+			<date type="published" when="2012-12">2012. 19-Dec-2012</date>
+		</imprint>
+		<respStmt>
+			<orgName>Lawrence Berkeley National Laboratory</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b63">
+	<monogr>
+		<title level="m" type="main" coords="12,441.08,570.55,124.26,7.73;12,313.34,579.97,245.06,7.73" xml:id="_RJPhg75">Transforming Awareness into Action: Consumer Perceptions of Energy Use in the Chicago Metropolitan Area</title>
+		<author>
+			<persName><forename type="first">Fleishmann-Hillard</forename></persName>
+			<affiliation>
+				<orgName type="collaboration">Smart Grid Consumer Collaborative</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">Booz</forename></persName>
+			<affiliation>
+				<orgName type="collaboration">Smart Grid Consumer Collaborative</orgName>
+			</affiliation>
+		</author>
+		<imprint>
+			<date type="published" when="2011-11">Nov. 2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b64">
+	<analytic>
+		<title level="a" type="main" coords="12,497.90,598.80,67.47,7.73;12,313.34,608.22,184.74,7.73" xml:id="_Gu6jxXk">Why Comprehensive Residential Energy Efficiency Retrofits Are Undervalued</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Knight</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lutzenhiser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lutzenhiser</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_yYGwnPP" coords="12,516.58,608.22,48.80,7.73;12,313.34,617.63,161.51,7.73">Proceedings of the ACEEE Summer Study on Building Conference</title>
+		<meeting>the ACEEE Summer Study on Building Conference<address><addrLine>Asilomar, CA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b65">
+	<monogr>
+		<title level="m" type="main" coords="12,485.62,627.05,79.75,7.73;12,313.34,636.47,252.03,7.73;12,313.34,645.88,135.95,7.73" xml:id="_NM5fTVs">Home Energy Conservation and Efficiency in Florida: A Survey of Residents&apos; Behaviors, Intentions, Perceived Barriers, and Perceived Benefits</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Arpan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Opel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Steinberg</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+		<respStmt>
+			<orgName>Florida State University</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b66">
+	<monogr>
+		<title level="m" type="main" coords="12,337.07,655.30,228.32,7.73;12,313.35,664.72,69.67,7.73" xml:id="_KDXfyb7">Motivating Home Energy Improvements: Focus Groups for the U.S. Department of Energy</title>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+			<publisher>United States Department of Energy</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>
