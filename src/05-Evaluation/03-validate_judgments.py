@@ -202,7 +202,8 @@ def compute_stats(judgments: list[dict]) -> str:
         "StandbyScore",
         "ApplianceScore",
     ]
-    lines.append(f"{'Feature':<25}  {'avg(r)':>8}  {'avg(r\\')':<8}")
+    col_r_prime = "avg(r')"
+    lines.append(f"{'Feature':<25}  {'avg(r)':>8}  {col_r_prime:<8}")
     lines.append("-" * 45)
     for field in feature_fields:
         orig_vals = [
