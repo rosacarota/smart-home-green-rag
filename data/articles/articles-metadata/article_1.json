@@ -1,8 +1,8 @@
 {
   "article_id": "ARTICLE_001",
-  "source_title": "The projected timing of abrupt ecological disruption from climate change",
+  "source_title": "How Green is ‘Green’ Energy?",
   "year": "2017",
-  "article_summary": "This paper projects when and where climate change will cause abrupt ecological disruptions that exceed species’ adaptive capacity, focusing on temperature and precipitation velocity and impacts on biodiversity in hotspots. Concepts include timing of ecological thresholds, spatial climate-velocity mapping, and implications for conservation planning and adaptation prioritization — ideas that can inform smart-home sustainability only indirectly via broader environmental awareness and timing/scheduling considerations tied to climate-driven risks.",
+  "article_summary": "The article evaluates the environmental sustainability of hydropower, solar energy, and wind power, emphasizing that low-carbon energy sources can still cause greenhouse-gas emissions, intensive land and water use, habitat loss, and biodiversity damage. It highlights the importance of considering full ecological impacts when selecting energy sources and recommends careful siting, design, impact assessment, and mitigation to ensure that renewable-energy development is genuinely green. These concepts can support environmental awareness when designing smart-home rules that favor electricity from lower-impact renewable sources.",
   "normalized_green_categories_one_hot": {
     "hvac_optimization": 0,
     "lighting_efficiency": 0,
@@ -12,6 +12,6 @@
     "energy_monitoring": 0,
     "occupancy_based_control": 0,
     "environmental_awareness": 1,
-    "scheduling_optimization": 1
+    "scheduling_optimization": 0
   }
 }

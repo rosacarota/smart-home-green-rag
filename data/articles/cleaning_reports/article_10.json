@@ -1,9 +1,13 @@
 {
   "article_id": "article_10",
   "source_tei": "data\\articles\\extracted_grobid_tei\\article_10.grobid.tei.xml",
-  "main_output": "data\\articles\\cleaned_markdown\\article_10.md",
-  "supplementary_output": "data\\articles\\supplementary_markdown\\article_10.md",
+  "main_blocks_output": "data\\articles\\cleaned_blocks\\article_10.jsonl",
+  "supplementary_blocks_output": "data\\articles\\supplementary_blocks\\article_10.jsonl",
+  "table_blocks_output": "data\\articles\\table_blocks\\article_10.jsonl",
+  "discarded_blocks_output": "data\\articles\\discarded_blocks\\article_10.jsonl",
+  "review_blocks_output": "data\\articles\\review_blocks\\article_10.jsonl",
   "title_found": true,
+  "source_title": "Energy management of smart homes over fog-based IoT architecture",
   "abstract_candidates": [
     {
       "score": 9.0,
@@ -14,24 +18,33 @@
   ],
   "selected_abstract_preview": "Existing research studies on home automation systems mostly conserve energy by modeling the occupancy of users within home. Some others apply statistical approaches on the survey data about usage of appliances. Consequently, these research works either reduce wastage of electricity through automation or achieve energy efficiency based on appliances' usage estimations. However, they do not provide energy consumption modeling which is human comfort centric and also validated through practical impl",
   "counts": {
-    "main_blocks": 88,
+    "main_blocks": 89,
+    "main_text_blocks": 67,
     "supplementary_blocks": 2,
-    "discarded_blocks": 17,
-    "review_blocks": 8,
+    "table_blocks": 2,
+    "discarded_blocks": 28,
+    "review_blocks": 11,
     "block_kinds": {
+      "abstract": 1,
       "heading": 22,
       "paragraph": 56,
       "formula": 12
     },
     "discard_reasons": {
       "figure_or_table_caption": 2,
-      "figure_content": 15
+      "possible_table_leakage_sentence": 13,
+      "figure_content": 13
+    },
+    "warnings": {
+      "high_numeric_density": 8,
+      "removed_possible_table_leakage_sentence": 2,
+      "missing_terminal_punctuation": 2
     }
   },
   "quality": {
     "raw_body_characters": 57054,
-    "main_text_characters": 46184,
-    "main_text_ratio": 0.8095
+    "main_text_characters": 47467,
+    "main_text_ratio": 0.832
   },
   "warnings": [
     "manual_review_recommended"

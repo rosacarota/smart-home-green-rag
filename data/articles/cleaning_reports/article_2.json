@@ -1,9 +1,13 @@
 {
   "article_id": "article_2",
   "source_tei": "data\\articles\\extracted_grobid_tei\\article_2.grobid.tei.xml",
-  "main_output": "data\\articles\\cleaned_markdown\\article_2.md",
-  "supplementary_output": "data\\articles\\supplementary_markdown\\article_2.md",
+  "main_blocks_output": "data\\articles\\cleaned_blocks\\article_2.jsonl",
+  "supplementary_blocks_output": "data\\articles\\supplementary_blocks\\article_2.jsonl",
+  "table_blocks_output": "data\\articles\\table_blocks\\article_2.jsonl",
+  "discarded_blocks_output": "data\\articles\\discarded_blocks\\article_2.jsonl",
+  "review_blocks_output": "data\\articles\\review_blocks\\article_2.jsonl",
   "title_found": true,
+  "source_title": "State of the art of smart homes",
   "abstract_candidates": [
     {
       "score": 9.0,
@@ -15,22 +19,32 @@
   "selected_abstract_preview": "In this paper we present a review of the state of the art of smart homes. We will first look at the research work related to smart homes from various view points; first in the view point of specific techniques such as smart homes that utilize computer vision based techniques, smart homes that utilize audio-based techniques and then smart homes that utilize multimodal techniques. Then we look at it from the view point of specific applications of smart homes such as eldercare and childcare applica",
   "counts": {
     "main_blocks": 53,
+    "main_text_blocks": 40,
     "supplementary_blocks": 1,
-    "discarded_blocks": 14,
-    "review_blocks": 0,
+    "table_blocks": 2,
+    "discarded_blocks": 15,
+    "review_blocks": 3,
     "block_kinds": {
+      "abstract": 1,
       "heading": 13,
-      "paragraph": 41
+      "paragraph": 40
     },
     "discard_reasons": {
-      "figure_or_table_caption": 4,
-      "figure_content": 10
+      "figure_or_table_caption": 5,
+      "possible_table_leakage_sentence": 2,
+      "figure_content": 8
+    },
+    "warnings": {
+      "removed_possible_table_leakage_sentence": 1,
+      "high_numeric_density": 2
     }
   },
   "quality": {
     "raw_body_characters": 34174,
-    "main_text_characters": 25282,
-    "main_text_ratio": 0.7398
+    "main_text_characters": 25617,
+    "main_text_ratio": 0.7496
   },
-  "warnings": []
+  "warnings": [
+    "manual_review_recommended"
+  ]
 }

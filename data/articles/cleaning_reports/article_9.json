@@ -1,9 +1,13 @@
 {
   "article_id": "article_9",
   "source_tei": "data\\articles\\extracted_grobid_tei\\article_9.grobid.tei.xml",
-  "main_output": "data\\articles\\cleaned_markdown\\article_9.md",
-  "supplementary_output": null,
+  "main_blocks_output": "data\\articles\\cleaned_blocks\\article_9.jsonl",
+  "supplementary_blocks_output": null,
+  "table_blocks_output": "data\\articles\\table_blocks\\article_9.jsonl",
+  "discarded_blocks_output": "data\\articles\\discarded_blocks\\article_9.jsonl",
+  "review_blocks_output": "data\\articles\\review_blocks\\article_9.jsonl",
   "title_found": true,
+  "source_title": "Estimating electricity saving-potential in small offices using adaptive thermal comfort",
   "abstract_candidates": [
     {
       "score": 5.0,
@@ -15,22 +19,29 @@
   "selected_abstract_preview": "Small office buildings below 10,000 square feet account for approximately 75% of the total number of office buildings in the United States. Unlike large office buildings, small office buildings usually use packaged HVAC systems for environmental control and are not equipped with building management systems. The lack of smart control in small office buildings leaves lowhanging fruit unpicked in terms of energy efficiency. The commonly seen missed opportunities include the fixed cooling setpoint s",
   "counts": {
     "main_blocks": 51,
+    "main_text_blocks": 36,
     "supplementary_blocks": 0,
-    "discarded_blocks": 18,
-    "review_blocks": 1,
+    "table_blocks": 3,
+    "discarded_blocks": 15,
+    "review_blocks": 4,
     "block_kinds": {
-      "heading": 16,
+      "abstract": 1,
+      "heading": 15,
       "paragraph": 35
     },
     "discard_reasons": {
       "figure_or_table_caption": 4,
-      "figure_content": 14
+      "figure_content": 11
+    },
+    "warnings": {
+      "missing_terminal_punctuation": 1,
+      "high_numeric_density": 3
     }
   },
   "quality": {
-    "raw_body_characters": 26584,
-    "main_text_characters": 21227,
-    "main_text_ratio": 0.7985
+    "raw_body_characters": 26589,
+    "main_text_characters": 22891,
+    "main_text_ratio": 0.8609
   },
   "warnings": [
     "manual_review_recommended"

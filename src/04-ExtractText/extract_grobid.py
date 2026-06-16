@@ -48,9 +48,7 @@ def find_pdf(article: str) -> Path:
     pdf_path = PDF_DIR / f"{article_name}.pdf"
 
     if not pdf_path.exists():
-        raise FileNotFoundError(
-            f"PDF file not found: {pdf_path}"
-        )
+        raise FileNotFoundError(f"PDF file not found: {pdf_path}")
 
     return pdf_path
 
@@ -59,9 +57,7 @@ def find_all_pdfs() -> list[Path]:
     pdf_files = sorted(PDF_DIR.glob("article_*.pdf"))
 
     if not pdf_files:
-        raise FileNotFoundError(
-            f"No article PDF files found in: {PDF_DIR}"
-        )
+        raise FileNotFoundError(f"No article PDF files found in: {PDF_DIR}")
 
     return pdf_files
 
@@ -71,23 +67,17 @@ def create_client() -> GrobidClient:
     Create a GROBID client while remaining compatible with slightly
     different grobid-client-python versions.
     """
-    constructor_parameters = inspect.signature(
-        GrobidClient
-    ).parameters
+    constructor_parameters = inspect.signature(GrobidClient).parameters
 
     client_arguments: dict[str, object] = {
         "grobid_server": GROBID_SERVER,
     }
 
     if "coordinates" in constructor_parameters:
-        client_arguments["coordinates"] = (
-            GROBID_COORDINATE_ELEMENTS
-        )
+        client_arguments["coordinates"] = GROBID_COORDINATE_ELEMENTS
 
     if "timeout" in constructor_parameters:
-        client_arguments["timeout"] = (
-            GROBID_TIMEOUT_SECONDS
-        )
+        client_arguments["timeout"] = GROBID_TIMEOUT_SECONDS
 
     if "check_server" in constructor_parameters:
         client_arguments["check_server"] = True
@@ -116,7 +106,6 @@ def set_supported_argument(
 
     if required:
         joined_aliases = ", ".join(aliases)
-
         raise RuntimeError(
             "The installed GROBID client does not support any of "
             f"the expected parameters: {joined_aliases}"
@@ -130,9 +119,7 @@ def build_process_arguments(
     input_dir: Path,
     workers: int,
 ) -> dict[str, object]:
-    process_parameters = inspect.signature(
-        client.process
-    ).parameters
+    process_parameters = inspect.signature(client.process).parameters
 
     process_arguments: dict[str, object] = {
         "service": "processFulltextDocument",
@@ -166,63 +153,45 @@ def build_process_arguments(
     sentences_parameter = set_supported_argument(
         process_arguments,
         process_parameters,
-        aliases=(
-            "segment_sentences",
-            "segmentSentences",
-        ),
+        aliases=("segment_sentences", "segmentSentences"),
         value=True,
     )
 
     # Header and citation consolidation can call external services.
-    # They are unnecessary because article metadata are stored
-    # separately in this project.
+    # They are unnecessary because article metadata are stored separately.
     set_supported_argument(
         process_arguments,
         process_parameters,
-        aliases=(
-            "consolidate_header",
-            "consolidateHeader",
-        ),
+        aliases=("consolidate_header", "consolidateHeader"),
         value=False,
     )
-
     set_supported_argument(
         process_arguments,
         process_parameters,
-        aliases=(
-            "consolidate_citations",
-            "consolidateCitations",
-        ),
+        aliases=("consolidate_citations", "consolidateCitations"),
         value=False,
     )
-
     set_supported_argument(
         process_arguments,
         process_parameters,
-        aliases=(
-            "include_raw_citations",
-            "includeRawCitations",
-        ),
+        aliases=("include_raw_citations", "includeRawCitations"),
         value=False,
     )
-
     set_supported_argument(
         process_arguments,
         process_parameters,
-        aliases=(
-            "include_raw_affiliations",
-            "includeRawAffiliations",
-        ),
+        aliases=("include_raw_affiliations", "includeRawAffiliations"),
         value=False,
     )
 
+    # Important: this pipeline keeps only TEI as the canonical extraction output.
+    # The cleaner will create project-specific JSONL files from the TEI.
     set_supported_argument(
         process_arguments,
         process_parameters,
         aliases=("markdown_output",),
         value=False,
     )
-
     set_supported_argument(
         process_arguments,
         process_parameters,
@@ -231,34 +200,16 @@ def build_process_arguments(
     )
 
     print("GROBID extraction options:")
-    print(
-        "- XML IDs: "
-        f"{'enabled' if generated_ids_parameter else 'unsupported'}"
-    )
-    print(
-        "- PDF coordinates: "
-        f"{'enabled' if coordinates_parameter else 'unsupported'}"
-    )
-    print(
-        "- Sentence segmentation: "
-        f"{'enabled' if sentences_parameter else 'unsupported'}"
-    )
-    print(
-        "- Coordinate elements: "
-        + ", ".join(GROBID_COORDINATE_ELEMENTS)
-    )
+    print(f"- XML IDs: {'enabled' if generated_ids_parameter else 'unsupported'}")
+    print(f"- PDF coordinates: {'enabled' if coordinates_parameter else 'unsupported'}")
+    print(f"- Sentence segmentation: {'enabled' if sentences_parameter else 'unsupported'}")
+    print("- Coordinate elements: " + ", ".join(GROBID_COORDINATE_ELEMENTS))
 
     return process_arguments
 
 
-def process_directory(
-    input_dir: Path,
-    workers: int,
-) -> None:
-    OUTPUT_DIR.mkdir(
-        parents=True,
-        exist_ok=True,
-    )
+def process_directory(input_dir: Path, workers: int) -> None:
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
     client = create_client()
 
@@ -276,22 +227,13 @@ def process_directory(
     print("GROBID processing completed.")
 
 
-def find_generated_tei(
-    article_id: str,
-) -> Path | None:
-    expected_path = (
-        OUTPUT_DIR
-        / f"{article_id}.grobid.tei.xml"
-    )
+def find_generated_tei(article_id: str) -> Path | None:
+    expected_path = OUTPUT_DIR / f"{article_id}.grobid.tei.xml"
 
     if expected_path.exists():
         return expected_path
 
-    matching_files = sorted(
-        OUTPUT_DIR.glob(
-            f"{article_id}*.tei.xml"
-        )
-    )
+    matching_files = sorted(OUTPUT_DIR.glob(f"{article_id}*.tei.xml"))
 
     if matching_files:
         return matching_files[0]
@@ -299,59 +241,31 @@ def find_generated_tei(
     return None
 
 
-def count_coordinated_elements(
-    root: ET.Element,
-) -> int:
-    return sum(
-        1
-        for element in root.iter()
-        if element.attrib.get("coords")
-    )
+def count_coordinated_elements(root: ET.Element) -> int:
+    return sum(1 for element in root.iter() if element.attrib.get("coords"))
 
 
-def validate_generated_tei(
-    tei_path: Path,
-) -> dict[str, int]:
-    """
-    Verify that the generated TEI contains the requested enrichment.
-    """
+def validate_generated_tei(tei_path: Path) -> dict[str, int]:
+    """Verify that the generated TEI contains the requested enrichment."""
     try:
         tree = ET.parse(tei_path)
     except ET.ParseError as error:
-        raise ValueError(
-            f"Invalid TEI XML generated: {tei_path}"
-        ) from error
+        raise ValueError(f"Invalid TEI XML generated: {tei_path}") from error
 
     root = tree.getroot()
 
-    paragraph_count = len(
-        root.findall(".//tei:p", NS)
-    )
-
-    sentence_count = len(
-        root.findall(".//tei:s", NS)
-    )
-
-    note_count = len(
-        root.findall(".//tei:note", NS)
-    )
-
-    figure_count = len(
-        root.findall(".//tei:figure", NS)
-    )
-
-    coordinated_element_count = (
-        count_coordinated_elements(root)
-    )
+    paragraph_count = len(root.findall(".//tei:p", NS))
+    sentence_count = len(root.findall(".//tei:s", NS))
+    note_count = len(root.findall(".//tei:note", NS))
+    figure_count = len(root.findall(".//tei:figure", NS))
+    coordinated_element_count = count_coordinated_elements(root)
 
     statistics = {
         "paragraphs": paragraph_count,
         "sentences": sentence_count,
         "notes": note_count,
         "figures": figure_count,
-        "coordinated_elements": (
-            coordinated_element_count
-        ),
+        "coordinated_elements": coordinated_element_count,
     }
 
     print(f"TEI validation for: {tei_path.name}")
@@ -359,10 +273,7 @@ def validate_generated_tei(
     print(f"- Sentences: {sentence_count}")
     print(f"- Notes: {note_count}")
     print(f"- Figures/tables: {figure_count}")
-    print(
-        "- Elements with PDF coordinates: "
-        f"{coordinated_element_count}"
-    )
+    print(f"- Elements with PDF coordinates: {coordinated_element_count}")
 
     if coordinated_element_count == 0:
         print(
@@ -373,73 +284,41 @@ def validate_generated_tei(
     if sentence_count == 0:
         print(
             "Warning: no <s> elements were found. "
-            "Sentence segmentation may not be enabled "
-            "on the GROBID server."
+            "Sentence segmentation may not be enabled on the GROBID server."
         )
 
     if paragraph_count == 0:
-        print(
-            "Warning: no body paragraphs were extracted."
-        )
+        print("Warning: no body paragraphs were extracted.")
 
     return statistics
 
 
-def process_single_pdf(
-    pdf_path: Path,
-    workers: int,
-) -> None:
+def process_single_pdf(pdf_path: Path, workers: int) -> None:
     article_id = pdf_path.stem
 
     # The client processes directories, so use a temporary input folder.
     with tempfile.TemporaryDirectory() as temporary_directory:
-        temporary_input_dir = Path(
-            temporary_directory
-        )
+        temporary_input_dir = Path(temporary_directory)
+        temporary_pdf_path = temporary_input_dir / pdf_path.name
+        shutil.copy2(pdf_path, temporary_pdf_path)
 
-        temporary_pdf_path = (
-            temporary_input_dir
-            / pdf_path.name
-        )
+        process_directory(input_dir=temporary_input_dir, workers=workers)
 
-        shutil.copy2(
-            pdf_path,
-            temporary_pdf_path,
-        )
-
-        process_directory(
-            input_dir=temporary_input_dir,
-            workers=workers,
-        )
-
-    generated_tei = find_generated_tei(
-        article_id
-    )
+    generated_tei = find_generated_tei(article_id)
 
     if generated_tei is None:
-        raise RuntimeError(
-            "GROBID did not generate a TEI file "
-            f"for: {article_id}"
-        )
+        raise RuntimeError(f"GROBID did not generate a TEI file for: {article_id}")
 
     print(f"TEI file generated: {generated_tei}")
-
-    validate_generated_tei(
-        generated_tei
-    )
+    validate_generated_tei(generated_tei)
 
 
-def process_all_pdfs(
-    workers: int,
-) -> None:
+def process_all_pdfs(workers: int) -> None:
     pdf_files = find_all_pdfs()
 
     print(f"PDF files found: {len(pdf_files)}")
 
-    process_directory(
-        input_dir=PDF_DIR,
-        workers=workers,
-    )
+    process_directory(input_dir=PDF_DIR, workers=workers)
 
     generated_count = 0
     missing_articles: list[str] = []
@@ -447,68 +326,43 @@ def process_all_pdfs(
 
     for pdf_path in pdf_files:
         article_id = pdf_path.stem
-        generated_tei = find_generated_tei(
-            article_id
-        )
+        generated_tei = find_generated_tei(article_id)
 
         if generated_tei is None:
-            missing_articles.append(
-                article_id
-            )
+            missing_articles.append(article_id)
             continue
 
         generated_count += 1
 
         try:
-            validate_generated_tei(
-                generated_tei
-            )
+            validate_generated_tei(generated_tei)
         except (ValueError, OSError) as error:
-            invalid_articles.append(
-                f"{article_id}: {error}"
-            )
+            invalid_articles.append(f"{article_id}: {error}")
 
-    print(
-        f"TEI files generated: "
-        f"{generated_count}/{len(pdf_files)}"
-    )
+    print(f"TEI files generated: {generated_count}/{len(pdf_files)}")
 
     if missing_articles:
         print("Missing TEI files:")
-
         for article_id in missing_articles:
             print(f"- {article_id}")
 
     if invalid_articles:
         print("Invalid TEI files:")
-
         for error_message in invalid_articles:
             print(f"- {error_message}")
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description=(
-            "Extract scientific article PDFs as enriched "
-            "GROBID TEI XML."
-        )
+        description="Extract scientific article PDFs as enriched GROBID TEI XML."
     )
 
-    selection_group = (
-        parser.add_mutually_exclusive_group(
-            required=True
-        )
-    )
-
+    selection_group = parser.add_mutually_exclusive_group(required=True)
     selection_group.add_argument(
         "--article",
         type=str,
-        help=(
-            "Article number or name, "
-            "for example: 2 or article_2."
-        ),
+        help="Article number or name, for example: 2 or article_2.",
     )
-
     selection_group.add_argument(
         "--all",
         action="store_true",
@@ -519,32 +373,18 @@ def main() -> None:
         "--workers",
         type=int,
         default=1,
-        help=(
-            "Number of concurrent GROBID requests. "
-            "Use 1 for a local CPU-based server."
-        ),
+        help="Number of concurrent GROBID requests. Use 1 for a local CPU-based server.",
     )
 
     args = parser.parse_args()
 
     if args.workers < 1:
-        parser.error(
-            "--workers must be at least 1."
-        )
+        parser.error("--workers must be at least 1.")
 
     if args.article:
-        pdf_path = find_pdf(
-            args.article
-        )
-
-        process_single_pdf(
-            pdf_path=pdf_path,
-            workers=args.workers,
-        )
+        process_single_pdf(pdf_path=find_pdf(args.article), workers=args.workers)
     else:
-        process_all_pdfs(
-            workers=args.workers,
-        )
+        process_all_pdfs(workers=args.workers)
 
 
 if __name__ == "__main__":

@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from pathlib import Path
 from dataclasses import asdict, dataclass, field
 from collections import Counter
@@ -9,8 +11,13 @@ import xml.etree.ElementTree as ET
 
 
 TEI_DIR = Path("data/articles/extracted_grobid_tei")
-MAIN_OUTPUT_DIR = Path("data/articles/cleaned_markdown")
-SUPPLEMENTARY_OUTPUT_DIR = Path("data/articles/supplementary_markdown")
+
+# Canonical outputs for the RAG pipeline.
+CLEANED_BLOCKS_DIR = Path("data/articles/cleaned_blocks")
+SUPPLEMENTARY_BLOCKS_DIR = Path("data/articles/supplementary_blocks")
+TABLE_BLOCKS_DIR = Path("data/articles/table_blocks")
+
+# Diagnostic outputs.
 REPORT_DIR = Path("data/articles/cleaning_reports")
 DISCARDED_BLOCKS_DIR = Path("data/articles/discarded_blocks")
 REVIEW_BLOCKS_DIR = Path("data/articles/review_blocks")
@@ -44,8 +51,7 @@ EXCLUDED_SECTION_TITLES = {
     "supplemental material",
 }
 
-# These sections can contain useful information, but they should not interrupt
-# the main reading flow. They are written to a separate Markdown file.
+# Useful, but usually not part of the main narrative flow.
 SUPPLEMENTARY_SECTION_TITLES = {
     "glossary",
     "highlights",
@@ -85,8 +91,7 @@ SUPPLEMENTARY_CONTAINER_MARKERS = {
     "case-study",
 }
 
-# Inline elements are ignored when extracting the text of a paragraph.
-# Standalone notes and boxed figures are handled separately as supplementary.
+# Inline elements ignored when extracting prose.
 INLINE_SKIPPED_ELEMENT_NAMES = {
     "figure",
     "table",
@@ -132,6 +137,12 @@ EMBEDDED_SUPPLEMENTARY_PATTERN = re.compile(
     r"Outstanding Questions|Research Questions|Trends)\b"
 )
 
+TABLE_LEAKAGE_MARKERS = {
+    "technique used for activity detection",
+    "papers 1",
+    "comparison of smart home",
+}
+
 
 @dataclass
 class Block:
@@ -153,6 +164,16 @@ class AbstractCandidate:
     score: float
     word_count: int
     language: str = ""
+
+
+@dataclass
+class CleaningResult:
+    main_blocks: list[Block]
+    supplementary_blocks: list[Block]
+    table_blocks: list[Block]
+    discarded_blocks: list[Block]
+    review_blocks: list[Block]
+    report: dict
 
 
 def normalize_article_name(article: str) -> str:
@@ -204,9 +225,7 @@ def find_tei_file(article: str) -> Path:
     if matching_files:
         return matching_files[0]
 
-    raise FileNotFoundError(
-        f"TEI file not found for article: {article_id}"
-    )
+    raise FileNotFoundError(f"TEI file not found for article: {article_id}")
 
 
 def find_all_tei_files() -> list[Path]:
@@ -247,6 +266,12 @@ def normalize_text(text: str) -> str:
     return text
 
 
+def normalize_heading(heading: str) -> str:
+    heading = unicodedata.normalize("NFKC", heading).casefold()
+    heading = re.sub(r"[^\w]+", " ", heading, flags=re.UNICODE)
+    return re.sub(r"\s+", " ", heading).strip()
+
+
 def extract_element_text(element: ET.Element) -> str:
     parts: list[str] = []
 
@@ -259,19 +284,17 @@ def extract_element_text(element: ET.Element) -> str:
 
         skip_child = child_name in INLINE_SKIPPED_ELEMENT_NAMES
 
+        # Bibliographic references are usually not useful inside the chunk text.
         if child_name == "ref" and child_type == "bibr":
             skip_child = True
 
         if child_name == "lb":
             parts.append(" ")
-
         elif child_name == "s" and not skip_child:
             sentence_text = extract_element_text(child)
-
             if sentence_text:
                 parts.append(sentence_text)
                 parts.append(" ")
-
         elif not skip_child:
             parts.append(extract_element_text(child))
 
@@ -279,11 +302,6 @@ def extract_element_text(element: ET.Element) -> str:
             parts.append(child.tail)
 
     return normalize_text("".join(parts))
-
-def normalize_heading(heading: str) -> str:
-    heading = unicodedata.normalize("NFKC", heading).casefold()
-    heading = re.sub(r"[^\w]+", " ", heading, flags=re.UNICODE)
-    return re.sub(r"\s+", " ", heading).strip()
 
 
 def heading_matches(heading: str, candidates: set[str]) -> bool:
@@ -347,10 +365,7 @@ def classify_container(
         if heading_equals(heading, SUPPLEMENTARY_SECTION_TITLES):
             return "supplementary", "supplementary_section"
 
-    if any(
-        marker in attributes
-        for marker in SUPPLEMENTARY_CONTAINER_MARKERS
-    ):
+    if any(marker in attributes for marker in SUPPLEMENTARY_CONTAINER_MARKERS):
         return "supplementary", "supplementary_container_type"
 
     return inherited_category, "inherited"
@@ -366,12 +381,48 @@ def numeric_ratio(text: str) -> float:
     if not words:
         return 0.0
 
-    numeric_words = sum(
-        any(character.isdigit() for character in word)
-        for word in words
-    )
-
+    numeric_words = sum(any(character.isdigit() for character in word) for word in words)
     return numeric_words / len(words)
+
+
+def parse_coords(coords: str) -> list[tuple[int, float, float, float, float]]:
+    parsed: list[tuple[int, float, float, float, float]] = []
+
+    if not coords:
+        return parsed
+
+    for item in coords.split(";"):
+        parts = item.split(",")
+
+        if len(parts) < 5:
+            continue
+
+        try:
+            page = int(float(parts[0]))
+            x = float(parts[1])
+            y = float(parts[2])
+            width = float(parts[3])
+            height = float(parts[4])
+            parsed.append((page, x, y, width, height))
+        except ValueError:
+            continue
+
+    return parsed
+
+
+def coord_pages(coords: str) -> list[int]:
+    pages = sorted({page for page, *_ in parse_coords(coords)})
+    return pages
+
+
+def small_font_ratio(coords: str, threshold: float = 7.0) -> float:
+    parsed_coords = parse_coords(coords)
+
+    if not parsed_coords:
+        return 0.0
+
+    small_count = sum(1 for *_, height in parsed_coords if height < threshold)
+    return small_count / len(parsed_coords)
 
 
 def looks_like_definition_block(text: str) -> bool:
@@ -402,9 +453,8 @@ def looks_like_caption(text: str) -> bool:
         "data from",
     )
 
-    return (
-        word_count(text) <= 160
-        and any(marker in normalized_text for marker in credit_markers)
+    return word_count(text) <= 160 and any(
+        marker in normalized_text for marker in credit_markers
     )
 
 
@@ -416,6 +466,42 @@ def looks_like_chart_text(text: str) -> bool:
         and len(years) >= 4
         and numeric_ratio(text) >= 0.30
     )
+
+
+def looks_like_table_leakage_sentence(text: str, coords: str) -> bool:
+    normalized_text = normalize_heading(text)
+    words = word_count(text)
+    ratio = small_font_ratio(coords)
+
+    has_table_marker = any(
+        marker in normalized_text for marker in TABLE_LEAKAGE_MARKERS
+    )
+
+    numbered_category_count = len(
+        re.findall(r"\b\d+\s+[A-Z][A-Za-z\- ]{3,60}", text)
+    )
+
+    many_references = text.count(";") >= 12
+    high_numeric_density = words <= 180 and numeric_ratio(text) >= 0.35
+
+    if has_table_marker:
+        return True
+
+    if ratio >= 0.85 and (
+        numbered_category_count >= 2
+        or many_references
+        or high_numeric_density
+    ):
+        return True
+
+    if ratio >= 0.50 and (
+        numbered_category_count >= 3
+        or many_references
+        or high_numeric_density
+    ):
+        return True
+
+    return False
 
 
 def is_noise_paragraph(text: str) -> bool:
@@ -438,8 +524,7 @@ def is_noise_paragraph(text: str) -> bool:
     )
 
     if word_count(text) <= 45 and any(
-        marker in normalized_text
-        for marker in short_noise_markers
+        marker in normalized_text for marker in short_noise_markers
     ):
         return True
 
@@ -500,6 +585,52 @@ def classify_text_block(
     return "main", "main_content", warnings
 
 
+def extract_clean_text_from_sentences(
+    element: ET.Element,
+    section_path: list[str],
+    level: int,
+    source_kind: str,
+    discarded_blocks: list[Block],
+) -> tuple[str, list[str]]:
+    sentence_elements = element.findall(".//tei:s", NS)
+
+    if not sentence_elements:
+        return extract_element_text(element), []
+
+    kept_sentences: list[str] = []
+    warnings: list[str] = []
+
+    for sentence_index, sentence in enumerate(sentence_elements, start=1):
+        sentence_text = extract_element_text(sentence)
+
+        if not sentence_text:
+            continue
+
+        sentence_coords = sentence.attrib.get("coords", "")
+
+        if looks_like_table_leakage_sentence(sentence_text, sentence_coords):
+            warnings.append("removed_possible_table_leakage_sentence")
+            discarded_blocks.append(
+                Block(
+                    kind="sentence",
+                    text=sentence_text,
+                    category="discard",
+                    reason="possible_table_leakage_sentence",
+                    level=level,
+                    section_path=list(section_path),
+                    source_tag=local_name(sentence.tag),
+                    source_type=source_kind,
+                    coords=sentence_coords,
+                    warnings=[f"sentence_index:{sentence_index}"],
+                )
+            )
+            continue
+
+        kept_sentences.append(sentence_text)
+
+    return normalize_text(" ".join(kept_sentences)), sorted(set(warnings))
+
+
 def find_document_title(root: ET.Element) -> str:
     title_paths = [
         ".//tei:teiHeader//tei:titleStmt/tei:title[@type='main']",
@@ -549,10 +680,7 @@ def extract_abstract_candidate(element: ET.Element) -> str:
     if not paragraph_elements:
         return extract_element_text(element)
 
-    paragraphs = [
-        extract_element_text(paragraph)
-        for paragraph in paragraph_elements
-    ]
+    paragraphs = [extract_element_text(paragraph) for paragraph in paragraph_elements]
     paragraphs = [
         paragraph
         for paragraph in paragraphs
@@ -562,10 +690,7 @@ def extract_abstract_candidate(element: ET.Element) -> str:
     return "\n\n".join(paragraphs)
 
 
-def score_abstract_candidate(
-    text: str,
-    language: str,
-) -> float:
+def score_abstract_candidate(text: str, language: str) -> float:
     words = word_count(text)
     sentence_count = len(re.findall(r"[.!?](?:\s|$)", text))
     normalized_text = text.casefold()
@@ -610,9 +735,7 @@ def score_abstract_candidate(
     return score
 
 
-def select_abstract(
-    root: ET.Element,
-) -> tuple[str, list[AbstractCandidate], list[str]]:
+def select_abstract(root: ET.Element) -> tuple[str, list[AbstractCandidate], list[str]]:
     candidates: list[AbstractCandidate] = []
     warnings: list[str] = []
 
@@ -662,7 +785,13 @@ def append_text_block(
     discarded_blocks: list[Block],
     list_prefix: str = "",
 ) -> None:
-    text = extract_element_text(element)
+    text, extraction_warnings = extract_clean_text_from_sentences(
+        element=element,
+        section_path=section_path,
+        level=level,
+        source_kind=kind,
+        discarded_blocks=discarded_blocks,
+    )
 
     if not text:
         return
@@ -670,10 +799,8 @@ def append_text_block(
     if list_prefix:
         text = f"{list_prefix}{text}"
 
-    category, reason, warnings = classify_text_block(
-        text,
-        inherited_category,
-    )
+    category, reason, warnings = classify_text_block(text, inherited_category)
+    warnings = sorted(set([*warnings, *extraction_warnings]))
 
     block = Block(
         kind=kind,
@@ -694,40 +821,56 @@ def append_text_block(
         blocks.append(block)
 
 
+def append_discarded_container(
+    element: ET.Element,
+    reason: str,
+    level: int,
+    section_path: list[str],
+    discarded_blocks: list[Block],
+    kind: str = "container",
+) -> None:
+    discarded_text = extract_element_text(element)
+
+    if not discarded_text:
+        return
+
+    discarded_blocks.append(
+        Block(
+            kind=kind,
+            text=discarded_text,
+            category="discard",
+            reason=reason,
+            level=level,
+            section_path=list(section_path),
+            source_tag=local_name(element.tag),
+            source_type=element.attrib.get("type", ""),
+            coords=element.attrib.get("coords", ""),
+        )
+    )
+
+
 def walk_container(
     parent: ET.Element,
     blocks: list[Block],
+    table_blocks: list[Block],
     discarded_blocks: list[Block],
     inherited_category: str,
     heading_level: int,
     section_path: list[str],
 ) -> None:
-    container_category, container_reason = classify_container(
-        parent,
-        inherited_category,
-    )
+    container_category, container_reason = classify_container(parent, inherited_category)
 
     current_category = container_category
     current_section_path = list(section_path)
 
     if current_category == "discard":
-        discarded_text = extract_element_text(parent)
-
-        if discarded_text:
-            discarded_blocks.append(
-                Block(
-                    kind="container",
-                    text=discarded_text,
-                    category="discard",
-                    reason=container_reason,
-                    level=heading_level,
-                    section_path=list(section_path),
-                    source_tag=local_name(parent.tag),
-                    source_type=parent.attrib.get("type", ""),
-                    coords=parent.attrib.get("coords", ""),
-                )
-            )
-
+        append_discarded_container(
+            element=parent,
+            reason=container_reason,
+            level=heading_level,
+            section_path=section_path,
+            discarded_blocks=discarded_blocks,
+        )
         return
 
     for child in parent:
@@ -739,10 +882,7 @@ def walk_container(
             if not heading:
                 continue
 
-            heading_category, heading_reason = classify_container(
-                parent,
-                current_category,
-            )
+            heading_category, heading_reason = classify_container(parent, current_category)
 
             if heading_matches(heading, EXCLUDED_SECTION_TITLES):
                 current_category = "discard"
@@ -753,10 +893,7 @@ def walk_container(
             if (
                 normalized_heading.startswith("box ")
                 or normalized_heading.startswith("case study ")
-                or heading_equals(
-                    heading,
-                    SUPPLEMENTARY_SECTION_TITLES,
-                )
+                or heading_equals(heading, SUPPLEMENTARY_SECTION_TITLES)
             ):
                 current_category = "supplementary"
                 heading_reason = "supplementary_heading"
@@ -771,7 +908,7 @@ def walk_container(
                     text=heading,
                     category=current_category,
                     reason=heading_reason,
-                    level=min(max(heading_level, 2), 6),
+                    level=min(max(heading_level, 1), 6),
                     section_path=list(current_section_path),
                     source_tag=child_name,
                     source_type=child.attrib.get("type", ""),
@@ -782,24 +919,25 @@ def walk_container(
 
         if child_name == "div":
             walk_container(
-                child,
-                blocks,
-                discarded_blocks,
-                current_category,
-                min(heading_level + 1, 6),
-                current_section_path,
+                parent=child,
+                blocks=blocks,
+                table_blocks=table_blocks,
+                discarded_blocks=discarded_blocks,
+                inherited_category=current_category,
+                heading_level=min(heading_level + 1, 6),
+                section_path=current_section_path,
             )
             continue
 
         if child_name in {"p", "ab"}:
             append_text_block(
-                child,
-                "paragraph",
-                current_category,
-                current_section_path,
-                heading_level,
-                blocks,
-                discarded_blocks,
+                element=child,
+                kind="paragraph",
+                inherited_category=current_category,
+                section_path=current_section_path,
+                level=heading_level,
+                blocks=blocks,
+                discarded_blocks=discarded_blocks,
             )
             continue
 
@@ -808,90 +946,84 @@ def walk_container(
             items = child.findall("./tei:item", NS)
 
             for index, item in enumerate(items, start=1):
-                prefix = (
-                    f"{index}. "
-                    if list_type in {"ordered", "numbered"}
-                    else "- "
-                )
+                prefix = f"{index}. " if list_type in {"ordered", "numbered"} else "- "
                 append_text_block(
-                    item,
-                    "list_item",
-                    current_category,
-                    current_section_path,
-                    heading_level,
-                    blocks,
-                    discarded_blocks,
+                    element=item,
+                    kind="list_item",
+                    inherited_category=current_category,
+                    section_path=current_section_path,
+                    level=heading_level,
+                    blocks=blocks,
+                    discarded_blocks=discarded_blocks,
                     list_prefix=prefix,
                 )
             continue
 
         if child_name == "quote":
             append_text_block(
-                child,
-                "quote",
-                current_category,
-                current_section_path,
-                heading_level,
-                blocks,
-                discarded_blocks,
+                element=child,
+                kind="quote",
+                inherited_category=current_category,
+                section_path=current_section_path,
+                level=heading_level,
+                blocks=blocks,
+                discarded_blocks=discarded_blocks,
             )
             continue
 
         if child_name == "formula":
             append_text_block(
-                child,
-                "formula",
-                current_category,
-                current_section_path,
-                heading_level,
-                blocks,
-                discarded_blocks,
+                element=child,
+                kind="formula",
+                inherited_category=current_category,
+                section_path=current_section_path,
+                level=heading_level,
+                blocks=blocks,
+                discarded_blocks=discarded_blocks,
             )
             continue
 
         if child_name == "note":
             walk_container(
-                child,
-                blocks,
-                discarded_blocks,
-                "supplementary",
-                min(heading_level + 1, 6),
-                current_section_path,
+                parent=child,
+                blocks=blocks,
+                table_blocks=table_blocks,
+                discarded_blocks=discarded_blocks,
+                inherited_category="supplementary",
+                heading_level=min(heading_level + 1, 6),
+                section_path=current_section_path,
             )
             continue
 
         if child_name == "figure":
-            figure_category, _ = classify_container(
-                child,
-                current_category,
-            )
+            figure_type = child.attrib.get("type", "").casefold()
+            figure_text = extract_element_text(child)
 
-            if figure_category == "supplementary":
-                walk_container(
-                    child,
-                    blocks,
-                    discarded_blocks,
-                    "supplementary",
-                    min(heading_level + 1, 6),
-                    current_section_path,
-                )
-            else:
-                figure_text = extract_element_text(child)
-
+            if figure_type == "table":
                 if figure_text:
-                    discarded_blocks.append(
+                    table_blocks.append(
                         Block(
-                            kind="figure",
+                            kind="table",
                             text=figure_text,
-                            category="discard",
-                            reason="figure_content",
+                            category="table",
+                            reason="grobid_table_figure",
                             level=heading_level,
                             section_path=list(current_section_path),
                             source_tag=child_name,
-                            source_type=child.attrib.get("type", ""),
+                            source_type=figure_type,
                             coords=child.attrib.get("coords", ""),
+                            warnings=detect_block_warnings(figure_text),
                         )
                     )
+            else:
+                append_discarded_container(
+                    element=child,
+                    reason="figure_content",
+                    level=heading_level,
+                    section_path=current_section_path,
+                    discarded_blocks=discarded_blocks,
+                    kind="figure",
+                )
             continue
 
         if child_name in {
@@ -902,60 +1034,51 @@ def walk_container(
             "listBibl",
             "biblStruct",
         }:
-            discarded_text = extract_element_text(child)
-
-            if discarded_text:
-                discarded_blocks.append(
-                    Block(
-                        kind=child_name,
-                        text=discarded_text,
-                        category="discard",
-                        reason=f"excluded_{child_name}",
-                        level=heading_level,
-                        section_path=list(current_section_path),
-                        source_tag=child_name,
-                        source_type=child.attrib.get("type", ""),
-                        coords=child.attrib.get("coords", ""),
-                    )
-                )
+            append_discarded_container(
+                element=child,
+                reason=f"excluded_{child_name}",
+                level=heading_level,
+                section_path=current_section_path,
+                discarded_blocks=discarded_blocks,
+                kind=child_name,
+            )
             continue
 
         # Preserve paragraphs nested inside publisher-specific wrapper tags.
         if list(child):
             walk_container(
-                child,
-                blocks,
-                discarded_blocks,
-                current_category,
-                heading_level,
-                current_section_path,
+                parent=child,
+                blocks=blocks,
+                table_blocks=table_blocks,
+                discarded_blocks=discarded_blocks,
+                inherited_category=current_category,
+                heading_level=heading_level,
+                section_path=current_section_path,
             )
 
 
-def parse_body(
-    root: ET.Element,
-) -> tuple[list[Block], list[Block], int]:
+def parse_body(root: ET.Element) -> tuple[list[Block], list[Block], list[Block], int]:
     body = root.find(".//tei:text/tei:body", NS)
 
     if body is None:
-        raise ValueError(
-            "The TEI document does not contain a body element."
-        )
+        raise ValueError("The TEI document does not contain a body element.")
 
     blocks: list[Block] = []
+    table_blocks: list[Block] = []
     discarded_blocks: list[Block] = []
     raw_body_text = normalize_text(" ".join(body.itertext()))
 
     walk_container(
-        body,
-        blocks,
-        discarded_blocks,
+        parent=body,
+        blocks=blocks,
+        table_blocks=table_blocks,
+        discarded_blocks=discarded_blocks,
         inherited_category="main",
-        heading_level=2,
+        heading_level=1,
         section_path=[],
     )
 
-    return blocks, discarded_blocks, len(raw_body_text)
+    return blocks, table_blocks, discarded_blocks, len(raw_body_text)
 
 
 def text_fingerprint(text: str) -> str:
@@ -998,53 +1121,67 @@ def remove_duplicate_blocks(
     return unique_blocks
 
 
-def render_blocks(
-    blocks: list[Block],
-    category: str,
-) -> str:
-    lines: list[str] = []
-
-    for block in blocks:
-        if block.category != category:
-            continue
-
-        if block.kind == "heading":
-            lines.extend(
-                [
-                    f"{'#' * block.level} {block.text}",
-                    "",
-                ]
-            )
-        elif block.kind == "quote":
-            lines.extend([f"> {block.text}", ""])
-        else:
-            lines.extend([block.text, ""])
-
-    markdown = "\n".join(lines)
-    markdown = re.sub(r"\n{3,}", "\n\n", markdown)
-    return markdown.strip()
+def block_to_record(
+    article_id: str,
+    source_title: str,
+    source_tei: Path,
+    block: Block,
+    block_index: int,
+) -> dict:
+    record = asdict(block)
+    record.update(
+        {
+            "article_id": article_id,
+            "source_title": source_title,
+            "source_tei": str(source_tei),
+            "block_index": block_index,
+            "section_title": block.section_path[-1] if block.section_path else None,
+            "section_depth": len(block.section_path),
+            "word_count": word_count(block.text),
+            "text_characters": len(block.text),
+            "pages": coord_pages(block.coords),
+        }
+    )
+    return record
 
 
-def write_jsonl(path: Path, blocks: list[Block]) -> None:
+def write_jsonl(path: Path, records: list[dict]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
 
-    if not blocks:
+    if not records:
         if path.exists():
             path.unlink()
         return
 
     with path.open("w", encoding="utf-8") as file:
-        for block in blocks:
-            json.dump(asdict(block), file, ensure_ascii=False)
+        for record in records:
+            json.dump(record, file, ensure_ascii=False)
             file.write("\n")
+
+
+def build_records(
+    article_id: str,
+    source_title: str,
+    source_tei: Path,
+    blocks: list[Block],
+) -> list[dict]:
+    return [
+        block_to_record(
+            article_id=article_id,
+            source_title=source_title,
+            source_tei=source_tei,
+            block=block,
+            block_index=index,
+        )
+        for index, block in enumerate(blocks, start=1)
+    ]
 
 
 def clean_tei_file(tei_path: Path) -> Path:
     article_id = get_article_id(tei_path)
-    main_output_path = MAIN_OUTPUT_DIR / f"{article_id}.md"
-    supplementary_output_path = (
-        SUPPLEMENTARY_OUTPUT_DIR / f"{article_id}.md"
-    )
+    main_output_path = CLEANED_BLOCKS_DIR / f"{article_id}.jsonl"
+    supplementary_output_path = SUPPLEMENTARY_BLOCKS_DIR / f"{article_id}.jsonl"
+    table_output_path = TABLE_BLOCKS_DIR / f"{article_id}.jsonl"
     report_path = REPORT_DIR / f"{article_id}.json"
     discarded_path = DISCARDED_BLOCKS_DIR / f"{article_id}.jsonl"
     review_path = REVIEW_BLOCKS_DIR / f"{article_id}.jsonl"
@@ -1058,87 +1195,54 @@ def clean_tei_file(tei_path: Path) -> Path:
 
     root = tree.getroot()
     title = find_document_title(root)
-    abstract_text, abstract_candidates, document_warnings = select_abstract(
-        root
-    )
-    blocks, discarded_blocks, raw_body_length = parse_body(root)
-    blocks = remove_duplicate_blocks(
-        blocks,
-        abstract_text,
-        discarded_blocks,
-    )
+    document_warnings: list[str] = []
+
+    if not title:
+        title = article_id
+        document_warnings.append("title_not_found")
+
+    abstract_text, abstract_candidates, abstract_warnings = select_abstract(root)
+    document_warnings.extend(abstract_warnings)
+
+    blocks, table_blocks, discarded_blocks, raw_body_length = parse_body(root)
+    blocks = remove_duplicate_blocks(blocks, abstract_text, discarded_blocks)
+
+    if abstract_text:
+        abstract_block = Block(
+            kind="abstract",
+            text=abstract_text,
+            category="main",
+            reason="selected_abstract",
+            level=1,
+            section_path=["Abstract"],
+            source_tag="abstract",
+            source_type="",
+            coords="",
+            warnings=[],
+        )
+        blocks = [abstract_block, *blocks]
+    else:
+        document_warnings.append("abstract_not_selected")
 
     main_blocks = [block for block in blocks if block.category == "main"]
     supplementary_blocks = [
-        block for block in blocks
-        if block.category == "supplementary"
+        block for block in blocks if block.category == "supplementary"
     ]
-    review_blocks = [block for block in blocks if block.warnings]
+    review_blocks = [
+        block
+        for block in [*main_blocks, *supplementary_blocks, *table_blocks]
+        if block.warnings
+    ]
 
-    main_body_markdown = render_blocks(blocks, "main")
-    supplementary_markdown = render_blocks(blocks, "supplementary")
+    non_heading_main_blocks = [
+        block for block in main_blocks if block.kind != "heading"
+    ]
 
-    main_lines: list[str] = []
-
-    if title:
-        main_lines.extend([f"# {title}", ""])
-    else:
-        document_warnings.append("title_not_found")
-
-    if abstract_text:
-        main_lines.extend(["## Abstract", "", abstract_text, ""])
-
-    if main_body_markdown:
-        main_lines.append(main_body_markdown)
-
-    main_markdown = "\n".join(main_lines)
-    main_markdown = re.sub(r"\n{3,}", "\n\n", main_markdown).strip()
-
-    if not main_markdown:
+    if not non_heading_main_blocks:
         raise ValueError(f"No useful main content extracted from: {tei_path}")
 
-    MAIN_OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    main_output_path.write_text(
-        main_markdown + "\n",
-        encoding="utf-8",
-    )
-
-    SUPPLEMENTARY_OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-
-    if supplementary_markdown:
-        supplementary_document = "\n".join(
-            [
-                f"# {title or article_id} — Supplementary Content",
-                "",
-                supplementary_markdown,
-            ]
-        ).strip()
-        supplementary_output_path.write_text(
-            supplementary_document + "\n",
-            encoding="utf-8",
-        )
-    elif supplementary_output_path.exists():
-        supplementary_output_path.unlink()
-
-    write_jsonl(discarded_path, discarded_blocks)
-    write_jsonl(review_path, review_blocks)
-
-    main_text_length = sum(
-        len(block.text)
-        for block in main_blocks
-        if block.kind != "heading"
-    )
-    cleaned_ratio = (
-        main_text_length / raw_body_length
-        if raw_body_length
-        else 0.0
-    )
-
-    if not abstract_text:
-        document_warnings.append("abstract_not_selected")
-
-    if not any(block.kind == "paragraph" for block in main_blocks):
-        document_warnings.append("no_main_paragraphs")
+    main_text_length = sum(len(block.text) for block in non_heading_main_blocks)
+    cleaned_ratio = main_text_length / raw_body_length if raw_body_length else 0.0
 
     if cleaned_ratio < 0.25:
         document_warnings.append("low_main_text_ratio")
@@ -1146,16 +1250,32 @@ def clean_tei_file(tei_path: Path) -> Path:
     if review_blocks:
         document_warnings.append("manual_review_recommended")
 
+    main_records = build_records(article_id, title, tei_path, main_blocks)
+    supplementary_records = build_records(
+        article_id, title, tei_path, supplementary_blocks
+    )
+    table_records = build_records(article_id, title, tei_path, table_blocks)
+    discarded_records = build_records(article_id, title, tei_path, discarded_blocks)
+    review_records = build_records(article_id, title, tei_path, review_blocks)
+
+    write_jsonl(main_output_path, main_records)
+    write_jsonl(supplementary_output_path, supplementary_records)
+    write_jsonl(table_output_path, table_records)
+    write_jsonl(discarded_path, discarded_records)
+    write_jsonl(review_path, review_records)
+
     report = {
         "article_id": article_id,
         "source_tei": str(tei_path),
-        "main_output": str(main_output_path),
-        "supplementary_output": (
-            str(supplementary_output_path)
-            if supplementary_markdown
-            else None
+        "main_blocks_output": str(main_output_path),
+        "supplementary_blocks_output": (
+            str(supplementary_output_path) if supplementary_records else None
         ),
-        "title_found": bool(title),
+        "table_blocks_output": str(table_output_path) if table_records else None,
+        "discarded_blocks_output": str(discarded_path) if discarded_records else None,
+        "review_blocks_output": str(review_path) if review_records else None,
+        "title_found": title != article_id,
+        "source_title": title,
         "abstract_candidates": [
             {
                 "score": candidate.score,
@@ -1168,12 +1288,21 @@ def clean_tei_file(tei_path: Path) -> Path:
         "selected_abstract_preview": abstract_text[:500],
         "counts": {
             "main_blocks": len(main_blocks),
+            "main_text_blocks": len(non_heading_main_blocks),
             "supplementary_blocks": len(supplementary_blocks),
+            "table_blocks": len(table_blocks),
             "discarded_blocks": len(discarded_blocks),
             "review_blocks": len(review_blocks),
             "block_kinds": dict(Counter(block.kind for block in blocks)),
             "discard_reasons": dict(
                 Counter(block.reason for block in discarded_blocks)
+            ),
+            "warnings": dict(
+                Counter(
+                    warning
+                    for block in [*main_blocks, *supplementary_blocks, *table_blocks]
+                    for warning in block.warnings
+                )
             ),
         },
         "quality": {
@@ -1190,19 +1319,26 @@ def clean_tei_file(tei_path: Path) -> Path:
         encoding="utf-8",
     )
 
-    print(f"Main Markdown saved to: {main_output_path}")
+    print(f"Main JSONL saved to: {main_output_path}")
 
-    if supplementary_markdown:
-        print(
-            "Supplementary Markdown saved to: "
-            f"{supplementary_output_path}"
-        )
+    if supplementary_records:
+        print(f"Supplementary JSONL saved to: {supplementary_output_path}")
+
+    if table_records:
+        print(f"Table JSONL saved to: {table_output_path}")
+
+    if discarded_records:
+        print(f"Discarded JSONL saved to: {discarded_path}")
+
+    if review_records:
+        print(f"Review JSONL saved to: {review_path}")
 
     print(f"Cleaning report saved to: {report_path}")
     print(
         "Cleaning summary: "
         f"{len(main_blocks)} main blocks, "
         f"{len(supplementary_blocks)} supplementary blocks, "
+        f"{len(table_blocks)} table blocks, "
         f"{len(discarded_blocks)} discarded blocks, "
         f"{len(review_blocks)} review blocks."
     )
@@ -1224,10 +1360,7 @@ def clean_all_tei_files() -> None:
         except (ValueError, OSError) as error:
             failed_files.append((tei_path, str(error)))
 
-    print(
-        "Files cleaned successfully: "
-        f"{successful_files}/{len(tei_files)}"
-    )
+    print(f"Files cleaned successfully: {successful_files}/{len(tei_files)}")
 
     if failed_files:
         print("Files with errors:")
@@ -1239,8 +1372,8 @@ def clean_all_tei_files() -> None:
 def main() -> None:
     parser = argparse.ArgumentParser(
         description=(
-            "Convert GROBID TEI XML files into cleaned main and "
-            "supplementary Markdown documents."
+            "Convert GROBID TEI XML files into structured JSONL blocks "
+            "for RAG ingestion. No Markdown output is generated."
         )
     )
 
@@ -1249,9 +1382,7 @@ def main() -> None:
     selection_group.add_argument(
         "--article",
         type=str,
-        help=(
-            "Article number or name, for example: 2 or article_2."
-        ),
+        help="Article number or name, for example: 2 or article_2.",
     )
 
     selection_group.add_argument(

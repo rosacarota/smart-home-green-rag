@@ -1,9 +1,13 @@
 {
   "article_id": "article_1",
   "source_tei": "data\\articles\\extracted_grobid_tei\\article_1.grobid.tei.xml",
-  "main_output": "data\\articles\\cleaned_markdown\\article_1.md",
-  "supplementary_output": "data\\articles\\supplementary_markdown\\article_1.md",
+  "main_blocks_output": "data\\articles\\cleaned_blocks\\article_1.jsonl",
+  "supplementary_blocks_output": "data\\articles\\supplementary_blocks\\article_1.jsonl",
+  "table_blocks_output": null,
+  "discarded_blocks_output": "data\\articles\\discarded_blocks\\article_1.jsonl",
+  "review_blocks_output": "data\\articles\\review_blocks\\article_1.jsonl",
   "title_found": true,
+  "source_title": "Review How Green is 'Green' Energy?",
   "abstract_candidates": [
     {
       "score": -2.0,
@@ -14,24 +18,32 @@
   ],
   "selected_abstract_preview": "Bioenergy: energy from materials derived from biological products (e. g., wood, algae) which are often burned to generate electricity. Concentrating solar power (CSP): the indirect type of solar energy which uses mirrors or lenses to concentrate sunlight onto a small area, generating heat which produces electricity (often via a steam turbine). Conventional energy: energy derived from non-renewable fossil fuel sources (oil, gas, and coal). Electricity generation: the amount of electricity produce",
   "counts": {
-    "main_blocks": 43,
+    "main_blocks": 44,
+    "main_text_blocks": 36,
     "supplementary_blocks": 12,
-    "discarded_blocks": 13,
+    "table_blocks": 0,
+    "discarded_blocks": 14,
     "review_blocks": 3,
     "block_kinds": {
-      "paragraph": 46,
-      "heading": 9
+      "abstract": 1,
+      "paragraph": 45,
+      "heading": 10
     },
     "discard_reasons": {
+      "possible_table_leakage_sentence": 1,
       "figure_or_table_caption": 2,
       "figure_content": 7,
       "boilerplate_or_noise": 4
+    },
+    "warnings": {
+      "possible_embedded_sidebar": 2,
+      "missing_terminal_punctuation": 1
     }
   },
   "quality": {
     "raw_body_characters": 36636,
-    "main_text_characters": 23571,
-    "main_text_ratio": 0.6434
+    "main_text_characters": 25564,
+    "main_text_ratio": 0.6978
   },
   "warnings": [
     "low_confidence_abstract",
