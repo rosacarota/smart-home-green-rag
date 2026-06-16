@@ -1,0 +1,17 @@
+{
+  "rules_input_path": "data\\dataset-rules\\final_dataset\\green_rules_final_dataset_normalized.json",
+  "rule_nodes_output_path": "data\\dataset-rules\\final_dataset\\rule_nodes.jsonl",
+  "rule_nodes_preview_path": "data\\dataset-rules\\final_dataset\\rule_nodes_preview.json",
+  "nodes_created": 925,
+  "category_counts": {
+    "lighting_efficiency": 274,
+    "occupancy_based_control": 205,
+    "hvac_optimization": 150,
+    "appliance_energy_management": 87,
+    "environmental_awareness": 70,
+    "comfort_security": 55,
+    "water_saving": 39,
+    "scheduling_optimization": 36,
+    "standby_reduction": 9
+  }
+}
