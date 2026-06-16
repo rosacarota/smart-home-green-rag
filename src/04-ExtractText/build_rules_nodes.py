@@ -32,14 +32,11 @@ GREEN_CATEGORIES = [
 ]
 
 EXCLUDED_EMBED_METADATA_KEYS = [
-    "sample_id",
     "rule_id",
     "if_then_rule",
-    "original_green_category",
 ]
 
 EXCLUDED_LLM_METADATA_KEYS = [
-    "sample_id",
     "rule_id",
 ]
 
@@ -92,9 +89,8 @@ def load_rule_rows(input_path: Path = RULES_INPUT_PATH) -> list[dict[str, Any]]:
     normalized_rows: list[dict[str, Any]] = []
 
     for row in rows:
-        if not isinstance(row, dict):
-            continue
-        normalized_rows.append(row)
+        if isinstance(row, dict):
+            normalized_rows.append(row)
 
     if not normalized_rows:
         raise ValueError(f"No valid rule rows found in: {input_path}")
@@ -107,7 +103,7 @@ def build_rule_text(row: dict[str, Any]) -> str:
     topic = normalize_text(row.get("llm_topic_name"))
     rule = normalize_text(row.get("if_then_rule"))
 
-    parts = []
+    parts: list[str] = []
 
     if green_category:
         parts.append(f"Green category: {green_category}")
@@ -123,18 +119,14 @@ def build_rule_text(row: dict[str, Any]) -> str:
 def build_rule_metadata(row: dict[str, Any], rule_index: int) -> dict[str, Any]:
     sample_id = normalize_text(row.get("sample_id"))
     green_category = normalize_text(row.get("green_category"))
-    original_green_category = normalize_text(row.get("original_green_category"))
     topic = normalize_text(row.get("llm_topic_name"))
     rule = normalize_text(row.get("if_then_rule"))
 
     metadata: dict[str, Any] = {
         "content_type": "green_rule",
-        "sample_id": sample_id,
         "rule_id": sample_id or f"rule_{rule_index:06d}",
         "llm_topic_name": topic,
         "green_category": green_category,
-        "dominant_green_category": green_category,
-        "original_green_category": original_green_category,
         "if_then_rule": rule,
     }
 
@@ -160,8 +152,9 @@ def build_rule_nodes(rows: list[dict[str, Any]] | None = None) -> list[TextNode]
             continue
 
         metadata = build_rule_metadata(row=row, rule_index=index)
-        sample_id = metadata.get("sample_id") or f"rule_{index:06d}"
-        base_node_id = f"rule__{sample_id}"
+
+        rule_id = normalize_text(metadata.get("rule_id")) or f"rule_{index:06d}"
+        base_node_id = f"rule__{rule_id}"
         node_id = base_node_id
         duplicate_counter = 2
 
@@ -195,30 +188,51 @@ def build_rule_nodes(rows: list[dict[str, Any]] | None = None) -> list[TextNode]
     return nodes
 
 
-def node_to_record(node: TextNode, node_index: int) -> dict[str, Any]:
+def node_to_record(node: TextNode) -> dict[str, Any]:
+    """
+    Main JSONL record.
+
+    This is intentionally minimal: only fields useful for indexing,
+    retrieval, filtering, reporting, and downstream generation/evaluation.
+    """
     return {
-        "node_index": node_index,
         "node_id": node.node_id,
         "text": node.text,
         "metadata": node.metadata,
         "excluded_embed_metadata_keys": node.excluded_embed_metadata_keys,
         "excluded_llm_metadata_keys": node.excluded_llm_metadata_keys,
-        "text_characters": len(node.text),
-        "word_count": len(node.text.split()),
     }
+
+
+def node_to_preview_record(node: TextNode, node_index: int) -> dict[str, Any]:
+    """
+    Preview/debug record.
+
+    This keeps extra diagnostics only in rule_nodes_preview.json,
+    not in the main rule_nodes.jsonl.
+    """
+    record = node_to_record(node)
+    record.update(
+        {
+            "node_index": node_index,
+            "text_characters": len(node.text),
+            "word_count": len(node.text.split()),
+        }
+    )
+    return record
 
 
 def save_rule_nodes(nodes: list[TextNode]) -> None:
     RULE_NODES_OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
 
     with RULE_NODES_OUTPUT_PATH.open("w", encoding="utf-8") as file:
-        for index, node in enumerate(nodes, start=1):
-            record = node_to_record(node, node_index=index)
+        for node in nodes:
+            record = node_to_record(node)
             file.write(json.dumps(record, ensure_ascii=False))
             file.write("\n")
 
     preview = [
-        node_to_record(node, node_index=index)
+        node_to_preview_record(node, node_index=index)
         for index, node in enumerate(nodes[:50], start=1)
     ]
 
@@ -257,6 +271,7 @@ def main() -> None:
 
     if nodes:
         first_node = nodes[0]
+
         print("\nFirst rule node ID:")
         print(first_node.node_id)
 

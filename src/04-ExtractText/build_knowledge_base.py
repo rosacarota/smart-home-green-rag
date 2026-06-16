@@ -23,7 +23,7 @@ RULE_INDEX_DIR = KNOWLEDGE_BASE_DIR / "rule_index"
 REPORTS_DIR = KNOWLEDGE_BASE_DIR / "reports"
 REPORT_PATH = REPORTS_DIR / "knowledge_base_build_report.json"
 
-EMBED_MODEL_NAME = "intfloat/multilingual-e5-base"
+EMBED_MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
 
 GREEN_CATEGORIES = [
     "lighting_efficiency",
@@ -53,20 +53,15 @@ ARTICLE_EXCLUDED_LLM_METADATA_KEYS = [
 ]
 
 RULE_EXCLUDED_EMBED_METADATA_KEYS = [
-    "sample_id",
     "rule_id",
     "if_then_rule",
-    "original_green_category",
 ]
 
 RULE_EXCLUDED_LLM_METADATA_KEYS = [
-    "sample_id",
     "rule_id",
 ]
 
-DEFAULT_QUERY = (
-    "IF You exit from home THEN Turn off lights."
-)
+DEFAULT_QUERY = "IF You exit from home THEN Turn off lights."
 
 
 def run_step(command: list[str]) -> None:
@@ -238,11 +233,19 @@ def enrich_article_nodes(
 
         node.excluded_embed_metadata_keys = merge_unique(
             list(node.excluded_embed_metadata_keys),
-            [key for key in ARTICLE_EXCLUDED_EMBED_METADATA_KEYS if key in node.metadata],
+            [
+                key
+                for key in ARTICLE_EXCLUDED_EMBED_METADATA_KEYS
+                if key in node.metadata
+            ],
         )
         node.excluded_llm_metadata_keys = merge_unique(
             list(node.excluded_llm_metadata_keys),
-            [key for key in ARTICLE_EXCLUDED_LLM_METADATA_KEYS if key in node.metadata],
+            [
+                key
+                for key in ARTICLE_EXCLUDED_LLM_METADATA_KEYS
+                if key in node.metadata
+            ],
         )
 
         enriched_nodes.append(node)
@@ -272,21 +275,45 @@ def build_article_nodes_in_memory(article: str | None = None) -> list[TextNode]:
 
 
 def prepare_rule_nodes(rule_nodes: list[TextNode]) -> list[TextNode]:
+    """
+    Prepare rule nodes before indexing.
+
+    The rule nodes are already built by build_rules_nodes.py with the desired
+    minimal metadata:
+        content_type
+        rule_id
+        llm_topic_name
+        green_category
+        if_then_rule
+        one-hot green categories
+
+    This function only ensures vector-store-safe metadata and excluded keys.
+    """
     prepared_nodes: list[TextNode] = []
 
     for node in rule_nodes:
         metadata = make_metadata_vector_store_safe(dict(node.metadata))
+
+        # Keep this here as a safety net in case the upstream builder changes.
         metadata["content_type"] = "green_rule"
-        metadata["node_id"] = node.node_id
+
         node.metadata = metadata
 
         node.excluded_embed_metadata_keys = merge_unique(
             list(node.excluded_embed_metadata_keys),
-            [key for key in RULE_EXCLUDED_EMBED_METADATA_KEYS if key in node.metadata],
+            [
+                key
+                for key in RULE_EXCLUDED_EMBED_METADATA_KEYS
+                if key in node.metadata
+            ],
         )
         node.excluded_llm_metadata_keys = merge_unique(
             list(node.excluded_llm_metadata_keys),
-            [key for key in RULE_EXCLUDED_LLM_METADATA_KEYS if key in node.metadata],
+            [
+                key
+                for key in RULE_EXCLUDED_LLM_METADATA_KEYS
+                if key in node.metadata
+            ],
         )
 
         prepared_nodes.append(node)
@@ -324,6 +351,7 @@ def build_index(
         raise ValueError(f"No nodes provided for index: {persist_dir}")
 
     print(f"Building index with {len(nodes)} nodes...")
+
     index = VectorStoreIndex(
         nodes=nodes,
         embed_model=embed_model,
@@ -414,10 +442,10 @@ def print_rule_results(results) -> None:
         print("\n" + "-" * 90)
         print(f"Rank: {rank}")
         print(f"Score: {result.score}")
-        print(f"Sample ID: {metadata.get('sample_id', '')}")
+        print(f"Rule ID: {metadata.get('rule_id', node.node_id)}")
         print(f"Topic: {metadata.get('llm_topic_name', '')}")
         print(f"Green category: {metadata.get('green_category', '')}")
-        print(f"Rule ID: {node.node_id}")
+        print(f"Node ID: {node.node_id}")
         print("\nRule text:")
         print(text[:900])
 
@@ -461,7 +489,10 @@ def main() -> None:
         "--article",
         type=str,
         default=None,
-        help="Optional article number/name for a quick single-article build, e.g. 2 or article_2.",
+        help=(
+            "Optional article number/name for a quick single-article build, "
+            "e.g. 2 or article_2."
+        ),
     )
     parser.add_argument(
         "--run-extraction",
@@ -476,7 +507,10 @@ def main() -> None:
     parser.add_argument(
         "--no-persist",
         action="store_true",
-        help="Keep indexes only in RAM. Useful for testing, but the KB disappears when the script ends.",
+        help=(
+            "Keep indexes only in RAM. Useful for testing, but the KB disappears "
+            "when the script ends."
+        ),
     )
     parser.add_argument(
         "--overwrite",
@@ -511,15 +545,41 @@ def main() -> None:
 
     if args.run_extraction:
         if args.article:
-            run_step([sys.executable, "src/04-ExtractText/extract_grobid.py", "--article", args.article])
+            run_step(
+                [
+                    sys.executable,
+                    "src/04-ExtractText/extract_grobid.py",
+                    "--article",
+                    args.article,
+                ]
+            )
         else:
-            run_step([sys.executable, "src/04-ExtractText/extract_grobid.py", "--all"])
+            run_step(
+                [
+                    sys.executable,
+                    "src/04-ExtractText/extract_grobid.py",
+                    "--all",
+                ]
+            )
 
     if args.run_cleaning:
         if args.article:
-            run_step([sys.executable, "src/04-ExtractText/clean_grobid_tei.py", "--article", args.article])
+            run_step(
+                [
+                    sys.executable,
+                    "src/04-ExtractText/clean_grobid_tei.py",
+                    "--article",
+                    args.article,
+                ]
+            )
         else:
-            run_step([sys.executable, "src/04-ExtractText/clean_grobid_tei.py", "--all"])
+            run_step(
+                [
+                    sys.executable,
+                    "src/04-ExtractText/clean_grobid_tei.py",
+                    "--all",
+                ]
+            )
 
     print("\n" + "=" * 90)
     print("BUILDING KNOWLEDGE BASE IN MEMORY")
