@@ -1,0 +1,43 @@
+{
+  "article_id": "article_12",
+  "source_tei": "data\\articles\\extracted_grobid_tei\\article_12.grobid.tei.xml",
+  "main_blocks_output": "data\\articles\\cleaned_blocks\\article_12.jsonl",
+  "supplementary_blocks_output": "data\\articles\\supplementary_blocks\\article_12.jsonl",
+  "table_blocks_output": null,
+  "discarded_blocks_output": "data\\articles\\discarded_blocks\\article_12.jsonl",
+  "review_blocks_output": null,
+  "title_found": true,
+  "source_title": "Enhancing Sustainability in Smart Home Management with Automation Simulations and Green Suggestions",
+  "abstract_candidates": [
+    {
+      "score": 5.0,
+      "word_count": 68,
+      "language": "",
+      "preview": "This paper presents a digital twin for green smart homes that can simulate the impact of user-created automations on energy consumption. Data collected about the states of appliances and estimated power requirements of automations are exploited by the digital twin to estimate the overall energy cons"
+    }
+  ],
+  "selected_abstract_preview": "This paper presents a digital twin for green smart homes that can simulate the impact of user-created automations on energy consumption. Data collected about the states of appliances and estimated power requirements of automations are exploited by the digital twin to estimate the overall energy consumption of the smart home. Consequently, the digital twin can alert users about potential energy overloads and provide suggestions for sustainable actions.",
+  "counts": {
+    "main_blocks": 17,
+    "main_text_blocks": 12,
+    "supplementary_blocks": 1,
+    "table_blocks": 0,
+    "discarded_blocks": 2,
+    "review_blocks": 0,
+    "block_kinds": {
+      "abstract": 1,
+      "heading": 5,
+      "paragraph": 12
+    },
+    "discard_reasons": {
+      "figure_content": 2
+    },
+    "warnings": {}
+  },
+  "quality": {
+    "raw_body_characters": 12202,
+    "main_text_characters": 11264,
+    "main_text_ratio": 0.9231
+  },
+  "warnings": []
+}

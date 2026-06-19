@@ -1,0 +1,37 @@
+{
+  "article_id": "article_16",
+  "source_tei": "data\\articles\\extracted_grobid_tei\\article_16.grobid.tei.xml",
+  "main_blocks_output": "data\\articles\\cleaned_blocks\\article_16.jsonl",
+  "supplementary_blocks_output": null,
+  "table_blocks_output": null,
+  "discarded_blocks_output": null,
+  "review_blocks_output": null,
+  "title_found": false,
+  "source_title": "article_16",
+  "abstract_candidates": [],
+  "selected_abstract_preview": "",
+  "counts": {
+    "main_blocks": 90,
+    "main_text_blocks": 78,
+    "supplementary_blocks": 0,
+    "table_blocks": 0,
+    "discarded_blocks": 0,
+    "review_blocks": 0,
+    "block_kinds": {
+      "paragraph": 78,
+      "heading": 12
+    },
+    "discard_reasons": {},
+    "warnings": {}
+  },
+  "quality": {
+    "raw_body_characters": 10839,
+    "main_text_characters": 9987,
+    "main_text_ratio": 0.9214
+  },
+  "warnings": [
+    "abstract_not_found",
+    "abstract_not_selected",
+    "title_not_found"
+  ]
+}

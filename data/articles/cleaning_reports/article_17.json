@@ -1,0 +1,44 @@
+{
+  "article_id": "article_17",
+  "source_tei": "data\\articles\\extracted_grobid_tei\\article_17.grobid.tei.xml",
+  "main_blocks_output": "data\\articles\\cleaned_blocks\\article_17.jsonl",
+  "supplementary_blocks_output": null,
+  "table_blocks_output": null,
+  "discarded_blocks_output": null,
+  "review_blocks_output": null,
+  "title_found": false,
+  "source_title": "article_17",
+  "abstract_candidates": [
+    {
+      "score": -2.0,
+      "word_count": 6,
+      "language": "",
+      "preview": "Simple tips for a greener lifestyle"
+    }
+  ],
+  "selected_abstract_preview": "Simple tips for a greener lifestyle",
+  "counts": {
+    "main_blocks": 40,
+    "main_text_blocks": 29,
+    "supplementary_blocks": 0,
+    "table_blocks": 0,
+    "discarded_blocks": 0,
+    "review_blocks": 0,
+    "block_kinds": {
+      "abstract": 1,
+      "paragraph": 28,
+      "heading": 11
+    },
+    "discard_reasons": {},
+    "warnings": {}
+  },
+  "quality": {
+    "raw_body_characters": 5272,
+    "main_text_characters": 5122,
+    "main_text_ratio": 0.9715
+  },
+  "warnings": [
+    "low_confidence_abstract",
+    "title_not_found"
+  ]
+}

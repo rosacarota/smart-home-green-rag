@@ -1,0 +1,790 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main" xml:id="_GhP8wTU" coords="1,73.21,84.23,465.57,15.44;1,118.44,104.15,374.52,15.44">Enhancing Sustainability in Smart Home Management with Automation Simulations and Green Suggestions</title>
+				<funder ref="#_ubPMxv3">
+					<orgName type="full">Italian MUR PRIN 2022 PNRR</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">European Union -NextGenerationEU</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Davide</forename><surname>Guizzardi</surname></persName>
+							<email>davide.guizzardi@unibs.itbarbara.barricelli@unibs.itdaniela.fogli@unibs.it</email>
+							<idno type="ORCID">0000-0001-9575-5542</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Information Department of Information Department of Information Engineering Engineering Engineering</orgName>
+								<orgName type="institution" key="instit1">University of Brescia</orgName>
+								<orgName type="institution" key="instit2">Università of Brescia University of Brescia Brescia</orgName>
+								<address>
+									<settlement>Brescia Brescia</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Barbara</forename><forename type="middle">Rita</forename><surname>Barricelli</surname></persName>
+							<idno type="ORCID">0000-0001-9575-5542</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Information Department of Information Department of Information Engineering Engineering Engineering</orgName>
+								<orgName type="institution" key="instit1">University of Brescia</orgName>
+								<orgName type="institution" key="instit2">Università of Brescia University of Brescia Brescia</orgName>
+								<address>
+									<settlement>Brescia Brescia</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Daniela</forename><surname>Fogli</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Information Department of Information Department of Information Engineering Engineering Engineering</orgName>
+								<orgName type="institution" key="instit1">University of Brescia</orgName>
+								<orgName type="institution" key="instit2">Università of Brescia University of Brescia Brescia</orgName>
+								<address>
+									<settlement>Brescia Brescia</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main" xml:id="_bD5p3X2" coords="1,73.21,84.23,465.57,15.44;1,118.44,104.15,374.52,15.44">Enhancing Sustainability in Smart Home Management with Automation Simulations and Green Suggestions</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">D3294ED2A1CDA8AACB46162DA105F240</idno>
+					<idno type="DOI">10.1145/3708557.3716345</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-06-16T10:06+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=true, generateTeiCoordinates=[title, head, p, s, note, figure, formula, ref], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term xml:id="_z5GB3Gu">CCS Concepts</term>
+					<term xml:id="_t6eWtmT">Human-centered computing → Empirical studies in interaction design; Ambient intelligence Smart home</term>
+					<term xml:id="_c38BkJV">Digital twin</term>
+					<term xml:id="_TkuBgYT">Energy management</term>
+					<term xml:id="_DgnTpsd">Automation</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_fdp96r9"><p xml:id="_k9ByTMh" coords="1,53.53,226.97,240.52,7.94;1,53.80,237.93,241.76,7.94;1,53.80,248.89,241.76,7.94;1,53.80,259.85,240.25,7.94;1,53.80,270.81,240.25,7.94;1,53.80,281.76,240.25,7.94;1,53.80,292.73,239.92,7.94"><s xml:id="_gJMWyBk" coords="1,53.53,226.97,240.52,7.94;1,53.80,237.93,241.76,7.94;1,53.80,248.89,37.34,7.94">This paper presents a digital twin for green smart homes that can simulate the impact of user-created automations on energy consumption.</s><s xml:id="_rtWRu2f" coords="1,94.29,248.89,201.27,7.94;1,53.80,259.85,240.25,7.94;1,53.80,270.81,240.25,7.94;1,53.80,281.76,21.87,7.94">Data collected about the states of appliances and estimated power requirements of automations are exploited by the digital twin to estimate the overall energy consumption of the smart home.</s><s xml:id="_6HPCyZG" coords="1,77.53,281.76,216.51,7.94;1,53.80,292.73,239.92,7.94">Consequently, the digital twin can alert users about potential energy overloads and provide suggestions for sustainable actions.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1" xml:id="_pqPn69m" coords="1,53.80,460.89,79.58,9.37">Introduction</head><p xml:id="_QByxQjQ" coords="1,53.48,475.58,242.08,7.94;1,53.80,486.54,240.25,7.94;1,53.80,497.49,241.76,7.94;1,53.80,508.45,14.89,7.94;1,83.99,508.45,210.06,7.95;1,53.80,519.42,139.15,7.94;1,208.07,519.42,85.97,7.94;1,53.80,530.31,241.77,8.02;1,53.80,541.33,240.48,7.94;1,53.80,552.29,240.25,7.94;1,53.80,563.25,73.06,7.94;1,161.74,563.25,76.92,7.94;1,281.39,563.25,12.82,7.94;1,53.80,574.21,89.58,7.94;1,154.57,574.21,139.48,7.95;1,53.80,585.17,240.25,7.94;1,53.80,596.12,240.25,7.94;1,53.80,607.09,240.24,7.94;1,53.80,618.05,240.41,7.94;1,317.96,213.27,241.77,7.94;1,317.96,224.23,240.25,7.94;1,317.96,235.19,240.56,7.94;1,317.96,246.15,18.33,7.94;1,365.36,246.15,98.43,7.94;1,527.90,246.15,30.30,7.94;1,317.96,257.11,240.48,7.94;1,317.96,268.07,240.25,7.94;1,317.96,279.03,241.76,7.94;1,317.96,289.98,240.25,7.94;1,317.96,300.94,240.25,7.94;1,317.96,311.90,240.25,7.94;1,317.96,322.86,240.25,7.94;1,317.96,333.82,240.25,7.94;1,317.96,344.78,240.41,7.94;1,317.96,355.74,240.25,7.94;1,317.96,366.70,240.25,7.94;1,317.96,377.66,240.25,7.94;1,317.96,388.62,240.42,7.94;1,317.96,399.57,240.25,7.94;1,317.96,410.53,240.48,7.94;1,317.96,421.49,240.25,7.94;1,317.96,432.45,189.19,7.94;1,518.76,432.45,39.44,7.94;1,317.96,443.41,123.37,7.94;1,456.89,443.41,35.98,7.95;1,504.47,443.41,53.73,7.94;1,317.96,454.37,241.76,7.94;1,317.96,465.33,240.25,7.94;1,317.96,476.28,240.48,7.94;1,317.96,487.25,240.24,7.94;1,317.96,498.20,178.24,7.94"><s xml:id="_GSSHub9" coords="1,53.48,475.58,242.08,7.94;1,53.80,486.54,240.25,7.94;1,53.80,497.49,241.76,7.94;1,53.80,508.45,33.49,7.94">A smart home is a home-like environment endowed with ambient intelligence and automatic control, which allows the home to respond to the behavior of its occupants and provide them with several facilities <ref type="bibr" coords="1,70.77,508.45,13.22,7.94" target="#b9">[10]</ref>.</s><s xml:id="_YYs5PDc" coords="1,89.37,508.46,204.68,7.94;1,53.80,519.42,240.25,7.94;1,53.80,530.31,163.09,8.02">A common approach to building smart homes is to create an Internet of Things (IoT) ecosystem <ref type="bibr" coords="1,195.20,519.42,10.62,7.94" target="#b2">[3]</ref> that allows residents to tailor home behavior by creating automations.</s><s xml:id="_xYFJYrm" coords="1,218.69,530.37,76.88,7.94;1,53.80,541.33,240.48,7.94;1,53.80,552.29,240.25,7.94;1,53.80,563.25,240.42,7.95;1,53.80,574.21,103.85,7.94">Automations are usually conceived as event-condition-action (ECA) rules that users may compose exploiting end-user development techniques implemented as graphic interfaces <ref type="bibr" coords="1,128.64,563.25,9.23,7.94" target="#b3">[4,</ref><ref type="bibr" coords="1,139.64,563.25,10.27,7.94" target="#b12">13,</ref><ref type="bibr" coords="1,151.69,563.25,10.05,7.94" target="#b21">22]</ref>, conversational tools <ref type="bibr" coords="1,240.42,563.25,9.23,7.94" target="#b6">[7,</ref><ref type="bibr" coords="1,251.43,563.25,6.10,7.94" target="#b7">8,</ref><ref type="bibr" coords="1,259.30,563.25,10.27,7.94" target="#b11">12,</ref><ref type="bibr" coords="1,271.34,563.25,10.05,7.94" target="#b14">15]</ref>, or multi-modal applications <ref type="bibr" coords="1,145.30,574.21,9.27,7.94" target="#b0">[1]</ref>.</s><s xml:id="_ntSgxU5" coords="1,159.58,574.21,134.47,7.94;1,53.80,585.17,240.25,7.94;1,53.80,596.12,240.25,7.94;1,53.80,607.09,88.94,7.94">In particular, automation creation can contribute to smart home energy management, helping inhabitants reduce energy consumption and, consequently, their environmental impact and energy bills.</s><s xml:id="_xPauapJ" coords="1,144.97,607.09,149.08,7.94;1,53.80,618.05,240.41,7.94;1,317.96,213.27,241.77,7.94;1,317.96,224.23,150.42,7.94">However, when several automations are defned to manage smart homes, conficts may occur during their execution, especially when diferent users are in charge of automation creation to control shared appliances.</s><s xml:id="_YRPD36H" coords="1,470.47,224.23,87.73,7.94;1,317.96,235.19,240.56,7.94;1,317.96,246.15,213.35,7.95">Several approaches have been proposed in the literature to detect conficts between ECA rules <ref type="bibr" coords="1,338.96,246.15,9.44,7.94" target="#b5">[6,</ref><ref type="bibr" coords="1,351.09,246.15,11.59,7.94" target="#b17">18]</ref> and help users solve them <ref type="bibr" coords="1,466.48,246.15,9.43,7.94" target="#b4">[5,</ref><ref type="bibr" coords="1,478.59,246.15,10.35,7.94" target="#b15">16,</ref><ref type="bibr" coords="1,491.63,246.15,10.35,7.94" target="#b16">17,</ref><ref type="bibr" coords="1,504.66,246.15,10.35,7.94" target="#b19">20,</ref><ref type="bibr" coords="1,517.70,246.15,10.20,7.94" target="#b20">21]</ref>.</s><s xml:id="_aBJfcNF" coords="1,533.99,246.15,24.21,7.94;1,317.96,257.11,240.48,7.94;1,317.96,268.07,240.25,7.94;1,317.96,279.03,123.27,7.94">In this paper, we focus on the interaction between automations that may yield other types of conficts and issues in smart homes related to sustainable energy consumption.</s><s xml:id="_YNrnz2X" coords="1,443.69,279.03,116.02,7.94;1,317.96,289.98,240.25,7.94;1,317.96,300.94,240.25,7.94;1,317.96,311.90,214.49,7.94">Based on the energy consumption estimation of each available appliance, our approach allows the simulation of the impact that the automation under creation could have on the overall energy consumption of the house.</s><s xml:id="_PX4gnUn" coords="1,534.61,311.90,23.59,7.94;1,317.96,322.86,240.25,7.94;1,317.96,333.82,240.25,7.94;1,317.96,344.78,240.41,7.94;1,317.96,355.74,240.25,7.94;1,317.96,366.70,45.98,7.94">Such a simulation is used to notify the user of critical situations (e.g., the quantity of energy required in a given time interval exceeds the maximum load capacity) or provide the user with suggestions for more sustainable behaviors (e.g., by changing the start time of the automation).</s><s xml:id="_G9RSHSw" coords="1,366.19,366.70,192.01,7.94;1,317.96,377.66,240.25,7.94;1,317.96,388.62,240.42,7.94;1,317.96,399.57,37.60,7.94">To implement this approach, a Digital Twin (DT) of a smart home has been developed, which can monitor and estimate appliances' energy consumption based on data collected about their activation.</s><s xml:id="_8SWXxdh" coords="1,357.80,399.57,200.41,7.94;1,317.96,410.53,240.48,7.94;1,317.96,421.49,221.44,7.94">Using a DT allows for real-time synchronization of data from the actual home and performing 'what-if' analyses of energy consumption whenever the user defnes a new automation.</s><s xml:id="_gUseBNS" coords="1,541.78,421.49,16.43,7.94;1,317.96,432.45,240.24,7.94;1,317.96,443.41,142.26,7.94">This idea was originally presented in a preliminary work <ref type="bibr" coords="1,509.39,432.45,9.36,7.94" target="#b1">[2]</ref>, while the DT architecture was delineated in <ref type="bibr" coords="1,443.56,443.41,13.32,7.94" target="#b10">[11]</ref>.</s><s xml:id="_2fRNruS" coords="1,462.46,443.41,95.74,7.94;1,317.96,454.37,241.76,7.94;1,317.96,465.33,240.25,7.94;1,317.96,476.28,57.23,7.94">Then, in <ref type="bibr" coords="1,495.10,443.41,9.36,7.94" target="#b8">[9]</ref>, we presented the machine learning algorithms adopted to estimate the consumption of appliances available in a hypothetical smart home using public datasets.</s><s xml:id="_YXUBfyt" coords="1,377.50,476.28,180.93,7.94;1,317.96,487.25,240.24,7.94;1,317.96,498.20,178.24,7.94">The present paper extends the previous work by considering a real smart home and describing how the simulation of user-created automations has been developed.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2" xml:id="_DqN9vpR" coords="1,317.96,533.37,76.47,9.37">Background</head><p xml:id="_ARAb6Yt" coords="1,317.96,548.07,79.17,7.94;1,408.98,548.07,150.74,7.94;1,317.96,559.03,240.48,7.94;1,317.96,569.99,240.25,7.94;1,317.96,580.94,240.25,7.94;1,317.96,591.90,52.59,7.94;1,389.20,591.90,50.96,7.94;1,458.82,591.90,99.38,7.94;1,317.96,602.86,240.25,7.94;1,317.96,613.82,240.24,7.94;1,317.96,624.78,240.25,7.94;1,317.96,635.74,240.25,7.94;1,317.96,646.69,240.25,7.94;1,317.96,657.66,50.63,7.94;1,380.40,657.66,177.80,7.94;1,317.96,668.55,241.23,8.02;1,317.62,679.57,240.58,7.94;1,317.96,690.53,240.24,7.94;1,317.96,701.49,162.75,7.94;2,63.76,87.79,230.28,7.94;2,53.80,98.75,240.25,7.94;2,53.80,109.71,240.25,7.94;2,53.80,120.61,240.25,8.02;2,53.80,131.63,240.25,7.94;2,53.80,142.59,240.25,7.94;2,53.80,153.55,240.25,7.94;2,53.80,164.51,240.25,7.94;2,53.80,175.46,140.71,7.94"><s xml:id="_pRUvUS6" coords="1,317.96,548.07,241.77,7.94;1,317.96,559.03,240.48,7.94;1,317.96,569.99,114.96,7.94">In our previous work <ref type="bibr" coords="1,399.46,548.07,9.52,7.94" target="#b8">[9]</ref>, we explored the use of clustering techniques to extract the operation modes of appliances from publicly available smart home datasets.</s><s xml:id="_PyCYWZU" coords="1,435.54,569.99,122.66,7.94;1,317.96,580.94,240.25,7.94;1,317.96,591.90,240.25,7.94;1,317.96,602.86,240.25,7.94;1,317.96,613.82,240.24,7.94;1,317.96,624.78,38.04,7.94">In particular, we built a machine learning pipeline that was able to take energy consumption data from GREEND <ref type="bibr" coords="1,372.58,591.90,14.60,7.94" target="#b18">[19]</ref> and UK-DALE <ref type="bibr" coords="1,442.20,591.90,14.59,7.94" target="#b13">[14]</ref> datasets, convert those time series into a latent state that summarized the entire activation, and group each latent state hence identifying the appliances' modes of operation.</s><s xml:id="_VCDs47a" coords="1,358.45,624.78,199.75,7.94;1,317.96,635.74,240.25,7.94;1,317.96,646.69,166.97,7.94">In this way, we have created a table that specifes the average power demand and duration for each category of device and each mode of operation of said category.</s><s xml:id="_UGThN3P" coords="1,487.18,646.69,71.03,7.94;1,317.96,657.66,240.25,7.94;1,317.96,668.55,241.23,8.02;1,317.62,679.57,240.58,7.94;1,317.96,690.53,240.24,7.94;1,317.96,701.49,162.75,7.94">The complete table is available in <ref type="bibr" coords="1,370.82,657.66,9.59,7.94" target="#b8">[9]</ref>; as an example, the appliances belonging to the Television category can be operated in two modes, Stand-by or On, with power consumption respectively of 18 Watt and 110 Watt and with an infnite duration for the frst mode and an estimated duration of 1833 seconds for the second one.</s><s xml:id="_tVxfVV3" coords="2,63.76,87.79,230.28,7.94;2,53.80,98.75,206.96,7.94">These data could be used to estimate the power requirement and the overall duration of the actions within an automation.</s><s xml:id="_X9HdsDt" coords="2,263.00,98.75,31.04,7.94;2,53.80,109.71,240.25,7.94;2,53.80,120.67,88.40,7.94">For each action, it is possible to identify the device involved and the state the action wants to set.</s><s xml:id="_CBVpxtm" coords="2,144.95,120.61,149.09,8.02;2,53.80,131.63,240.25,7.94;2,53.80,142.59,240.25,7.94;2,53.80,153.55,34.01,7.94">Given the tuple &lt;device type, state&gt;, the next step is to look for that combination in the table obtained from GREEND and UK-DALE and retrieve the average consumption and duration.</s><s xml:id="_m7tjwax" coords="2,90.26,153.55,203.78,7.94;2,53.80,164.51,240.25,7.94;2,53.80,175.46,140.71,7.94">At the end of the process, an estimate of the impact of the automation, both in terms of instantaneous power demand and energy consumption, will be available.</s></p><p xml:id="_6sFb4S3" coords="2,63.76,186.42,230.28,7.94;2,53.80,197.38,240.25,7.94;2,53.80,208.34,240.25,7.94;2,53.80,219.30,240.25,7.94;2,53.80,230.26,240.25,7.94;2,53.80,241.22,241.76,7.94;2,53.80,252.18,240.25,7.94;2,53.80,263.13,240.25,7.94;2,53.80,274.09,240.25,7.94;2,53.80,285.05,241.76,7.94;2,53.80,293.86,240.25,10.09;2,53.80,306.97,241.76,7.94;2,53.47,317.93,241.95,7.94;2,53.80,328.89,240.25,7.94;2,53.80,339.85,125.20,7.94;2,63.76,186.42,230.28,7.94;2,53.80,197.38,240.25,7.94;2,53.80,208.34,240.25,7.94;2,53.80,219.30,240.25,7.94;2,53.80,230.26,240.25,7.94;2,53.80,241.22,241.76,7.94;2,53.80,252.18,240.25,7.94;2,53.80,263.13,240.25,7.94;2,53.80,274.09,240.25,7.94;2,53.80,285.05,241.76,7.94;2,53.80,296.01,133.82,7.94;2,191.50,296.01,102.55,7.94;2,53.80,306.97,241.76,7.94;2,53.47,317.93,241.95,7.94;2,53.80,328.89,240.25,7.94;2,53.80,339.85,125.20,7.94"><s xml:id="_ddk6hAK" coords="2,63.76,186.42,230.28,7.94;2,53.80,197.38,240.25,7.94;2,53.80,208.34,164.51,7.94">Although good in theory and useful for solving the cold start problem, this approach does not consider the inhabitants' lifestyles and the characteristics of their smart devices.</s><s xml:id="_7PfBJ7a" coords="2,220.54,208.34,73.50,7.94;2,53.80,219.30,240.25,7.94;2,53.80,230.26,240.25,7.94;2,53.80,241.22,241.76,7.94;2,53.80,252.18,118.78,7.94">Diferent people use their devices in unique ways, and smart devices often have varying consumption patterns depending on their maker, model, and usage context; hence, the estimation based on public datasets could heavily difer from the actual scenario.</s><s xml:id="_VxpWT9U" coords="2,174.25,252.18,119.79,7.94;2,53.80,263.13,240.25,7.94;2,53.80,274.09,223.38,7.94">To solve this problem, we propose a system that evaluates the impact of automations using real usage data collected from the house where the system is installed.</s><s xml:id="_ZFCedXb" coords="2,279.58,274.09,14.47,7.94;2,53.80,285.05,241.76,7.94;2,53.80,296.01,139.68,7.94">The platform chosen to manage automations, control devices, and monitor state changes is Home Assistant<ref type="foot" coords="2,187.62,293.86,3.38,6.44" target="#foot_0">foot_0</ref> .</s><s xml:id="_8y9dUfC" coords="2,195.73,296.01,98.32,7.94;2,53.80,306.97,241.76,7.94;2,53.47,317.93,241.95,7.94">Home Assistant (HA) is an open-source home automation platform that runs on local hardware and lets users control the devices connected to the network.</s><s xml:id="_DGUuKGQ" coords="2,53.80,328.89,240.25,7.94;2,53.80,339.85,125.20,7.94">HA provides an automation engine and constantly keeps track of any changes in the devices' states.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3" xml:id="_X6ct4eE" coords="2,53.80,363.83,240.56,9.37;2,70.31,376.78,65.25,9.37">Simulation of automations' impact on energy consumption</head><p xml:id="_vP9eE5K" coords="2,53.80,391.47,240.25,7.94;2,53.80,402.43,240.25,7.94;2,53.80,413.39,240.42,7.94;2,53.80,424.35,241.63,7.94;2,53.80,435.31,240.25,7.94;2,53.80,446.27,240.25,7.94;2,53.80,457.23,240.25,7.94;2,53.80,468.19,240.25,7.94;2,53.80,479.15,240.25,7.94;2,53.80,490.11,240.25,7.94;2,53.80,501.06,240.25,7.94;2,53.80,512.02,240.25,7.94;2,53.80,522.98,240.24,7.94;2,53.80,533.94,240.25,7.94;2,53.80,544.90,240.25,7.94;2,53.80,555.86,240.25,7.94;2,53.80,566.82,240.25,7.94;2,53.47,577.78,240.74,7.94;2,53.80,588.74,240.48,7.94;2,53.80,599.69,240.25,7.94;2,53.80,610.65,240.24,7.94;2,53.80,621.61,240.25,7.94;2,53.47,632.57,240.58,7.94;2,53.80,643.53,240.42,7.94;2,53.80,654.49,240.25,7.94;2,53.80,665.45,240.25,7.94;2,317.62,87.79,115.86,7.94"><s xml:id="_ekfHtjf" coords="2,53.80,391.47,240.25,7.94;2,53.80,402.43,42.43,7.94">Periodically, the system queries HA's API to have the history of the devices.</s><s xml:id="_dMEvRwb" coords="2,98.47,402.43,195.58,7.94;2,53.80,413.39,240.42,7.94;2,53.80,424.35,241.63,7.94">For each device, HA will return the list of all the state changes that happened in the time range requested, specifying, for each record, the new state assumed and the timestamp of the change.</s><s xml:id="_77exnEP" coords="2,53.80,435.31,240.25,7.94;2,53.80,446.27,240.25,7.94;2,53.80,457.23,240.25,7.94;2,53.80,468.19,107.98,7.94">Since HA does not provide data with a constant granularity, leading to additional challenges to the estimation process, a function that converts HA's history into a list of fxed duration blocks (one minute each) was frst implemented.</s><s xml:id="_47JrUkx" coords="2,164.34,468.19,129.70,7.94;2,53.80,479.15,240.25,7.94;2,53.80,490.11,85.64,7.94">The converted history can then be analyzed to compute the average power demand and duration of the appliances' modes.</s><s xml:id="_w32gt3Z" coords="2,142.36,490.11,151.69,7.94;2,53.80,501.06,240.25,7.94;2,53.80,512.02,240.25,7.94;2,53.80,522.98,240.24,7.94;2,53.80,533.94,240.25,7.94;2,53.80,544.90,64.42,7.94">The category to which a device belongs infuences how the power value is obtained: some devices, such as smart plugs, can directly provide their real-time power usage, and in that case, the average power of a state is obtained by summing the power values and dividing the result by the duration of the state (in minutes).</s><s xml:id="_4KRVpmu" coords="2,120.36,544.90,173.69,7.94;2,53.80,555.86,102.68,7.94">Other devices, like smart speakers, do not report their real-time consumption.</s><s xml:id="_YFVKySm" coords="2,158.63,555.86,135.42,7.94;2,53.80,566.82,240.25,7.94;2,53.47,577.78,240.74,7.94;2,53.80,588.74,29.82,7.94">For this category of devices, a manual mapping is needed where each state of the device is associated with a static power value, usually obtained from the device's user manual.</s><s xml:id="_2neE92z" coords="2,86.52,588.74,207.75,7.94;2,53.80,599.69,240.25,7.94;2,53.80,610.65,218.87,7.94">The average duration of each state is obtained directly by computing the overall time of the state and dividing it by the number of times that device was set to that particular state.</s><s xml:id="_pHZCkQU" coords="2,274.89,610.65,19.15,7.94;2,53.80,621.61,240.25,7.94;2,53.47,632.57,123.77,7.94">Once the usage data of a device is computed, the method compares it with existing data in the database.</s><s xml:id="_pmBxfgK" coords="2,179.49,632.57,114.55,7.94;2,53.80,643.53,240.42,7.94;2,53.80,654.49,182.96,7.94">If the database already contains information for a specifc device and state, new moving averages for power and duration are defned using Formula (1).</s><s xml:id="_dKQ7Wza" coords="2,239.00,654.49,55.04,7.94;2,53.80,665.45,240.25,7.94;2,317.62,87.79,115.86,7.94">If no prior data exists, the newly calculated averages are inserted into the database without any further operations.</s></p><p xml:id="_p7EJyAy" coords="2,382.17,110.52,168.71,8.87;2,324.08,117.33,53.96,8.24;2,411.59,123.29,109.43,8.43;2,549.23,133.22,9.51,7.94;2,327.92,144.18,230.28,7.94;2,317.96,155.13,240.48,7.94;2,317.96,166.09,240.25,7.94;2,317.96,177.05,240.25,7.94;2,317.96,188.00,241.24,7.94;2,317.96,198.97,240.25,7.94;2,317.96,209.93,240.25,7.94;2,317.96,220.89,240.25,7.94;2,317.96,231.85,26.47,7.94"><s xml:id="_KsXhzjE" coords="2,382.17,110.52,168.71,8.87;2,324.08,117.33,53.96,8.24;2,411.59,123.29,109.43,8.43;2,549.23,133.22,9.51,7.94;2,327.92,144.18,230.28,7.94;2,317.96,155.13,240.48,7.94;2,317.96,166.09,114.39,7.94">(old average * #past samples) + Í new values new average = # old samples + #new samples (1) Given the house-specifc information saved in the database, it is possible to estimate the impact of new automations on energy consumption more accurately.</s><s xml:id="_hpHnr3R" coords="2,435.51,166.09,122.70,7.94;2,317.96,177.05,240.25,7.94;2,317.96,188.00,241.24,7.94;2,317.96,198.97,240.25,7.94;2,317.96,209.93,240.25,7.94;2,317.96,220.89,240.25,7.94;2,317.96,231.85,26.47,7.94">In particular, two objectives can be achieved: 1) to evaluate whether diferent automations afect each other and if potential conficts arise from their coexistence, particularly regarding the maximum amount of energy the home's electrical system can handle; 2) to provide users with suggestions on how to optimize their automations to use less energy and save money.</s></p><p xml:id="_DJA2pZz" coords="2,327.92,242.81,230.29,7.94;2,317.96,253.77,241.76,7.94;2,317.96,264.72,241.76,7.94;2,317.96,275.68,240.25,7.94;2,317.96,286.64,240.25,7.94;2,317.96,297.12,240.25,8.43;2,317.96,308.56,240.25,7.94;2,317.96,319.52,241.76,7.94;2,317.96,330.47,240.25,7.94;2,317.96,341.43,240.25,7.94;2,317.96,352.40,241.20,7.94;2,317.96,363.35,240.25,7.94;2,317.96,374.31,241.24,7.94;2,317.96,385.27,241.63,7.94;2,317.96,396.23,240.48,7.94;2,317.96,407.19,240.25,7.94;2,317.96,418.15,238.69,7.94"><s xml:id="_MuREcpe" coords="2,327.92,242.81,230.29,7.94;2,317.96,253.77,121.53,7.94">Listing 1 presents the pseudocode of the function used to detect potential sustainability conficts.</s><s xml:id="_jPcWe6J" coords="2,441.87,253.77,117.84,7.94;2,317.96,264.72,241.76,7.94;2,317.96,275.68,240.25,7.94;2,317.96,286.64,204.45,7.94">The function takes the automation under creation as input, combines it with the saved automations, and generates a structure that models the state of the devices throughout each day of the week, known as State Matrix.</s><s xml:id="_QVVEHsw" coords="2,524.48,286.64,33.72,7.94;2,317.96,297.12,240.25,8.43;2,317.96,308.56,156.05,7.94">The State Matrix is a 7 × 1440 × #devices data structure that captures the state of each device for every minute of the week.</s><s xml:id="_tK49wKQ" coords="2,475.82,308.56,82.39,7.94;2,317.96,319.52,241.76,7.94;2,317.96,330.47,64.79,7.94">It is built by initializing an empty matrix and flling it out using saved automations and historical usage data.</s><s xml:id="_t8KvCdv" coords="2,384.85,330.47,173.35,7.94;2,317.96,341.43,240.25,7.94;2,317.96,352.40,144.76,7.94">For each automation, processed in chronological order, the system determines the days the automation applies to and the devices that are subject to changes.</s><s xml:id="_dCQBAGg" coords="2,464.95,352.40,94.21,7.94;2,317.96,363.35,240.25,7.94;2,317.96,374.31,241.24,7.94;2,317.96,385.27,241.63,7.94">According to the devices' desired states, it extracts from the database the duration of each action and updates the matrix cells for the afected minutes, days, and devices with the states defned by the automation's actions.</s><s xml:id="_PEaQEkw" coords="2,317.96,396.23,240.48,7.94;2,317.96,407.19,240.25,7.94;2,317.96,418.15,238.69,7.94">Based on the State Matrix, the system identifes conficts, i.e. any time periods when the power consumption exceeds a predefned threshold (typically 3 kW for domestic use in Italian households).</s></p><p xml:id="_C9rZ9wC" coords="2,327.92,429.11,230.28,7.94;2,317.96,440.07,240.25,7.94;2,317.96,451.03,240.25,7.94;2,317.96,461.98,240.25,7.94;2,317.96,472.94,240.41,7.94;2,317.96,483.90,240.25,7.94;2,317.96,494.86,47.50,7.94"><s xml:id="_KHWW5Xs" coords="2,327.92,429.11,230.28,7.94;2,317.96,440.07,240.25,7.94;2,317.96,451.03,240.25,7.94;2,317.96,461.98,76.13,7.94">To suggest alternative scheduling for an automation, with the aim to optimize energy costs, a further function computes the original cost of an automation and explores alternative start times that could reduce it.</s><s xml:id="_aGTP5k2" coords="2,396.92,461.98,161.28,7.94;2,317.96,472.94,240.41,7.94;2,317.96,483.90,240.25,7.94;2,317.96,494.86,47.50,7.94">The fnal output of the function is a list of suggestions for possible time optimization that could save the user some money without raising conficts with the currently saved automations.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4" xml:id="_YqCd3nW" coords="2,317.96,520.42,224.41,9.37;2,334.47,533.37,58.44,9.37">A smart home digital twin for automation simulations</head><p xml:id="_Cb9WmNZ" coords="2,317.69,548.07,242.03,7.94;2,317.96,559.03,240.24,7.94;2,317.96,569.99,240.25,7.94;2,317.96,580.94,152.68,7.94"><s xml:id="_UX56Mfj" coords="2,317.69,548.07,242.03,7.94;2,317.96,559.03,206.32,7.94">The presented functions are implemented in a web-based application representing a Digital Twin of a green smart home.</s><s xml:id="_8YCTjF3" coords="2,526.50,559.03,31.70,7.94;2,317.96,569.99,240.25,7.94;2,317.96,580.94,152.68,7.94">Both the DT and the HA Operating System (OS) run on a Raspberry Pi 5 computer connected to the local network.</s></p><p xml:id="_hqAC8qN" coords="2,327.92,591.90,231.80,7.94;2,317.96,602.86,241.76,7.94;2,317.96,613.82,240.25,7.94;2,317.96,624.78,132.98,7.94;2,456.91,624.78,102.80,7.94;2,317.96,635.74,240.25,7.94;2,317.96,646.70,241.63,7.94;2,317.64,657.66,240.56,7.94;2,317.96,668.62,174.89,7.94"><s xml:id="_t9wNzbW" coords="2,327.92,591.90,231.80,7.94;2,317.96,602.86,241.76,7.94;2,317.96,613.82,240.25,7.94;2,317.96,624.78,44.89,7.94">The system front-end, written in React, shows automations' details and provides the users with information about the sustainability conficts and suggestions on how to optimize the selected automation.</s><s xml:id="_rn2e33A" coords="2,365.69,624.78,194.03,7.94;2,317.96,635.74,150.76,7.94">For example, in Figure <ref type="figure" coords="2,453.78,624.78,3.13,7.94">1</ref>, the list of all the automations saved in HA is presented on the left.</s><s xml:id="_h7CwPVT" coords="2,470.95,635.74,87.25,7.94;2,317.96,646.70,241.63,7.94">By clicking on the name of an automation, a card with its details will appear on the right.</s><s xml:id="_x3zHBuh" coords="2,317.64,657.66,240.56,7.94;2,317.96,668.62,174.89,7.94">Among the details, the 'Green suggestions' section presents ways to improve the sustainability of the automation.</s></p><p xml:id="_Dd2bFnS" coords="2,327.92,679.57,231.80,7.94;2,317.96,690.53,240.25,7.94;2,317.96,701.49,240.25,7.94;3,53.80,598.67,241.76,7.94;3,53.80,609.63,240.48,7.94;3,53.80,620.59,241.76,7.94;3,53.80,631.54,240.25,7.94;3,53.80,642.50,241.76,7.94;3,53.80,653.46,240.25,7.94;3,53.80,664.42,187.03,7.94"><s xml:id="_hFbqj7Q" coords="2,327.92,679.57,231.80,7.94;2,317.96,690.53,232.49,7.94">The system back-end is composed of a set of API endpoints, written in Python, that furnish the front-end with the data it needs.</s><s xml:id="_Sr6Qt8a" coords="2,552.69,690.53,5.51,7.94;2,317.96,701.49,240.25,7.94;3,53.80,598.67,241.76,7.94;3,53.80,609.63,36.77,7.94">It is responsible for the retrieval of automations' details from HA and  the simulation of their impact to identify conficts and possible optimizations.</s><s xml:id="_wDYTtew" coords="3,92.80,609.63,201.47,7.94;3,53.80,620.59,241.76,7.94;3,53.80,631.54,177.68,7.94">Additionally, it periodically extracts HA's device history and computes the moving average of states' power demand and duration that are needed for the simulation feature.</s><s xml:id="_JWyUCrG" coords="3,233.72,631.54,60.33,7.94;3,53.80,642.50,160.05,7.94">HA is integrated into the system thanks to the OS and its API.</s><s xml:id="_5VCyzFP" coords="3,215.93,642.50,79.63,7.94;3,53.80,653.46,240.25,7.94;3,53.80,664.42,187.03,7.94">It autonomously manages automations and devices, collecting data on appliance state changes and saving them into its internal database.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5" xml:id="_rQgF8p4" coords="3,317.96,597.67,72.89,9.37">Conclusion</head><p xml:id="_bjRes8y" coords="3,317.69,612.37,240.52,7.94;3,317.96,623.33,241.76,7.94;3,317.96,634.28,241.76,7.94;3,317.96,645.24,241.76,7.94;3,317.96,656.20,241.63,7.94;3,317.96,667.16,240.25,7.94;3,317.96,678.12,240.25,7.94;3,317.96,689.08,146.09,7.94"><s xml:id="_xA9qMaN" coords="3,317.69,612.37,240.52,7.94;3,317.96,623.33,241.76,7.94;3,317.96,634.28,146.68,7.94">This work presented a feature of our Digital Twin of a green smart home to help users optimize energy consumption and avoid overcoming the energy meter load capacity.</s><s xml:id="_2F8Vx3Y" coords="3,466.87,634.28,92.85,7.94;3,317.96,645.24,241.76,7.94;3,317.96,656.20,241.63,7.94">We plan to integrate machine learning to predict energy consumption in subsequent minutes, hours, or days, and thus provide further green suggestions.</s><s xml:id="_XJfNzpr" coords="3,317.96,667.16,240.25,7.94;3,317.96,678.12,49.61,7.94">Customization of suggestions based on user preferences will also be implemented.</s><s xml:id="_tTx75Gm" coords="3,369.81,678.12,188.39,7.94;3,317.96,689.08,146.09,7.94">The deployment and experimentation of the system in real homes will fnally be carried out.</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="3,126.02,104.44,3.39,6.18;3,188.30,104.44,3.39,6.18;3,253.41,104.44,3.39,6.18;3,314.78,104.44,3.39,6.18;3,361.75,104.44,3.39,6.18;3,46.50,105.74,2.32,4.41;3,53.80,62.77,311.56,6.23;3,404.48,62.77,153.72,6.23;3,202.38,91.48,207.24,7.70;3,53.48,104.44,354.72,6.18;3,46.50,113.71,2.32,4.41;3,70.20,112.36,192.27,6.23;3,46.50,121.68,2.32,4.41;3,88.16,120.38,220.40,6.18;3,46.50,129.65,2.32,4.41;3,86.94,128.35,108.07,6.18;3,46.50,137.62,2.32,4.41;3,104.90,136.32,277.59,6.18;3,124.55,144.29,61.10,6.18;3,46.50,153.56,2.32,4.41;3,88.19,152.26,219.97,6.18;3,46.50,161.53,2.32,4.41;3,71.89,160.23,90.38,6.18;3,46.50,169.50,2.32,4.41;3,70.20,168.20,82.86,6.18;3,46.50,177.47,2.32,4.41;3,88.34,176.17,182.20,6.18"><head>1 Enhancing 2 FOR 3 c 4 FOR 7 c o n f l i c t s = EMPTY_LIST 8 FOR</head><label>123478</label><figDesc><div><p xml:id="_32m2nnf"><s xml:id="_jzWwb3A" coords="3,86.04,62.77,279.32,6.23;3,404.48,62.77,153.72,6.23;3,202.38,91.48,207.24,7.70;3,53.48,104.44,354.72,6.18;3,87.83,112.36,174.64,6.23;3,92.04,120.38,216.52,6.18;3,104.71,128.35,90.30,6.18;3,46.50,137.62,2.32,4.41;3,104.90,136.32,277.59,6.18;3,124.55,144.29,61.10,6.18;3,46.50,153.56,2.32,4.41;3,88.19,152.26,219.97,6.18;3,87.83,168.20,65.23,6.18;3,46.50,177.47,2.32,4.41;3,88.34,176.17,182.20,6.18">Sustainability in Smart Home Management with Automation Simulations and Green Suggestions IUI Companion '25, March 24-27, 2025, Cagliari, Italy Listing 1: Identify Sustainability Conficts function FUNCTION i d e n t i f y s u s t a i n a b i l i t y c o n f l i c t s ( s t a t e m a t r i x , d e v i c e l i s t , p o w e r t h r e s h o l d ) : day FROM 0 TO 6 : # Monday = 0 , Sunday = 6 u m u l a t i v e _ p o w e r _ a r r a y = ARRAY[ 1 4 4 0 ] i n i t i a l i z e d to 0 mi nu te FROM 0 TO 1 4 3 9 : 5 c u m u l a t i v e _ p o w e r _ a r r a y [ m i n u t e ] = SUM( g e t _ a v e r a g e _ p o w e r ( d e v i c e , s t a t e in d e v i c e _ l i s t ) 6 c u m u l a t i v e _ p o w e r _ a r r a y s [ day ] = c u m u l a t i v e _ p o w e r _ a r r a y day FROM 0 TO 6 : 9 c u r r e n t _ a r r a y = c u m u l a t i v e _ p o w e r _ a r r a y s [ day ]</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="3,53.80,570.70,504.41,7.70;3,53.80,272.98,504.40,283.73"><head>10 c o n f l i c t _ s t a r t = NULL 11 FORFigure 1 :</head><label>10111</label><figDesc><div><p xml:id="_AZYw77g"><s xml:id="_ntFyxG8" coords="3,53.80,570.70,233.12,7.70">Figure 1: A screenshot of the Digital Twin web application.</s><s xml:id="_33kgg2v" coords="3,289.15,570.70,269.05,7.70">The "Relax Time" automation details include the green suggestions.</s></p></div></figDesc><graphic coords="3,53.80,272.98,504.40,283.73" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1" xml:id="foot_0" coords="2,56.72,702.79,87.41,6.18"><p xml:id="_7AmEkfZ"><s xml:id="_kBKp4WP" coords="2,56.72,702.79,87.41,6.18">https://www.home-assistant.io</s></p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head xml:id="_BJXh3cF" coords="4,53.80,86.80,91.99,9.37">Acknowledgments</head><p xml:id="_wwcPFEs" coords="4,53.53,101.49,240.52,7.94;4,53.80,112.45,240.41,7.94;4,53.80,123.41,241.76,7.94;4,53.80,134.37,71.21,7.94"><s xml:id="_CHaPtVb" coords="4,53.53,101.49,240.52,7.94;4,53.80,112.45,240.41,7.94;4,53.80,123.41,241.76,7.94;4,53.80,134.37,71.21,7.94">This work has been supported by the <rs type="funder">Italian MUR PRIN 2022 PNRR</rs> Project <rs type="grantNumber">P2022YR9B7</rs>, <rs type="projectName">End-User Development of Automations for Explainable Green Smart Homes</rs>, funded by <rs type="funder">European Union -NextGenerationEU</rs>.</s></p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funded-project" xml:id="_ubPMxv3">
+					<idno type="grant-number">P2022YR9B7</idno>
+					<orgName type="project" subtype="full">End-User Development of Automations for Explainable Green Smart Homes</orgName>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted" xml:id="b0">
+	<analytic>
+		<title level="a" type="main" coords="4,128.09,176.77,165.95,6.18;4,68.98,184.74,57.88,6.18" xml:id="_kBHsCQt">Creating Routines for IoT Ecosystems through Conversation with Smart Speakers</title>
+		<author>
+			<persName><forename type="first">Rita</forename><surname>Barbara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alessandro</forename><surname>Barricelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Daniela</forename><surname>Bondioli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Letizia</forename><surname>Fogli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Angela</forename><surname>Iemmolo</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Locoro</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/10447318.2023.2247845</idno>
+		<ptr target="https://doi.org/10.1080/10447318.2023.2247845" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_NbXdS2K" coords="4,132.42,184.69,152.53,6.23">International Journal of Human-Computer Interaction</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="issue">20</biblScope>
+			<biblScope unit="page" from="6109" to="6127" />
+			<date type="published" when="2024">2024. 2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b1">
+	<analytic>
+		<title level="a" type="main" coords="4,106.72,208.65,187.32,6.18;4,69.23,216.62,34.53,6.18" xml:id="_3BNuEvG">A Digital Twin to Enhance Energy Consumption Awareness in a Smart Home</title>
+		<author>
+			<persName><forename type="first">Rita</forename><surname>Barbara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Luca</forename><surname>Barricelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Daniela</forename><surname>Cotti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Davide</forename><surname>Fogli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Matteo</forename><surname>Guizzardi</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Pigoli</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3656650.3656708</idno>
+		<ptr target="https://doi.org/10.1145/3656650.3656708" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_aNPQxAj" coords="4,117.65,216.57,176.40,6.23;4,69.23,224.54,46.03,6.23">Proceedings of the 2024 International Conference on Advanced Visual Interfaces</title>
+		<meeting>the 2024 International Conference on Advanced Visual Interfaces<address><addrLine>Arenzano, Genoa, Italy; New York, NY, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Association for Computing Machinery</publisher>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+	<note>Article 60, 3 pages</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b2">
+	<analytic>
+		<title level="a" type="main" coords="4,224.23,248.50,69.95,6.18;4,69.23,256.47,109.12,6.18" xml:id="_k5HFfhn">Designing for End-User Development in the Internet of Things</title>
+		<author>
+			<persName><forename type="first">Rita</forename><surname>Barbara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stefano</forename><surname>Barricelli</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Valtolina</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-319-18425-8_2</idno>
+		<ptr target="https://doi.org/10.1007/978-3-319-18425-8_2" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_SZ4aMs5" coords="4,190.80,256.42,61.64,6.23">End-User Development</title>
+		<editor>
+			<persName><forename type="first">Paloma</forename><surname>Díaz</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Volkmar</forename><surname>Pipek</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Carmelo</forename><surname>Ardito</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Carlos</forename><surname>Jensen</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Ignacio</forename><surname>Aedo</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Alexander</forename><surname>Boden</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Cham</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer International Publishing</publisher>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="page" from="9" to="24" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b3">
+	<analytic>
+		<title level="a" type="main" coords="4,101.09,296.32,192.95,6.18;4,69.23,304.29,155.32,6.18" xml:id="_jtav8bT">Supporting end users to control their smart home: design implications from a literature review and an empirical investigation</title>
+		<author>
+			<persName><forename type="first">Danilo</forename><surname>Caivano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Daniela</forename><surname>Fogli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rosa</forename><surname>Lanzilotti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Antonio</forename><surname>Piccinno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fabio</forename><surname>Cassano</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jss.2018.06.035</idno>
+		<ptr target="https://doi.org/10.1016/j.jss.2018.06.035" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_d8pk8vq" coords="4,229.86,304.24,64.18,6.23;4,69.23,312.21,24.03,6.23">Journal of Systems and Software</title>
+		<imprint>
+			<biblScope unit="volume">144</biblScope>
+			<biblScope unit="page" from="295" to="313" />
+			<date type="published" when="2018">2018. 2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b4">
+	<analytic>
+		<title level="a" type="main" coords="4,258.09,320.23,37.13,6.18;4,69.23,328.20,222.85,6.18" xml:id="_HxXsen3">An ontologybased approach to confict resolution in Home and Building Automation Systems</title>
+		<author>
+			<persName><forename type="first">Rui</forename><surname>Camacho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Paulo</forename><surname>Carreira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Inês</forename><surname>Lynce</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sílvia</forename><surname>Resendes</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.eswa.2014.04.017</idno>
+		<ptr target="https://doi.org/10.1016/j.eswa.2014.04.017" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_73H2EPd" coords="4,69.23,336.12,94.23,6.23">Expert Systems with Applications</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">14</biblScope>
+			<biblScope unit="page" from="6161" to="6173" />
+			<date type="published" when="2014">2014. 2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b5">
+	<analytic>
+		<title level="a" type="main" coords="4,258.22,352.11,35.82,6.18;4,69.23,360.08,133.03,6.18" xml:id="_SW986dJ">Empowering End Users in Debugging Trigger-Action Rules</title>
+		<author>
+			<persName><forename type="first">Fulvio</forename><surname>Corno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Luigi</forename><forename type="middle">De</forename><surname>Russis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alberto</forename><forename type="middle">Monge</forename><surname>Rofarello</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3290605.3300618</idno>
+		<ptr target="https://doi.org/10.1145/3290605.3300618" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_nF7GGUX" coords="4,215.16,360.03,78.88,6.23;4,69.23,368.00,153.72,6.23;4,72.14,375.97,22.03,6.23">Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems</title>
+		<meeting>the 2019 CHI Conference on Human Factors in Computing Systems<address><addrLine>Glasgow, Scotland Uk; New York, NY, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Association for Computing Machinery</publisher>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="page" from="1" to="13" />
+		</imprint>
+	</monogr>
+	<note>CHI &apos;19)</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b6">
+	<analytic>
+		<title level="a" type="main" coords="4,268.78,391.96,26.09,6.18;4,69.23,399.93,224.81,6.18;4,69.23,407.90,36.62,6.18" xml:id="_nSAxX9a">HeyTAP: Bridging the Gaps Between Users&apos; Needs and Technology in IF-THEN Rules via Conversation</title>
+		<author>
+			<persName><forename type="first">Fulvio</forename><surname>Corno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Luigi</forename><forename type="middle">De</forename><surname>Russis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alberto</forename><forename type="middle">Monge</forename><surname>Rofarello</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3399715.3399905</idno>
+		<ptr target="https://doi.org/10.1145/3399715.3399905" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_uQeBfkz" coords="4,118.25,407.85,175.80,6.23;4,69.23,415.82,26.57,6.23;4,136.81,415.82,27.51,6.23">Proceedings of the International Conference on Advanced Visual Interfaces</title>
+		<meeting>the International Conference on Advanced Visual Interfaces<address><addrLine>Salerno, Italy; New York, NY, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Association for Computing Machinery</publisher>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note>) (AVI &apos;20) Article 23, 9 pages</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b7">
+	<analytic>
+		<title level="a" type="main" coords="4,260.74,431.81,34.05,6.18;4,69.23,439.78,151.41,6.18" xml:id="_YmGtnVb">From Users&apos; Intentions to IF-THEN Rules in the Internet of Things</title>
+		<author>
+			<persName><forename type="first">Fulvio</forename><surname>Corno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Luigi</forename><forename type="middle">De</forename><surname>Russis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alberto</forename><forename type="middle">Monge</forename><surname>Rofarello</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3447264</idno>
+		<ptr target="https://doi.org/10.1145/3447264" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_REfeSJM" coords="4,226.21,439.73,58.83,6.23">ACM Trans. Inf. Syst</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">33</biblScope>
+			<date type="published" when="2021-08">2021. aug 2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b8">
+	<analytic>
+		<title level="a" type="main" coords="4,69.23,463.69,224.81,6.18;4,69.23,471.66,136.24,6.18" xml:id="_vvbF6kT">Enabling End-User Development in Smart Homes: A Machine Learning-Powered Digital Twin for Energy Efcient Management</title>
+		<author>
+			<persName><forename type="first">Luca</forename><surname>Cotti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Davide</forename><surname>Guizzardi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Barbara</forename><forename type="middle">Rita</forename><surname>Barricelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Daniela</forename><surname>Fogli</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/f16060208</idno>
+		<ptr target="https://doi.org/10.3390/f16060208" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_DvZXW3x" coords="4,214.05,471.61,42.58,6.23">Future Internet</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page">16</biblScope>
+			<date type="published" when="2024">2024. 2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b9">
+	<analytic>
+		<title level="a" type="main" coords="4,272.38,487.60,21.66,6.18;4,69.23,495.57,66.75,6.18" xml:id="_MHU5xUm">State of the Art of Smart Homes</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">De</forename><surname>Liyanage</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chamin</forename><surname>Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Iskandar</forename><forename type="middle">M</forename><surname>Morikawa</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Petra</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.engappai.2012.05.002</idno>
+		<ptr target="https://doi.org/10.1016/j.engappai.2012.05.002" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_s5UFSRh" coords="4,142.13,495.52,137.05,6.23">Engineering Applications of Artifcial Intelligence</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1313" to="1321" />
+			<date type="published" when="2012">2012. 2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b10">
+	<analytic>
+		<title level="a" type="main" coords="4,173.80,519.48,120.24,6.18;4,69.23,527.45,71.59,6.18" xml:id="_4KYTYcS">An Architecture for Green Smart Homes Controlled by End Users</title>
+		<author>
+			<persName><forename type="first">Simone</forename><surname>Gallo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrea</forename><surname>Mattioli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fabio</forename><surname>Paterno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Barbara</forename><forename type="middle">Rita</forename><surname>Barricelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Daniela</forename><surname>Fogli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Davide</forename><surname>Guizzardi</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3656650.3656710</idno>
+		<ptr target="https://doi.org/10.1145/3656650.3656710" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_EkRCsgn" coords="4,154.58,527.40,139.47,6.23;4,69.23,535.38,86.06,6.23">Proceedings of the 2024 International Conference on Advanced Visual Interfaces</title>
+		<meeting>the 2024 International Conference on Advanced Visual Interfaces<address><addrLine>Arenzano, Genoa, Italy; New York, NY, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Association for Computing Machinery</publisher>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+	<note>Article 62, 3 pages</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b11">
+	<analytic>
+		<title level="a" type="main" coords="4,185.47,559.33,108.57,6.18;4,69.23,567.30,75.04,6.18" xml:id="_tMeWcwC">A Conversational Agent for Creating Flexible Daily Automation</title>
+		<author>
+			<persName><forename type="first">Simone</forename><surname>Gallo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fabio</forename><surname>Paterno</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3531073.3531090</idno>
+		<ptr target="https://doi.org/10.1145/3531073.3531090" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_ZqkSq8X" coords="4,157.30,567.25,136.75,6.23;4,69.23,575.22,87.16,6.23">Proceedings of the 2022 International Conference on Advanced Visual Interfaces</title>
+		<meeting>the 2022 International Conference on Advanced Visual Interfaces<address><addrLine>Frascati, Rome, Italy; New York, NY, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Association for Computing Machinery</publisher>
+			<date type="published" when="2022">2022. 2022</date>
+		</imprint>
+	</monogr>
+	<note>Article 38, 8 pages</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b12">
+	<analytic>
+		<title level="a" type="main" coords="4,69.23,607.15,224.81,6.18;4,69.23,615.12,14.46,6.18" xml:id="_cRqFpvW">Personalization of Context-Dependent Applications Through Trigger-Action Rules</title>
+		<author>
+			<persName><forename type="first">Giuseppe</forename><surname>Ghiani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marco</forename><surname>Manca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fabio</forename><surname>Paternò</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Carmen</forename><surname>Santoro</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3057861</idno>
+		<ptr target="https://doi.org/10.1145/3057861" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_zp7gM4X" coords="4,93.26,615.08,106.01,6.23">ACM Trans. Comput.-Hum. Interact</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">33</biblScope>
+			<date type="published" when="2017">2017. 2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b13">
+	<analytic>
+		<title level="a" type="main" coords="4,198.45,631.06,95.60,6.18;4,69.23,639.03,222.59,6.18" xml:id="_5EMWzWn">The UK-DALE dataset, domestic appliance-level electricity demand and whole-house demand from fve UK homes</title>
+		<author>
+			<persName><forename type="first">Jack</forename><surname>Kelly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">William</forename><surname>Knottenbelt</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/sdata.2015.7</idno>
+		<ptr target="https://doi.org/10.1038/sdata.2015.7" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_zrNmPez" coords="4,69.23,646.95,40.24,6.23">Scientifc Data</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">150007</biblScope>
+			<date type="published" when="2015">2015. 2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b14">
+	<analytic>
+		<title level="a" type="main" coords="4,265.51,654.97,28.53,6.18;4,69.23,662.94,224.81,6.18;4,69.23,670.91,79.16,6.18" xml:id="_FAPRfPZ">Managing non-trivial internet-of-things systems with conversational assistants: A prototype and a feasibility experiment</title>
+		<author>
+			<persName><forename type="first">André</forename><surname>Sousa Lago</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">João</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pedro</forename><surname>Dias</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hugo</forename><forename type="middle">Sereno</forename><surname>Ferreira</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jocs.2021.101324</idno>
+		<ptr target="https://doi.org/10.1016/j.jocs.2021.101324" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_fGmyGfZ" coords="4,154.11,670.86,94.53,6.23">Journal of Computational Science</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="1" to="12" />
+			<date type="published" when="2021">2021. 2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b15">
+	<analytic>
+		<title level="a" type="main" coords="4,195.97,686.85,98.07,6.18;4,69.23,694.82,129.89,6.18" xml:id="_v5zKxWH">Situation Awareness and Confict Resolution in Smart Home with Multiple Users</title>
+		<author>
+			<persName><forename type="first">Ya-Hua</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fuchun</forename><surname>Joseph</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lin</forename></persName>
+		</author>
+		<idno type="DOI">10.1109/WF</idno>
+		<ptr target="https://doi.org/10.1109/WF-Guizzardietal.IoT.2019.8767178" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_pYK7Wp9" coords="4,225.09,694.77,68.95,6.23;4,69.23,702.74,71.24,6.23">IEEE 5th World Forum on Internet of Things (WF-IoT)</title>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2019">2019. 2019</date>
+			<biblScope unit="page" from="852" to="857" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b16">
+	<analytic>
+		<title level="a" type="main" coords="4,489.40,97.07,69.98,6.18;4,333.39,105.04,113.75,6.18" xml:id="_XdyHYmu">An Approach to Explainable Automations in Daily Environments</title>
+		<author>
+			<persName><forename type="first">Sara</forename><surname>Maenza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrea</forename><surname>Mattioli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fabio</forename><surname>Paternò</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_hXJ7jXm" coords="4,452.81,104.99,105.39,6.23;4,332.97,112.96,149.09,6.23">Intelligent Human Systems Integration (IHSI 2024): Integrating People and Intelligent Systems</title>
+		<imprint>
+			<date type="published" when="2024">2024. 2024</date>
+			<biblScope unit="volume">119</biblScope>
+			<biblScope unit="page" from="507" to="513" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b17">
+	<analytic>
+		<title level="a" type="main" coords="4,534.84,120.98,24.54,6.18;4,333.39,128.95,184.27,6.18" xml:id="_t4wYSvt">Supporting end-user debugging of trigger-action rules for IoT applications</title>
+		<author>
+			<persName><forename type="first">Marco</forename><surname>Manca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fabio</forename><surname>Paternò</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Carmen</forename><surname>Santoro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Luca</forename><surname>Corcella</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijhcs.2018.11.005</idno>
+		<ptr target="https://doi.org/10.1016/j.ijhcs.2018.11.005" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_xyBdbdV" coords="4,522.89,128.90,35.31,6.23;4,333.39,136.87,100.33,6.23">International Journal of Human-Computer Studies</title>
+		<imprint>
+			<biblScope unit="volume">123</biblScope>
+			<biblScope unit="page" from="56" to="69" />
+			<date type="published" when="2019">2019. 2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b18">
+	<analytic>
+		<title level="a" type="main" coords="4,424.88,160.83,133.32,6.18;4,333.39,168.80,88.23,6.18" xml:id="_6gKM22Q">GREEND: An energy consumption dataset of households in Italy and Austria</title>
+		<author>
+			<persName><forename type="first">Andrea</forename><surname>Monacchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dominik</forename><surname>Egarter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wilfried</forename><surname>Elmenreich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Salvatore</forename><forename type="middle">D</forename><surname>'alessandro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrea</forename><forename type="middle">M</forename><surname>Tonello</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/SmartGridComm.2014.7007698</idno>
+		<ptr target="https://doi.org/10.1109/SmartGridComm.2014.7007698" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_QBF6ekN" coords="4,447.99,168.75,110.21,6.23;4,333.39,176.72,112.52,6.23">IEEE International Conference on Smart Grid Communications (SmartGridComm)</title>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2014">2014. 2014</date>
+			<biblScope unit="page" from="511" to="516" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b19">
+	<analytic>
+		<title level="a" type="main" coords="4,353.84,200.68,204.36,6.18;4,333.39,208.65,159.58,6.18" xml:id="_bmRdUnc">Improved Multi-user Interaction in a Smart Environment Through a Preference-Based Confict Resolution Virtual Assistant</title>
+		<author>
+			<persName><forename type="first">Kenzhegali</forename><surname>Nurgaliyev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dario</forename><forename type="middle">Di</forename><surname>Mauro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nawaz</forename><surname>Khan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Juan</forename><surname>Carlos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Augusto</forename></persName>
+		</author>
+		<idno type="DOI">10.1109/IE.2017.21</idno>
+		<ptr target="https://doi.org/10.1109/IE.2017.21" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_qkhg2ST" coords="4,506.46,208.60,51.74,6.23;4,333.39,216.57,123.11,6.23">2017 International Conference on Intelligent Environments (IE)</title>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="page" from="100" to="107" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b20">
+	<analytic>
+		<title level="a" type="main" coords="4,383.60,240.53,175.79,6.18;4,333.39,248.50,132.30,6.18" xml:id="_9AxRkU5">Context Aware Virtual Assistant with Case-Based Confict Resolution in Multi-User Smart Home Environment</title>
+		<author>
+			<persName><forename type="first">Bauyrzhan</forename><surname>Ospan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nawaz</forename><surname>Khan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Juan</forename><surname>Augusto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mario</forename><surname>Quinde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kenzhegali</forename><surname>Nurgaliyev</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/CoCoNet.2018.8476898</idno>
+		<ptr target="https://doi.org/10.1109/CoCoNet.2018.8476898" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_TQXKfDR" coords="4,477.81,248.45,80.40,6.23;4,333.39,256.42,154.33,6.23">2018 International Conference on Computing and Network Communications (CoCoNet)</title>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="page" from="36" to="44" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b21">
+	<analytic>
+		<title level="a" type="main" coords="4,333.39,280.38,160.02,6.18" xml:id="_JujuRXy">Practical Trigger-Action Programming in the Smart Home</title>
+		<author>
+			<persName><forename type="first">Blase</forename><surname>Ur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Elyse</forename><surname>Mcmanus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Melwyn</forename><surname>Pak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yong</forename><surname>Ho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><forename type="middle">L</forename><surname>Littman</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/2556288</idno>
+		<ptr target="https://doi.org/10.1145/2556288.2557420" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_ewJNQ7s" coords="4,506.20,280.33,52.00,6.23;4,333.39,288.30,146.44,6.23;4,336.24,296.27,21.04,6.23">Proc. of the SIGCHI Conference on Human Factors in Computing Systems</title>
+		<meeting>of the SIGCHI Conference on Human Factors in Computing Systems<address><addrLine>Toronto, Ontario, Canada; New York, NY, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2014">2014</date>
+			<biblScope unit="page" from="803" to="812" />
+		</imprint>
+	</monogr>
+	<note>CHI &apos;14)</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

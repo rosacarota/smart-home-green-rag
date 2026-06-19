@@ -1,0 +1,41 @@
+{
+  "article_id": "article_19",
+  "source_tei": "data\\articles\\extracted_grobid_tei\\article_19.grobid.tei.xml",
+  "main_blocks_output": "data\\articles\\cleaned_blocks\\article_19.jsonl",
+  "supplementary_blocks_output": null,
+  "table_blocks_output": null,
+  "discarded_blocks_output": null,
+  "review_blocks_output": null,
+  "title_found": true,
+  "source_title": "The Role of Home Environment in Environmental Protection",
+  "abstract_candidates": [
+    {
+      "score": 5.0,
+      "word_count": 115,
+      "language": "",
+      "preview": "Environmental protection deals with the act of environmental protection. In this era of technology, everyone desires quality standard of life which is creating problem in the environment. The home environment plays a pivotal role in shaping how individuals think and act towards environmental conserv"
+    }
+  ],
+  "selected_abstract_preview": "Environmental protection deals with the act of environmental protection. In this era of technology, everyone desires quality standard of life which is creating problem in the environment. The home environment plays a pivotal role in shaping how individuals think and act towards environmental conservation. It's where values and behaviours related to sustainability are rooted, and influenced by family dynamics and everyday routines. These deeply ingrained attitudes greatly impact how people embrac",
+  "counts": {
+    "main_blocks": 38,
+    "main_text_blocks": 29,
+    "supplementary_blocks": 0,
+    "table_blocks": 0,
+    "discarded_blocks": 0,
+    "review_blocks": 0,
+    "block_kinds": {
+      "abstract": 1,
+      "heading": 9,
+      "paragraph": 28
+    },
+    "discard_reasons": {},
+    "warnings": {}
+  },
+  "quality": {
+    "raw_body_characters": 18554,
+    "main_text_characters": 18614,
+    "main_text_ratio": 1.0032
+  },
+  "warnings": []
+}

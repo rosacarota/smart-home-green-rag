@@ -1,0 +1,45 @@
+{
+  "article_id": "article_14",
+  "source_tei": "data\\articles\\extracted_grobid_tei\\article_14.grobid.tei.xml",
+  "main_blocks_output": "data\\articles\\cleaned_blocks\\article_14.jsonl",
+  "supplementary_blocks_output": "data\\articles\\supplementary_blocks\\article_14.jsonl",
+  "table_blocks_output": null,
+  "discarded_blocks_output": null,
+  "review_blocks_output": "data\\articles\\review_blocks\\article_14.jsonl",
+  "title_found": true,
+  "source_title": "Users and households appliances: design suggestions for a better, sustainable interaction",
+  "abstract_candidates": [
+    {
+      "score": 2.0,
+      "word_count": 242,
+      "language": "",
+      "preview": "The Human Machine Interaction has a big role in the user approach with households appliances. During the main phase (the use one), users are called to manage energy choices, often without available efficient information regarding the best behavior they can adopt. At the end, people usually don't pay"
+    }
+  ],
+  "selected_abstract_preview": "The Human Machine Interaction has a big role in the user approach with households appliances. During the main phase (the use one), users are called to manage energy choices, often without available efficient information regarding the best behavior they can adopt. At the end, people usually don't pay the attention that a sustainable behavior is supposed to need, wasting consequently energy, this both because of a bad education and an uncompleted communication around the appliance. The product inf",
+  "counts": {
+    "main_blocks": 43,
+    "main_text_blocks": 26,
+    "supplementary_blocks": 5,
+    "table_blocks": 0,
+    "discarded_blocks": 0,
+    "review_blocks": 1,
+    "block_kinds": {
+      "abstract": 1,
+      "heading": 17,
+      "paragraph": 30
+    },
+    "discard_reasons": {},
+    "warnings": {
+      "high_numeric_density": 1
+    }
+  },
+  "quality": {
+    "raw_body_characters": 22158,
+    "main_text_characters": 20650,
+    "main_text_ratio": 0.9319
+  },
+  "warnings": [
+    "manual_review_recommended"
+  ]
+}

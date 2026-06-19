@@ -1,0 +1,41 @@
+{
+  "article_id": "article_18",
+  "source_tei": "data\\articles\\extracted_grobid_tei\\article_18.grobid.tei.xml",
+  "main_blocks_output": "data\\articles\\cleaned_blocks\\article_18.jsonl",
+  "supplementary_blocks_output": null,
+  "table_blocks_output": null,
+  "discarded_blocks_output": null,
+  "review_blocks_output": null,
+  "title_found": true,
+  "source_title": "Checklist to a More Sustainable Home",
+  "abstract_candidates": [
+    {
+      "score": 5.0,
+      "word_count": 76,
+      "language": "",
+      "preview": "6 minuti Building materials and methods: If you're planning on doing any building work in your home, consider how you can do this work with sustainable materials and methods. Things to consider investing in include passive solar design, smart metering, high performing windows and doors, sustainable "
+    }
+  ],
+  "selected_abstract_preview": "6 minuti Building materials and methods: If you're planning on doing any building work in your home, consider how you can do this work with sustainable materials and methods. Things to consider investing in include passive solar design, smart metering, high performing windows and doors, sustainable roofing etc. If you are doing any building work, reuse and recycle building waste as much as possible.\n\nInsulation: The better insulated your home is, the more likely it",
+  "counts": {
+    "main_blocks": 21,
+    "main_text_blocks": 20,
+    "supplementary_blocks": 0,
+    "table_blocks": 0,
+    "discarded_blocks": 0,
+    "review_blocks": 0,
+    "block_kinds": {
+      "abstract": 1,
+      "paragraph": 19,
+      "heading": 1
+    },
+    "discard_reasons": {},
+    "warnings": {}
+  },
+  "quality": {
+    "raw_body_characters": 4007,
+    "main_text_characters": 4444,
+    "main_text_ratio": 1.1091
+  },
+  "warnings": []
+}

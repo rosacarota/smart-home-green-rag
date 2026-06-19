@@ -1,0 +1,17 @@
+{
+  "article_id": "ARTICLE_012",
+  "source_title": "Enhancing Sustainability in Smart Home Management with Automation Simulations and Green Suggestions",
+  "year": "2025",
+  "article_summary": "The article presents a digital twin for green smart homes that simulates the energy impact of user-created automations before or during their use. It monitors appliance states through Home Assistant, estimates power demand and duration for device actions, detects situations where automations may exceed household load capacity, and suggests greener alternatives such as changing automation start times. These ideas can support greener IF-THEN smart-home rules by making automation design more energy-aware, cost-aware, and sustainability-oriented.",
+  "normalized_green_categories_one_hot": {
+    "hvac_optimization": 0,
+    "lighting_efficiency": 1,
+    "water_saving": 0,
+    "standby_reduction": 1,
+    "appliance_energy_management": 1,
+    "energy_monitoring": 1,
+    "occupancy_based_control": 1,
+    "environmental_awareness": 1,
+    "scheduling_optimization": 1
+  }
+}

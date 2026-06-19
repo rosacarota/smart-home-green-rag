@@ -1,0 +1,17 @@
+{
+  "article_id": "ARTICLE_016",
+  "source_title": "12 Sustainable Practices You Can Do at Home",
+  "year": "",
+  "article_summary": "The article presents practical household sustainability behaviors aimed at reducing carbon footprint, waste, water use, and home energy consumption. For green smart-home rule design, it is conceptually useful because it highlights water-saving actions, energy-efficient appliances and lighting, unplugging unused devices, and environmentally conscious behavior change. Although it does not discuss smart-home automation directly, several recommendations could inform greener IF-THEN rules such as reducing idle power, supporting efficient appliance use, and promoting water conservation.",
+  "normalized_green_categories_one_hot": {
+    "hvac_optimization": 0,
+    "lighting_efficiency": 1,
+    "water_saving": 1,
+    "standby_reduction": 1,
+    "appliance_energy_management": 1,
+    "energy_monitoring": 0,
+    "occupancy_based_control": 0,
+    "environmental_awareness": 1,
+    "scheduling_optimization": 0
+  }
+}

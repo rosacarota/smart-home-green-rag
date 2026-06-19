@@ -55,3 +55,101 @@
 
 - **Title**: Electric Energy Management in the Smart Home: Perspectives on Enabling Technologies and Consumer Behavior
 - **URL**: https://docs.nlr.gov/docs/fy13osti/57586.pdf
+
+## Article 12
+
+- **Title**: Enhancing Sustainability in Smart Home Management with
+Automation Simulations and Green Suggestions
+- **URL**: https://dl.acm.org/doi/epdf/10.1145/3708557.3716345
+
+## Article 13
+
+- **Title**: Smart Homes as a Means to Sustainable Energy Consumption: A Study of Consumer Perceptions
+- **URL**: https://link.springer.com/article/10.1007/s10603-011-9177-2
+
+## Article 14
+
+- **Title**: Users and households appliances: design suggestions
+for a better, sustainable interaction.
+- **URL**: https://dl.acm.org/doi/epdf/10.1145/2037296.2037321
+
+## Article 15
+
+- **Title**: Good Practices in Home Kitchens: Construction and Validation of an Instrument for Household Food-Borne Disease Assessment and Prevention
+- **URL**: https://www.mdpi.com/1660-4601/16/6/1005
+
+## Article 16
+
+- **Title**: 12 Sustainable Practices You Can Do at Home
+- **URL**: https://theearthlingco.com/blogs/news/sustainable-practices-at-home
+
+## Article 17
+
+- **Title**: Simple tips for a greener lifestyle
+- **URL**: https://www.worldwildlife.org/resources/tips/green-tips/
+
+## Article 18
+
+- **Title**: Checklist to a More Sustainable Home
+- **URL**: https://www.citybin.com/latest/sustainability/checklist-to-a-more-sustainable-home/
+
+## Article 19
+
+- **Title**: The Role of Home Environment in Environmental Protection
+- **URL**: https://anubooks.com/uploads/files/17140328931.pdf
+
+## Article 20
+
+- **Title**:
+- **URL**: 
+
+## Article 21
+
+- **Title**: 
+- **URL**: 
+
+## Article 22
+
+- **Title**:
+- **URL**: 
+
+## Article 23
+
+- **Title**: 
+- **URL**: 
+
+## Article 24
+
+- **Title**: 
+- **URL**: 
+
+## Article 25
+
+- **Title**: 
+- **URL**: 
+
+## Article 26
+
+- **Title**: 
+- **URL**: 
+
+## Article 27
+
+- **Title**: 
+- **URL**:
+
+## Article 28
+
+- **Title**:
+- **URL**:
+
+## Article 29
+
+- **Title**: 
+- **URL**:
+
+## Article 30
+
+- **Title**: 
+- **URL**:
+

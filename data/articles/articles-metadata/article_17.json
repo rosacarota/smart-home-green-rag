@@ -1,0 +1,17 @@
+{
+  "article_id": "ARTICLE_017",
+  "source_title": "Simple tips for a greener lifestyle",
+  "year": "",
+  "article_summary": "The article provides practical household sustainability tips that can inform greener smart-home rules, including turning off lights when rooms are unused, using timers and dimmers, leveraging natural light, optimizing thermostat settings, and reducing heating-related emissions. It also discusses water-saving actions for washing machines, faucets, showers, toilets, and dishwashers, as well as appliance choices and behaviors such as cold-water laundry, microwave cooking, efficient dishwashers, refrigerator efficiency, and unplugging idle electronics. These recommendations are relevant for translating everyday green behaviors into automation concepts for lighting, HVAC, appliances, water use, and standby power reduction.",
+  "normalized_green_categories_one_hot": {
+    "hvac_optimization": 1,
+    "lighting_efficiency": 1,
+    "water_saving": 1,
+    "standby_reduction": 1,
+    "appliance_energy_management": 1,
+    "energy_monitoring": 0,
+    "occupancy_based_control": 1,
+    "environmental_awareness": 1,
+    "scheduling_optimization": 1
+  }
+}

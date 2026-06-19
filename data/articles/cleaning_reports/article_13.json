@@ -1,0 +1,48 @@
+{
+  "article_id": "article_13",
+  "source_tei": "data\\articles\\extracted_grobid_tei\\article_13.grobid.tei.xml",
+  "main_blocks_output": "data\\articles\\cleaned_blocks\\article_13.jsonl",
+  "supplementary_blocks_output": "data\\articles\\supplementary_blocks\\article_13.jsonl",
+  "table_blocks_output": null,
+  "discarded_blocks_output": "data\\articles\\discarded_blocks\\article_13.jsonl",
+  "review_blocks_output": "data\\articles\\review_blocks\\article_13.jsonl",
+  "title_found": true,
+  "source_title": "Smart Homes as a Means to Sustainable Energy Consumption: A Study of Consumer Perceptions",
+  "abstract_candidates": [
+    {
+      "score": 9.0,
+      "word_count": 209,
+      "language": "",
+      "preview": "European and national policies are aimed at reducing greenhouse gases and increasing energy efficiency-also in the household sector. For this purpose, new solutions for private homes based on information and communication technologies (ICT) are being developed and tested. However, up to now, hardly "
+    }
+  ],
+  "selected_abstract_preview": "European and national policies are aimed at reducing greenhouse gases and increasing energy efficiency-also in the household sector. For this purpose, new solutions for private homes based on information and communication technologies (ICT) are being developed and tested. However, up to now, hardly anyone has seen, experienced or lived in an environment that offers the full range of ICT-based energy management solutions. In this study, consumer reactions to a fully furnished and equipped smart h",
+  "counts": {
+    "main_blocks": 88,
+    "main_text_blocks": 72,
+    "supplementary_blocks": 4,
+    "table_blocks": 0,
+    "discarded_blocks": 2,
+    "review_blocks": 2,
+    "block_kinds": {
+      "abstract": 1,
+      "paragraph": 74,
+      "heading": 17
+    },
+    "discard_reasons": {
+      "figure_or_table_caption": 1,
+      "figure_content": 1
+    },
+    "warnings": {
+      "missing_terminal_punctuation": 2
+    }
+  },
+  "quality": {
+    "raw_body_characters": 58839,
+    "main_text_characters": 56864,
+    "main_text_ratio": 0.9664
+  },
+  "warnings": [
+    "manual_review_recommended"
+  ]
+}

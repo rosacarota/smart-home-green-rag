@@ -1,0 +1,1257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main" xml:id="_rByBxeK" coords="1,76.54,115.68,426.89,16.82;1,75.84,135.94,351.16,16.82;1,76.54,156.21,394.49,16.82">Good Practices in Home Kitchens: Construction and Validation of an Instrument for Household Food-Borne Disease Assessment and Prevention</title>
+				<funder ref="#_HXTBcmy">
+					<orgName type="full">Coordenação de Aperfeiçoamento de Pessoal de Nível Superior -Brasil (CAPES) (Finance Code</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2019-03-20">20 March 2019</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author>
+							<persName><forename type="first">Adenilma</forename><surname>Da</surname></persName>
+							<email>adenilma.farias@ifpi.edu.br</email>
+						</author>
+						<author>
+							<persName><forename type="first">Silva</forename><surname>Farias</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Federal Institute of Piauí</orgName>
+								<address>
+									<addrLine>Campus Pedro II</addrLine>
+									<postCode>64255-000</postCode>
+									<region>Piauí</region>
+									<country>Brazil;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Rita</forename><surname>De Cassia</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Coelho</forename><surname>De Almeida Akutsu</surname></persName>
+							<idno type="ORCID">0000-0003-0699-7617</idno>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Department of Nutrition</orgName>
+								<orgName type="department" key="dep2">Faculty of Health Sciences</orgName>
+								<orgName type="institution">University of Brasilia</orgName>
+								<address>
+									<postCode>70910-900</postCode>
+									<settlement>Brasilia</settlement>
+									<country>Brazil;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Raquel</forename><surname>Braz</surname></persName>
+							<idno type="ORCID">0000-0003-0699-7617</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Assunção</forename><surname>Botelho</surname></persName>
+							<idno type="ORCID">0000-0002-0369-287X</idno>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Department of Nutrition</orgName>
+								<orgName type="department" key="dep2">Faculty of Health Sciences</orgName>
+								<orgName type="institution">University of Brasilia</orgName>
+								<address>
+									<postCode>70910-900</postCode>
+									<settlement>Brasilia</settlement>
+									<country>Brazil;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Renata</forename><forename type="middle">Puppin</forename><surname>Zandonadi</surname></persName>
+							<email>renatapz@yahoo.com.br</email>
+							<idno type="ORCID">0000-0003-0370-3089</idno>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Department of Nutrition</orgName>
+								<orgName type="department" key="dep2">Faculty of Health Sciences</orgName>
+								<orgName type="institution">University of Brasilia</orgName>
+								<address>
+									<postCode>70910-900</postCode>
+									<settlement>Brasilia</settlement>
+									<country>Brazil;</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main" xml:id="_VdtRzM5" coords="1,76.54,115.68,426.89,16.82;1,75.84,135.94,351.16,16.82;1,76.54,156.21,394.49,16.82">Good Practices in Home Kitchens: Construction and Validation of an Instrument for Household Food-Borne Disease Assessment and Prevention</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2019-03-20">20 March 2019</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">81B6FB51ED904C7E891261A1B6DCA77C</idno>
+					<idno type="DOI">10.3390/ijerph16061005</idno>
+					<note type="submission">Received: 1 February 2019; Accepted: 15 March 2019;</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-06-16T10:06+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=true, generateTeiCoordinates=[title, head, p, s, note, figure, formula, ref], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term xml:id="_bCmMQCK">good practices</term>
+					<term xml:id="_Q2KbPBN">home kitchens</term>
+					<term xml:id="_CdZRNBt">foodborne disease</term>
+					<term xml:id="_W2kGN94">prevention</term>
+					<term xml:id="_dyHudMH">instrument</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_beK47Wb"><p xml:id="_uWAghXE" coords="1,128.22,307.97,390.52,9.58;1,82.21,321.48,436.53,9.58;1,82.21,334.99,436.53,9.58;1,82.21,348.50,436.54,9.58;1,81.88,362.01,436.86,9.58;1,82.21,375.52,436.53,9.58;1,82.21,389.03,436.53,9.58;1,82.21,402.22,438.28,9.90;1,82.21,415.73,436.54,9.90;1,82.21,429.56,436.54,9.58;1,82.21,443.07,436.53,9.58;1,82.21,456.58,437.78,9.58;1,82.21,470.08,436.54,9.58;1,82.21,483.59,436.54,9.58;1,81.79,497.10,283.67,9.58"><s xml:id="_9fbwkxp" coords="1,128.22,307.97,390.52,9.58;1,82.21,321.48,111.00,9.58">This study aimed to develop and validate an instrument to evaluate Brazilian home kitchens' good practices.</s><s xml:id="_x7sA6b7" coords="1,197.18,321.48,321.56,9.58;1,82.21,334.99,436.53,9.58;1,82.21,348.50,436.54,9.58;1,81.88,362.01,165.79,9.58">We elaborated on the preliminary version of the check-list based on the Brazilian resolution for food safety Collegiate Board Resolution 216 (RDC 216), Collegiate Board Resolution 275 (RDC 275), the standard 22000 from the International Organization for Standardization (ISO 22000) and Codex Alimentarius.</s><s xml:id="_K2yrkRc" coords="1,250.75,362.01,267.98,9.58;1,82.21,375.52,207.46,9.58">Seven experts with experience in the area participated in the check-list validation and semantic evaluation.</s><s xml:id="_rKYFNdp" coords="1,294.33,375.52,224.40,9.58;1,82.21,389.03,436.53,9.58;1,82.21,402.22,438.28,9.90">The criteria used for the approval of the items, as to their importance for the prevention of food contamination and clarity of the wording, was the achievement of a minimum of five out of seven of agreement among the experts (W-values ≥ 0.7).</s><s xml:id="_q6hGhBV" coords="1,82.21,415.73,436.54,9.90;1,82.21,429.56,274.14,9.58">Moreover, items should have a mean ≥3 for the evaluation of importance (content validation) and clarity (semantic evaluation) to be maintained in the instrument.</s><s xml:id="_6HzRbfg" coords="1,359.27,429.56,159.47,9.58;1,82.21,443.07,436.53,9.58;1,82.21,456.58,437.78,9.58;1,82.21,470.08,224.71,9.58">After the expert phase, we conducted another semantic evaluation of the check-list with a focus group composed of 13 undergraduate students, one moderator, and one observer of the process, to evaluate each item regarding its clarity, considering their level of understanding of the item.</s><s xml:id="_PAsjBFv" coords="1,309.97,470.08,208.77,9.58;1,82.21,483.59,159.62,9.58">The final version of the check-list was composed of 77 items, divided into four blocks.</s><s xml:id="_23qQ4M8" coords="1,244.95,483.59,273.80,9.58;1,81.79,497.10,283.67,9.58">The check-list developed was validated with respect to content with a W-value of 0.86 and approved in the semantic evaluation.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="13" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1." xml:id="_j87SU5P" coords="1,76.54,573.59,68.11,9.34">Introduction</head><p xml:id="_87kYkWY" coords="1,97.80,592.99,420.94,9.58;1,76.24,606.50,442.51,9.58;1,76.54,620.01,125.72,9.58;1,216.10,620.01,302.64,9.58;1,76.54,633.52,274.96,9.58;1,372.63,633.52,146.11,9.58;1,76.24,647.03,442.51,9.58;1,76.24,660.54,442.50,9.58;1,76.24,674.05,372.96,9.58;1,463.07,674.05,55.67,9.58;1,76.54,687.56,187.28,9.58;1,277.15,687.56,241.59,9.58;1,76.54,701.07,442.20,9.58;1,76.54,714.58,171.30,9.58;1,268.32,714.58,250.42,9.58;1,76.54,728.09,139.86,9.58;1,229.46,728.09,3.53,9.58"><s xml:id="_pNytpXQ" coords="1,97.80,592.99,420.94,9.58;1,76.24,606.50,442.51,9.58;1,76.54,620.01,143.14,9.58">Foodborne diseases (FBD) represent one of the most common and important public health problems in the world, being one of the major causes of personal distress, preventable deaths, and avoidable economic burden <ref type="bibr" coords="1,205.39,620.01,10.72,9.58" target="#b0">[1]</ref>.</s><s xml:id="_GtX3SJv" coords="1,224.67,620.01,294.06,9.58;1,76.54,633.52,299.73,9.58">Despite the considerable global burden of FBD, the full extent of unsafe food and its damage to the public has been unknown <ref type="bibr" coords="1,354.45,633.52,10.91,9.58" target="#b1">[2,</ref><ref type="bibr" coords="1,365.36,633.52,7.27,9.58" target="#b2">3]</ref>.</s><s xml:id="_SUFbuKM" coords="1,380.76,633.52,137.98,9.58;1,76.24,647.03,442.51,9.58;1,76.24,660.54,162.08,9.58">Every year, at least two billion people worldwide suffer from FBD, which makes these diseases among the greatest public health problems in the contemporary world.</s><s xml:id="_dHRTy6A" coords="1,241.39,660.54,277.35,9.58;1,76.24,674.05,390.40,9.58">Data from Canada's health agency show that in 2016, 1.6 million people became ill, 4000 were hospitalized, and 105 died from FBD in that country <ref type="bibr" coords="1,452.35,674.05,10.72,9.58" target="#b3">[4]</ref>.</s><s xml:id="_qdpnGpc" coords="1,471.70,674.05,47.04,9.58;1,76.54,687.56,442.21,9.58;1,76.54,701.07,96.52,9.58">According to the World Health Organization (WHO) <ref type="bibr" coords="1,266.43,687.56,10.72,9.58" target="#b4">[5]</ref>, 23 million people in Europe become ill, and 5000 die from FBD every year.</s><s xml:id="_DN3sENn" coords="1,177.18,701.07,341.56,9.58;1,76.54,714.58,195.38,9.58">The U.S. reported about 39 million cases of FBD per year, with about 70,000 hospitalizations and about 1600 deaths <ref type="bibr" coords="1,250.31,714.58,10.80,9.58" target="#b5">[6,</ref><ref type="bibr" coords="1,261.11,714.58,7.20,9.58" target="#b6">7]</ref>.</s><s xml:id="_7Y5GCDR" coords="1,275.00,714.58,243.73,9.58;1,76.54,728.09,156.45,9.58">Data from Brazil showed about 13,000 individuals with FBD, 1700 hospitalized per year <ref type="bibr" coords="1,218.88,728.09,10.58,9.58" target="#b1">[2]</ref>.</s></p><p xml:id="_XsPwd9y" coords="1,97.80,741.60,420.95,9.58;1,76.54,755.11,80.47,9.58;1,170.20,755.11,348.54,9.58;2,76.54,91.07,414.23,9.58;2,516.66,91.07,3.83,9.58;2,76.23,104.58,442.52,9.58;2,76.54,118.09,256.11,9.58;2,350.11,118.09,168.63,9.58;2,76.54,131.60,443.45,9.58;2,76.54,145.11,340.79,9.58;2,435.09,145.11,3.82,9.58"><s xml:id="_KtGE5qk" coords="1,97.80,741.60,420.95,9.58;1,76.54,755.11,97.24,9.58">According to the U.S. Centers for Disease Control and Prevention, food consumed at home causes about 20% of FBD <ref type="bibr" coords="1,159.49,755.11,10.72,9.58" target="#b7">[8]</ref>.</s><s xml:id="_8bAfAJu" coords="1,176.85,755.11,341.89,9.58;2,76.54,91.07,443.95,9.58">According to data from the epidemiological analysis of FBD outbreaks, from 2000 to 2011 in Brazil, 51.8% of the outbreaks arose in households, more than in restaurants <ref type="bibr" coords="2,493.69,91.07,11.48,9.58" target="#b8">[9,</ref><ref type="bibr" coords="2,505.17,91.07,11.48,9.58" target="#b9">10]</ref>.</s><s xml:id="_qsjB8ZM" coords="2,76.23,104.58,442.52,9.58;2,76.54,118.09,277.36,9.58">The occurrence of FBD outbreaks in residences shows the population lacks sanitary education and knowledge about adequate preparation and storage of food <ref type="bibr" coords="2,334.99,118.09,15.12,9.58" target="#b10">[11]</ref>.</s><s xml:id="_DuuPMmC" coords="2,356.93,118.09,161.81,9.58;2,76.54,131.60,443.45,9.58;2,76.54,145.11,362.37,9.58">The percentage of cases due to unsafe food preparation practices in households can be linked to the food handler, by using poor hygiene, improper food storage conditions, and inadequate meal preparation practices <ref type="bibr" coords="2,419.82,145.11,15.27,9.58" target="#b9">[10]</ref>.</s></p><p xml:id="_xeDX8gF" coords="2,97.80,158.62,420.95,9.58;2,76.24,172.13,442.51,9.58;2,76.54,185.64,442.20,9.58;2,76.54,199.15,291.09,9.58;2,397.71,199.15,3.94,9.58"><s xml:id="_VQFBzhC" coords="2,97.80,158.62,420.95,9.58;2,76.24,172.13,79.96,9.58">We could avoid many FBD cases if people adopted preventive actions throughout the home food production chain.</s><s xml:id="_WvWCgjK" coords="2,160.74,172.13,358.00,9.58;2,76.54,185.64,132.39,9.58">Therefore, proper food handling in households represents an important step in reducing the incidence of FBD.</s><s xml:id="_ekQYFFh" coords="2,211.27,185.64,307.47,9.58;2,76.54,199.15,325.12,9.58">In this sense, the population should know and adopt the good practices to guarantee food quality and safety, avoiding the FBD occurrence <ref type="bibr" coords="2,370.11,199.15,15.77,9.58" target="#b11">[12,</ref><ref type="bibr" coords="2,385.88,199.15,11.83,9.58" target="#b12">13]</ref>.</s></p><p xml:id="_tteAwf7" coords="2,97.80,212.66,420.94,9.58;2,76.54,226.17,27.11,9.58;2,122.02,226.17,396.72,9.58;2,76.12,239.68,442.62,9.58;2,76.54,253.19,442.20,9.58;2,76.54,266.70,442.20,9.58;2,76.54,280.21,94.89,9.58;2,189.13,280.21,329.61,9.58;2,76.54,293.71,442.20,9.58;2,76.24,307.22,442.51,9.58;2,76.54,320.73,442.20,9.58;2,76.54,334.24,175.42,9.58"><s xml:id="_WS3uxBX" coords="2,97.80,212.66,420.94,9.58;2,76.54,226.17,49.34,9.58">Despite the concerns about FBD at home, research about home food safety practices is still scarce <ref type="bibr" coords="2,106.60,226.17,15.42,9.58" target="#b9">[10]</ref>.</s><s xml:id="_z3x36tC" coords="2,130.36,226.17,388.39,9.58;2,76.12,239.68,360.89,9.58">Government regulates food safety practices in commercial establishments by the laws which provide the main means of intervention for municipal health surveillance.</s><s xml:id="_jj6v7Mp" coords="2,440.13,239.68,78.61,9.58;2,76.54,253.19,249.99,9.58">However, there is little health surveillance of food safety at homes in Brazil.</s><s xml:id="_K9a6Gmj" coords="2,329.63,253.19,189.11,9.58;2,76.54,266.70,442.20,9.58;2,76.54,280.21,116.41,9.58">This lack of action affects a large number of homes and undermines health surveillance, which includes the inspection of locations that may present a risk to public health <ref type="bibr" coords="2,173.91,280.21,15.22,9.58" target="#b9">[10]</ref>.</s><s xml:id="_j9GmdNb" coords="2,196.02,280.21,322.72,9.58;2,76.54,293.71,442.20,9.58;2,76.24,307.22,42.21,9.58">Moreover, considering the concerns about the increase in the cases of FBD arising in households, there is a need to develop an instrument to evaluate good food preparation practices.</s><s xml:id="_8QvWKhY" coords="2,124.30,307.22,394.44,9.58;2,76.54,320.73,126.48,9.58">It is an important strategy for reducing FBD cases to improve food handling practices in household environments.</s><s xml:id="_M9czyTC" coords="2,206.92,320.73,311.82,9.58;2,76.54,334.24,175.42,9.58">Therefore, this study aimed to develop and validate an instrument to evaluate home kitchens' good practices.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2." xml:id="_9QhT65a" coords="2,76.54,357.54,116.25,9.34">Materials and Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1." xml:id="_jTfRu4u" coords="2,76.54,380.54,95.98,9.50">Items Construction</head><p xml:id="_5f2ffSj" coords="2,97.80,400.16,420.95,9.58;2,76.54,413.67,442.20,9.58;2,76.54,427.17,264.66,9.58;2,359.96,427.17,158.78,9.58;2,76.54,440.68,170.41,9.58;2,265.50,440.68,181.11,9.58;2,469.59,440.68,49.41,9.58;2,76.15,454.19,57.05,9.58;2,150.71,454.19,368.03,9.58;2,76.54,467.70,304.34,9.58;2,97.80,554.18,420.94,9.58;2,76.54,567.69,443.46,9.58;2,76.54,581.20,52.03,9.58;2,150.11,581.20,73.01,9.58;2,240.86,581.20,278.08,9.58;2,76.54,594.71,78.62,9.58"><s xml:id="_MAakMMv" coords="2,97.80,400.16,420.95,9.58;2,76.54,413.67,129.05,9.58">The instrument (check-list) was elaborated based on extensive literature review and experience of the researchers on the matter.</s><s xml:id="_h2Cu6sG" coords="2,208.67,413.67,310.07,9.58;2,76.54,427.17,442.20,9.58;2,76.54,440.68,442.46,9.58;2,76.15,454.19,78.35,9.58">The following documents were used to design the preliminary version of the check-list: Brazilian legislation as RDC No. 216/04 <ref type="bibr" coords="2,344.54,427.17,15.41,9.58" target="#b13">[14]</ref>, RDC No. 275/02 of the National Health Surveillance Agency-ANVISA <ref type="bibr" coords="2,250.08,440.68,15.42,9.58" target="#b14">[15]</ref>, and international standards ISO 22000 <ref type="bibr" coords="2,449.73,440.68,16.73,9.58" target="#b15">[16]</ref> and Codex Alimentarius <ref type="bibr" coords="2,135.59,454.19,15.13,9.58" target="#b16">[17]</ref>.</s><s xml:id="_fwZF5Qv" coords="2,157.55,454.19,361.20,9.58;2,76.54,467.70,304.34,9.58;2,97.80,554.18,420.94,9.58;2,76.54,567.69,443.46,9.58;2,76.54,581.20,168.14,9.58">After reviewing the literature, we found the following critical indicators that should be considered in the analysis of hygiene conditions in home kitchens: Each of the indicators had subitems, and we evaluated each subitem according to the following criteria-"attend," "do not attend," and "do not apply"-as well as studies from Ceniccola, Araujo, and Akutsu <ref type="bibr" coords="2,131.04,581.20,16.59,9.58" target="#b17">[18]</ref> and Araujo et al. <ref type="bibr" coords="2,225.61,581.20,15.25,9.58" target="#b18">[19]</ref>.</s><s xml:id="_vBURhpX" coords="2,247.76,581.20,271.19,9.58;2,76.54,594.71,78.62,9.58">In the end, we obtained 82 subitems that were part of the four critical indicators.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2." xml:id="_FTtS7WJ" coords="2,76.54,617.79,95.05,9.50">Content Validation</head><p xml:id="_rffb7bQ" coords="2,97.80,637.41,420.94,9.58;2,76.54,650.92,442.20,9.58;2,76.54,664.43,442.21,9.58;2,76.54,677.94,442.20,9.58;2,76.54,691.44,229.45,9.58;2,323.74,691.44,3.82,9.58"><s xml:id="_W9h2k7E" coords="2,97.80,637.41,351.64,9.58">We used the Delphi method, with some adjustments for the content validation.</s><s xml:id="_a6cFejU" coords="2,452.52,637.41,66.22,9.58;2,76.54,650.92,388.67,9.58">This method is based on obtaining the opinions of experts to achieve a consensus on a specific subject.</s><s xml:id="_ga5SS3f" coords="2,468.50,650.92,50.24,9.58;2,76.54,664.43,415.47,9.58">The Delphi method is currently employed in several areas in situations where new ideas are being created.</s><s xml:id="_aTfMYWu" coords="2,495.11,664.43,23.64,9.58;2,76.54,677.94,442.20,9.58;2,76.54,691.44,251.03,9.58">It is a method in which, through collegial communication ordered by individual responses, often conducted by questionnaires, we seek the consensus of a group <ref type="bibr" coords="2,308.47,691.44,15.27,9.58" target="#b19">[20]</ref>.</s></p><p xml:id="_ts3waTc" coords="2,97.80,704.95,134.97,9.58;2,232.76,702.96,5.66,7.28;2,242.99,704.95,275.75,9.58;2,76.26,718.46,442.49,9.58;2,76.26,731.97,444.23,9.58;2,76.04,745.48,442.71,9.58;2,76.12,758.99,442.62,9.58;3,76.54,91.07,443.45,9.58"><s xml:id="_CmJ2KY6" coords="2,97.80,704.95,134.97,9.58;2,232.76,702.96,5.66,7.28;2,242.99,704.95,275.75,9.58;2,76.26,718.46,321.20,9.58">We used the Survey Monkey @ platform (Surveymonkey, San Mateo, CA, USA) to create a questionnaire for the application of the check-list content validation.</s><s xml:id="_AjMXYgD" coords="2,406.25,718.46,112.49,9.58;2,76.26,731.97,444.23,9.58">On the first page of the questionnaire, there was an orientation letter specifying the evaluation criteria for the check-list items.</s><s xml:id="_Ekbzwdy" coords="2,76.04,745.48,442.71,9.58;2,76.12,758.99,442.62,9.58;3,76.54,91.07,443.45,9.58">We asked experts specialized in food hygiene and food safety (Ph.D. and/or post-graduate professors with extensive experience in the research field) to evaluate each item considering its pertinence using a Likert scale, as follows: (0) "I totally disagree with the item"; (1) "I partially disagree with the item";</s></p><p xml:id="_ehRczPK" coords="3,76.21,104.58,442.92,9.58;3,76.54,118.09,92.55,9.58"><s xml:id="_jCtUUtq" coords="3,76.21,104.58,442.92,9.58;3,76.54,118.09,92.55,9.58">(2) "I neither agree nor disagree with the item"; (3) "I partially agree with the item"; and (4) "I fully agree with the item."</s></p><p xml:id="_rDsg4Dc" coords="3,97.80,131.60,151.14,9.58;3,248.94,129.61,5.66,7.28;3,258.00,131.60,260.74,9.58;3,76.54,145.11,442.21,9.58;3,76.54,158.62,443.45,9.58;3,76.12,172.13,442.62,9.58;3,76.54,185.64,442.20,9.58;3,76.12,199.15,442.62,9.58;3,76.54,212.66,442.20,9.58;3,76.54,226.17,265.18,9.58"><s xml:id="_CMA6cZ5" coords="3,97.80,131.60,151.14,9.58;3,248.94,129.61,5.66,7.28;3,258.00,131.60,260.74,9.58;3,76.54,145.11,308.40,9.58">We also used the Survey Monkey @ platform to provide feedback to the experts regarding the evaluations performed by other experts and the results of the analysis.</s><s xml:id="_EspqtRs" coords="3,388.02,145.11,130.72,9.58;3,76.54,158.62,171.96,9.58">We conducted two evaluation stages in the content validation process.</s><s xml:id="_ASYVt2e" coords="3,251.61,158.62,268.37,9.58;3,76.12,172.13,386.04,9.58">For the items which did not receive approval in the first stage, we presented to each one of them the collection resulting from the experts' opinions.</s><s xml:id="_uz2CQm7" coords="3,467.12,172.13,51.61,9.58;3,76.54,185.64,442.20,9.58;3,76.12,199.15,214.69,9.58">After being informed about the other experts' opinions, the experts were asked to review their analysis and decide whether they would confirm previous answers.</s><s xml:id="_qhDpQne" coords="3,294.92,199.15,223.81,9.58;3,76.54,212.66,86.24,9.58">We conducted this procedure to obtain consensus among the experts.</s><s xml:id="_KNBGZ8S" coords="3,166.99,212.66,182.46,9.58">Seven experts participated in this phase.</s><s xml:id="_7j6p2e3" coords="3,353.65,212.66,165.09,9.58;3,76.54,226.17,265.18,9.58">We confirmed each item for the final instrument when it received 70% of approval by the experts.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3." xml:id="_uuBETRF" coords="3,76.54,249.25,102.07,9.50">Semantic Evaluation</head><p xml:id="_cnCzx9c" coords="3,97.80,268.87,420.94,9.58;3,76.12,282.38,348.30,9.58;3,424.41,280.39,5.66,7.28;3,434.13,282.38,84.61,9.58;3,76.24,295.89,442.51,9.58;3,76.54,309.40,443.45,9.58;3,76.21,322.91,442.53,9.58;3,76.54,336.41,59.67,9.58;3,154.07,336.41,364.66,9.58;3,76.54,349.92,69.45,9.58;3,163.75,349.92,3.82,9.58"><s xml:id="_d5ekqvS" coords="3,97.80,268.87,420.94,9.58;3,76.12,282.38,348.30,9.58;3,424.41,280.39,5.66,7.28;3,434.13,282.38,41.92,9.58">We performed a semantic evaluation of the check-list simultaneously with the content validation with the same experts, using the same questionnaire in the Survey Monkey @ platform.</s><s xml:id="_R6mHkaG" coords="3,482.35,282.38,36.39,9.58;3,76.24,295.89,442.51,9.58;3,76.54,309.40,443.45,9.58;3,76.21,322.91,394.49,9.58">For that purpose, we used the Likert scale, as follows: (0) "I did not understand it at all"; (1) "I understood it a little"; (2) "I somewhat understood it"; (3) "I understood almost everything, but I had some questions"; (4) "I understood almost everything"; (5) "I understood it perfectly and had no questions."</s><s xml:id="_34GpHhr" coords="3,473.18,322.91,45.56,9.58;3,76.54,336.41,442.20,9.58;3,76.54,349.92,91.03,9.58">According to Conti et al. <ref type="bibr" coords="3,138.71,336.41,15.36,9.58" target="#b20">[21]</ref>, answers from 0 to 3 indicate insufficient understanding and a new version of the item is required <ref type="bibr" coords="3,148.47,349.92,15.27,9.58" target="#b20">[21]</ref>.</s></p><p xml:id="_hZBmeae" coords="3,97.80,363.43,420.94,9.58;3,76.04,376.94,442.70,9.58;3,76.54,390.45,442.20,9.58;3,76.54,403.96,399.29,9.58"><s xml:id="_7naX2U5" coords="3,97.80,363.43,374.55,9.58">After the expert phase, we conducted another semantic evaluation of the check-list.</s><s xml:id="_MwDKQRB" coords="3,475.87,363.43,42.87,9.58;3,76.04,376.94,442.70,9.58;3,76.54,390.45,115.27,9.58">We asked 13 undergraduate students to evaluate each item regarding its clarity, considering their level of understanding of the item.</s><s xml:id="_Wvb66Wa" coords="3,194.92,390.45,323.82,9.58;3,76.54,403.96,122.08,9.58">We conducted a focus group with these students, using one moderator and one observer of the process.</s><s xml:id="_wgPkydB" coords="3,201.71,403.96,274.12,9.58">For that purpose, we used the same Likert scale of the experts.</s></p><p xml:id="_6ugtNs4" coords="3,97.80,417.47,420.95,9.58;3,76.54,430.98,443.95,9.58;3,76.04,444.49,442.70,9.58;3,76.54,458.00,442.60,9.58;3,76.54,471.51,84.34,9.58"><s xml:id="_dXR89Wq" coords="3,97.80,417.47,420.95,9.58;3,76.54,430.98,38.79,9.58">In cases of poor understanding of the item or unsuitable language, we asked students to suggest changes.</s><s xml:id="_gGqFHyy" coords="3,119.43,430.98,401.06,9.58">We used these commentaries to create new versions of the items for a second evaluation.</s><s xml:id="_2Bwh8Dp" coords="3,76.04,444.49,353.92,9.58">We needed two evaluation stages for the semantic process with the students.</s><s xml:id="_Z773fDH" coords="3,436.01,444.49,82.73,9.58;3,76.54,458.00,442.60,9.58;3,76.54,471.51,84.34,9.58">These stages were necessary to have a comprehensive instrument that could be applied by trained people and not only experts in the field.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4." xml:id="_jtjZvCs" coords="3,76.54,494.59,75.87,9.50">Data Analysis</head><p xml:id="_bvcnY4X" coords="3,97.80,514.21,420.94,9.58;3,76.21,527.72,442.53,9.58;3,76.54,541.23,442.21,9.58;3,76.54,554.74,442.20,9.58;3,76.54,568.25,443.95,9.58;3,76.54,581.44,442.20,9.90;3,76.54,595.14,353.98,9.71;3,460.75,595.27,58.00,9.58;3,76.54,608.77,442.20,9.58;3,76.21,621.97,76.47,9.90"><s xml:id="_GG7yS6C" coords="3,97.80,514.21,420.94,9.58;3,76.21,527.72,262.96,9.58">We used the Software Excel 97-2003 (Microsoft, Redmond, DC, USA) and SPSS for Windows (version 21, SPSS Inc., Chicago, IL, USA) for data analysis.</s><s xml:id="_GBatxrA" coords="3,343.03,527.72,175.71,9.58;3,76.54,541.23,442.21,9.58;3,76.54,554.74,48.22,9.58">We calculated the average score for the evaluation of the importance and clarity of each item considering the answers provided by the seven specialists.</s><s xml:id="_28khzTM" coords="3,128.23,554.74,390.51,9.58;3,76.54,568.25,443.95,9.58;3,76.54,581.44,442.20,9.90;3,76.54,595.14,388.17,9.71">We assessed the degree of agreement between the experts to assess the importance and clarity of the items using the Kendall coefficient (W) of the agreement, which ranges from 0 to 1. High values of W (W ≥ 0.66) indicate that the specialists applied the same evaluation standards in comparison with the low W-values, which suggest disagreement between them <ref type="bibr" coords="3,433.01,595.27,15.85,9.58" target="#b21">[22,</ref><ref type="bibr" coords="3,448.86,595.27,11.89,9.58" target="#b22">23]</ref>.</s><s xml:id="_sbNdTaz" coords="3,467.81,595.27,50.93,9.58;3,76.54,608.77,442.20,9.58;3,76.21,621.97,76.47,9.90">The criteria established for the approval of the item was a minimal of 70% of agreement between the experts (W-values ≥ 0.7).</s></p><p xml:id="_5eqm7Hw" coords="3,97.80,635.48,420.94,9.90;3,76.54,649.30,442.20,9.58;3,76.54,662.81,442.20,9.58;3,76.54,676.32,442.20,9.58;3,76.54,689.83,442.21,9.58;3,76.54,703.34,67.45,9.58"><s xml:id="_bHPdrTt" coords="3,97.80,635.48,420.94,9.90;3,76.54,649.30,288.52,9.58">Moreover, items should have a mean ≥3 for the evaluation of importance (content validation) and clarity (semantic evaluation) to be maintained in the instrument.</s><s xml:id="_F3MesfS" coords="3,368.17,649.30,150.57,9.58;3,76.54,662.81,418.56,9.58">We excluded from the instrument items not considered important for the prevention of food contamination in households.</s><s xml:id="_tvfbBhd" coords="3,504.62,662.81,14.11,9.58;3,76.54,676.32,442.20,9.58;3,76.54,689.83,34.71,9.58">We rewrote items considered unclear in a different manner and subject to further evaluation by the experts.</s><s xml:id="_CaEr9z7" coords="3,114.33,689.83,404.41,9.58;3,76.54,703.34,67.45,9.58">Suggestions made by the experts were considered and incorporated into the final version of the instrument.</s></p><p xml:id="_Q9hK2ZW" coords="3,97.80,716.85,422.19,9.58;3,76.54,730.36,97.96,9.58"><s xml:id="_TGebNYr" coords="3,97.80,716.85,422.19,9.58;3,76.54,730.36,97.96,9.58">Brasilia University Research Ethics Committee approved the project before the tests (CAAE: 23955313.3.0000.0030).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3." xml:id="_aM44UwZ" coords="4,76.54,91.15,44.30,9.34">Results</head><p xml:id="_gkqd8VP" coords="4,97.80,110.56,422.69,9.58;4,76.04,124.07,442.70,9.58;4,76.54,137.58,442.20,9.58;4,76.54,151.09,47.43,9.58;4,141.16,151.09,378.82,9.58;4,76.54,164.60,442.62,9.58;4,76.26,178.11,442.49,9.58;4,76.54,191.62,442.20,9.58;4,76.54,205.13,442.20,9.58;4,76.54,218.64,443.45,9.58;4,76.54,232.15,217.83,9.58;4,303.57,232.15,216.91,9.58;4,100.53,177.73,375.90,8.64;4,100.53,189.16,375.96,8.64;4,100.53,200.63,375.87,8.64;4,100.53,212.11,375.84,8.64;4,100.53,223.58,289.82,8.64;4,398.59,223.58,77.85,8.64;4,100.53,235.06,110.32,8.64"><s xml:id="_XZyZaFj" coords="4,97.80,110.56,422.69,9.58">After reviewing the literature, we constructed a checklist-type instrument with 115 items.</s><s xml:id="_4vftnAC" coords="4,76.04,124.07,442.70,9.58;4,76.54,137.58,393.98,9.58">We conducted the "in-place" item matching check (in 10 households in five different regions of the Federal District-Brazil) and excluded 35 items based on the pertinence after this phase.</s><s xml:id="_cG5dy6g" coords="4,473.55,137.58,45.18,9.58;4,76.54,151.09,396.50,9.58">According to Pasquali <ref type="bibr" coords="4,126.04,151.09,15.13,9.58" target="#b23">[24]</ref>, in a pilot study, ten households are enough for an in-place item match check.</s><s xml:id="_mFnA6WZ" coords="4,475.98,151.09,44.00,9.58;4,76.54,164.60,310.21,9.58">Moreover, this pilot test was useful to define the checklist application duration.</s><s xml:id="_b7x34ZW" coords="4,391.12,164.60,128.04,9.58;4,76.26,178.11,442.49,9.58;4,76.54,191.62,118.40,9.58">Therefore, we created a new version of the instrument composed of 80 items, divided into four blocks, with the reorganization of the items within the blocks.</s><s xml:id="_72Vc6Ap" coords="4,197.99,191.62,320.75,9.58;4,76.54,205.13,60.65,9.58">This new instrument version was then subjected to an objective evaluation by specialists.</s><s xml:id="_d282qeF" coords="4,140.31,205.13,378.43,9.58;4,76.54,218.64,443.45,9.58;4,76.54,232.15,186.91,9.58">We carried out the objective evaluation with the accomplishment of content validation and semantic evaluation using the Delphi Technique in two phases, and the validation of the criterion, using the semantic validation in two stages.</s><s xml:id="_n3BfzSU" coords="4,266.42,232.15,254.06,9.58">Figure <ref type="figure" coords="4,296.52,232.15,4.88,9.58" target="#fig_2">1</ref> shows a summary of the checklist validation steps.</s><s xml:id="_CPC95FX" coords="4,100.53,177.73,375.90,8.64;4,100.53,189.16,170.55,8.64">a new version of the instrument composed of 80 items, divided into four blocks, with the reorganization of the items within the blocks.</s><s xml:id="_UjQjgnj" coords="4,273.30,189.16,203.19,8.64;4,100.53,200.63,129.33,8.64">This new instrument version was then subjected to an objective evaluation by specialists.</s><s xml:id="_MGh752N" coords="4,232.01,200.63,244.39,8.64;4,100.53,212.11,375.84,8.64;4,100.53,223.58,263.32,8.64">We carried out the objective evaluation with the accomplishment of content validation and semantic evaluation using the Delphi Technique in two phases, and the validation of the criterion, using the semantic validation in two stages.</s><s xml:id="_kpVpqfz" coords="4,365.84,223.58,110.61,8.64;4,100.53,235.06,110.32,8.64">Figure <ref type="figure" coords="4,392.34,223.58,4.26,8.64" target="#fig_2">1</ref> shows a summary of the checklist validation steps.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1." xml:id="_TJBwtZ8" coords="4,100.53,574.46,208.21,8.64">Content Validation and Semantic Evaluation by Experts</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.1." xml:id="_nwn5nav" coords="4,100.53,596.09,76.13,8.64">Phase Delphi I</head><p xml:id="_KVB8Dq6" coords="4,118.58,612.66,357.79,8.64;4,100.53,624.14,277.79,8.64"><s xml:id="_2T6g52w" coords="4,118.58,612.66,201.46,8.64">We used the Delphi technique for content validation.</s><s xml:id="_CekWK7Z" coords="4,322.51,612.66,153.86,8.64;4,100.53,624.14,277.79,8.64">We invited 14 judges specialized in food hygiene and safety; however, only seven participated up to the last phase.</s></p><p xml:id="_ebSVBQn" coords="4,118.58,635.61,357.87,8.64;4,100.53,647.09,375.89,8.64;4,100.53,658.56,375.94,8.64;4,100.53,669.98,46.49,8.64"><s xml:id="_ky6Cdzv" coords="4,118.58,635.61,169.55,8.64">We divided the instrument into four blocks.</s><s xml:id="_FHukssW" coords="4,291.03,635.61,185.42,8.64;4,100.53,647.09,375.89,8.64;4,100.53,658.56,375.94,8.64;4,100.53,669.98,46.49,8.64">The first refers to the building and facilities that affect the production of food in the residences; the second refers to equipment, furniture, and kitchen utensils; the third refers to handlers; and the fourth block refers to the ingredients used in food preparation.</s></p><p xml:id="_fkBTXuB" coords="4,118.58,681.46,357.86,8.64;4,100.53,692.93,375.87,8.64;4,100.53,704.41,375.95,8.64;4,100.53,715.88,375.89,8.64;4,100.53,727.36,375.99,8.64;4,100.53,738.83,366.71,8.64"><s xml:id="_53ydbsm" coords="4,118.58,681.46,357.86,8.64;4,100.53,692.93,253.80,8.64">In the first round, about the first block of the instrument, the experts suggested the revision of the item that dealt with the external area of the kitchens (item 1.1).</s><s xml:id="_eNngCNf" coords="4,356.87,692.93,119.53,8.64;4,100.53,704.41,375.95,8.64;4,100.53,715.88,317.87,8.64">Thus, the item that was written "Access roads with a hard or paved surface, suitable for traffic on wheels, adequate and clean flow; adequate sewage system" changed to "Access roads with adequate sewage system".</s><s xml:id="_vMZNKGR" coords="4,420.66,715.88,55.77,8.64;4,100.53,727.36,375.99,8.64;4,100.53,738.83,366.71,8.64">Still in the first block, the experts suggested adding a question about the type of material of the kitchen floor (item 1.3), they also suggested adding a question for the material of the roof of the residences (item 1.4).</s></p><p xml:id="_EhHZqhE" coords="4,118.58,750.26,357.79,8.64;4,100.53,761.73,375.86,8.64;4,100.53,773.21,56.46,8.64"><s xml:id="_4g97e5C" coords="4,118.58,750.26,357.79,8.64;4,100.53,761.73,375.86,8.64;4,100.53,773.21,56.46,8.64">The experts suggested adding the expression "constructed with material that facilitates its cleaning" to the items related to walls, doors, windows, and other openings (item 1.5 of the questionnaire).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1." xml:id="_H2VxK4S" coords="4,76.54,572.84,244.58,9.50">Content Validation and Semantic Evaluation by Experts</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.1." xml:id="_8fabT6v" coords="4,76.54,596.19,89.70,9.58">Phase Delphi I</head><p xml:id="_aAaRs8U" coords="4,97.80,615.67,420.94,9.58;4,76.54,629.18,324.79,9.58"><s xml:id="_nwTcp5c" coords="4,97.80,615.67,237.08,9.58">We used the Delphi technique for content validation.</s><s xml:id="_zZJASby" coords="4,338.16,615.67,180.58,9.58;4,76.54,629.18,324.79,9.58">We invited 14 judges specialized in food hygiene and safety; however, only seven participated up to the last phase.</s></p><p xml:id="_qCPRfAB" coords="4,97.80,642.69,420.95,9.58;4,76.54,656.20,443.45,9.58;4,76.54,669.71,433.57,9.58"><s xml:id="_6kUbDcr" coords="4,97.80,642.69,187.70,9.58">We divided the instrument into four blocks.</s><s xml:id="_4u3kS4T" coords="4,288.53,642.69,230.21,9.58;4,76.54,656.20,443.45,9.58;4,76.54,669.71,433.57,9.58">The first refers to the building and facilities that affect the production of food in the residences; the second refers to equipment, furniture, and kitchen utensils; the third refers to handlers; and the fourth block refers to the ingredients used in food preparation.</s></p><p xml:id="_WzKdytW" coords="4,97.80,683.22,420.95,9.58;4,76.54,696.73,442.20,9.58;4,76.54,710.24,442.21,9.58;4,76.54,723.75,442.21,9.58;4,76.54,737.26,442.20,9.58;4,76.54,750.77,366.77,9.58"><s xml:id="_Zp6UD5e" coords="4,97.80,683.22,420.95,9.58;4,76.54,696.73,268.37,9.58">In the first round, about the first block of the instrument, the experts suggested the revision of the item that dealt with the external area of the kitchens (item 1.1).</s><s xml:id="_tBybwK8" coords="4,347.95,696.73,170.79,9.58;4,76.54,710.24,442.21,9.58;4,76.54,723.75,328.99,9.58">Thus, the item that was written "Access roads with a hard or paved surface, suitable for traffic on wheels, adequate and clean flow; adequate sewage system" changed to "Access roads with adequate sewage system".</s><s xml:id="_uRGUsjv" coords="4,408.63,723.75,110.12,9.58;4,76.54,737.26,442.20,9.58;4,76.54,750.77,366.77,9.58">Still in the first block, the experts suggested adding a question about the type of material of the kitchen floor (item 1.3), they also suggested adding a question for the material of the roof of the residences (item 1.4).</s></p><p xml:id="_cHvNuwd" coords="5,97.80,91.07,420.94,9.58;5,76.54,104.58,442.20,9.58;5,76.54,118.09,82.29,9.58"><s xml:id="_qdga9Mq" coords="5,97.80,91.07,420.94,9.58;5,76.54,104.58,442.20,9.58;5,76.54,118.09,82.29,9.58">The experts suggested adding the expression "constructed with material that facilitates its cleaning" to the items related to walls, doors, windows, and other openings (item 1.5 of the questionnaire).</s></p><p xml:id="_8xSMBrr" coords="5,97.80,131.60,420.95,9.58;5,75.04,145.11,444.94,9.58;5,76.54,158.62,442.59,9.58;5,76.54,172.13,55.53,9.58"><s xml:id="_ECgRzsU" coords="5,97.80,131.60,268.47,9.58">In item 1.8, the term "toilet facilities" was replaced by "toilet".</s><s xml:id="_uyau9ne" coords="5,369.35,131.60,149.39,9.58;5,75.04,145.11,444.94,9.58;5,76.54,158.62,442.59,9.58;5,76.54,172.13,55.53,9.58">In section 1.11, we rewrote the text "Adoption of preventive and corrective measures with the objective of preventing attraction, shelter, access, and/or proliferation of vectors and urban pests" to "Implementation of disinfecting every six months".</s></p><p xml:id="_jZeYET3" coords="5,97.80,185.64,420.94,9.58;5,76.12,199.15,442.62,9.58;5,76.54,212.66,442.20,9.58;5,75.04,226.17,443.70,9.58;5,76.54,239.68,442.20,9.58;5,76.54,253.19,443.95,9.58;5,76.23,266.70,442.51,9.58;5,76.21,280.21,43.79,9.58"><s xml:id="_M4VXMs9" coords="5,97.80,185.64,420.94,9.58;5,76.12,199.15,442.62,9.58;5,76.54,212.66,318.42,9.58">In item 2.1, we changed "Food storage equipment (refrigerators, freezers, and others), as well as those designed to the thermal processing (stove), in proper operation" to "Food storage equipment (refrigerators, freezers, and others), in proper functioning".</s><s xml:id="_eKYnkU7" coords="5,398.96,212.66,119.78,9.58;5,75.04,226.17,443.70,9.58;5,76.54,239.68,367.54,9.58">In Section 2.3, we changed "Non-contaminating material, resistant to corrosion, of size and shape that allow easy hygiene: in good condition" to "In size and shape that allows easy hygiene: in good condition".</s><s xml:id="_EsYUUWp" coords="5,447.15,239.68,71.59,9.58;5,76.54,253.19,443.95,9.58">We added to the item 2.3, "No utensils made of wood or other easily contaminated material" as requested by the judges.</s><s xml:id="_8xefsGQ" coords="5,76.23,266.70,442.51,9.58;5,76.21,280.21,43.79,9.58">The judges also requested the inclusion of an item that talked about the storage of cleaning materials (item 2.4).</s></p><p xml:id="_mH9H73g" coords="5,97.80,293.71,421.15,9.58;5,76.24,307.22,442.51,9.58;5,76.54,320.73,67.83,9.58;5,165.90,320.73,352.84,9.58;5,76.54,334.24,442.21,9.58;5,76.12,347.75,147.37,9.58"><s xml:id="_bEfFYuS" coords="5,97.80,293.71,421.15,9.58;5,76.24,307.22,312.86,9.58">In item 4.2, the experts recommended adding the question "Food served immediately after preparation or, if prepared in advance, reheated before being served".</s><s xml:id="_Asaw33x" coords="5,392.34,307.22,126.40,9.58;5,76.54,320.73,442.20,9.58;5,76.54,334.24,173.07,9.58">It is important to emphasize that Costa et al. <ref type="bibr" coords="5,146.85,320.73,16.57,9.58" target="#b24">[25]</ref> showed that in Brazil lunch leftovers usually are left on the kitchen counter until dinner time, increasing the risk of FBD.</s><s xml:id="_ZAkP6K6" coords="5,252.10,334.24,266.64,9.58;5,76.12,347.75,147.37,9.58">Therefore, the experts judged enough the sentence proposed without the timeline information.</s></p><p xml:id="_CHm86bh" coords="5,97.80,361.26,421.94,9.58;5,76.12,374.77,442.62,9.58;5,76.54,388.28,343.73,9.58"><s xml:id="_8vt6aU5" coords="5,97.80,361.26,421.94,9.58;5,76.12,374.77,442.62,9.58;5,76.54,388.28,343.73,9.58">In the first phase of the content validation and comprehension (Delphi I) process, 69 items (86.25%) were approved by the experts regarding content validation, and 77 items (96.25%) were considered comprehensible and; therefore, approved without the need of text adjustment.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.2." xml:id="_MnNDJ2q" coords="5,76.54,411.49,93.06,9.58">Phase Delphi II</head><p xml:id="_wqwRWRG" coords="5,97.80,430.98,422.19,9.58;5,76.54,444.49,442.20,9.58;5,76.54,458.00,144.81,9.58"><s xml:id="_vc2DRps" coords="5,97.80,430.98,422.19,9.58;5,76.54,444.49,196.51,9.58">In the second round of the Delphi Phase, experts considered items 1.1, 1.3, 1.4, 1.5, 1.8, 1.11, 1.12, 2.1, 2.3, 2.4 and 4.2 approved after the review.</s><s xml:id="_UFh6wFs" coords="5,276.14,444.49,242.60,9.58;5,76.54,458.00,144.81,9.58">With all the experts agreeing on the items, we ended the objective content validation step.</s></p><p xml:id="_uFpMGsc" coords="5,97.80,471.51,421.94,9.58;5,76.54,485.02,442.20,9.58;5,76.54,498.53,162.40,9.58;5,248.91,498.53,269.82,9.58;5,76.54,512.04,442.20,9.58;5,76.54,525.55,101.66,9.58"><s xml:id="_dBwJrC3" coords="5,97.80,471.51,421.94,9.58;5,76.54,485.02,250.40,9.58">In this phase, we reformulated the items that did not obtain a minimum grade for approval (≥3) in the first stage and presented again for the same experts.</s><s xml:id="_QDsDGzk" coords="5,329.99,485.02,188.75,9.58;5,76.54,498.53,136.00,9.58">At the end, we obtained an instrument with 77 items, divided into 4 blocks.</s><s xml:id="_WptbWyy" coords="5,215.64,498.53,303.09,9.58;5,76.54,512.04,442.20,9.58;5,76.54,525.55,101.66,9.58">Table <ref type="table" coords="5,241.44,498.53,4.97,9.58" target="#tab_0">1</ref> shows the average values of the notes and W-values obtained for each item, by block and by the set of blocks, in content validation and semantic validation after the completion of all steps.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2." xml:id="_AptAkbq" coords="6,76.54,374.20,93.95,9.50">Criteria Validation</head><p xml:id="_hX7ehVQ" coords="6,97.80,393.81,420.94,9.58;6,76.54,407.32,442.20,9.58;6,76.54,420.83,442.21,9.58;6,76.54,434.34,45.53,9.58"><s xml:id="_GYUSVJQ" coords="6,97.80,393.81,420.94,9.58;6,76.54,407.32,125.35,9.58">For validation of the criterion, we used semantic analysis with a focus group, in a 2 h meeting conducted by the researcher.</s><s xml:id="_bDTZUAu" coords="6,204.97,407.32,313.76,9.58;6,76.54,420.83,442.21,9.58;6,76.54,434.34,45.53,9.58">We had a moderator (researcher), an observer (Ph.D. student in Human Nutrition), and 13 undergraduate students in Nutrition at the University of Brasília (Brazil) in the group.</s></p><p xml:id="_msnnkVg" coords="6,97.80,447.72,420.95,9.71;6,76.24,461.36,442.51,9.58;6,76.54,474.55,442.20,9.90;6,76.54,488.38,241.65,9.58"><s xml:id="_h7cbgsb" coords="6,97.80,447.72,258.63,9.71">The group consisted of thirteen students (male: n = 6; 46%).</s><s xml:id="_PfVqNhg" coords="6,359.51,447.85,159.23,9.58;6,76.24,461.36,420.93,9.58">The inclusion criterion was to accept participation in the research and to have studied the courses of hygiene and food legislation.</s><s xml:id="_nX32R9r" coords="6,501.73,461.36,17.01,9.58;6,76.54,474.55,442.20,9.90;6,76.54,488.38,241.65,9.58">The members of the group were aged between 20 and 28 years (mean: 22.9 ± 2.99) and were in the fifth to the eighth term of the Nutrition undergraduate course.</s></p><p xml:id="_57TfggG" coords="6,97.80,501.89,420.94,9.58;6,76.54,515.40,442.21,9.58;6,76.54,528.91,443.45,9.58;6,76.12,542.42,442.62,9.58;6,76.54,555.93,292.51,9.58"><s xml:id="_U5u8fZT" coords="6,97.80,501.89,420.94,9.58;6,76.54,515.40,442.21,9.58;6,76.54,528.91,148.32,9.58">In the first phase, despite being considered fully understandable, the group suggested that in item 1.2, belonging to the Building and Facilities block, only the expression "Free of the presence of domestic animals" should remain.</s><s xml:id="_Ee2e39T" coords="6,227.98,528.91,292.00,9.58;6,76.12,542.42,442.62,9.58;6,76.54,555.93,292.51,9.58">Additionally, they suggested to specify items 1.5, 1.6, and 1.7 better, where "Constructed of material that facilitates its cleaning" was replaced by "Constructed of material that facilitates its cleaning (plane, without roughness and cracks)".</s></p><p xml:id="_T74Bc9r" coords="6,97.80,569.44,420.94,9.58;6,76.12,582.94,442.63,9.58;6,76.54,596.45,443.45,9.58;6,75.04,609.96,443.69,9.58;6,76.54,623.47,323.13,9.58"><s xml:id="_Wt9v2QM" coords="6,97.80,569.44,367.35,9.58">In the second phase, they suggested dividing item 4.2 (dealing with food storage).</s><s xml:id="_qteueg3" coords="6,468.32,569.44,50.42,9.58;6,76.12,582.94,442.63,9.58;6,76.54,596.45,273.00,9.58">Thus, what was previously described "The ingredients that were not fully utilized are stored in clean and closed containers and identified with shelf life after the opening."</s><s xml:id="_s3bEm9C" coords="6,353.32,596.45,166.66,9.58;6,75.04,609.96,443.69,9.58;6,76.54,623.47,323.13,9.58">was revised and rewrote as follows: "Ingredients that have not been fully utilized are stored in clean, closed containers." and "Ingredients that have not been fully utilized are identified as shelf-life after opening".</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4." xml:id="_EaNqAD4" coords="6,76.54,646.77,60.90,9.34">Discussion</head><p xml:id="_S3KGyUy" coords="6,97.80,666.17,420.94,9.58;6,76.54,679.68,62.22,9.58;6,156.55,679.68,362.19,9.58;6,76.54,693.19,442.21,9.58;6,76.54,706.70,75.61,9.58;6,169.88,706.70,350.11,9.58;6,76.54,720.21,324.60,9.58;6,431.31,720.21,87.43,9.58;6,76.54,733.72,151.52,9.58;6,228.05,731.73,5.66,7.28;6,236.70,733.72,283.28,9.58;6,76.54,747.23,442.20,9.58;6,76.54,760.74,32.72,9.58;6,127.24,760.74,392.75,9.58;7,76.54,91.07,442.21,9.58;7,76.54,104.58,90.42,9.58;7,185.68,104.58,333.06,9.58;7,76.54,118.09,264.00,9.58;7,346.61,118.09,172.14,9.58;7,76.54,131.60,442.20,9.58;7,76.54,145.11,88.15,9.58;7,194.77,145.11,3.94,9.58"><s xml:id="_GtGYRzS" coords="6,97.80,666.17,420.94,9.58;6,76.54,679.68,83.84,9.58">It is very important to use rigorous methods in the process of development and validation of an instrument <ref type="bibr" coords="6,141.25,679.68,15.30,9.58" target="#b17">[18]</ref>.</s><s xml:id="_MUTBAW3" coords="6,163.46,679.68,355.28,9.58;6,76.54,693.19,442.21,9.58;6,76.54,706.70,97.16,9.58">In our study, we used the Delphi technique, which allows the implementation of an expert's panel to perform the content validation, facilitating the achievement of consensus on the experts' opinions <ref type="bibr" coords="6,154.64,706.70,15.25,9.58" target="#b25">[26]</ref>.</s><s xml:id="_gMkduzd" coords="6,176.78,706.70,343.21,9.58;6,76.54,720.21,358.73,9.58">The Delphi technique was used to guide the stages of the experts' evaluations, making them interact with the research group through structured rounds <ref type="bibr" coords="6,403.61,720.21,15.83,9.58" target="#b17">[18,</ref><ref type="bibr" coords="6,419.44,720.21,11.87,9.58" target="#b25">26]</ref>.</s><s xml:id="_Pnb7ZVH" coords="6,438.35,720.21,80.39,9.58;6,76.54,733.72,151.52,9.58;6,228.05,731.73,5.66,7.28;6,236.70,733.72,283.28,9.58;6,76.54,747.23,442.20,9.58;6,76.54,760.74,54.56,9.58">We performed the research using the Survey Monkey @ platform, which enables the provision of feedback to the experts, since the feedback is proposed in the Delphi technique to assure a more organized interaction with the experts <ref type="bibr" coords="6,111.82,760.74,15.42,9.58" target="#b17">[18]</ref>.</s><s xml:id="_7v5WcBN" coords="6,134.40,760.74,385.58,9.58;7,76.54,91.07,442.21,9.58;7,76.54,104.58,113.00,9.58">After this stage, we used an analysis with a focus group for validation of the criterion, since the construction of a measuring instrument requires the design of the items that represent the construct of interest <ref type="bibr" coords="7,170.27,104.58,15.41,9.58" target="#b26">[27]</ref>.</s><s xml:id="_Xq6hTsm" coords="7,195.09,104.58,323.64,9.58;7,76.54,118.09,277.23,9.58">We reformulated the contents and format of the items according to the contributions of specialists and after the focus group (Figure <ref type="figure" coords="7,343.03,118.09,3.58,9.58" target="#fig_2">1</ref>).</s><s xml:id="_a7KE5sm" coords="7,356.85,118.09,161.90,9.58;7,76.54,131.60,442.20,9.58;7,76.54,145.11,122.18,9.58">The use of the focus group technique allowed relevant changes in the items and promoted ideas of how the items should be displayed to the best comprehension <ref type="bibr" coords="7,167.17,145.11,15.77,9.58" target="#b26">[27,</ref><ref type="bibr" coords="7,182.95,145.11,11.83,9.58" target="#b27">28]</ref>.</s></p><p xml:id="_swfhQeB" coords="7,97.80,158.62,420.94,9.58;7,76.24,172.13,442.50,9.58;7,76.54,185.64,442.20,9.58;7,76.54,199.15,443.95,9.58;7,76.54,212.66,442.20,9.58;7,76.24,226.17,178.23,9.58;7,276.06,226.17,242.69,9.58;7,76.54,239.68,442.41,9.58;7,76.54,253.19,442.20,9.58;7,76.54,266.70,171.49,9.58"><s xml:id="_aPxVqHZ" coords="7,97.80,158.62,420.94,9.58;7,76.24,172.13,442.50,9.58;7,76.54,185.64,278.30,9.58">In the first phase (experts' evaluation), the appropriate selection of the experts is also a critical point to obtain solid results, and it is based on the experience and the knowledge of the participants in a certain area, besides the willingness to collaborate with the study.</s><s xml:id="_DPsYrT9" coords="7,357.77,185.64,160.97,9.58;7,76.54,199.15,443.95,9.58">In our study, we invited postgraduate experts (Ph.D. or MSc individuals) that work with instruments and food safety or foodborne diseases.</s><s xml:id="_xNfbNrN" coords="7,76.54,212.66,442.20,9.58;7,76.24,226.17,442.51,9.58;7,76.54,239.68,410.85,9.58">Despite the fact that there is no consensus in the literature in regards to the number of experts to perform the validation process, Pasquali <ref type="bibr" coords="7,256.95,226.17,16.62,9.58" target="#b23">[24]</ref> considers that a minimum of six experts is necessary to reach a consensus, although this number may vary according to the type of the instrument.</s><s xml:id="_GpCPUmf" coords="7,491.19,239.68,27.75,9.58;7,76.54,253.19,442.20,9.58;7,76.54,266.70,171.49,9.58">In our study, a total of 14 experts were invited, and seven experts participated up to the final phase of experts content and comprehensive validation.</s></p><p xml:id="_eayV63x" coords="7,97.80,280.21,420.94,9.58;7,76.54,293.71,442.20,9.58;7,76.54,307.22,24.88,9.58;7,144.18,307.22,126.25,9.58;7,283.53,307.22,235.21,9.58;7,76.54,320.73,442.20,9.58;7,76.54,334.24,442.20,9.58;7,76.54,347.75,442.20,9.58;7,76.54,361.26,442.21,9.58;7,76.54,374.77,316.50,9.58;7,430.96,374.77,87.79,9.58;7,76.54,388.28,442.60,9.58;7,76.54,401.79,442.20,9.58;7,76.24,415.30,27.73,9.58;7,136.70,415.30,3.78,9.58"><s xml:id="_FFBsGzg" coords="7,97.80,280.21,420.94,9.58;7,76.54,293.71,442.20,9.58;7,76.54,307.22,71.67,9.58">The rules defined in resolutions on the subject have proved to be effective, since studies have mentioned the reduction of outbreaks of foodborne diseases caused by food eaten out of home <ref type="bibr" coords="7,103.91,307.22,16.11,9.58" target="#b9">[10,</ref><ref type="bibr" coords="7,120.02,307.22,8.05,9.58" target="#b28">[29]</ref><ref type="bibr" coords="7,128.07,307.22,4.03,9.58" target="#b29">[30]</ref><ref type="bibr" coords="7,132.10,307.22,12.08,9.58" target="#b30">[31]</ref>.</s><s xml:id="_dxXwnuF" coords="7,151.30,307.22,367.44,9.58;7,76.54,320.73,442.20,9.58;7,76.54,334.24,57.07,9.58">According to Draeger et al. <ref type="bibr" coords="7,272.93,307.22,10.60,9.58" target="#b1">[2]</ref>, in Brazil, the analysis of the initial sites of outbreaks showed that the places with the highest occurrence were residences, with 2922 cases (38.3%) from 2007 to 2017.</s><s xml:id="_bmH4Aan" coords="7,136.76,334.24,381.97,9.58;7,76.54,347.75,281.42,9.58">However, there is a lack of studies on the development of quality control instruments for the prevention of households cross-contamination and FBD.</s><s xml:id="_BymHEr9" coords="7,360.43,347.75,158.31,9.58;7,76.54,361.26,442.21,9.58;7,76.54,374.77,358.35,9.58">The occurrence of FBD outbreaks in residences shows a serious problem regarding the lack of sanitary education, and knowledge about adequate preparation and storage of food by the population in general <ref type="bibr" coords="7,395.59,374.77,11.79,9.58" target="#b1">[2,</ref><ref type="bibr" coords="7,407.38,374.77,11.79,9.58" target="#b10">11,</ref><ref type="bibr" coords="7,419.17,374.77,11.79,9.58" target="#b31">32]</ref>.</s><s xml:id="_QGFA4fr" coords="7,438.18,374.77,80.56,9.58;7,76.54,388.28,442.60,9.58;7,76.54,401.79,34.93,9.58">Outbreaks of FBD in households tend to be less well-known because they involve a smaller number of people (usually family).</s><s xml:id="_SvAkVBr" coords="7,114.63,401.79,404.11,9.58;7,76.24,415.30,64.25,9.58">This fact contributes to the lack of direction in educational campaigns and training for this public <ref type="bibr" coords="7,106.45,415.30,11.34,9.58" target="#b1">[2,</ref><ref type="bibr" coords="7,117.80,415.30,7.56,9.58" target="#b2">3,</ref><ref type="bibr" coords="7,125.36,415.30,11.34,9.58" target="#b32">33]</ref>.</s></p><p xml:id="_CzUj3Z3" coords="7,97.80,428.81,420.94,9.58;7,76.54,442.32,442.20,9.58;7,76.24,455.83,442.50,9.58;7,76.54,469.34,135.38,9.58;7,230.10,469.34,288.64,9.58;7,76.54,482.85,442.20,9.58;7,76.54,496.36,442.20,9.58;7,76.54,509.87,134.82,9.58;7,243.84,509.87,274.89,9.58;7,75.04,523.37,443.70,9.58;7,76.24,536.88,112.64,9.58;7,219.96,536.88,298.78,9.58;7,76.54,550.39,442.59,9.58;7,76.54,563.90,442.20,9.58;7,76.54,577.41,443.95,9.58;7,76.54,590.92,442.20,9.58;7,76.54,604.43,442.20,9.58;7,76.54,617.94,442.21,9.58;7,76.54,631.45,442.20,9.58;7,76.24,644.96,232.46,9.58"><s xml:id="_CXyeJ2h" coords="7,97.80,428.81,420.94,9.58;7,76.54,442.32,442.20,9.58;7,76.24,455.83,442.50,9.58;7,76.54,469.34,157.42,9.58">In this study, we elaborated and evaluated a check-list with the purpose of providing an appropriate tool to assist the household food production and to reduce the FBD outbreaks, since a large proportion of the people who prepare food at home are poorly informed about the measures required to prevent foodborne diseases <ref type="bibr" coords="7,214.69,469.34,15.42,9.58" target="#b30">[31]</ref>.</s><s xml:id="_dwqmaXA" coords="7,237.89,469.34,280.85,9.58;7,76.54,482.85,442.20,9.58;7,76.54,496.36,442.20,9.58;7,76.54,509.87,171.59,9.58">Consumers tend to do not perceive themselves, or someone in their family, to be susceptible to foodborne illness, rank their risk of foodborne illness lower than that of others, and/or do not follow all recommended food safety practices, and, consequently, they do not take sufficient precautions <ref type="bibr" coords="7,213.85,509.87,12.86,9.58" target="#b33">[34]</ref><ref type="bibr" coords="7,226.70,509.87,4.29,9.58" target="#b34">[35]</ref><ref type="bibr" coords="7,226.70,509.87,4.29,9.58" target="#b35">[36]</ref><ref type="bibr" coords="7,230.99,509.87,12.86,9.58" target="#b36">[37]</ref>.</s><s xml:id="_r43GCUu" coords="7,251.21,509.87,267.52,9.58;7,75.04,523.37,213.83,9.58">In block three of our instrument, the evaluation refers to the "handler's" hygiene habits and health condition.</s><s xml:id="_rwkhX7X" coords="7,291.95,523.37,226.78,9.58;7,76.24,536.88,147.70,9.58">Hands are the most important vehicle for spreading pathogens in the kitchen <ref type="bibr" coords="7,192.15,536.88,15.89,9.58" target="#b10">[11,</ref><ref type="bibr" coords="7,208.04,536.88,11.92,9.58" target="#b36">37]</ref>.</s><s xml:id="_zs95eEZ" coords="7,229.39,536.88,289.35,9.58;7,76.54,550.39,90.34,9.58">Therefore, the washing hand procedure is critical to preventing cross-contamination.</s><s xml:id="_kS2jqGv" coords="7,169.96,550.39,349.16,9.58;7,76.54,563.90,75.68,9.58">Many handlers wrongly wash their hands to clean them, ignoring the possibility of contamination.</s><s xml:id="_kHkfaSj" coords="7,155.20,563.90,363.54,9.58;7,76.54,577.41,52.63,9.58">It is important to highlight that in item 3.1, the experts considered the item enough to understand.</s><s xml:id="_R5KSQ8M" coords="7,132.25,577.41,388.23,9.58">Additionally, there is no sink exclusive for washing-hands in a domestic kitchen in Brazil.</s><s xml:id="_22f8Jr8" coords="7,76.54,590.92,442.20,9.58;7,76.54,604.43,422.37,9.58">Moreover, it is likely that hands are not washed frequently enough to prevent the transfer of pathogens to ready-to-eat food, food packaging, or equipment and contact surfaces used to prepare food.</s><s xml:id="_fZdMm7k" coords="7,502.18,604.43,16.55,9.58;7,76.54,617.94,442.21,9.58;7,76.54,631.45,442.20,9.58;7,76.24,644.96,232.46,9.58">It is important to evaluate and also to show to the handlers the need to wash their hands after handling uncooked meats, fresh unwashed vegetables, after using the toilet, after touching dirty clothes, and playing with or touching animals/domestic animals.</s></p><p xml:id="_urTCxxm" coords="7,97.80,658.47,422.19,9.58;7,76.54,671.98,442.20,9.58;7,76.54,685.49,442.20,9.58;7,76.24,699.00,442.50,9.58;7,76.21,712.51,443.78,9.58;7,76.54,726.02,442.21,9.58;7,76.54,739.52,442.40,9.58;7,76.54,753.03,442.20,9.58;8,76.54,91.07,442.41,9.58;8,76.54,104.58,442.20,9.58;8,76.54,118.09,442.21,9.58;8,76.54,131.60,442.20,9.58;8,76.24,145.11,421.77,9.58;8,516.63,145.11,3.85,9.58;8,76.23,158.62,442.52,9.58;8,76.54,172.13,442.20,9.58;8,76.54,185.32,443.45,9.90;8,76.54,199.15,442.20,9.58;8,76.54,212.66,442.20,9.58;8,76.54,226.17,105.72,9.58"><s xml:id="_mm9DFwh" coords="7,97.80,658.47,422.19,9.58;7,76.54,671.98,442.20,9.58;7,76.54,685.49,100.81,9.58">Food preparation at home involves heavily contaminated areas in the kitchen (refrigerator handles, tap handles, sink drain areas, dishcloths, and sponges) because it is not common to wash or clean these areas frequently.</s><s xml:id="_JFENcpc" coords="7,182.45,685.49,336.29,9.58;7,76.24,699.00,54.76,9.58">Additionally, raw or unwashed foods are constantly touched during meal preparation.</s><s xml:id="_kCscaVG" coords="7,134.12,699.00,384.62,9.58;7,76.21,712.51,443.78,9.58;7,76.54,726.02,345.25,9.58">The modifications made on items from block one (Construction and Facilities) and two (Equipment, furniture, and kitchen utensils) were necessary since, unlike commercial enterprises, home kitchens are multipurpose areas, more than just food preparation places.</s><s xml:id="_uZ9Thwp" coords="7,424.87,726.02,93.87,9.58;7,76.54,739.52,442.40,9.58;7,76.54,753.03,24.60,9.58">Unfortunately, still in the present days, pets, papers, dirty laundry, and house plants are common at home kitchens or near them.</s><s xml:id="_VF9zu79" coords="7,104.18,753.03,414.56,9.58;8,76.54,91.07,290.98,9.58">In this sense, in item 1.2, the expression "Free of the presence of domestic animals" and "Kitchen free of obsolete objects or strangers to the environment" remained.</s><s xml:id="_tUg4gm2" coords="8,370.61,91.07,148.33,9.58;8,76.54,104.58,442.20,9.58;8,76.54,118.09,175.75,9.58">Kitchen sinks are usually used for hand washing, dishwashing, food washing, kitchen cloth washing, pets pot washing, and support for a newly purchased package of food.</s><s xml:id="_wk8bKa2" coords="8,255.38,118.09,263.36,9.58;8,76.54,131.60,284.45,9.58">Raw and unwashed vegetables, dripping raw meat, as well as cooked ready-to-eat foods are common in home refrigerators.</s><s xml:id="_ySPPGxq" coords="8,364.09,131.60,154.65,9.58;8,76.24,145.11,444.25,9.58">The uses of home kitchens provide potential risk to introduce pathogens that can spread to foods, proliferate, and result in FBD <ref type="bibr" coords="8,501.21,145.11,15.41,9.58" target="#b36">[37]</ref>.</s><s xml:id="_9b5uTRv" coords="8,76.23,158.62,442.52,9.58;8,76.54,172.13,442.20,9.58;8,76.54,185.32,382.69,9.90">Therefore, we carefully revised the final check-list with the intention of addressing the main points that can lead to the FBD, and all items included were considered important and comprehensive by the experts (both with agreement by Kendall coefficient ≥0.7-individually and per block).</s><s xml:id="_AySuQFJ" coords="8,462.31,185.64,57.68,9.58;8,76.54,199.15,442.20,9.58;8,76.54,212.66,442.20,9.58;8,76.54,226.17,105.72,9.58">Additionally, they suggested specifying items 1.5, 1.6, and 1.7 better, where "Constructed of material that facilitates its cleaning" was replaced by "Constructed of material that facilitates its cleaning (plane, without roughness and cracks)".</s></p><p xml:id="_EcnM2vh" coords="8,97.80,239.68,421.94,9.58;8,76.54,253.19,442.20,9.58;8,76.54,266.70,443.45,9.58;8,76.54,280.21,442.20,9.58;8,76.54,293.71,442.20,9.58;8,76.54,307.22,63.94,9.58;8,172.79,307.22,345.95,9.58;8,76.12,320.73,442.62,9.58;8,76.54,334.24,147.17,9.58"><s xml:id="_egHtMAT" coords="8,97.80,239.68,421.94,9.58;8,76.54,253.19,442.20,9.58;8,76.54,266.70,443.45,9.58;8,76.54,280.21,94.52,9.58">Item 2.4 (Equipment, furniture, and utensils hygiene) remained after the review (Delphi II) since kitchen utensils, cutting boards, dishcloths, and sponges become heavily contaminated with a diverse array of microbes, harboring and spreading contamination to hands, kitchen equipment, and contact surfaces.</s><s xml:id="_NXpK88u" coords="8,175.63,280.21,343.10,9.58;8,76.54,293.71,442.20,9.58;8,76.54,307.22,100.51,9.58">Although many handlers report cleaning these items after their use, studies indicated that most of the household handlers do not clean utensils sufficiently to prevent cross contamination <ref type="bibr" coords="8,142.98,307.22,12.78,9.58" target="#b37">[38]</ref><ref type="bibr" coords="8,155.75,307.22,4.26,9.58" target="#b38">[39]</ref><ref type="bibr" coords="8,160.01,307.22,12.78,9.58" target="#b39">[40]</ref>.</s><s xml:id="_Z568w6M" coords="8,180.14,307.22,338.60,9.58;8,76.12,320.73,442.62,9.58;8,76.54,334.24,147.17,9.58">Regarding the equipment's conservation (item 2.1), the experts judged that it was enough to mention "in proper functioning" regardless of the temperature, since the equipment in Brazil do not have thermometers.</s></p><p xml:id="_yWGDURk" coords="8,97.80,347.75,420.95,9.58;8,76.54,361.26,442.20,9.58;8,76.54,374.77,442.20,9.58;8,76.54,388.28,442.21,9.58;8,76.54,401.79,442.20,9.58;8,76.54,415.30,257.21,9.58;8,363.84,415.30,3.94,9.58"><s xml:id="_qSCMxBs" coords="8,97.80,347.75,420.95,9.58;8,76.54,361.26,442.20,9.58;8,76.54,374.77,385.49,9.58">The item 4.2 (Food storage) included the expressions "Ingredients that have not been fully utilized are stored in clean, closed containers." and "Ingredients that have not been fully utilized present the new date of shelf-life identification after opening, according to the manufacturer".</s><s xml:id="_t4h3RGM" coords="8,465.51,374.77,53.23,9.58;8,76.54,388.28,442.21,9.58;8,76.54,401.79,384.04,9.58">The "secure storage" keeps raw ingredients separate from ready-to-eat foods; allows one to know the shelf life of the product; and could avoid the potential contamination from the storage environment.</s><s xml:id="_jVMH49X" coords="8,463.67,401.79,55.07,9.58;8,76.54,415.30,291.25,9.58">These points are very important to reduce the chance of household FBD <ref type="bibr" coords="8,336.24,415.30,15.77,9.58" target="#b36">[37,</ref><ref type="bibr" coords="8,352.01,415.30,11.83,9.58" target="#b37">38]</ref>.</s></p><p xml:id="_z433jrM" coords="8,97.80,428.81,420.95,9.58;8,76.54,442.32,442.60,9.58;8,76.54,455.83,442.40,9.58;8,76.54,469.34,143.56,9.58;8,237.86,469.34,3.82,9.58"><s xml:id="_AyTvPxK" coords="8,97.80,428.81,420.95,9.58;8,76.54,442.32,442.60,9.58;8,76.54,455.83,442.40,9.58;8,76.54,469.34,165.14,9.58">Despite the division of the instrument in blocks facilitating the instrument application, the physical structure, practices of food acquisition, storage, and manipulation should always be considered jointly so that the manipulative education investments based on perceptions or attitudes do not run counter to everyday domestic conditions <ref type="bibr" coords="8,222.59,469.34,15.27,9.58" target="#b40">[41]</ref>.</s></p><p xml:id="_8rqMFrA" coords="8,97.80,482.85,420.94,9.58;8,76.54,496.36,442.20,9.58;8,76.24,509.87,193.99,9.58;8,287.89,509.87,232.10,9.58;8,76.54,523.37,442.20,9.58;8,76.54,536.88,132.79,9.58;8,227.18,536.88,291.56,9.58;8,76.54,550.39,442.21,9.58;8,76.24,563.90,442.89,9.58;8,76.24,577.41,442.51,9.58;8,76.54,590.92,442.48,9.58;8,76.54,604.43,442.21,9.58;8,76.54,617.94,442.21,9.58;8,76.54,631.45,442.20,9.58;8,76.54,644.96,442.21,9.58;8,76.54,658.47,422.43,9.58;8,516.68,658.47,3.81,9.58"><s xml:id="_SqNzCGH" coords="8,97.80,482.85,420.94,9.58;8,76.54,496.36,54.24,9.58">To the best of our knowledge, there is no regulation for food preparation, handling, or storage in households.</s><s xml:id="_2XPP99u" coords="8,133.93,496.36,384.81,9.58;8,76.24,509.87,215.45,9.58">Many foodborne illness cases and their associated economic costs may be the result of preventable food handling mistakes at home <ref type="bibr" coords="8,272.71,509.87,15.18,9.58" target="#b36">[37]</ref>.</s><s xml:id="_rQh6vEj" coords="8,294.77,509.87,225.22,9.58;8,76.54,523.37,442.20,9.58;8,76.54,536.88,154.48,9.58">Since most FBD cases are considered to be sporadic, mild, and unreported, it is estimated that the cases originating from food handling errors at home is much higher than we know <ref type="bibr" coords="8,211.82,536.88,15.36,9.58" target="#b36">[37]</ref>.</s><s xml:id="_9B9rUjw" coords="8,234.12,536.88,284.62,9.58;8,76.54,550.39,442.21,9.58;8,76.24,563.90,134.19,9.58">Moreover, considering increasing concerns about the increase in cases of households' foodborne diseases, it is urgent to encourage consumers to develop good food preparation practices at home.</s><s xml:id="_xekt7sw" coords="8,213.54,563.90,305.58,9.58;8,76.24,577.41,403.56,9.58">Household handlers are less likely to take protective steps when they place less importance on their own responsibility than that of others in the food safety chain.</s><s xml:id="_gJq4gTb" coords="8,482.88,577.41,35.86,9.58;8,76.54,590.92,442.48,9.58;8,76.54,604.43,268.37,9.58">Helping consumers to understand the importance of the control they have in their homes as food safety risk managers can promote behavioral changes and reduce FBD.</s><s xml:id="_TcnwrmE" coords="8,347.39,604.43,171.36,9.58;8,76.54,617.94,442.21,9.58;8,76.54,631.45,314.47,9.58">The development and validation of an instrument with objective criteria allows for the evaluation of the hygiene and safety conditions of the food in domestic environments, besides the perception of the handlers.</s><s xml:id="_nCKVeSh" coords="8,394.09,631.45,124.65,9.58;8,76.54,644.96,442.21,9.58;8,76.54,658.47,443.95,9.58">Moreover, from an objective assessment, it is possible to evaluate the risks to the consumers, mainly the most vulnerable, such as immunosuppressed patients with various cancers, children, elderly and users of social programs <ref type="bibr" coords="8,501.45,658.47,15.23,9.58" target="#b41">[42]</ref>.</s></p><p xml:id="_DbzD4h4" coords="8,97.80,671.98,420.94,9.58;8,76.54,685.49,400.12,9.58;8,494.62,685.49,24.12,9.58;8,76.54,699.00,442.20,9.58;8,76.54,712.51,442.20,9.58;8,76.54,726.02,442.41,9.58;8,76.54,739.52,227.33,9.58;8,321.79,739.52,196.95,9.58;9,76.24,91.07,442.50,9.58;9,76.54,104.58,177.33,9.58"><s xml:id="_Y5t4Eft" coords="8,97.80,671.98,420.94,9.58;8,76.54,685.49,421.94,9.58">Providing preventive information is an important strategy for reducing FBD cases because the aim of this information is to improve food handling practices in household environments <ref type="bibr" coords="8,479.21,685.49,15.41,9.58" target="#b9">[10]</ref>.</s><s xml:id="_9VuTqfG" coords="8,501.73,685.49,17.01,9.58;8,76.54,699.00,442.20,9.58;8,76.54,712.51,442.20,9.58;8,76.54,726.02,52.16,9.58">The developed check-list presents strong points, since it was submitted to the evaluation of experts in the area and focus group who were free to make any comments relevant to improve the instrument.</s><s xml:id="_FPNdUeX" coords="8,133.17,726.02,385.77,9.58;8,76.54,739.52,249.11,9.58">Moreover, the semantic evaluation process helped to ensure that the items were clear and comprehensive as to the language and writing <ref type="bibr" coords="8,306.38,739.52,15.42,9.58" target="#b25">[26]</ref>.</s><s xml:id="_MQ3PtGU" coords="8,328.79,739.52,189.96,9.58;9,76.24,91.07,442.50,9.58;9,76.54,104.58,177.33,9.58">The proposed check-list is attractive for its practicality and it can be used for identifying inappropriate household routines, allowing the correction of non-conformities, to ensure safe food.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5." xml:id="_cKgx2ZT" coords="9,76.54,127.88,67.00,9.34">Conclusions</head><p xml:id="_KtZBFfc" coords="9,97.80,147.28,420.95,9.58;9,76.54,160.79,443.45,9.58;9,76.54,174.30,442.49,9.58;9,76.54,187.81,442.20,9.58;9,76.54,201.32,442.20,9.58;9,76.54,214.83,442.20,9.58;9,76.54,228.34,442.20,9.58;9,76.54,241.85,442.20,9.58;9,76.54,255.36,442.21,9.58;9,76.54,268.87,442.21,9.58;9,76.54,282.38,442.20,9.58;9,76.54,295.89,442.20,9.58;9,76.54,309.40,442.20,9.58;9,76.54,322.91,442.59,9.58;9,76.54,336.41,442.20,9.58;9,76.54,349.92,442.21,9.58;9,76.54,363.43,254.39,9.58"><s xml:id="_pbkTVRz" coords="9,97.80,147.28,420.95,9.58;9,76.54,160.79,443.45,9.58;9,76.54,174.30,442.49,9.58;9,76.54,187.81,181.39,9.58">Unsafe practices in food handling and consumption in the home environment have led researchers to assess the level of consumer knowledge about food and waterborne diseases and their consequences, as well as the interest in raising the awareness of food handlers about attitudes that may pose the risk of contamination of food in households.</s><s xml:id="_UaB7Ctv" coords="9,262.35,187.81,256.38,9.58;9,76.54,201.32,230.82,9.58">The use of an instrument as an evaluation tool facilitates the assessment of the level of food safety at home.</s><s xml:id="_jpxUAJV" coords="9,312.83,201.32,205.91,9.58;9,76.54,214.83,442.20,9.58;9,76.54,228.34,442.20,9.58;9,76.54,241.85,88.95,9.58">However, in the scientific literature there is a shortage of easily reproducible validated instruments aimed at the planning of food safety education strategies, which could also be used to evaluate the results of training programs by food safety of health professionals.</s><s xml:id="_C6dt4ks" coords="9,168.61,241.85,350.13,9.58;9,76.54,255.36,442.21,9.58;9,76.54,268.87,50.55,9.58">Therefore, we validated the instrument (check-list) developed for the verification of good practices in home kitchens, with respect to content and comprehension, after careful revision of its items.</s><s xml:id="_vuYrhHz" coords="9,130.17,268.87,388.57,9.58;9,76.54,282.38,377.64,9.58">After it was redesigned, the items were considered important and comprehensive by the experts and focus group to Household Food-Borne Disease Assessment and Prevention.</s><s xml:id="_4c32PWH" coords="9,457.20,282.38,61.54,9.58;9,76.54,295.89,442.20,9.58;9,76.54,309.40,442.20,9.58;9,76.54,322.91,442.59,9.58;9,76.54,336.41,75.07,9.58">It is important to highlight that future studies are necessary to assess other properties of the instrument, such as reliability using the criteria of reproducibility, which aims at verifying the proportion of agreement among the responses when the instrument is applied in the same location and circumstances by different people.</s><s xml:id="_jCwGNsq" coords="9,157.80,336.41,360.94,9.58;9,76.54,349.92,360.95,9.58">Further studies are also necessary to test this instrument in households and to evaluate its effectiveness in contributing to the prevention of food contamination.</s><s xml:id="_gcsfSUS" coords="9,440.59,349.92,78.16,9.58;9,76.54,363.43,254.39,9.58">Strategies such as this are very important to improve the access to safe food.</s></p><p xml:id="_pSnyNXn" coords="10,103.21,91.12,36.70,7.33;10,460.68,91.18,5.08,7.15;10,481.55,91.18,33.15,7.15;10,103.21,101.85,98.41,7.33;10,103.21,112.57,57.80,7.33;10,103.21,123.30,343.86,7.33;10,103.21,134.02,147.90,7.33;10,103.21,144.75,56.22,7.33;10,103.21,155.48,214.16,7.33;10,103.21,166.20,138.15,7.33;10,103.21,176.93,29.22,7.33;10,103.21,187.65,92.59,7.33;10,103.21,198.38,92.25,7.33"><s xml:id="_SDbWY28" coords="10,103.21,91.12,36.70,7.33;10,460.68,91.18,5.08,7.15;10,481.55,91.18,33.15,7.15;10,103.21,101.85,98.41,7.33;10,103.21,112.57,57.80,7.33;10,103.21,123.30,343.86,7.33">Evaluation Y N NA 1. Construction and Facilities 1.1 External Area External area free of outbreaks of unhealthiness, garbage accumulation, stagnant water, among others.</s><s xml:id="_ty82UGg" coords="10,103.21,134.02,147.90,7.33">Access roads with adequate sewage system.</s><s xml:id="_VsUXnxu" coords="10,103.21,144.75,56.22,7.33;10,103.21,155.48,214.16,7.33">1.2 Internal Area Kitchen free of obsolete objects or strangers to the environment.</s><s xml:id="_kXcdUGJ" coords="10,103.21,166.20,138.15,7.33">Free of the presence of domestic animals.</s><s xml:id="_hpN9YWv" coords="10,103.21,176.93,29.22,7.33;10,103.21,187.65,92.59,7.33">1.3 Floor In good state of cleanliness.</s><s xml:id="_BedTzfV" coords="10,103.21,198.38,92.25,7.33">Cleaned at least once a day.</s></p><p xml:id="_beY4FNw" coords="10,103.21,209.11,218.12,7.33;10,103.21,219.83,273.24,7.33;10,103.21,230.56,63.86,7.33;10,103.21,241.28,303.79,7.33;10,103.21,251.81,337.56,7.33;10,103.21,262.34,25.42,7.33;10,103.21,273.06,106.51,7.33;10,103.21,283.79,92.59,7.33;10,103.21,294.51,124.28,7.33;10,103.21,305.24,271.35,7.33;10,103.21,315.96,56.71,7.33;10,103.21,326.69,271.35,7.33;10,103.21,337.42,124.28,7.33;10,103.21,348.14,142.71,7.33;10,103.21,358.87,271.35,7.33;10,103.21,369.59,124.28,7.33;10,103.21,380.32,33.37,7.33;10,103.21,391.05,136.14,7.33;10,103.21,401.77,260.14,7.33;10,103.21,412.50,232.28,7.33;10,103.21,423.22,156.92,7.33;10,103.21,433.95,138.23,7.33;10,103.21,444.67,314.59,7.33;10,103.21,455.40,129.93,7.33;10,103.21,466.13,236.46,7.33;10,103.21,476.85,197.40,7.33;10,103.21,487.58,240.01,7.33;10,103.21,498.30,162.90,7.33;10,103.21,509.03,118.22,7.33;10,103.21,519.76,286.32,7.33;10,103.21,530.48,102.29,7.33;10,103.21,541.21,61.24,7.33;10,103.21,551.93,168.92,7.33;10,103.21,562.66,247.96,7.33;10,103.21,573.38,127.11,7.33;10,103.21,584.11,138.44,7.33"><s xml:id="_n3Vewnt" coords="10,103.21,209.11,218.12,7.33">Floor in material that facilitates its cleaning (ceramics or similar).</s><s xml:id="_q7CwFzm" coords="10,103.21,219.83,273.24,7.33">In suitable state of conservation (free of defects, cracks, cracks, holes, and others).</s><s xml:id="_jvVhVg8" coords="10,103.21,230.56,63.86,7.33;10,103.21,241.28,303.79,7.33">1.4 Kitchen Ceiling With appropriate ceiling material that facilitate cleaning (plaster, pvc, concrete, or similar).</s><s xml:id="_52gvG3J" coords="10,103.21,251.81,337.56,7.33;10,103.21,262.34,25.42,7.33">In suitable state of conservation (free of cracks, humidity, mold, fungus, spider webs, paint peel, and others).</s><s xml:id="_hweWzqs" coords="10,103.21,273.06,106.51,7.33;10,103.21,283.79,92.59,7.33">1.5 Walls and Kitchen Divisions In good state of cleanliness.</s><s xml:id="_VydhW6K" coords="10,103.21,294.51,124.28,7.33">Built with material of easy cleansing.</s><s xml:id="_vbuGUYa" coords="10,103.21,305.24,271.35,7.33">In suitable state of conservation (free of cracks, humidity, paint peel, and others).</s><s xml:id="_6AjEsC3" coords="10,103.21,315.96,56.71,7.33;10,103.21,326.69,271.35,7.33">1.6 Kitchen Door In suitable state of conservation (free of cracks, humidity, paint peel, and others).</s><s xml:id="_USgf2F5" coords="10,103.21,337.42,124.28,7.33">Built with material of easy cleansing.</s><s xml:id="_UKzp7EN" coords="10,103.21,348.14,142.71,7.33;10,103.21,358.87,271.35,7.33">1.7 Windows and Other Kitchen Openings In suitable state of conservation (free of cracks, humidity, paint peel, and others).</s><s xml:id="_xyyhjJV" coords="10,103.21,369.59,124.28,7.33">Built with material of easy cleansing.</s><s xml:id="_FhSq9Pv" coords="10,103.21,380.32,33.37,7.33;10,103.21,391.05,136.14,7.33">1.8 Toilets Toilet with intact toilet seat and with lid.</s><s xml:id="_AQyXafZ" coords="10,103.21,401.77,260.14,7.33">Toilet with running water and connected to the sewage system or septic tank.</s><s xml:id="_rQkapnD" coords="10,103.21,412.50,232.28,7.33">Toilet without direct link to the kitchen area and/or the dining room.</s><s xml:id="_DnU8nrN" coords="10,103.21,423.22,156.92,7.33">Toilet with bins with lids and pedal triggering.</s><s xml:id="_rsvq67V" coords="10,103.21,433.95,138.23,7.33;10,103.21,444.67,314.59,7.33">1.9 Lighting and kitchen electrical wiring Recessed lighting or when external, covered by insulating pipes attached to walls and ceiling.</s><s xml:id="_68S4TC3" coords="10,103.21,455.40,129.93,7.33">Bulbs and electric switches free of dirt.</s><s xml:id="_UeArYN8" coords="10,103.21,466.13,236.46,7.33">Cleaning of lamps, outlets, and electric switches at least once a month.</s><s xml:id="_FhH6mr3" coords="10,103.21,476.85,197.40,7.33;10,103.21,487.58,240.01,7.33">1.10 Ventilation and Acclimatization System of the Kitchen Kitchen with ventilation and air circulation capable of thermal comfort.</s><s xml:id="_JuE7eqm" coords="10,103.21,498.30,162.90,7.33">Kitchen free of fungus, causing no harm to food.</s><s xml:id="_JmgCUke" coords="10,103.21,509.03,118.22,7.33;10,103.21,519.76,286.32,7.33">1.11 Urban Vector and Pest Control Absence of urban vectors and pests or other evidences such as feces, nests, and other.</s><s xml:id="_dnf36x2" coords="10,103.21,530.48,102.29,7.33">Disinfecting every six months.</s><s xml:id="_EUpjncX" coords="10,103.21,541.21,61.24,7.33;10,103.21,551.93,168.92,7.33">1.12 Water Supply Water supply system connected to the public grid.</s><s xml:id="_JnhMnVw" coords="10,103.21,562.66,247.96,7.33">Proper, protected, covered, and distant from contamination water system.</s><s xml:id="_G8zbS99" coords="10,103.21,573.38,127.11,7.33">Water tank with lid and in good state.</s><s xml:id="_3EuvVrU" coords="10,103.21,584.11,138.44,7.33">Cleaning of water tank every six months.</s></p><p xml:id="_kAwTTc3" coords="10,103.21,594.84,81.70,7.33;10,103.21,605.56,290.35,7.33;10,103.21,616.29,141.92,7.33;10,103.21,627.01,95.38,7.33;10,103.21,637.74,114.47,7.33;10,103.21,648.47,69.10,7.33;10,103.21,659.19,213.35,7.33;10,103.21,669.92,46.65,7.33;10,103.21,680.64,157.58,7.33;10,103.21,691.37,50.96,7.33;10,103.21,702.10,36.70,7.33;10,460.68,702.10,5.08,7.33;10,481.55,702.10,32.89,7.33;10,103.21,712.82,199.29,7.33;10,103.21,723.55,289.49,7.33;10,103.21,734.27,273.82,7.33;11,103.21,91.12,188.41,7.33;11,103.21,101.85,185.65,7.33;11,103.21,112.57,273.18,7.33;11,103.21,123.30,40.74,7.33;11,103.21,134.02,176.45,7.33;11,103.21,144.75,207.61,7.33;11,103.21,155.48,122.54,7.33;11,103.21,166.20,182.91,7.33;11,103.21,176.93,124.32,7.33;11,103.21,187.65,170.28,7.33;11,103.21,198.38,191.34,7.33;11,103.21,209.10,121.17,7.33;11,103.21,219.83,160.81,7.33;11,103.21,230.56,108.29,7.33;11,103.21,241.28,131.01,7.33;11,103.21,252.01,126.42,7.33;11,103.21,262.73,98.56,7.33;11,103.21,273.46,92.94,7.33;11,103.21,284.19,156.22,7.33;11,103.21,294.91,117.68,7.33;11,103.21,305.64,185.89,7.33;11,103.21,316.36,247.35,7.33;11,103.21,327.09,239.64,7.33;11,103.21,337.82,132.84,7.33;11,103.21,348.54,105.06,7.33;11,103.21,359.27,46.65,7.33;11,103.21,369.99,36.70,7.33;11,460.68,369.99,5.08,7.33;11,481.55,369.99,32.89,7.33;11,103.21,380.72,39.43,7.33;11,103.21,391.44,64.41,7.33;11,103.21,401.97,347.88,7.33;11,103.21,412.50,25.42,7.33;11,103.21,423.22,182.07,7.33;11,103.21,433.95,70.45,7.33;11,103.21,444.67,313.09,7.33;11,103.21,455.40,46.65,7.33;11,103.21,466.13,36.70,7.33;11,460.68,466.13,5.08,7.33;11,481.55,466.13,32.89,7.33;11,103.21,476.85,79.06,7.33;11,103.21,487.58,103.07,7.33;11,103.21,498.30,238.55,7.33;11,103.21,509.03,88.81,7.33;11,103.21,519.76,166.21,7.33;11,103.21,530.48,168.69,7.33;11,103.21,541.21,127.54,7.33;11,103.21,551.93,55.91,7.33;11,103.21,562.66,313.06,7.33;11,103.21,573.38,185.22,7.33;11,103.21,584.11,233.92,7.33;11,103.21,594.84,271.18,7.33;11,103.21,605.56,222.89,7.33;11,103.21,616.29,162.15,7.33;11,103.21,627.01,209.44,7.33;11,103.21,637.74,208.94,7.33;11,103.21,648.47,46.65,7.33"><s xml:id="_tMsegvd" coords="10,103.21,594.84,81.70,7.33;10,103.21,605.56,290.35,7.33">1.13 Waste Management Easy to clean and carry waste bins; in proper state and with appropriate garbage bags.</s><s xml:id="_6jh92ud" coords="10,103.21,616.29,141.92,7.33">Covered waste bins with pedal triggering.</s><s xml:id="_dPFuNg2" coords="10,103.21,627.01,95.38,7.33">No waste bins over the sink.</s><s xml:id="_a8aX2C8" coords="10,103.21,637.74,114.47,7.33">Waste stored in appropriate areas.</s><s xml:id="_HKxhXej" coords="10,103.21,648.47,69.10,7.33;10,103.21,659.19,213.35,7.33">1.14 Sewage System: Septic tank and sewage system connected to the public sewage.</s><s xml:id="_YbaQVWy" coords="10,103.21,669.92,46.65,7.33;10,103.21,680.64,157.58,7.33">Observations: 2. Equipment, Furniture, and Kitchen Utensils.</s><s xml:id="_TRFhRBw" coords="10,103.21,691.37,50.96,7.33;10,103.21,702.10,36.70,7.33;10,460.68,702.10,5.08,7.33;10,481.55,702.10,32.89,7.33;10,103.21,712.82,199.29,7.33">2.1 Equipment: Evaluation Y N NA Fridge and stove in an area that permits adequate cleaning.</s><s xml:id="_YUMGg5B" coords="10,103.21,723.55,289.49,7.33">Conservation equipment for food (fridges, freezers, and others) in proper functioning.</s><s xml:id="_EqNfUMD" coords="10,103.21,734.27,273.82,7.33">Thermal food equipment (stove, oven, and/or microwave) in proper functioning.</s><s xml:id="_Ubmbd4M" coords="11,103.21,91.12,188.41,7.33;11,103.21,101.85,185.65,7.33">2.2 Furniture (tables, countermiddle, cupboard, shelves) From resistant material with proper surface conditions.</s><s xml:id="_5tdhszb" coords="11,103.21,112.57,273.18,7.33">Withdrawing that allows easy cleaning (smooth, without roughness, and chinks).</s><s xml:id="_JSxc5Kh" coords="11,103.21,123.30,40.74,7.33;11,103.21,134.02,176.45,7.33">2.3 Utensils: Size and shape for easy cleaning and in proper state.</s><s xml:id="_HdnmqTq" coords="11,103.21,144.75,207.61,7.33">No wooden utensils or other materials of easy contamination.</s><s xml:id="_RyNrZZ9" coords="11,103.21,155.48,122.54,7.33">Pans, pots, and trays in proper state.</s><s xml:id="_ZYpFQKU" coords="11,103.21,166.20,182.91,7.33">Boards, knives, skimmers, and holders in proper state.</s><s xml:id="_DE3fUZR" coords="11,103.21,176.93,124.32,7.33">Slicers and squeezers in proper state.</s><s xml:id="_HRu6hEK" coords="11,103.21,187.65,170.28,7.33">Utensils (plates, silverware, bowls) in proper state.</s><s xml:id="_YeFTz99" coords="11,103.21,198.38,191.34,7.33;11,103.21,209.10,121.17,7.33">2.4 Equipment, Furniture, and Kitchen Utensils Cleaning Fridges and freezers in proper state.</s><s xml:id="_uDUmGpn" coords="11,103.21,219.83,160.81,7.33">Fridges or freezers cleaned at least once a week.</s><s xml:id="_6JgBUkj" coords="11,103.21,230.56,108.29,7.33">The stove is cleaned when used.</s><s xml:id="_PRPcBDJ" coords="11,103.21,241.28,131.01,7.33">Dishcloths in proper and cleaned state.</s><s xml:id="_TDq6hfW" coords="11,103.21,252.01,126.42,7.33">Dishrags or table rags in proper state.</s><s xml:id="_43dpMVD" coords="11,103.21,262.73,98.56,7.33">Dishcloths are changed daily.</s><s xml:id="_ny4YSHh" coords="11,103.21,273.46,92.94,7.33">Dishrags are changed daily.</s><s xml:id="_nyJJYmW" coords="11,103.21,284.19,156.22,7.33">Cleaning sponges in proper hygiene and state.</s><s xml:id="_D3Pm7yJ" coords="11,103.21,294.91,117.68,7.33">Cleaning sponges changed weekly.</s><s xml:id="_9GzZVaE" coords="11,103.21,305.64,185.89,7.33">Cleaning products approved by the health department.</s><s xml:id="_NUNABAw" coords="11,103.21,316.36,247.35,7.33">Cleaning products in their original packing and stored in proper location.</s><s xml:id="_rmQs9PQ" coords="11,103.21,327.09,239.64,7.33">Equipment, furniture, and kitchen utensils in proper hygiene and state.</s><s xml:id="_e6EMUnV" coords="11,103.21,337.82,132.84,7.33">Water filters changed every six months.</s><s xml:id="_CkzVnny" coords="11,103.21,348.54,105.06,7.33">No sponges from steel or wool.</s><s xml:id="_FwrsuFW" coords="11,103.21,359.27,46.65,7.33;11,103.21,369.99,36.70,7.33;11,460.68,369.99,5.08,7.33;11,481.55,369.99,32.89,7.33;11,103.21,380.72,39.43,7.33;11,103.21,391.44,64.41,7.33;11,103.21,401.97,347.88,7.33;11,103.21,412.50,25.42,7.33">Observations: Evaluation Y N NA 3. Handlers 3.1 Hygiene Habits Personal cleaning, good appearance, clean hands, short nails, and unadorned (rings, earrings, bracelets, others).</s><s xml:id="_S7VKsY9" coords="11,103.21,423.22,182.07,7.33">Handlers with previous knowledge on hand washing.</s><s xml:id="_Y8YyuDE" coords="11,103.21,433.95,70.45,7.33;11,103.21,444.67,313.09,7.33">3.2 Health Condition Absence of skin rash, wound, suppuration; absence of respiratory, eye, and gastric infections.</s><s xml:id="_wq3X3HN" coords="11,103.21,455.40,46.65,7.33;11,103.21,466.13,36.70,7.33;11,460.68,466.13,5.08,7.33;11,481.55,466.13,32.89,7.33;11,103.21,476.85,79.06,7.33;11,103.21,487.58,103.07,7.33;11,103.21,498.30,238.55,7.33">Observations: Evaluation Y N NA 4.0 Food and Feedstock 4.1 Food and Feedstock Origin Food and feedstock with labels and packaging according to legislation.</s><s xml:id="_fDS6EYs" coords="11,103.21,509.03,88.81,7.33">Milk from a secure source.</s><s xml:id="_gs7jjdG" coords="11,103.21,519.76,166.21,7.33">Cheese from a secure source, packed and labeled.</s><s xml:id="_dGag2aa" coords="11,103.21,530.48,168.69,7.33">Meat, chicken, or fish from proper establishments.</s><s xml:id="_tQDZGQB" coords="11,103.21,541.21,127.54,7.33">Filtered or boiled water consumption.</s><s xml:id="_DzNC5Jh" coords="11,103.21,551.93,55.91,7.33;11,103.21,562.66,313.06,7.33">4.2 Food Storage Semi perishable food stored in adequate and organized area with air circulation and lighting.</s><s xml:id="_7EZ4cSm" coords="11,103.21,573.38,185.22,7.33">Food prepared in advance before serving heated again.</s><s xml:id="_m8CPZBT" coords="11,103.21,584.11,233.92,7.33">Fridges and freezers organized in order to avoid cross contamination.</s><s xml:id="_8WrqFDs" coords="11,103.21,594.84,271.18,7.33">Feedstock not used completely are properly stored in clean and closed container.</s><s xml:id="_fAYGNzd" coords="11,103.21,605.56,222.89,7.33">Feedstock not used completely are identified with expiration date.</s><s xml:id="_ZKjBzqw" coords="11,103.21,616.29,162.15,7.33">Perishable food stored in adequate temperature.</s><s xml:id="_6Kv5WUJ" coords="11,103.21,627.01,209.44,7.33">Packages well cleaned before used for fridge or freeze storage.</s><s xml:id="_TgD6HBe" coords="11,103.21,637.74,208.94,7.33">Leftovers stored under refrigeration and with bowls with lids.</s><s xml:id="_t6a4Yge" coords="11,103.21,648.47,46.65,7.33">Observations:</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="2,76.21,489.18,122.51,9.58;2,76.21,503.69,213.54,9.58;2,76.21,518.19,85.71,9.58;2,76.21,532.70,160.70,9.58"><figDesc><div><p xml:id="_683WCYP"><s xml:id="_hBmJc2S" coords="2,76.21,489.18,122.51,9.58;2,76.21,503.69,213.54,9.58;2,76.21,518.19,85.71,9.58;2,76.21,532.70,160.70,9.58">(a) Building and facilities; (b) Kitchen equipment, furniture, and utensils; (c) Manipulators; (d) Raw materials and ingredients;</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="4,100.53,157.84,126.91,6.88;4,454.16,157.84,22.21,6.88"><figDesc><div><p xml:id="_FQAfkRJ"><s xml:id="_AJqvZuV" coords="4,100.53,157.84,41.73,6.88">Int. J. Environ.</s><s xml:id="_X5J7Fht" coords="4,143.93,157.84,11.55,6.88">Res.</s><s xml:id="_tNqTe9h" coords="4,157.15,157.84,70.28,6.88;4,454.16,157.84,22.21,6.88">Public Health 2019, 16, x 4 of 13</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2" coords="4,141.84,552.79,293.21,8.64"><head>Figure 1 .</head><label>1</label><figDesc><div><p xml:id="_8zNgT9A"><s xml:id="_fDTMsj8" coords="4,141.84,552.79,33.53,8.64">Figure 1.</s><s xml:id="_Fay5VNB" coords="4,177.54,552.79,257.51,8.64">Stages of the instrument content validation and semantic evaluation.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3" coords="4,142.71,552.57,309.85,8.63"><head>Figure 1 .</head><label>1</label><figDesc><div><p xml:id="_MXdwkwV"><s xml:id="_DGkWzM2" coords="4,142.71,552.64,35.37,8.41">Figure 1.</s><s xml:id="_zpwdGWQ" coords="4,180.87,552.57,271.70,8.63">Stages of the instrument content validation and semantic evaluation.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" coords="5,85.24,550.96,421.13,205.82"><head>Table 1 .</head><label>1</label><figDesc><div><p xml:id="_Hp8FAkS"><s xml:id="_ZTxJGKb" coords="5,131.66,550.96,365.83,8.63;5,97.50,563.78,136.20,8.63">Experts' evaluation of the instrument, mean grades of the items, and the Kendall coefficient (W) of the section of the check-list.</s><s xml:id="_UPmpvqn" coords="5,236.48,563.78,69.82,8.63">Brasília, DF, 2019.</s></p></div></figDesc><table coords="5,85.24,583.89,421.13,172.89"><row><cell></cell><cell cols="2">Construction and Facilities</cell><cell></cell><cell></cell></row><row><cell>Section of the Check-List</cell><cell>Content Validation (Mean Grade ± SD *)</cell><cell>Content Validation (W-Values)</cell><cell>Semantic Validation (Mean Grade ± SD *)</cell><cell>Semantic Validation (W-Values)</cell></row><row><cell>Outdoor area</cell><cell>3.86 ± 0.38</cell><cell>0.86</cell><cell>3.69 ± 0.48</cell><cell>0.70</cell></row><row><cell>Indoor area</cell><cell>3.86 ± 0.38</cell><cell>0.86</cell><cell>3.62 ± 0.50</cell><cell>0.70</cell></row><row><cell>Kitchen floor</cell><cell>3.71 ± 0.49</cell><cell>0.71</cell><cell>3.77 ± 0.44</cell><cell>0.77</cell></row><row><cell>Kitchen ceiling</cell><cell>4.00 ± 0.00</cell><cell>1.00</cell><cell>3.62 ± 0.50</cell><cell>0.70</cell></row><row><cell>Walls and kitchen divisions</cell><cell>4.00 ± 0.00</cell><cell>1.00</cell><cell>3.62 ± 0.50</cell><cell>0.70</cell></row><row><cell>Kitchen door</cell><cell>3.86 ± 0.38</cell><cell>0.86</cell><cell>3.54 ± 0.52</cell><cell>0.70</cell></row><row><cell>Windows and other kitchen openings</cell><cell>4.00 ± 0.00</cell><cell>1.00</cell><cell>3.69 ± 0.48</cell><cell>0.70</cell></row><row><cell>Toilets</cell><cell>3.86 ± 0.38</cell><cell>0.86</cell><cell>3.92 ± 0.28</cell><cell>0.92</cell></row><row><cell>Lighting and kitchen electrical wiring</cell><cell>3.86 ± 0.38</cell><cell>0.86</cell><cell>3.62 ± 0.50</cell><cell>0.70</cell></row><row><cell>Ventilation and acclimatization system of the kitchen</cell><cell>3.71 ± 0.49</cell><cell>0.71</cell><cell>3.69 ± 0.48</cell><cell>0.70</cell></row><row><cell>Urban vector and pest control</cell><cell>3.57 ± 0.53</cell><cell>0.70</cell><cell>3.77 ± 0.44</cell><cell>0.77</cell></row><row><cell>Water supply</cell><cell>3.57 ± 0.53</cell><cell>0.70</cell><cell>3.77 ± 0.44</cell><cell>0.77</cell></row><row><cell>Waste management</cell><cell>3.86 ± 0.38</cell><cell>0.86</cell><cell>3.77 ± 0.44</cell><cell>0.77</cell></row><row><cell>Sanitary sewage</cell><cell>3.57 ± 1.13</cell><cell>0.86</cell><cell>3.62 ± 0.50</cell><cell>0.70</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1" coords="6,99.28,90.65,407.09,262.71"><head>Table 1 .</head><label>1</label><figDesc><div><p xml:id="_gUcv3gc"><s xml:id="_eaD6Q9z" coords="6,304.48,90.65,20.17,8.55">Cont.</s></p></div></figDesc><table coords="6,99.28,110.87,407.09,228.92"><row><cell></cell><cell cols="2">Construction and Facilities</cell><cell></cell><cell></cell></row><row><cell>Section of the Check-List</cell><cell>Content Validation (Mean Grade ± SD *)</cell><cell>Content Validation (W-Values)</cell><cell>Semantic Validation (Mean Grade ± SD *)</cell><cell>Semantic Validation (W-Values)</cell></row><row><cell>Total of the block</cell><cell>3.88 ± 0.46</cell><cell>0.87</cell><cell>3.69 ± 0.48</cell><cell>0.70</cell></row><row><cell cols="3">Equipment, furniture, and kitchen utensils</cell><cell></cell><cell></cell></row><row><cell>Equipment</cell><cell>4.00 ± 0.00</cell><cell>1.00</cell><cell>3.62 ± 0.50</cell><cell>0.70</cell></row><row><cell>Furniture</cell><cell>4.00 ± 0.00</cell><cell>1.00</cell><cell>3.69 ± 0.48</cell><cell>0.70</cell></row><row><cell>Utensils</cell><cell>3.86 ± 0.38</cell><cell>0.86</cell><cell>3.92 ± 0.28</cell><cell>0.92</cell></row><row><cell>Equipment, furniture, and utensils hygiene</cell><cell>4.00 ± 0.00</cell><cell>1.00</cell><cell>3.77 ± 0.44</cell><cell>0.77</cell></row><row><cell>Total of the block</cell><cell>3.92 ± 0.22</cell><cell>0.98</cell><cell>3.77 ± 0.44</cell><cell>0.77</cell></row><row><cell></cell><cell>Handlers</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Hygiene habits</cell><cell>3.86 ± 0.38</cell><cell>0.86</cell><cell>3.92 ± 0.28</cell><cell>0.92</cell></row><row><cell>Health condition</cell><cell>3.86 ± 0.38</cell><cell>0.86</cell><cell>3.85 ± 0.37</cell><cell>0.85</cell></row><row><cell>Total of the block</cell><cell>3.86 ± 0.38</cell><cell>0.86</cell><cell>3.96 ± 0.27</cell><cell>0.93</cell></row><row><cell></cell><cell>Food and feedstock</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Food and feed stock origin</cell><cell>4.00 ± 0.00</cell><cell>1.00</cell><cell>3.92 ± 0.28</cell><cell>0.92</cell></row><row><cell>Food storage</cell><cell>4.00 ± 0.00</cell><cell>1.00</cell><cell>3.92 ± 0.28</cell><cell>0.92</cell></row><row><cell>Total of the block</cell><cell>4.00 ± 0.00</cell><cell>1.00</cell><cell>3.92 ± 0.28</cell><cell>0.92</cell></row><row><cell>Total of the instrument</cell><cell>3.86 ± 0.38</cell><cell>0.86</cell><cell>3.62 ± 0.50</cell><cell>0.70</cell></row></table><note xml:id="_knHWjZc" coords="6,258.76,345.69,75.28,7.67"><p><s xml:id="_Zs8eZRc" coords="6,258.76,345.69,75.28,7.67">* Standard-deviation.</s></p></note></figure>
+		</body>
+		<back>
+
+			<div type="funding">
+<div xml:id="_peG5X22"><p xml:id="_YYapJet" coords="9,76.54,463.10,442.38,8.63;9,74.74,473.23,148.84,8.63"><s xml:id="_T3BPxRF" coords="9,76.54,463.10,442.38,8.63;9,74.74,473.23,148.84,8.63">Funding: This study was financed in part by the <rs type="funder">Coordenação de Aperfeiçoamento de Pessoal de Nível Superior -Brasil (CAPES) (Finance Code</rs> <rs type="grantNumber">001</rs>).</s></p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_HXTBcmy">
+					<idno type="grant-number">001</idno>
+				</org>
+			</listOrg>
+
+			<div type="conflict">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_623k7aQ" coords="9,76.54,489.41,82.92,8.41">Conflicts of Interest:</head><p xml:id="_NPNpnMb" coords="9,162.24,489.34,169.80,8.63"><s xml:id="_CKRCHh9" coords="9,162.24,489.34,169.80,8.63">The authors declare no conflicts of interest.</s></p></div>
+			</div>
+
+
+			<div type="contribution">
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_rbzBpaj"><p xml:id="_yVwvUrD" coords="9,76.19,386.20,443.68,8.63;9,76.28,396.33,443.58,8.63;9,76.54,406.46,443.78,8.63;9,76.54,416.59,442.59,8.63;9,76.54,426.73,442.21,8.63;9,76.19,436.86,444.12,8.63;9,76.54,446.99,47.71,8.63"><s xml:id="_w5QDQVm" coords="9,76.19,386.20,443.68,8.63;9,76.28,396.33,443.58,8.63;9,76.54,406.46,443.78,8.63;9,76.54,416.59,442.59,8.63;9,76.54,426.73,442.21,8.63;9,76.19,436.86,444.12,8.63;9,76.54,446.99,47.71,8.63">Author Contributions: Conceptualization, R.d.C.C.d.A.A. and A.d.S.F.; methodology, R.d.C.C.d.A.A. and A.d.S.F.; validation, R.B.A.B., R.P.Z., R.d.C.C.d.A.A. and A.d.S.F.; formal analysis, R.d.C.C.d.A.A. and A.d.S.F.; validation, R.B.A.B., R.P.Z., R.d.C.C.d.A.A. and A.d.S.F.; investigation, R.d.C.C.d.A.A. and A.d.S.F.; resources, R.d.C.C.d.A.A. and A.d.S.F.; writing-original draft preparation, R.B.A.B., R.P.Z., R.d.C.C.d.A.A. and A.d.S.F.; writing-review and editing, R.B.A.B., R.P.Z., R.d.C.C.d.A.A. and A.d.S.F.; visualization, R.B.A.B., R.P.Z., R.d.C.C.d.A.A. and A.d.S.F.; supervision, R.B.A.B., R.P.Z. and R.d.C.C.d.A.A.; project administration, R.B.A.B., R.P.Z., R.d.C.C.d.A.A. and A.d.S.F.</s></p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_m4pFYDj"><p xml:id="_DhMJRGH" coords="9,76.54,511.96,55.62,9.34;9,196.91,544.95,201.45,9.34;9,76.15,565.22,192.65,9.34;9,76.15,578.73,18.27,9.34;9,114.82,578.73,82.74,9.34;9,217.95,578.73,182.38,9.34;9,420.73,578.73,54.23,9.34;9,495.35,578.73,24.63,9.34;9,76.04,592.24,347.58,9.34;9,76.54,605.75,187.40,9.34;9,76.54,619.26,266.49,9.34;9,76.54,632.76,127.70,9.34;9,76.54,659.78,167.66,9.34"><s xml:id="_Y3jSQfV" coords="9,76.54,511.96,55.62,9.34;9,196.91,544.95,201.45,9.34;9,76.15,565.22,192.65,9.34;9,76.15,578.73,18.27,9.34;9,114.82,578.73,82.74,9.34;9,217.95,578.73,182.38,9.34;9,420.73,578.73,54.23,9.34;9,495.35,578.73,24.63,9.34;9,76.04,592.24,347.58,9.34;9,76.54,605.75,187.40,9.34;9,76.54,619.26,266.49,9.34;9,76.54,632.76,127.70,9.34;9,76.54,659.78,167.66,9.34">Appendix A Good Practices in Home Kitchens: Checklist Address: ______________________________ Age (years):__________ Job:_________________________________ Scholarship level: ______________ Number of people who live in household:_________________ Family income: _______________________ Presence of (in household): Elderly ( ) Pregnant ( ) Child ( ) Date: _____/______/________ Check-list to evaluate home kitchens</s></p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted" xml:id="b0">
+	<analytic>
+		<title level="a" type="main" coords="11,341.55,693.44,178.32,8.63;11,98.05,706.35,161.61,8.63" xml:id="_ThjdD3J">Home food safety knowledge, risk perception, and practices among Mexican-Americans</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Parra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Shapiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Gravani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Bradley</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.foodcont.2013.08.016</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_WA83Svu" coords="11,266.98,706.24,47.41,8.55">Food Control</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="115" to="125" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b1">
+	<analytic>
+		<title level="a" type="main" coords="11,402.59,719.26,116.15,8.63;11,98.05,732.18,421.82,8.63;11,98.05,745.09,113.24,8.63" xml:id="_bGcVHuH">Brazilian Foodborne Disease National Survey: Evaluating the Landscape after 11 Years of Implementation to Advance Research, Policy, and Practice in Public Health</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Draeger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Akutsu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Zandonadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Da Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Botelho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Araújo</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/nu11010040</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_273Y25H" coords="11,218.24,744.97,35.87,8.55">Nutrients</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">40</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b2">
+	<analytic>
+		<title level="a" type="main" coords="12,400.41,91.75,118.33,8.63;12,98.05,104.66,401.91,8.63" xml:id="_a4j2pWY">Epidemiological Surveillance System on Foodborne Diseases in Brazil after 10-Years of Its Implementation: Completeness Evaluation</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Draeger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Akutsu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Araújo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Da Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Botelho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Zandonadi</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/ijerph15102284</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_kD7ekXA" coords="12,506.82,104.55,13.04,8.55;12,98.05,117.46,110.10,8.55">Int. J. Environ. Res. Public Health</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page">2284</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b3">
+	<analytic>
+		<title level="a" type="main" coords="12,98.05,143.40,420.69,8.63;12,98.05,156.31,93.22,8.63" xml:id="_GYxNcH2">Estimates of Foodborne Illness-Related Hospitalizations and Deaths in Canada for 30 Specified Pathogens and Unspecified Agents</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Thomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Murray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Flockhart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Pintar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fazil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nesbitt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Marshall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Tataryn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Pollari</surname></persName>
+		</author>
+		<idno type="DOI">10.1089/fpd.2015.1966</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_5rM8sYB" coords="12,198.40,156.19,85.38,8.55">Foodborne Pathog. Dis</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="820" to="827" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b4">
+	<analytic>
+		<title level="a" type="main" coords="12,220.74,169.10,262.44,8.74" xml:id="_nKK5jMQ">WHO Estimates of the Global Burden of Foodborne Diseases, 1st ed</title>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_N7GfVGE" coords="12,494.80,169.22,23.94,8.63;12,98.05,182.13,163.76,8.63">WHO Library Cataloguing-in-Publication Data</title>
+		<meeting><address><addrLine>Geneva, Switzerland</addrLine></address></meeting>
+		<imprint>
+			<publisher>World Health Organization</publisher>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+		<respStmt>
+			<orgName>World Health Organization</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b5">
+	<analytic>
+		<title level="a" type="main" coords="12,98.05,220.87,256.63,8.63" xml:id="_D5nwExu">Foodborne illness acquired in the United States-Major pathogens</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Scallan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Hoekstra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Angulo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">V</forename><surname>Tauxe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M.-A</forename><surname>Widdowson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Roy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Griffin</surname></persName>
+		</author>
+		<idno type="DOI">10.3201/eid1701.P11101</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_fD7VYSQ" coords="12,361.73,220.75,68.48,8.55">Emerg. Infect. Dis</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b6">
+	<analytic>
+		<title level="a" type="main" coords="12,355.03,246.69,163.72,8.63;12,98.05,259.60,107.90,8.63" xml:id="_7ebsC4Y">Foodborne Illness Acquired in the United States-Unspecified Agents</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Scallan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Griffin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Angulo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">V</forename><surname>Tauxe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Hoekstra</surname></persName>
+		</author>
+		<idno type="DOI">10.3201/eid1701.P21101</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_xuzC8wR" coords="12,213.08,259.49,69.58,8.55">Emerg. Infect. Dis</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="16" to="22" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b7">
+	<analytic>
+		<title level="a" type="main" coords="12,303.14,272.51,215.60,8.63;12,97.78,285.42,328.02,8.63" xml:id="_k42F38W">Salmonella enteritidis infections associated with foods purchased from mobile lunch trucks-Alberta, Canada, October 2010-February 2011</title>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_sjsKSnZ" coords="12,432.54,285.31,87.32,8.55;12,97.63,298.22,36.26,8.55">MMWR. Morb. Mortal. Wkly. Rep</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="567" to="569" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+		<respStmt>
+			<orgName>Centers for Disease Control and Prevention (CDC)</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b8">
+	<monogr>
+		<ptr target="http://portal.saude.gov.br/portal/arquivos/pdf/10_passos_para_investigacao_surtos.pdf" />
+		<title level="m" xml:id="_xM8tQE3" coords="12,98.05,311.25,169.56,8.63">Brasil 10 Passos para Investigação de Surtos</title>
+		<imprint>
+			<date type="published" when="2018-12-27">27 December 2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b9">
+	<analytic>
+		<title level="a" type="main" coords="12,496.19,337.07,22.55,8.63;12,98.05,349.98,200.98,8.63" xml:id="_K6ZqraC">Good food preparation practices in households: A review</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>Deon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">B</forename><surname>Medeiros</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lúcia De Freitas Saccol</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Hecktheuer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Saccol</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Naissinger</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.tifs.2014.06.008</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_n7m4wVJ" coords="12,305.89,349.87,88.40,8.55">Trends Food Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="40" to="46" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b10">
+	<analytic>
+		<title level="a" type="main" coords="12,433.88,362.89,84.86,8.63;12,98.05,375.81,174.44,8.63" xml:id="_N3HehaJ">Atitudes de risco do consumidor em restaurantes de auto-serviço</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Zandonadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B A</forename><surname>Botelho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E O</forename><surname>Sávio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D C</forename><surname>Akutsu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">M C</forename><surname>Araújo</surname></persName>
+		</author>
+		<idno type="DOI">10.1590/S1415-52732007000100002</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_C69CZpH" coords="12,279.21,375.69,38.49,8.55">Rev. Nutr</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="19" to="26" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b11">
+	<analytic>
+		<title level="a" type="main" coords="12,468.16,388.72,50.59,8.63;12,98.05,401.63,396.86,8.63" xml:id="_V75CsvD">Hygiene and good practices in school meal services: Organic matter on surfaces, microorganisms and health risks</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B A</forename><surname>De Oliveira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">T</forename><surname>Da Cunha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Stedefeldt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Capalonga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">C</forename><surname>Tondo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R I</forename><surname>Cardoso</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.foodcont.2013.11.036</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_298M7As" coords="12,501.21,401.51,17.54,8.55;12,97.76,414.42,27.73,8.55">Food Control</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="120" to="126" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b12">
+	<analytic>
+		<title level="a" type="main" coords="12,327.19,427.45,191.56,8.63;12,98.05,440.36,420.69,8.63;12,98.05,453.28,79.77,8.63" xml:id="_eUkHD4U">Food hygiene and safety measures among food handlers in street food shops and food establishments of Dessie town, Ethiopia: A community-based cross-sectional study</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Adane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Teka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Gismu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Halefom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ademe</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0196919</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_DReGERA" coords="12,184.58,453.16,41.10,8.55">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">196919</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b13">
+	<analytic>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_M35Vx2S" coords="12,347.05,466.19,171.69,8.63;12,97.78,479.10,149.16,8.63">Dispõe sobre regulamento técnico de boas práticas para serviços de alimentação</title>
+		<title level="s" xml:id="_wCRRVhy" coords="12,253.67,479.10,54.66,8.63;12,329.37,479.10,122.94,8.63">República Federativa do Brasil</title>
+		<meeting><address><addrLine>Brasília, Brazil</addrLine></address></meeting>
+		<imprint>
+			<publisher>Brasil Resolução RDC n</publisher>
+			<date type="published" when="2004">15 de Setembro de 2004. 2004</date>
+			<biblScope unit="volume">216</biblScope>
+			<biblScope unit="page" from="1" to="14" />
+		</imprint>
+	</monogr>
+	<note>Diário Oficial</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b14">
+	<analytic>
+		<title level="a" type="main" coords="12,175.47,504.81,150.94,8.55" xml:id="_TBxKQmU">Agência Nacional de Vigilância Sanitária</title>
+	</analytic>
+	<monogr>
+		<title level="s" xml:id="_zfT4zmv" coords="12,332.98,504.81,68.03,8.55">Resolução RDC n.</title>
+		<imprint>
+			<biblScope unit="volume">275</biblScope>
+			<date type="published" when="2002">21 de Outubro de 2002. 2003</date>
+			<publisher>Diário Oficial da República Federativa do Brasil</publisher>
+			<pubPlace>Brasília, Brazil</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b15">
+	<monogr>
+		<ptr target="https://www.iso.org/obp/ui/#iso:std:iso:22000:ed-1:v1:en" />
+		<title level="m" xml:id="_7GX4ZaQ" coords="12,323.56,530.75,195.18,8.63;12,98.05,543.66,154.71,8.63">Food Safety Management Systems-Requirements for Any Organization in the Food Chain</title>
+		<imprint>
+			<publisher>International Organization for Standardization ISO</publisher>
+			<date type="published" when="2019-01-15">15 January 2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b16">
+	<monogr>
+		<ptr target="https://www.paho.org/bra/index.php?option=com_docman&amp;view=document&amp;layout=default&amp;alias=286-codex-alimentarius-higiene-dos-alimentos-textos-basicos-6&amp;category_slug=seguranca-alimentar-e-nutricao-997&amp;Itemid=965" />
+		<title level="m" xml:id="_ZnUPDQB" coords="12,98.05,569.48,251.58,8.63">OPAS/OMS/Brasil Codex Alimentarius-Higiene dos Alimentos</title>
+		<imprint>
+			<date type="published" when="2018-11-04">4 November 2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b17">
+	<analytic>
+		<title level="a" type="main" coords="12,318.68,621.13,200.06,8.63;12,98.05,634.04,97.61,8.63" xml:id="_ypcwTyT">Development of a tool for quality control audits in hospital enteral nutrition</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Duprat Ceniccola</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">M</forename><surname>Coelho Araújo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Akutsu</surname></persName>
+		</author>
+		<idno type="DOI">10.3305/nh.2014.29.1.7071</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_DvZFehu" coords="12,202.19,633.92,43.96,8.55">Nutr. Hosp</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="102" to="120" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b18">
+	<analytic>
+		<title level="a" type="main" coords="12,370.14,646.95,148.60,8.63;12,98.05,659.86,39.67,8.63" xml:id="_yCupskq">Conformity of food service units with legislation</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">G</forename><surname>De Araújo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B A</forename><surname>Botelho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D C C A</forename><surname>Akutsu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">M C</forename><surname>Araújo</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/15428052.2015.1080643</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_6KeyVTV" coords="12,144.11,659.75,79.38,8.55">J. Culin. Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="75" to="89" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b19">
+	<monogr>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wendisch</surname></persName>
+		</author>
+		<title level="m" xml:id="_UUyaUc2" coords="12,152.52,672.66,366.23,8.55;12,98.05,685.57,57.36,8.55">Avaliação da Qualidade de Unidades de Alimentação e Nutrição (UAN) Hospitalares: Construção de um instrumento</title>
+		<meeting><address><addrLine>Janeiro, Brazil</addrLine></address></meeting>
+		<imprint>
+			<publisher>Rio de</publisher>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b20">
+	<analytic>
+		<title level="a" type="main" coords="12,461.43,698.60,57.31,8.63;12,98.05,711.51,420.87,8.63;12,98.05,724.42,77.73,8.63" xml:id="_JrCgzPs">Cross-cultural adaptation: Translation and Portuguese language content validation of the Tripartite Infl uence Scale for body dissatisfaction</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Conti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Scagliusi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kawamura De Oliveira Queiroz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Hearst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Cordás</surname></persName>
+		</author>
+		<idno type="DOI">10.1590/S0102-311X2010000300008</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_RSpN47E" coords="12,182.24,724.30,70.86,8.55">Cad. Saude Publica</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="503" to="513" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b21">
+	<analytic>
+		<title level="a" type="main" coords="12,290.25,737.33,228.49,8.63;12,98.05,750.24,417.48,8.63" xml:id="_8GJkgwe">Content validation of an instrument to characterize people over 50 years of age living with human immunodeficiency virus/acquired immunodeficiency syndrome</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>De Lima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C B J</forename><surname>Gallani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I P</forename><surname>De Freitas</surname></persName>
+		</author>
+		<idno type="DOI">10.1590/S0103-21002012000100002</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_CtfuGHU" coords="12,97.73,763.04,66.28,8.55">Acta Paul. Enferm</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="4" to="10" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b22">
+	<analytic>
+		<title level="a" type="main" coords="13,149.66,91.75,277.59,8.63" xml:id="_spAacY7">Species associations: The Kendall coefficient of concordance revisited</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Legendre</surname></persName>
+		</author>
+		<idno type="DOI">10.1198/108571105X46642</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_87H5FXx" coords="13,433.78,91.63,86.08,8.55;13,97.80,104.55,17.18,8.55">J. Agric. Biol. Environ. Stat</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="226" to="245" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b23">
+	<monogr>
+		<title level="m" type="main" coords="13,146.33,117.46,209.52,8.55" xml:id="_fh2PUhA">Instrumentos Psicológicos: Manual Prático De Elaboração</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Pasquali</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1999">1999</date>
+			<publisher>IBAPP</publisher>
+			<pubPlace>Brasília, Brazil</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b24">
+	<analytic>
+		<title level="a" type="main" coords="13,370.15,130.49,148.77,8.63;13,98.05,143.40,166.81,8.63" xml:id="_nmReZ9F">Knowledge and Consumer Behavior Related to Safe Practices of Food Handling</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A C</forename><surname>Da Costa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D C</forename><surname>Akutsu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">R D R</forename><surname>Gallo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">M C</forename><surname>Araújo</surname></persName>
+		</author>
+		<idno type="DOI">10.5296/jss.v2i1.9191</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_Uk56ymN" coords="13,272.11,143.28,43.63,8.55">J. Saf. Stud</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">15</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b25">
+	<analytic>
+		<title level="a" type="main" coords="13,486.27,156.31,32.47,8.63;13,97.80,169.22,420.94,8.63;13,98.05,182.13,60.46,8.63" xml:id="_urnVZxz">Content validation and semantic evaluation of a check-list elaborated for the prevention of gluten cross-contamination in food services</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Farage</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Zandonadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">C</forename><surname>Ginani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Gandolfi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Pratesi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">K</forename><surname>De Medeiros Nóbrega</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/nu9010036</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_yTnCxyE" coords="13,165.03,182.02,35.87,8.55">Nutrients</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">36</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b26">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><surname>Pasquali</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Psicometria</surname></persName>
+		</author>
+		<idno type="DOI">10.1590/S0080-62342009000500002</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_cpwjWzT" coords="13,197.82,194.93,85.49,8.55">Rev. Esc. Enferm. USP</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="992" to="999" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b27">
+	<analytic>
+		<title level="a" type="main" coords="13,237.21,220.87,281.72,8.63;13,97.78,233.78,146.59,8.63" xml:id="_NXrTwnR">Construction and validation of the Self-care Assessment Instrument for patients with type 2 diabetes mellitus</title>
+		<author>
+			<persName><forename type="first">Cunha</forename><surname>Barreto De Mendonça</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zanetti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Sawada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">O</forename><surname>Daniel De Carvalho Barreto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Santos De Andrade</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Otero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename></persName>
+		</author>
+		<idno type="DOI">10.1590/1518-8345.1533.2890</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_NXjsDeu" coords="13,250.97,233.66,79.12,8.55">Rev. Lat.-Am. Enferm</title>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b28">
+	<analytic>
+		<title level="a" type="main" coords="13,159.93,259.60,305.74,8.63" xml:id="_d3RUXHu">Hygiene and sanitary conditions in self-service restaurants in São Paulo, Brazil</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>De Freitas Saccol</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Serafim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H R</forename><surname>Hecktheuer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">B</forename><surname>Medeiros</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G N</forename><surname>Spinelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>De Abreu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M A</forename><surname>Chaud</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.foodcont.2013.02.030</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_c79HBcx" coords="13,472.05,259.49,46.69,8.55">Food Control</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="301" to="305" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b29">
+	<analytic>
+		<title level="a" type="main" coords="13,314.59,285.42,204.15,8.63;13,98.05,298.34,330.23,8.63" xml:id="_xFhKQ6h">Food safety and hygiene practices of vendors during the chain of street food production in Florianopolis, Brazil: A cross-sectional study</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D M</forename><surname>Cortese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Veiros</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Feldman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">B</forename><surname>Cavalli</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.foodcont.2015.10.027</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_cxskzdy" coords="13,435.26,298.22,48.36,8.55">Food Control</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="178" to="186" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b30">
+	<analytic>
+		<title level="a" type="main" coords="13,241.65,324.16,222.00,8.63" xml:id="_wAM2JsQ">Food safety in the home consumption of meat in Turkey</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Karabudak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kiziltan</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.foodcont.2007.04.018</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_tansgKd" coords="13,470.66,324.04,48.08,8.55">Food Control</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="320" to="327" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b31">
+	<analytic>
+		<title level="a" type="main" coords="13,207.36,349.98,311.56,8.63;13,98.05,362.78,162.55,8.74" xml:id="_kbY4qAe">Where Does Foodborne Illness Happen-in the Home, at Foodservice, or Elsewhere-and Does It Matter? Foodborne</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Jacob</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Powell</surname></persName>
+		</author>
+		<idno type="DOI">10.1089/fpd.2008.0256</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_6yz36ku" coords="13,262.84,362.78,45.61,8.55">Pathog. Dis</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="1121" to="1123" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b32">
+	<monogr>
+		<title level="m" xml:id="_CwUcfqG" coords="13,220.69,375.69,201.65,8.55">Surtos de Doenças Transmitidas por Alimentos no Brasil</title>
+		<meeting><address><addrLine>Brasília, Brazil</addrLine></address></meeting>
+		<imprint>
+			<publisher>The Ministry of Health</publisher>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b33">
+	<analytic>
+		<title level="a" type="main" coords="13,233.44,401.63,282.79,8.63" xml:id="_sqFTfhQ">Food safety knowledge and practices among food handlers in Slovenia</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jevšnik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Hlebec</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Raspor</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.foodcont.2007.11.010</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_dgSEzry" coords="13,97.80,414.42,47.41,8.55">Food Control</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="1107" to="1118" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b34">
+	<analytic>
+		<title level="a" type="main" coords="13,228.45,427.45,290.29,8.63;13,97.67,440.36,74.23,8.63" xml:id="_rUt6Muk">Food safety knowledge and practices among pregnant and non-pregnant women in Slovenia</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jevšnik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hoyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Raspor</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.foodcont.2007.06.005</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_UUuEPmz" coords="13,178.69,440.25,47.41,8.55">Food Control</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="526" to="534" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b35">
+	<analytic>
+		<title level="a" type="main" coords="13,340.96,453.28,178.13,8.63;13,98.05,466.19,202.50,8.63" xml:id="_BawqpDT">Nurses and Dietitians Differ in Food Safety Information Provided to Highly Susceptible Clients</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Buffer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kendall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Medeiros</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Schroeder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sofos</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jneb.2012.03.001</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_mAzyYAp" coords="13,307.08,466.07,77.54,8.55">J. Nutr. Educ. Behav</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="102" to="108" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b36">
+	<analytic>
+		<title level="a" type="main" coords="13,341.66,479.10,177.08,8.63;13,98.05,492.01,49.87,8.63" xml:id="_yDAuEVc">Food safety in home kitchens: A synthesis of the literature</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Byrd-Bredbenner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Berning</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Martin-Biggers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Quick</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/ijerph10094060</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_6wkDyN4" coords="13,154.22,491.89,126.08,8.55">Int. J. Environ. Res. Public Health</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="4060" to="4085" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b37">
+	<analytic>
+		<title level="a" type="main" coords="13,384.34,504.92,134.41,8.63;13,98.05,517.83,100.06,8.63" xml:id="_tNPmjcT">Food Safety Hazards Lurk in the Kitchens of Young Adults</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Byrd-Bredbenner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Maurer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Wheatley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Cottone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Clancy</surname></persName>
+		</author>
+		<idno type="DOI">10.4315/0362-028X-70.4.991</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_sunE8rv" coords="13,205.09,517.72,45.15,8.55">J. Food Prot</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="991" to="996" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b38">
+	<analytic>
+		<title level="a" type="main" coords="13,343.08,530.75,175.66,8.63;13,98.05,543.66,37.00,8.63" xml:id="_tG86t8Y">A Camera&apos;s view of consumer food-handling behaviors</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Shuster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Hansen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Levy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Volk</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jada.2003.11.010</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_kz827TF" coords="13,141.94,543.54,70.22,8.55">J. Am. Diet. Assoc</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="page" from="186" to="191" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b39">
+	<analytic>
+		<title level="a" type="main" coords="13,391.27,556.57,127.47,8.63;13,98.05,569.48,281.30,8.63" xml:id="_bB2Sfrg">Consumers&apos; Safe Handling and Consumption of Food and Their Risk Perceptions, 1988 through 2010</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">B</forename><surname>Fein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Lando</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Levy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Teisl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Noblet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">S</forename><surname>Trends In</surname></persName>
+		</author>
+		<idno type="DOI">10.4315/0362-028X.JFP-11-017</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_Zt8v6yq" coords="13,387.88,569.36,47.06,8.55">J. Food Prot</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="1513" to="1523" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b40">
+	<analytic>
+		<title level="a" type="main" coords="13,204.10,595.30,314.99,8.63;13,98.05,608.21,158.79,8.63" xml:id="_a65GrGC">Hygiene in the home kitchen: Changes in behaviour and impact of key microbiological hazard control measures</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Taché</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Carpentier</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.foodcont.2013.07.026</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_KU3Fk2q" coords="13,264.03,608.10,47.41,8.55">Food Control</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="392" to="400" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b41">
+	<analytic>
+		<title level="a" type="main" coords="13,290.34,621.13,228.40,8.63;13,98.05,634.04,92.83,8.63" xml:id="_kvjAaG2">Importance of cohorts in analyzing trends in safe at-home food-handling practices</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Teisl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Lando</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Levy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Noblet</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.foodcont.2015.10.040</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_Y75NKg3" coords="13,197.38,633.92,47.41,8.55">Food Control</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="381" to="389" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

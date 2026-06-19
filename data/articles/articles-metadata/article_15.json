@@ -1,0 +1,17 @@
+{
+  "article_id": "ARTICLE_015",
+  "source_title": "Good Practices in Home Kitchens: Construction and Validation of an Instrument for Household Food-Borne Disease Assessment and Prevention",
+  "year": "2019",
+  "article_summary": "The article develops and validates a checklist for assessing good practices in home kitchens, focusing mainly on food safety, hygiene, equipment condition, food storage, water supply, waste management, lighting, and ventilation/acclimatization. Its relevance to greener smart-home rules is indirect: it can help preserve safety and comfort constraints when modifying kitchen-related automations, especially around appliance functioning, refrigeration, ventilation, water infrastructure, and household routines. The article does not focus on energy saving, sustainability, environmental feedback, or optimized automation scheduling.",
+  "normalized_green_categories_one_hot": {
+    "hvac_optimization": 1,
+    "lighting_efficiency": 0,
+    "water_saving": 0,
+    "standby_reduction": 0,
+    "appliance_energy_management": 1,
+    "energy_monitoring": 0,
+    "occupancy_based_control": 0,
+    "environmental_awareness": 0,
+    "scheduling_optimization": 0
+  }
+}

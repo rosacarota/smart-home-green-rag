@@ -1,0 +1,17 @@
+{
+  "article_id": "ARTICLE_018",
+  "source_title": "Checklist to a More Sustainable Home",
+  "year": "",
+  "article_summary": "The article provides practical sustainability recommendations for homes, including smart metering, better insulation, passive solar design, renewable energy, efficient windows and doors, and reducing heat loss through ventilation and draught control. It also promotes lower-energy lighting behavior, energy-efficient appliances, reduced use of dryers and dishwashers, and rainwater harvesting for alternative uses. The article emphasizes carbon-footprint reduction, recycling, eco-friendly habits, and broader behavior change toward more sustainable living.",
+  "normalized_green_categories_one_hot": {
+    "hvac_optimization": 1,
+    "lighting_efficiency": 1,
+    "water_saving": 1,
+    "standby_reduction": 0,
+    "appliance_energy_management": 1,
+    "energy_monitoring": 1,
+    "occupancy_based_control": 0,
+    "environmental_awareness": 1,
+    "scheduling_optimization": 0
+  }
+}

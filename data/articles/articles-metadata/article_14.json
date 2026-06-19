@@ -1,0 +1,17 @@
+{
+  "article_id": "ARTICLE_014",
+  "source_title": "Users and households appliances: design suggestions for a better, sustainable interaction.",
+  "year": "2011",
+  "article_summary": "The article examines how household appliance interfaces, manuals, feedback, and automation can influence users toward more sustainable appliance use. It argues that unclear eco-programs, poor communication, and user misconceptions often prevent energy- and water-saving behaviors, especially for washing machines, dishwashers, ovens, fridges, and similar appliances. The paper proposes clearer interfaces, personalized suggestions, proactive feedback, automation, and energy-consumption communication as design strategies that could support greener smart-home rules while respecting different user capabilities.",
+  "normalized_green_categories_one_hot": {
+    "hvac_optimization": 0,
+    "lighting_efficiency": 0,
+    "water_saving": 1,
+    "standby_reduction": 0,
+    "appliance_energy_management": 1,
+    "energy_monitoring": 1,
+    "occupancy_based_control": 1,
+    "environmental_awareness": 1,
+    "scheduling_optimization": 1
+  }
+}

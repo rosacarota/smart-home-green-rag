@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main" xml:id="_DUVPVSv" coords="1,62.94,58.56,485.85,17.10;1,147.76,79.93,316.24,17.10">Users and households appliances: design suggestions for a better, sustainable interaction</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Anna</forename><surname>Zandanel</surname></persName>
+							<email>anna.zandanel@gmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution">IUAV Dorsoduro</orgName>
+								<address>
+									<addrLine>2206 ex Convento delle Terese</addrLine>
+									<postCode>30123</postCode>
+									<settlement>Venezia</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main" xml:id="_Bjct97n" coords="1,62.94,58.56,485.85,17.10;1,147.76,79.93,316.24,17.10">Users and households appliances: design suggestions for a better, sustainable interaction</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">1955CBE472D2B95106F387D244D03A95</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.0" ident="GROBID" when="2026-06-16T10:06+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.0</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=true, generateTeiCoordinates=[title, head, p, s, note, figure, formula, ref], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term xml:id="_T34BD8a">H.5.2 [Information System]: User Interfaces evaluation/methodology</term>
+					<term xml:id="_Sh72UxG">style guides Documentation</term>
+					<term xml:id="_CZMvgVB">Design</term>
+					<term xml:id="_WSTX4gF">Human Factors</term>
+					<term xml:id="_PrnfUEV">Theory Households appliances</term>
+					<term xml:id="_32C5x4S">interaction design</term>
+					<term xml:id="_w5GwQxs">interfaces</term>
+					<term xml:id="_xptSCzC">energy saving</term>
+					<term xml:id="_FFSUvKC">sustainability</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_UdAMwFe"><p xml:id="_CKv9jC5" coords="1,53.76,222.71,240.21,7.93;1,53.76,233.02,240.26,7.93;1,53.76,243.34,240.24,7.93;1,53.76,253.66,240.20,7.93;1,53.76,263.98,240.24,7.93;1,53.76,274.30,240.07,7.93;1,53.76,284.86,240.22,7.93;1,53.76,295.18,240.22,7.93;1,53.76,305.49,240.17,7.93;1,53.76,315.81,240.16,7.93;1,53.76,326.13,240.21,7.93;1,53.76,336.45,240.20,7.93;1,53.76,346.77,240.23,7.93;1,53.76,357.09,170.23,7.93;1,53.76,367.65,240.34,7.93;1,53.76,377.96,240.21,7.93;1,53.76,388.28,240.26,7.93;1,53.76,398.60,35.20,7.93;1,53.76,408.92,240.15,7.93;1,53.76,419.24,240.31,7.93;1,53.76,429.56,240.23,7.93;1,53.76,439.88,240.28,7.93;1,53.76,450.19,240.26,7.93;1,53.76,460.75,240.28,7.93;1,53.76,471.07,240.18,7.93;1,53.76,481.39,82.19,7.93"><s xml:id="_EuhKkCJ" coords="1,53.76,222.71,240.21,7.93;1,53.76,233.02,137.80,7.93">The Human Machine Interaction has a big role in the user approach with households appliances.</s><s xml:id="_SHS6UUe" coords="1,194.29,233.02,99.73,7.93;1,53.76,243.34,240.24,7.93;1,53.76,253.66,240.20,7.93;1,53.76,263.98,37.07,7.93">During the main phase (the use one), users are called to manage energy choices, often without available efficient information regarding the best behavior they can adopt.</s><s xml:id="_zfm4bTf" coords="1,93.22,263.98,200.78,7.93;1,53.76,274.30,240.07,7.93;1,53.76,284.86,240.22,7.93;1,53.76,295.18,138.79,7.93">At the end, people usually don't pay the attention that a sustainable behavior is supposed to need, wasting consequently energy, this both because of a bad education and an uncompleted communication around the appliance.</s><s xml:id="_4veYvme" coords="1,195.95,295.18,98.04,7.93;1,53.76,305.49,240.17,7.93;1,53.76,315.81,124.80,7.93">The product informs users through its physical data and its "collateral communication" (manuals, brochures, websites…).</s><s xml:id="_vyAmWDx" coords="1,181.92,315.81,112.00,7.93;1,53.76,326.13,240.21,7.93;1,53.76,336.45,158.99,7.93">With this paper I will analyze how appliances reach -and don't reach-the final user to suggest him or her the best behavior to save energy.</s><s xml:id="_SfgpHRw" coords="1,215.20,336.45,78.76,7.93;1,53.76,346.77,240.23,7.93;1,53.76,357.09,170.23,7.93">A correct information approach helps a correct appliance use, influencing users' choices and implementing their sustainable knowledge.</s><s xml:id="_wx2z2FN" coords="1,53.76,367.65,240.34,7.93;1,53.76,377.96,240.21,7.93;1,53.76,388.28,240.26,7.93;1,53.76,398.60,35.20,7.93">After a deep analysis of the state of the art, this paper will suggest different interaction ways, to guide people behavior in the households appliances usage, to reach the goal of a sustainable approach.</s><s xml:id="_HzDMvuJ" coords="1,53.76,408.92,240.15,7.93;1,53.76,419.24,24.44,7.93">Is it possible to increase energy saving in the appliances use phase?</s><s xml:id="_N9Cpw2j" coords="1,81.01,419.24,213.06,7.93;1,53.76,429.56,90.23,7.93">Should the product itself be reviewed, or just its collateral communication, or both?</s><s xml:id="_YfaXWHn" coords="1,146.30,429.56,147.69,7.93;1,53.76,439.88,95.16,7.93">Which are the worst interaction elements able to confuse the user?</s><s xml:id="_pc6jDER" coords="1,152.78,439.88,96.16,7.93">Which are the best ones?</s><s xml:id="_cyuqc56" coords="1,252.80,439.88,41.24,7.93;1,53.76,450.19,240.26,7.93;1,53.76,460.75,60.85,7.93">How could designers project appliances in order to create best products and best behaviors?</s><s xml:id="_dxYSF9r" coords="1,122.06,460.75,171.97,7.93;1,53.76,471.07,105.74,7.93">Can some cross interaction solution help user/appliances relationship?</s><s xml:id="_xu7gUxj" coords="1,163.35,471.07,130.59,7.93;1,53.76,481.39,82.19,7.93">And which role should technology have in this challenge?</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1." xml:id="_YfDshyb" coords="1,317.76,215.32,112.20,10.72">INTRODUCTION</head><p xml:id="_fhc8Jpf" coords="1,317.76,228.73,242.20,7.96;1,317.76,239.29,242.20,7.96;1,317.76,249.85,61.72,7.96;1,317.76,260.41,242.23,7.96;1,317.76,270.97,140.76,7.96"><s xml:id="_2eMkyCR" coords="1,317.76,228.73,242.20,7.96;1,317.76,239.29,242.20,7.96;1,317.76,249.85,61.72,7.96">The highest energy waste in the domestic area depends, after heating, on households appliances (25% ca.), as several studies declare.</s><s xml:id="_aaErxX4" coords="1,379.50,249.85,26.51,7.96;1,317.76,260.41,242.23,7.96;1,317.76,270.97,140.76,7.96"><ref type="bibr" coords="1,379.50,249.85,26.51,7.96">[5] [8]</ref> The problem is strictly connected to the use phase, and companies well know the argument.</s></p><p xml:id="_daqFHPq" coords="1,317.76,291.82,240.25,7.93;1,317.76,302.14,240.28,7.93;1,317.76,312.46,240.18,7.93;1,317.76,322.77,240.15,7.93;1,317.76,333.09,240.27,7.93;1,317.76,343.41,240.21,7.93;1,317.76,353.73,240.13,7.93;1,317.76,364.29,40.20,7.93;1,317.75,384.93,240.29,7.93;1,317.75,395.24,240.10,7.93;1,317.75,405.56,240.28,7.93;1,317.75,415.88,240.22,7.93;1,317.75,426.20,240.21,7.93;1,317.74,436.52,240.18,7.93;1,317.74,447.08,92.69,7.93;1,317.74,457.39,240.18,7.93;1,317.74,467.71,240.20,7.93;1,317.76,478.03,240.29,7.93;1,317.76,488.35,217.97,7.93;1,317.75,498.70,242.18,7.96;1,317.75,509.25,242.19,7.96;1,317.75,519.81,242.16,7.96;1,317.75,530.37,242.24,7.96;1,317.75,540.93,242.20,7.96;1,317.74,551.49,242.20,7.96;1,317.74,562.05,242.27,7.96;1,317.74,572.60,25.92,7.96"><s xml:id="_4AJqtVX" coords="1,317.76,291.82,240.25,7.93;1,317.76,302.14,240.28,7.93;1,317.76,312.46,91.69,7.93">Approximately 90% of the total environmental impact during the life of a product from the white goods industry occurs during the utilization of the product.</s><s xml:id="_AeGUdVG" coords="1,411.81,312.46,146.12,7.93;1,317.76,322.77,240.15,7.93;1,317.76,333.09,148.12,7.93">The impact […] is in part determined by the performance of the product, which is specified during the design and product development phase.</s><s xml:id="_ApUHF6x" coords="1,469.64,333.09,88.39,7.93;1,317.76,343.41,240.21,7.93;1,317.76,353.73,240.13,7.93;1,317.76,364.29,40.20,7.93">But most of the impact during this phase is determined by how the consumer actually uses the appliance, since our products are to a very high degree interactive.</s><s xml:id="_paYvyQe" coords="1,362.48,364.29,19.70,7.93;1,317.75,384.93,240.29,7.93;1,317.75,395.24,240.10,7.93;1,317.75,405.56,55.21,7.93"><ref type="bibr" coords="1,362.48,364.29,19.70,7.93">[5: 7]</ref> Once the product is brought, the best way to use it and useful suggestions for a better sustainable behavior are not clearly communicated.</s><s xml:id="_KhUhy8s" coords="1,378.26,405.56,179.77,7.93;1,317.75,415.88,240.22,7.93;1,317.75,426.20,226.13,7.93">Often users (especially European ones) invest more money to buy a high efficient appliance, but they don't suppose a better usage conduct to a lower power consumption.</s><s xml:id="_FVUYf9E" coords="1,546.24,426.20,11.72,7.93;1,317.74,436.52,240.18,7.93;1,317.74,447.08,92.69,7.93">So, it's possible -and common-that a rough interaction limits appliances energy saving.</s><s xml:id="_YxczNpj" coords="1,317.74,457.39,240.18,7.93">The issue is that the appliance is designed for thousand people.</s><s xml:id="_6kBfgaK" coords="1,317.74,467.71,114.96,7.93">One product, thousand people.</s><s xml:id="_rWazGbY" coords="1,436.40,467.71,121.54,7.93;1,317.76,478.03,240.29,7.93;1,317.76,488.35,32.69,7.93">But users are different: different ages, sex, educational levels, economic availabilities and mental schemes.</s><s xml:id="_c5epu8g" coords="1,352.75,488.35,182.98,7.93">And this produces different interactions, of course.</s><s xml:id="_XS39mUu" coords="1,317.75,498.70,242.18,7.96;1,317.75,509.25,242.19,7.96;1,317.75,519.81,242.16,7.96;1,317.75,530.37,242.24,7.96;1,317.75,540.93,242.20,7.96;1,317.74,551.49,242.20,7.96;1,317.74,562.05,242.27,7.96;1,317.74,572.60,25.92,7.96">Partner in this crime is that communication around the product is not satisfactory: user manuals don't deal with sustainable specific instructions, programs and interfaces aren't clear, advertising often speaks about sustainability without giving the exact idea about how to be sustainable with the product, and the only consultable suggestions are generic, regarding appliance typology and not referring to the specific model.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.1" xml:id="_d93U7kK" coords="1,317.76,585.64,194.87,10.72;1,317.76,599.56,57.32,10.72">Users And Appliances: A Limited Interaction</head><p xml:id="_yCTJewT" coords="1,317.76,612.71,240.13,7.93;1,317.76,623.03,240.20,7.93;1,317.76,633.35,119.66,7.93;1,317.76,643.90,240.29,7.93;1,317.76,654.22,240.26,7.93;1,317.76,664.54,240.23,7.93;1,317.76,674.86,197.36,7.93;1,317.77,685.18,240.23,7.93;1,317.78,695.50,63.41,7.93;1,397.53,695.50,160.45,7.93;1,317.77,705.82,235.29,7.93"><s xml:id="_XKbzfz7" coords="1,317.76,612.71,240.13,7.93;1,317.76,623.03,45.25,7.93">White goods complexity proportionally increased with technology possibilities.</s><s xml:id="_Kwf8ShM" coords="1,367.20,623.03,190.76,7.93;1,317.76,633.35,119.66,7.93">A lot of appliances functions need more complex interfaces to manage the product.</s><s xml:id="_uEK89VV" coords="1,317.76,643.90,240.29,7.93;1,317.76,654.22,110.56,7.93">&lt;&lt;Different companies admit that functions increasing doesn't give always practical benefits.</s><s xml:id="_Ku6UVQq" coords="1,431.14,654.22,126.88,7.93;1,317.76,664.54,240.23,7.93;1,317.76,674.86,112.62,7.93">So it's explained why the majority of washing machines has 12-20 programs, while the majority of users adopt just 2-4 of them&gt;&gt;.</s><s xml:id="_HW5yk7E" coords="1,432.66,674.86,82.46,7.93;1,317.77,685.18,240.23,7.93;1,317.78,695.50,82.93,7.93">[4: 7, translation mine] An high automation level conducts through Carli's «users' decompetencing» <ref type="bibr" coords="1,388.00,695.50,9.53,7.93" target="#b6">[6]</ref>.</s><s xml:id="_garXwfW" coords="1,407.50,695.50,150.48,7.93;1,317.77,705.82,235.29,7.93">Practically, every time a function is reinforced in a product, a competence level is removed to people.</s></p><p xml:id="_mx7bv4E" coords="1,57.84,632.32,233.94,7.07;1,57.84,641.44,233.88,7.07;1,57.83,650.57,233.83,7.07;1,57.83,659.93,233.85,7.07;1,57.82,669.05,233.84,7.07;1,57.82,678.18,28.41,7.07;1,275.50,678.18,16.20,7.07"><s xml:id="_ySfFY2d" coords="1,57.84,632.32,163.05,7.07">(c) 2011 Association for Computing Machinery.</s><s xml:id="_BR3A2T4" coords="1,224.58,632.32,67.19,7.07;1,57.84,641.44,233.88,7.07;1,57.83,650.57,187.27,7.07">ACM acknowledges that this contribution was authored or co-authored by an employee, contractor or affiliate of the Italy national government.</s><s xml:id="_3VF3x4V" coords="1,248.87,650.57,42.79,7.07;1,57.83,659.93,233.85,7.07;1,57.82,669.05,233.84,7.07;1,57.82,678.18,28.41,7.07;1,275.50,678.18,16.20,7.07">As such, the government of Italy retains a nonexclusive, royalty-free right to publish or reproduce this article, or to allow others to do so, for Government purposes only.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_HjgSZ8Z" coords="1,57.82,696.66,233.88,7.07">CHItaly '11, September 13 -September 16 2011, Alghero, Italy</head><p xml:id="_UVWrtaJ" coords="1,57.82,705.54,155.73,7.07"><s xml:id="_NzzSVeK" coords="1,57.82,705.54,155.73,7.07">Copyright 2011 ACM 978-1-4503-0876-2/11/09</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2." xml:id="_khsDV7r" coords="2,53.76,56.68,213.86,10.72;2,53.76,70.60,232.33,10.72;2,53.76,84.28,59.32,10.72">COLLATERAL COMMUNICATION AND COMMUNICATION TROUGHT THE PRODUCT</head><p xml:id="_DfcQhRM" coords="2,53.76,97.67,240.21,7.93;2,53.76,107.99,240.22,7.93;2,53.76,118.31,240.22,7.93;2,53.76,128.62,240.19,7.93;2,53.76,138.94,240.20,7.93;2,53.75,149.26,240.24,7.93;2,53.75,159.82,240.21,7.93;2,53.75,170.14,106.23,7.93"><s xml:id="_syTeBZU" coords="2,53.76,97.67,240.21,7.93;2,53.76,107.99,240.22,7.93;2,53.76,118.31,240.22,7.93;2,53.76,128.62,240.19,7.93;2,53.76,138.94,240.20,7.93;2,53.75,149.26,107.54,7.93">At the state of the art households appliances can communicate with user in two different ways: with the product collateral communication, that regards the product but isn't part of it (advertising, brochure, manuals…) and the communication through the product, connected with interfaces and users/appliances relationship.</s><s xml:id="_z6pKpjf" coords="2,165.14,149.26,128.85,7.93;2,53.75,159.82,240.21,7.93;2,53.75,170.14,106.23,7.93">This one should be as simple and intuitive as possible, but generally -as we will see in a whileconnection is not immediate .</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1" xml:id="_FDPJRAA" coords="2,53.76,182.92,159.19,10.72">Collateral Communication</head><p xml:id="_7cUAg8x" coords="2,53.76,196.31,240.20,7.93;2,53.76,206.63,240.16,7.93;2,53.76,216.95,240.26,7.93;2,53.76,227.27,240.20,7.93;2,53.76,237.58,240.18,7.93;2,53.76,247.90,240.20,7.93;2,53.76,258.22,240.31,7.93;2,53.76,268.78,102.22,7.93;2,53.76,279.11,240.18,7.93;2,53.76,289.43,240.13,7.93;2,53.76,299.75,240.21,7.93;2,53.76,310.06,240.20,7.93;2,53.76,320.38,156.46,7.93;2,53.76,330.70,175.38,7.93;2,53.76,341.02,240.23,7.93;2,53.76,351.34,240.19,7.93;2,53.76,361.90,240.22,7.93;2,53.77,372.22,194.71,7.93;2,53.77,382.53,240.18,7.93;2,53.77,392.85,240.15,7.93;2,53.77,403.17,28.69,7.93;2,53.77,413.49,240.19,7.93;2,53.77,423.81,240.24,7.93;2,53.77,434.13,240.22,7.93;2,53.77,444.68,240.21,7.93;2,53.77,455.00,240.18,7.93;2,53.76,465.32,240.26,7.93;2,53.76,475.64,240.19,7.93;2,53.76,485.96,240.16,7.93;2,53.76,496.28,240.20,7.93;2,53.77,506.60,198.65,7.93;2,53.76,516.91,240.20,7.93;2,53.76,527.47,240.19,7.93;2,53.76,537.79,240.22,7.93;2,53.76,548.11,240.16,7.93;2,53.76,558.43,235.47,7.93;2,53.75,568.75,240.24,7.93;2,53.76,579.07,240.26,7.93;2,53.76,589.38,240.12,7.93;2,53.76,599.70,147.60,7.93;2,53.76,610.26,199.83,7.93"><s xml:id="_tmEzfpb" coords="2,53.76,196.31,240.20,7.93;2,53.76,206.63,168.34,7.93">Appliance collateral communication is an addendum to the "natural" product communication potential.</s><s xml:id="_tFQPPqQ" coords="2,228.93,206.63,64.99,7.93;2,53.76,216.95,240.26,7.93;2,53.76,227.27,186.86,7.93">It concretizes in brochures, booklets, leaflets that generally give general suggestions, similar to the on line findable ones.</s><s xml:id="_dJp2ZUg" coords="2,244.78,227.27,49.18,7.93;2,53.76,237.58,240.18,7.93;2,53.76,247.90,51.09,7.93">There are no particular details about the specific product, interface, model; for clear reasons.</s><s xml:id="_FEcA6SF" coords="2,109.24,247.90,184.72,7.93;2,53.76,258.22,240.31,7.93;2,53.76,268.78,102.22,7.93">But the same is for manuals, that, for contrary, would be supposed to give e deeper detail (just thinking about the name "instruction manual").</s><s xml:id="_JAACyNk" coords="2,53.76,279.11,240.18,7.93;2,53.76,289.43,240.13,7.93;2,53.76,299.75,240.21,7.93;2,53.76,310.06,142.99,7.93">For this research 52 manuals have been examined, regarding washingmachines, cooktops, dishwashings, ovens and fridges from companies as Electrolux, Rex, Zanussi, Bosch, Smeg, Whirlpool, Whestinghouse and Indesit.</s><s xml:id="_pQSGtWR" coords="2,199.64,310.06,94.32,7.93;2,53.76,320.38,156.46,7.93">The aim was discover the general approach to user manual definition.</s><s xml:id="_CUgYGW8" coords="2,53.76,330.70,175.38,7.93;2,53.76,341.02,141.76,7.93">The parameters searched into each manual were: One manual for one product; &gt; 10pp.</s><s xml:id="_KCNnMTa" coords="2,198.71,341.02,95.28,7.93;2,53.76,351.34,240.19,7.93;2,53.76,361.90,240.22,7.93;2,53.77,372.22,194.71,7.93">long; Generic sustainable suggestions; Specific sustainable suggestions; Interface explanations; Detailed usage instructions; Dismission instructions; Maintenance suggestions; Graphic care.</s><s xml:id="_8bp8aKC" coords="2,53.77,382.53,240.18,7.93;2,53.77,392.85,240.15,7.93;2,53.77,403.17,28.69,7.93">It came out that the existing tendency is to put sustainable suggestions and info in small, not easy to find, parts of the manual.</s><s xml:id="_3VjsFc5" coords="2,53.77,413.49,240.19,7.93;2,53.77,423.81,74.71,7.93">Just in rare cases manual really explains the best way to use thatspecific-appliance.</s><s xml:id="_8EnhvJH" coords="2,135.53,423.81,158.49,7.93;2,53.77,434.13,240.22,7.93;2,53.77,444.68,240.21,7.93;2,53.77,455.00,31.22,7.93">Generally, when present, environmental indications deal with packaging disposal or general suggestions (it's common to have a manual for many appliances, i.e. for 4 or 5 models).</s><s xml:id="_TrugmkU" coords="2,90.33,455.00,147.73,7.93">But every company has its tendency.</s><s xml:id="_mf8D5gp" coords="2,243.40,455.00,50.54,7.93;2,53.76,465.32,240.26,7.93;2,53.76,475.64,240.19,7.93;2,53.76,485.96,143.44,7.93">It could also happen that given instruction are so complete that a "sustainable" dedicated space in summary becomes no necessary (even if this could be positive for user consultation).</s><s xml:id="_yuTV7BV" coords="2,199.51,485.96,94.41,7.93;2,53.76,496.28,240.20,7.93;2,53.77,506.60,198.65,7.93">In this cases sustainability is treated as one requirement and not the -or centralrequirement (as should be in the entire design process).</s><s xml:id="_9jAMPw4" coords="2,53.76,516.91,211.35,7.93">Specific info are important to guide a correct behavior.</s><s xml:id="_ZyRhmWx" coords="2,269.10,516.91,24.86,7.93;2,53.76,527.47,240.19,7.93;2,53.76,537.79,240.22,7.93;2,53.76,548.11,120.04,7.93">If in a dishwasher the (eventual) difference between ECO and QUICK program is explained, this can avoid incorrect washings and consequent lacks of confidence.</s><s xml:id="_7WZMKSa" coords="2,177.75,548.11,116.16,7.93;2,53.76,558.43,235.47,7.93">But from analysis appears that attention to both generic and specific suggestions is not common.</s><s xml:id="_t2FRRNb" coords="2,53.75,568.75,240.24,7.93;2,53.76,579.07,33.72,7.93">In particular, Anglo-Saxons manuals demonstrate still less attention.</s><s xml:id="_VSJm7yA" coords="2,95.43,579.07,198.59,7.93;2,53.76,589.38,240.12,7.93;2,53.76,599.70,147.60,7.93">Average lack values are: manual/product direct reference, sustainability suggestions (with some exception for specific models and specific companies).</s><s xml:id="_VUN4vTg" coords="2,53.76,610.26,199.83,7.93">Sometimes, also interface description is not exhaustive.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2" xml:id="_k7ebeTZ" coords="2,53.76,621.16,205.67,10.72">Communication Trough the Product</head><p xml:id="_NdqP7sr" coords="2,53.76,634.31,240.22,7.93;2,53.75,644.63,119.65,7.93;2,53.75,654.95,104.38,7.93"><s xml:id="_qBeZU5X" coords="2,53.76,634.31,240.22,7.93;2,53.75,644.63,119.65,7.93">The same analysis process has been applied to manuals, concerning appliances interfaces.</s><s xml:id="_aBDjbtT" coords="2,53.75,654.95,104.38,7.93">In this case parameters were:</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_7MdUhVN" coords="2,53.75,665.26,240.22,7.93;2,53.75,675.82,240.21,7.93;2,53.75,686.14,121.98,7.93">Clear command icons; Analogic interface; Touch screen; Buttons; Eco program; Eco program in visible position;Display with legible font; Led for on/off signal.</head><p xml:id="_EbauX2Q" coords="2,53.75,696.46,240.22,7.93;2,53.75,706.78,240.26,7.93;2,317.75,56.14,240.18,7.93;2,317.75,66.46,240.24,7.93;2,317.76,77.02,240.14,7.93;2,317.76,87.34,115.34,7.93;2,317.76,97.65,240.23,7.93;2,317.77,107.97,240.20,7.93;2,317.77,118.29,122.30,7.93;2,443.09,118.31,114.85,7.93;2,317.76,128.63,240.25,7.93;2,317.76,138.95,240.15,7.93;2,317.76,149.26,189.42,7.93;2,317.76,159.82,240.20,7.93;2,317.75,170.14,240.19,7.93;2,317.74,180.46,240.23,7.93;2,317.74,190.78,35.20,7.93"><s xml:id="_JWWrsUA" coords="2,53.75,696.46,240.22,7.93">Hyper technology and electronic devices increased their presence.</s><s xml:id="_8wvVMgB" coords="2,53.75,706.78,240.26,7.93;2,317.75,56.14,150.80,7.93">Contemporary technology is not user centered, as it should be, and tendency is not to correct this approach.</s><s xml:id="_qGganVD" coords="2,472.00,56.14,85.94,7.93;2,317.75,66.46,240.24,7.93;2,317.76,77.02,240.14,7.93;2,317.76,87.34,115.34,7.93">Norman says: &lt;&lt;When technology is not designed from a human-centered point of view, it doesn't reduce the incidence of human error nor minimize the impact when errors do occur&gt;&gt;.</s><s xml:id="_dkfbKQq" coords="2,437.62,87.34,28.70,7.93;2,317.76,97.65,197.61,7.93"><ref type="bibr" coords="2,437.62,87.34,28.70,7.93">[13: 11]</ref> This is particularly true concerning energetic products.</s><s xml:id="_gJZM4Yw" coords="2,517.71,97.65,40.28,7.93;2,317.77,107.97,240.20,7.93;2,317.77,118.29,240.16,7.95;2,317.76,128.63,33.71,7.93">Often error doesn't regard the user that avoid to look for (if present) environmental preferable aspects<ref type="foot" coords="2,440.16,116.18,3.00,5.36" target="#foot_0">foot_0</ref> , neither to have a sustainable behavior.</s><s xml:id="_KzGVUax" coords="2,356.01,128.63,202.00,7.93;2,317.76,138.95,240.15,7.93;2,317.76,149.26,189.42,7.93">It's a product technological attitude (or a designer's one?) that hides in covered angles its potentials, making them not just difficult to find but also less important for users.</s><s xml:id="_9cPbGvb" coords="2,317.76,159.82,240.20,7.93;2,317.75,170.14,202.41,7.93">Appliances interfaces are usually complex and poorly legible at first visual impact, so manuals consultation is needed.</s><s xml:id="_p3PwgE4" coords="2,523.62,170.14,34.32,7.93;2,317.74,180.46,240.23,7.93;2,317.74,190.78,35.20,7.93">But there it's difficult to find detailed info, especially regarding sustainable approach.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3." xml:id="_8UdBJDt" coords="2,317.76,203.56,54.88,10.72">USERS</head><p xml:id="_qHVeUuj" coords="2,317.76,216.95,146.95,7.93;2,317.76,227.27,240.32,7.93;2,317.76,237.59,206.23,7.93;2,317.76,247.90,240.21,7.93;2,317.76,258.22,26.72,7.93;2,358.55,258.22,3.18,7.93;2,317.75,268.78,240.32,7.93;2,317.75,279.10,240.25,7.93;2,317.75,289.42,240.15,7.93;2,317.75,299.74,240.21,7.93;2,317.76,310.06,240.20,7.93;2,317.76,320.37,240.15,7.93;2,317.76,330.69,63.74,7.93"><s xml:id="_k7UdMhX" coords="2,317.76,216.95,146.95,7.93">But: who are people using this products?</s><s xml:id="_xjnEAbV" coords="2,317.76,227.27,240.32,7.93;2,317.76,237.59,206.23,7.93">Appliance poor adjustable characteristics explain the reason of an unilateral comprehension effort: from person to machine.</s><s xml:id="_5nVzYzU" coords="2,317.76,247.90,240.21,7.93;2,317.76,258.22,26.72,7.93">Shortly, European family units can be divided into 5 different groups.</s><s xml:id="_UeCYcmz" coords="2,349.01,258.22,47.18,7.93;2,317.75,268.78,240.32,7.93;2,317.75,279.10,240.25,7.93;2,317.75,289.42,43.22,7.93"><ref type="bibr" coords="2,349.01,258.22,9.54,7.93" target="#b9">[9]</ref>, <ref type="bibr" coords="2,364.00,258.22,32.19,7.93">[10] [11]</ref> Variable data are: age, components number, cultural level, economic availability and, last but not least, technological capabilities.</s><s xml:id="_nrkDm9G" coords="2,369.26,289.42,188.65,7.93;2,317.75,299.74,156.31,7.93">Product affordances cannot be equal legible from anyone, least of all for sustainable aspects.</s><s xml:id="_FP5RFdH" coords="2,479.57,299.74,78.39,7.93;2,317.76,310.06,226.21,7.93">For these, usually the existing ones are hidden or bad communicated affordances.</s><s xml:id="_MfSdEQX" coords="2,548.01,310.06,9.95,7.93;2,317.76,320.37,240.15,7.93;2,317.76,330.69,63.74,7.93">As Lupacchini says [12: 68, translation mine], affordance is a good help for usability.</s></p><p xml:id="_4nxc7NF" coords="2,317.76,351.33,240.23,7.93;2,317.76,361.89,240.23,7.93;2,317.76,372.21,240.27,7.93;2,317.76,382.52,240.29,7.93;2,317.76,392.84,240.21,7.93;2,317.76,403.16,240.17,7.93;2,317.76,413.48,138.22,7.93"><s xml:id="_5Z2C2tD" coords="2,317.76,351.33,240.23,7.93;2,317.76,361.89,228.90,7.93">[…] in a user -and maximum usability carrier-centered design, affordance has a key role and should be maximally exploited.</s><s xml:id="_wQjvxTf" coords="2,549.77,361.89,8.22,7.93;2,317.76,372.21,240.27,7.93;2,317.76,382.52,240.29,7.93;2,317.76,392.84,240.21,7.93;2,317.76,403.16,240.17,7.93;2,317.76,413.48,138.22,7.93">If, for contrary, a product creates difficulties, maybe a reason could be ascribed to designer's lack of affordances attention: user will not interact with it easily because he/she doesn't well understand the potential interaction because, for example, signal is not clear, or equivocal, or not easily perceptible.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1" xml:id="_AcUWcM3" coords="2,317.76,424.36,87.20,10.72">Case Studies</head><p xml:id="_fcnc6wZ" coords="2,317.76,437.75,240.23,7.93;2,317.76,448.07,240.22,7.93;2,317.76,458.39,139.33,7.93;2,317.76,468.70,240.29,7.93;2,317.76,479.02,240.06,7.93;2,317.76,489.34,240.11,7.93;2,317.76,499.90,62.96,7.93;2,317.76,510.22,240.24,7.93;2,317.76,520.54,240.24,7.93;2,317.76,530.86,237.38,7.93;2,317.76,541.17,240.19,7.93;2,317.76,551.49,56.42,7.93;2,317.76,437.75,240.23,7.93;2,317.76,448.07,240.22,7.93;2,317.76,458.39,139.33,7.93;2,317.76,468.70,46.23,7.93;2,509.42,468.70,48.64,7.93;2,317.76,479.02,240.06,7.93;2,317.76,489.34,240.11,7.93;2,317.76,499.90,62.96,7.93;2,317.76,510.22,240.24,7.93;2,317.76,520.54,240.24,7.93;2,317.76,530.86,237.38,7.93;2,317.76,541.17,240.19,7.93;2,317.76,551.49,56.42,7.93"><s xml:id="_jH6haHh" coords="2,317.76,437.75,240.23,7.93;2,317.76,448.07,240.22,7.93;2,317.76,458.39,139.33,7.93">To understand the real human/appliances interaction some observation have been conducted, to permit behavioral and mental schemes appliances approach analysis.</s><s xml:id="_DtrsG43" coords="2,317.76,468.70,46.23,7.93;2,509.42,468.70,7.86,7.93">A website (<ref type="url" coords="2,363.99,468.70,145.43,7.93" target="www.videocap.annina.ufobestianera.com">www.videocap.annina.ufobestianera.com</ref>),</s><s xml:id="_NvTqjDC" coords="2,521.46,468.70,36.60,7.93;2,317.76,479.02,240.06,7.93;2,317.76,489.34,240.11,7.93;2,317.76,499.90,62.96,7.93">posted on social networks, widespread by mail, paper and and voice was realized to reach people asking them for videos regarding appliances usage.</s><s xml:id="_qP6wVGS" coords="2,317.76,510.22,240.24,7.93;2,317.76,520.54,27.72,7.93">As often as not people felt necessary verbal explication of their actions.</s><s xml:id="_fAyS574" coords="2,349.34,520.54,208.66,7.93;2,317.76,530.86,237.38,7.93">This permitted an important information collection, not just regarding appliance usage, but also daily interactive attitudes.</s><s xml:id="_Wg8uwFx" coords="2,317.76,541.17,240.19,7.93;2,317.76,551.49,56.42,7.93">Thanks to video analysis, schematized in sheets, some shared cases came out:</s></p><p xml:id="_ArjPTyH" coords="2,331.95,561.81,226.03,7.93;2,349.95,572.13,207.94,7.93;2,349.95,582.69,99.42,7.93;3,67.96,56.15,225.99,7.93;3,85.96,66.47,207.98,7.93;3,85.96,77.03,135.68,7.93;3,67.96,87.34,226.03,7.93;3,85.96,97.66,208.01,7.93;3,85.96,107.98,208.07,7.93;3,85.96,118.30,65.22,7.93;3,53.76,128.62,240.20,7.93;3,53.76,138.94,240.23,7.93;3,53.76,149.26,240.21,7.93;3,53.76,159.81,240.26,7.93;3,53.76,170.13,34.69,7.93;3,53.76,180.45,240.15,7.93;3,53.76,190.77,240.29,7.93;3,53.77,201.09,240.21,7.93;3,53.76,211.41,240.13,7.93;3,53.76,221.72,240.16,7.93;3,53.75,232.04,240.27,7.93;3,53.75,242.60,240.06,7.93;3,53.75,252.92,240.25,7.93;3,53.75,263.24,240.22,7.93;3,53.75,273.56,240.20,7.93;3,53.75,283.88,91.48,7.93"><s xml:id="_qYm7Pw7" coords="2,331.95,561.81,6.72,7.93">1.</s><s xml:id="_Xyzn487" coords="2,349.95,561.81,208.03,7.93;2,349.95,572.13,207.94,7.93;2,349.95,582.69,99.42,7.93;3,67.96,56.15,225.99,7.93">The idea that the program that needs less resources (water, energy, time etc.) cannot be efficient as the ones that need more energy cost; 2. Personal mental scheme projection on appliance usage.</s><s xml:id="_8qV7JCN" coords="3,85.96,66.47,207.98,7.93;3,85.96,77.03,135.68,7.93;3,67.96,87.34,226.03,7.93;3,85.96,97.66,208.01,7.93;3,85.96,107.98,208.07,7.93;3,85.96,118.30,65.22,7.93">For example, the belief that in the washing machine soap tray just liquid soap can be poured in; 3. The lack of confidence with dishwasher that makes people raise the dishes before washing them with the appliances, despite (quite) all manuals define this as a behavior to avoid.</s><s xml:id="_83zAUMr" coords="3,53.76,128.62,240.20,7.93;3,53.76,138.94,240.23,7.93;3,53.76,149.26,148.82,7.93">Some questionnaires, drew up in 3 times and structured with the aim to analyze deeply and one by one every white good, has been administrated both on paper and on web.</s><s xml:id="_f9VXys4" coords="3,205.29,149.26,88.68,7.93;3,53.76,159.81,240.26,7.93;3,53.76,170.13,34.69,7.93">Results confirmed video data and underlined the avoiding appliance sustainable usage tendency.</s><s xml:id="_N9mgkNY" coords="3,53.76,180.45,240.15,7.93;3,53.76,190.77,240.29,7.93;3,53.77,201.09,240.21,7.93;3,53.76,211.41,240.13,7.93;3,53.76,221.72,103.94,7.93">Finally, analysis demonstrated that, based on a limited interaction (given by a poor, sometimes evasive collateral communication, and by a communication trough the product made by unclear and rigid interfaces) user is commonly confused from a sustainable (and not only) point of view.</s><s xml:id="_JVY687c" coords="3,162.43,221.72,131.50,7.93;3,53.75,232.04,240.27,7.93;3,53.75,242.60,240.06,7.93;3,53.75,252.92,240.25,7.93;3,53.75,263.24,177.56,7.93">In particular, some differences came out, depending on user/machine different relationship (guys are more relaxed with technologies, elderly don't take care of environmental questions, people that want to adopt a sustainable approach generally refer to general suggestions).</s><s xml:id="_NcRM7bH" coords="3,236.66,263.24,57.31,7.93;3,53.75,273.56,240.20,7.93;3,53.75,283.88,91.48,7.93">The main effort has human &gt; appliance direction: the machine needs a human attitude to be understood.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4." xml:id="_cgJkMD7" coords="3,53.76,296.68,239.21,10.72">WHAT CAN IMPROVE INTERACTION?</head><p xml:id="_en8JnSu" coords="3,53.76,310.07,240.22,7.93;3,53.76,320.39,240.23,7.93;3,53.76,330.71,240.25,7.93;3,53.76,341.02,240.04,7.93;3,53.75,351.34,240.23,7.93;3,53.75,361.90,240.20,7.93;3,53.76,372.22,240.23,7.93;3,53.77,382.54,240.16,7.93;3,53.77,392.86,13.72,7.93;3,53.77,403.18,240.19,7.93;3,53.77,413.49,240.20,7.93;3,53.77,423.81,240.27,7.93;3,53.77,434.13,210.26,7.93;3,53.77,444.72,242.19,7.96;3,53.76,455.27,242.20,7.96;3,53.76,465.59,242.21,7.96;3,53.76,476.15,242.21,7.96;3,53.77,486.71,242.21,7.96;3,53.77,497.27,242.26,7.96;3,53.77,507.83,242.23,7.96;3,53.77,518.38,242.18,7.96;3,53.77,528.94,242.26,7.96;3,53.77,539.50,31.57,7.96;3,115.51,539.50,99.28,7.96"><s xml:id="_JkxWmHT" coords="3,53.76,310.07,240.22,7.93;3,53.76,320.39,105.12,7.93">People can be environmentally responsible choosing transports, shopping, dismissing waste.</s><s xml:id="_tUju82g" coords="3,163.25,320.39,130.74,7.93;3,53.76,330.71,240.25,7.93;3,53.76,341.02,20.21,7.93">People can be sustainable in their home, checking their energy consumptions and choosing to limit them.</s><s xml:id="_3jnMuB2" coords="3,78.57,341.02,215.23,7.93;3,53.75,351.34,240.23,7.93;3,53.75,361.90,33.71,7.93">During last years several monitoring devices have been invented, to help users to be as conscious as possible in their behavior.</s><s xml:id="_7yrpzNW" coords="3,92.41,361.90,201.53,7.93;3,53.76,372.22,240.23,7.93;3,53.77,382.54,101.02,7.93">Several energy consumption communication waysmore or less efficient-can today tell people how much energy they are wasting or saving.</s><s xml:id="_YBjDQuU" coords="3,158.15,382.54,135.78,7.93;3,53.77,392.86,13.72,7.93">Some interfaces are clear, others are not.</s><s xml:id="_vCy5TNU" coords="3,53.77,403.18,240.19,7.93;3,53.77,413.49,26.21,7.93">The point is that one product is exactly the same for thousand people.</s><s xml:id="_TC227PW" coords="3,88.15,413.49,205.82,7.93;3,53.77,423.81,240.27,7.93">If the majority of users can understand device communication method, we could define it a good system.</s><s xml:id="_75R7UPC" coords="3,53.77,434.13,210.26,7.93">Differently, a big communication problem will be present.</s><s xml:id="_QQvg53m" coords="3,53.77,444.72,242.19,7.96;3,53.76,455.27,214.45,7.96">From analysis comes out that a common language, able to explain basis sustainable characteristics is missing.</s><s xml:id="_sDPZN5m" coords="3,271.62,455.27,24.34,7.96;3,53.76,465.59,242.21,7.96;3,53.76,476.15,242.21,7.96;3,53.77,486.71,210.22,7.96">Icons, symbols, colors are often different in different systems or devices (such as green and red, that, in different products, switch their meanings to indicate the same concept).</s><s xml:id="_MvAx2sW" coords="3,265.06,486.71,30.91,7.96;3,53.77,497.27,112.68,7.96">This, of course, make user confused.</s><s xml:id="_3e3Cvp2" coords="3,167.38,497.27,128.64,7.96;3,53.77,507.83,242.23,7.96;3,53.77,518.38,131.54,7.96">If this is the moment to develop all this kind of devices, why don't adopt this as an opportunity to construct a common language?</s><s xml:id="_Yx3B2Jd" coords="3,185.61,518.38,110.34,7.96;3,53.77,528.94,242.26,7.96;3,53.77,539.50,161.03,7.96">In particular, for interaction design it could be useful follow some roles, that, in Saffer's opinion <ref type="bibr" coords="3,85.37,539.50,30.15,7.96">[17: 60]</ref>, can guide a good design.</s></p><p xml:id="_752JX6y" coords="3,53.76,561.83,240.22,7.93;3,53.76,572.15,240.23,7.93;3,53.76,582.47,240.25,7.93;3,53.76,592.78,240.05,7.93;3,53.76,603.34,129.22,7.93;3,53.76,623.98,54.19,7.93;3,53.76,634.30,235.93,7.93;3,53.75,644.62,240.24,7.93;3,53.75,654.94,240.20,7.93;3,53.77,665.25,240.23,7.93;3,53.79,675.57,240.20,7.93;3,53.80,686.13,202.68,7.93;3,53.80,696.45,240.22,7.93;3,53.80,706.77,240.23,7.93;3,317.80,56.13,240.23,7.93;3,317.81,66.45,240.21,7.93;3,317.82,77.01,240.18,7.93;3,317.84,87.33,23.72,7.93;3,317.85,97.64,184.00,7.93;3,501.84,95.54,3.00,5.36;3,507.26,97.67,50.72,7.93;3,317.76,107.99,240.23,7.93;3,317.76,118.31,240.28,7.93;3,317.76,128.62,240.22,7.93;3,317.76,138.94,240.26,7.93;3,317.76,149.26,240.22,7.93;3,317.77,159.82,240.28,7.93;3,317.77,170.14,240.17,7.93;3,317.77,180.46,126.43,7.93;3,317.77,190.80,242.21,7.96;3,317.77,201.36,242.19,7.96;3,317.77,211.92,242.22,7.96;3,317.77,222.48,150.45,7.96;3,317.77,233.04,242.20,7.96;3,317.77,243.59,242.28,7.96;3,317.77,254.15,242.23,7.96;3,317.77,264.71,242.18,7.96;3,317.77,275.27,242.21,7.96;3,317.77,285.83,242.22,7.96;3,317.77,296.38,242.23,7.96;3,317.77,306.94,176.98,7.96"><s xml:id="_AtuWCsp" coords="3,53.76,561.83,240.22,7.93;3,53.76,572.15,240.23,7.93;3,53.76,582.47,240.25,7.93;3,53.76,592.78,240.05,7.93;3,53.76,603.34,129.22,7.93">[…] certainly in some circumstances, some of these characteristics may not be appropriate -you may not want a mission control panel to be playful, for example-but in general, if a product or service can be described with these adjectives, it is likely an example of good interaction design.</s><s xml:id="_gntHQRN" coords="3,53.76,623.98,54.19,7.93;3,53.76,634.30,235.93,7.93;3,53.75,644.62,240.24,7.93;3,53.75,654.94,240.20,7.93;3,53.77,665.25,240.23,7.93">Adjectives are: Trustworthy (because every object should inject trust in its user); Appropriate (referring to context -cultural, temporal, environmental…-); Clever (to «predict needs of […] users and then fulfill those needs in unexpected pleasing way» [17: .66]);</s><s xml:id="_WaGjSun" coords="3,53.79,675.57,240.20,7.93;3,53.80,686.13,202.68,7.93">Ludic, (because as children we learn through play); Pleasurable (both from an aesthetical and functional points of view).</s><s xml:id="_T2u72mH" coords="3,53.80,696.45,222.04,7.93">But other adjectives came out as important parameters.</s><s xml:id="_4n7Aysf" coords="3,281.55,696.45,12.47,7.93;3,53.80,706.77,240.23,7.93;3,317.80,56.13,63.69,7.93">For example, the one that Saffer defines as "clever" could be, in some cases, Automatic.</s><s xml:id="_YzPYuhk" coords="3,384.74,56.13,173.28,7.93;3,317.81,66.45,240.21,7.93;3,317.82,77.01,240.18,7.93;3,317.84,87.33,23.72,7.93">Another one is Clear (if interface is clear user can correctly interpret it); or Immediate (that help to make a clear interaction); Complete (to avoid cut and partial messages to users).</s><s xml:id="_NPXNNw3" coords="3,317.85,97.64,240.13,7.95;3,317.76,107.99,240.23,7.93;3,317.76,118.31,240.28,7.93;3,317.76,128.62,240.22,7.93;3,317.76,138.94,240.26,7.93;3,317.76,149.26,168.74,7.93">Different solutions were compared: Green Kitchen<ref type="foot" coords="3,501.84,95.54,3.00,5.36" target="#foot_1">foot_1</ref> by Whirlpool, Electrolux Social appliances, mobile applications (Current State, Alert Me, Tendril, Energy UFO), travel software (ecoDrive by Fiat, eQmotion by Lampo, Ecopassenger by Trenitalia), devices for energy monitoring (Ted 5000 and Google Power Meter, Wattson by diKyoto, Holmes, EcoDhome).</s><s xml:id="_NzREKMu" coords="3,492.02,149.26,65.96,7.93;3,317.77,159.82,240.28,7.93;3,317.77,170.14,192.69,7.93">It came out that everything that is not clear and has a vertical communication (and that doesn't have a dialog with user) is not reactive.</s><s xml:id="_M5FPpjJ" coords="3,513.49,170.14,44.44,7.93;3,317.77,180.46,126.43,7.93">At the same time monologue avoids cleverness.</s><s xml:id="_WBkwr6J" coords="3,317.77,190.80,242.21,7.96;3,317.77,201.36,35.53,7.96">It's to be considered that everything depends on interface and its aims.</s><s xml:id="_gcntd8b" coords="3,355.41,201.36,204.55,7.96;3,317.77,211.92,48.44,7.96">So, if the goal is data consulting, so a monologue could work.</s><s xml:id="_Xnfz2M8" coords="3,366.21,211.92,193.78,7.96;3,317.77,222.48,150.45,7.96">But, to explain different approaches and sensitize user behavior, a dialogue is preferable.</s><s xml:id="_GhhjzMw" coords="3,317.77,233.04,242.20,7.96;3,317.77,243.59,242.28,7.96;3,317.77,254.15,242.23,7.96;3,317.77,264.71,72.78,7.96">In the analyzed cases of dialogue (i.e. for mobile application where software asks and users answers and vice versa) the context constructs a playful situation, more "educative" than monological ones.</s><s xml:id="_cNZvEwm" coords="3,392.48,264.71,167.47,7.96;3,317.77,275.27,202.11,7.96">It's surely fundamental define target and capabilities to construct the perfect interaction.</s><s xml:id="_E4TnDKp" coords="3,523.56,275.27,36.42,7.96;3,317.77,285.83,242.22,7.96;3,317.77,296.38,118.92,7.96">In other words, it's necessary define use context, moreover if energy saving has an important role.</s><s xml:id="_FaNaExE" coords="3,438.08,296.38,121.92,7.96;3,317.77,306.94,176.98,7.96">This, in fact, is the first of the guide lines for responsible interaction design.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5." xml:id="_KAJpA2t" coords="3,317.76,330.28,224.56,10.72">NEW DESIGNING BRIEF PROPOSAL</head><p xml:id="_X6YmVeX" coords="3,317.76,343.69,242.20,7.96;3,317.76,354.25,242.18,7.96;3,317.75,364.81,242.19,7.96;3,317.75,375.37,242.22,7.96;3,317.75,385.93,221.54,7.96;3,317.74,396.49,242.19,7.96;3,317.74,407.04,242.27,7.96;3,317.74,417.60,242.20,7.96;3,317.74,428.16,242.17,7.96;3,317.73,438.72,71.58,7.96;3,317.73,449.28,242.17,7.96;3,317.72,459.84,242.20,7.96;3,317.72,470.39,242.19,7.96;3,317.72,480.95,90.58,7.96;3,317.72,491.51,242.20,7.96;3,317.72,502.07,242.23,7.96;3,317.72,512.63,242.26,7.96;3,317.72,523.19,162.48,7.96;3,495.22,523.16,14.95,7.93;3,317.72,533.74,242.28,7.96;3,317.72,544.30,242.21,7.96;3,317.73,554.86,242.21,7.96;3,317.73,565.42,242.15,7.96;3,317.72,575.98,242.20,7.96;3,317.72,586.30,106.46,7.96;3,317.72,596.85,242.20,7.96;3,317.72,607.41,23.98,7.96"><s xml:id="_BJJ8uba" coords="3,317.76,343.69,242.20,7.96;3,317.76,354.25,242.18,7.96">Households appliances don't always communicate why they're working in certain way, and manuals are often curt.</s><s xml:id="_7wPRWbZ" coords="3,317.75,364.81,242.19,7.96;3,317.75,375.37,134.39,7.96">Technological (or "clever") product presence is positive when it doesn't give problems to user.</s><s xml:id="_Y92yBh5" coords="3,454.13,375.37,105.84,7.96;3,317.75,385.93,221.54,7.96">When this is supposed to solve product problem, things became more complicated.</s><s xml:id="_T4EyDsp" coords="3,317.74,396.49,242.19,7.96;3,317.74,407.04,242.27,7.96;3,317.74,417.60,222.61,7.96">User, as seen during observations, doesn't act in the "correct" way, but projects his/her mental schemes on the appliance, creating atypical situations, out of designers' previsions.</s><s xml:id="_C9ax78X" coords="3,541.32,417.60,18.62,7.96;3,317.74,428.16,242.17,7.96;3,317.73,438.72,71.58,7.96">This because one product is expected to interact with several people typologies.</s><s xml:id="_BEpusez" coords="3,317.73,449.28,242.17,7.96;3,317.72,459.84,242.20,7.96;3,317.72,470.39,83.90,7.96">If design process would be based on people categories, it could be possible create appliances with intrinsic characteristics for that particular user.</s><s xml:id="_twPVKAF" coords="3,401.62,470.39,158.29,7.96;3,317.72,480.95,90.58,7.96">I'm not reffering to marketing strategies, but to design approach.</s><s xml:id="_dKD6ZgV" coords="3,317.72,491.51,242.20,7.96;3,317.72,502.07,60.56,7.96">Until now just a few initiatives has been taken following users' characteristics.</s><s xml:id="_EkwFUSB" coords="3,378.27,502.07,181.67,7.96;3,317.72,512.63,242.26,7.96;3,317.72,523.19,162.48,7.96">It's possible to generate some users' groups to be taken in consideration during the designing phase, following social and demographic studies.</s><s xml:id="_sAwMfGu" coords="3,482.48,523.16,44.93,7.93;3,317.72,533.74,242.28,7.96;3,317.72,544.30,227.26,7.96"><ref type="bibr" coords="3,482.48,523.16,10.45,7.93" target="#b9">[9]</ref> [10] <ref type="bibr" coords="3,512.46,523.16,14.95,7.93" target="#b11">[11]</ref> The next one would just be a possible classification hypothesis (and it's necessary to consider that households evolve).</s><s xml:id="_bNmMhwk" coords="3,546.89,544.30,13.04,7.96;3,317.73,554.86,242.21,7.96;3,317.73,565.42,242.15,7.96;3,317.72,575.98,242.20,7.96;3,317.72,586.30,106.46,7.96">So, singles, as young couples, could be hypothetically defined as "young"; households with or without children, between 40 to 60 years old, could be hypothetically defined as "classic" and couples over 60s, as "easy".</s><s xml:id="_kApgnPU" coords="3,317.72,596.85,242.20,7.96;3,317.72,607.41,23.98,7.96">Let's take this classification into consideration for further steps.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.1" xml:id="_hjBr8vy" coords="4,53.76,56.68,97.33,10.72">Personalization</head><p xml:id="_kXQe3T7" coords="4,53.76,70.09,242.14,7.96;4,53.76,80.65,242.21,7.96;4,53.77,91.21,242.21,7.96;4,53.77,101.77,29.38,7.96;4,53.77,112.33,242.23,7.96;4,53.77,122.89,242.25,7.96;4,53.77,133.44,242.21,7.96;4,53.78,144.00,166.72,7.96"><s xml:id="_W6qR3Mf" coords="4,53.76,70.09,242.14,7.96;4,53.76,80.65,36.98,7.96">Personalizing his/her appliances, user can improve object usability.</s><s xml:id="_zhdh38s" coords="4,94.93,80.65,201.05,7.96;4,53.77,91.21,242.21,7.96;4,53.77,101.77,29.38,7.96">It's not about cut functions, but render more immediate some (now) hidden possibilities -i.e combined ovens--.</s><s xml:id="_AVTwPDw" coords="4,53.77,112.33,242.23,7.96;4,53.77,122.89,242.25,7.96;4,53.77,133.44,242.21,7.96;4,53.78,144.00,59.28,7.96">This guide line can be related also to educational topics, such as sustainability: a washing machine could suggest, depending on clothes typology, a less temperature or time level washing to save energy.</s><s xml:id="_YwECDFn" coords="4,113.09,144.00,107.41,7.96">Personalization can regard:</s></p><p xml:id="_dFNEjcs" coords="4,71.79,154.56,2.83,7.96;4,89.79,154.56,182.30,7.96;4,71.79,165.12,2.83,7.96;4,89.79,165.12,206.19,7.96;4,89.79,175.68,88.91,7.96;4,71.79,186.00,2.83,7.96;4,89.79,186.00,206.21,7.96;4,89.79,196.56,92.33,7.96;4,71.79,207.11,2.83,7.96;4,89.79,207.11,187.83,7.96"><s xml:id="_mB8WZUb" coords="4,71.79,154.56,2.83,7.96;4,89.79,154.56,182.30,7.96;4,71.79,165.12,2.83,7.96;4,89.79,165.12,206.19,7.96;4,89.79,175.68,88.91,7.96;4,71.79,186.00,2.83,7.96;4,89.79,186.00,206.21,7.96;4,89.79,196.56,92.33,7.96;4,71.79,207.11,2.83,7.96;4,89.79,207.11,187.83,7.96">--interface appearance (to improve its legibility); --functions organizations (to let peopole choose commands hierarchy); --behaviors management (to register, for example, more used commands); --additional modalities activation (as suggestions).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.2" xml:id="_a46fWdV" coords="4,53.76,218.20,79.33,10.72">Automation</head><p xml:id="_R2GwCPa" coords="4,53.76,231.61,242.18,7.96;4,53.76,242.17,33.49,7.96;4,105.86,242.17,190.09,7.96;4,53.76,252.73,242.20,7.96;4,53.76,263.29,242.25,7.96;4,53.76,273.85,242.21,7.96;4,53.76,284.41,242.20,7.96;4,53.75,294.96,42.49,7.96;4,53.75,305.52,242.16,7.96;4,53.75,316.08,242.23,7.96;4,53.75,326.64,20.52,7.96"><s xml:id="_pzTKgcb" coords="4,53.76,231.61,242.18,7.96">In psychology there is a concept defined as "drop in vigilance".</s><s xml:id="_ZzZzdWF" coords="4,53.76,242.17,242.19,7.96;4,53.76,252.73,194.56,7.96">Norman <ref type="bibr" coords="4,87.44,242.17,18.22,7.96" target="#b14">[14]</ref> tells that people that are not asked to have a role in the process, will lose easily their attention.</s><s xml:id="_QfJ8aka" coords="4,251.16,252.73,44.80,7.96;4,53.76,263.29,242.25,7.96;4,53.76,273.85,22.01,7.96">Here what happens: where half automation occurs, user less attention level.</s><s xml:id="_vcZuZQu" coords="4,82.56,273.85,213.41,7.96;4,53.76,284.41,242.20,7.96;4,53.75,294.96,42.49,7.96">This make him/her not prepared in case of inconvenience or where his/her intervention is (half) requested.</s><s xml:id="_jpcQFwG" coords="4,53.75,305.52,242.16,7.96;4,53.75,316.08,242.23,7.96;4,53.75,326.64,20.52,7.96">At the end, if it's not possible to have a complete automation, it's necessary to well decide what should be automatized, and how.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_uAtFqGR" coords="4,53.75,336.96,65.32,7.96">Automation can:</head><p xml:id="_7BDhErU" coords="4,71.75,347.52,2.83,7.96;4,89.75,347.52,206.21,7.96;4,89.75,358.08,123.76,7.96;4,71.75,368.63,2.83,7.96;4,89.75,368.63,206.18,7.96;4,89.75,379.19,116.05,7.96;4,71.75,389.75,2.83,7.96;4,89.75,389.75,206.19,7.96;4,89.74,400.31,173.99,7.96;4,53.74,410.87,242.23,7.96;4,53.74,421.42,242.26,7.96;4,53.73,431.98,218.55,7.96;4,53.73,442.54,242.19,7.96;4,53.73,453.10,242.19,7.96;4,53.73,463.66,30.99,7.96"><s xml:id="_DqyGCYs" coords="4,71.75,347.52,2.83,7.96;4,89.75,347.52,206.21,7.96">--completely relieve users from their assignments (i.e.</s><s xml:id="_bgvtXSP" coords="4,89.75,358.08,123.76,7.96;4,71.75,368.63,2.83,7.96;4,89.75,368.63,206.18,7.96;4,89.75,379.19,116.05,7.96;4,71.75,389.75,2.83,7.96;4,89.75,389.75,144.64,7.96">letting them just on/off choice); --facilitate some decisions (suggesting solutions depending on date recorded); --solve unexpected situations (i.e.</s><s xml:id="_btGcAqE" coords="4,241.60,389.75,54.34,7.96;4,89.74,400.31,173.99,7.96">automatically contacting an assistance center if necessary).</s><s xml:id="_rEC6FnY" coords="4,53.74,410.87,242.23,7.96;4,53.74,421.42,61.78,7.96">Automation level, as personalization one, depends a lot on referring user.</s><s xml:id="_p8JvxH5" coords="4,119.96,421.42,176.04,7.96;4,53.73,431.98,218.55,7.96">For example, easy users' category could appreciate more a complete automation than young one.</s><s xml:id="_Sjdus7N" coords="4,53.73,442.54,242.19,7.96;4,53.73,453.10,242.19,7.96;4,53.73,463.66,30.99,7.96">The changing factor is the product and interface complexity level, that automation potentially contribute deeply to change.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.3" xml:id="_VMZgczQ" coords="4,53.76,475.03,75.04,10.75">Feedback</head><p xml:id="_564tVHw" coords="4,53.76,488.41,242.21,7.96;4,53.76,498.97,242.19,7.96;4,53.76,509.53,242.23,7.96;4,53.75,520.09,242.19,7.96;4,53.74,530.41,124.93,7.96;4,53.74,540.94,240.22,7.93;4,53.74,551.50,240.20,7.93;4,53.74,561.82,240.20,7.93;4,53.75,572.14,240.18,7.93;4,53.75,582.45,240.19,7.93;4,53.75,592.77,240.32,7.93;4,53.75,603.09,240.19,7.93;4,53.75,613.41,39.21,7.93;4,53.75,623.73,240.11,7.93;4,53.75,634.29,240.27,7.93;4,53.75,644.61,240.25,7.93;4,53.75,654.92,240.24,7.93;4,53.76,665.24,240.33,7.93;4,53.76,675.56,240.13,7.93;4,53.76,685.88,240.22,7.93;4,53.76,696.20,240.19,7.93;4,53.76,706.52,29.21,7.93"><s xml:id="_jyr5y5w" coords="4,53.76,488.41,167.78,7.96">Substantially, feedback is communication.</s><s xml:id="_vGsB226" coords="4,223.32,488.41,72.65,7.96;4,53.76,498.97,242.19,7.96;4,53.76,509.53,242.23,7.96;4,53.75,520.09,151.78,7.96">For this reason it can regard input, when product signals user command has been understood and output, for example to communicate the end of a command, but also usage.</s><s xml:id="_WjMv3cy" coords="4,208.83,520.09,87.11,7.96;4,53.74,530.41,124.93,7.96">In this case product confirms users injected process.</s><s xml:id="_QmtAAw5" coords="4,53.74,540.94,153.86,7.93">Feedback should be quick and frequent.</s><s xml:id="_2yQCR47" coords="4,211.99,540.94,81.97,7.93;4,53.74,551.50,186.23,7.93">Every person using a product or a service should have a confirm back.</s><s xml:id="_eMYk2UZ" coords="4,243.61,551.50,50.33,7.93;4,53.74,561.82,240.20,7.93;4,53.75,572.14,111.08,7.93">Frequently, if there isn't an immediate nor clear feedback, users will do again the action they are used to do.</s><s xml:id="_NygJYcg" coords="4,167.65,572.14,126.27,7.93;4,53.75,582.45,198.15,7.93">Let's think of a person turning the oven on, before have put the food to be cooked inside.</s><s xml:id="_zhGhumU" coords="4,254.47,582.45,39.47,7.93;4,53.75,592.77,240.32,7.93;4,53.75,603.09,240.19,7.93;4,53.75,613.41,39.21,7.93">If the oven would ask confirm back or propose to turn itself on just once the dish is inside, we would have a different solution, surely more ecological.</s><s xml:id="_T9N76Pz" coords="4,53.75,623.73,240.11,7.93;4,53.75,634.29,240.27,7.93;4,53.75,644.61,240.25,7.93;4,53.75,654.92,50.20,7.93">If the oven itself would suggest a low temperature, but combined with ventilated program (of course taking in consideration the food that has to be cooked) would contribute to an user's behavior improvement.</s><s xml:id="_hedFKQD" coords="4,108.90,654.92,185.09,7.93;4,53.76,665.24,240.33,7.93;4,53.76,675.56,240.13,7.93;4,53.76,685.88,168.80,7.93">The same for washing machine: once program, washing length and clothes characteristics have been chosen, system can provide a more sustainable option (i.e. less temperature water, shorter washing program).</s><s xml:id="_Ss4kECu" coords="4,225.84,685.88,68.14,7.93;4,53.76,696.20,240.19,7.93;4,53.76,706.52,29.21,7.93">The aim would be to communicate user the possibility to have different, better, choices.</s></p><p xml:id="_fXQ23NW" coords="4,317.76,56.12,175.62,7.93;4,317.75,66.44,219.19,7.93"><s xml:id="_6cCF8r7" coords="4,317.76,56.12,175.62,7.93">The proactive feedback can be a signal for users.</s><s xml:id="_SpnBgn9" coords="4,317.75,66.44,219.19,7.93">Feedback is the most sensitive design peculiarity and can be:</s></p><p xml:id="_5wShDrK" coords="4,335.75,77.02,2.83,7.96;4,353.75,77.00,65.70,7.93;4,419.52,74.90,3.00,5.36;4,422.50,77.03,53.68,7.93;4,505.76,77.03,52.17,7.93;4,353.75,87.35,204.28,7.93;4,353.75,97.67,201.22,7.93;4,335.74,108.25,2.83,7.96;4,353.74,108.22,204.18,7.93;4,353.74,118.54,204.27,7.93;4,353.74,128.86,55.97,7.93;4,335.74,139.45,2.83,7.96;4,353.74,139.42,204.11,7.93;4,353.74,149.74,204.18,7.93;4,353.74,160.06,62.95,7.93;4,317.74,170.61,240.28,7.93;4,317.74,180.93,240.17,7.93;4,317.74,191.25,240.19,7.93;4,317.74,201.57,109.23,7.93"><s xml:id="_HTEBNHp" coords="4,335.75,77.02,2.83,7.96;4,353.75,77.00,204.18,7.96;4,353.75,87.35,204.28,7.93;4,353.75,97.67,201.22,7.93;4,335.74,108.25,2.83,7.96;4,353.74,108.22,204.18,7.93;4,353.74,118.54,204.27,7.93;4,353.74,128.86,55.97,7.93;4,335.74,139.45,2.83,7.96;4,353.74,139.42,204.11,7.93;4,353.74,149.74,126.28,7.93">--natural feedback<ref type="foot" coords="4,419.52,74.90,3.00,5.36" target="#foot_2">foot_2</ref> , as Norman <ref type="bibr" coords="4,483.51,77.03,14.95,7.93" target="#b14">[14]</ref> proposes and arguments, to indicate the product is doing something, without overload user with sound or visual information; --input/output feedback, or reactive feedback, to manage commands input and give person back the confirm of his/her choices, --proactive feedback, to suggest good behaviors to users in different ways (game?</s><s xml:id="_RCDpQkj" coords="4,494.53,149.74,63.39,7.93;4,353.74,160.06,62.95,7.93;4,317.74,170.61,176.98,7.93">Money saving communication?) How can designer coordinate these possibilities?</s><s xml:id="_wq5R4Zv" coords="4,497.38,170.61,60.65,7.93;4,317.74,180.93,240.17,7.93;4,317.74,191.25,240.19,7.93;4,317.74,201.57,109.23,7.93">Relating them to users, after a deep analysis about their (different) abilities, giving them the possibility to choose and act, where possible, on the difficult level of their product.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.4" xml:id="_4Vd79x5" coords="4,317.76,222.61,64.66,9.64">Discretion</head><p xml:id="_wFRTGQT" coords="4,317.76,234.95,214.19,7.93;4,317.77,245.27,240.16,7.93;4,317.77,255.59,240.18,7.93;4,317.77,265.90,240.26,7.93;4,317.77,276.22,146.91,7.93"><s xml:id="_BGMAanR" coords="4,317.76,234.95,214.19,7.93">Household appliance should be as less invasive as possible.</s><s xml:id="_BwQnXGG" coords="4,317.77,245.27,240.16,7.93;4,317.77,255.59,240.18,7.93;4,317.77,265.90,240.26,7.93">Related to sustainability, it would be precious to have a "plastic" language, suggesting (adopting money or ethic) or taking autonomous choices or commenting, depending on user' typology.</s><s xml:id="_hPvGqdd" coords="4,317.77,276.22,146.91,7.93">In particular, discretion it's necessary to:</s></p><p xml:id="_5rRjFj3" coords="4,335.77,286.57,2.83,7.96;4,353.77,286.54,149.54,7.93;4,335.77,297.13,2.83,7.96;4,353.77,297.10,204.13,7.93;4,353.77,307.66,159.13,7.93;4,335.77,318.00,2.83,7.96;4,353.77,318.00,206.23,7.96;4,353.77,328.56,197.83,7.96;4,317.76,339.12,242.19,7.96;4,317.76,349.68,242.19,7.96;4,317.76,360.24,242.20,7.96;4,317.76,370.79,242.20,7.96;4,317.76,381.35,148.59,7.96"><s xml:id="_ta7gGDB" coords="4,335.77,286.57,2.83,7.96;4,353.77,286.54,149.54,7.93;4,335.77,297.13,2.83,7.96;4,353.77,297.10,193.07,7.93">--Avoid reproaches, that cause discomfort; --Avoid repetitions, that tire and discourage people.</s><s xml:id="_uzhenDX" coords="4,551.49,297.10,6.41,7.93;4,353.77,307.66,159.13,7.93;4,335.77,318.00,2.83,7.96;4,353.77,318.00,87.18,7.96">A clear and immediate language is preferable; --Avoid irritating noises.</s><s xml:id="_y56wmzd" coords="4,441.18,318.00,118.81,7.96;4,353.77,328.56,197.83,7.96">Create new sounds for natural feedback doesn't mean irritating sound generation.</s><s xml:id="_u9pY5Nm" coords="4,317.76,339.12,242.19,7.96;4,317.76,349.68,242.19,7.96">All these guide lines should be adopted to create different products, depending on people they are designated.</s><s xml:id="_g63WPGv" coords="4,317.76,360.24,242.20,7.96;4,317.76,370.79,157.53,7.96">Distinguish users permit a classification and generation of products on different complexity levels.</s><s xml:id="_K5WcEu7" coords="4,476.21,370.79,83.74,7.96;4,317.76,381.35,148.59,7.96">To different abilities, in fact, different difficulties can match.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6." xml:id="_sQzhkpa" coords="4,317.76,394.36,104.21,10.72">CONCLUSIONS</head><p xml:id="_mWTPR98" coords="4,317.76,407.75,240.20,7.93;4,317.75,418.07,240.17,7.93;4,317.75,428.39,240.26,7.93;4,317.75,438.70,220.24,7.93;4,317.75,449.02,240.16,7.93;4,317.75,459.58,240.22,7.93;4,317.75,469.90,240.12,7.93;4,317.75,480.22,240.16,7.93;4,317.75,490.54,240.27,7.93;4,317.75,500.86,167.51,7.93;4,317.75,511.17,240.28,7.93;4,317.75,521.49,240.22,7.93;4,317.75,531.81,240.21,7.93;4,317.75,542.13,197.23,7.93;4,317.75,552.69,240.14,7.93;4,317.75,563.01,71.70,7.93"><s xml:id="_wgzrsNN" coords="4,317.76,407.75,240.20,7.93;4,317.75,418.07,240.17,7.93;4,317.75,428.39,86.97,7.93">This study, coming from my PhD thesis, wants to refer to product and interface designers to help them designing appliances as near to people as possible.</s><s xml:id="_wQdtSZw" coords="4,410.35,428.39,147.66,7.93;4,317.75,438.70,220.24,7.93">After analysis, two are the emerging solutions: a complete automation or methods to educate user.</s><s xml:id="_2mxy99N" coords="4,317.75,449.02,240.16,7.93;4,317.75,459.58,105.07,7.93">Sustainable behavior depends on appliance, but also on people/machine interaction.</s><s xml:id="_CctvrwT" coords="4,430.19,459.58,127.78,7.93;4,317.75,469.90,118.05,7.93">For good interaction, appliance should be clear and immediate.</s><s xml:id="_NjBVhxY" coords="4,439.56,469.90,118.31,7.93;4,317.75,480.22,84.39,7.93">It should go toward user, don't expecting the contrary.</s><s xml:id="_QnvFaK6" coords="4,405.28,480.22,152.63,7.93;4,317.75,490.54,156.46,7.93">It's not about choosing "the man who do at the expense of the man who control".</s><s xml:id="_pUBjm7S" coords="4,478.35,490.54,79.66,7.93;4,317.75,500.86,167.51,7.93">It's about understand which man can do, and which can just control.</s><s xml:id="_zypSwsd" coords="4,317.75,511.17,240.28,7.93;4,317.75,521.49,94.88,7.93">One appliance is designed for thousand people, who have different mental schemes.</s><s xml:id="_MueYx7z" coords="4,415.99,521.49,141.98,7.93;4,317.75,531.81,167.87,7.93">And the object, at the moment, hasn't got logical bonds to avoid misunderstandings.</s><s xml:id="_PdPzdgH" coords="4,488.35,531.81,69.61,7.93;4,317.75,542.13,197.23,7.93">A clear interface is needed and designers have to design it in the best way.</s><s xml:id="_uYsXPqu" coords="4,317.75,552.69,240.14,7.93;4,317.75,563.01,71.70,7.93">At the moment, confirmed by analysis, bad points in appliances communication are:</s></p><p xml:id="_NzXeDbX" coords="4,335.75,573.35,2.83,7.96;4,353.75,573.32,204.18,7.93;4,353.75,583.88,29.97,7.93;4,335.75,594.23,2.83,7.96;4,353.75,594.20,160.43,7.93;4,335.75,604.55,2.83,7.96;4,353.75,604.52,204.26,7.93;4,353.75,615.08,35.98,7.93;4,335.75,625.42,2.83,7.96;4,353.75,625.40,145.97,7.93"><s xml:id="_XbuVFY5" coords="4,335.75,573.35,2.83,7.96;4,353.75,573.32,204.18,7.93;4,353.75,583.88,29.97,7.93;4,335.75,594.23,2.83,7.96;4,353.75,594.20,160.43,7.93;4,335.75,604.55,2.83,7.96;4,353.75,604.52,204.26,7.93;4,353.75,615.08,35.98,7.93;4,335.75,625.42,2.83,7.96;4,353.75,625.40,145.97,7.93">--Not clear communication, collateral or around the product; --Complexity in interactive function structure; --Users' mental schemes projection on appliances functions; --Low energy saving methods knowledge;</s></p></div>			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1" xml:id="foot_0" coords="2,325.08,610.79,232.90,7.93;2,324.97,621.35,233.06,7.93;2,324.98,631.67,233.03,7.93;2,324.98,641.98,233.00,7.93;2,324.98,652.30,232.95,7.93;2,324.98,662.62,232.97,7.93;2,324.98,672.94,233.12,7.93;2,324.98,683.26,233.01,7.93;2,324.98,693.34,61.19,7.93"><p xml:id="_CXcC2Dg"><s xml:id="_tzmpYR6" coords="2,325.08,610.79,232.90,7.93;2,324.97,621.35,233.06,7.93;2,324.98,631.67,39.73,7.93">Rather than green, we will speak about [...] environmentally preferable products, or "preferable" to others in the same conditions.</s><s xml:id="_NspSa9v" coords="2,370.27,631.67,187.74,7.93;2,324.98,641.98,233.00,7.93;2,324.98,652.30,67.41,7.93">[…] a product, a method, a system cannot be considered as absolute because this ecological absolute quality is deeply variable.</s><s xml:id="_RuqCwmT" coords="2,395.53,652.30,162.40,7.93;2,324.98,662.62,232.97,7.93;2,324.98,672.94,233.12,7.93;2,324.98,683.26,201.67,7.93">It's better to talk about preferability, a term that relates that at that time, in those specific conditions, both for the environmental and the economic points of view, that particular product or service is better than another.</s><s xml:id="_uXdMyYx" coords="2,531.71,683.26,26.28,7.93;2,324.98,693.34,61.19,7.93">[2: 43, translation mine]</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2" xml:id="foot_1" coords="3,324.39,656.39,233.58,7.93;3,324.96,666.71,233.01,7.93;3,324.96,677.03,232.98,7.93;3,324.96,687.34,232.98,7.93;3,324.97,697.66,232.96,7.93;3,324.97,707.74,116.95,7.93"><p xml:id="_2t66YzV"><s xml:id="_gubVHth" coords="3,324.39,656.39,233.58,7.93;3,324.96,666.71,215.66,7.93">Green Kitchen "diverts" 60% of the water and heat generated from appliances to fuel other functions and appliances.</s><s xml:id="_3XzzAbG" coords="3,545.51,666.71,12.46,7.93;3,324.96,677.03,232.98,7.93;3,324.96,687.34,232.98,7.93;3,324.97,697.66,232.96,7.93;3,324.97,707.74,116.95,7.93">For example: the heat produced in the compressor coils from running the fridge (the one appliance that cycles on and off, 24 hours a day) is used to heat water for the dishwasher, rather than just wafting out into the kitchen.</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="3" xml:id="foot_2" coords="4,323.67,666.71,234.29,7.93;4,324.95,677.03,233.05,7.93;4,324.95,687.35,233.03,7.93;4,324.95,697.66,232.99,7.93;4,324.94,707.74,175.17,7.93"><p xml:id="_a5C6x5S"><s xml:id="_JHPKj2J" coords="4,323.67,666.71,234.29,7.93">The concept of natural sound has been treated by Norman.<ref type="bibr" coords="4,543.01,666.71,14.95,7.93" target="#b14">[14]</ref></s><s xml:id="_MCCRSrk" coords="4,324.95,677.03,233.05,7.93;4,324.95,687.35,64.64,7.93">He laments the massive presence of artificial sounds related to home appliances.</s><s xml:id="_3fcn5je" coords="4,394.05,687.35,163.93,7.93;4,324.95,697.66,157.92,7.93">Natural sounds are the ones related to the normal operation of the appliance (i.e.</s><s xml:id="_hK2Hyjt" coords="4,489.20,697.66,68.75,7.93;4,324.94,707.74,175.17,7.93">water noise in a dishwasher program communicates the process).</s></p></note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_Ctwp3FN" coords="5,71.76,56.17,2.83,7.96">--</head><p xml:id="_9H4qSRW" coords="5,89.76,56.15,204.18,7.93;5,89.76,66.71,32.71,7.93;5,53.75,77.03,240.21,7.93;5,53.75,87.34,240.03,7.93;5,53.75,97.66,240.15,7.93;5,53.74,108.22,240.14,7.93;5,53.74,118.54,240.22,7.93;5,53.75,128.86,240.26,7.93;5,53.75,139.18,137.19,7.93"><s xml:id="_J4r55cR" coords="5,89.76,56.15,204.18,7.93;5,89.76,66.71,32.71,7.93">Imbalanced trust on appliances (or too much, or nothing).</s><s xml:id="_e2EER3z" coords="5,53.75,77.03,229.07,7.93">The solution is not a complete distortion of the appliance.</s><s xml:id="_ctSt7Tf" coords="5,287.51,77.03,6.45,7.93;5,53.75,87.34,240.03,7.93;5,53.75,97.66,240.15,7.93;5,53.74,108.22,70.63,7.93">Is moreover a redesign strategy to approach user, also adopting existing technologies, to avoid people catched off guard with futuristic solutions.</s><s xml:id="_K3297dn" coords="5,127.76,108.22,166.12,7.93;5,53.74,118.54,121.37,7.93">It's necessary to take in consideration users' needs, but also their capabilities.</s><s xml:id="_RrXmqaZ" coords="5,181.61,118.54,112.36,7.93;5,53.75,128.86,240.26,7.93;5,53.75,139.18,137.19,7.93">The guide lines here proposed have to be weaved with users' typologies, in order to design and produce the best product for that user.</s></p><p xml:id="_2CVuQv9" coords="5,53.75,159.81,240.35,7.93;5,53.75,170.13,240.21,7.93;5,53.75,180.45,220.23,7.93;5,53.75,191.01,240.19,7.93;5,53.75,201.33,240.19,7.93;5,53.75,211.65,84.96,7.93"><s xml:id="_dRKgwB7" coords="5,53.75,159.81,240.35,7.93;5,53.75,170.13,240.21,7.93;5,53.75,180.45,220.23,7.93">Design a product full of functions, full of (new) technologies will be not profitable as a product full of adjustable functions, where user can choose program level depending on his/her abilities.</s><s xml:id="_fEUgSNm" coords="5,53.75,191.01,143.66,7.93">I'm not stating that this is the solution.</s><s xml:id="_QUNThzs" coords="5,200.37,191.01,93.57,7.93;5,53.75,201.33,240.19,7.93;5,53.75,211.65,84.96,7.93">I would like to propose a (more efficient) alternative to the state of the art to help designers in their (important) job.</s></p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted" xml:id="b0">
+	<monogr>
+		<ptr target="http://www.aceee.org/consumerguide/dishwashing.htm" />
+		<title level="m" xml:id="_Ztk93A7" coords="5,67.96,237.83,186.83,7.93">American Council for an Energy-Efficient Economy</title>
+		<imprint>
+			<date type="published" when="2010-06">2010. June 2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b1">
+	<monogr>
+		<author>
+			<persName><forename type="first">P</forename><surname>Tavel</surname></persName>
+		</author>
+		<title level="m" xml:id="_bezg4rz" coords="5,99.96,268.78,117.49,7.93">Modeling and Simulation Design</title>
+		<meeting><address><addrLine>Natick, MA</addrLine></address></meeting>
+		<imprint>
+			<publisher>AK Peters Ltd</publisher>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b2">
+	<analytic>
+		<author>
+			<persName><forename type="first">L</forename><surname>Badalucco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Chiapponi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_9UCmTgj" coords="5,197.45,289.42,62.20,7.93;5,67.96,299.74,191.08,7.93">Energia e design, Innovazioni di prodotto per la sostenibilità energetica</title>
+		<meeting><address><addrLine>Roma</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b3">
+	<monogr>
+		<title level="m" type="main" coords="5,211.95,320.62,77.41,7.93;5,67.96,330.94,72.03,7.93" xml:id="_88SUwQ2">Theories and practice in interaction design</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bagnara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Crampton Smith</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006">2006</date>
+			<publisher>Lawrence Erlbaum</publisher>
+			<pubPlace>London</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b4">
+	<analytic>
+		<title level="a" type="main" coords="5,141.69,341.25,146.19,7.93;5,67.96,351.57,58.93,7.93" xml:id="_Af6Vd5X">European Appliance Industry: Surviving in a New Europe</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bonnema</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_zMNeUNV" coords="5,146.56,351.57,72.50,7.93">Appliance Magazine</title>
+		<imprint>
+			<date type="published" when="2004-07">2004. July</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b5">
+	<monogr>
+		<author>
+			<persName><forename type="first">L</forename><surname>Campello</surname></persName>
+		</author>
+		<title level="m" xml:id="_y9RmWND" coords="5,137.70,361.89,115.92,7.93;5,67.96,372.21,141.25,7.93">White Goods Industry, Towards Sustainable Production &amp; Consumption</title>
+		<meeting><address><addrLine>Venezia</addrLine></address></meeting>
+		<imprint>
+			<publisher>The Electrolux Group</publisher>
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b6">
+	<monogr>
+		<author>
+			<persName><forename type="first">F</forename><surname>Carli</surname></persName>
+		</author>
+		<title level="m" xml:id="_MMeHeP3" coords="5,124.70,393.09,122.70,7.93;5,67.96,403.40,189.90,7.93;5,67.95,413.72,37.02,7.93">Elettrodomestici spaziali. Viaggio nell&apos;immaginario fantascientifico degli oggetti d&apos;uso quotidiano</title>
+		<meeting><address><addrLine>Firenze</addrLine></address></meeting>
+		<imprint>
+			<publisher>Castelvecchi Editore</publisher>
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b7">
+	<monogr>
+		<author>
+			<persName><forename type="first">F</forename><surname>Carli</surname></persName>
+		</author>
+		<title level="m" xml:id="_CgehFsP" coords="5,122.45,424.04,151.87,7.93;5,67.95,434.36,174.92,7.93">Interfaccia, in Alberto Abruzzese, Lessico della Comunicazione, a cura di Valeria Giorando</title>
+		<meeting><address><addrLine>Roma</addrLine></address></meeting>
+		<imprint>
+			<publisher>Maltemi Editore</publisher>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b8">
+	<analytic>
+		<title level="a" type="main" coords="5,519.68,56.12,13.94,7.93;5,331.94,66.44,208.42,7.93;5,331.94,76.99,133.74,7.93" xml:id="_89yGFKx">The potential for Domestic Energy Savings through Assessing User Behavior and Changesin Design</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">W A</forename><surname>Elias</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Dekoninck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Culley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_dHcw6nE" coords="5,485.30,76.99,60.03,7.93;5,331.94,87.31,218.75,7.93;5,331.94,97.63,122.65,7.93">Ecodesign 2007: 5th International Symposium on Environmentally Conscious Design and Inverse manufacturing</title>
+		<meeting><address><addrLine>Tokyo</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2007-12">2007. December</date>
+			<biblScope unit="page" from="10" to="13" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b9">
+	<monogr>
+		<ptr target="http://www.eu-energystar.org/it/index.html(30/10/2009" />
+		<title level="m" xml:id="_ZNxVY3n" coords="5,354.46,118.27,198.42,7.93">Introduzione al programma ENERGY STAR® dell&apos;UE</title>
+		<imprint>
+			<publisher>European Commission -Directorate-General for Energy</publisher>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b10">
+	<monogr>
+		<title level="m" xml:id="_btYVKpg" coords="5,358.28,149.22,160.06,7.93">Living conditions in Europe, data 2003-2006</title>
+		<meeting><address><addrLine>Luxembourg</addrLine></address></meeting>
+		<imprint>
+			<publisher>Office of official Pubblications pf the european Community</publisher>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+		<respStmt>
+			<orgName>European Commission -Directorate-General for Energy</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b11">
+	<monogr>
+		<title level="m" xml:id="_rqbaeea" coords="5,358.28,190.74,192.19,7.93;5,335.78,201.06,14.58,7.93">The Sustainable Consumption and Production Action Plan</title>
+		<meeting><address><addrLine>Bruxelles</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+		<respStmt>
+			<orgName>European Commission -Directorate-General for Energy ; European Commission</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b12">
+	<monogr>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lupacchini</surname></persName>
+		</author>
+		<title level="m" xml:id="_3fDKTHu" coords="5,414.28,211.37,132.24,7.93;5,335.79,221.69,57.17,7.93">Design olistico. Progettare secondo i principi del DfA</title>
+		<meeting><address><addrLine>Firenze</addrLine></address></meeting>
+		<imprint>
+			<publisher>Alinea Editrice</publisher>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b13">
+	<monogr>
+		<title level="m" type="main" coords="5,401.02,232.01,137.42,7.93;5,335.78,242.57,151.34,7.93" xml:id="_jAzTGMG">Things that make us smart, Defending human attributes in the age of the machine</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Norman</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1993">1993</date>
+			<publisher>Perseus Books</publisher>
+			<pubPlace>Cambridge</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b14">
+	<monogr>
+		<title level="m" type="main" coords="5,401.04,263.21,63.52,7.93" xml:id="_pB7hCJJ">Emotional Design</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Norman</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2004">2004</date>
+			<publisher>Apogeo Editore</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b15">
+	<monogr>
+		<author>
+			<persName><forename type="first">D</forename><surname>Norman</surname></persName>
+		</author>
+		<title level="m" xml:id="_Bx4Ak3T" coords="5,405.55,273.53,67.54,7.93">Il design del futuro</title>
+		<imprint>
+			<publisher>Apogeo Editore</publisher>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b16">
+	<monogr>
+		<author>
+			<persName><forename type="first">D</forename><surname>Norman</surname></persName>
+		</author>
+		<title level="m" xml:id="_uXYV2b9" coords="5,403.26,283.84,82.50,7.93">Living with Compexity</title>
+		<meeting><address><addrLine>Boston</addrLine></address></meeting>
+		<imprint>
+			<publisher>MIT Press</publisher>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b17">
+	<monogr>
+		<title level="m" type="main" coords="5,395.77,304.48,146.44,7.93;5,335.77,314.80,110.80,7.93" xml:id="_adw2VVD">Designing for interaction: creating smart applications and clever devices</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Saffer</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+			<publisher>Berkley</publisher>
+			<pubPlace>New Riders</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b18">
+	<monogr>
+		<author>
+			<persName><forename type="first">L</forename><surname>Yates</surname></persName>
+		</author>
+		<ptr target="http://www.eetv.org/dev/images/Market%20Research_it.pdf" />
+		<title level="m" xml:id="_Q4kxZKM" coords="5,393.26,325.36,137.69,7.93;5,335.77,335.68,201.42,7.93">Information blackout: why electronics consumers are in the dark</title>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note>National Consumers Council</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b19">
+	<monogr>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Wickens</surname></persName>
+		</author>
+		<title level="m" xml:id="_bRzCtNj" coords="5,415.76,356.31,132.18,7.93;5,335.77,366.63,44.18,7.93">Engineering Psychology and Human Performance</title>
+		<imprint>
+			<publisher>Harper Collins</publisher>
+			<date type="published" when="1992">1992</date>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="167" to="210" />
+		</imprint>
+	</monogr>
+	<note>2nd edition</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b20">
+	<monogr>
+		<author>
+			<persName><forename type="first">M</forename><surname>Scerbo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mouloua</surname></persName>
+		</author>
+		<title level="m" xml:id="_gZGXPb3" coords="5,458.77,387.27,85.20,7.93;5,335.77,397.59,188.17,7.93">Automation technology and human performance: current research and trends</title>
+		<meeting><address><addrLine>New Jersey</addrLine></address></meeting>
+		<imprint>
+			<publisher>Lawrence Earlbaum Associates</publisher>
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

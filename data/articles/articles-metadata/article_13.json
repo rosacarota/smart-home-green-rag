@@ -1,0 +1,17 @@
+{
+  "article_id": "ARTICLE_013",
+  "source_title": "Smart Homes as a Means to Sustainable Energy Consumption: A Study of Consumer Perceptions",
+  "year": "2012",
+  "article_summary": "The article examines consumer perceptions of smart-home energy management technologies, including variable tariffs, smart metering, smart appliances, and home automation. It highlights that smart homes can support greener electricity use by making consumption visible, enabling load shifting toward cheaper or renewable-friendly periods, and automating appliances such as dishwashers or washing machines according to price or grid signals. The study also shows that convenience, transparency, cost savings, ecological footprint, privacy, standby consumption, and disruption of daily routines are key factors that affect whether users accept greener automation.",
+  "normalized_green_categories_one_hot": {
+    "hvac_optimization": 0,
+    "lighting_efficiency": 0,
+    "water_saving": 0,
+    "standby_reduction": 1,
+    "appliance_energy_management": 1,
+    "energy_monitoring": 1,
+    "occupancy_based_control": 1,
+    "environmental_awareness": 1,
+    "scheduling_optimization": 1
+  }
+}
