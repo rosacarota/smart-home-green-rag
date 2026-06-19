@@ -23,7 +23,7 @@ RULE_INDEX_DIR = KNOWLEDGE_BASE_DIR / "rule_index"
 REPORTS_DIR = KNOWLEDGE_BASE_DIR / "reports"
 REPORT_PATH = REPORTS_DIR / "knowledge_base_build_report.json"
 
-EMBED_MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
+EMBED_MODEL_NAME = "intfloat/e5-base-v2"
 
 GREEN_CATEGORIES = [
     "lighting_efficiency",
