@@ -28,6 +28,7 @@ from rag_pipeline.config import (
     RUN_ID_WIDTH,
     TOP_K_ARTICLES,
     TOP_K_RULES,
+    ECO_METRIC_OUTPUT_FILENAME,
 )
 from rag_pipeline.node_utils import result_to_dict
 
@@ -201,6 +202,23 @@ def build_generation_json_payload(
         "results": generation,
     }
 
+def build_eco_metric_json_payload(
+    run_id: str,
+    query: str,
+    eco_metric: dict[str, Any],
+) -> dict[str, Any]:
+    """
+    Build the full JSON payload for eco-metric results.
+    """
+    created_at = datetime.now().astimezone().isoformat(timespec="seconds")
+
+    return {
+        "run_id": run_id,
+        "created_at": created_at,
+        "query": query,
+        "stage": "eco_metric",
+        "results": eco_metric,
+    }
 
 # =============================================================================
 # SAVING
@@ -211,9 +229,11 @@ def save_run_results(
     retrieved: dict[str, list[NodeWithScore]],
     postprocessed: dict[str, Any],
     generation: dict[str, Any],
+    eco_metric: dict[str, Any],
 ) -> dict[str, Path]:
     """
-    Save retrieval, postprocessing and generation results inside a dedicated folder.
+    Save retrieval, postprocessing, generation and eco-metric results
+    inside a dedicated folder.
 
     Output structure:
         data/retrieval_runs/
@@ -221,6 +241,7 @@ def save_run_results(
                 retrieval_results.json
                 postprocessed_results.json
                 generation_results.json
+                eco_metric_results.json
     """
     run_id = create_run_id()
     run_dir = RETRIEVAL_RUNS_DIR / run_id
@@ -229,6 +250,7 @@ def save_run_results(
     retrieval_output_path = run_dir / RETRIEVAL_OUTPUT_FILENAME
     postprocessed_output_path = run_dir / POSTPROCESSED_OUTPUT_FILENAME
     generation_output_path = run_dir / GENERATION_OUTPUT_FILENAME
+    eco_metric_output_path = run_dir / ECO_METRIC_OUTPUT_FILENAME
 
     retrieval_payload = build_retrieval_json_payload(
         run_id=run_id,
@@ -248,6 +270,12 @@ def save_run_results(
         generation=generation,
     )
 
+    eco_metric_payload = build_eco_metric_json_payload(
+        run_id=run_id,
+        query=query,
+        eco_metric=eco_metric,
+    )
+
     with retrieval_output_path.open("w", encoding="utf-8") as file:
         json.dump(retrieval_payload, file, indent=2, ensure_ascii=False)
 
@@ -257,9 +285,21 @@ def save_run_results(
     with generation_output_path.open("w", encoding="utf-8") as file:
         json.dump(generation_payload, file, indent=2, ensure_ascii=False)
 
+    with eco_metric_output_path.open("w", encoding="utf-8") as file:
+        json.dump(eco_metric_payload, file, indent=2, ensure_ascii=False)
+
     return {
         "run_dir": run_dir,
         "retrieval_output_path": retrieval_output_path,
         "postprocessed_output_path": postprocessed_output_path,
         "generation_output_path": generation_output_path,
+        "eco_metric_output_path": eco_metric_output_path,
     }
+
+from rag_pipeline.display import (
+    print_eco_metric_result,
+    print_generation_result,
+    print_postprocessing_summary,
+    print_retrieval_results,
+    print_saved_paths,
+)

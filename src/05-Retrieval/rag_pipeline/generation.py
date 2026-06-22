@@ -107,6 +107,8 @@ Requirements:
 - Return only valid JSON.
 - Do not include markdown fences.
 - Do not include explanations outside the JSON object.
+- Do not introduce specific brands, platforms, or device names unless they are explicitly present in the original rule.
+- If the retrieved context contains brand-specific devices, treat them only as examples and generalize them to neutral device categories.
 
 JSON schema:
 {{

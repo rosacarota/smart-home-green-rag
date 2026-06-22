@@ -56,3 +56,17 @@ POSTPROCESSED_OUTPUT_FILENAME = "postprocessed_results.json"
 GENERATION_OUTPUT_FILENAME = "generation_results.json"
 
 DEFAULT_QUERY = "IF You exit from home THEN Turn off lights."
+
+# =============================================================================
+# ECO-METRIC CONFIG
+# =============================================================================
+
+ECO_JUDGE_MODEL_NAME = "gemma4:31b-cloud"
+ECO_JUDGE_TEMPERATURE = 0.0
+ECO_JUDGE_MAX_RETRIES = 3
+
+ECO_METRIC_OUTPUT_FILENAME = "eco_metric_results.json"
+
+PACKAGE_DIR = Path(__file__).resolve().parent
+JUDGE_PROMPT_PATH = PACKAGE_DIR / "judge_prompt.txt"
+JUDGE_SCHEMA_PATH = PACKAGE_DIR / "judge_schema.json"

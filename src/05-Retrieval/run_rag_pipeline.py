@@ -14,6 +14,7 @@ if str(SRC_DIR) not in sys.path:
 
 from rag_pipeline.config import DEFAULT_QUERY
 from rag_pipeline.display import (
+    print_eco_metric_result,
     print_generation_result,
     print_postprocessing_summary,
     print_retrieval_results,
@@ -54,6 +55,10 @@ def main() -> None:
 
     print_generation_result(
         generation=result["generation"],
+    )
+
+    print_eco_metric_result(
+        eco_metric=result["eco_metric"],
     )
 
     print_saved_paths(

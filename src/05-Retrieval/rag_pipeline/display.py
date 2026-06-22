@@ -118,6 +118,30 @@ def print_generation_result(generation: dict[str, Any]) -> None:
         ensure_ascii=False,
     ))
 
+def print_eco_metric_result(eco_metric: dict[str, Any]) -> None:
+    """
+    Print the eco-metric summary.
+    """
+    print("\n" + "=" * 90)
+    print("ECO-METRIC RESULT")
+    print("=" * 90)
+
+    scores = eco_metric.get("scores", {})
+
+    print(f"Label: {eco_metric.get('label')}")
+    print(f"Reason: {eco_metric.get('label_reason')}")
+    print(f"EcoStatic: {scores.get('EcoStatic')}")
+    print(f"Delta awareness: {scores.get('Delta_awareness')}")
+    print(f"Delta energy: {scores.get('Delta_energy')}")
+    print("")
+    print(f"S_awareness original: {scores.get('S_awareness_orig')}")
+    print(f"S_awareness generated: {scores.get('S_awareness_gen')}")
+    print(f"S_energy original: {scores.get('S_energy_orig')}")
+    print(f"S_energy generated: {scores.get('S_energy_gen')}")
+    print("")
+    print(f"IntentPreserved: {scores.get('IntentPreserved')}")
+    print(f"ComfortSafetyPenalty: {scores.get('ComfortSafetyPenalty')}")
+
 
 def print_saved_paths(output_paths: dict[str, Any]) -> None:
     print("\n" + "=" * 90)
@@ -127,3 +151,5 @@ def print_saved_paths(output_paths: dict[str, Any]) -> None:
     print(f"Retrieval JSON: {output_paths['retrieval_output_path']}")
     print(f"Postprocessed JSON: {output_paths['postprocessed_output_path']}")
     print(f"Generation JSON: {output_paths['generation_output_path']}")
+    print(f"Eco-metric JSON: {output_paths['eco_metric_output_path']}")
+    
