@@ -1,0 +1,67 @@
+{
+  "run_id": "run_010",
+  "created_at": "2026-06-22T12:05:29+02:00",
+  "query": "IF You arrive home THEN Turn on all lights.",
+  "stage": "eco_metric",
+  "results": {
+    "eval_id": "EVAL_PIPELINE_RULE",
+    "rule_id": "PIPELINE_RULE",
+    "original_rule": "IF You arrive home THEN Turn on all lights.",
+    "generated_rule": "IF you arrive home AND (time is after sunset OR ambient light level < 200 lux) THEN turn on all Philips Hue lights at 50% brightness.",
+    "judge_model": "gemma4:31b-cloud",
+    "judge_temperature": 0.0,
+    "raw_llm_response": {
+      "original_rule_analysis": {
+        "intent_summary": "Turn on all lights upon returning home.",
+        "trigger_summary": "Arriving home",
+        "condition_summary": "None",
+        "action_summary": "Turn on all lights",
+        "feature_scores": {
+          "OccupancyScore": 1,
+          "EnvConditionScore": 0,
+          "DurationScore": 0,
+          "SchedulingScore": 0,
+          "StandbyScore": 0,
+          "ApplianceScore": 0
+        }
+      },
+      "generated_rule_analysis": {
+        "intent_summary": "Turn on specific lights at reduced brightness upon returning home, only if it is dark.",
+        "trigger_summary": "Arriving home",
+        "condition_summary": "Time is after sunset or ambient light is below 200 lux",
+        "action_summary": "Turn on Philips Hue lights at 50% brightness",
+        "feature_scores": {
+          "OccupancyScore": 1,
+          "EnvConditionScore": 1,
+          "DurationScore": 0,
+          "SchedulingScore": 1,
+          "StandbyScore": 0,
+          "ApplianceScore": 0
+        }
+      },
+      "validity_checks": {
+        "IntentPreserved": 1,
+        "ComfortSafetyPenalty": 0,
+        "intent_explanation": "The rule still achieves the goal of providing light upon arrival, while optimizing for energy by checking light levels and reducing brightness.",
+        "safety_explanation": "No safety risks introduced; dimming lights for arrival is generally safe."
+      }
+    },
+    "raw_response_text": "{\n  \"original_rule_analysis\": {\n    \"intent_summary\": \"Turn on all lights upon returning home.\",\n    \"trigger_summary\": \"Arriving home\",\n    \"condition_summary\": \"None\",\n    \"action_summary\": \"Turn on all lights\",\n    \"feature_scores\": {\n      \"OccupancyScore\": 1,\n      \"EnvConditionScore\": 0,\n      \"DurationScore\": 0,\n      \"SchedulingScore\": 0,\n      \"StandbyScore\": 0,\n      \"ApplianceScore\": 0\n    }\n  },\n  \"generated_rule_analysis\": {\n    \"intent_summary\": \"Turn on specific lights at reduced brightness upon returning home, only if it is dark.\",\n    \"trigger_summary\": \"Arriving home\",\n    \"condition_summary\": \"Time is after sunset or ambient light is below 200 lux\",\n    \"action_summary\": \"Turn on Philips Hue lights at 50% brightness\",\n    \"feature_scores\": {\n      \"OccupancyScore\": 1,\n      \"EnvConditionScore\": 1,\n      \"DurationScore\": 0,\n      \"SchedulingScore\": 1,\n      \"StandbyScore\": 0,\n      \"ApplianceScore\": 0\n    }\n  },\n  \"validity_checks\": {\n    \"IntentPreserved\": 1,\n    \"ComfortSafetyPenalty\": 0,\n    \"intent_explanation\": \"The rule still achieves the goal of providing light upon arrival, while optimizing for energy by checking light levels and reducing brightness.\",\n    \"safety_explanation\": \"No safety risks introduced; dimming lights for arrival is generally safe.\"\n  }\n}",
+    "scores": {
+      "S_awareness_orig": 0.3,
+      "S_awareness_gen": 0.7,
+      "S_energy_orig": 0.0,
+      "S_energy_gen": 0.05,
+      "Delta_awareness": 0.4,
+      "Delta_energy": 0.05,
+      "EcoStatic": 0.225,
+      "IntentPreserved": 1,
+      "ComfortSafetyPenalty": 0,
+      "label": "strong_green",
+      "label_reason": "EcoStatic=0.2250 >= 0.2"
+    },
+    "label": "strong_green",
+    "label_reason": "EcoStatic=0.2250 >= 0.2",
+    "label_source": "script"
+  }
+}

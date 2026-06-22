@@ -1,0 +1,67 @@
+{
+  "run_id": "run_012",
+  "created_at": "2026-06-22T12:20:37+02:00",
+  "query": "IF The garden soil is dry and it is not raining THEN Water the garden for 10 minutes.",
+  "stage": "eco_metric",
+  "results": {
+    "eval_id": "EVAL_PIPELINE_RULE",
+    "rule_id": "PIPELINE_RULE",
+    "original_rule": "IF The garden soil is dry and it is not raining THEN Water the garden for 10 minutes.",
+    "generated_rule": "IF Soil moisture sensor reports moisture < 30% AND Weather forecast service indicates no rain in the next 24 hours AND current time is between 5:00 and 9:00 THEN Activate irrigation system for 10 minutes.",
+    "judge_model": "gemma4:31b-cloud",
+    "judge_temperature": 0.0,
+    "raw_llm_response": {
+      "original_rule_analysis": {
+        "intent_summary": "Water the garden if the soil is dry and it is not currently raining.",
+        "trigger_summary": "Garden soil is dry",
+        "condition_summary": "Not raining",
+        "action_summary": "Water the garden for 10 minutes",
+        "feature_scores": {
+          "OccupancyScore": 0,
+          "EnvConditionScore": 1,
+          "DurationScore": 1,
+          "SchedulingScore": 0,
+          "StandbyScore": 0,
+          "ApplianceScore": 0
+        }
+      },
+      "generated_rule_analysis": {
+        "intent_summary": "Water the garden during early morning hours if soil moisture is low and no rain is forecast for 24 hours.",
+        "trigger_summary": "Soil moisture sensor < 30%",
+        "condition_summary": "No rain forecast for 24h and time is between 5:00 and 9:00",
+        "action_summary": "Activate irrigation system for 10 minutes",
+        "feature_scores": {
+          "OccupancyScore": 0,
+          "EnvConditionScore": 1,
+          "DurationScore": 1,
+          "SchedulingScore": 1,
+          "StandbyScore": 0,
+          "ApplianceScore": 2
+        }
+      },
+      "validity_checks": {
+        "IntentPreserved": 1,
+        "ComfortSafetyPenalty": 0,
+        "intent_explanation": "The generated rule maintains the goal of watering the garden when dry, while adding precision to moisture sensing, weather forecasting, and timing.",
+        "safety_explanation": "No safety or comfort risks introduced by scheduling garden irrigation."
+      }
+    },
+    "raw_response_text": "{\n  \"original_rule_analysis\": {\n    \"intent_summary\": \"Water the garden if the soil is dry and it is not currently raining.\",\n    \"trigger_summary\": \"Garden soil is dry\",\n    \"condition_summary\": \"Not raining\",\n    \"action_summary\": \"Water the garden for 10 minutes\",\n    \"feature_scores\": {\n      \"OccupancyScore\": 0,\n      \"EnvConditionScore\": 1,\n      \"DurationScore\": 1,\n      \"SchedulingScore\": 0,\n      \"StandbyScore\": 0,\n      \"ApplianceScore\": 0\n    }\n  },\n  \"generated_rule_analysis\": {\n    \"intent_summary\": \"Water the garden during early morning hours if soil moisture is low and no rain is forecast for 24 hours.\",\n    \"trigger_summary\": \"Soil moisture sensor < 30%\",\n    \"condition_summary\": \"No rain forecast for 24h and time is between 5:00 and 9:00\",\n    \"action_summary\": \"Activate irrigation system for 10 minutes\",\n    \"feature_scores\": {\n      \"OccupancyScore\": 0,\n      \"EnvConditionScore\": 1,\n      \"DurationScore\": 1,\n      \"SchedulingScore\": 1,\n      \"StandbyScore\": 0,\n      \"ApplianceScore\": 2\n    }\n  },\n  \"validity_checks\": {\n    \"IntentPreserved\": 1,\n    \"ComfortSafetyPenalty\": 0,\n    \"intent_explanation\": \"The generated rule maintains the goal of watering the garden when dry, while adding precision to moisture sensing, weather forecasting, and timing.\",\n    \"safety_explanation\": \"No safety or comfort risks introduced by scheduling garden irrigation.\"\n  }\n}",
+    "scores": {
+      "S_awareness_orig": 0.4,
+      "S_awareness_gen": 0.4,
+      "S_energy_orig": 0.4,
+      "S_energy_gen": 0.55,
+      "Delta_awareness": 0.0,
+      "Delta_energy": 0.15,
+      "EcoStatic": 0.075,
+      "IntentPreserved": 1,
+      "ComfortSafetyPenalty": 0,
+      "label": "accept",
+      "label_reason": "EcoStatic=0.0750 > 0"
+    },
+    "label": "accept",
+    "label_reason": "EcoStatic=0.0750 > 0",
+    "label_source": "script"
+  }
+}

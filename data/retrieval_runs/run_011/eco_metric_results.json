@@ -1,0 +1,67 @@
+{
+  "run_id": "run_011",
+  "created_at": "2026-06-22T12:14:11+02:00",
+  "query": "IF You arrive home THEN Turn on all lights.",
+  "stage": "eco_metric",
+  "results": {
+    "eval_id": "EVAL_PIPELINE_RULE",
+    "rule_id": "PIPELINE_RULE",
+    "original_rule": "IF You arrive home THEN Turn on all lights.",
+    "generated_rule": "IF you arrive home AND ambient light < threshold THEN turn on lights in occupied rooms; IF no motion detected for 30 minutes THEN turn off lights.",
+    "judge_model": "gemma4:31b-cloud",
+    "judge_temperature": 0.0,
+    "raw_llm_response": {
+      "original_rule_analysis": {
+        "intent_summary": "Ensure all lights are on upon arriving home.",
+        "trigger_summary": "User arrives home.",
+        "condition_summary": "None",
+        "action_summary": "Turn on all lights.",
+        "feature_scores": {
+          "OccupancyScore": 1,
+          "EnvConditionScore": 0,
+          "DurationScore": 0,
+          "SchedulingScore": 0,
+          "StandbyScore": 0,
+          "ApplianceScore": 0
+        }
+      },
+      "generated_rule_analysis": {
+        "intent_summary": "Turn on lights based on arrival, ambient light level, and occupancy, with auto-off logic.",
+        "trigger_summary": "User arrives home or no motion detected.",
+        "condition_summary": "Ambient light below threshold and motion detected.",
+        "action_summary": "Turn on lights in occupied rooms; turn off lights after 30 minutes of no motion.",
+        "feature_scores": {
+          "OccupancyScore": 2,
+          "EnvConditionScore": 1,
+          "DurationScore": 1,
+          "SchedulingScore": 0,
+          "StandbyScore": 0,
+          "ApplianceScore": 0
+        }
+      },
+      "validity_checks": {
+        "IntentPreserved": 1,
+        "ComfortSafetyPenalty": 0,
+        "intent_explanation": "The core goal of providing light upon arrival is maintained, while adding efficiency constraints.",
+        "safety_explanation": "No safety risks introduced; 30-minute timeout is reasonable for lighting."
+      }
+    },
+    "raw_response_text": "{\n  \"original_rule_analysis\": {\n    \"intent_summary\": \"Ensure all lights are on upon arriving home.\",\n    \"trigger_summary\": \"User arrives home.\",\n    \"condition_summary\": \"None\",\n    \"action_summary\": \"Turn on all lights.\",\n    \"feature_scores\": {\n      \"OccupancyScore\": 1,\n      \"EnvConditionScore\": 0,\n      \"DurationScore\": 0,\n      \"SchedulingScore\": 0,\n      \"StandbyScore\": 0,\n      \"ApplianceScore\": 0\n    }\n  },\n  \"generated_rule_analysis\": {\n    \"intent_summary\": \"Turn on lights based on arrival, ambient light level, and occupancy, with auto-off logic.\",\n    \"trigger_summary\": \"User arrives home or no motion detected.\",\n    \"condition_summary\": \"Ambient light below threshold and motion detected.\",\n    \"action_summary\": \"Turn on lights in occupied rooms; turn off lights after 30 minutes of no motion.\",\n    \"feature_scores\": {\n      \"OccupancyScore\": 2,\n      \"EnvConditionScore\": 1,\n      \"DurationScore\": 1,\n      \"SchedulingScore\": 0,\n      \"StandbyScore\": 0,\n      \"ApplianceScore\": 0\n    }\n  },\n  \"validity_checks\": {\n    \"IntentPreserved\": 1,\n    \"ComfortSafetyPenalty\": 0,\n    \"intent_explanation\": \"The core goal of providing light upon arrival is maintained, while adding efficiency constraints.\",\n    \"safety_explanation\": \"No safety risks introduced; 30-minute timeout is reasonable for lighting.\"\n  }\n}",
+    "scores": {
+      "S_awareness_orig": 0.3,
+      "S_awareness_gen": 1.0,
+      "S_energy_orig": 0.0,
+      "S_energy_gen": 0.4,
+      "Delta_awareness": 0.7,
+      "Delta_energy": 0.4,
+      "EcoStatic": 0.55,
+      "IntentPreserved": 1,
+      "ComfortSafetyPenalty": 0,
+      "label": "strong_green",
+      "label_reason": "EcoStatic=0.5500 >= 0.2"
+    },
+    "label": "strong_green",
+    "label_reason": "EcoStatic=0.5500 >= 0.2",
+    "label_source": "script"
+  }
+}

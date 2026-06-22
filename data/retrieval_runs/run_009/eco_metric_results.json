@@ -1,0 +1,67 @@
+{
+  "run_id": "run_009",
+  "created_at": "2026-06-22T11:58:45+02:00",
+  "query": "IF You exit from home THEN Turn off lights.",
+  "stage": "eco_metric",
+  "results": {
+    "eval_id": "EVAL_PIPELINE_RULE",
+    "rule_id": "PIPELINE_RULE",
+    "original_rule": "IF You exit from home THEN Turn off lights.",
+    "generated_rule": "IF you exit the home AND no other occupants are present AND no motion detected in any room for 5 minutes THEN turn off all lights.",
+    "judge_model": "gemma4:31b-cloud",
+    "judge_temperature": 0.0,
+    "raw_llm_response": {
+      "original_rule_analysis": {
+        "intent_summary": "Turn off lights when the user leaves the home to save energy.",
+        "trigger_summary": "User exits the home",
+        "condition_summary": "None",
+        "action_summary": "Turn off lights",
+        "feature_scores": {
+          "OccupancyScore": 1,
+          "EnvConditionScore": 0,
+          "DurationScore": 0,
+          "SchedulingScore": 0,
+          "StandbyScore": 0,
+          "ApplianceScore": 0
+        }
+      },
+      "generated_rule_analysis": {
+        "intent_summary": "Ensure lights are turned off only when the home is completely vacant to avoid leaving other residents in the dark.",
+        "trigger_summary": "User exits the home",
+        "condition_summary": "No other occupants present and no motion detected for 5 minutes",
+        "action_summary": "Turn off all lights",
+        "feature_scores": {
+          "OccupancyScore": 2,
+          "EnvConditionScore": 0,
+          "DurationScore": 1,
+          "SchedulingScore": 0,
+          "StandbyScore": 0,
+          "ApplianceScore": 0
+        }
+      },
+      "validity_checks": {
+        "IntentPreserved": 1,
+        "ComfortSafetyPenalty": 0,
+        "intent_explanation": "The generated rule maintains the goal of turning off lights upon exit while adding safety checks for other occupants.",
+        "safety_explanation": "The addition of occupancy and motion checks prevents lights from being turned off while other people are still in the house, improving safety and comfort."
+      }
+    },
+    "raw_response_text": "{\n  \"original_rule_analysis\": {\n    \"intent_summary\": \"Turn off lights when the user leaves the home to save energy.\",\n    \"trigger_summary\": \"User exits the home\",\n    \"condition_summary\": \"None\",\n    \"action_summary\": \"Turn off lights\",\n    \"feature_scores\": {\n      \"OccupancyScore\": 1,\n      \"EnvConditionScore\": 0,\n      \"DurationScore\": 0,\n      \"SchedulingScore\": 0,\n      \"StandbyScore\": 0,\n      \"ApplianceScore\": 0\n    }\n  },\n  \"generated_rule_analysis\": {\n    \"intent_summary\": \"Ensure lights are turned off only when the home is completely vacant to avoid leaving other residents in the dark.\",\n    \"trigger_summary\": \"User exits the home\",\n    \"condition_summary\": \"No other occupants present and no motion detected for 5 minutes\",\n    \"action_summary\": \"Turn off all lights\",\n    \"feature_scores\": {\n      \"OccupancyScore\": 2,\n      \"EnvConditionScore\": 0,\n      \"DurationScore\": 1,\n      \"SchedulingScore\": 0,\n      \"StandbyScore\": 0,\n      \"ApplianceScore\": 0\n    }\n  },\n  \"validity_checks\": {\n    \"IntentPreserved\": 1,\n    \"ComfortSafetyPenalty\": 0,\n    \"intent_explanation\": \"The generated rule maintains the goal of turning off lights upon exit while adding safety checks for other occupants.\",\n    \"safety_explanation\": \"The addition of occupancy and motion checks prevents lights from being turned off while other people are still in the house, improving safety and comfort.\"\n  }\n}",
+    "scores": {
+      "S_awareness_orig": 0.3,
+      "S_awareness_gen": 0.6,
+      "S_energy_orig": 0.0,
+      "S_energy_gen": 0.4,
+      "Delta_awareness": 0.3,
+      "Delta_energy": 0.4,
+      "EcoStatic": 0.35,
+      "IntentPreserved": 1,
+      "ComfortSafetyPenalty": 0,
+      "label": "strong_green",
+      "label_reason": "EcoStatic=0.3500 >= 0.2"
+    },
+    "label": "strong_green",
+    "label_reason": "EcoStatic=0.3500 >= 0.2",
+    "label_source": "script"
+  }
+}
