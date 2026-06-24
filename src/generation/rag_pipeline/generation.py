@@ -3,8 +3,8 @@ from __future__ import annotations
 from typing import Any
 import json
 
-from rag_pipeline.clients import configure_llm_client
-from rag_pipeline.config import (
+from generation.rag_pipeline.clients import configure_llm_client
+from generation.rag_pipeline.config import (
     LLM_MODEL_NAME,
     LLM_PROVIDER,
     LLM_TEMPERATURE,

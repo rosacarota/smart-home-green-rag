@@ -7,14 +7,14 @@ import re
 from llama_index.core.schema import NodeWithScore
 from sentence_transformers import CrossEncoder
 
-from rag_pipeline.config import (
+from generation.rag_pipeline.config import (
     FINAL_ARTICLES_K,
     FINAL_RULES_K,
     MIN_ARTICLE_CHARS,
     RERANK_MODEL_NAME,
     RULE_DEDUP_SIMILARITY_THRESHOLD,
 )
-from rag_pipeline.node_utils import (
+from generation.rag_pipeline.node_utils import (
     get_node_text,
     result_to_dict,
 )

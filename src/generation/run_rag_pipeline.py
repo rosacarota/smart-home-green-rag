@@ -12,15 +12,15 @@ if str(SRC_DIR) not in sys.path:
     sys.path.insert(0, str(SRC_DIR))
 
 
-from rag_pipeline.config import DEFAULT_QUERY
-from rag_pipeline.display import (
+from generation.rag_pipeline.config import DEFAULT_QUERY
+from generation.rag_pipeline.display import (
     print_eco_metric_result,
     print_generation_result,
     print_postprocessing_summary,
     print_retrieval_results,
     print_saved_paths,
 )
-from rag_pipeline.pipeline import run_rag_pipeline
+from generation.rag_pipeline.pipeline import run_rag_pipeline
 
 
 def main() -> None:

@@ -8,7 +8,7 @@ from ollama import Client
 from llama_index.core import Settings
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 
-from rag_pipeline.config import (
+from generation.rag_pipeline.config import (
     EMBED_MODEL_NAME,
     OLLAMA_CLOUD_HOST,
 )

@@ -7,7 +7,7 @@ import json
 
 from llama_index.core.schema import NodeWithScore
 
-from rag_pipeline.config import (
+from generation.rag_pipeline.config import (
     ARTICLE_INDEX_DIR,
     EMBED_MODEL_NAME,
     FINAL_ARTICLES_K,
@@ -30,7 +30,7 @@ from rag_pipeline.config import (
     TOP_K_RULES,
     ECO_METRIC_OUTPUT_FILENAME,
 )
-from rag_pipeline.node_utils import result_to_dict
+from generation.rag_pipeline.node_utils import result_to_dict
 
 
 # =============================================================================
@@ -296,7 +296,7 @@ def save_run_results(
         "eco_metric_output_path": eco_metric_output_path,
     }
 
-from rag_pipeline.display import (
+from generation.rag_pipeline.display import (
     print_eco_metric_result,
     print_generation_result,
     print_postprocessing_summary,

@@ -5,8 +5,8 @@ from pathlib import Path
 from llama_index.core import StorageContext, load_index_from_storage
 from llama_index.core.schema import NodeWithScore
 
-from rag_pipeline.clients import configure_llamaindex
-from rag_pipeline.config import (
+from generation.rag_pipeline.clients import configure_llamaindex
+from generation.rag_pipeline.config import (
     ARTICLE_INDEX_DIR,
     RULE_INDEX_DIR,
     TOP_K_ARTICLES,

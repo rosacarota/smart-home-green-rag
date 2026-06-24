@@ -2,11 +2,11 @@ from __future__ import annotations
 
 from typing import Any
 
-from rag_pipeline.eco_metric import evaluate_rule_pair
-from rag_pipeline.generation import generate_green_rule
-from rag_pipeline.postprocessing import postprocess_context
-from rag_pipeline.retrieval import retrieve_context
-from rag_pipeline.run_io import save_run_results
+from generation.rag_pipeline.eco_metric import evaluate_rule_pair
+from generation.rag_pipeline.generation import generate_green_rule
+from generation.rag_pipeline.postprocessing import postprocess_context
+from generation.rag_pipeline.retrieval import retrieve_context
+from generation.rag_pipeline.run_io import save_run_results
 
 
 def extract_generated_rule(generation: dict[str, Any]) -> str:

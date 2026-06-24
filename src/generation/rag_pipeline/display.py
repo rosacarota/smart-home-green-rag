@@ -5,7 +5,7 @@ import json
 
 from llama_index.core.schema import NodeWithScore
 
-from rag_pipeline.node_utils import result_to_dict
+from generation.rag_pipeline.node_utils import result_to_dict
 
 
 def print_rule_results(results: list[NodeWithScore]) -> None:

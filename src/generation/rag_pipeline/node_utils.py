@@ -4,7 +4,7 @@ from typing import Any
 
 from llama_index.core.schema import MetadataMode, NodeWithScore
 
-from rag_pipeline.config import TEXT_PREVIEW_CHARS
+from generation.rag_pipeline.config import TEXT_PREVIEW_CHARS
 
 
 def get_node_text(result: NodeWithScore) -> str:

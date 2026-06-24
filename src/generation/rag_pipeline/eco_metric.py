@@ -6,15 +6,15 @@ import time
 
 import jsonschema
 
-from rag_pipeline.clients import configure_llm_client
-from rag_pipeline.config import (
+from generation.rag_pipeline.clients import configure_llm_client
+from generation.rag_pipeline.config import (
     ECO_JUDGE_MAX_RETRIES,
     ECO_JUDGE_MODEL_NAME,
     ECO_JUDGE_TEMPERATURE,
     JUDGE_PROMPT_PATH,
     JUDGE_SCHEMA_PATH,
 )
-from rag_pipeline.generation import (
+from generation.rag_pipeline.generation import (
     extract_ollama_response_content,
     parse_llm_json_response,
 )

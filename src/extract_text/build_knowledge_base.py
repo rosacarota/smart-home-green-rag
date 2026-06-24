@@ -12,9 +12,9 @@ from llama_index.core import Settings, VectorStoreIndex
 from llama_index.core.schema import MetadataMode, TextNode
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 
-import build_documents
-import build_nodes
-import build_rules_nodes
+from extract_text import build_documents
+from extract_text import build_nodes
+from extract_text import build_rules_nodes
 
 
 KNOWLEDGE_BASE_DIR = Path("data/knowledge_base")
