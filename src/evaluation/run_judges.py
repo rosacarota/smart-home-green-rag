@@ -325,6 +325,7 @@ def configure_openrouter_client() -> OpenAI:
     return OpenAI(
         api_key=api_key,
         base_url=OPENROUTER_BASE_URL,
+
     )
 
 
@@ -492,6 +493,9 @@ def call_openrouter_judge_model(
                 extra_body={
                     "provider": {
                         "require_parameters": True,
+                    },
+                    "reasoning": {
+                        "effort": "none",
                     },
                 },
             )

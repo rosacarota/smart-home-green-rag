@@ -1,0 +1,10 @@
+target_category,n_examples,strong_green_rate,accept_rate,reject_rate,ambiguous_rate,mean_EcoStatic,mean_EcoStatic_std
+lighting_efficiency,40,80.0,15.0,5.0,0.0,0.35625,0.0788860116828324
+comfort_security,40,82.5,12.5,2.5,2.5,0.35,0.10253103206411021
+scheduling_optimization,40,70.0,20.0,5.0,5.0,0.2975,0.07907101978437492
+occupancy_based_control,40,72.5,15.0,12.5,0.0,0.2925,0.03807033905886226
+standby_reduction,40,65.0,22.5,12.5,0.0,0.29,0.052646400136402816
+hvac_optimization,40,72.5,20.0,7.5,0.0,0.285625,0.08313625751378464
+appliance_energy_management,40,67.5,27.500000000000004,2.5,2.5,0.265625,0.06498179058929329
+environmental_awareness,40,52.5,30.0,15.0,2.5,0.23125,0.0743635333551351
+water_saving,40,70.0,17.5,7.5,5.0,0.224375,0.07829802790517258

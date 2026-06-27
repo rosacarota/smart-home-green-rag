@@ -1,0 +1,22 @@
+{
+  "article_index_dir": "data\\knowledge_base\\article_index",
+  "rule_index_dir": "data\\knowledge_base\\rule_index",
+  "method": "umap",
+  "color_by": "green_category",
+  "total_points": 1213,
+  "source_counts": {
+    "rule_index": 925,
+    "article_index": 288
+  },
+  "green_category_counts": {
+    "lighting_efficiency": 339,
+    "occupancy_based_control": 296,
+    "environmental_awareness": 202,
+    "hvac_optimization": 150,
+    "appliance_energy_management": 87,
+    "comfort_security": 55,
+    "water_saving": 39,
+    "scheduling_optimization": 36,
+    "standby_reduction": 9
+  }
+}

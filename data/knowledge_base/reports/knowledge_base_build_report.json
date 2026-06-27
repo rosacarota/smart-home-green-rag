@@ -1,0 +1,33 @@
+{
+  "embedding_model": "intfloat/e5-base-v2",
+  "article_nodes_indexed": 401,
+  "rule_nodes_indexed": 925,
+  "article_index_dir": "data\\knowledge_base\\article_index",
+  "rule_index_dir": "data\\knowledge_base\\rule_index",
+  "article_category_counts": {
+    "lighting_efficiency": 107,
+    "occupancy_based_control": 234,
+    "hvac_optimization": 105,
+    "appliance_energy_management": 269,
+    "environmental_awareness": 316,
+    "comfort_security": 0,
+    "water_saving": 55,
+    "scheduling_optimization": 197,
+    "standby_reduction": 118
+  },
+  "rule_category_counts": {
+    "lighting_efficiency": 274,
+    "occupancy_based_control": 205,
+    "hvac_optimization": 150,
+    "appliance_energy_management": 87,
+    "environmental_awareness": 70,
+    "comfort_security": 55,
+    "water_saving": 39,
+    "scheduling_optimization": 36,
+    "standby_reduction": 9
+  },
+  "intermediate_previews_used": false,
+  "documents_built_in_memory": true,
+  "article_nodes_built_in_memory": true,
+  "rule_nodes_built_in_memory": true
+}
