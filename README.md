@@ -1,41 +1,41 @@
 # 🌿 Green Rule RAG
 
-Un sistema basato su **Retrieval-Augmented Generation (RAG)** per la generazione di varianti sostenibili di regole trigger-action nel dominio della smart home.
+A **Retrieval-Augmented Generation (RAG)** system for generating sustainable variants of trigger-action rules in the smart home domain.
 
-Data una regola domotica espressa in linguaggio naturale (es. *"IF You exit from home THEN Turn off lights"*), il sistema recupera conoscenza rilevante da una knowledge base costruita su articoli scientifici e regole green pre-catalogate, e genera una versione più sostenibile della regola originale, valutandone infine la qualità attraverso un'eco-metrica strutturata.
-
----
-
-## Indice
-
-- [Panoramica della Pipeline](#panoramica-della-pipeline)
-- [Architettura del Progetto](#architettura-del-progetto)
-- [Struttura della Repository](#struttura-della-repository)
-- [Stage 1 — Pulizia del Dataset](#stage-1--pulizia-del-dataset-01-cleaning)
-- [Stage 2 — Inferenza LLM](#stage-2--inferenza-llm-02-inference)
-- [Stage 3 — Dataset Finale](#stage-3--dataset-finale-03-finaldataset)
-- [Stage 4 — Estrazione e Costruzione della Knowledge Base](#stage-4--estrazione-e-costruzione-della-knowledge-base-04-extracttext)
-- [Stage 5 — RAG Pipeline](#stage-5--rag-pipeline-05-retrieval)
-- [Stage 6 — Valutazione con Eco-Metrica](#stage-6--valutazione-con-eco-metrica-06-evaluation)
-- [Dati](#dati)
-- [Tecnologie Utilizzate](#tecnologie-utilizzate)
-- [Installazione](#installazione)
-- [Configurazione](#configurazione)
+Given a home automation rule expressed in natural language (e.g., *"IF You exit from home THEN Turn off lights"*), the system retrieves relevant knowledge from a knowledge base built on scientific articles and pre-catalogued green rules, generates a more sustainable version of the original rule, and evaluates its quality through a structured eco-metric.
 
 ---
 
-## Panoramica della Pipeline
+## Table of Contents
+
+- [Pipeline Overview](#pipeline-overview)
+- [Project Architecture](#project-architecture)
+- [Repository Structure](#repository-structure)
+- [Stage 1 — Dataset Cleaning](#stage-1--dataset-cleaning)
+- [Stage 2 — LLM Inference](#stage-2--llm-inference)
+- [Stage 3 — Final Dataset](#stage-3--final-dataset)
+- [Stage 4 — Knowledge Base Construction](#stage-4--knowledge-base-construction)
+- [Stage 5 — RAG Pipeline](#stage-5--rag-pipeline)
+- [Stage 6 — Evaluation](#stage-6--evaluation)
+- [Data](#data)
+- [Technology Stack](#technology-stack)
+- [Installation](#installation)
+- [Configuration](#configuration)
+
+---
+
+## Pipeline Overview
 
 ```mermaid
 flowchart TD
-    A["📦 Dataset Raw\n(trigger-action rules IFTTT)"] --> B["🧹 Stage 1\nPulizia & Filtering"]
+    A["📦 Raw Dataset\n(trigger-action rules from IFTTT)"] --> B["🧹 Stage 1\nFiltering & Cleaning"]
     B --> C["🏷️ Stage 1\nTopic Modeling\n(BERTopic)"]
-    C --> D["🤖 Stage 2\nInferenza LLM\n(contesti + batch)"]
-    D --> E["📋 Stage 3\nDataset Finale Green"]
+    C --> D["🤖 Stage 2\nLLM Inference\n(contexts + batch)"]
+    D --> E["📋 Stage 3\nFinal Green Dataset"]
 
-    F["📄 Articoli Scientifici\n(PDF)"] --> G["🔬 Stage 4\nEstrazione GROBID"]
-    G --> H["🧼 Stage 4\nPulizia TEI XML"]
-    H --> I["📄 Stage 4\nDocumenti LlamaIndex"]
+    F["📄 Scientific Articles\n(PDF)"] --> G["🔬 Stage 4\nGROBID Extraction"]
+    G --> H["🧼 Stage 4\nTEI XML Cleaning"]
+    H --> I["📄 Stage 4\nLlamaIndex Documents"]
     I --> J["✂️ Stage 4\nChunking\n(sentence-aware)"]
 
     E --> K["📐 Stage 4\nRule Nodes"]
@@ -44,43 +44,44 @@ flowchart TD
 
     L --> M["🔍 Stage 5\nRetrieval\n(rule + article index)"]
     M --> N["⚙️ Stage 5\nPostprocessing\n(dedup + rerank)"]
-    N --> O["✨ Stage 5\nGenerazione LLM\n(green variant)"]
+    N --> O["✨ Stage 5\nLLM Generation\n(green variant)"]
+    O --> P["📊 Stage 5\nEco-Metric\n(LLM-as-Judge)"]
 
-    O --> P["📊 Stage 6\nValutazione\n(LLM-as-Judge + EcoStatic)"]
+    P --> Q["🧪 Stage 6\nSynthetic Evaluation\n(multi-model judges)"]
 ```
 
 ---
 
-## Architettura del Progetto
+## Project Architecture
 
-Il progetto è organizzato in **6 stage sequenziali**, ciascuno corrispondente a una cartella numerata in `src/`:
+The project is organized into **6 sequential stages**, each corresponding to a folder in `src/`:
 
-| Stage | Cartella | Scopo |
-|-------|----------|-------|
-| 1 | `01-Cleaning` | Filtraggio del dataset raw, topic modeling con BERTopic, suddivisione in batch per topic |
-| 2 | `02-Inference` | Inferenza LLM per generare contesti topic-level e annotare ogni regola (green relevance, IF-THEN rewriting) |
-| 3 | `03-FinalDataset` | Assemblaggio del dataset finale delle regole green (filtraggio per relevance medium/high, deduplicazione) |
-| 4 | `04-ExtractText` | Estrazione testo da articoli PDF (GROBID), pulizia TEI, costruzione documenti, chunking, indicizzazione vettoriale |
-| 5 | `05-Retrieval` | Pipeline RAG completa: retrieval, postprocessing (dedup + cross-encoder rerank), generazione della regola green |
-| 6 | `06-Evaluation` | Valutazione con LLM-as-Judge e eco-metrica deterministica (EcoStatic) |
+| Stage | Folder | Purpose |
+|-------|--------|---------|
+| 1 | `cleaning` | Filtering the raw dataset, topic modeling with BERTopic, splitting into topic batches |
+| 2 | `inference` | LLM inference to generate topic-level contexts and annotate each rule (green relevance, IF-THEN rewriting) |
+| 3 | `final_rule_dataset` | Assembling the final green rule dataset (filtering by relevance, deduplication) |
+| 4 | `extract_text` | Extracting text from PDFs (GROBID), TEI cleaning, document/node construction, chunking, vector indexing |
+| 5 | `generation` | Full RAG pipeline: retrieval, postprocessing (dedup + rerank), LLM generation, eco-metric evaluation |
+| 6 | `evaluation` | Synthetic benchmark: batch generation over synthetic rules and multi-model LLM-as-Judge evaluation |
 
 ---
 
-## Struttura della Repository
+## Repository Structure
 
 ```
 smart-home-green-rag/
 ├── src/
-│   ├── 01-Cleaning/
-│   │   └── 03_split_topics_into_batches.py
-│   ├── 02-Inference/
-│   │   ├── 01-generate_topic_contexts.py
-│   │   ├── 02-infer_topic_batches.py
+│   ├── cleaning/
+│   │   └── split_topics_into_batches.py
+│   ├── inference/
+│   │   ├── generate_topic_contexts.py
+│   │   ├── infer_topic_batches.py
 │   │   ├── prompt_context.txt
 │   │   └── prompt_batch.txt
-│   ├── 03-FinalDataset/
-│   │   └── 01-build_final_green_dataset.py
-│   ├── 04-ExtractText/
+│   ├── final_rule_dataset/
+│   │   └── build_final_green_dataset.py
+│   ├── extract_text/
 │   │   ├── extract_grobid.py
 │   │   ├── clean_grobid_tei.py
 │   │   ├── build_documents.py
@@ -89,7 +90,7 @@ smart-home-green-rag/
 │   │   ├── build_knowledge_base.py
 │   │   ├── build_vector_indexes.py
 │   │   └── visualize_knowledge_base.py
-│   ├── 05-Retrieval/
+│   ├── generation/
 │   │   ├── run_rag_pipeline.py
 │   │   └── rag_pipeline/
 │   │       ├── config.py
@@ -97,247 +98,229 @@ smart-home-green-rag/
 │   │       ├── retrieval.py
 │   │       ├── postprocessing.py
 │   │       ├── generation.py
+│   │       ├── eco_metric.py
 │   │       ├── display.py
 │   │       ├── run_io.py
 │   │       ├── node_utils.py
-│   │       └── pipeline.py
-│   └── 06-Evaluation/
-│       ├── 01-build_eval_inputs.py
-│       ├── 02-run_llm_judge.py
-│       ├── 03-validate_judgments.py
-│       ├── judge_prompt.txt
-│       └── judge_schema.json
+│   │       ├── pipeline.py
+│   │       ├── judge_prompt.txt
+│   │       └── judge_schema.json
+│   └── evaluation/
+│       ├── run_generations.py
+│       └── run_judges.py
 ├── notebooks/
-│   └── 01-Cleaning/
-│       ├── 01_raw_dataset_filtering.ipynb
-│       └── 02_topic_modeling_bertopic.ipynb
+│   ├── 01-Cleaning/
+│   │   ├── 01_raw_dataset_filtering.ipynb
+│   │   └── 02_topic_modeling_bertopic.ipynb
+│   └── eco_metric_validation_notebook.ipynb
 ├── data/
 │   ├── dataset-rules/
-│   │   ├── raw/                 # Dataset originale
-│   │   ├── processed/           # Dataset filtrato e clusterizzato
-│   │   ├── taxonomies/          # Tassonomie dei canali
-│   │   ├── batch/               # Batch per topic (input per LLM)
-│   │   ├── final_batch/         # Output LLM con contesti e annotazioni
-│   │   └── final_dataset/       # Dataset green finale + rule nodes
+│   │   ├── raw/                 # Original IFTTT dataset
+│   │   ├── processed/           # Filtered and clustered dataset
+│   │   ├── taxonomies/          # Channel classification taxonomies
+│   │   ├── batch/               # Topic batches (LLM input)
+│   │   ├── final_batch/         # LLM output with contexts and annotations
+│   │   └── final_dataset/       # Final green dataset + rule nodes
 │   ├── articles/
-│   │   ├── pdfs/                # PDF degli articoli scientifici
-│   │   ├── articles-metadata/   # Metadati JSON per articolo
-│   │   ├── extracted_grobid_tei/# TEI XML estratti da GROBID
-│   │   ├── cleaned_blocks/      # Blocchi JSONL puliti
-│   │   ├── supplementary_blocks/# Blocchi supplementari (glossari, box)
-│   │   ├── table_blocks/        # Tabelle estratte
-│   │   ├── discarded_blocks/    # Blocchi scartati (diagnostica)
-│   │   ├── review_blocks/       # Blocchi da review manuale
-│   │   ├── cleaning_reports/    # Report di pulizia per articolo
-│   │   ├── documents_preview/   # Preview dei documenti LlamaIndex
-│   │   └── nodes_preview/       # Preview dei nodi chunk
-│   └── retrieval_runs/          # Output delle run RAG
+│   │   ├── pdfs/                # Scientific article PDFs
+│   │   ├── articles-metadata/   # Per-article JSON metadata
+│   │   ├── extracted_grobid_tei/# TEI XML from GROBID
+│   │   ├── cleaned_blocks/      # Cleaned JSONL blocks
+│   │   ├── supplementary_blocks/# Supplementary blocks (glossaries, boxes)
+│   │   ├── table_blocks/        # Extracted tables
+│   │   ├── discarded_blocks/    # Discarded blocks (diagnostics)
+│   │   ├── review_blocks/       # Blocks flagged for manual review
+│   │   ├── cleaning_reports/    # Per-article cleaning reports
+│   │   ├── documents_preview/   # LlamaIndex document previews
+│   │   └── nodes_preview/       # Chunk node previews
+│   ├── knowledge_base/
+│   │   ├── article_index/       # Vector index for article chunks
+│   │   ├── rule_index/          # Vector index for green rules
+│   │   ├── reports/             # KB construction reports
+│   │   └── visualizations/      # 3D embedding visualizations
+│   ├── retrieval_runs/          # Per-run RAG output (JSON)
+│   └── synthetic_evaluation/    # Synthetic benchmark dataset & experiments
+│       ├── synthetic_green_rules_360.jsonl
+│       └── exp_001/
+│           ├── generations.jsonl
+│           └── judges/          # Per-judge-model results
 ├── utils/
-│   └── dataset_group_by.py
+│   ├── dataset_group_by.py
+│   └── convert_excel_to_jsonl.py
 ├── requirements.txt
 └── README.md
 ```
 
 ---
 
-## Stage 1 — Pulizia del Dataset (`01-Cleaning`)
+## Stage 1 — Dataset Cleaning
 
-### Obiettivo
-Partendo dal dataset raw di regole trigger-action (derivate da IFTTT), filtrare e organizzare le regole rilevanti per il dominio smart home, raggruppandole tematicamente.
+**Goal**: Filter and organize relevant smart home rules from the raw IFTTT trigger-action dataset, grouping them by topic.
 
-### Processo
+### Process
 
-1. **Filtraggio del dataset raw** (`notebooks/01-Cleaning/01_raw_dataset_filtering.ipynb`)
-   - Caricamento del dataset grezzo (`data/dataset-rules/raw/dataset_raw.csv`)
-   - Mapping dei canali con una tassonomia (`channel_class_mapping.csv`)
-   - Classificazione delle regole in tre scope: `core_smart_home`, `context_aware_smart_home`, `smart_home_related`
-   - Filtraggio delle regole non pertinenti
+1. **Raw dataset filtering** (`notebooks/01-Cleaning/01_raw_dataset_filtering.ipynb`)
+   - Loads the raw dataset (`data/dataset-rules/raw/dataset_raw.csv`)
+   - Maps channels using a taxonomy (`channel_class_mapping.csv`)
+   - Classifies rules into three scopes: `core_smart_home`, `context_aware_smart_home`, `smart_home_related`
+   - Filters out non-relevant rules
    - Output: `data/dataset-rules/processed/dataset_candidates_rag.csv`
 
-2. **Topic modeling con BERTopic** (`notebooks/01-Cleaning/02_topic_modeling_bertopic.ipynb`)
-   - Clustering tematico delle regole tramite BERTopic
-   - Assegnazione di topic ID e topic name a ogni regola
-   - Output: dataset con cluster tematici
+2. **Topic modeling with BERTopic** (`notebooks/01-Cleaning/02_topic_modeling_bertopic.ipynb`)
+   - Thematic clustering via BERTopic
+   - Assigns topic ID and topic name to each rule
 
-3. **Suddivisione in batch per topic** (`src/01-Cleaning/03_split_topics_into_batches.py`)
-   - Generazione di ID stabili per sample (`T024_S0001`) e topic (`T024`)
-   - Suddivisione in batch da massimo 100 regole per topic
-   - Esportazione solo delle colonne necessarie all'LLM: `sample_id`, `topic_name`, `topic_text`
+3. **Splitting into topic batches** (`src/cleaning/split_topics_into_batches.py`)
+   - Generates stable sample IDs (`T024_S0001`) and topic IDs (`T024`)
+   - Splits into batches of up to 100 rules per topic
+   - Exports only the columns needed for LLM inference: `sample_id`, `topic_name`, `topic_text`
    - Output: `data/dataset-rules/batch/topic_*/topic_*_batch_*.csv` + manifest
 
 ---
 
-## Stage 2 — Inferenza LLM (`02-Inference`)
+## Stage 2 — LLM Inference
 
-### Obiettivo
-Utilizzare un LLM (GPT-4o-mini via OpenRouter) per arricchire il dataset con annotazioni strutturate: contesto del topic, riscrittura IF-THEN, green relevance e decisione di inclusione.
+**Goal**: Enrich the dataset with structured annotations via LLM (GPT-4o-mini via OpenRouter): topic context, IF-THEN rewriting, green relevance, and inclusion decision.
 
-### Processo
+### Process
 
-1. **Generazione dei contesti topic-level** (`01-generate_topic_contexts.py`)
-   - Per ogni cluster BERTopic, campiona N regole rappresentative
-   - L'LLM analizza i campioni e produce un contesto stabile per il topic:
-     - `llm_topic_name` — nome funzionale del topic
-     - `topic_summary` — descrizione del contenuto del topic
-     - `green_category` — categoria green in snake_case (es. `hvac_optimization`, `lighting_efficiency`)
-     - `global_green_relevance` — rilevanza green globale: `high`, `medium`, `low`, `none`
-   - Output strutturato validato via JSON Schema
+1. **Topic-level context generation** (`src/inference/generate_topic_contexts.py`)
+   - For each BERTopic cluster, samples N representative rules
+   - The LLM analyzes the samples and produces a stable context:
+     - `llm_topic_name` — functional topic name
+     - `topic_summary` — description of the topic content
+     - `green_category` — green category in snake_case (e.g., `hvac_optimization`)
+     - `global_green_relevance` — global green relevance: `high`, `medium`, `low`, `none`
+   - Output validated via JSON Schema
    - Output: `data/dataset-rules/final_batch/topic_*/topic_*_context.json`
 
-2. **Inferenza batch per regola** (`02-infer_topic_batches.py`)
-   - Per ogni regola nel batch, utilizzando il contesto del topic:
-     - Riscrittura in formato IF-THEN pulito
-     - Assegnazione di `green_relevance` a livello di singola regola
-     - Decisione `keep_for_rag`: true/false
+2. **Per-rule batch inference** (`src/inference/infer_topic_batches.py`)
+   - For each rule in the batch, using the topic context:
+     - Rewrites the rule in clean IF-THEN format
+     - Assigns per-rule `green_relevance`
+     - Decides `keep_for_rag`: true/false
    - Output: `data/dataset-rules/final_batch/topic_*/topic_*_batch_*.json`
 
-### Prompt
-- **System prompt contesto** (`prompt_context.txt`): definisce i criteri di green relevance e le istruzioni per l'analisi topic-level
-- **System prompt batch** (`prompt_batch.txt`): definisce le istruzioni per la riscrittura IF-THEN e la classificazione per singola regola
+### Prompts
+- **Context prompt** (`prompt_context.txt`): defines green relevance criteria and topic-level analysis instructions
+- **Batch prompt** (`prompt_batch.txt`): defines IF-THEN rewriting and per-rule classification instructions
 
-### Modello e API
-- **Modello**: `openai/gpt-4o-mini` (via OpenRouter)
-- **Temperatura**: 0 (output deterministico)
-- **Formato output**: JSON Schema strict
+### Model
+- **Model**: `openai/gpt-4o-mini` (via OpenRouter) — temperature: 0, strict JSON Schema output
 
 ---
 
-## Stage 3 — Dataset Finale (`03-FinalDataset`)
+## Stage 3 — Final Dataset
 
-### Obiettivo
-Assemblare il dataset finale delle regole green, filtrando solo quelle con rilevanza `medium` o `high` e deduplicandole.
+**Goal**: Assemble the final green rule dataset, keeping only rules with `medium` or `high` relevance and deduplicating them.
 
-### Processo (`01-build_final_green_dataset.py`)
-1. Raccolta di tutti i file JSON di batch da `data/dataset-rules/final_batch/`
-2. Estrazione delle regole con `green_relevance` ∈ {`medium`, `high`}
-3. Deduplicazione esatta sulla colonna `if_then_rule`
-4. Colonne finali: `sample_id`, `llm_topic_name`, `green_category`, `if_then_rule`
+### Process (`src/final_rule_dataset/build_final_green_dataset.py`)
+1. Collects all batch JSON files from `data/dataset-rules/final_batch/`
+2. Filters rules with `green_relevance` ∈ {`medium`, `high`}
+3. Exact deduplication on the `if_then_rule` column
+4. Final columns: `sample_id`, `llm_topic_name`, `green_category`, `if_then_rule`
 5. Output: `data/dataset-rules/final_dataset/green_rules_final_dataset.json`
 
 ### Green Categories
-Le categorie green normalizzate utilizzate nel progetto sono 9:
+The 9 normalized green categories used in the project:
 
-| Categoria | Descrizione |
-|-----------|-------------|
-| `lighting_efficiency` | Ottimizzazione dell'illuminazione |
-| `occupancy_based_control` | Controllo basato su occupazione/presenza |
-| `hvac_optimization` | Ottimizzazione riscaldamento/raffrescamento |
-| `appliance_energy_management` | Gestione energetica degli elettrodomestici |
-| `environmental_awareness` | Consapevolezza ambientale (sensori, meteo) |
-| `comfort_security` | Comfort e sicurezza |
-| `water_saving` | Risparmio idrico |
-| `scheduling_optimization` | Ottimizzazione della schedulazione |
-| `standby_reduction` | Riduzione dei consumi in standby |
+| Category | Description |
+|----------|-------------|
+| `lighting_efficiency` | Lighting optimization |
+| `occupancy_based_control` | Occupancy/presence-based control |
+| `hvac_optimization` | Heating/cooling optimization |
+| `appliance_energy_management` | Appliance energy management |
+| `environmental_awareness` | Environmental awareness (sensors, weather) |
+| `comfort_security` | Comfort and security |
+| `water_saving` | Water saving |
+| `scheduling_optimization` | Scheduling optimization |
+| `standby_reduction` | Standby consumption reduction |
 
 ---
 
-## Stage 4 — Estrazione e Costruzione della Knowledge Base (`04-ExtractText`)
+## Stage 4 — Knowledge Base Construction
 
-### Obiettivo
-Estrarre il testo dagli articoli scientifici (PDF), pulirlo, suddividerlo in chunk e costruire i vector index della knowledge base.
+**Goal**: Extract text from scientific articles (PDF), clean it, chunk it, and build the vector indexes of the knowledge base.
 
-### Sotto-pipeline degli Articoli
+### Article Sub-pipeline
 
-#### 4a. Estrazione GROBID (`extract_grobid.py`)
-- Invio dei PDF degli articoli al server GROBID locale (`http://localhost:8070`)
-- Estrazione come TEI XML arricchito con:
-  - Coordinate PDF per ogni elemento
-  - Segmentazione a livello di frase
-  - ID XML generati
+#### 4a. GROBID Extraction (`src/extract_text/extract_grobid.py`)
+- Sends article PDFs to a local GROBID server (`http://localhost:8070`)
+- Extracts enriched TEI XML with PDF coordinates, sentence segmentation, and generated XML IDs
 - Output: `data/articles/extracted_grobid_tei/*.grobid.tei.xml`
 
-#### 4b. Pulizia TEI (`clean_grobid_tei.py`)
-Pipeline di pulizia approfondita del TEI XML estratto:
-- **Classificazione dei blocchi**: ogni paragrafo viene classificato come `main`, `supplementary`, `discard` o `review`
-- **Filtri applicati**:
-  - Rimozione sezioni amministrative (references, acknowledgments, funding, etc.)
-  - Rimozione boilerplate editoriale, caption di figure/tabelle, testo da grafici
-  - Rilevamento e isolamento di table leakage (testo tabellare che GROBID classifica erroneamente come paragrafo)
-  - Separazione di blocchi supplementari (glossari, highlights, box, case study)
-- **Normalizzazione del testo**: Unicode NFKC, rimozione soft hyphen, collasso degli spazi
-- **Selezione dell'abstract**: algoritmo di scoring multi-criterio con gestione di abstract multipli/ambigui
-- Output:
-  - `data/articles/cleaned_blocks/*.jsonl` — blocchi canonici per la RAG
-  - `data/articles/supplementary_blocks/*.jsonl` — blocchi supplementari
-  - `data/articles/cleaning_reports/*.json` — report diagnostici
+#### 4b. TEI Cleaning (`src/extract_text/clean_grobid_tei.py`)
+- **Block classification**: each paragraph is classified as `main`, `supplementary`, `discard`, or `review`
+- **Filters applied**: removal of administrative sections (references, acknowledgments, etc.), editorial boilerplate, figure/table captions, graph text; detection of table leakage; separation of supplementary blocks (glossaries, highlights, case studies)
+- **Text normalization**: Unicode NFKC, soft hyphen removal, whitespace collapsing
+- **Abstract selection**: multi-criteria scoring algorithm for multiple/ambiguous abstracts
+- Output: `cleaned_blocks/*.jsonl`, `supplementary_blocks/*.jsonl`, `cleaning_reports/*.json`
 
-#### 4c. Costruzione Documenti (`build_documents.py`)
-- Costruzione di oggetti `Document` LlamaIndex dai blocchi JSONL puliti
-- Integrazione dei metadati dell'articolo (`articles-metadata/*.json`):
-  - Titolo, anno, URL, summary
-  - Green categories one-hot encoding (9 categorie)
-- Configurazione dei metadata keys esclusi da embedding e LLM context
-- Output: documenti LlamaIndex in memoria + preview JSON
+#### 4c. Document Construction (`src/extract_text/build_documents.py`)
+- Builds `Document` objects (LlamaIndex) from cleaned JSONL blocks
+- Integrates article metadata (`articles-metadata/*.json`): title, year, URL, summary, green categories one-hot encoding (9 categories)
+- Configures metadata keys excluded from embedding and LLM context
 
-#### 4d. Chunking — Costruzione Nodi (`build_nodes.py`)
-- Raggruppamento dei blocchi per sezione dell'articolo
-- Creazione di un `Document` LlamaIndex per sezione con `header_path` gerarchico
-- Suddivisione sentence-aware tramite `SentenceSplitter`:
-  - **Chunk size**: 512 token
-  - **Overlap**: 64 token
-- Ogni nodo conserva: metadati di sezione, posizione nell'articolo, pagine sorgente, link al chunk precedente/successivo
-- Output: nodi chunk in memoria + preview JSON
+#### 4d. Chunking — Node Construction (`src/extract_text/build_nodes.py`)
+- Groups blocks by article section
+- Creates one LlamaIndex `Document` per section with hierarchical `header_path`
+- Sentence-aware splitting via `SentenceSplitter` (chunk size: 512 tokens, overlap: 64 tokens)
+- Each node retains: section metadata, article position, source pages, prev/next chunk links
 
-### Sotto-pipeline delle Regole
+### Rule Sub-pipeline
 
-#### 4e. Rule Nodes (`build_rules_nodes.py`)
-- Caricamento del dataset green normalizzato (`green_rules_final_dataset_normalized.json`)
-- Costruzione di `TextNode` LlamaIndex per ogni regola:
-  - **Testo**: `Green category: X\nTopic: Y\nRule: IF ... THEN ...`
-  - **Metadati**: `content_type=green_rule`, `rule_id`, `llm_topic_name`, `green_category`, `if_then_rule`, green categories one-hot
-- Deduplicazione degli ID dei nodi
+#### 4e. Rule Nodes (`src/extract_text/build_rules_nodes.py`)
+- Loads the normalized green dataset (`green_rules_final_dataset_normalized.json`)
+- Builds one LlamaIndex `TextNode` per rule with text format: `Green category: X\nTopic: Y\nRule: IF ... THEN ...`
+- Metadata includes: `content_type=green_rule`, `rule_id`, `llm_topic_name`, `green_category`, green categories one-hot
+- Node ID deduplication
 - Output: `data/dataset-rules/final_dataset/rule_nodes.jsonl`
 
-### Indicizzazione Vettoriale
+### Vector Indexing
 
-#### 4f. Knowledge Base completa (`build_knowledge_base.py`)
-Script orchestratore che esegue l'intera pipeline in memoria:
-1. Costruisce i documenti articolo e i nodi chunk con metadati green
-2. Costruisce i rule nodes
-3. Crea due indici vettoriali separati:
-   - **Article Index**: chunk di articoli scientifici (`data/knowledge_base/article_index/`)
-   - **Rule Index**: regole green del dataset (`data/knowledge_base/rule_index/`)
-4. **Embedding model**: `intfloat/e5-base-v2` (HuggingFace, locale)
-5. Opzione di test retrieval integrato
+#### 4f. Knowledge Base Builder (`src/extract_text/build_knowledge_base.py`)
+Orchestrator script that runs the entire pipeline in-memory:
+1. Builds article documents and chunk nodes with green metadata
+2. Builds rule nodes
+3. Creates two separate vector indexes:
+   - **Article Index**: scientific article chunks → `data/knowledge_base/article_index/`
+   - **Rule Index**: green rules → `data/knowledge_base/rule_index/`
+4. **Embedding model**: `intfloat/e5-base-v2` (HuggingFace, local)
 
-#### 4g. Visualizzazione (`visualize_knowledge_base.py`)
-- Riduzione dimensionale degli embedding (UMAP o PCA) a 3D
-- Visualizzazione interattiva con Plotly
-- Colorazione per `green_category`, `source` o `content_type`
-- Output: HTML interattivo + CSV + report JSON
+#### 4g. Visualization (`src/extract_text/visualize_knowledge_base.py`)
+- Dimensionality reduction of embeddings (UMAP or PCA) to 3D
+- Interactive Plotly visualization colored by `green_category`, `source`, or `content_type`
+- Output: interactive HTML + CSV + JSON report → `data/knowledge_base/visualizations/`
 
 ---
 
-## Stage 5 — RAG Pipeline (`05-Retrieval`)
+## Stage 5 — RAG Pipeline
 
-### Obiettivo
-Dato una regola trigger-action in input, recuperare contesto rilevante dalla knowledge base e generare una variante green migliorata.
+**Goal**: Given a trigger-action rule as input, retrieve relevant context from the knowledge base, generate an improved green variant, and evaluate it with the eco-metric.
 
-### Processo (`run_rag_pipeline.py` → `rag_pipeline/pipeline.py`)
+### Entry Point
+`src/generation/run_rag_pipeline.py` → `rag_pipeline/pipeline.py`
 
-La pipeline RAG si articola in 3 fasi:
+The full pipeline runs in **4 phases**:
 
-#### 5a. Retrieval (`retrieval.py`)
-- Caricamento degli indici vettoriali persistiti (article + rule)
-- Retrieval per similarità dalla query:
-  - **Rule Index** → top-k regole simili (default: k=10)
-  - **Article Index** → top-k chunk di articoli (default: k=15)
+#### 5a. Retrieval (`rag_pipeline/retrieval.py`)
+- Loads persisted vector indexes (article + rule)
+- Similarity retrieval from the query:
+  - **Rule Index** → top-k similar rules (default: k=10)
+  - **Article Index** → top-k article chunks (default: k=15)
 - **Embedding model**: `intfloat/e5-base-v2`
 
-#### 5b. Postprocessing (`postprocessing.py`)
-- **Regole**: deduplicazione testuale con SequenceMatcher (soglia: 0.88) → selezione top-3
-- **Articoli**:
-  - Rimozione chunk troppo corti (< 150 caratteri)
-  - **Reranking** con cross-encoder `cross-encoder/ms-marco-MiniLM-L-6-v2`
-  - Selezione top-5 dopo rerank
+#### 5b. Postprocessing (`rag_pipeline/postprocessing.py`)
+- **Rules**: textual deduplication with SequenceMatcher (threshold: 0.88) → top-3 selection
+- **Articles**:
+  - Removal of chunks shorter than 150 characters
+  - **Reranking** with cross-encoder `cross-encoder/ms-marco-MiniLM-L-6-v2`
+  - Top-5 selection after reranking
 
-#### 5c. Generazione (`generation.py`)
-- Costruzione del prompt RAG con:
-  - Regola originale
-  - Regole simili selezionate (con score di retrieval e rerank)
-  - Chunk di articoli selezionati
-- Invocazione dell'LLM via **Ollama** (modello: `gpt-oss:20b`, temperatura: 0.2)
-- Output JSON strutturato:
+#### 5c. Generation (`rag_pipeline/generation.py`)
+- Builds the RAG prompt with: original rule, selected similar rules, selected article chunks
+- Calls the LLM via **Ollama Cloud** (model: `gpt-oss:20b`, temperature: 0.2)
+- Structured JSON output:
   ```json
   {
     "original_rule": "IF You exit from home THEN Turn off lights.",
@@ -348,155 +331,186 @@ La pipeline RAG si articola in 3 fasi:
     "used_context_ids": ["RULE_1", "ARTICLE_2"]
   }
   ```
-- I risultati di ogni run vengono salvati in `data/retrieval_runs/run_XXX/`
 
----
+#### 5d. Eco-Metric Evaluation (`rag_pipeline/eco_metric.py`)
+After generation, the pipeline automatically evaluates the rule pair (original vs. generated) using an **LLM-as-Judge** approach:
 
-## Stage 6 — Valutazione con Eco-Metrica (`06-Evaluation`)
+- A judge LLM (default: `gemma4:31b-cloud` via Ollama Cloud) scores both the original and generated rule on **6 feature scores** + **2 validity checks**
+- Feature scores and validity checks are defined by a JSON schema (`judge_schema.json`) and guided by a system prompt (`judge_prompt.txt`)
 
-### Obiettivo
-Valutare automaticamente la qualità delle regole green generate, utilizzando un LLM-as-Judge e un'eco-metrica deterministica.
-
-### Processo
-
-#### 6a. Costruzione input di valutazione (`01-build_eval_inputs.py`)
-- Accoppiamento di ogni regola originale con la sua variante green generata
-- Output: `data/dataset-rules/evaluation/eval_inputs.jsonl`
-
-#### 6b. LLM-as-Judge (`02-run_llm_judge.py`)
-- Per ogni coppia (regola originale r, variante green r'), un LLM giudice valuta 6 feature score + 2 validity check:
-
-| Feature Score | Range | Descrizione |
+| Feature Score | Range | Description |
 |---------------|-------|-------------|
-| `OccupancyScore` | 0-2 | Uso della presenza/occupazione |
-| `EnvConditionScore` | 0-1 | Uso di condizioni ambientali (luce, temperatura, meteo) |
-| `DurationScore` | 0-1 | Presenza di auto-off o limite temporale |
-| `SchedulingScore` | 0-2 | Scheduling temporale, ore di basso costo |
-| `StandbyScore` | 0-2 | Logica anti-spreco standby |
-| `ApplianceScore` | 0-2 | Gestione energetica smart di elettrodomestici |
+| `OccupancyScore` | 0–2 | Use of presence/occupancy information |
+| `EnvConditionScore` | 0–1 | Use of environmental conditions (light, temperature, weather) |
+| `DurationScore` | 0–1 | Presence of auto-off or time limit |
+| `SchedulingScore` | 0–2 | Time scheduling, off-peak hours |
+| `StandbyScore` | 0–2 | Anti-waste standby logic |
+| `ApplianceScore` | 0–2 | Smart appliance energy management |
 
-| Validity Check | Valori | Descrizione |
+| Validity Check | Values | Description |
 |----------------|--------|-------------|
-| `IntentPreserved` | 0/1 | La variante preserva l'intento funzionale |
-| `ComfortSafetyPenalty` | 0/1 | La variante introduce rischi comfort/sicurezza |
+| `IntentPreserved` | 0/1 | The variant preserves the functional intent |
+| `ComfortSafetyPenalty` | 0/1 | The variant introduces comfort/safety risks |
 
-#### 6c. Calcolo Eco-Metrica (deterministico)
-A partire dai feature score, vengono calcolati deterministicamente (lato script, non LLM):
+**Deterministic Eco-Metric Computation** (computed by the script, not the LLM):
 
 ```
 S_awareness = 0.6 × (OccupancyScore / 2) + 0.4 × (EnvConditionScore / 1)
 S_energy    = 0.4 × (DurationScore / 1) + 0.4 × (StandbyScore / 2) + 0.1 × (ApplianceScore / 2) + 0.1 × (SchedulingScore / 2)
 
-Δ_awareness = S_awareness(r') - S_awareness(r)
-Δ_energy    = S_energy(r') - S_energy(r)
+Δ_awareness = S_awareness(r') − S_awareness(r)
+Δ_energy    = S_energy(r') − S_energy(r)
 
 EcoStatic   = 0.5 × Δ_awareness + 0.5 × Δ_energy
 ```
 
-**Label di classificazione**:
+**Classification Labels**:
 
-| Label | Condizione |
-|-------|------------|
-| `reject` | `IntentPreserved = 0` oppure `ComfortSafetyPenalty = 1` oppure `EcoStatic ≤ 0` |
-| `accept` | `EcoStatic > 0` (miglioramento lieve) |
-| `strong_green` | `EcoStatic ≥ 0.2` (miglioramento significativo) |
+| Label | Condition |
+|-------|-----------|
+| `reject` | `IntentPreserved = 0` or `ComfortSafetyPenalty = 1` or `EcoStatic ≤ 0` |
+| `accept` | `EcoStatic > 0` (mild improvement) |
+| `strong_green` | `EcoStatic ≥ 0.2` (significant improvement) |
 
-#### 6d. Validazione (`03-validate_judgments.py`)
-- Verifica di integrità: schema validation, ricalcolo indipendente di EcoStatic e label
-- Report statistico: distribuzione label, distribuzione EcoStatic, media per-feature, delta
-- Output: `data/dataset-rules/evaluation/report.txt`
+Each run is saved in `data/retrieval_runs/run_XXX/` with four JSON files: retrieval, postprocessing, generation, and eco-metric results.
 
 ---
 
-## Dati
+## Stage 6 — Evaluation
 
-### Dataset delle Regole
-- **Sorgente**: regole trigger-action derivate da IFTTT
-- **Dataset raw**: `data/dataset-rules/raw/dataset_raw.csv` (~13 MB)
-- **Dataset finale green**: `data/dataset-rules/final_dataset/green_rules_final_dataset.json`
-  - Solo regole con green relevance `medium` o `high`
-  - Deduplicate e normalizzate
+**Goal**: Run the full RAG pipeline at scale over a synthetic benchmark dataset and evaluate the generated rules using multiple LLM judges.
 
-### Articoli Scientifici
-- **30 slot** per articoli scientifici (19 attualmente compilati) documentati in `data/articles/ARTICLES.md`
-- Temi coperti:
-  - Smart home e sostenibilità energetica
-  - Gestione energetica domestica (HVAC, illuminazione, elettrodomestici)
-  - Comportamento del consumatore e risparmio energetico
-  - IoT e automazione domestica green
-  - Pratiche sostenibili per la casa
+### Synthetic Benchmark Dataset
+A curated dataset of 360 synthetic trigger-action rules (`data/synthetic_evaluation/synthetic_green_rules_360.jsonl`) with fields: `rule_id`, `target_category`, `difficulty`, `original_rule`.
+
+### Process
+
+#### 6a. Batch Generation (`src/evaluation/run_generations.py`)
+- Iterates over the synthetic dataset and runs the RAG pipeline (retrieve → postprocess → generate) for each rule
+- Supports resume: skips already-processed `rule_id`s
+- Output: `data/synthetic_evaluation/exp_XXX/generations.jsonl`
+- Failures saved separately to `generation_failures.jsonl`
+
+#### 6b. Multi-Model LLM-as-Judge (`src/evaluation/run_judges.py`)
+- Evaluates each generated rule using the eco-metric judge
+- **Supports multiple providers**: Ollama (local/cloud) and OpenRouter
+- **Supports multiple judge models** per experiment (each writes to its own subfolder)
+- For OpenRouter models, uses strict JSON Schema via `response_format`
+- **Resume support**: skips already-judged records
+- **Invalid detection**: rules where `IntentPreserved=0` or `ComfortSafetyPenalty=1` are flagged for regeneration
+
+Output structure:
+```
+data/synthetic_evaluation/exp_001/
+├── generations.jsonl
+└── judges/
+    ├── openrouter_openai_gpt_4o_mini/
+    │   ├── judgments.jsonl
+    │   ├── failures.jsonl
+    │   ├── invalid_generations.jsonl
+    │   └── invalid_rule_ids.txt
+    ├── openrouter_qwen_qwen3_32b/
+    └── openrouter_mistralai_mistral_small_3_2_24b_instruct/
+```
+
+#### 6c. Eco-Metric Validation (`notebooks/eco_metric_validation_notebook.ipynb`)
+- Validates schema compliance and independently recomputes EcoStatic and labels
+- Statistical analysis: label distribution, EcoStatic distribution, per-feature means, deltas
+- Cross-judge agreement analysis
+
+---
+
+## Data
+
+### Rule Dataset
+- **Source**: trigger-action rules derived from IFTTT
+- **Raw dataset**: `data/dataset-rules/raw/dataset_raw.csv`
+- **Final green dataset**: `data/dataset-rules/final_dataset/green_rules_final_dataset.json`
+  - Only rules with green relevance `medium` or `high`, deduplicated and normalized
+
+### Scientific Articles
+- 19 articles (documented in `data/articles/ARTICLES.md`)
+- Topics covered: smart home energy sustainability, domestic energy management (HVAC, lighting, appliances), consumer behavior and energy savings, green IoT and home automation, sustainable household practices
 
 ### Knowledge Base
-Due indici vettoriali separati in `data/knowledge_base/`:
-- **Article Index** — chunk di articoli scientifici arricchiti con metadati green
-- **Rule Index** — regole trigger-action green normalizzate
+Two separate vector indexes in `data/knowledge_base/`:
+- **Article Index** — scientific article chunks enriched with green metadata
+- **Rule Index** — normalized green trigger-action rules
+
+### Synthetic Evaluation
+- **Benchmark dataset**: 360 synthetic rules across 9 green categories and 3 difficulty levels
+- **Experiment results**: per-model generations and multi-judge evaluations
 
 ---
 
-## Tecnologie Utilizzate
+## Technology Stack
 
-| Componente | Tecnologia |
-|------------|------------|
-| **Embedding** | `intfloat/e5-base-v2` (HuggingFace, locale) |
+| Component | Technology |
+|-----------|------------|
+| **Embedding** | `intfloat/e5-base-v2` (HuggingFace, local) |
 | **Reranking** | `cross-encoder/ms-marco-MiniLM-L-6-v2` |
 | **Vector Store & RAG** | LlamaIndex |
-| **Generazione (inference regole)** | GPT-4o-mini (via OpenRouter) |
-| **Generazione (RAG)** | Ollama (`gpt-oss:20b`) |
-| **Valutazione (LLM Judge)** | GPT-4o-mini (via OpenRouter) |
-| **Estrazione PDF** | GROBID |
+| **Generation (rule inference)** | GPT-4o-mini (via OpenRouter) |
+| **Generation (RAG)** | Ollama Cloud (`gpt-oss:20b`) |
+| **Eco-Metric Judge (pipeline)** | `gemma4:31b-cloud` (via Ollama Cloud) |
+| **Evaluation Judges** | GPT-4o-mini, Qwen3-32B, Mistral Small 3.2 24B (via OpenRouter) |
+| **PDF Extraction** | GROBID |
 | **Topic Modeling** | BERTopic |
 | **Clustering** | HDBSCAN |
-| **Riduz. Dimensionale** | UMAP |
-| **Visualizzazione** | Plotly |
+| **Dimensionality Reduction** | UMAP |
+| **Visualization** | Plotly |
 | **NLP** | NLTK, Sentence-Transformers, Transformers |
 | **Data Processing** | Pandas, NumPy, scikit-learn |
 | **Environment** | Python 3.11+, dotenv |
 
 ---
 
-## Installazione
+## Installation
 
 ```bash
-# Clona la repository
+# Clone the repository
 git clone https://github.com/rosacarota/smart-home-green-rag.git
 cd smart-home-green-rag
 
-# Crea e attiva l'ambiente virtuale
+# Create and activate a virtual environment
 python -m venv venv
 source venv/bin/activate        # Linux/macOS
 venv\Scripts\activate           # Windows
 
-# Installa le dipendenze
+# Install dependencies
 pip install -r requirements.txt
 ```
 
-### Requisiti esterni
-- **GROBID** (per l'estrazione PDF): server locale su `http://localhost:8070`
+### External Requirements
+- **GROBID** (for PDF extraction): local server on `http://localhost:8070`
   ```bash
   docker run --rm -p 8070:8070 lfoppiano/grobid:0.8.1
   ```
-- **Ollama** (per la generazione RAG): con il modello configurato in `config.py`
+- **Ollama Cloud**: for RAG generation and eco-metric judge (requires API key)
 
 ---
 
-## Configurazione
+## Configuration
 
-### Variabili d'ambiente
-Creare un file `.env` nella root del progetto:
+### Environment Variables
+Create a `.env` file in the project root:
 ```env
-OPEN-ROUTER-KEY=sk-or-...      # API key per OpenRouter (Stage 2 e Stage 6)
+OLLAMA_API_KEY=your_ollama_api_key      # API key for Ollama Cloud (Stage 5 generation + eco-metric judge)
+OPEN_ROUTER_KEY=your_openrouter_key     # API key for OpenRouter (Stage 2 inference + Stage 6 judges)
 ```
 
-### Parametri principali
-I parametri della pipeline RAG sono configurabili in `src/05-Retrieval/rag_pipeline/config.py`:
+### Main Parameters
+RAG pipeline parameters are configurable in `src/generation/rag_pipeline/config.py`:
 
-| Parametro | Default | Descrizione |
+| Parameter | Default | Description |
 |-----------|---------|-------------|
-| `TOP_K_RULES` | 10 | Regole recuperate dal rule index |
-| `TOP_K_ARTICLES` | 15 | Chunk di articoli recuperati |
-| `FINAL_RULES_K` | 3 | Regole selezionate dopo postprocessing |
-| `FINAL_ARTICLES_K` | 5 | Chunk selezionati dopo rerank |
-| `RULE_DEDUP_SIMILARITY_THRESHOLD` | 0.88 | Soglia per deduplicazione regole |
-| `LLM_TEMPERATURE` | 0.2 | Temperatura per la generazione |
+| `TOP_K_RULES` | 10 | Rules retrieved from the rule index |
+| `TOP_K_ARTICLES` | 15 | Article chunks retrieved |
+| `FINAL_RULES_K` | 3 | Rules selected after postprocessing |
+| `FINAL_ARTICLES_K` | 5 | Chunks selected after reranking |
+| `RULE_DEDUP_SIMILARITY_THRESHOLD` | 0.88 | Threshold for rule deduplication |
+| `LLM_TEMPERATURE` | 0.2 | Temperature for RAG generation |
+| `ECO_JUDGE_MODEL_NAME` | `gemma4:31b-cloud` | Default eco-metric judge model |
+| `ECO_JUDGE_TEMPERATURE` | 0.0 | Judge temperature (deterministic) |
 
 ---
